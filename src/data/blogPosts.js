@@ -313,6 +313,74 @@ export const blogPostsData = [
       </article>
     `,
   },
+  {
+    id: 4,
+    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop',
+    title: 'Star Symbols for Social Media Success',
+    date: 'December 10, 2024',
+    excerpt:
+      'Boost your social media engagement with strategic use of star symbols. Learn platform-specific tips and best practices.',
+    category: 'Tips',
+    // SEO Meta Data
+    seo: {
+      title: 'Star Symbols for Social Media Success - Engagement Tips | StarCopy',
+      description:
+        'Boost your social media engagement with strategic use of star symbols. Learn platform-specific tips and best practices for Instagram, Twitter, and more.',
+      keywords:
+        'social media stars, engagement boost, instagram symbols, twitter symbols, social media marketing, star emoji, content strategy',
+    },
+    content: `
+      <article>
+        <header>
+          <h1>S2222222222222222222222222s</h1>
+          <time datetime="2024-12-10">December 10, 2024</time>
+        </header>
+
+        <section>
+          <h2>The Power of Visual Elements in Social Media</h2>
+          <p>In the fast-paced world of social media, capturing attention is everything. Star symbols offer a simple yet effective way to make your content stand out in crowded feeds and increase engagement rates.</p>
+
+          <p>This guide will show you how to strategically use star symbols across different platforms to maximize your social media impact.</p>
+        </section>
+
+        <section>
+          <h2>Platform-Specific Strategies</h2>
+          <h3>Instagram</h3>
+          <p>Instagram's visual nature makes it perfect for star symbol usage:</p>
+          <ul>
+            <li><strong>Bio Enhancement</strong> - Use stars to highlight key information</li>
+            <li><strong>Story Highlights</strong> - Create eye-catching category dividers</li>
+            <li><strong>Caption Breaks</strong> - Improve readability with star separators</li>
+          </ul>
+
+          <h3>Twitter/X</h3>
+          <p>With character limits, every symbol counts:</p>
+          <ul>
+            <li><strong>Thread Markers</strong> - Use stars to number tweet threads</li>
+            <li><strong>Emphasis</strong> - Highlight important points</li>
+            <li><strong>Brand Recognition</strong> - Create consistent visual identity</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Engagement Best Practices</h2>
+          <p>Research shows that posts with visual elements receive 94% more views. Here's how to maximize this effect:</p>
+
+          <ol>
+            <li><strong>Consistency</strong> - Use the same star symbols across platforms</li>
+            <li><strong>Moderation</strong> - Don't overwhelm your audience</li>
+            <li><strong>Context</strong> - Match symbols to your content tone</li>
+            <li><strong>Testing</strong> - A/B test different symbol combinations</li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>Conclusion</h2>
+          <p>Star symbols are a powerful tool for social media success when used strategically. Start small, test what works for your audience, and gradually build your unique visual style.</p>
+        </section>
+      </article>
+    `,
+  },
 ]
 
 // Helper functions for blog data

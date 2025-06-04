@@ -67,6 +67,8 @@ const STATIC_PAGES = [
 
 // 生成博客页面URL
 function generateBlogUrls() {
+  console.log(`📚 Generating URLs for ${blogPostsData.length} blog posts`)
+
   return blogPostsData.map((post) => ({
     path: `/blog/${post.id}`,
     changefreq: 'monthly',
