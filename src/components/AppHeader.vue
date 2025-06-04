@@ -3,7 +3,7 @@
     <div class="header-container">
       <div class="logo">
         <span class="star-icon">⭐</span>
-        <h1>StarSymbols</h1>
+        <div class="logo-text">StarSymbols</div>
       </div>
       <nav class="nav">
         <router-link to="/">Home</router-link>
@@ -51,7 +51,7 @@
   animation: twinkle 2s ease-in-out infinite alternate;
 }
 
-.logo h1 {
+.logo .logo-text {
   font-size: 1.8rem;
   font-weight: bold;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -90,7 +90,7 @@
     padding: 0 1rem;
   }
 
-  .logo h1 {
+  .logo .logo-text {
     font-size: 1.3rem;
   }
 
@@ -115,7 +115,7 @@
     padding: 0 0.75rem;
   }
 
-  .logo h1 {
+  .logo .logo-text {
     font-size: 1.1rem;
   }
 

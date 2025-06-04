@@ -57,24 +57,82 @@ const formatDatetime = (dateString) => {
   return date.toISOString().split('T')[0]
 }
 
+// Update meta tag helper function
+const updateMetaTag = (name, content) => {
+  if (!content) return
+
+  let element = document.querySelector(`meta[name="${name}"]`)
+  if (element) {
+    element.setAttribute('content', content)
+  } else {
+    element = document.createElement('meta')
+    element.setAttribute('name', name)
+    element.setAttribute('content', content)
+    document.head.appendChild(element)
+  }
+}
+
+// Update Open Graph tag helper function
+const updateOGTag = (property, content) => {
+  if (!content) return
+
+  let element = document.querySelector(`meta[property="${property}"]`)
+  if (element) {
+    element.setAttribute('content', content)
+  } else {
+    element = document.createElement('meta')
+    element.setAttribute('property', property)
+    element.setAttribute('content', content)
+    document.head.appendChild(element)
+  }
+}
+
 // Load blog post on mount
 onMounted(() => {
   const postId = parseInt(route.params.id)
   post.value = getBlogPostById(postId)
 
-  // Update page title for SEO
+  // Update page SEO for blog post
   if (post.value) {
-    document.title = `${post.value.title} | StarCopy Blog`
+    // Use SEO data from post if available, otherwise fallback to default values
+    const seoTitle = post.value.seo?.title || `${post.value.title} | StarCopy Blog`
+    const seoDescription = post.value.seo?.description || post.value.excerpt
+    const seoKeywords =
+      post.value.seo?.keywords ||
+      `${post.value.title}, star symbols blog, unicode guide, design tutorial, creative tips, ${
+        post.value.category || 'general'
+      }`
+
+    // Update page title
+    document.title = seoTitle
 
     // Update meta description
-    const metaDescription = document.querySelector('meta[name="description"]')
-    if (metaDescription) {
-      metaDescription.setAttribute('content', post.value.excerpt)
+    updateMetaTag('description', seoDescription)
+
+    // Update keywords
+    updateMetaTag('keywords', seoKeywords)
+
+    // Update Open Graph tags
+    updateOGTag('og:title', seoTitle)
+    updateOGTag('og:description', seoDescription)
+    updateOGTag('og:type', 'article')
+    updateOGTag('og:url', window.location.href)
+    updateOGTag('og:image', post.value.image)
+
+    // Update Twitter Card tags
+    updateMetaTag('twitter:title', seoTitle)
+    updateMetaTag('twitter:description', seoDescription)
+    updateMetaTag('twitter:image', post.value.image)
+
+    // Update canonical URL
+    let canonical = document.querySelector('link[rel="canonical"]')
+    if (canonical) {
+      canonical.setAttribute('href', window.location.href)
     } else {
-      const meta = document.createElement('meta')
-      meta.name = 'description'
-      meta.content = post.value.excerpt
-      document.head.appendChild(meta)
+      canonical = document.createElement('link')
+      canonical.setAttribute('rel', 'canonical')
+      canonical.setAttribute('href', window.location.href)
+      document.head.appendChild(canonical)
     }
   }
 })
