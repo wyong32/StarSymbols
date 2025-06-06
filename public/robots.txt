@@ -1,0 +1,29 @@
+# robots.txt for StarCopy Site
+
+# Allow all crawlers access to all content by default
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://star-symbols.vercel.app//sitemap.xml
+
+# --- Specific rules for AI crawlers ---
+# This includes general AI bots and specific ones like Google's Vertex AI.
+User-agent: GPTBot
+User-agent: Claude-Web
+User-agent: Anthropic-AI
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: DuckAssistBot
+
+# Allow AI crawlers access to all key sections of the site
+Allow: /
+Allow: /all-star-symbols/
+Allow: /text-symbol-generator/
+Allow: /blog/
+Allow: /image-to-text/
+Allow: /about/
+Allow: /privacy/
+Allow: /terms/
+Allow: /copyright/ 

@@ -5,7 +5,7 @@
         <!-- Star Picker Panel - Always Visible -->
         <div class="star-picker-panel">
           <div class="star-picker-header">
-            <h4>Click any star to insert it at cursor position</h4>
+            <h3>Click any star to insert it at cursor position</h3>
           </div>
 
           <div class="star-categories-list">
@@ -352,7 +352,7 @@ const insertStarIntoText = (star) => {
   margin-bottom: 1rem;
 }
 
-.star-picker-header h4 {
+.star-picker-header h3 {
   font-size: 1rem;
   color: #4c51bf;
   margin-bottom: 1rem;

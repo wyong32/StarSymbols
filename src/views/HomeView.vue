@@ -66,7 +66,7 @@
           <h3>Pro Tips</h3>
           <div class="tips-grid">
             <div class="tip-group">
-              <h4>✨ Creative Uses for Star Symbols</h4>
+              <h3>✨ Creative Uses for Star Symbols</h3>
               <ul>
                 <li>Social media posts and bios with star symbols</li>
                 <li>Email signatures decorated with star symbols</li>
@@ -75,7 +75,7 @@
               </ul>
             </div>
             <div class="tip-group">
-              <h4>⭐ Star Symbols Best Practices</h4>
+              <h3>⭐ Star Symbols Best Practices</h3>
               <ul>
                 <li>Use star symbols sparingly for maximum impact</li>
                 <li>Match star symbols style to your content</li>
@@ -575,7 +575,7 @@ section {
   gap: 2rem;
 }
 
-.tip-group h4 {
+.tip-group h3 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   color: #333;
@@ -980,7 +980,7 @@ section {
     font-size: 1.8rem;
   }
 
-  .tip-group h4 {
+  .tip-group h3 {
     font-size: 1rem;
   }
 
