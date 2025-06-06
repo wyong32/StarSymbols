@@ -45,7 +45,7 @@ import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
-import { getBlogPostById } from '@/data/blogPosts.js'
+import { getBlogPostByPagename } from '@/data/blogPosts.js'
 
 // Route and reactive data
 const route = useRoute()
@@ -89,8 +89,8 @@ const updateOGTag = (property, content) => {
 
 // Load blog post on mount
 onMounted(() => {
-  const postId = parseInt(route.params.id)
-  post.value = getBlogPostById(postId)
+  const pagename = route.params.pagename
+  post.value = getBlogPostByPagename(pagename)
 
   // Update page SEO for blog post
   if (post.value) {

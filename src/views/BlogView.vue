@@ -1,16 +1,12 @@
 <template>
-  <div class="blog-page">
+  <div class="blog-page hero-variant-blog">
     <!-- Header -->
     <AppHeader />
 
     <!-- Hero Section -->
-    <section class="hero" style="background: linear-gradient(135deg, #ffd3a5 0%, #fd9853 100%)">
+    <section class="hero">
       <div class="hero-content">
         <h1 class="hero-title">Star Blog</h1>
-        <p class="hero-description">
-          Discover the latest articles, tips, and insights about star symbols, creative design, and
-          how to make your content sparkle with our comprehensive guides.
-        </p>
         <div class="hero-stars">
           <span class="hero-star" style="--delay: 0s">📝</span>
           <span class="hero-star" style="--delay: 0.3s">⭐</span>
@@ -19,20 +15,16 @@
           <span class="hero-star" style="--delay: 1.2s">🌟</span>
           <span class="hero-star" style="--delay: 1.5s">📚</span>
         </div>
+        <p class="hero-description">
+          Discover the latest articles, tips, and insights about star symbols, creative design, and
+          how to make your content sparkle with our comprehensive guides.
+        </p>
       </div>
     </section>
 
     <!-- Blog Section -->
     <section class="blog-section">
       <div class="section-container">
-        <div class="section-header">
-          <h2>Latest Articles</h2>
-          <p>
-            Stay updated with the latest trends, tutorials, and insights in the world of star
-            symbols and creative typography.
-          </p>
-        </div>
-
         <BlogGrid />
       </div>
     </section>
@@ -49,6 +41,8 @@ import BlogGrid from '@/components/BlogGrid.vue'
 </script>
 
 <style scoped>
+@import '@/styles/hero.css';
+
 /* Global Styles */
 * {
   margin: 0;
@@ -60,68 +54,6 @@ import BlogGrid from '@/components/BlogGrid.vue'
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   color: #333;
-}
-
-/* Hero Section */
-.hero {
-  min-height: 100vh;
-  padding: 8rem 2rem 4rem;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  color: white;
-  display: flex;
-  align-items: center;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
-  z-index: 1;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.hero-title {
-  font-size: 4rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-  animation: float 3s ease-in-out infinite;
-}
-
-.hero-description {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
-  line-height: 1.8;
-  opacity: 0.9;
-}
-
-.hero-stars {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  font-size: 3rem;
-}
-
-.hero-star {
-  animation: colorWave 4s ease-in-out infinite;
-  animation-delay: var(--delay);
-  transition: transform 0.3s ease;
-}
-
-.hero-star:hover {
-  transform: scale(1.2);
 }
 
 /* Section Styles */
@@ -155,8 +87,7 @@ import BlogGrid from '@/components/BlogGrid.vue'
 
 /* Blog Section */
 .blog-section {
-  padding: 5rem 0;
-  background: white;
+  padding: 0 0 4rem 0;
 }
 
 /* Categories Section */
@@ -276,58 +207,8 @@ import BlogGrid from '@/components/BlogGrid.vue'
   opacity: 0.7;
 }
 
-/* Animations */
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes colorWave {
-  0% {
-    transform: translateY(0) rotate(0deg);
-  }
-  25% {
-    transform: translateY(-5px) rotate(5deg);
-  }
-  50% {
-    transform: translateY(0) rotate(0deg);
-  }
-  75% {
-    transform: translateY(-5px) rotate(-5deg);
-  }
-  100% {
-    transform: translateY(0) rotate(0deg);
-  }
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
-  .hero {
-    padding: 6rem 1.5rem 3rem;
-    min-height: 80vh;
-  }
-
-  .hero-title {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .hero-description {
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .hero-stars {
-    font-size: 2rem;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-  }
-
   .section-container {
     padding: 0 1.5rem;
   }
@@ -341,7 +222,7 @@ import BlogGrid from '@/components/BlogGrid.vue'
   }
 
   .blog-section {
-    padding: 3rem 0;
+    padding: 0 0 3rem 0;
   }
 
   .categories-grid {
@@ -373,26 +254,6 @@ import BlogGrid from '@/components/BlogGrid.vue'
 }
 
 @media (max-width: 480px) {
-  .hero {
-    padding: 5rem 1rem 2rem;
-    min-height: 70vh;
-  }
-
-  .hero-title {
-    font-size: 2rem;
-    margin-bottom: 0.8rem;
-  }
-
-  .hero-description {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .hero-stars {
-    font-size: 1.8rem;
-    gap: 0.6rem;
-  }
-
   .section-container {
     padding: 0 1rem;
   }
@@ -406,7 +267,7 @@ import BlogGrid from '@/components/BlogGrid.vue'
   }
 
   .blog-section {
-    padding: 2.5rem 0;
+    padding: 0 0 2rem 0;
   }
 
   .categories-section {

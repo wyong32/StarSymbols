@@ -11,16 +11,16 @@
             The ultimate destination for star symbols and aesthetic text generation. Make your
             content sparkle with our extensive collection of Unicode stars.
           </p>
-          <div class="footer-copyright">© 2024 StarCopy. All rights reserved.</div>
+          <div class="footer-copyright">© 2025 StarCopy. All rights reserved.</div>
         </div>
 
         <div class="footer-links">
           <div class="footer-column">
             <h4>Navigation</h4>
             <ul>
-              <li><router-link to="/stars">Star Symbols</router-link></li>
-              <li><router-link to="/generator">Text Generator</router-link></li>
-              <li><router-link to="/image-to-stars">Image to Text Art</router-link></li>
+              <li><router-link to="/all-star-symbols">All Star Symbols</router-link></li>
+              <li><router-link to="/text-symbol-generator">Text Symbol Generator</router-link></li>
+              <li><router-link to="/image-to-text">Image To Text</router-link></li>
               <li><router-link to="/blog">Blog</router-link></li>
               <li><router-link to="/about">About Us</router-link></li>
             </ul>

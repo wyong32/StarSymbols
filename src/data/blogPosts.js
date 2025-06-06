@@ -1,24 +1,7 @@
-// Blog posts data
-//
-// Template for adding new blog posts with SEO:
-// {
-//   id: 3,
-//   image: 'image-url',
-//   title: 'Blog Post Title',
-//   date: 'Month Day, Year',
-//   excerpt: 'Brief description of the blog post content...',
-//   category: 'Guide|Tutorial|Tips|News',
-//   seo: {
-//     title: 'SEO Optimized Title - Include Keywords | StarCopy',
-//     description: 'SEO meta description (150-160 characters) with relevant keywords and compelling copy.',
-//     keywords: 'keyword1, keyword2, keyword3, star symbols, relevant terms'
-//   },
-//   content: `<article>...</article>`
-// }
-//
 export const blogPostsData = [
   {
     id: 1,
+    pagename: 'ultimate-guide-star-symbols',
     image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=400&h=300&fit=crop',
     title: 'The Ultimate Guide to Star Symbols',
     date: 'December 15, 2024',
@@ -112,6 +95,7 @@ export const blogPostsData = [
   },
   {
     id: 2,
+    pagename: 'creating-aesthetic-text-with-stars',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop',
     title: 'Creating Aesthetic Text with Stars',
     date: 'December 12, 2024',
@@ -214,6 +198,7 @@ export const blogPostsData = [
 
   {
     id: 3,
+    pagename: 'advanced-star-text-techniques',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop',
     title: 'Creating Aesthetic Text with Stars',
     date: 'December 12, 2024',
@@ -315,6 +300,7 @@ export const blogPostsData = [
   },
   {
     id: 4,
+    pagename: 'star-symbols-social-media-success',
     image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop',
     title: 'Star Symbols for Social Media Success',
     date: 'December 10, 2024',
@@ -332,7 +318,7 @@ export const blogPostsData = [
     content: `
       <article>
         <header>
-          <h1>S2222222222222222222222222s</h1>
+          <h1>S2222222222222222222222222s</h1>6
           <time datetime="2024-12-10">December 10, 2024</time>
         </header>
 
@@ -386,6 +372,10 @@ export const blogPostsData = [
 // Helper functions for blog data
 export const getBlogPostById = (id) => {
   return blogPostsData.find((post) => post.id === id)
+}
+
+export const getBlogPostByPagename = (pagename) => {
+  return blogPostsData.find((post) => post.pagename === pagename)
 }
 
 export const getLatestBlogPosts = (limit = 8) => {

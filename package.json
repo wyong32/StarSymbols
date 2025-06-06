@@ -5,12 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate:sitemap && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
     "lint": "eslint . --fix",
-    "format": "prettier --write src/",
-    "generate:sitemap": "node scripts/generate-sitemap.js"
+    "format": "prettier --write src/"
   },
   "dependencies": {
     "pinia": "^3.0.1",
@@ -30,6 +29,7 @@
     "jsdom": "^26.0.0",
     "prettier": "3.5.3",
     "vite": "^6.2.4",
+    "vite-plugin-sitemap": "^0.8.2",
     "vite-plugin-vue-devtools": "^7.7.2",
     "vitest": "^3.1.1"
   }

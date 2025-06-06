@@ -1,16 +1,12 @@
 <template>
-  <div class="stars-page">
+  <div class="stars-page hero-variant-stars">
     <!-- Header -->
     <AppHeader />
 
     <!-- Hero Section -->
-    <section class="hero" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)">
+    <section class="hero">
       <div class="hero-content">
         <h1 class="hero-title">All Star Symbols</h1>
-        <p class="hero-description">
-          Explore our complete collection of Unicode star symbols. From classic stars to decorative
-          sparkles, find the perfect symbol for your creative projects.
-        </p>
         <div class="hero-stars">
           <span class="hero-star" style="--delay: 0s">★</span>
           <span class="hero-star" style="--delay: 0.3s">✦</span>
@@ -21,39 +17,34 @@
           <span class="hero-star" style="--delay: 1.8s">✧</span>
           <span class="hero-star" style="--delay: 2.1s">⚡</span>
         </div>
-        <StarSymbolsGrid :show-toast="showToastMessage" />
+        <p class="hero-description">
+          Explore our complete collection of Unicode star symbols. From classic stars to decorative
+          sparkles, find the perfect symbol for your creative projects.
+        </p>
       </div>
     </section>
 
     <!-- Stars Collection Section -->
     <section class="stars-section">
       <div class="section-container">
-        <!-- Usage Tips -->
-        <div class="usage-tips">
-          <h3>How to Use Star Symbols</h3>
-          <div class="tips-grid">
-            <div class="tip-card">
-              <div class="tip-icon">📋</div>
-              <h4>Copy & Paste</h4>
-              <p>Click any star symbol to copy it instantly. Then paste it anywhere you need it.</p>
+        <!-- Stars Categories -->
+        <div class="categories-grid">
+          <div v-for="category in categories" :key="category.slug" class="category-module">
+            <div class="category-header">
+              <h2 class="category-title">{{ category.name }} Stars</h2>
+              <p class="category-count">{{ category.count }} symbols</p>
             </div>
-            <div class="tip-card">
-              <div class="tip-icon">🎨</div>
-              <h4>Creative Projects</h4>
-              <p>Perfect for social media posts, documents, websites, and digital art projects.</p>
-            </div>
-            <div class="tip-card">
-              <div class="tip-icon">🌐</div>
-              <h4>Universal Support</h4>
-              <p>
-                All symbols are Unicode characters that work across all modern devices and
-                platforms.
-              </p>
-            </div>
-            <div class="tip-card">
-              <div class="tip-icon">⚡</div>
-              <h4>Instant Access</h4>
-              <p>No registration required. All symbols are free to use for any purpose.</p>
+
+            <div class="stars-grid">
+              <div
+                v-for="star in getStarsByCategory(category.slug)"
+                :key="star.id"
+                class="star-item"
+                @click="navigateToStarDetail(star.slug)"
+              >
+                <div class="star-symbol">{{ star.symbol }}</div>
+                <h3 class="star-name">{{ star.name }}</h3>
+              </div>
             </div>
           </div>
         </div>
@@ -72,14 +63,19 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
-import StarSymbolsGrid from '@/components/StarSymbolsGrid.vue'
 import { copyProtection } from '@/utils/copyProtection.js'
+import { getAllCategories, getStarsByCategory } from '@/data/starDetails.js'
+
+// Router
+const router = useRouter()
 
 // Reactive data
 const showToast = ref(false)
 const toastMessage = ref('')
+const categories = ref([])
 
 // Methods
 const showToastMessage = (message) => {
@@ -90,13 +86,27 @@ const showToastMessage = (message) => {
   }, 3000)
 }
 
-// Set up copy protection toast callback
+const navigateToStarDetail = (slug) => {
+  router.push(`/all-star-symbols/${slug}`)
+}
+
+const formatUsageCount = (count) => {
+  if (count >= 1000) {
+    return `${(count / 1000).toFixed(1)}k`
+  }
+  return count.toString()
+}
+
+// Set up copy protection toast callback and load data
 onMounted(() => {
   copyProtection.setToastCallback(showToastMessage)
+  categories.value = getAllCategories()
 })
 </script>
 
 <style scoped>
+@import '@/styles/hero.css';
+
 /* Global Styles */
 * {
   margin: 0;
@@ -108,110 +118,6 @@ onMounted(() => {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   color: #333;
-}
-
-/* Hero Section */
-.hero {
-  padding: 8rem 2rem 4rem;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  color: #333;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.3) 0%, transparent 50%);
-  z-index: 1;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.hero-title {
-  font-size: 4rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: float 3s ease-in-out infinite;
-}
-
-.hero-description {
-  font-size: 1.3rem;
-  color: #555;
-  margin-bottom: 2rem;
-  line-height: 1.8;
-}
-
-.hero-stars {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  font-size: 3rem;
-  margin-bottom: 3rem;
-}
-
-.hero-star {
-  animation: colorWave 4s ease-in-out infinite;
-  animation-delay: var(--delay);
-  background: linear-gradient(45deg, #667eea, #764ba2, #f093fb, #f5576c, #4facfe, #00f2fe, #667eea);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  transition: transform 0.3s ease;
-}
-
-.hero-star:hover {
-  transform: scale(1.2);
-}
-
-/* Animations */
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes colorWave {
-  0% {
-    background-position: 0% 50%;
-  }
-  25% {
-    background-position: 100% 50%;
-  }
-  50% {
-    background-position: 200% 50%;
-  }
-  75% {
-    background-position: 300% 50%;
-  }
-  100% {
-    background-position: 400% 50%;
-  }
 }
 
 /* Section Styles */
@@ -245,61 +151,112 @@ onMounted(() => {
 
 /* Stars Section */
 .stars-section {
-  padding: 5rem 0;
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  padding: 0 0 4rem 0;
 }
 
-/* Usage Tips */
-.usage-tips {
-  margin-top: 4rem;
+/* Categories Grid */
+.categories-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.category-module {
   background: white;
-  padding: 3rem;
   border-radius: 20px;
+  padding: 1rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.usage-tips h3 {
-  font-size: 2rem;
+.category-module:hover {
+  transform: translateY(-5px);
+}
+
+.category-header {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 0.5rem;
+}
+
+.category-title {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-weight: bold;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-.tips-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+.category-count {
+  color: #666;
+  font-size: 1rem;
 }
 
-.tip-card {
+.stars-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1rem;
+}
+
+.star-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  padding: 2rem;
+  padding: 0.5rem;
   background: #f8f9ff;
   border-radius: 15px;
-  transition: transform 0.3s ease;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
 }
 
-.tip-card:hover {
-  transform: translateY(-5px);
+.star-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
+  border-color: #667eea;
 }
 
-.tip-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+.star-symbol {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  color: #667eea;
 }
 
-.tip-card h4 {
-  font-size: 1.3rem;
-  margin-bottom: 1rem;
+.star-name {
+  font-size: 0.8rem;
+  font-weight: 600;
   color: #333;
 }
 
-.tip-card p {
+.star-description {
   color: #666;
-  line-height: 1.6;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.star-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.unicode {
+  background: #e8ecff;
+  color: #667eea;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+.usage-count {
+  color: #999;
 }
 
 /* Toast Notification */
@@ -357,33 +314,34 @@ onMounted(() => {
     font-size: 1rem;
   }
 
-  .tips-grid {
+  .stars-grid {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
-  .tip-card {
+  .star-item {
+    padding: 1rem;
+  }
+
+  .star-symbol {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    min-width: 50px;
+  }
+
+  .star-name {
+    font-size: 1.1rem;
+  }
+
+  .star-description {
+    font-size: 0.85rem;
+  }
+
+  .category-module {
     padding: 1.5rem;
   }
 
-  .tip-icon {
-    font-size: 2.5rem;
-  }
-
-  .tip-card h4 {
-    font-size: 1.2rem;
-  }
-
-  .tip-card p {
-    font-size: 0.9rem;
-  }
-
-  .usage-tips {
-    margin-top: 3rem;
-    padding: 2rem;
-  }
-
-  .usage-tips h3 {
+  .category-title {
     font-size: 1.8rem;
   }
 
@@ -432,29 +390,38 @@ onMounted(() => {
     font-size: 0.9rem;
   }
 
-  .tip-card {
-    padding: 1.25rem;
+  .star-item {
+    padding: 0.8rem;
+    flex-direction: column;
+    text-align: center;
   }
 
-  .tip-icon {
+  .star-symbol {
     font-size: 2rem;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    min-width: auto;
   }
 
-  .tip-card h4 {
-    font-size: 1.1rem;
+  .star-name {
+    font-size: 1rem;
   }
 
-  .tip-card p {
-    font-size: 0.85rem;
+  .star-description {
+    font-size: 0.8rem;
   }
 
-  .usage-tips {
-    margin-top: 2rem;
-    padding: 1.5rem;
+  .category-module {
+    padding: 1rem;
   }
 
-  .usage-tips h3 {
+  .category-title {
     font-size: 1.5rem;
+  }
+
+  .star-meta {
+    flex-direction: column;
+    gap: 0.3rem;
   }
 }
 </style>

@@ -1,27 +1,9 @@
 <template>
   <div class="generator-card">
-    <h3>Create Your Star Text</h3>
-
     <div class="generator-form">
       <div class="form-group">
-        <label>Your Text</label>
-
-        <!-- Star Picker Toggle Button -->
-        <div class="star-picker-toggle">
-          <button
-            type="button"
-            class="toggle-stars-btn"
-            @click="showStarPicker = !showStarPicker"
-            :class="{ active: showStarPicker }"
-          >
-            <span class="star-icon">⭐</span>
-            {{ showStarPicker ? 'Hide Stars' : 'Add Stars to Text' }}
-            <span class="toggle-icon">{{ showStarPicker ? '▲' : '▼' }}</span>
-          </button>
-        </div>
-
-        <!-- Collapsible Star Picker Panel -->
-        <div v-show="showStarPicker" class="star-picker-panel">
+        <!-- Star Picker Panel - Always Visible -->
+        <div class="star-picker-panel">
           <div class="star-picker-header">
             <h4>Click any star to insert it at cursor position</h4>
           </div>
@@ -59,6 +41,7 @@
           <div class="style-selector-left">
             <label class="sub-label">Star Style</label>
             <select v-model="selectedStyle">
+              <option value="plain">Plain Text</option>
               <option value="classic">★ Classic ★</option>
               <option value="sparkle">✨ Sparkle ✨</option>
               <option value="decorative">✧ Decorative ✧</option>
@@ -80,11 +63,18 @@
 
       <button class="generate-button" @click="generateStarText">Generate Star Text ✨</button>
 
-      <div v-if="generatedText" class="result-group">
+      <div class="result-group">
         <label>Generated Text</label>
         <div class="result-container">
           <textarea v-model="generatedText" v-copy-allowed readonly rows="4"></textarea>
-          <button class="copy-button" v-copy-allowed @click="copyGeneratedText">Copy</button>
+          <button
+            v-if="inputText.trim() && generatedText"
+            class="copy-button"
+            v-copy-allowed
+            @click="copyGeneratedText"
+          >
+            Copy
+          </button>
         </div>
       </div>
     </div>
@@ -105,13 +95,13 @@ const props = defineProps({
 
 // Reactive data
 const inputText = ref('')
-const selectedStyle = ref('classic')
+const selectedStyle = ref('plain')
 const generatedText = ref('')
-const showStarPicker = ref(false)
 const textareaRef = ref(null)
 
 // Star styles for text generator
 const starStyles = {
+  plain: { prefix: '', suffix: '', separator: ' ' },
   classic: { prefix: '★', suffix: '★', separator: ' ✦ ' },
   sparkle: { prefix: '✨', suffix: '✨', separator: ' ⭐ ' },
   decorative: { prefix: '✧･ﾟ: *', suffix: '*:･ﾟ✧', separator: ' ✩ ' },
@@ -160,16 +150,28 @@ const starCategories = computed(() => {
 const generateStarText = () => {
   if (!inputText.value.trim()) {
     props.showToast('Please enter some text to generate')
+    generatedText.value = '' // Clear generated text when input is empty
     return
   }
 
   const style = starStyles[selectedStyle.value]
   const words = inputText.value.trim().split(' ')
   const decoratedText = words.join(style.separator)
-  generatedText.value = `${style.prefix} ${decoratedText} ${style.suffix}`
+
+  // For plain text style, don't add extra spaces if prefix/suffix are empty
+  if (selectedStyle.value === 'plain') {
+    generatedText.value = decoratedText
+  } else {
+    generatedText.value = `${style.prefix} ${decoratedText} ${style.suffix}`
+  }
 }
 
 const copyGeneratedText = async () => {
+  if (!generatedText.value.trim()) {
+    props.showToast('Please enter some text first')
+    return
+  }
+
   try {
     await navigator.clipboard.writeText(generatedText.value)
     props.showToast('Generated text copied to clipboard!')
@@ -201,9 +203,8 @@ const insertStarIntoText = (star) => {
 .generator-card {
   background: white;
   border-radius: 15px;
-  padding: 2rem;
+  padding: 1rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  width: 800px;
   margin: 0 auto;
 }
 
@@ -217,13 +218,12 @@ const insertStarIntoText = (star) => {
 .generator-form {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .form-group {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
 }
 
 .form-group label {
@@ -236,7 +236,7 @@ const insertStarIntoText = (star) => {
   padding: 0.5rem 1rem;
   border: 2px solid #e0e0e0;
   border-radius: 10px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   transition: border-color 0.3s ease;
 }
 
@@ -277,14 +277,14 @@ const insertStarIntoText = (star) => {
 }
 
 .preview-text {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #333;
   font-weight: 500;
   line-height: 1.3;
 }
 
 .generate-button {
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   border: none;
@@ -339,45 +339,6 @@ const insertStarIntoText = (star) => {
 }
 
 /* Star Picker Styles */
-.star-picker-toggle {
-  margin-bottom: 1rem;
-}
-
-.toggle-stars-btn {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 0.95rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  width: 100%;
-  justify-content: center;
-}
-
-.toggle-stars-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
-}
-
-.toggle-stars-btn.active {
-  background: linear-gradient(135deg, #5a67d8 0%, #667eea 100%);
-}
-
-.toggle-stars-btn .star-icon {
-  font-size: 1.1rem;
-  animation: twinkle 2s ease-in-out infinite alternate;
-}
-
-.toggle-icon {
-  font-size: 0.8rem;
-  margin-left: auto;
-}
 
 .star-picker-panel {
   background: #f8f9ff;
@@ -385,29 +346,6 @@ const insertStarIntoText = (star) => {
   border-radius: 12px;
   padding: 1rem;
   margin-bottom: 1rem;
-  animation: slideDown 0.3s ease-out;
-}
-
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes twinkle {
-  0% {
-    opacity: 0.5;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1.1);
-  }
 }
 
 .star-picker-header {
@@ -424,7 +362,7 @@ const insertStarIntoText = (star) => {
 .star-categories-list {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .star-category-row {

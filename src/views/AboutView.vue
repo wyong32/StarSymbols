@@ -1,17 +1,12 @@
 <template>
-  <div class="about-page">
+  <div class="about-page hero-variant-about">
     <!-- Header -->
     <AppHeader />
 
     <!-- Hero Section -->
-    <section class="hero" style="background: linear-gradient(135deg, #e0c3fc 0%, #9bb5ff 100%)">
+    <section class="hero">
       <div class="hero-content">
         <h1 class="hero-title">About Us</h1>
-        <p class="hero-description">
-          We're passionate about making creativity accessible to everyone. StarCopy was created to
-          provide a simple, elegant solution for anyone looking to add a touch of magic to their
-          digital content with beautiful star symbols.
-        </p>
         <div class="hero-stars">
           <span class="hero-star" style="--delay: 0s">🌟</span>
           <span class="hero-star" style="--delay: 0.3s">✨</span>
@@ -20,6 +15,11 @@
           <span class="hero-star" style="--delay: 1.2s">🎯</span>
           <span class="hero-star" style="--delay: 1.5s">💡</span>
         </div>
+        <p class="hero-description">
+          We're passionate about making creativity accessible to everyone. StarCopy was created to
+          provide a simple, elegant solution for anyone looking to add a touch of magic to their
+          digital content with beautiful star symbols.
+        </p>
       </div>
     </section>
 
@@ -158,6 +158,8 @@ import AppFooter from '@/components/AppFooter.vue'
 </script>
 
 <style scoped>
+@import '@/styles/hero.css';
+
 /* Global Styles */
 * {
   margin: 0;
@@ -171,68 +173,6 @@ import AppFooter from '@/components/AppFooter.vue'
   color: #333;
 }
 
-/* Hero Section */
-.hero {
-  min-height: 100vh;
-  padding: 8rem 2rem 4rem;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  color: white;
-  display: flex;
-  align-items: center;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
-  z-index: 1;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.hero-title {
-  font-size: 4rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-  animation: float 3s ease-in-out infinite;
-}
-
-.hero-description {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
-  line-height: 1.8;
-  opacity: 0.9;
-}
-
-.hero-stars {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  font-size: 3rem;
-}
-
-.hero-star {
-  animation: colorWave 4s ease-in-out infinite;
-  animation-delay: var(--delay);
-  transition: transform 0.3s ease;
-}
-
-.hero-star:hover {
-  transform: scale(1.2);
-}
-
 /* Section Styles */
 .section-container {
   max-width: 1200px;
@@ -242,8 +182,7 @@ import AppFooter from '@/components/AppFooter.vue'
 
 /* About Section */
 .about-section {
-  padding: 5rem 0;
-  background: white;
+  padding: 0 0 4rem 0;
 }
 
 .about-content {
@@ -423,58 +362,8 @@ import AppFooter from '@/components/AppFooter.vue'
   line-height: 1.6;
 }
 
-/* Animations */
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes colorWave {
-  0% {
-    transform: translateY(0) rotate(0deg);
-  }
-  25% {
-    transform: translateY(-5px) rotate(5deg);
-  }
-  50% {
-    transform: translateY(0) rotate(0deg);
-  }
-  75% {
-    transform: translateY(-5px) rotate(-5deg);
-  }
-  100% {
-    transform: translateY(0) rotate(0deg);
-  }
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
-  .hero {
-    padding: 6rem 1.5rem 3rem;
-    min-height: 80vh;
-  }
-
-  .hero-title {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .hero-description {
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .hero-stars {
-    font-size: 2rem;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-  }
-
   .section-container {
     padding: 0 1.5rem;
   }

@@ -1,16 +1,12 @@
 <template>
-  <div class="image-to-stars-page">
+  <div class="image-to-stars-page hero-variant-image">
     <!-- Header -->
     <AppHeader />
 
     <!-- Hero Section -->
-    <section class="hero" style="background: linear-gradient(135deg, #a8e6cf 0%, #88d8c0 100%)">
+    <section class="hero">
       <div class="hero-content">
-        <h1 class="hero-title white-text">Image to Text Art</h1>
-        <p class="hero-description white-text">
-          Transform your images into beautiful text art! Upload any image and watch it convert into
-          stunning ASCII art using special Unicode characters.
-        </p>
+        <h1 class="hero-title">Image To Text Converter​</h1>
         <div class="hero-stars">
           <span class="hero-star" style="--delay: 0s">🖼️</span>
           <span class="hero-star" style="--delay: 0.3s">⭐</span>
@@ -19,6 +15,10 @@
           <span class="hero-star" style="--delay: 1.2s">🎨</span>
           <span class="hero-star" style="--delay: 1.5s">✦</span>
         </div>
+        <p class="hero-description">
+          Transform your images into beautiful text art! Upload any image and watch it convert into
+          stunning ASCII art using special Unicode characters.
+        </p>
       </div>
     </section>
 
@@ -295,6 +295,8 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
+@import '@/styles/hero.css';
+
 /* Global Styles */
 * {
   margin: 0;
@@ -308,121 +310,6 @@ onUnmounted(() => {
   color: #333;
 }
 
-/* Hero Section */
-.hero {
-  padding: 8rem 2rem 4rem;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  color: #333;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.3) 0%, transparent 50%);
-  z-index: 1;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.hero-title {
-  font-size: 4rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: float 3s ease-in-out infinite;
-}
-
-.hero-title.white-text {
-  background: none;
-  -webkit-background-clip: unset;
-  -webkit-text-fill-color: unset;
-  background-clip: unset;
-  color: white;
-}
-
-.hero-description {
-  font-size: 1.3rem;
-  color: #555;
-  margin-bottom: 2rem;
-  line-height: 1.8;
-}
-
-.hero-description.white-text {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.hero-stars {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  font-size: 3rem;
-}
-
-.hero-star {
-  animation: colorWave 4s ease-in-out infinite;
-  animation-delay: var(--delay);
-  background: linear-gradient(45deg, #667eea, #764ba2, #f093fb, #f5576c, #4facfe, #00f2fe, #667eea);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  transition: transform 0.3s ease;
-}
-
-.hero-star:hover {
-  transform: scale(1.2);
-}
-
-/* Animations */
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes colorWave {
-  0% {
-    background-position: 0% 50%;
-  }
-  25% {
-    background-position: 100% 50%;
-  }
-  50% {
-    background-position: 200% 50%;
-  }
-  75% {
-    background-position: 300% 50%;
-  }
-  100% {
-    background-position: 400% 50%;
-  }
-}
-
 /* Section Styles */
 .section-container {
   max-width: 1400px;
@@ -432,9 +319,7 @@ onUnmounted(() => {
 
 /* Converter Section */
 .converter-section {
-  padding: 5rem 0;
-  background: white;
-  transition: background-color 0.3s ease;
+  padding: 0 0 4rem 0;
 }
 
 .converter-layout {

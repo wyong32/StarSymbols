@@ -128,10 +128,7 @@
             <h2>11. Contact Information</h2>
             <p>If you have any questions about these Terms of Service, please contact us:</p>
             <div class="contact-info">
-              <p><strong>Email:</strong> legal@starcopy.com</p>
-              <p>
-                <strong>Address:</strong> Star Copy & Paste, 123 Web Street, Internet City, IC 12345
-              </p>
+              <p><strong>Email:</strong>delldremo9898@gmail.com</p>
             </div>
           </div>
         </div>
@@ -149,7 +146,7 @@ import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 
 // Data
-const lastUpdated = ref('January 15, 2024')
+const lastUpdated = ref('June 5, 2025')
 </script>
 
 <style scoped>

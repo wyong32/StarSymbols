@@ -6,11 +6,7 @@
     <!-- Hero Section -->
     <section class="hero" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)">
       <div class="hero-content">
-        <h1 class="hero-title">⭐ Star Copy And Paste ⭐</h1>
-        <p class="hero-description">
-          The ultimate collection of star symbols, copy-paste tools, and aesthetic text generators.
-          Make your content shine with beautiful Unicode stars! ✨
-        </p>
+        <h1 class="hero-title">Star Copy and Paste - All Star Symbols</h1>
         <div class="hero-stars">
           <span class="hero-star" style="--delay: 0s">★</span>
           <span class="hero-star" style="--delay: 0.3s">☆</span>
@@ -21,6 +17,11 @@
           <span class="hero-star" style="--delay: 1.8s">⍟</span>
           <span class="hero-star" style="--delay: 2.1s">✮</span>
         </div>
+        <p class="hero-description">
+          Star Copy And Paste offers the ultimate collection of star symbols, copy-paste tools, and
+          aesthetic text generators. Discover thousands of star symbols to make your content shine
+          with beautiful Unicode star symbols! ✨
+        </p>
 
         <StarSymbolsGrid :show-toast="showToastMessage" />
       </div>
@@ -30,9 +31,10 @@
     <section class="generator-section">
       <div class="section-container">
         <div class="section-header">
-          <h2>Aesthetic Text Generator with Stars</h2>
+          <h2>Star Text Symbols Generator - Star Copy And Paste</h2>
           <p>
-            Transform your text into beautiful star-decorated messages perfect for social media and
+            Transform your text into beautiful star-decorated messages using our star symbols
+            collection. Star Copy And Paste provides the perfect star symbols for social media and
             creative content.
           </p>
         </div>
@@ -45,8 +47,11 @@
     <section class="how-to-use-section">
       <div class="section-container">
         <div class="section-header">
-          <h2>How to Use</h2>
-          <p>Follow these simple steps to start using star symbols in your content</p>
+          <h2>How to Use Star Copy And Paste</h2>
+          <p>
+            Follow these simple steps to start using star symbols from Star Copy And Paste in your
+            content
+          </p>
         </div>
 
         <div class="steps-grid">
@@ -61,21 +66,21 @@
           <h3>Pro Tips</h3>
           <div class="tips-grid">
             <div class="tip-group">
-              <h4>✨ Creative Uses</h4>
+              <h4>✨ Creative Uses for Star Symbols</h4>
               <ul>
-                <li>Social media posts and bios</li>
-                <li>Email signatures</li>
-                <li>Document headers</li>
-                <li>Website content</li>
+                <li>Social media posts and bios with star symbols</li>
+                <li>Email signatures decorated with star symbols</li>
+                <li>Document headers using Star Copy And Paste</li>
+                <li>Website content enhanced with star symbols</li>
               </ul>
             </div>
             <div class="tip-group">
-              <h4>⭐ Best Practices</h4>
+              <h4>⭐ Star Symbols Best Practices</h4>
               <ul>
-                <li>Use stars sparingly for impact</li>
-                <li>Match star style to your content</li>
-                <li>Test compatibility across platforms</li>
-                <li>Combine with other symbols</li>
+                <li>Use star symbols sparingly for maximum impact</li>
+                <li>Match star symbols style to your content</li>
+                <li>Test Star Copy And Paste compatibility across platforms</li>
+                <li>Combine star symbols with other symbols</li>
               </ul>
             </div>
           </div>
@@ -87,8 +92,8 @@
     <section class="faq-section">
       <div class="section-container">
         <div class="section-header">
-          <h2>Frequently Asked Questions</h2>
-          <p>Everything you need to know about using star symbols</p>
+          <h2>Star Copy And Paste FAQ</h2>
+          <p>Everything you need to know about using star symbols from Star Copy And Paste</p>
         </div>
 
         <div class="faq-list">
@@ -114,9 +119,10 @@
     <section class="blog-section">
       <div class="section-container">
         <div class="section-header">
-          <h2>Star Blog</h2>
+          <h2>Star Copy And Paste Blog</h2>
           <p>
-            Discover the latest articles, tips, and insights about star symbols and creative design.
+            Discover the latest articles, tips, and insights about star symbols and creative design
+            from Star Copy And Paste.
           </p>
         </div>
         <BlogGrid />
@@ -127,8 +133,11 @@
     <section class="about-section">
       <div class="section-container">
         <div class="section-header">
-          <h2>About StarCopy</h2>
-          <p>Your ultimate destination for star symbols and aesthetic text generation</p>
+          <h2>About Star Copy And Paste</h2>
+          <p>
+            Your ultimate destination for star symbols and aesthetic text generation with Star Copy
+            And Paste
+          </p>
         </div>
 
         <div class="about-content">
@@ -136,14 +145,14 @@
             <div class="about-card">
               <h3>Our Mission</h3>
               <p>
-                We believe that creativity should be accessible to everyone. StarCopy was created to
-                provide a simple, elegant solution for anyone looking to add a touch of magic to
-                their digital content with beautiful star symbols.
+                We believe that creativity should be accessible to everyone. Star Copy And Paste was
+                created to provide a simple, elegant solution for anyone looking to add a touch of
+                magic to their digital content with beautiful star symbols.
               </p>
               <p>
                 Whether you're a social media enthusiast, content creator, designer, or just someone
-                who loves beautiful typography, our platform offers the tools you need to make your
-                text shine.
+                who loves beautiful typography, Star Copy And Paste offers the star symbols tools
+                you need to make your text shine with star symbols.
               </p>
             </div>
 
@@ -152,13 +161,23 @@
               <ul class="feature-list">
                 <li>
                   <span class="feature-icon">⭐</span>Extensive collection of Unicode star symbols
+                  from Star Copy And Paste
                 </li>
-                <li><span class="feature-icon">⭐</span>One-click copy functionality</li>
                 <li>
-                  <span class="feature-icon">⭐</span>Aesthetic text generator with multiple styles
+                  <span class="feature-icon">⭐</span>One-click copy functionality for star symbols
                 </li>
-                <li><span class="feature-icon">⭐</span>Mobile-friendly responsive design</li>
-                <li><span class="feature-icon">⭐</span>Cross-platform compatibility</li>
+                <li>
+                  <span class="feature-icon">⭐</span>Star symbols aesthetic text generator with
+                  multiple styles
+                </li>
+                <li>
+                  <span class="feature-icon">⭐</span>Mobile-friendly responsive design for star
+                  symbols
+                </li>
+                <li>
+                  <span class="feature-icon">⭐</span>Cross-platform compatibility for all star
+                  symbols
+                </li>
               </ul>
             </div>
           </div>
@@ -168,8 +187,8 @@
               <div class="feature-icon-large">✨</div>
               <h3>100% Free</h3>
               <p>
-                All our star symbols and tools are completely free to use. No registration required,
-                no hidden fees, just pure creative freedom.
+                All Star Copy And Paste star symbols and tools are completely free to use. No
+                registration required, no hidden fees, just pure creative freedom with star symbols.
               </p>
             </div>
 
@@ -178,7 +197,7 @@
               <h3>Lightning Fast</h3>
               <p>
                 Instant copying, no loading times, no complicated interfaces. Get your perfect star
-                symbols in seconds, not minutes.
+                symbols from Star Copy And Paste in seconds, not minutes.
               </p>
             </div>
 
@@ -186,8 +205,8 @@
               <div class="feature-icon-large">🌟</div>
               <h3>Always Updated</h3>
               <p>
-                We continuously expand our symbol collection and improve our tools based on user
-                feedback and the latest Unicode standards.
+                We continuously expand Star Copy And Paste star symbols collection and improve our
+                star symbols tools based on user feedback and the latest Unicode standards.
               </p>
             </div>
           </div>
@@ -219,68 +238,65 @@ const activeFaq = ref(null)
 const showToast = ref(false)
 const toastMessage = ref('')
 
-// Featured stars for preview
-const featuredStars = ['★', '⭐', '✨', '🌟', '💫', '✦', '✧', '✩', '✪', '✫', '✬', '✭']
-
 // How to use steps
 const howToSteps = [
   {
     number: '01',
-    title: 'Choose Your Star',
+    title: 'Choose Your Star Symbols',
     description:
-      'Browse through our extensive collection of star symbols organized in different categories - Classic, Solid, and Outline stars.',
+      'Browse through Star Copy And Paste extensive collection of star symbols organized in different categories - Classic, Solid, and Outline star symbols.',
   },
   {
     number: '02',
-    title: 'Click to Copy',
+    title: 'Click to Copy Star Symbols',
     description:
-      'Simply click on any star symbol you like. It will be automatically copied to your clipboard with a confirmation message.',
+      'Simply click on any star symbol you like from Star Copy And Paste. Star symbols will be automatically copied to your clipboard with a confirmation message.',
   },
   {
     number: '03',
-    title: 'Paste Anywhere',
+    title: 'Paste Star Symbols Anywhere',
     description:
-      'Use Ctrl+V (or Cmd+V on Mac) to paste your copied star symbol into any application, document, or social media post.',
+      'Use Ctrl+V (or Cmd+V on Mac) to paste your copied star symbols into any application, document, or social media post. Star Copy And Paste star symbols work everywhere.',
   },
   {
     number: '04',
-    title: 'Create Star Text',
+    title: 'Create Star Symbols Text',
     description:
-      'Use our Aesthetic Text Generator to create beautiful star-decorated messages for your social media posts and creative projects.',
+      'Use Star Copy And Paste Aesthetic Text Generator to create beautiful star symbols decorated messages for your social media posts and creative projects.',
   },
 ]
 
 // FAQ data
 const faqs = [
   {
-    question: 'Are these star symbols compatible with all devices?',
+    question: 'Are Star Copy And Paste star symbols compatible with all devices?',
     answer:
-      'Yes! Our star symbols are Unicode characters that work across all modern devices, operating systems, and applications. They display consistently on Windows, Mac, iOS, Android, and web browsers.',
+      'Yes! Star Copy And Paste star symbols are Unicode characters that work across all modern devices, operating systems, and applications. Star symbols display consistently on Windows, Mac, iOS, Android, and web browsers.',
   },
   {
-    question: 'Can I use these stars commercially?',
+    question: 'Can I use Star Copy And Paste star symbols commercially?',
     answer:
-      'Absolutely! These are standard Unicode symbols that are free to use for any purpose, including commercial projects, social media, websites, and printed materials.',
+      'Absolutely! Star Copy And Paste star symbols are standard Unicode symbols that are free to use for any purpose, including commercial projects, social media, websites, and printed materials.',
   },
   {
-    question: 'Do the star symbols work on social media platforms?',
+    question: 'Do Star Copy And Paste star symbols work on social media platforms?',
     answer:
-      "Yes, all major social media platforms (Instagram, Facebook, Twitter, TikTok, LinkedIn) support these Unicode star symbols. They're perfect for enhancing your posts and profiles.",
+      'Yes, all major social media platforms (Instagram, Facebook, Twitter, TikTok, LinkedIn) support Star Copy And Paste Unicode star symbols. Star symbols are perfect for enhancing your posts and profiles.',
   },
   {
-    question: 'How do I copy multiple star symbols at once?',
+    question: 'How do I copy multiple star symbols at once from Star Copy And Paste?',
     answer:
-      'You can click on individual stars to copy them one by one, or use our Text Generator to create custom text with multiple star decorations that you can copy all at once.',
+      'You can click on individual star symbols to copy them one by one, or use Star Copy And Paste Text Generator to create custom text with multiple star symbols decorations that you can copy all at once.',
   },
   {
-    question: "Why aren't the symbols copying on my device?",
+    question: "Why aren't Star Copy And Paste star symbols copying on my device?",
     answer:
-      "Make sure your browser supports the clipboard API and you've granted permission. Try clicking the symbol again, or manually select and copy (Ctrl+C) the symbol from the button.",
+      "Make sure your browser supports the clipboard API and you've granted permission. Try clicking the star symbol again, or manually select and copy (Ctrl+C) the star symbol from Star Copy And Paste.",
   },
   {
-    question: 'Can I suggest new star symbols to add?',
+    question: 'Can I suggest new star symbols to add to Star Copy And Paste?',
     answer:
-      "We're always looking to expand our collection! While we focus on widely-supported Unicode symbols, feel free to reach out with suggestions for new symbols or categories.",
+      "We're always looking to expand Star Copy And Paste star symbols collection! While we focus on widely-supported Unicode star symbols, feel free to reach out with suggestions for new star symbols or categories.",
   },
 ]
 
@@ -295,16 +311,6 @@ const showToastMessage = (message) => {
   setTimeout(() => {
     showToast.value = false
   }, 3000)
-}
-
-const copySymbol = async (symbol) => {
-  try {
-    await navigator.clipboard.writeText(symbol)
-    showToastMessage(`"${symbol}" copied to clipboard!`)
-  } catch (err) {
-    console.error('Copy failed: ', err)
-    showToastMessage('Copy failed, please try again')
-  }
 }
 
 // Set up copy protection toast callback
@@ -360,9 +366,10 @@ onMounted(() => {
 }
 
 .hero-title {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 1.5rem;
+  line-height: 1;
+  margin-bottom: 1rem;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -382,7 +389,8 @@ onMounted(() => {
   justify-content: center;
   gap: 1rem;
   font-size: 3rem;
-  margin-bottom: 2rem;
+  line-height: 1;
+  margin-bottom: 1rem;
 }
 
 .hero-star {
@@ -454,7 +462,6 @@ onMounted(() => {
 .section-header p {
   font-size: 1.1rem;
   color: #666;
-  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -772,6 +779,12 @@ section {
   100% {
     opacity: 1;
     transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .faq-list {
+    width: 100%;
   }
 }
 

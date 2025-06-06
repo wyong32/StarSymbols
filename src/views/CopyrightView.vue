@@ -8,7 +8,7 @@
       <div class="section-container">
         <div class="copyright-content">
           <div class="copyright-notice">
-            <h2>© 2024 Star Copy & Paste. All Rights Reserved.</h2>
+            <h2>© 2025 Star Copy & Paste. All Rights Reserved.</h2>
             <p>This website and its original content are protected by copyright law.</p>
           </div>
 
@@ -130,7 +130,7 @@
             <h2>8. Contact for Copyright Issues</h2>
             <p>For copyright-related inquiries or concerns:</p>
             <div class="contact-info">
-              <p><strong>Email:</strong> copyright@starcopy.com</p>
+              <p><strong>Email:</strong>delldremo9898@gmail.com</p>
               <p><strong>Subject Line:</strong> Copyright Inquiry - [Brief Description]</p>
               <p><strong>Response Time:</strong> We aim to respond within 48 hours</p>
             </div>

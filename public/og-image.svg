@@ -1,0 +1,63 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative Stars -->
+  <text x="100" y="100" font-family="Arial, sans-serif" font-size="60" fill="#ffffff" opacity="0.3">⭐</text>
+  <text x="1050" y="150" font-family="Arial, sans-serif" font-size="40" fill="#ffffff" opacity="0.4">✨</text>
+  <text x="150" y="500" font-family="Arial, sans-serif" font-size="50" fill="#ffffff" opacity="0.3">🌟</text>
+  <text x="1000" y="550" font-family="Arial, sans-serif" font-size="45" fill="#ffffff" opacity="0.4">💫</text>
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="35" fill="#ffffff" opacity="0.2">★</text>
+  <text x="950" y="250" font-family="Arial, sans-serif" font-size="30" fill="#ffffff" opacity="0.3">☆</text>
+  
+  <!-- Main Title -->
+  <text x="600" y="250" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#ffffff" text-anchor="middle" filter="url(#glow)">
+    Star Copy And Paste
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="320" font-family="Arial, sans-serif" font-size="36" fill="#ffffff" text-anchor="middle" opacity="0.9">
+    Free Star Symbols Collection
+  </text>
+  
+  <!-- Description -->
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" opacity="0.8">
+    Thousands of Unicode star symbols ⭐ Copy & paste instantly ✨
+  </text>
+  
+  <!-- URL -->
+  <text x="600" y="480" font-family="Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle" opacity="0.7">
+    starcopy.com
+  </text>
+  
+  <!-- Feature Icons -->
+  <circle cx="400" cy="520" r="25" fill="#ffffff" opacity="0.2"/>
+  <text x="400" y="530" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">★</text>
+  
+  <circle cx="500" cy="520" r="25" fill="#ffffff" opacity="0.2"/>
+  <text x="500" y="530" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">✨</text>
+  
+  <circle cx="600" cy="520" r="25" fill="#ffffff" opacity="0.2"/>
+  <text x="600" y="530" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">🌟</text>
+  
+  <circle cx="700" cy="520" r="25" fill="#ffffff" opacity="0.2"/>
+  <text x="700" y="530" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">💫</text>
+  
+  <circle cx="800" cy="520" r="25" fill="#ffffff" opacity="0.2"/>
+  <text x="800" y="530" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">⭐</text>
+</svg>

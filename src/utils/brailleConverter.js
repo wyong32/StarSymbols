@@ -7,17 +7,20 @@ export function createImageCanvas(src, width) {
 
     image.onload = () => {
       // Calculate proper dimensions maintaining aspect ratio
-      const aspectRatio = image.height / image.width
+      const aspectRatio = image.height / image.width // This is original image's H/W ratio
       let canvasWidth = width * 2 // Braille characters are 2 pixels wide
-      let canvasHeight = Math.round(canvasWidth * aspectRatio)
 
-      // Increase minimum height to make result taller
-      canvasHeight = Math.max(canvasHeight, Math.round(width * 1.2)) // Increased minimum height
+      // Apply a compensation factor if the font characters are not rendered at a 2:1 height:width aspect ratio.
+      // If the output text art appears too TALL, this factor should be < 1.0.
+      // If it appears too WIDE, this factor should be > 1.0.
+      // Common monospace fonts often have characters about twice as tall as wide (factor ~1.0 for a 0.5 char W/H ratio).
+      // Braille characters might be rendered even taller by some fonts.
+      const FONT_ASPECT_RATIO_COMPENSATION = 1.4 // Adjusted value from 0.75
 
-      // If the calculated height is too small compared to width, increase it
-      if (canvasHeight < canvasWidth * 0.6) {
-        canvasHeight = Math.round(canvasWidth * 0.8) // Make it at least 80% of width
-      }
+      // Calculate canvasHeight, applying the compensation to the height derived from aspect ratio.
+      // (canvasWidth * aspectRatio) would be the height if W/H_canvas = W/H_image.
+      // Multiplying by compensation factor pre-distorts the canvas height.
+      let canvasHeight = Math.round(canvasWidth * aspectRatio * FONT_ASPECT_RATIO_COMPENSATION)
 
       // Nearest multiple for braille (2x4 pixel blocks)
       canvas.width = canvasWidth - (canvasWidth % 2)

@@ -38,10 +38,11 @@ const props = defineProps({
 })
 
 // Reactive data
-const activeTab = ref('classic')
+const activeTab = ref('all')
 
 // Symbol data
 const symbolTabs = [
+  { id: 'all', name: 'All Stars' },
   { id: 'classic', name: 'Classic Stars' },
   { id: 'solid', name: 'Solid Stars' },
   { id: 'outline', name: 'Outline Stars' },
@@ -49,7 +50,10 @@ const symbolTabs = [
 
 // Computed properties
 const currentSymbols = computed(() => {
-  if (activeTab.value === 'classic') {
+  if (activeTab.value === 'all') {
+    // For All tab, show all symbols where showSymbols is true
+    return starSymbolsData.filter((item) => item.showSymbols).map((item) => item.symbol)
+  } else if (activeTab.value === 'classic') {
     // For Classic tab, show symbols where showClassic is true
     return starSymbolsData
       .filter((item) => item.showClassic && item.showSymbols)
@@ -112,16 +116,15 @@ const copySymbol = async (symbol) => {
 
 .symbols-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 60px);
+  grid-template-columns: repeat(auto-fill, 55px);
   gap: 0.75rem;
-  max-width: 800px;
   margin: 0 auto;
   justify-content: start;
 }
 
 .symbol-button {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   border: 2px solid #e0e0e0;
   background: white;
   border-radius: 10px;

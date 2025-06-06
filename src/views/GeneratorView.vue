@@ -1,16 +1,12 @@
 <template>
-  <div class="generator-page">
+  <div class="generator-page hero-variant-generator">
     <!-- Header -->
     <AppHeader />
 
     <!-- Hero Section -->
-    <section class="hero" style="background: linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%)">
+    <section class="hero">
       <div class="hero-content">
         <h1 class="hero-title">Star Text Generator</h1>
-        <p class="hero-description">
-          Create beautiful star-decorated text for your social media posts, documents, and creative
-          projects. Choose from multiple styles and add stars anywhere in your text.
-        </p>
         <div class="hero-stars">
           <span class="hero-star" style="--delay: 0s">✨</span>
           <span class="hero-star" style="--delay: 0.3s">⭐</span>
@@ -19,20 +15,16 @@
           <span class="hero-star" style="--delay: 1.2s">✦</span>
           <span class="hero-star" style="--delay: 1.5s">✧</span>
         </div>
+        <p class="hero-description">
+          Create beautiful star-decorated text for your social media posts, documents, and creative
+          projects. Choose from multiple styles and add stars anywhere in your text.
+        </p>
       </div>
     </section>
 
     <!-- Generator Section -->
     <section class="generator-section">
       <div class="section-container">
-        <div class="section-header">
-          <h2>Create Your Star Text</h2>
-          <p>
-            Transform your plain text into stunning star-decorated messages. Perfect for social
-            media, creative content, and making your text stand out.
-          </p>
-        </div>
-
         <TextGenerator :show-toast="showToastMessage" />
 
         <!-- Features Section -->
@@ -128,6 +120,8 @@ onMounted(() => {
 </script>
 
 <style scoped>
+@import '@/styles/hero.css';
+
 /* Global Styles */
 * {
   margin: 0;
@@ -139,79 +133,6 @@ onMounted(() => {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   color: #333;
-}
-
-/* Hero Section */
-.hero {
-  padding: 8rem 2rem 4rem;
-  background: linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%);
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: radial-gradient(circle at 20% 80%, rgba(168, 237, 234, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(254, 214, 227, 0.3) 0%, transparent 50%);
-  z-index: 1;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.hero-title {
-  font-size: 4rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: float 3s ease-in-out infinite;
-}
-
-.hero-description {
-  font-size: 1.3rem;
-  color: #555;
-  margin-bottom: 2rem;
-  line-height: 1.8;
-}
-
-.hero-stars {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  font-size: 3rem;
-}
-
-.hero-star {
-  animation: colorWave 4s ease-in-out infinite;
-  animation-delay: var(--delay);
-  background: linear-gradient(45deg, #667eea, #764ba2, #f093fb, #f5576c, #4facfe, #00f2fe, #667eea);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  transition: transform 0.3s ease;
-}
-
-.hero-star:hover {
-  transform: scale(1.2);
 }
 
 /* Section Styles */
@@ -245,8 +166,7 @@ onMounted(() => {
 
 /* Generator Section */
 .generator-section {
-  padding: 5rem 0;
-  background: linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%);
+  padding: 0 0 4rem 0;
 }
 
 /* Features Section */
@@ -374,58 +294,8 @@ onMounted(() => {
   transform: translateX(-50%) translateY(0);
 }
 
-/* Animations */
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes colorWave {
-  0% {
-    background-position: 0% 50%;
-  }
-  25% {
-    background-position: 100% 50%;
-  }
-  50% {
-    background-position: 200% 50%;
-  }
-  75% {
-    background-position: 300% 50%;
-  }
-  100% {
-    background-position: 400% 50%;
-  }
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
-  .hero {
-    padding: 6rem 1.5rem 3rem;
-    min-height: 80vh;
-  }
-
-  .hero-title {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .hero-description {
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .hero-stars {
-    font-size: 2rem;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-  }
-
   .section-container {
     padding: 0 1.5rem;
   }
@@ -507,26 +377,6 @@ onMounted(() => {
 }
 
 @media (max-width: 480px) {
-  .hero {
-    padding: 5rem 1rem 2rem;
-    min-height: 70vh;
-  }
-
-  .hero-title {
-    font-size: 2rem;
-    margin-bottom: 0.8rem;
-  }
-
-  .hero-description {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .hero-stars {
-    font-size: 1.8rem;
-    gap: 0.6rem;
-  }
-
   .section-container {
     padding: 0 1rem;
   }
