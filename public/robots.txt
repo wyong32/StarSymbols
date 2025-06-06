@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://star-symbols.vercel.app//sitemap.xml
+Sitemap: https://starcopy.com/sitemap.xml
 
 # --- Specific rules for AI crawlers ---
 # This includes general AI bots and specific ones like Google's Vertex AI.
