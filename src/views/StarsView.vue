@@ -133,7 +133,21 @@ const predefinedCategories = [
     displayName: 'Emoji Stars',
     description:
       'Colorful and expressive star emojis used to convey magic, sparkle, celebration, or nighttime scenes in digital communication.',
-    matchCategories: ['emoji-stars'],
+    matchCategories: ['emoji-stars', 'Emoji'],
+  },
+  {
+    id: 6,
+    displayName: 'Math & Symbols',
+    description:
+      'Mathematical star symbols and operators used in technical documentation and mathematical notation.',
+    matchCategories: ['Math & Symbols', 'Mathematical Symbols'],
+  },
+  {
+    id: 7,
+    displayName: 'Other Symbols',
+    description:
+      'Miscellaneous star-like symbols from various Unicode blocks and special character sets.',
+    matchCategories: ['Other Symbols', 'Combining Marks'],
   },
 ]
 
@@ -147,9 +161,13 @@ let scrollTimeout = null
 const categories = computed(() => {
   return predefinedCategories
     .map((category) => {
-      const stars = starDetailsData.filter((star) =>
-        category.matchCategories.includes(star.category),
-      )
+      const stars = starDetailsData.filter((star) => {
+        // 支持 categories 数组格式
+        const starCategories = Array.isArray(star.categories) ? star.categories : [star.categories]
+        return starCategories.some((starCategory) =>
+          category.matchCategories.includes(starCategory),
+        )
+      })
 
       return {
         ...category,
@@ -266,13 +284,6 @@ onUnmounted(() => {
 
 <style scoped>
 @import '@/styles/hero.css';
-
-/* Global Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .stars-page {
   font-family: 'Arial', sans-serif;

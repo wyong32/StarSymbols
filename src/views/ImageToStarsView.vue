@@ -167,7 +167,7 @@ watch(
       }
     }
   },
-  { deep: true }
+  { deep: true },
 )
 
 // Watch for dark theme changes
@@ -296,13 +296,6 @@ onUnmounted(() => {
 
 <style scoped>
 @import '@/styles/hero.css';
-
-/* Global Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .image-to-stars-page {
   font-family: 'Arial', sans-serif;
@@ -709,6 +702,9 @@ onUnmounted(() => {
 
 /* Dark theme transitions */
 .result-section.dark-theme * {
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
 }
 </style>

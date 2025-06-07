@@ -122,13 +122,6 @@ onMounted(() => {
 <style scoped>
 @import '@/styles/hero.css';
 
-/* Global Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .generator-page {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;

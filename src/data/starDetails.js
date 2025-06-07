@@ -4,7 +4,7 @@ export const starDetailsData = [
     id: 1,
     symbol: '★', // 图案
     name: 'Black Star', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'black-star', // 链接
     unicode: 'U+2605', // 编码
     seo: {
@@ -69,7 +69,7 @@ export const starDetailsData = [
     id: 2,
     symbol: '☆', // 图案
     name: 'White Star', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'white-star', // 链接
     unicode: 'U+2606', // 编码
     seo: {
@@ -134,7 +134,7 @@ export const starDetailsData = [
     id: 3,
     symbol: '✡', // 图案
     name: 'Star of David', // 名称
-    category: 'religious-and-cultural', // 分类
+    categories: ['religious-and-cultural', 'Classic'], // 分类（数组形式，属于多个分类）
     slug: 'star-of-david', // 链接
     unicode: 'U+2721', // 编码
     seo: {
@@ -196,7 +196,7 @@ export const starDetailsData = [
     id: 4,
     symbol: '✦', // 图案
     name: 'Black Four Pointed Star', // 名称
-    category: 'four-pointed-stars', // 分类
+    categories: ['four-pointed-stars'], // 分类（数组形式）
     slug: 'black-four-pointed-star', // 链接
     unicode: 'U+2726', // 编码
     seo: {
@@ -258,7 +258,7 @@ export const starDetailsData = [
     id: 5,
     symbol: '✧', // 图案
     name: 'White Four Pointed Star', // 名称
-    category: 'four-pointed-stars', // 分类
+    categories: ['four-pointed-stars'], // 分类（数组形式）
     slug: 'white-four-pointed-star', // 链接
     unicode: 'U+2727', // 编码
     seo: {
@@ -320,7 +320,7 @@ export const starDetailsData = [
     id: 6,
     symbol: '✩', // 图案
     name: 'Stress Outlined White Star', // 名称
-    category: 'four-pointed-stars', // 分类
+    categories: ['four-pointed-stars'], // 分类（数组形式）
     slug: 'stress-outlined-white-star', // 链接
     unicode: 'U+2729', // 编码
     seo: {
@@ -382,7 +382,7 @@ export const starDetailsData = [
     id: 7,
     symbol: '✪', // 图案
     name: 'Circled White Star', // 名称
-    category: 'four-pointed-stars', // 分类
+    categories: ['four-pointed-stars'], // 分类（数组形式）
     slug: 'circled-white-star', // 链接
     unicode: 'U+272A', // 编码
     seo: {
@@ -444,7 +444,7 @@ export const starDetailsData = [
     id: 8,
     symbol: '✫', // 图案
     name: 'Open Centre Black Star', // 名称
-    category: 'four-pointed-stars', // 分类
+    categories: ['four-pointed-stars'], // 分类（数组形式）
     slug: 'open-centre-black-star', // 链接
     unicode: 'U+272B', // 编码
     seo: {
@@ -506,7 +506,7 @@ export const starDetailsData = [
     id: 9,
     symbol: '✬', // 图案
     name: 'Black Centre White Star', // 名称
-    category: 'four-pointed-stars', // 分类
+    categories: ['four-pointed-stars'], // 分类（数组形式）
     slug: 'black-centre-white-star', // 链接
     unicode: 'U+272C', // 编码
     seo: {
@@ -568,7 +568,7 @@ export const starDetailsData = [
     id: 10,
     symbol: '✭', // 图案
     name: 'Outlined Black Star', // 名称
-    category: 'four-pointed-stars', // 分类
+    categories: ['four-pointed-stars'], // 分类（数组形式）
     slug: 'outlined-black-star', // 链接
     unicode: 'U+272D', // 编码
     seo: {
@@ -630,7 +630,7 @@ export const starDetailsData = [
     id: 11,
     symbol: '✮', // 图案
     name: 'Heavy Outlined Black Star', // 名称
-    category: 'four-pointed-stars', // 分类
+    categories: ['four-pointed-stars'], // 分类（数组形式）
     slug: 'heavy-outlined-black-star', // 链接
     unicode: 'U+272E', // 编码
     seo: {
@@ -692,7 +692,7 @@ export const starDetailsData = [
     id: 12,
     symbol: '✯', // 图案
     name: 'Pinwheel Star', // 名称
-    category: 'four-pointed-stars', // 分类
+    categories: ['four-pointed-stars'], // 分类（数组形式）
     slug: 'pinwheel-star', // 链接
     unicode: 'U+272F', // 编码
     seo: {
@@ -754,7 +754,7 @@ export const starDetailsData = [
     id: 13,
     symbol: '⭒', // 图案
     name: 'White Small Star', // 名称
-    category: 'four-pointed-stars', // 分类
+    categories: ['four-pointed-stars'], // 分类（数组形式）
     slug: 'white-small-star', // 链接
     unicode: 'U+2B52', // 编码
     seo: {
@@ -809,7 +809,7 @@ export const starDetailsData = [
     id: 14,
     symbol: '⭑', // 图案
     name: 'Black Small Star', // 名称
-    category: 'four-pointed-stars', // 分类
+    categories: ['four-pointed-stars'], // 分类（数组形式）
     slug: 'black-small-star', // 链接
     unicode: 'U+2B51', // 编码
     seo: {
@@ -864,7 +864,7 @@ export const starDetailsData = [
     id: 15,
     symbol: '✰', // 图案
     name: 'Shadowed White Star', // 名称
-    category: 'four-pointed-stars', // 分类
+    categories: ['four-pointed-stars'], // 分类（数组形式）
     slug: 'shadowed-white-star', // 链接
     unicode: 'U+2730', // 编码
     seo: {
@@ -926,7 +926,7 @@ export const starDetailsData = [
     id: 16,
     symbol: '⁂', // 图案
     name: 'Asterism', // 名称
-    category: 'asterisk-and-multi-pointed', // 分类
+    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
     slug: 'asterism', // 链接
     unicode: 'U+2042', // 编码
     seo: {
@@ -981,7 +981,7 @@ export const starDetailsData = [
     id: 17,
     symbol: '⁎', // 图案
     name: 'Low Asterisk', // 名称
-    category: 'asterisk-and-multi-pointed', // 分类
+    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
     slug: 'low-asterisk', // 链接
     unicode: 'U+204E', // 编码
     seo: {
@@ -1036,7 +1036,7 @@ export const starDetailsData = [
     id: 18,
     symbol: '⁑', // 图案
     name: 'Two Asterisks Aligned Vertically', // 名称
-    category: 'asterisk-and-multi-pointed', // 分类
+    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
     slug: 'two-asterisks-aligned-vertically', // 链接
     unicode: 'U+2051', // 编码
     seo: {
@@ -1091,7 +1091,7 @@ export const starDetailsData = [
     id: 19,
     symbol: '✢', // 图案
     name: 'Four Teardrop-Spoked Asterisk', // 名称
-    category: 'asterisk-and-multi-pointed', // 分类
+    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
     slug: 'four-teardrop-spoked-asterisk', // 链接
     unicode: 'U+2722', // 编码
     seo: {
@@ -1146,7 +1146,7 @@ export const starDetailsData = [
     id: 20,
     symbol: '✣', // 图案
     name: 'Four Balloon-Spoked Asterisk', // 名称
-    category: 'asterisk-and-multi-pointed', // 分类
+    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
     slug: 'four-balloon-spoked-asterisk', // 链接
     unicode: 'U+2723', // 编码
     seo: {
@@ -1201,7 +1201,7 @@ export const starDetailsData = [
     id: 21,
     symbol: '✤', // 图案
     name: 'Heavy Four Balloon-Spoked Asterisk', // 名称
-    category: 'asterisk-and-multi-pointed', // 分类
+    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
     slug: 'heavy-four-balloon-spoked-asterisk', // 链接
     unicode: 'U+2724', // 编码
     seo: {
@@ -1256,7 +1256,7 @@ export const starDetailsData = [
     id: 22,
     symbol: '✥', // 图案
     name: 'Four Club-Spoked Asterisk', // 名称
-    category: 'asterisk-and-multi-pointed', // 分类
+    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
     slug: 'four-club-spoked-asterisk', // 链接
     unicode: 'U+2725', // 编码
     seo: {
@@ -1311,7 +1311,7 @@ export const starDetailsData = [
     id: 23,
     symbol: '✱', // 图案
     name: 'Heavy Asterisk', // 名称
-    category: 'asterisk-and-multi-pointed', // 分类
+    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
     slug: 'heavy-asterisk', // 链接
     unicode: 'U+2731', // 编码
     seo: {
@@ -1366,7 +1366,7 @@ export const starDetailsData = [
     id: 24,
     symbol: '✲', // 图案
     name: 'Open Centre Asterisk', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'open-centre-asterisk', // 链接
     unicode: 'U+2732', // 编码
     seo: {
@@ -1421,7 +1421,7 @@ export const starDetailsData = [
     id: 25,
     symbol: '✳', // 图案
     name: 'Eight Spoked Asterisk', // 名称
-    category: 'asterisk-and-multi-pointed', // 分类
+    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
     slug: 'eight-spoked-asterisk', // 链接
     unicode: 'U+2733', // 编码
     seo: {
@@ -1476,7 +1476,7 @@ export const starDetailsData = [
     id: 26,
     symbol: '✴', // 图案
     name: 'Eight Pointed Black Star', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'eight-pointed-black-star', // 链接
     unicode: 'U+2734', // 编码
     seo: {
@@ -1531,7 +1531,7 @@ export const starDetailsData = [
     id: 27,
     symbol: '✵', // 图案
     name: 'Eight Pointed Pinwheel Star', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'eight-pointed-pinwheel-star', // 链接
     unicode: 'U+2735', // 编码
     seo: {
@@ -1586,7 +1586,7 @@ export const starDetailsData = [
     id: 28,
     symbol: '✶', // 图案
     name: 'Six Pointed Black Star', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'six-pointed-black-star', // 链接
     unicode: 'U+2736', // 编码
     seo: {
@@ -1641,7 +1641,7 @@ export const starDetailsData = [
     id: 29,
     symbol: '✷', // 图案
     name: 'Eight Pointed Rectilinear Black Star', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'eight-pointed-rectilinear-black-star', // 链接
     unicode: 'U+2737', // 编码
     seo: {
@@ -1696,7 +1696,7 @@ export const starDetailsData = [
     id: 30,
     symbol: '✸', // 图案
     name: 'Heavy Eight Pointed Rectilinear Black Star', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'heavy-eight-pointed-rectilinear-black-star', // 链接
     unicode: 'U+2738', // 编码
     seo: {
@@ -1752,7 +1752,7 @@ export const starDetailsData = [
     id: 31,
     symbol: '✹', // 图案
     name: 'Twelve Pointed Black Star', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'twelve-pointed-black-star', // 链接
     unicode: 'U+2739', // 编码
     seo: {
@@ -1807,7 +1807,7 @@ export const starDetailsData = [
     id: 32,
     symbol: '✺', // 图案
     name: 'Sixteen Pointed Asterisk', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'sixteen-pointed-asterisk', // 链接
     unicode: 'U+273A', // 编码
     seo: {
@@ -1862,7 +1862,7 @@ export const starDetailsData = [
     id: 33,
     symbol: '✻', // 图案
     name: 'Teardrop-Spoked Asterisk', // 名称
-    category: 'asterisk-and-multi-pointed', // 分类
+    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
     slug: 'teardrop-spoked-asterisk', // 链接
     unicode: 'U+273B', // 编码
     seo: {
@@ -1917,7 +1917,7 @@ export const starDetailsData = [
     id: 34,
     symbol: '✼', // 图案
     name: 'Open Centre Teardrop-Spoked Asterisk', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'open-centre-teardrop-spoked-asterisk', // 链接
     unicode: 'U+273C', // 编码
     seo: {
@@ -1972,7 +1972,7 @@ export const starDetailsData = [
     id: 35,
     symbol: '✽', // 图案
     name: 'Heavy Teardrop-Spoked Asterisk', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'heavy-teardrop-spoked-asterisk', // 链接
     unicode: 'U+273D', // 编码
     seo: {
@@ -2027,7 +2027,7 @@ export const starDetailsData = [
     id: 36,
     symbol: '✾', // 图案
     name: 'Six Petalled Black And White Florette', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'six-petalled-black-and-white-florette', // 链接
     unicode: 'U+273E', // 编码
     seo: {
@@ -2083,7 +2083,7 @@ export const starDetailsData = [
     id: 37,
     symbol: '✿', // 图案
     name: 'Black Florette', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'black-florette', // 链接
     unicode: 'U+273F', // 编码
     seo: {
@@ -2138,7 +2138,7 @@ export const starDetailsData = [
     id: 38,
     symbol: '❀', // 图案
     name: 'White Florette', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'white-florette', // 链接
     unicode: 'U+2740', // 编码
     seo: {
@@ -2193,7 +2193,7 @@ export const starDetailsData = [
     id: 39,
     symbol: '❁', // 图案
     name: 'Eight Petalled Outlined Black Florette', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'eight-petalled-outlined-black-florette', // 链接
     unicode: 'U+2741', // 编码
     seo: {
@@ -2249,7 +2249,7 @@ export const starDetailsData = [
     id: 40,
     symbol: '❂', // 图案
     name: 'Circled Open Centre Eight Pointed Star', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'circled-open-centre-eight-pointed-star', // 链接
     unicode: 'U+2742', // 编码
     seo: {
@@ -2305,7 +2305,7 @@ export const starDetailsData = [
     id: 41,
     symbol: '❃', // 图案
     name: 'Heavy Teardrop-Spoked Pinwheel Asterisk', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'heavy-teardrop-spoked-pinwheel-asterisk', // 链接
     unicode: 'U+2743', // 编码
     seo: {
@@ -2361,7 +2361,7 @@ export const starDetailsData = [
     id: 42,
     symbol: '❇', // 图案
     name: 'Sparkle', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'sparkle', // 链接
     unicode: 'U+2747', // 编码
     seo: {
@@ -2416,7 +2416,7 @@ export const starDetailsData = [
     id: 43,
     symbol: '❈', // 图案
     name: 'Heavy Sparkle', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'heavy-sparkle', // 链接
     unicode: 'U+2748', // 编码
     seo: {
@@ -2471,7 +2471,7 @@ export const starDetailsData = [
     id: 44,
     symbol: '❉', // 图案
     name: 'Balloon-Spoked Asterisk', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'balloon-spoked-asterisk', // 链接
     unicode: 'U+2749', // 编码
     seo: {
@@ -2526,7 +2526,7 @@ export const starDetailsData = [
     id: 45,
     symbol: '❊', // 图案
     name: 'Eight Teardrop-Spoked Propeller Asterisk', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'eight-teardrop-spoked-propeller-asterisk', // 链接
     unicode: 'U+274A', // 编码
     seo: {
@@ -2582,7 +2582,7 @@ export const starDetailsData = [
     id: 46,
     symbol: '❋', // 图案
     name: 'Heavy Eight Teardrop-Spoked Propeller Asterisk', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'heavy-eight-teardrop-spoked-propeller-asterisk', // 链接
     unicode: 'U+274B', // 编码
     seo: {
@@ -2638,7 +2638,7 @@ export const starDetailsData = [
     id: 47,
     symbol: '❄', // 图案
     name: 'Snowflake', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'snowflake', // 链接
     unicode: 'U+2744', // 编码
     seo: {
@@ -2693,7 +2693,7 @@ export const starDetailsData = [
     id: 48,
     symbol: '❆', // 图案
     name: 'Heavy Chevron Snowflake', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'heavy-chevron-snowflake', // 链接
     unicode: 'U+2746', // 编码
     seo: {
@@ -2748,7 +2748,7 @@ export const starDetailsData = [
     id: 49,
     symbol: '❅', // 图案
     name: 'Tight Trifoliate Snowflake', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic'], // 分类（数组形式）
     slug: 'tight-trifoliate-snowflake', // 链接
     unicode: 'U+2745', // 编码
     seo: {
@@ -2803,7 +2803,7 @@ export const starDetailsData = [
     id: 50,
     symbol: '⋆', // 图案
     name: 'Star Operator', // 名称
-    category: 'Math & Symbols', // 分类
+    categories: ['Math & Symbols'], // 分类（数组形式）
     slug: 'star-operator', // 链接
     unicode: 'U+22C6', // 编码
     seo: {
@@ -2858,7 +2858,7 @@ export const starDetailsData = [
     id: 51,
     symbol: '≛', // 图案
     name: 'Star Equals', // 名称
-    category: 'Math & Symbols', // 分类
+    categories: ['Math & Symbols'], // 分类（数组形式）
     slug: 'star-equals', // 链接
     unicode: 'U+225B', // 编码
     seo: {
@@ -2913,7 +2913,7 @@ export const starDetailsData = [
     id: 52,
     symbol: 'ᕯ', // 图案
     name: 'Canadian Syllabics Tth', // 名称
-    category: 'religious-and-cultural', // 分类
+    categories: ['religious-and-cultural'], // 分类（数组形式）
     slug: 'canadian-syllabics-tth', // 链接
     unicode: 'U+157F', // 编码
     seo: {
@@ -2968,7 +2968,7 @@ export const starDetailsData = [
     id: 53,
     symbol: '࿏', // 图案
     name: 'Tibetan Sign Rdel Nag Gsum', // 名称
-    category: 'Other Symbols', // 分类
+    categories: ['Other Symbols'], // 分类（数组形式）
     slug: 'tibetan-sign-rdel-nag-gsum', // 链接
     unicode: 'U+0FDF', // 编码
     seo: {
@@ -3023,7 +3023,7 @@ export const starDetailsData = [
     id: 54,
     symbol: '꙰', // 图案
     name: 'Combining Cyrillic Ten Millions Sign', // 名称
-    category: 'Combining Marks', // 分类
+    categories: ['Combining Marks'], // 分类（数组形式）
     slug: 'combining-cyrillic-ten-millions-sign', // 链接
     unicode: 'U+A670', // 编码
     seo: {
@@ -3078,7 +3078,7 @@ export const starDetailsData = [
     id: 55,
     symbol: '۞', // 图案
     name: 'Arabic Start Of Rub El Hizb', // 名称
-    category: 'religious-and-cultural', // 分类
+    categories: ['religious-and-cultural'], // 分类（数组形式）
     slug: 'arabic-start-of-rub-el-hizb', // 链接
     unicode: 'U+06DE', // 编码
     seo: {
@@ -3133,7 +3133,7 @@ export const starDetailsData = [
     id: 56,
     symbol: '⍟', // 图案
     name: 'Apl Functional Symbol Circle Star', // 名称
-    category: 'Mathematical Symbols', // 分类
+    categories: ['Mathematical Symbols'], // 分类（数组形式）
     slug: 'apl-functional-symbol-circle-star', // 链接
     unicode: 'U+235F', // 编码
     seo: {
@@ -3188,7 +3188,7 @@ export const starDetailsData = [
     id: 57,
     symbol: '⭐', // 图案
     name: 'White Medium Star', // 名称
-    category: 'Classic', // 分类
+    categories: ['Classic', 'Emoji'], // 分类（数组形式，属于多个分类）
     slug: 'white-medium-star', // 链接
     unicode: 'U+2B50', // 编码
     seo: {
@@ -3243,7 +3243,7 @@ export const starDetailsData = [
     id: 58,
     symbol: '🌠', // 图案
     name: 'Shooting Star', // 名称
-    category: 'Emoji', // 分类
+    categories: ['Emoji'], // 分类（数组形式）
     slug: 'shooting-star', // 链接
     unicode: 'U+1F320', // 编码
     seo: {
@@ -3297,7 +3297,7 @@ export const starDetailsData = [
     id: 59,
     symbol: '🌟', // 图案
     name: 'Glowing Star', // 名称
-    category: 'Emoji', // 分类
+    categories: ['Emoji'], // 分类（数组形式）
     slug: 'glowing-star', // 链接
     unicode: 'U+1F31F', // 编码
     seo: {
@@ -3352,7 +3352,7 @@ export const starDetailsData = [
     id: 60,
     symbol: '💫', // 图案
     name: 'Dizzy Symbol', // 名称
-    category: 'Emoji', // 分类
+    categories: ['Emoji'], // 分类（数组形式）
     slug: 'dizzy-symbol', // 链接
     unicode: 'U+1F4AB', // 编码
     seo: {
@@ -3407,7 +3407,7 @@ export const starDetailsData = [
     id: 61,
     symbol: '✨', // 图案
     name: 'Sparkles', // 名称
-    category: 'Emoji', // 分类
+    categories: ['Emoji', 'Classic'], // 分类（数组形式，属于多个分类）
     slug: 'sparkles', // 链接
     unicode: 'U+2728', // 编码
     seo: {
@@ -3461,7 +3461,7 @@ export const starDetailsData = [
     id: 62,
     symbol: '🌃', // 图案
     name: 'Night With Stars', // 名称
-    category: 'Emoji', // 分类
+    categories: ['Emoji'], // 分类（数组形式）
     slug: 'night-with-stars', // 链接
     unicode: 'U+1F303', // 编码
     seo: {
@@ -3516,7 +3516,7 @@ export const starDetailsData = [
     id: 63,
     symbol: '🔯', // 图案
     name: 'Six Pointed Star With Middle Dot', // 名称
-    category: 'emoji-stars', // 分类
+    categories: ['emoji-stars'], // 分类（数组形式）
     slug: 'six-pointed-star-with-middle-dot', // 链接
     unicode: 'U+1F52F', // 编码
     seo: {
@@ -3580,23 +3580,28 @@ const precomputedData = (() => {
     dataById.set(star.id, star)
     dataBySlug.set(star.slug, star)
 
-    const categorySlug = star.category.toLowerCase()
+    // 处理 categories 数组（支持多分类）
+    const starCategories = Array.isArray(star.categories) ? star.categories : [star.categories]
 
-    // Group by Category
-    if (!starsByCategory.has(categorySlug)) {
-      starsByCategory.set(categorySlug, [])
-    }
-    starsByCategory.get(categorySlug).push(star)
+    for (const category of starCategories) {
+      const categorySlug = category.toLowerCase()
 
-    // Aggregate Category Info
-    if (!categories.has(categorySlug)) {
-      categories.set(categorySlug, {
-        name: star.category,
-        slug: categorySlug,
-        count: 0,
-      })
+      // Group by Category
+      if (!starsByCategory.has(categorySlug)) {
+        starsByCategory.set(categorySlug, [])
+      }
+      starsByCategory.get(categorySlug).push(star)
+
+      // Aggregate Category Info
+      if (!categories.has(categorySlug)) {
+        categories.set(categorySlug, {
+          name: category,
+          slug: categorySlug,
+          count: 0,
+        })
+      }
+      categories.get(categorySlug).count++
     }
-    categories.get(categorySlug).count++
   }
 
   // Sort stars within each category by name for better organization

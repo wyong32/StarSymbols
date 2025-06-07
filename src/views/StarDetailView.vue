@@ -28,7 +28,10 @@
               {{ star.symbol }}
             </div>
             <h1>{{ star.name }}</h1>
-            <p class="star-meta">{{ star.unicode }} | Category: {{ star.category }} Stars</p>
+            <p class="star-meta">
+              {{ star.unicode }} | Categories:
+              {{ Array.isArray(star.categories) ? star.categories.join(', ') : star.categories }}
+            </p>
             <p class="copy-hint">
               {{ showCopied ? 'Copied to clipboard!' : 'Click the symbol above to copy' }}
             </p>

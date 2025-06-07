@@ -309,13 +309,6 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* Global Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .app {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
