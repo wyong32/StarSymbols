@@ -43,9 +43,9 @@ const activeTab = ref('all')
 // Symbol data
 const symbolTabs = [
   { id: 'all', name: 'All Stars' },
-  { id: 'classic', name: 'Classic Stars' },
   { id: 'solid', name: 'Solid Stars' },
   { id: 'outline', name: 'Outline Stars' },
+  { id: 'special', name: 'Special Stars' },
 ]
 
 // Computed properties
@@ -53,11 +53,6 @@ const currentSymbols = computed(() => {
   if (activeTab.value === 'all') {
     // For All tab, show all symbols where showSymbols is true
     return starSymbolsData.filter((item) => item.showSymbols).map((item) => item.symbol)
-  } else if (activeTab.value === 'classic') {
-    // For Classic tab, show symbols where showClassic is true
-    return starSymbolsData
-      .filter((item) => item.showClassic && item.showSymbols)
-      .map((item) => item.symbol)
   } else {
     // For other tabs, show symbols where tab matches and showSymbols is true
     return starSymbolsData

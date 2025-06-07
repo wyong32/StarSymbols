@@ -116,7 +116,7 @@ const starCategories = computed(() => {
       id: 'classic',
       name: 'Classic',
       symbols: starSymbolsData
-        .filter((item) => item.showClassic && item.showEdit)
+        .filter((item) => item.tab === 'classic' && item.showEdit)
         .map((item) => item.symbol),
     },
     {

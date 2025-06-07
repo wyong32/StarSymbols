@@ -132,7 +132,6 @@
 .hero-variant-about,
 .hero-variant-image {
   position: relative;
-  overflow: hidden;
   isolation: isolate; /* Create a new stacking context */
 }
 
@@ -181,7 +180,6 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   position: relative;
-  overflow: hidden;
   isolation: isolate; /* Create a new stacking context */
 }
 

@@ -97,17 +97,11 @@
         </div>
 
         <div class="faq-list">
-          <div
-            v-for="(faq, index) in faqs"
-            :key="index"
-            class="faq-item"
-            :class="{ active: activeFaq === index }"
-          >
-            <button class="faq-question" @click="toggleFaq(index)">
+          <div v-for="(faq, index) in faqs" :key="index" class="faq-item">
+            <div class="faq-question">
               {{ faq.question }}
-              <span class="faq-icon">{{ activeFaq === index ? '−' : '+' }}</span>
-            </button>
-            <div class="faq-answer" v-show="activeFaq === index">
+            </div>
+            <div class="faq-answer">
               <p>{{ faq.answer }}</p>
             </div>
           </div>
@@ -234,7 +228,6 @@ import TextGenerator from '@/components/TextGenerator.vue'
 import { copyProtection } from '@/utils/copyProtection.js'
 
 // Reactive data
-const activeFaq = ref(null)
 const showToast = ref(false)
 const toastMessage = ref('')
 
@@ -301,10 +294,6 @@ const faqs = [
 ]
 
 // Methods
-const toggleFaq = (index) => {
-  activeFaq.value = activeFaq.value === index ? null : index
-}
-
 const showToastMessage = (message) => {
   toastMessage.value = message
   showToast.value = true
@@ -352,7 +341,8 @@ onMounted(() => {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+  background-image:
+    radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
     radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.3) 0%, transparent 50%);
   z-index: 1;
@@ -619,47 +609,25 @@ section {
   margin-bottom: 1rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: box-shadow 0.3s ease;
-}
-
-.faq-item:hover {
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
 
 .faq-question {
-  width: 100%;
-  padding: 1.5rem;
-  background: none;
-  border: none;
-  text-align: left;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
   font-size: 1.1rem;
   font-weight: 600;
   color: #333;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: background 0.3s ease;
-}
-
-.faq-question:hover {
-  background: #f8f9ff;
-}
-
-.faq-icon {
-  font-size: 1.5rem;
-  color: #667eea;
-  transition: transform 0.3s ease;
-}
-
-.faq-item.active .faq-icon {
-  transform: rotate(180deg);
+  border-bottom: 2px solid #f0f0f0;
+  margin-bottom: 0.5rem;
 }
 
 .faq-answer {
   padding: 0 1.5rem 1.5rem;
   color: #666;
   line-height: 1.6;
+}
+
+.faq-answer p {
+  margin: 0;
 }
 
 .about-content {
@@ -858,7 +826,11 @@ section {
 
   .faq-question {
     font-size: 1rem;
-    padding: 1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
+  }
+
+  .faq-answer {
+    padding: 0 1rem 1rem;
   }
 
   .faq-answer p {
@@ -957,7 +929,11 @@ section {
 
   .faq-question {
     font-size: 0.9rem;
-    padding: 0.8rem;
+    padding: 0.8rem 0.8rem 0.4rem 0.8rem;
+  }
+
+  .faq-answer {
+    padding: 0 0.8rem 0.8rem;
   }
 
   .faq-answer p {

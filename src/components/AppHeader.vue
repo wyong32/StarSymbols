@@ -1,5 +1,5 @@
 <template>
-  <header class="header">
+  <header class="header" :style="{ '--header-height': '80px' }">
     <div class="header-container">
       <div class="logo">
         <span class="star-icon">⭐</span>
