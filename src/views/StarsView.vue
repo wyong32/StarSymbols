@@ -102,52 +102,66 @@ const router = useRouter()
 const predefinedCategories = [
   {
     id: 1,
-    displayName: 'Classic Dingbats stars',
+    displayName: 'Classic Star',
     description:
       'A set of classic Unicode star symbols from the Dingbats block, perfect for decoration, emphasis, and design use',
     matchCategories: ['Classic'], // 匹配数据中的category字段
   },
   {
     id: 2,
-    displayName: 'Four Pointed Stars',
+    displayName: 'Four-Pointed Star',
     description:
       'Stylized Unicode stars with four points, often used for sparkle effects, highlights, or decorative accents.',
-    matchCategories: ['four-pointed-stars'],
+    matchCategories: ['Four-Pointed Star'],
   },
   {
     id: 3,
-    displayName: 'Asterisk & Multi-Pointed',
+    displayName: 'Five-Pointed Star',
     description:
       'A pentagram or pentacle is a five-pointed star drawn with a single continuous line. Pentagrams mean different things to different people, but they’re closely associated with mysticism and religion.',
-    matchCategories: ['asterisk-and-multi-pointed'],
+    matchCategories: ['Five-Pointed Star'],
   },
   {
     id: 4,
-    displayName: 'Religious & Cultural',
+    displayName: 'Six-Pointed Star',
     description:
       'A collection of star-like Unicode symbols including asterisks and stars with many points—ideal for emphasis, decoration, and symbolic use.',
-    matchCategories: ['religious-and-cultural'],
+    matchCategories: ['Six-Pointed Star'],
   },
   {
     id: 5,
-    displayName: 'Emoji Stars',
+    displayName: 'Multi-pointed Star',
     description:
       'Colorful and expressive star emojis used to convey magic, sparkle, celebration, or nighttime scenes in digital communication.',
-    matchCategories: ['emoji-stars', 'Emoji'],
+    matchCategories: ['Multi-pointed Star'],
   },
   {
     id: 6,
-    displayName: 'Math & Symbols',
+    displayName: 'Religious Star',
     description:
       'Mathematical star symbols and operators used in technical documentation and mathematical notation.',
-    matchCategories: ['Math & Symbols', 'Mathematical Symbols'],
+    matchCategories: ['Religious Star'],
   },
   {
     id: 7,
-    displayName: 'Other Symbols',
+    displayName: 'Emoji Star',
     description:
       'Miscellaneous star-like symbols from various Unicode blocks and special character sets.',
-    matchCategories: ['Other Symbols', 'Combining Marks'],
+    matchCategories: ['Emoji Star'],
+  },
+  {
+    id: 8,
+    displayName: 'Math symbols star',
+    description:
+      'Miscellaneous star-like symbols from various Unicode blocks and special character sets.',
+    matchCategories: ['Math Symbols Star'],
+  },
+  {
+    id: 9,
+    displayName: 'Other stars',
+    description:
+      'Miscellaneous star-like symbols from various Unicode blocks and special character sets.',
+    matchCategories: ['Other star'],
   },
 ]
 

@@ -43,9 +43,15 @@ const activeTab = ref('all')
 // Symbol data
 const symbolTabs = [
   { id: 'all', name: 'All Stars' },
-  { id: 'solid', name: 'Solid Stars' },
-  { id: 'outline', name: 'Outline Stars' },
-  { id: 'special', name: 'Special Stars' },
+  { id: 'classic', name: 'Classic' },
+  { id: 'five-pointed', name: 'Five Pointed' },
+  { id: 'four-pointed', name: 'Four Pointed' },
+  { id: 'six-pointed', name: 'Six Pointed' },
+  { id: 'multi-pointed', name: 'Multi Pointed' },
+  { id: 'religious', name: 'Religious' },
+  { id: 'emoji', name: 'Emoji' },
+  { id: 'math', name: 'Math' },
+  { id: 'other', name: 'Other' },
 ]
 
 // Computed properties
@@ -54,9 +60,14 @@ const currentSymbols = computed(() => {
     // For All tab, show all symbols where showSymbols is true
     return starSymbolsData.filter((item) => item.showSymbols).map((item) => item.symbol)
   } else {
-    // For other tabs, show symbols where tab matches and showSymbols is true
+    // For other tabs, show symbols where tab array includes the activeTab, and showSymbols is true
     return starSymbolsData
-      .filter((item) => item.tab === activeTab.value && item.showSymbols)
+      .filter((item) => {
+        const matchesTab = Array.isArray(item.tab)
+          ? item.tab.includes(activeTab.value)
+          : item.tab === activeTab.value
+        return matchesTab && item.showSymbols
+      })
       .map((item) => item.symbol)
   }
 })
@@ -84,6 +95,7 @@ const copySymbol = async (symbol) => {
 .tab-buttons {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
 }

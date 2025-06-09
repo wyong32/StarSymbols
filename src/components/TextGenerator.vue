@@ -124,28 +124,108 @@ const starCategories = computed(() => {
       id: 'classic',
       name: 'Classic',
       symbols: starSymbolsData
-        .filter((item) => item.tab === 'classic' && item.showEdit)
+        .filter((item) => {
+          const matchesTab = Array.isArray(item.tab)
+            ? item.tab.includes('classic')
+            : item.tab === 'classic'
+          return matchesTab && item.showEdit
+        })
         .map((item) => item.symbol),
     },
     {
-      id: 'solid',
-      name: 'Solid',
+      id: 'five-pointed',
+      name: 'Five Pointed',
       symbols: starSymbolsData
-        .filter((item) => item.tab === 'solid' && item.showEdit)
+        .filter((item) => {
+          const matchesTab = Array.isArray(item.tab)
+            ? item.tab.includes('five-pointed')
+            : item.tab === 'five-pointed'
+          return matchesTab && item.showEdit
+        })
         .map((item) => item.symbol),
     },
     {
-      id: 'outline',
-      name: 'Outline',
+      id: 'four-pointed',
+      name: 'Four Pointed',
       symbols: starSymbolsData
-        .filter((item) => item.tab === 'outline' && item.showEdit)
+        .filter((item) => {
+          const matchesTab = Array.isArray(item.tab)
+            ? item.tab.includes('four-pointed')
+            : item.tab === 'four-pointed'
+          return matchesTab && item.showEdit
+        })
         .map((item) => item.symbol),
     },
     {
-      id: 'special',
-      name: 'Special',
+      id: 'six-pointed',
+      name: 'Six Pointed',
       symbols: starSymbolsData
-        .filter((item) => item.tab === 'special' && item.showEdit)
+        .filter((item) => {
+          const matchesTab = Array.isArray(item.tab)
+            ? item.tab.includes('six-pointed')
+            : item.tab === 'six-pointed'
+          return matchesTab && item.showEdit
+        })
+        .map((item) => item.symbol),
+    },
+    {
+      id: 'multi-pointed',
+      name: 'Multi Pointed',
+      symbols: starSymbolsData
+        .filter((item) => {
+          const matchesTab = Array.isArray(item.tab)
+            ? item.tab.includes('multi-pointed')
+            : item.tab === 'multi-pointed'
+          return matchesTab && item.showEdit
+        })
+        .map((item) => item.symbol),
+    },
+    {
+      id: 'religious',
+      name: 'Religious',
+      symbols: starSymbolsData
+        .filter((item) => {
+          const matchesTab = Array.isArray(item.tab)
+            ? item.tab.includes('religious')
+            : item.tab === 'religious'
+          return matchesTab && item.showEdit
+        })
+        .map((item) => item.symbol),
+    },
+    {
+      id: 'emoji',
+      name: 'Emoji',
+      symbols: starSymbolsData
+        .filter((item) => {
+          const matchesTab = Array.isArray(item.tab)
+            ? item.tab.includes('emoji')
+            : item.tab === 'emoji'
+          return matchesTab && item.showEdit
+        })
+        .map((item) => item.symbol),
+    },
+    {
+      id: 'math',
+      name: 'Math',
+      symbols: starSymbolsData
+        .filter((item) => {
+          const matchesTab = Array.isArray(item.tab)
+            ? item.tab.includes('math')
+            : item.tab === 'math'
+          return matchesTab && item.showEdit
+        })
+        .map((item) => item.symbol),
+    },
+    {
+      id: 'other',
+      name: 'Other',
+      symbols: starSymbolsData
+        .filter((item) => {
+          const matchesTab = Array.isArray(item.tab)
+            ? item.tab.includes('other')
+            : item.tab === 'other'
+          return matchesTab && item.showEdit
+        })
         .map((item) => item.symbol),
     },
   ]
@@ -399,6 +479,8 @@ const insertStarIntoText = (star) => {
   min-width: 60px;
   padding-top: 0.5rem;
   flex-shrink: 0;
+  width: 100px;
+  text-align: right;
 }
 
 .star-symbols-row {
@@ -526,6 +608,7 @@ const insertStarIntoText = (star) => {
     min-width: auto;
     padding-top: 0;
     font-size: 0.85rem;
+    text-align: left;
   }
 
   .star-picker-item {

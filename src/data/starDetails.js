@@ -4,7 +4,7 @@ export const starDetailsData = [
     id: 1,
     symbol: '★', // 图案
     name: 'Black Star', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'black-star', // 链接
     unicode: 'U+2605', // 编码
     seo: {
@@ -24,52 +24,65 @@ export const starDetailsData = [
     },
     htmlContent: `
     <section>
-  <h2>Typing ★ Using Alt Code</h2>
-  <p>To type the ★ (Black Star) symbol using your keyboard, follow these steps:</p>
-  <ol>
-    <li>Ensure that <strong>Num Lock</strong> is enabled on your keyboard.</li>
-    <li>Hold down the <strong>left Alt key</strong>.</li>
-    <li>While holding Alt, type <strong>9733</strong> on the numeric keypad.</li>
-    <li>Release the Alt key, and the ★ symbol will appear.</li>
-  </ol>
-  <p>This Alt code method works for many other special characters as well.</p>
+  <h2>How to Type ★ (Black Star) Symbol</h2>
 
-  <h2>How to Add Black Star in HTML</h2>
-  <p>You can display the ★ symbol in HTML using an entity name, decimal code, or hexadecimal code. Here are the examples:</p>
+  <h3>Using Alt Code on Windows</h3>
+  <p>You can type the ★ symbol using the Alt code method:</p>
+  <ol>
+    <li>Ensure that <strong>Num Lock</strong> is turned on.</li>
+    <li>Hold down the <strong>left Alt key</strong>.</li>
+    <li>Type <strong>9733</strong> on the numeric keypad.</li>
+    <li>Release the Alt key to insert the ★ symbol.</li>
+  </ol>
+  <p>This technique works on most Windows systems and supports many other special characters.</p>
+
+  <h3>Typing ★ on Mac</h3>
+  <p>Mac does not support Alt codes like Windows. Instead, press <strong>Control + Command + Space</strong> to open the Character Viewer, then search for “star” and select the ★ symbol.</p>
+
+  <h3>Typing ★ on iPhone and Android</h3>
+  <p>On mobile devices, open the emoji keyboard and search for the black star symbol or copy and paste it directly from here: <strong>★</strong>.</p>
+
+  <h3>How to Use ★ in HTML</h3>
+  <p>Here are several ways to include the ★ symbol in your HTML code:</p>
 
   <pre><code>&lt;!-- HTML entity --&gt;
-&lt;span&gt;I am &amp;starf; Symbol&lt;/span&gt;
+&lt;span&gt;I am &amp;starf; Symbol&lt;/span&gt;</code></pre>
 
-&lt;!-- HTML code (decimal) --&gt;
-&lt;span&gt;I am &#9733; Symbol&lt;/span&gt;
+  <pre><code>&lt;!-- HTML decimal code --&gt;
+&lt;span&gt;I am &#9733; Symbol&lt;/span&gt;</code></pre>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2605; Symbol&lt;/span&gt;
-</code></pre>
+  <pre><code>&lt;!-- HTML hexadecimal code --&gt;
+&lt;span&gt;I am &#x2605; Symbol&lt;/span&gt;</code></pre>
 
-  <p>All the above will render as: <strong>I am ★ Symbol</strong></p>
+  <p>All three methods render as: <strong>I am ★ Symbol</strong></p>
 
-  <h2>How to Add Black Star in CSS</h2>
-  <p>To use the ★ symbol in CSS, apply it with the <code>content</code> property in a <code>:before</code> or <code>:after</code> pseudo-element. Example:</p>
+  <h3>How to Use ★ in CSS</h3>
+  <p>Use the CSS <code>content</code> property to display the ★ symbol with pseudo-elements:</p>
 
-  <pre><code>/* CSS entity code */
+  <pre><code>/* CSS */
 .addSymbol::after {
   content: '\\2605';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Black Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="addSymbol"&gt;Black Star&lt;/div&gt;</code></pre>
 
-  <p>This will display: <strong>Black Star★</strong></p>
-</section>`,
+  <p>This will render as: <strong>Black Star★</strong></p>
+
+  <h3>What Is the ★ Symbol?</h3>
+  <p>The ★ (Black Star) is a classic five-pointed star used for various purposes such as decoration, rating systems, emphasis, and symbolic representation. It’s a filled version of the white star (☆).</p>
+
+  <h3>What Does ★ Mean?</h3>
+  <p>The ★ symbol often represents excellence, achievement, or a highlighted item. In rating systems, it typically indicates quality (e.g., ★★★★★ for a 5-star rating).</p>
+</section>
+`,
   },
 
   {
     id: 2,
     symbol: '☆', // 图案
     name: 'White Star', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'white-star', // 链接
     unicode: 'U+2606', // 编码
     seo: {
@@ -89,44 +102,55 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ☆ Using Alt Code</h2>
-<p>To type the ☆ (White Star) symbol using your keyboard, follow these steps:</p>
-<ol>
-  <li>Ensure that <strong>Num Lock</strong> is enabled on your keyboard.</li>
-  <li>Hold down the <strong>left Alt key</strong>.</li>
-  <li>While holding Alt, type <strong>9734</strong> on the numeric keypad.</li>
-  <li>Release the Alt key, and the ☆ symbol will appear.</li>
-</ol>
-<p>This Alt code method is useful for inserting special characters quickly.</p>
+  <h2>How to Type ☆ (White Star) Symbol</h2>
 
-<h2>How to Add White Star in HTML</h2>
-<p>You can display the ☆ symbol in HTML using entity names or numeric codes. Here are some examples:</p>
+  <h3>Using Alt Code on Windows</h3>
+  <p>You can type the ☆ symbol using the Alt code method on Windows:</p>
+  <ol>
+    <li>Make sure <strong>Num Lock</strong> is turned on.</li>
+    <li>Hold down the <strong>left Alt key</strong>.</li>
+    <li>Type <strong>9734</strong> using the numeric keypad.</li>
+    <li>Release the Alt key, and the ☆ symbol will appear.</li>
+  </ol>
 
-<pre><code>&lt;!-- HTML entity --&gt;
-&lt;span&gt;I am &amp;star; Symbol&lt;/span&gt;
+  <h3>Typing ☆ on Mac</h3>
+  <p>To type the White Star on a Mac, press <strong>Control + Command + Space</strong> to open the Character Viewer, then search for "star" and choose the ☆ symbol.</p>
 
-&lt;!-- HTML code (decimal) --&gt;
-&lt;span&gt;I am &#9734; Symbol&lt;/span&gt;
+  <h3>Typing ☆ on iPhone and Android</h3>
+  <p>On mobile devices, open the emoji or symbol keyboard and look for the white star symbol. You can also copy it from here: <strong>☆</strong>.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2606; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>How to Use ☆ in HTML</h3>
+  <p>You can add the ☆ symbol in HTML using different formats:</p>
 
-<p>All the above will render as: <strong>I am ☆ Symbol</strong></p>
+  <pre><code>&lt;!-- HTML entity --&gt;
+&lt;span&gt;I am &amp;star; Symbol&lt;/span&gt;</code></pre>
 
-<h2>How to Add White Star in CSS</h2>
-<p>To use the ☆ symbol in CSS, apply it with the <code>content</code> property in a <code>:before</code> or <code>:after</code> pseudo-element. Example:</p>
+  <pre><code>&lt;!-- HTML decimal code --&gt;
+&lt;span&gt;I am &#9734; Symbol&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS entity code */
-.addSymbol::after {
+  <pre><code>&lt;!-- HTML hexadecimal code --&gt;
+&lt;span&gt;I am &#x2606; Symbol&lt;/span&gt;</code></pre>
+
+  <p>All of these will render as: <strong>I am ☆ Symbol</strong></p>
+
+  <h3>How to Use ☆ in CSS</h3>
+  <p>You can include the ☆ symbol in your CSS using the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.addSymbol::before {
   content: '\\2606';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;White Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="addSymbol"&gt;White Star&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>White Star☆</strong></p>
+  <p>This will render as: <strong>☆White Star</strong></p>
+
+  <h3>What Is the ☆ Symbol?</h3>
+  <p>The ☆ (White Star) is a classic five-pointed hollow star. It is often used to represent outlines of stars, rating systems, decorative text, or symbolic meanings.</p>
+
+  <h3>What Does ☆ Mean?</h3>
+  <p>The ☆ symbol typically represents an empty or unrated star in review systems. It can also convey creativity, uniqueness, or serve as a decorative element in design.</p>
 </section>`,
   },
 
@@ -134,7 +158,7 @@ export const starDetailsData = [
     id: 3,
     symbol: '✡', // 图案
     name: 'Star of David', // 名称
-    categories: ['religious-and-cultural', 'Classic'], // 分类（数组形式，属于多个分类）
+    categories: ['Classic', 'Six-Pointed Star', 'Religious Star'], // 分类（数组形式，属于多个分类）
     slug: 'star-of-david', // 链接
     unicode: 'U+2721', // 编码
     seo: {
@@ -149,54 +173,66 @@ export const starDetailsData = [
       altCode: 'Alt+10017',
       htmlCode: '&#10017;',
       cssCode: '"\\2721"',
-      htmlEntity: '', // no named entity for this symbol
+      htmlEntity: '&#10017;', // no named entity for this symbol
       hexCode: '&#x2721;',
     },
     htmlContent: `
   <section>
-<h2>Typing ✡ Using Alt Code</h2>
-<p>To type the ✡ (Star of David) symbol using your keyboard, follow these steps:</p>
-<ol>
-  <li>Ensure that <strong>Num Lock</strong> is enabled on your keyboard.</li>
-  <li>Hold down the <strong>left Alt key</strong>.</li>
-  <li>While holding Alt, type <strong>10017</strong> on the numeric keypad.</li>
-  <li>Release the Alt key, and the ✡ symbol will appear.</li>
-</ol>
-<p>This method works in many Windows applications that support Unicode input.</p>
+  <h2>How to Type ✡ (Star of David) Symbol</h2>
 
-<h2>How to Add Star of David in HTML</h2>
-<p>You can insert the ✡ symbol in HTML using numeric codes. Examples:</p>
+  <h3>Using Alt Code on Windows</h3>
+  <p>You can type the ✡ symbol using the Alt code method:</p>
+  <ol>
+    <li>Make sure <strong>Num Lock</strong> is turned on.</li>
+    <li>Hold the <strong>left Alt key</strong>.</li>
+    <li>Type <strong>10017</strong> using the numeric keypad.</li>
+    <li>Release the Alt key to insert the ✡ symbol.</li>
+  </ol>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10017; Symbol&lt;/span&gt;
+  <h3>Typing ✡ on Mac</h3>
+  <p>On a Mac, press <strong>Control + Command + Space</strong> to open the Character Viewer. Search for "Star of David" and select the ✡ symbol from the list.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2721; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing ✡ on iPhone and Android</h3>
+  <p>On mobile devices, open the emoji or symbol keyboard and search for "Star of David" or copy it directly from here: <strong>✡</strong>.</p>
 
-<p>These will render as: <strong>I am ✡ Symbol</strong></p>
+  <h3>How to Use ✡ in HTML</h3>
+  <p>You can include the ✡ symbol in HTML using the following methods:</p>
 
-<h2>How to Add Star of David in CSS</h2>
-<p>To use the ✡ symbol in CSS, you can insert it with the <code>content</code> property like so:</p>
+  <pre><code>&lt;!-- HTML code (decimal) --&gt;
+&lt;span&gt;I am &#10017; Symbol&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- HTML hexadecimal code --&gt;
+&lt;span&gt;I am &#x2721; Symbol&lt;/span&gt;</code></pre>
+
+  <p>These will render as: <strong>I am ✡ Symbol</strong></p>
+
+  <h3>How to Use ✡ in CSS</h3>
+  <p>You can display the ✡ symbol using CSS <code>content</code> with a pseudo-element:</p>
+
+  <pre><code>/* CSS */
+.addSymbol::before {
   content: '\\2721';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Star of David&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="addSymbol"&gt;Star of David&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Star of David✡</strong></p>
-</section>`,
+  <p>This will render as: <strong>✡Star of David</strong></p>
+
+  <h3>What Is the ✡ Symbol?</h3>
+  <p>The ✡ (Star of David) is a six-pointed star composed of two overlapping triangles. It is a widely recognized symbol of Judaism and Jewish identity.</p>
+
+  <h3>What Does ✡ Mean?</h3>
+  <p>The Star of David represents divine protection, unity, and spirituality in Jewish tradition. It appears on synagogues, gravestones, and the flag of Israel.</p>
+</section>
+`,
   },
 
   {
     id: 4,
     symbol: '✦', // 图案
     name: 'Black Four Pointed Star', // 名称
-    categories: ['four-pointed-stars'], // 分类（数组形式）
+    categories: ['Classic', 'Four-Pointed Star'], // 分类（数组形式）
     slug: 'black-four-pointed-star', // 链接
     unicode: 'U+2726', // 编码
     seo: {
@@ -211,54 +247,66 @@ export const starDetailsData = [
       altCode: 'Alt+10022',
       htmlCode: '&#10022;',
       cssCode: '"\\2726"',
-      htmlEntity: '', // no named entity
+      htmlEntity: '&#10022;', // no named entity
       hexCode: '&#x2726;',
     },
     htmlContent: `
   <section>
-<h2>Typing ✦ Using Alt Code</h2>
-<p>To type the ✦ (Black Four Pointed Star) symbol using your keyboard, follow these steps:</p>
-<ol>
-  <li>Ensure that <strong>Num Lock</strong> is enabled on your keyboard.</li>
-  <li>Hold down the <strong>left Alt key</strong>.</li>
-  <li>While holding Alt, type <strong>10022</strong> on the numeric keypad.</li>
-  <li>Release the Alt key, and the ✦ symbol will appear.</li>
-</ol>
-<p>This method lets you insert special characters quickly in supported environments.</p>
+  <h2>How to Type ✦ (Black Four Pointed Star) Symbol</h2>
 
-<h2>How to Add Black Four Pointed Star in HTML</h2>
-<p>You can use the following HTML codes to render the ✦ symbol:</p>
+  <h3>Using Alt Code on Windows</h3>
+  <p>To type the ✦ symbol with your keyboard:</p>
+  <ol>
+    <li>Ensure <strong>Num Lock</strong> is enabled.</li>
+    <li>Hold down the <strong>left Alt key</strong>.</li>
+    <li>Type <strong>10022</strong> using the numeric keypad.</li>
+    <li>Release the Alt key and the ✦ symbol will appear.</li>
+  </ol>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10022; Symbol&lt;/span&gt;
+  <h3>Typing ✦ on Mac</h3>
+  <p>On Mac, press <strong>Control + Command + Space</strong> to open the Character Viewer. Then search for "star" and choose the ✦ symbol.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2726; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing ✦ on iPhone and Android</h3>
+  <p>On mobile devices, open the emoji or symbols keyboard and look for star shapes. You can also copy it directly from here: <strong>✦</strong>.</p>
 
-<p>These will render as: <strong>I am ✦ Symbol</strong></p>
+  <h3>How to Use ✦ in HTML</h3>
+  <p>You can add the ✦ symbol in your HTML using these formats:</p>
 
-<h2>How to Add Black Four Pointed Star in CSS</h2>
-<p>To use the ✦ symbol in CSS, apply it with the <code>content</code> property in a pseudo-element:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;I am &#10022; Symbol&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;I am &#x2726; Symbol&lt;/span&gt;</code></pre>
+
+  <p>Both will display as: <strong>I am ✦ Symbol</strong></p>
+
+  <h3>How to Use ✦ in CSS</h3>
+  <p>Use the ✦ symbol in CSS via the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
 .addSymbol::after {
   content: '\\2726';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Black Four Pointed Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="addSymbol"&gt;Black Four Pointed Star&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Black Four Pointed Star✦</strong></p>
-</section>`,
+  <p>This will display: <strong>Black Four Pointed Star✦</strong></p>
+
+  <h3>What Is the ✦ Symbol?</h3>
+  <p>The ✦ (Black Four Pointed Star) is a decorative Unicode symbol featuring a four-pointed star shape. It’s often used to create stylish text effects or design accents.</p>
+
+  <h3>What Does ✦ Mean?</h3>
+  <p>The ✦ symbol is typically used for visual emphasis. It resembles a sparkle or flare and is often placed near text, headers, or icons to draw attention or add flair.</p>
+</section>
+`,
   },
 
   {
     id: 5,
     symbol: '✧', // 图案
     name: 'White Four Pointed Star', // 名称
-    categories: ['four-pointed-stars'], // 分类（数组形式）
+    categories: ['Classic', 'Four-Pointed Star'], // 分类（数组形式）
     slug: 'white-four-pointed-star', // 链接
     unicode: 'U+2727', // 编码
     seo: {
@@ -273,54 +321,66 @@ export const starDetailsData = [
       altCode: 'Alt+10023',
       htmlCode: '&#10023;',
       cssCode: '"\\2727"',
-      htmlEntity: '', // no named entity
+      htmlEntity: '&#10023;', // no named entity
       hexCode: '&#x2727;',
     },
     htmlContent: `
   <section>
-<h2>Typing ✧ Using Alt Code</h2>
-<p>To type the ✧ (White Four Pointed Star) symbol using your keyboard, follow these steps:</p>
-<ol>
-  <li>Ensure that <strong>Num Lock</strong> is enabled on your keyboard.</li>
-  <li>Hold down the <strong>left Alt key</strong>.</li>
-  <li>While holding Alt, type <strong>10023</strong> on the numeric keypad.</li>
-  <li>Release the Alt key, and the ✧ symbol will appear.</li>
-</ol>
-<p>This is a quick way to insert the ✧ symbol in compatible Windows applications.</p>
+  <h2>How to Type ✧ (White Four Pointed Star) Symbol</h2>
 
-<h2>How to Add White Four Pointed Star in HTML</h2>
-<p>You can display the ✧ symbol using the following HTML codes:</p>
+  <h3>Using Alt Code on Windows</h3>
+  <p>To type the ✧ symbol on a Windows keyboard:</p>
+  <ol>
+    <li>Turn on <strong>Num Lock</strong>.</li>
+    <li>Hold down the <strong>left Alt key</strong>.</li>
+    <li>Type <strong>10023</strong> using the numeric keypad.</li>
+    <li>Release the Alt key and the ✧ symbol will appear.</li>
+  </ol>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10023; Symbol&lt;/span&gt;
+  <h3>Typing ✧ on Mac</h3>
+  <p>On macOS, press <strong>Control + Command + Space</strong> to open the Character Viewer. Search for "star" and select the ✧ symbol from the list.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2727; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing ✧ on iPhone and Android</h3>
+  <p>On mobile devices, open the emoji or symbol keyboard and search for "star". Alternatively, you can copy it from here: <strong>✧</strong>.</p>
 
-<p>Both render as: <strong>I am ✧ Symbol</strong></p>
+  <h3>How to Use ✧ in HTML</h3>
+  <p>You can display the ✧ symbol in HTML using decimal or hexadecimal codes:</p>
 
-<h2>How to Add White Four Pointed Star in CSS</h2>
-<p>Use the ✧ symbol in CSS with the <code>content</code> property in a pseudo-element:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;I am &#10023; Symbol&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;I am &#x2727; Symbol&lt;/span&gt;</code></pre>
+
+  <p>These both render as: <strong>I am ✧ Symbol</strong></p>
+
+  <h3>How to Use ✧ in CSS</h3>
+  <p>You can insert the ✧ symbol in CSS using the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.addSymbol::before {
   content: '\\2727';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;White Four Pointed Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="addSymbol"&gt;White Four Pointed Star&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>White Four Pointed Star✧</strong></p>
-</section>`,
+  <p>This displays as: <strong>✧White Four Pointed Star</strong></p>
+
+  <h3>What Is the ✧ Symbol?</h3>
+  <p>The ✧ (White Four Pointed Star) is a decorative hollow star symbol from the Unicode character set. It resembles a sparkle or shining effect and is used for visual flair in text and design.</p>
+
+  <h3>What Does ✧ Mean?</h3>
+  <p>Commonly used to indicate twinkles, sparkles, or magical moments, the ✧ symbol brings elegance and stylistic emphasis to your content.</p>
+</section>
+`,
   },
 
   {
     id: 6,
     symbol: '✩', // 图案
     name: 'Stress Outlined White Star', // 名称
-    categories: ['four-pointed-stars'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'stress-outlined-white-star', // 链接
     unicode: 'U+2729', // 编码
     seo: {
@@ -335,54 +395,66 @@ export const starDetailsData = [
       altCode: 'Alt+10025',
       htmlCode: '&#10025;',
       cssCode: '"\\2729"',
-      htmlEntity: '', // no named entity
+      htmlEntity: '&#10025;', // no named entity
       hexCode: '&#x2729;',
     },
     htmlContent: `
   <section>
-<h2>Typing ✩ Using Alt Code</h2>
-<p>To type the ✩ (Stress Outlined White Star) symbol using your keyboard, follow these steps:</p>
-<ol>
-  <li>Ensure that <strong>Num Lock</strong> is enabled on your keyboard.</li>
-  <li>Hold down the <strong>left Alt key</strong>.</li>
-  <li>While holding Alt, type <strong>10025</strong> on the numeric keypad.</li>
-  <li>Release the Alt key, and the ✩ symbol will appear.</li>
-</ol>
-<p>This shortcut allows quick insertion of the outlined star symbol.</p>
+  <h2>How to Type ✩ (Stress Outlined White Star) Symbol</h2>
 
-<h2>How to Add Stress Outlined White Star in HTML</h2>
-<p>You can add the ✩ symbol using HTML codes. Here are some examples:</p>
+  <h3>Using Alt Code on Windows</h3>
+  <p>You can type the ✩ symbol using the Alt code method:</p>
+  <ol>
+    <li>Enable <strong>Num Lock</strong> on your keyboard.</li>
+    <li>Hold down the <strong>left Alt key</strong>.</li>
+    <li>Type <strong>10025</strong> on the numeric keypad.</li>
+    <li>Release the Alt key and the ✩ symbol will appear.</li>
+  </ol>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10025; Symbol&lt;/span&gt;
+  <h3>Typing ✩ on Mac</h3>
+  <p>On macOS, press <strong>Control + Command + Space</strong> to open the Character Viewer. Search for "star" and select the ✩ symbol.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2729; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing ✩ on iPhone and Android</h3>
+  <p>Use the emoji/symbol keyboard and search for "star", or simply copy the symbol from here: <strong>✩</strong>.</p>
 
-<p>These will both render as: <strong>I am ✩ Symbol</strong></p>
+  <h3>How to Use ✩ in HTML</h3>
+  <p>Use any of the following methods to display the ✩ symbol in HTML:</p>
 
-<h2>How to Add Stress Outlined White Star in CSS</h2>
-<p>To use the ✩ symbol in CSS, apply it using the <code>content</code> property in a pseudo-element:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;I am &#10025; Symbol&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;I am &#x2729; Symbol&lt;/span&gt;</code></pre>
+
+  <p>These will both render as: <strong>I am ✩ Symbol</strong></p>
+
+  <h3>How to Use ✩ in CSS</h3>
+  <p>You can apply the ✩ symbol using the <code>content</code> property in CSS:</p>
+
+  <pre><code>/* CSS */
 .addSymbol::after {
   content: '\\2729';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Stress Outlined White Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="addSymbol"&gt;Stress Outlined White Star&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Stress Outlined White Star✩</strong></p>
-</section>`,
+  <p>This will display as: <strong>Stress Outlined White Star✩</strong></p>
+
+  <h3>What Is the ✩ Symbol?</h3>
+  <p>The ✩ (Stress Outlined White Star) is a Unicode character that resembles a five-pointed star with bold outlines. It is visually striking and often used to enhance decorative designs, headings, or stylized text.</p>
+
+  <h3>What Does ✩ Mean?</h3>
+  <p>This outlined star is typically used for visual emphasis, artistic styling, or to evoke a magical or sparkling theme in writing and graphic design.</p>
+</section>
+`,
   },
 
   {
     id: 7,
     symbol: '✪', // 图案
     name: 'Circled White Star', // 名称
-    categories: ['four-pointed-stars'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'circled-white-star', // 链接
     unicode: 'U+272A', // 编码
     seo: {
@@ -397,54 +469,66 @@ export const starDetailsData = [
       altCode: 'Alt+10026',
       htmlCode: '&#10026;',
       cssCode: '"\\272A"',
-      htmlEntity: '', // 无命名实体
+      htmlEntity: '&#10026;', // 无命名实体
       hexCode: '&#x272A;',
     },
     htmlContent: `
   <section>
-<h2>Typing ✪ Using Alt Code</h2>
-<p>To type the ✪ (Circled White Star) symbol using your keyboard, follow these steps:</p>
-<ol>
-  <li>Make sure <strong>Num Lock</strong> is enabled.</li>
-  <li>Hold down the <strong>left Alt key</strong>.</li>
-  <li>While holding Alt, type <strong>10026</strong> on the numeric keypad.</li>
-  <li>Release the Alt key to see the ✪ symbol.</li>
-</ol>
-<p>This works in many Windows applications that support Unicode input.</p>
+  <h2>How to Type ✪ (Circled White Star) Symbol</h2>
 
-<h2>How to Add Circled White Star in HTML</h2>
-<p>Use the following HTML codes to display the ✪ symbol:</p>
+  <h3>Using Alt Code on Windows</h3>
+  <p>You can type the ✪ symbol using this Alt code method:</p>
+  <ol>
+    <li>Make sure <strong>Num Lock</strong> is on.</li>
+    <li>Hold the <strong>left Alt key</strong>.</li>
+    <li>Type <strong>10026</strong> using the numeric keypad.</li>
+    <li>Release the Alt key to insert the ✪ symbol.</li>
+  </ol>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10026; Symbol&lt;/span&gt;
+  <h3>Typing ✪ on Mac</h3>
+  <p>Use <strong>Control + Command + Space</strong> to open the Character Viewer. Search “star” and choose ✪ from the options.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x272A; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing ✪ on iPhone and Android</h3>
+  <p>Use your device’s emoji/symbol keyboard and search for “star”. You can also copy this: <strong>✪</strong>.</p>
 
-<p>These render as: <strong>I am ✪ Symbol</strong></p>
+  <h3>How to Use ✪ in HTML</h3>
+  <p>Here are ways to add the Circled White Star in HTML:</p>
 
-<h2>How to Add Circled White Star in CSS</h2>
-<p>To use the ✪ symbol in CSS, insert it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;I am &#10026; Symbol&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hex code --&gt;
+&lt;span&gt;I am &#x272A; Symbol&lt;/span&gt;</code></pre>
+
+  <p>Both render as: <strong>I am ✪ Symbol</strong></p>
+
+  <h3>How to Use ✪ in CSS</h3>
+  <p>Use the <code>content</code> property with a pseudo-element like this:</p>
+
+  <pre><code>/* CSS */
+.addSymbol::before {
   content: '\\272A';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Circled White Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="addSymbol"&gt;Circled White Star&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Circled White Star✪</strong></p>
-</section>`,
+  <p>This will display: <strong>✪Circled White Star</strong></p>
+
+  <h3>What Is the ✪ Symbol?</h3>
+  <p>The ✪ symbol is a five-pointed white star inside a circle. It is part of the Unicode Dingbats block and is commonly used in decorative designs and to create visual emphasis.</p>
+
+  <h3>What Does ✪ Mean?</h3>
+  <p>The Circled White Star often symbolizes fame, spotlight, or special importance. It’s popular in design elements, badges, buttons, or to highlight something noteworthy.</p>
+</section>
+`,
   },
 
   {
     id: 8,
     symbol: '✫', // 图案
     name: 'Open Centre Black Star', // 名称
-    categories: ['four-pointed-stars'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'open-centre-black-star', // 链接
     unicode: 'U+272B', // 编码
     seo: {
@@ -459,54 +543,66 @@ export const starDetailsData = [
       altCode: 'Alt+10027',
       htmlCode: '&#10027;',
       cssCode: '"\\272B"',
-      htmlEntity: '', // 无命名实体
+      htmlEntity: '&#10027;', // 无命名实体
       hexCode: '&#x272B;',
     },
     htmlContent: `
   <section>
-<h2>Typing ✫ Using Alt Code</h2>
-<p>To type the ✫ (Open Centre Black Star) symbol using your keyboard, follow these steps:</p>
-<ol>
-  <li>Ensure <strong>Num Lock</strong> is on.</li>
-  <li>Hold the <strong>left Alt key</strong>.</li>
-  <li>While holding Alt, type <strong>10027</strong> on the numeric keypad.</li>
-  <li>Release the Alt key to insert the ✫ symbol.</li>
-</ol>
-<p>This works in many Windows environments supporting Unicode.</p>
+  <h2>How to Type ✫ (Open Centre Black Star) Symbol</h2>
 
-<h2>How to Add Open Centre Black Star in HTML</h2>
-<p>Use these HTML codes to display the ✫ symbol:</p>
+  <h3>Using Alt Code on Windows</h3>
+  <p>You can type the ✫ symbol using the Alt code method:</p>
+  <ol>
+    <li>Ensure <strong>Num Lock</strong> is enabled.</li>
+    <li>Hold down the <strong>left Alt key</strong>.</li>
+    <li>Type <strong>10027</strong> on the numeric keypad.</li>
+    <li>Release the Alt key to insert the ✫ symbol.</li>
+  </ol>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10027; Symbol&lt;/span&gt;
+  <h3>Typing ✫ on Mac</h3>
+  <p>Use <strong>Control + Command + Space</strong> to open the Character Viewer. Search for "star" and select ✫ from the results.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x272B; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing ✫ on iPhone and Android</h3>
+  <p>On mobile devices, use the emoji or symbol keyboard and search “star,” or simply copy this: <strong>✫</strong>.</p>
 
-<p>These render as: <strong>I am ✫ Symbol</strong></p>
+  <h3>How to Use ✫ in HTML</h3>
+  <p>You can use the Open Centre Black Star in HTML with the following codes:</p>
 
-<h2>How to Add Open Centre Black Star in CSS</h2>
-<p>Use the ✫ symbol in CSS with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;Design with &#10027;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hex code --&gt;
+&lt;span&gt;Design with &#x272B;&lt;/span&gt;</code></pre>
+
+  <p>These will display as: <strong>Design with ✫</strong></p>
+
+  <h3>How to Use ✫ in CSS</h3>
+  <p>Apply the ✫ symbol in CSS using the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.starStyle::after {
   content: '\\272B';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Open Centre Black Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="starStyle"&gt;Open Centre Star&lt;/div&gt;</code></pre>
 
-<p>This will show: <strong>Open Centre Black Star✫</strong></p>
-</section>`,
+  <p>Result: <strong>Open Centre Star✫</strong></p>
+
+  <h3>What Is the ✫ Symbol?</h3>
+  <p>The ✫ symbol is a five-pointed black star with a hollow center. It's part of the Unicode Dingbats block and is mainly used for visual decoration and stylistic emphasis.</p>
+
+  <h3>What Does ✫ Mean?</h3>
+  <p>This star often represents style, uniqueness, or focus. Designers use it in icons, badges, or to add a creative flourish to visual layouts.</p>
+</section>
+`,
   },
 
   {
     id: 9,
     symbol: '✬', // 图案
     name: 'Black Centre White Star', // 名称
-    categories: ['four-pointed-stars'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'black-centre-white-star', // 链接
     unicode: 'U+272C', // 编码
     seo: {
@@ -521,54 +617,66 @@ export const starDetailsData = [
       altCode: 'Alt+10028',
       htmlCode: '&#10028;',
       cssCode: '"\\272C"',
-      htmlEntity: '', // 无命名实体
+      htmlEntity: '&#10028;', // 无命名实体
       hexCode: '&#x272C;',
     },
     htmlContent: `
   <section>
-<h2>Typing ✬ Using Alt Code</h2>
-<p>To type the ✬ (Black Centre White Star) symbol using your keyboard, follow these steps:</p>
-<ol>
-  <li>Make sure <strong>Num Lock</strong> is enabled.</li>
-  <li>Hold down the <strong>left Alt key</strong>.</li>
-  <li>While holding Alt, type <strong>10028</strong> on the numeric keypad.</li>
-  <li>Release the Alt key, and the ✬ symbol will appear.</li>
-</ol>
-<p>This shortcut works in many Windows programs that support Unicode input.</p>
+  <h2>How to Type ✬ (Black Centre White Star) Symbol</h2>
 
-<h2>How to Add Black Centre White Star in HTML</h2>
-<p>You can add the ✬ symbol in HTML using these codes:</p>
+  <h3>Using Alt Code on Windows</h3>
+  <p>You can type the ✬ symbol with the Alt code method:</p>
+  <ol>
+    <li>Turn on <strong>Num Lock</strong>.</li>
+    <li>Hold down the <strong>left Alt key</strong>.</li>
+    <li>Type <strong>10028</strong> using the numeric keypad.</li>
+    <li>Release the Alt key to insert ✬.</li>
+  </ol>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10028; Symbol&lt;/span&gt;
+  <h3>Typing ✬ on Mac</h3>
+  <p>Press <strong>Control + Command + Space</strong> to open the Character Viewer. Then, search “star” and find ✬ in the list.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x272C; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing ✬ on iPhone and Android</h3>
+  <p>Use your device’s emoji or symbol keyboard to search for “star” or copy directly: <strong>✬</strong>.</p>
 
-<p>These render as: <strong>I am ✬ Symbol</strong></p>
+  <h3>How to Use ✬ in HTML</h3>
+  <p>To add the Black Centre White Star to your website, use:</p>
 
-<h2>How to Add Black Centre White Star in CSS</h2>
-<p>To use the ✬ symbol in CSS, set it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;Star Icon: &#10028;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hex code --&gt;
+&lt;span&gt;Star Icon: &#x272C;&lt;/span&gt;</code></pre>
+
+  <p>This will display as: <strong>Star Icon: ✬</strong></p>
+
+  <h3>How to Use ✬ in CSS</h3>
+  <p>To style it with CSS, use the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.starSymbol::before {
   content: '\\272C';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Black Centre White Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="starSymbol"&gt;Decorative Symbol&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Black Centre White Star✬</strong></p>
-</section>`,
+  <p>Output: <strong>✬Decorative Symbol</strong></p>
+
+  <h3>What Is the ✬ Symbol?</h3>
+  <p>The ✬ symbol is a five-pointed star featuring a black center and white outline. It's a part of the Unicode Dingbats set and is used to add visual flair to digital or print designs.</p>
+
+  <h3>What Does ✬ Mean?</h3>
+  <p>This star symbolizes emphasis, elegance, or distinction. It’s commonly used in creative layouts, titles, ratings, and stylish UI elements.</p>
+</section>
+`,
   },
 
   {
     id: 10,
     symbol: '✭', // 图案
     name: 'Outlined Black Star', // 名称
-    categories: ['four-pointed-stars'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'outlined-black-star', // 链接
     unicode: 'U+272D', // 编码
     seo: {
@@ -583,54 +691,66 @@ export const starDetailsData = [
       altCode: 'Alt+10029',
       htmlCode: '&#10029;',
       cssCode: '"\\272D"',
-      htmlEntity: '', // 无命名实体
+      htmlEntity: '&#10029;', // 无命名实体
       hexCode: '&#x272D;',
     },
     htmlContent: `
   <section>
-<h2>Typing ✭ Using Alt Code</h2>
-<p>To type the ✭ (Outlined Black Star) symbol using your keyboard, follow these steps:</p>
-<ol>
-  <li>Make sure <strong>Num Lock</strong> is enabled.</li>
-  <li>Hold the <strong>left Alt key</strong>.</li>
-  <li>While holding Alt, type <strong>10029</strong> on the numeric keypad.</li>
-  <li>Release the Alt key to insert the ✭ symbol.</li>
-</ol>
-<p>This works in many Windows applications supporting Unicode.</p>
+  <h2>How to Type ✭ (Outlined Black Star) Symbol</h2>
 
-<h2>How to Add Outlined Black Star in HTML</h2>
-<p>You can display the ✭ symbol using these HTML codes:</p>
+  <h3>Using Alt Code on Windows</h3>
+  <p>You can type the ✭ symbol using the Alt code method:</p>
+  <ol>
+    <li>Ensure <strong>Num Lock</strong> is turned on.</li>
+    <li>Hold the <strong>Alt</strong> key.</li>
+    <li>Type <strong>10029</strong> on the numeric keypad.</li>
+    <li>Release the Alt key to insert ✭.</li>
+  </ol>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10029; Symbol&lt;/span&gt;
+  <h3>Typing ✭ on Mac</h3>
+  <p>Use the macOS Character Viewer: Press <strong>Control + Command + Space</strong>, search for “star,” and select the ✭ symbol.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x272D; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing ✭ on iPhone and Android</h3>
+  <p>Use your phone's emoji or symbol keyboard to find and tap the ✭ symbol, or simply copy it from here: <strong>✭</strong>.</p>
 
-<p>These will render as: <strong>I am ✭ Symbol</strong></p>
+  <h3>How to Use ✭ in HTML</h3>
+  <p>You can embed this star symbol in websites using the following codes:</p>
 
-<h2>How to Add Outlined Black Star in CSS</h2>
-<p>Use the ✭ symbol in CSS with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Outlined Star: &#10029;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Outlined Star: &#x272D;&lt;/span&gt;</code></pre>
+
+  <p>This renders as: <strong>Outlined Star: ✭</strong></p>
+
+  <h3>How to Use ✭ in CSS</h3>
+  <p>Insert the symbol using the <code>content</code> property in CSS:</p>
+
+  <pre><code>/* CSS */
+.outlinedStar::before {
   content: '\\272D';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Outlined Black Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="outlinedStar"&gt;Stylish Star&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Outlined Black Star✭</strong></p>
-</section>`,
+  <p>Displays as: <strong>✭Stylish Star</strong></p>
+
+  <h3>What Is the ✭ Symbol?</h3>
+  <p>The ✭ symbol is a five-pointed star with an outline design. It’s part of the Unicode Dingbats block and is frequently used in artistic layouts, headings, or stylistic lists.</p>
+
+  <h3>What Does ✭ Mean?</h3>
+  <p>This outlined black star is often used to denote importance, creativity, or emphasis. It conveys elegance and is popular in design, text decorations, or rating systems.</p>
+</section>
+`,
   },
 
   {
     id: 11,
     symbol: '✮', // 图案
     name: 'Heavy Outlined Black Star', // 名称
-    categories: ['four-pointed-stars'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'heavy-outlined-black-star', // 链接
     unicode: 'U+272E', // 编码
     seo: {
@@ -645,7 +765,7 @@ export const starDetailsData = [
       altCode: 'Alt+10030',
       htmlCode: '&#10030;',
       cssCode: '"\\272E"',
-      htmlEntity: '', // 无命名实体
+      htmlEntity: '&#10030;', // 无命名实体
       hexCode: '&#x272E;',
     },
     htmlContent: `
@@ -692,7 +812,7 @@ export const starDetailsData = [
     id: 12,
     symbol: '✯', // 图案
     name: 'Pinwheel Star', // 名称
-    categories: ['four-pointed-stars'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'pinwheel-star', // 链接
     unicode: 'U+272F', // 编码
     seo: {
@@ -707,7 +827,7 @@ export const starDetailsData = [
       altCode: 'Alt+10031',
       htmlCode: '&#10031;',
       cssCode: '"\\272F"',
-      htmlEntity: '', // 无命名实体
+      htmlEntity: '&#10031;', // 无命名实体
       hexCode: '&#x272F;',
     },
     htmlContent: `
@@ -754,7 +874,7 @@ export const starDetailsData = [
     id: 13,
     symbol: '⭒', // 图案
     name: 'White Small Star', // 名称
-    categories: ['four-pointed-stars'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'white-small-star', // 链接
     unicode: 'U+2B52', // 编码
     seo: {
@@ -766,10 +886,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2B52',
-      altCode: '', // 无标准Alt代码
+      altCode: '11090', // 无标准Alt代码
       htmlCode: '&#11090;',
       cssCode: '"\\2B52"',
-      htmlEntity: '',
+      htmlEntity: '&#11090;',
       hexCode: '&#x2B52;',
     },
     htmlContent: `
@@ -809,7 +929,7 @@ export const starDetailsData = [
     id: 14,
     symbol: '⭑', // 图案
     name: 'Black Small Star', // 名称
-    categories: ['four-pointed-stars'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'black-small-star', // 链接
     unicode: 'U+2B51', // 编码
     seo: {
@@ -821,10 +941,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2B51',
-      altCode: '', // 无标准Alt代码
+      altCode: '11089', // 无标准Alt代码
       htmlCode: '&#11089;',
       cssCode: '"\\2B51"',
-      htmlEntity: '',
+      htmlEntity: '&#11089;',
       hexCode: '&#x2B51;',
     },
     htmlContent: `
@@ -864,7 +984,7 @@ export const starDetailsData = [
     id: 15,
     symbol: '✰', // 图案
     name: 'Shadowed White Star', // 名称
-    categories: ['four-pointed-stars'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'shadowed-white-star', // 链接
     unicode: 'U+2730', // 编码
     seo: {
@@ -879,7 +999,7 @@ export const starDetailsData = [
       altCode: 'Alt+10032',
       htmlCode: '&#10032;',
       cssCode: '"\\2730"',
-      htmlEntity: '', // 无命名实体
+      htmlEntity: '&#10032;', // 无命名实体
       hexCode: '&#x2730;',
     },
     htmlContent: `
@@ -926,7 +1046,7 @@ export const starDetailsData = [
     id: 16,
     symbol: '⁂', // 图案
     name: 'Asterism', // 名称
-    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
+    categories: ['Six-Pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'asterism', // 链接
     unicode: 'U+2042', // 编码
     seo: {
@@ -938,10 +1058,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2042',
-      altCode: '', // 无标准Alt代码
+      altCode: '8258', // 无标准Alt代码
       htmlCode: '&#8258;',
       cssCode: '"\\2042"',
-      htmlEntity: '',
+      htmlEntity: '&#8258;',
       hexCode: '&#x2042;',
     },
     htmlContent: `
@@ -981,7 +1101,7 @@ export const starDetailsData = [
     id: 17,
     symbol: '⁎', // 图案
     name: 'Low Asterisk', // 名称
-    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
+    categories: ['Six-Pointed Star', 'Classic'], // 分类（数组形式）
     slug: 'low-asterisk', // 链接
     unicode: 'U+204E', // 编码
     seo: {
@@ -993,10 +1113,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+204E',
-      altCode: '', // 无标准Alt代码
+      altCode: '8270', // 无标准Alt代码
       htmlCode: '&#2126;',
       cssCode: '"\\204E"',
-      htmlEntity: '',
+      htmlEntity: '&#8270;',
       hexCode: '&#x204E;',
     },
     htmlContent: `
@@ -1036,7 +1156,7 @@ export const starDetailsData = [
     id: 18,
     symbol: '⁑', // 图案
     name: 'Two Asterisks Aligned Vertically', // 名称
-    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
+    categories: ['Six-Pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'two-asterisks-aligned-vertically', // 链接
     unicode: 'U+2051', // 编码
     seo: {
@@ -1048,10 +1168,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2051',
-      altCode: '', // 无标准Alt代码
+      altCode: '8273', // 无标准Alt代码
       htmlCode: '&#8273;',
       cssCode: '"\\2051"',
-      htmlEntity: '',
+      htmlEntity: '&#8273;',
       hexCode: '&#x2051;',
     },
     htmlContent: `
@@ -1091,7 +1211,7 @@ export const starDetailsData = [
     id: 19,
     symbol: '✢', // 图案
     name: 'Four Teardrop-Spoked Asterisk', // 名称
-    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
+    categories: ['Other star', 'Four-Pointed Star'], // 分类（数组形式）
     slug: 'four-teardrop-spoked-asterisk', // 链接
     unicode: 'U+2722', // 编码
     seo: {
@@ -1103,10 +1223,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2722',
-      altCode: '', // 无标准Alt代码
+      altCode: '10018', // 无标准Alt代码
       htmlCode: '&#10018;',
       cssCode: '"\\2722"',
-      htmlEntity: '',
+      htmlEntity: '&#10018;',
       hexCode: '&#x2722;',
     },
     htmlContent: `
@@ -1146,7 +1266,7 @@ export const starDetailsData = [
     id: 20,
     symbol: '✣', // 图案
     name: 'Four Balloon-Spoked Asterisk', // 名称
-    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
+    categories: ['Other star', 'Four-Pointed Star'], // 分类（数组形式）
     slug: 'four-balloon-spoked-asterisk', // 链接
     unicode: 'U+2723', // 编码
     seo: {
@@ -1158,10 +1278,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2723',
-      altCode: '', // 无标准Alt代码
+      altCode: '10019', // 无标准Alt代码
       htmlCode: '&#10019;',
       cssCode: '"\\2723"',
-      htmlEntity: '',
+      htmlEntity: '&#10019;',
       hexCode: '&#x2723;',
     },
     htmlContent: `
@@ -1201,7 +1321,7 @@ export const starDetailsData = [
     id: 21,
     symbol: '✤', // 图案
     name: 'Heavy Four Balloon-Spoked Asterisk', // 名称
-    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
+    categories: ['Other star', 'Four-Pointed Star'], // 分类（数组形式）
     slug: 'heavy-four-balloon-spoked-asterisk', // 链接
     unicode: 'U+2724', // 编码
     seo: {
@@ -1213,10 +1333,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2724',
-      altCode: '', // 无标准Alt代码
+      altCode: '10020', // 无标准Alt代码
       htmlCode: '&#10020;',
       cssCode: '"\\2724"',
-      htmlEntity: '',
+      htmlEntity: '&#10020;',
       hexCode: '&#x2724;',
     },
     htmlContent: `
@@ -1256,7 +1376,7 @@ export const starDetailsData = [
     id: 22,
     symbol: '✥', // 图案
     name: 'Four Club-Spoked Asterisk', // 名称
-    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
+    categories: ['Other star', 'Four-Pointed Star'], // 分类（数组形式）
     slug: 'four-club-spoked-asterisk', // 链接
     unicode: 'U+2725', // 编码
     seo: {
@@ -1268,10 +1388,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2725',
-      altCode: '', // 无标准Alt代码
+      altCode: '10021', // 无标准Alt代码
       htmlCode: '&#10021;',
       cssCode: '"\\2725"',
-      htmlEntity: '',
+      htmlEntity: '&#10021;',
       hexCode: '&#x2725;',
     },
     htmlContent: `
@@ -1311,7 +1431,7 @@ export const starDetailsData = [
     id: 23,
     symbol: '✱', // 图案
     name: 'Heavy Asterisk', // 名称
-    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
+    categories: ['Six-Pointed Star'], // 分类（数组形式）
     slug: 'heavy-asterisk', // 链接
     unicode: 'U+2731', // 编码
     seo: {
@@ -1323,10 +1443,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2731',
-      altCode: '', // 无标准Alt代码
+      altCode: '10033', // 无标准Alt代码
       htmlCode: '&#10033;',
       cssCode: '"\\2731"',
-      htmlEntity: '',
+      htmlEntity: '&#10033;',
       hexCode: '&#x2731;',
     },
     htmlContent: `
@@ -1366,7 +1486,7 @@ export const starDetailsData = [
     id: 24,
     symbol: '✲', // 图案
     name: 'Open Centre Asterisk', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Classic', 'Six-Pointed Star'], // 分类（数组形式）
     slug: 'open-centre-asterisk', // 链接
     unicode: 'U+2732', // 编码
     seo: {
@@ -1378,10 +1498,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2732',
-      altCode: '', // 无标准Alt代码
+      altCode: '10034', // 无标准Alt代码
       htmlCode: '&#10034;',
       cssCode: '"\\2732"',
-      htmlEntity: '',
+      htmlEntity: '&#10034;',
       hexCode: '&#x2732;',
     },
     htmlContent: `
@@ -1421,7 +1541,7 @@ export const starDetailsData = [
     id: 25,
     symbol: '✳', // 图案
     name: 'Eight Spoked Asterisk', // 名称
-    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
+    categories: ['Classic', 'Multi-pointed Star'], // 分类（数组形式）
     slug: 'eight-spoked-asterisk', // 链接
     unicode: 'U+2733', // 编码
     seo: {
@@ -1433,10 +1553,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2733',
-      altCode: '', // 无标准Alt代码
+      altCode: '10035', // 无标准Alt代码
       htmlCode: '&#10035;',
       cssCode: '"\\2733"',
-      htmlEntity: '',
+      htmlEntity: '&#10035;',
       hexCode: '&#x2733;',
     },
     htmlContent: `
@@ -1476,7 +1596,7 @@ export const starDetailsData = [
     id: 26,
     symbol: '✴', // 图案
     name: 'Eight Pointed Black Star', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Classic', 'Multi-pointed Star'], // 分类（数组形式）
     slug: 'eight-pointed-black-star', // 链接
     unicode: 'U+2734', // 编码
     seo: {
@@ -1488,10 +1608,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2734',
-      altCode: '', // 无标准Alt代码
+      altCode: '10036', // 无标准Alt代码
       htmlCode: '&#10036;',
       cssCode: '"\\2734"',
-      htmlEntity: '',
+      htmlEntity: '&#10036;',
       hexCode: '&#x2734;',
     },
     htmlContent: `
@@ -1531,7 +1651,7 @@ export const starDetailsData = [
     id: 27,
     symbol: '✵', // 图案
     name: 'Eight Pointed Pinwheel Star', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Classic', 'Multi-pointed Star'], // 分类（数组形式）
     slug: 'eight-pointed-pinwheel-star', // 链接
     unicode: 'U+2735', // 编码
     seo: {
@@ -1543,10 +1663,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2735',
-      altCode: '', // 无标准Alt代码
+      altCode: '10037', // 无标准Alt代码
       htmlCode: '&#10037;',
       cssCode: '"\\2735"',
-      htmlEntity: '',
+      htmlEntity: '&#10037;',
       hexCode: '&#x2735;',
     },
     htmlContent: `
@@ -1586,7 +1706,7 @@ export const starDetailsData = [
     id: 28,
     symbol: '✶', // 图案
     name: 'Six Pointed Black Star', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Classic', 'Six-Pointed Star'], // 分类（数组形式）
     slug: 'six-pointed-black-star', // 链接
     unicode: 'U+2736', // 编码
     seo: {
@@ -1598,10 +1718,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2736',
-      altCode: '', // 无标准Alt代码
+      altCode: '10038', // 无标准Alt代码
       htmlCode: '&#10038;',
       cssCode: '"\\2736"',
-      htmlEntity: '',
+      htmlEntity: '&#10038;',
       hexCode: '&#x2736;',
     },
     htmlContent: `
@@ -1641,7 +1761,7 @@ export const starDetailsData = [
     id: 29,
     symbol: '✷', // 图案
     name: 'Eight Pointed Rectilinear Black Star', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Classic', 'Multi-pointed Star'], // 分类（数组形式）
     slug: 'eight-pointed-rectilinear-black-star', // 链接
     unicode: 'U+2737', // 编码
     seo: {
@@ -1653,10 +1773,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2737',
-      altCode: '', // 无标准Alt代码
+      altCode: '10039', // 无标准Alt代码
       htmlCode: '&#10039;',
       cssCode: '"\\2737"',
-      htmlEntity: '',
+      htmlEntity: '&#10039;',
       hexCode: '&#x2737;',
     },
     htmlContent: `
@@ -1696,7 +1816,7 @@ export const starDetailsData = [
     id: 30,
     symbol: '✸', // 图案
     name: 'Heavy Eight Pointed Rectilinear Black Star', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Classic', 'Multi-pointed Star'], // 分类（数组形式）
     slug: 'heavy-eight-pointed-rectilinear-black-star', // 链接
     unicode: 'U+2738', // 编码
     seo: {
@@ -1709,10 +1829,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2738',
-      altCode: '', // 无标准Alt代码
+      altCode: '10040', // 无标准Alt代码
       htmlCode: '&#10040;',
       cssCode: '"\\2738"',
-      htmlEntity: '',
+      htmlEntity: '&#10040;',
       hexCode: '&#x2738;',
     },
     htmlContent: `
@@ -1752,7 +1872,7 @@ export const starDetailsData = [
     id: 31,
     symbol: '✹', // 图案
     name: 'Twelve Pointed Black Star', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Classic', 'Multi-pointed Star'], // 分类（数组形式）
     slug: 'twelve-pointed-black-star', // 链接
     unicode: 'U+2739', // 编码
     seo: {
@@ -1764,10 +1884,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2739',
-      altCode: '', // 无标准Alt代码
+      altCode: '10041', // 无标准Alt代码
       htmlCode: '&#10041;',
       cssCode: '"\\2739"',
-      htmlEntity: '',
+      htmlEntity: '&#10041;',
       hexCode: '&#x2739;',
     },
     htmlContent: `
@@ -1807,7 +1927,7 @@ export const starDetailsData = [
     id: 32,
     symbol: '✺', // 图案
     name: 'Sixteen Pointed Asterisk', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Multi-pointed Star'], // 分类（数组形式）
     slug: 'sixteen-pointed-asterisk', // 链接
     unicode: 'U+273A', // 编码
     seo: {
@@ -1819,10 +1939,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+273A',
-      altCode: '', // 无标准Alt代码
+      altCode: '10042', // 无标准Alt代码
       htmlCode: '&#10042;',
       cssCode: '"\\273A"',
-      htmlEntity: '',
+      htmlEntity: '&#10042;',
       hexCode: '&#x273A;',
     },
     htmlContent: `
@@ -1862,7 +1982,7 @@ export const starDetailsData = [
     id: 33,
     symbol: '✻', // 图案
     name: 'Teardrop-Spoked Asterisk', // 名称
-    categories: ['asterisk-and-multi-pointed'], // 分类（数组形式）
+    categories: ['Six-Pointed Star'], // 分类（数组形式）
     slug: 'teardrop-spoked-asterisk', // 链接
     unicode: 'U+273B', // 编码
     seo: {
@@ -1874,10 +1994,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+273B',
-      altCode: '', // 无标准Alt代码
+      altCode: '10043', // 无标准Alt代码
       htmlCode: '&#10043;',
       cssCode: '"\\273B"',
-      htmlEntity: '',
+      htmlEntity: '&#10043;',
       hexCode: '&#x273B;',
     },
     htmlContent: `
@@ -1917,7 +2037,7 @@ export const starDetailsData = [
     id: 34,
     symbol: '✼', // 图案
     name: 'Open Centre Teardrop-Spoked Asterisk', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Six-Pointed Star'], // 分类（数组形式）
     slug: 'open-centre-teardrop-spoked-asterisk', // 链接
     unicode: 'U+273C', // 编码
     seo: {
@@ -1929,10 +2049,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+273C',
-      altCode: '', // 无标准Alt代码
+      altCode: '10044', // 无标准Alt代码
       htmlCode: '&#10044;',
       cssCode: '"\\273C"',
-      htmlEntity: '',
+      htmlEntity: '&#10044;',
       hexCode: '&#x273C;',
     },
     htmlContent: `
@@ -1972,7 +2092,7 @@ export const starDetailsData = [
     id: 35,
     symbol: '✽', // 图案
     name: 'Heavy Teardrop-Spoked Asterisk', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Six-Pointed Star'], // 分类（数组形式）
     slug: 'heavy-teardrop-spoked-asterisk', // 链接
     unicode: 'U+273D', // 编码
     seo: {
@@ -1984,10 +2104,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+273D',
-      altCode: '', // 无标准Alt代码
+      altCode: '10045', // 无标准Alt代码
       htmlCode: '&#10045;',
       cssCode: '"\\273D"',
-      htmlEntity: '',
+      htmlEntity: '&#10045;',
       hexCode: '&#x273D;',
     },
     htmlContent: `
@@ -2027,7 +2147,7 @@ export const starDetailsData = [
     id: 36,
     symbol: '✾', // 图案
     name: 'Six Petalled Black And White Florette', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Six-Pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'six-petalled-black-and-white-florette', // 链接
     unicode: 'U+273E', // 编码
     seo: {
@@ -2040,10 +2160,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+273E',
-      altCode: '', // 无标准Alt代码
+      altCode: '10046', // 无标准Alt代码
       htmlCode: '&#10046;',
       cssCode: '"\\273E"',
-      htmlEntity: '',
+      htmlEntity: '&#10046;',
       hexCode: '&#x273E;',
     },
     htmlContent: `
@@ -2083,7 +2203,7 @@ export const starDetailsData = [
     id: 37,
     symbol: '✿', // 图案
     name: 'Black Florette', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Six-Pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'black-florette', // 链接
     unicode: 'U+273F', // 编码
     seo: {
@@ -2095,10 +2215,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+273F',
-      altCode: '', // 无标准Alt代码
+      altCode: '10047', // 无标准Alt代码
       htmlCode: '&#10047;',
       cssCode: '"\\273F"',
-      htmlEntity: '',
+      htmlEntity: '&#10047;',
       hexCode: '&#x273F;',
     },
     htmlContent: `
@@ -2138,7 +2258,7 @@ export const starDetailsData = [
     id: 38,
     symbol: '❀', // 图案
     name: 'White Florette', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Six-Pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'white-florette', // 链接
     unicode: 'U+2740', // 编码
     seo: {
@@ -2150,10 +2270,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2740',
-      altCode: '', // 无标准Alt代码
+      altCode: '10048', // 无标准Alt代码
       htmlCode: '&#10048;',
       cssCode: '"\\2740"',
-      htmlEntity: '',
+      htmlEntity: '&#10048;',
       hexCode: '&#x2740;',
     },
     htmlContent: `
@@ -2193,7 +2313,7 @@ export const starDetailsData = [
     id: 39,
     symbol: '❁', // 图案
     name: 'Eight Petalled Outlined Black Florette', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Multi-pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'eight-petalled-outlined-black-florette', // 链接
     unicode: 'U+2741', // 编码
     seo: {
@@ -2206,10 +2326,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2741',
-      altCode: '', // 无标准Alt代码
+      altCode: '10049', // 无标准Alt代码
       htmlCode: '&#10049;',
       cssCode: '"\\2741"',
-      htmlEntity: '',
+      htmlEntity: '&#10049;',
       hexCode: '&#x2741;',
     },
     htmlContent: `
@@ -2249,7 +2369,7 @@ export const starDetailsData = [
     id: 40,
     symbol: '❂', // 图案
     name: 'Circled Open Centre Eight Pointed Star', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Multi-pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'circled-open-centre-eight-pointed-star', // 链接
     unicode: 'U+2742', // 编码
     seo: {
@@ -2262,10 +2382,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2742',
-      altCode: '', // 无标准Alt代码
+      altCode: '10050', // 无标准Alt代码
       htmlCode: '&#10050;',
       cssCode: '"\\2742"',
-      htmlEntity: '',
+      htmlEntity: '&#10050;',
       hexCode: '&#x2742;',
     },
     htmlContent: `
@@ -2305,7 +2425,7 @@ export const starDetailsData = [
     id: 41,
     symbol: '❃', // 图案
     name: 'Heavy Teardrop-Spoked Pinwheel Asterisk', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Multi-pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'heavy-teardrop-spoked-pinwheel-asterisk', // 链接
     unicode: 'U+2743', // 编码
     seo: {
@@ -2318,10 +2438,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2743',
-      altCode: '', // 无标准Alt代码
+      altCode: '10051', // 无标准Alt代码
       htmlCode: '&#10051;',
       cssCode: '"\\2743"',
-      htmlEntity: '',
+      htmlEntity: '&#10051;',
       hexCode: '&#x2743;',
     },
     htmlContent: `
@@ -2361,7 +2481,7 @@ export const starDetailsData = [
     id: 42,
     symbol: '❇', // 图案
     name: 'Sparkle', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Multi-pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'sparkle', // 链接
     unicode: 'U+2747', // 编码
     seo: {
@@ -2373,10 +2493,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2747',
-      altCode: '', // 无标准Alt代码
+      altCode: '10055', // 无标准Alt代码
       htmlCode: '&#10055;',
       cssCode: '"\\2747"',
-      htmlEntity: '',
+      htmlEntity: '&#10055;',
       hexCode: '&#x2747;',
     },
     htmlContent: `
@@ -2416,7 +2536,7 @@ export const starDetailsData = [
     id: 43,
     symbol: '❈', // 图案
     name: 'Heavy Sparkle', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Multi-pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'heavy-sparkle', // 链接
     unicode: 'U+2748', // 编码
     seo: {
@@ -2428,10 +2548,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2748',
-      altCode: '', // 无标准Alt代码
+      altCode: '10056', // 无标准Alt代码
       htmlCode: '&#10056;',
       cssCode: '"\\2748"',
-      htmlEntity: '',
+      htmlEntity: '&#10056;',
       hexCode: '&#x2748;',
     },
     htmlContent: `
@@ -2471,7 +2591,7 @@ export const starDetailsData = [
     id: 44,
     symbol: '❉', // 图案
     name: 'Balloon-Spoked Asterisk', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Multi-pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'balloon-spoked-asterisk', // 链接
     unicode: 'U+2749', // 编码
     seo: {
@@ -2483,10 +2603,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2749',
-      altCode: '', // 无标准Alt代码
+      altCode: '10057', // 无标准Alt代码
       htmlCode: '&#10057;',
       cssCode: '"\\2749"',
-      htmlEntity: '',
+      htmlEntity: '&#10057;',
       hexCode: '&#x2749;',
     },
     htmlContent: `
@@ -2526,7 +2646,7 @@ export const starDetailsData = [
     id: 45,
     symbol: '❊', // 图案
     name: 'Eight Teardrop-Spoked Propeller Asterisk', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Multi-pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'eight-teardrop-spoked-propeller-asterisk', // 链接
     unicode: 'U+274A', // 编码
     seo: {
@@ -2539,10 +2659,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+274A',
-      altCode: '', // 无标准Alt代码
+      altCode: '10058', // 无标准Alt代码
       htmlCode: '&#10058;',
       cssCode: '"\\274A"',
-      htmlEntity: '',
+      htmlEntity: '&#10058;',
       hexCode: '&#x274A;',
     },
     htmlContent: `
@@ -2582,7 +2702,7 @@ export const starDetailsData = [
     id: 46,
     symbol: '❋', // 图案
     name: 'Heavy Eight Teardrop-Spoked Propeller Asterisk', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Multi-pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'heavy-eight-teardrop-spoked-propeller-asterisk', // 链接
     unicode: 'U+274B', // 编码
     seo: {
@@ -2595,10 +2715,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+274B',
-      altCode: '', // 无标准Alt代码
+      altCode: '10059', // 无标准Alt代码
       htmlCode: '&#10059;',
       cssCode: '"\\274B"',
-      htmlEntity: '',
+      htmlEntity: '&#10059;',
       hexCode: '&#x274B;',
     },
     htmlContent: `
@@ -2638,7 +2758,7 @@ export const starDetailsData = [
     id: 47,
     symbol: '❄', // 图案
     name: 'Snowflake', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Multi-pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'snowflake', // 链接
     unicode: 'U+2744', // 编码
     seo: {
@@ -2650,10 +2770,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2744',
-      altCode: '', // 无标准 Alt 代码
+      altCode: '10052', // 无标准 Alt 代码
       htmlCode: '&#10052;',
       cssCode: '"\\2744"',
-      htmlEntity: '',
+      htmlEntity: '&#10052;',
       hexCode: '&#x2744;',
     },
     htmlContent: `
@@ -2693,7 +2813,7 @@ export const starDetailsData = [
     id: 48,
     symbol: '❆', // 图案
     name: 'Heavy Chevron Snowflake', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Multi-pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'heavy-chevron-snowflake', // 链接
     unicode: 'U+2746', // 编码
     seo: {
@@ -2705,10 +2825,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2746',
-      altCode: '', // 无标准 Alt 代码
+      altCode: '10054', // 无标准 Alt 代码
       htmlCode: '&#10054;',
       cssCode: '"\\2746"',
-      htmlEntity: '',
+      htmlEntity: '&#10054;',
       hexCode: '&#x2746;',
     },
     htmlContent: `
@@ -2748,7 +2868,7 @@ export const starDetailsData = [
     id: 49,
     symbol: '❅', // 图案
     name: 'Tight Trifoliate Snowflake', // 名称
-    categories: ['Classic'], // 分类（数组形式）
+    categories: ['Multi-pointed Star', 'Other star'], // 分类（数组形式）
     slug: 'tight-trifoliate-snowflake', // 链接
     unicode: 'U+2745', // 编码
     seo: {
@@ -2760,10 +2880,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2745',
-      altCode: '', // 无标准 Alt 代码
+      altCode: '10053', // 无标准 Alt 代码
       htmlCode: '&#10053;',
       cssCode: '"\\2745"',
-      htmlEntity: '',
+      htmlEntity: '&#10053;',
       hexCode: '&#x2745;',
     },
     htmlContent: `
@@ -2803,7 +2923,7 @@ export const starDetailsData = [
     id: 50,
     symbol: '⋆', // 图案
     name: 'Star Operator', // 名称
-    categories: ['Math & Symbols'], // 分类（数组形式）
+    categories: ['Math Symbols Star', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'star-operator', // 链接
     unicode: 'U+22C6', // 编码
     seo: {
@@ -2815,10 +2935,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+22C6',
-      altCode: '', // 无标准 Alt 代码
+      altCode: '8902', // 无标准 Alt 代码
       htmlCode: '&#8902;',
       cssCode: '"\\22C6"',
-      htmlEntity: '',
+      htmlEntity: '&#8902;',
       hexCode: '&#x22C6;',
     },
     htmlContent: `
@@ -2858,7 +2978,7 @@ export const starDetailsData = [
     id: 51,
     symbol: '≛', // 图案
     name: 'Star Equals', // 名称
-    categories: ['Math & Symbols'], // 分类（数组形式）
+    categories: ['Math Symbols Star', 'Other star'], // 分类（数组形式）
     slug: 'star-equals', // 链接
     unicode: 'U+225B', // 编码
     seo: {
@@ -2870,10 +2990,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+225B',
-      altCode: '', // 无标准 Alt 代码
+      altCode: '8795', // 无标准 Alt 代码
       htmlCode: '&#8795;',
       cssCode: '"\\225B"',
-      htmlEntity: '',
+      htmlEntity: '&#8795;',
       hexCode: '&#x225B;',
     },
     htmlContent: `
@@ -2913,7 +3033,7 @@ export const starDetailsData = [
     id: 52,
     symbol: 'ᕯ', // 图案
     name: 'Canadian Syllabics Tth', // 名称
-    categories: ['religious-and-cultural'], // 分类（数组形式）
+    categories: ['Religious Star', 'Other star'], // 分类（数组形式）
     slug: 'canadian-syllabics-tth', // 链接
     unicode: 'U+157F', // 编码
     seo: {
@@ -2925,10 +3045,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+157F',
-      altCode: '', // 无标准 Alt 代码
+      altCode: '5487', // 无标准 Alt 代码
       htmlCode: '&#5503;',
       cssCode: '"\\157F"',
-      htmlEntity: '',
+      htmlEntity: '&#5487;',
       hexCode: '&#x157F;',
     },
     htmlContent: `
@@ -2968,7 +3088,7 @@ export const starDetailsData = [
     id: 53,
     symbol: '࿏', // 图案
     name: 'Tibetan Sign Rdel Nag Gsum', // 名称
-    categories: ['Other Symbols'], // 分类（数组形式）
+    categories: ['Other star'], // 分类（数组形式）
     slug: 'tibetan-sign-rdel-nag-gsum', // 链接
     unicode: 'U+0FDF', // 编码
     seo: {
@@ -2980,10 +3100,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+0FDF',
-      altCode: '', // 无标准 Alt 代码
+      altCode: '4047', // 无标准 Alt 代码
       htmlCode: '&#4063;',
       cssCode: '"\\0FDF"',
-      htmlEntity: '',
+      htmlEntity: '&#4047;',
       hexCode: '&#x0FDF;',
     },
     htmlContent: `
@@ -3023,7 +3143,7 @@ export const starDetailsData = [
     id: 54,
     symbol: '꙰', // 图案
     name: 'Combining Cyrillic Ten Millions Sign', // 名称
-    categories: ['Combining Marks'], // 分类（数组形式）
+    categories: ['Other star'], // 分类（数组形式）
     slug: 'combining-cyrillic-ten-millions-sign', // 链接
     unicode: 'U+A670', // 编码
     seo: {
@@ -3035,10 +3155,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+A670',
-      altCode: '', // 无标准 Alt 代码
+      altCode: '42608', // 无标准 Alt 代码
       htmlCode: '&#42608;',
       cssCode: '"\\A670"',
-      htmlEntity: '',
+      htmlEntity: '&#42608;',
       hexCode: '&#xA670;',
     },
     htmlContent: `
@@ -3078,7 +3198,7 @@ export const starDetailsData = [
     id: 55,
     symbol: '۞', // 图案
     name: 'Arabic Start Of Rub El Hizb', // 名称
-    categories: ['religious-and-cultural'], // 分类（数组形式）
+    categories: ['Religious Star', 'Other star'], // 分类（数组形式）
     slug: 'arabic-start-of-rub-el-hizb', // 链接
     unicode: 'U+06DE', // 编码
     seo: {
@@ -3090,10 +3210,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+06DE',
-      altCode: '',
+      altCode: '1758',
       htmlCode: '&#1758;',
       cssCode: '"\\06DE"',
-      htmlEntity: '',
+      htmlEntity: '&#1758;',
       hexCode: '&#x06DE;',
     },
     htmlContent: `
@@ -3133,7 +3253,7 @@ export const starDetailsData = [
     id: 56,
     symbol: '⍟', // 图案
     name: 'Apl Functional Symbol Circle Star', // 名称
-    categories: ['Mathematical Symbols'], // 分类（数组形式）
+    categories: ['Math Symbols Star', 'Other star', 'Five-Pointed Star'], // 分类（数组形式）
     slug: 'apl-functional-symbol-circle-star', // 链接
     unicode: 'U+235F', // 编码
     seo: {
@@ -3145,10 +3265,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+235F',
-      altCode: '',
+      altCode: '9055',
       htmlCode: '&#9055;',
       cssCode: '"\\235F"',
-      htmlEntity: '',
+      htmlEntity: '&#9055;',
       hexCode: '&#x235F;',
     },
     htmlContent: `
@@ -3188,7 +3308,7 @@ export const starDetailsData = [
     id: 57,
     symbol: '⭐', // 图案
     name: 'White Medium Star', // 名称
-    categories: ['Classic', 'Emoji'], // 分类（数组形式，属于多个分类）
+    categories: ['Classic', 'Five-Pointed Star', 'Emoji Star'], // 分类（数组形式，属于多个分类）
     slug: 'white-medium-star', // 链接
     unicode: 'U+2B50', // 编码
     seo: {
@@ -3200,10 +3320,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2B50',
-      altCode: '',
+      altCode: '11088',
       htmlCode: '&#11088;',
       cssCode: '"\\2B50"',
-      htmlEntity: '',
+      htmlEntity: '&#11088;',
       hexCode: '&#x2B50;',
     },
     htmlContent: `
@@ -3243,7 +3363,7 @@ export const starDetailsData = [
     id: 58,
     symbol: '🌠', // 图案
     name: 'Shooting Star', // 名称
-    categories: ['Emoji'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star', 'Emoji Star'], // 分类（数组形式）
     slug: 'shooting-star', // 链接
     unicode: 'U+1F320', // 编码
     seo: {
@@ -3254,10 +3374,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+1F320',
-      altCode: '',
+      altCode: '127776',
       htmlCode: '&#127776;',
       cssCode: '"\\01F320"',
-      htmlEntity: '',
+      htmlEntity: '&#127776;',
       hexCode: '&#x1F320;',
     },
     htmlContent: `
@@ -3297,7 +3417,7 @@ export const starDetailsData = [
     id: 59,
     symbol: '🌟', // 图案
     name: 'Glowing Star', // 名称
-    categories: ['Emoji'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star', 'Emoji Star'], // 分类（数组形式）
     slug: 'glowing-star', // 链接
     unicode: 'U+1F31F', // 编码
     seo: {
@@ -3309,10 +3429,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+1F31F',
-      altCode: '',
+      altCode: '127775',
       htmlCode: '&#127775;',
       cssCode: '"\\01F31F"',
-      htmlEntity: '',
+      htmlEntity: '&#127775;',
       hexCode: '&#x1F31F;',
     },
     htmlContent: `
@@ -3352,7 +3472,7 @@ export const starDetailsData = [
     id: 60,
     symbol: '💫', // 图案
     name: 'Dizzy Symbol', // 名称
-    categories: ['Emoji'], // 分类（数组形式）
+    categories: ['Classic', 'Five-Pointed Star', 'Emoji Star'], // 分类（数组形式）
     slug: 'dizzy-symbol', // 链接
     unicode: 'U+1F4AB', // 编码
     seo: {
@@ -3364,10 +3484,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+1F4AB',
-      altCode: '',
+      altCode: '128171',
       htmlCode: '&#128171;',
       cssCode: '"\\01F4AB"',
-      htmlEntity: '',
+      htmlEntity: '&#128171;',
       hexCode: '&#x1F4AB;',
     },
     htmlContent: `
@@ -3407,7 +3527,7 @@ export const starDetailsData = [
     id: 61,
     symbol: '✨', // 图案
     name: 'Sparkles', // 名称
-    categories: ['Emoji', 'Classic'], // 分类（数组形式，属于多个分类）
+    categories: ['Classic', 'Four-Pointed Star', 'Emoji Star'], // 分类（数组形式，属于多个分类）
     slug: 'sparkles', // 链接
     unicode: 'U+2728', // 编码
     seo: {
@@ -3418,10 +3538,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+2728',
-      altCode: '',
+      altCode: '10024',
       htmlCode: '&#10024;',
       cssCode: '"\\2728"',
-      htmlEntity: '',
+      htmlEntity: '&#10024;',
       hexCode: '&#x2728;',
     },
     htmlContent: `
@@ -3461,7 +3581,7 @@ export const starDetailsData = [
     id: 62,
     symbol: '🌃', // 图案
     name: 'Night With Stars', // 名称
-    categories: ['Emoji'], // 分类（数组形式）
+    categories: ['Emoji Star', 'Other star'], // 分类（数组形式）
     slug: 'night-with-stars', // 链接
     unicode: 'U+1F303', // 编码
     seo: {
@@ -3473,10 +3593,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+1F303',
-      altCode: '',
+      altCode: '127747',
       htmlCode: '&#127747;',
       cssCode: '"\\01F303"',
-      htmlEntity: '',
+      htmlEntity: '&#127747;',
       hexCode: '&#x1F303;',
     },
     htmlContent: `
@@ -3516,7 +3636,7 @@ export const starDetailsData = [
     id: 63,
     symbol: '🔯', // 图案
     name: 'Six Pointed Star With Middle Dot', // 名称
-    categories: ['emoji-stars'], // 分类（数组形式）
+    categories: ['Emoji Star', 'Four-Pointed Star'], // 分类（数组形式）
     slug: 'six-pointed-star-with-middle-dot', // 链接
     unicode: 'U+1F52F', // 编码
     seo: {
@@ -3528,10 +3648,10 @@ export const starDetailsData = [
     },
     technicalInfo: {
       unicode: 'U+1F52F',
-      altCode: '',
+      altCode: '128303',
       htmlCode: '&#128303;',
       cssCode: '"\\01F52F"',
-      htmlEntity: '',
+      htmlEntity: '&#128303;',
       hexCode: '&#x1F52F;',
     },
     htmlContent: `
