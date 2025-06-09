@@ -10,7 +10,7 @@ export const blogPostsData = [
     category: 'Guide',
     // SEO Meta Data
     seo: {
-      title: 'The Ultimate Guide to Star Symbols - Complete Unicode Reference | StarCopy',
+      title: 'The Ultimate Guide to Star Symbols - Complete Unicode Reference | StarSymbols',
       description:
         'Discover the fascinating world of Unicode star symbols and learn how to use them effectively in your creative projects. Complete guide with examples and best practices.',
       keywords:

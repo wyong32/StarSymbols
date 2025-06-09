@@ -8,7 +8,7 @@ export const starDetailsData = [
     slug: 'black-star', // 链接
     unicode: 'U+2605', // 编码
     seo: {
-      title: '★ Black Star Symbol - Copy & Paste Unicode Star | StarCopy',
+      title: '★ Black Star Symbol - Copy & Paste Unicode Star | StarSymbols',
       description:
         'Copy the classic black star symbol ★ (U+2605). Perfect for ratings, emphasis, and decorative text. Free Unicode star symbol with one-click copy.',
       keywords:

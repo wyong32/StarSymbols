@@ -4,7 +4,7 @@ import { generateSitemapData } from '../utils/sitemapConfig.js'
 
 // Vite插件：自动生成站点地图
 export function sitemapPlugin(options = {}) {
-  const { hostname = 'https://starcopy.com', outDir = 'dist', generateRobotsTxt = true } = options
+  const { hostname = 'https://starsymbols.io', outDir = 'dist', generateRobotsTxt = true } = options
 
   return {
     name: 'vite-plugin-sitemap-auto',

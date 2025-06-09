@@ -31,7 +31,7 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
     sitemap({
-      hostname: 'https://starcopy.com',
+      hostname: 'https://starsymbols.io',
       // Provide a complete list of routes
       dynamicRoutes: [...staticRoutes, ...dynamicBlogRoutes, ...dynamicStarRoutes],
       // Do not auto-generate robots.txt, as we have a custom one in /public

@@ -36,24 +36,28 @@ dist/
 ### ✅ 需要上传到服务器的文件
 
 #### 构建输出 (dist目录)
+
 - `index.html` - 主页面
 - `assets/` - 所有静态资源
 - `sitemap.xml` - SEO站点地图
 - `robots.txt` - 搜索引擎指导
 
 #### 静态资源 (已包含在dist中)
+
 - `favicon.ico` - 网站图标
 - `og-image.svg` - 社交分享图片
 
 ### ❌ 不需要上传到服务器的文件
 
 #### 开发工具和脚本
+
 - `scripts/` - 开发工具脚本
   - `seo-audit.js` - SEO审计工具
   - `seo-length-check.js` - SEO长度检查
   - `simple-keyword-check.js` - 关键词检查
 
 #### 源代码和配置
+
 - `src/` - 源代码目录
 - `node_modules/` - 依赖包
 - `docs/` - 项目文档
@@ -62,6 +66,7 @@ dist/
 - `.gitignore` - Git忽略文件
 
 #### 开发文件
+
 - `.env*` - 环境变量文件
 - `*.log` - 日志文件
 - `.DS_Store` - 系统文件
@@ -89,8 +94,8 @@ dist/
 ```nginx
 server {
     listen 80;
-    server_name starcopy.com www.starcopy.com;
-    root /var/www/starcopy;
+    server_name starsymbols.io www.starsymbols.io;
+    root /var/www/starsymbols;
     index index.html;
 
     # 启用gzip压缩
@@ -123,9 +128,9 @@ server {
 
 ```apache
 <VirtualHost *:80>
-    ServerName starcopy.com
-    ServerAlias www.starcopy.com
-    DocumentRoot /var/www/starcopy
+    ServerName starsymbols.io
+    ServerAlias www.starsymbols.io
+    DocumentRoot /var/www/starsymbols
 
     # 启用压缩
     LoadModule deflate_module modules/mod_deflate.so
@@ -140,7 +145,7 @@ server {
     </FilesMatch>
 
     # SPA路由支持
-    <Directory "/var/www/starcopy">
+    <Directory "/var/www/starsymbols">
         RewriteEngine On
         RewriteBase /
         RewriteRule ^index\.html$ - [L]
@@ -175,7 +180,7 @@ fi
 
 # 上传到服务器 (使用rsync)
 echo "📤 上传文件到服务器..."
-rsync -avz --delete dist/ user@server:/var/www/starcopy/
+rsync -avz --delete dist/ user@server:/var/www/starsymbols.io/
 
 echo "🎉 部署完成！"
 ```
@@ -183,12 +188,14 @@ echo "🎉 部署完成！"
 ## 📊 部署检查清单
 
 ### 构建前检查
+
 - [ ] 所有代码已提交
 - [ ] 依赖已安装 (`npm install`)
 - [ ] 测试通过
 - [ ] SEO配置正确
 
 ### 构建检查
+
 - [ ] 构建成功 (`npm run build`)
 - [ ] `dist` 目录生成
 - [ ] `sitemap.xml` 存在
@@ -196,6 +203,7 @@ echo "🎉 部署完成！"
 - [ ] 静态资源正确
 
 ### 部署后检查
+
 - [ ] 网站可以正常访问
 - [ ] 所有页面路由正常
 - [ ] 静态资源加载正常
@@ -206,15 +214,19 @@ echo "🎉 部署完成！"
 ## 🔍 常见问题
 
 ### Q: 为什么不上传 scripts 目录？
+
 A: `scripts` 目录包含开发工具，只在开发时使用，生产环境不需要。
 
 ### Q: 如何更新站点地图？
+
 A: 站点地图在每次构建时自动生成，无需手动更新。
 
 ### Q: 如何处理SPA路由？
+
 A: 需要配置服务器将所有路由请求重定向到 `index.html`。
 
 ### Q: 静态文件缓存设置？
+
 A: 建议对 JS/CSS 文件设置长期缓存，对 HTML 文件设置短期缓存。
 
 ## 📈 性能优化建议

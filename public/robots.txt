@@ -1,4 +1,4 @@
-# robots.txt for StarCopy Site
+# robots.txt for StarSymbols Site
 
 # Allow all crawlers access to all content by default
 User-agent: *

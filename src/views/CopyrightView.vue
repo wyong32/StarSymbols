@@ -110,7 +110,7 @@
             <h3>How to Attribute</h3>
             <p>Simple attribution format:</p>
             <div class="attribution-example">
-              <p>"Star symbols courtesy of Star Copy & Paste (starcopy.com)"</p>
+              <p>"Star symbols courtesy of Star Copy & Paste (starsymbols.io)"</p>
             </div>
           </div>
 
