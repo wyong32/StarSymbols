@@ -91,7 +91,7 @@
 
         <!-- Stats Section -->
         <div class="stats-section">
-          <h3>StarCopy by the Numbers</h3>
+          <h2>StarCopy by the Numbers</h2>
           <div class="stats-grid">
             <div class="stat-card">
               <div class="stat-number">50+</div>
@@ -114,11 +114,11 @@
 
         <!-- Team Section -->
         <div class="team-section">
-          <h3>Our Values</h3>
+          <h2>Our Values</h2>
           <div class="values-grid">
             <div class="value-card">
               <div class="value-icon">🎨</div>
-              <h4>Creativity First</h4>
+              <h3>Creativity First</h3>
               <p>
                 We believe in empowering creativity and making beautiful design accessible to
                 everyone.
@@ -126,7 +126,7 @@
             </div>
             <div class="value-card">
               <div class="value-icon">🚀</div>
-              <h4>Simplicity</h4>
+              <h3>Simplicity</h3>
               <p>
                 Our tools are designed to be intuitive and easy to use, without sacrificing
                 functionality.
@@ -134,12 +134,12 @@
             </div>
             <div class="value-card">
               <div class="value-icon">🌍</div>
-              <h4>Accessibility</h4>
+              <h3>Accessibility</h3>
               <p>We ensure our platform works for everyone, across all devices and platforms.</p>
             </div>
             <div class="value-card">
               <div class="value-icon">💝</div>
-              <h4>Community</h4>
+              <h3>Community</h3>
               <p>We're building a community of creators who love to make their content sparkle.</p>
             </div>
           </div>
@@ -283,7 +283,7 @@ import AppFooter from '@/components/AppFooter.vue'
   color: white;
 }
 
-.stats-section h3 {
+.stats-section h2 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -317,7 +317,7 @@ import AppFooter from '@/components/AppFooter.vue'
   border-radius: 20px;
 }
 
-.team-section h3 {
+.team-section h2 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -351,7 +351,7 @@ import AppFooter from '@/components/AppFooter.vue'
   margin-bottom: 1rem;
 }
 
-.value-card h4 {
+.value-card h3 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   color: #333;
@@ -478,7 +478,7 @@ import AppFooter from '@/components/AppFooter.vue'
     font-size: 2rem;
   }
 
-  .value-card h4 {
+  .value-card h3 {
     font-size: 1.1rem;
   }
 

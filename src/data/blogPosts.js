@@ -215,7 +215,7 @@ export const blogPostsData = [
     content: `
       <article>
         <header>
-          <h1>S2222222222222222222222222s</h1>6
+          <h1>Star Symbols for Social Media Success</h1>
           <time datetime="2024-12-10">December 10, 2024</time>
         </header>
 

@@ -29,7 +29,7 @@
 
         <!-- Features Section -->
         <div class="features-section">
-          <h3>Generator Features</h3>
+          <h2>Generator Features</h2>
           <div class="features-grid">
             <div class="feature-card">
               <div class="feature-icon">🎨</div>
@@ -56,7 +56,7 @@
 
         <!-- Examples Section -->
         <div class="examples-section">
-          <h3>Style Examples</h3>
+          <h2>Style Examples</h2>
           <div class="examples-grid">
             <div class="example-card">
               <h4>Classic</h4>
@@ -171,7 +171,7 @@ onMounted(() => {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.features-section h3 {
+.features-section h2 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -224,7 +224,7 @@ onMounted(() => {
   backdrop-filter: blur(10px);
 }
 
-.examples-section h3 {
+.examples-section h2 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -310,7 +310,7 @@ onMounted(() => {
     padding: 2rem;
   }
 
-  .features-section h3 {
+  .features-section h2 {
     font-size: 1.8rem;
   }
 
@@ -340,7 +340,7 @@ onMounted(() => {
     padding: 2rem;
   }
 
-  .examples-section h3 {
+  .examples-section h2 {
     font-size: 1.8rem;
   }
 
@@ -391,7 +391,7 @@ onMounted(() => {
     padding: 1.5rem;
   }
 
-  .features-section h3 {
+  .features-section h2 {
     font-size: 1.5rem;
   }
 
@@ -416,7 +416,7 @@ onMounted(() => {
     padding: 1.5rem;
   }
 
-  .examples-section h3 {
+  .examples-section h2 {
     font-size: 1.5rem;
   }
 

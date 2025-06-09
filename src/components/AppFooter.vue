@@ -5,7 +5,7 @@
         <div class="footer-brand">
           <div class="footer-logo">
             <span class="star-icon">⭐</span>
-            <h3>StarCopy</h3>
+            <h3>StarSymbols</h3>
           </div>
           <p>
             The ultimate destination for star symbols and aesthetic text generation. Make your

@@ -27,7 +27,9 @@
           </div>
         </div>
 
+        <label for="input-text" class="sr-only">Enter your text to decorate with stars</label>
         <textarea
+          id="input-text"
           ref="textareaRef"
           v-model="inputText"
           v-copy-allowed
@@ -39,8 +41,8 @@
       <div class="form-group">
         <div class="style-selector-container">
           <div class="style-selector-left">
-            <label class="sub-label">Star Style</label>
-            <select v-model="selectedStyle">
+            <label for="style-selector" class="sub-label">Star Style</label>
+            <select id="style-selector" v-model="selectedStyle">
               <option value="plain">Plain Text</option>
               <option value="classic">★ Classic ★</option>
               <option value="sparkle">✨ Sparkle ✨</option>
@@ -64,9 +66,15 @@
       <button class="generate-button" @click="generateStarText">Generate Star Text ✨</button>
 
       <div class="result-group">
-        <label>Generated Text</label>
+        <label for="generated-text">Generated Text</label>
         <div class="result-container">
-          <textarea v-model="generatedText" v-copy-allowed readonly rows="4"></textarea>
+          <textarea
+            id="generated-text"
+            v-model="generatedText"
+            v-copy-allowed
+            readonly
+            rows="4"
+          ></textarea>
           <button
             v-if="inputText.trim() && generatedText"
             class="copy-button"
@@ -200,6 +208,19 @@ const insertStarIntoText = (star) => {
 </script>
 
 <style scoped>
+/* Screen reader only class for accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .generator-card {
   background: white;
   border-radius: 15px;

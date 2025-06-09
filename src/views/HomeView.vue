@@ -24,6 +24,15 @@
         </p>
 
         <StarSymbolsGrid :show-toast="showToastMessage" />
+
+        <div class="hero-cta">
+          <p class="cta-text">
+            Want to explore more star symbols?
+            <router-link to="/all-star-symbols" class="cta-link">
+              Browse our complete collection →
+            </router-link>
+          </p>
+        </div>
       </div>
     </section>
 
@@ -40,6 +49,15 @@
         </div>
 
         <TextGenerator :show-toast="showToastMessage" />
+
+        <div class="section-cta">
+          <p class="cta-text">
+            Need more advanced text styling options?
+            <router-link to="/text-symbol-generator" class="cta-link">
+              Try our full-featured generator →
+            </router-link>
+          </p>
+        </div>
       </div>
     </section>
 
@@ -391,6 +409,50 @@ onMounted(() => {
   transform: scale(1.2);
 }
 
+/* Hero CTA Styles */
+.hero-cta {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.cta-text {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0;
+}
+
+.cta-link {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.cta-link:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+.cta-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.3s ease;
+}
+
+.cta-link:hover::after {
+  width: 100%;
+}
+
 /* Animations */
 @keyframes float {
   0%,
@@ -446,6 +508,18 @@ onMounted(() => {
   font-size: 1.1rem;
   color: #666;
   margin: 0 auto;
+}
+
+/* Section CTA Styles */
+.section-cta {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* All Sections - Full Screen Height and Centered */
@@ -888,6 +962,16 @@ section {
   .hero-stars {
     font-size: 1.8rem;
     gap: 0.6rem;
+  }
+
+  .hero-cta,
+  .section-cta {
+    margin-top: 1.5rem;
+    padding: 1rem;
+  }
+
+  .cta-text {
+    font-size: 1rem;
   }
 
   .section-container {

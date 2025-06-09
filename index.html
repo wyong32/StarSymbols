@@ -59,15 +59,24 @@
     <link rel="preconnect" href="https://images.unsplash.com" />
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MNQVZP7D54"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-MNQVZP7D54"></script> -->
     <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag('js', new Date())
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          var script = document.createElement('script')
+          script.async = true
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=G-MNQVZP7D54'
+          document.head.appendChild(script)
 
-      gtag('config', 'G-MNQVZP7D54')
+          window.dataLayer = window.dataLayer || []
+          function gtag() {
+            dataLayer.push(arguments)
+          }
+          gtag('js', new Date())
+          gtag('config', 'G-MNQVZP7D54')
+          console.log('Google Analytics 已延迟加载')
+        }, 2000)
+      })
     </script>
 
     <!-- JSON-LD Structured Data -->
