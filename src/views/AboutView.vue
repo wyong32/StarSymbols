@@ -183,6 +183,7 @@ import AppFooter from '@/components/AppFooter.vue'
 /* About Section */
 .about-section {
   padding: 0 0 4rem 0;
+  min-height: auto;
 }
 
 .about-content {
@@ -204,6 +205,15 @@ import AppFooter from '@/components/AppFooter.vue'
   padding: 2rem;
   border-radius: 15px;
   border-left: 4px solid #667eea;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .about-card h3 {
@@ -297,6 +307,15 @@ import AppFooter from '@/components/AppFooter.vue'
 
 .stat-card {
   text-align: center;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
 }
 
 .stat-number {
@@ -364,25 +383,69 @@ import AppFooter from '@/components/AppFooter.vue'
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  /* Section adjustments */
+  .about-section {
+    padding: 1rem 0 2rem 0;
+  }
+
   .section-container {
     padding: 0 1.5rem;
   }
 
   .section-header h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.2;
   }
 
   .section-header p {
     font-size: 1rem;
   }
 
+  /* About content layout */
   .about-content {
     grid-template-columns: 1fr;
     gap: 2rem;
+    margin-bottom: 3rem;
   }
 
+  .about-card {
+    padding: 1.5rem;
+  }
+
+  .about-card h3 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .about-card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .feature-list li {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  /* Feature highlights */
+  .feature-highlight {
+    padding: 1.5rem;
+  }
+
+  .feature-icon-large {
+    font-size: 2rem;
+  }
+
+  /* Stats section */
   .stats-section {
-    padding: 2.5rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .stats-section h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
   }
 
   .stats-grid {
@@ -390,12 +453,23 @@ import AppFooter from '@/components/AppFooter.vue'
     gap: 1.5rem;
   }
 
-  .stat-card {
-    padding: 1.5rem;
-  }
-
   .stat-number {
     font-size: 2rem;
+  }
+
+  .stat-label {
+    font-size: 1rem;
+  }
+
+  /* Team section */
+  .team-section {
+    padding: 2rem;
+  }
+
+  .team-section h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
   }
 
   .values-grid {
@@ -408,29 +482,38 @@ import AppFooter from '@/components/AppFooter.vue'
   }
 
   .value-icon {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .value-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .value-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-content {
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .values-grid {
+    gap: 1rem;
   }
 }
 
 @media (max-width: 480px) {
-  .hero {
-    padding: 5rem 1rem 2rem;
-    min-height: 70vh;
-  }
-
-  .hero-title {
-    font-size: 2rem;
-    margin-bottom: 0.8rem;
-  }
-
-  .hero-description {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .hero-stars {
-    font-size: 1.8rem;
-    gap: 0.6rem;
+  /* Section adjustments */
+  .about-section {
+    padding: 0.5rem 0 1.5rem 0;
   }
 
   .section-container {
@@ -438,15 +521,64 @@ import AppFooter from '@/components/AppFooter.vue'
   }
 
   .section-header h2 {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 
   .section-header p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
+  /* About content */
+  .about-content {
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-card {
+    padding: 1rem;
+  }
+
+  .about-card h3 {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  .about-card p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  .feature-list li {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    padding: 0.3rem 0;
+  }
+
+  /* Feature highlights */
+  .feature-highlight {
+    padding: 1.25rem;
+  }
+
+  .feature-highlight h3 {
+    font-size: 1.1rem;
+  }
+
+  .feature-highlight p {
+    font-size: 0.8rem;
+  }
+
+  .feature-icon-large {
+    font-size: 1.8rem;
+  }
+
+  /* Stats section */
   .stats-section {
     padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .stats-section h2 {
+    font-size: 1.3rem;
   }
 
   .stats-grid {
@@ -455,7 +587,7 @@ import AppFooter from '@/components/AppFooter.vue'
   }
 
   .stat-card {
-    padding: 1.25rem;
+    padding: 1rem;
   }
 
   .stat-number {
@@ -466,8 +598,13 @@ import AppFooter from '@/components/AppFooter.vue'
     font-size: 0.9rem;
   }
 
+  /* Team section */
   .team-section {
     padding: 1.5rem;
+  }
+
+  .team-section h2 {
+    font-size: 1.3rem;
   }
 
   .value-card {
@@ -475,15 +612,17 @@ import AppFooter from '@/components/AppFooter.vue'
   }
 
   .value-icon {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .value-card h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.3;
   }
 
   .value-card p {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
   }
 }
 </style>

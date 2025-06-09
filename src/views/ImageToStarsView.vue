@@ -243,8 +243,11 @@ const toastMessage = ref('')
 const lastCanvas = ref(null)
 const processing = ref(false)
 
+// Detect mobile device
+const isMobile = () => window.innerWidth <= 768
+
 const settings = reactive({
-  width: 60,
+  width: isMobile() ? 30 : 60, // Use smaller width on mobile
   grayscaleMode: 'luminance',
   inverted: false,
   dithering: false,
@@ -380,15 +383,25 @@ const handlePaste = async (event) => {
   }
 }
 
+// Handle window resize for responsive width adjustment
+const handleResize = () => {
+  const newWidth = isMobile() ? 30 : 60
+  if (settings.width !== newWidth) {
+    settings.width = newWidth
+  }
+}
+
 // Set up copy protection and paste listener
 onMounted(() => {
   copyProtection.setToastCallback(showToastMessage)
   document.addEventListener('paste', handlePaste)
+  window.addEventListener('resize', handleResize)
 })
 
 // Cleanup on unmount
 onUnmounted(() => {
   document.removeEventListener('paste', handlePaste)
+  window.removeEventListener('resize', handleResize)
 })
 </script>
 
@@ -406,6 +419,7 @@ onUnmounted(() => {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
+  overflow-x: hidden;
 }
 
 /* Converter Section */
@@ -826,6 +840,8 @@ onUnmounted(() => {
   padding: 1.5rem;
   background: #f8f9ff;
   height: calc(700px - 60px); /* Subtract header height */
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 .result-text {
@@ -840,6 +856,8 @@ onUnmounted(() => {
   border: 1px solid #e0e0e0;
   height: 100%;
   overflow-y: auto;
+  word-break: break-all;
+  max-width: 100%;
 }
 
 /* Toast Notification */
@@ -942,33 +960,22 @@ onUnmounted(() => {
   .toast.show {
     transform: translateX(0) translateY(0);
   }
+
+  .result-text {
+    font-size: 0.7rem;
+    white-space: pre-wrap;
+    word-break: break-all;
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 480px) {
-  .hero {
-    padding: 5rem 1rem 2rem;
-    min-height: 70vh;
-  }
-
-  .hero-title {
-    font-size: 2rem;
-  }
-
-  .hero-description {
-    font-size: 1rem;
-  }
-
-  .hero-stars {
-    font-size: 1.8rem;
-    gap: 0.6rem;
-  }
-
   .section-container {
     padding: 0 1rem;
   }
 
   .converter-section {
-    padding: 2.5rem 0;
+    padding: 0 0 2rem 0;
   }
 
   .features-section,
@@ -1063,6 +1070,10 @@ onUnmounted(() => {
   .result-text {
     font-size: 0.65rem;
     line-height: 1.05;
+    white-space: pre-wrap;
+    word-break: break-all;
+    overflow-x: hidden;
+    max-width: 100%;
   }
 
   .no-result span {

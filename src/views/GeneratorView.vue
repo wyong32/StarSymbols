@@ -302,7 +302,7 @@ onMounted(() => {
   }
 
   .generator-section {
-    padding: 3rem 0;
+    padding: 0 0 3rem 0;
   }
 
   .features-section {
@@ -383,7 +383,7 @@ onMounted(() => {
   }
 
   .generator-section {
-    padding: 2.5rem 0;
+    padding: 0 0 2rem 0;
   }
 
   .features-section {

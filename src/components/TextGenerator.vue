@@ -461,6 +461,10 @@ const insertStarIntoText = (star) => {
     font-size: 0.9rem;
   }
 
+  .form-group label {
+    font-size: 0.8rem;
+  }
+
   .copy-button {
     padding: 0.6rem 1rem;
     font-size: 0.9rem;
@@ -478,10 +482,6 @@ const insertStarIntoText = (star) => {
 @media (max-width: 480px) {
   .text-generator {
     padding: 1rem;
-  }
-
-  .generator-card {
-    padding: 1.5rem;
   }
 
   .generator-title {

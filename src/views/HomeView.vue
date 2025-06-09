@@ -81,7 +81,7 @@
         </div>
 
         <div class="tips-section">
-          <h3>Pro Tips</h3>
+          <h2>Pro Tips</h2>
           <div class="tips-grid">
             <div class="tip-group">
               <h3>✨ Creative Uses for Star Symbols</h3>
@@ -616,7 +616,7 @@ section {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.tips-section h3 {
+.tips-section h2 {
   font-size: 1.8rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -710,26 +710,33 @@ section {
   gap: 2rem;
 }
 
-.about-card {
+.about-content .about-text .about-card {
   background: #f8f9ff;
   padding: 2rem;
   border-radius: 15px;
   border-left: 4px solid #667eea;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.about-card h3 {
+.about-content .about-text .about-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.about-content .about-text .about-card h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: #333;
 }
 
-.about-card p {
+.about-content .about-text .about-card p {
   color: #666;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
 
-.about-card p:last-child {
+.about-content .about-text .about-card p:last-child {
   margin-bottom: 0;
 }
 
@@ -828,7 +835,7 @@ section {
   /* Adjust section heights for mobile */
   section {
     min-height: auto;
-    padding: 3rem 0;
+    padding: 1rem 0;
   }
 
   .hero {
@@ -842,7 +849,8 @@ section {
   }
 
   .hero-description {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.5;
     margin-bottom: 1.5rem;
   }
 
@@ -852,12 +860,17 @@ section {
     gap: 0.8rem;
   }
 
+  .section-header {
+    margin-bottom: 1rem;
+  }
+
   .section-container {
     padding: 0 1.5rem;
   }
 
   .section-header h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.2;
   }
 
   .section-header p {
@@ -887,6 +900,26 @@ section {
     font-size: 0.9rem;
   }
 
+  .tips-section {
+    padding: 1rem;
+  }
+
+  .tips-section h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .tips-section h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .tip-group li {
+    padding: 0.2rem 0;
+    font-size: 0.8rem;
+  }
+
   .faq-section {
     color: white;
   }
@@ -904,11 +937,6 @@ section {
     font-size: 0.9rem;
   }
 
-  .about-content {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
   .feature-highlight {
     padding: 1.5rem;
   }
@@ -916,11 +944,28 @@ section {
   .feature-icon-large {
     font-size: 2rem;
   }
+
+  .about-content .about-text .about-card {
+    padding: 1rem;
+  }
+
+  .about-content .about-text .about-card h3 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+  .about-content .about-text .about-card p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  .feature-list li {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
 }
 
 @media (max-width: 600px) {
   .steps-grid {
-    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
   .tips-grid {
@@ -929,6 +974,10 @@ section {
 
   .about-content {
     grid-template-columns: 1fr;
+  }
+
+  .feature-highlight {
+    padding: 1rem;
   }
 
   .toast {
@@ -950,28 +999,29 @@ section {
   }
 
   .hero-title {
-    font-size: 2rem;
-    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .hero-description {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 1rem;
   }
 
   .hero-stars {
     font-size: 1.8rem;
     gap: 0.6rem;
+    margin-bottom: 0.5rem;
   }
 
   .hero-cta,
   .section-cta {
-    margin-top: 1.5rem;
-    padding: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
   }
 
   .cta-text {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .section-container {
@@ -979,15 +1029,15 @@ section {
   }
 
   .section-header h2 {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 
   .section-header p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .step-card {
-    padding: 1.25rem;
+    padding: 1rem;
   }
 
   .step-number {
@@ -998,10 +1048,12 @@ section {
 
   .step-card h3 {
     font-size: 1rem;
+    line-height: 1.3;
   }
 
   .step-card p {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
   }
 
   .faq-question {
@@ -1014,11 +1066,7 @@ section {
   }
 
   .faq-answer p {
-    font-size: 0.85rem;
-  }
-
-  .feature-highlight {
-    padding: 1.25rem;
+    font-size: 0.8rem;
   }
 
   .feature-highlight h3 {
@@ -1026,19 +1074,11 @@ section {
   }
 
   .feature-highlight p {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 
   .feature-icon-large {
     font-size: 1.8rem;
-  }
-
-  .tip-group h3 {
-    font-size: 1rem;
-  }
-
-  .tip-group ul li {
-    font-size: 0.85rem;
   }
 }
 </style>

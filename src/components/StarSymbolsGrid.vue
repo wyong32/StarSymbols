@@ -140,26 +140,29 @@ const copySymbol = async (symbol) => {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .symbols-grid {
-    grid-template-columns: repeat(auto-fill, 50px);
-    gap: 0.5rem;
-  }
-
-  .symbol-button {
-    width: 50px;
-    height: 50px;
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 480px) {
   .symbols-tabs {
     padding: 1rem;
   }
 
-  .tab-buttons {
-    flex-direction: column;
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, 46px);
     gap: 0.5rem;
+  }
+
+  .symbol-button {
+    width: 46px;
+    height: 46px;
+    font-size: 1.2rem;
+  }
+
+  .tab-buttons {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .tab-button {
+    padding: 0.3rem 1rem;
   }
 }
 </style>

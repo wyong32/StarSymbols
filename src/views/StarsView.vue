@@ -320,7 +320,7 @@ onUnmounted(() => {
   gap: 2rem;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem 2rem;
 }
 
 /* Sidebar Styles */
@@ -525,7 +525,7 @@ onUnmounted(() => {
 @media (max-width: 1024px) {
   .main-layout {
     grid-template-columns: 1fr;
-    padding: 1.5rem;
+    padding: 0 1.5rem 1.5rem;
   }
 
   .sidebar {
@@ -534,29 +534,8 @@ onUnmounted(() => {
 }
 
 @media (max-width: 768px) {
-  .hero {
-    padding: 6rem 1.5rem 3rem;
-    min-height: 80vh;
-  }
-
-  .hero-title {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .hero-description {
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .hero-stars {
-    font-size: 2rem;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-  }
-
   .main-layout {
-    padding: 1rem;
+    padding: 0 1rem 1rem;
   }
 
   .section-header h2 {
@@ -616,20 +595,6 @@ onUnmounted(() => {
 }
 
 @media (max-width: 480px) {
-  .hero {
-    padding: 5rem 1rem 2rem;
-    min-height: 70vh;
-  }
-
-  .hero-title {
-    font-size: 2rem;
-    margin-bottom: 0.8rem;
-  }
-
-  .main-layout {
-    padding: 0.8rem;
-  }
-
   .categories-grid {
     gap: 1rem;
   }
@@ -659,33 +624,9 @@ onUnmounted(() => {
     gap: 0.6rem;
   }
 
-  .star-item {
-    padding: 0.6rem 0.4rem;
-    border-radius: 10px;
-  }
-
-  .star-symbol {
-    font-size: 1.5rem;
-    margin-bottom: 0.2rem;
-  }
-
   .star-name {
     font-size: 0.7rem;
     line-height: 1.1;
-  }
-
-  .hero-description {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .hero-stars {
-    font-size: 1.8rem;
-    gap: 0.6rem;
-  }
-
-  .section-container {
-    padding: 0 1rem;
   }
 
   .section-header h2 {
@@ -697,20 +638,17 @@ onUnmounted(() => {
   }
 
   .star-item {
-    padding: 0.8rem;
+    border-radius: 5px;
+    padding: 0.5rem;
     flex-direction: column;
     text-align: center;
   }
 
   .star-symbol {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-right: 0;
     margin-bottom: 0.5rem;
     min-width: auto;
-  }
-
-  .star-name {
-    font-size: 1rem;
   }
 
   .star-description {
@@ -719,10 +657,6 @@ onUnmounted(() => {
 
   .category-module {
     padding: 1rem;
-  }
-
-  .category-title {
-    font-size: 1.5rem;
   }
 
   .star-meta {

@@ -60,7 +60,6 @@
 .hero-description {
   font-size: 1.3rem;
   color: #555;
-  margin-bottom: 0rem;
   line-height: 1.8;
   margin-left: auto;
   margin-right: auto;
@@ -212,11 +211,11 @@
   z-index: -1; /* Go to the bottom of the new stacking context */
 }
 
-/* 响应式设计 */
+/* 响应式设计 - 参考首页样式 */
 @media (max-width: 768px) {
   .hero {
     min-height: auto;
-    padding: 6rem 1.5rem 3rem;
+    padding: 6rem 1rem 1rem;
   }
 
   .hero-title {
@@ -229,25 +228,26 @@
   }
 
   .hero-description {
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
   }
 
   .hero-stars {
     font-size: 2rem;
+    flex-wrap: wrap;
     gap: 0.8rem;
   }
 }
 
 @media (max-width: 480px) {
   .hero {
-    padding: 5rem 1rem 2rem;
+    padding: 5rem 1rem 1rem;
     min-height: auto;
   }
 
   .hero-title {
-    font-size: 2rem;
-    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .hero-subtitle {
@@ -255,12 +255,12 @@
   }
 
   .hero-description {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    font-size: 0.8rem;
   }
 
   .hero-stars {
     font-size: 1.8rem;
     gap: 0.6rem;
+    margin-bottom: 0.5rem;
   }
 }

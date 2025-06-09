@@ -138,12 +138,43 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .footer {
+    padding: 1rem 0;
+  }
+  .footer-container {
+    padding: 0 1rem;
+  }
+
+  .footer-logo h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer-brand p {
+    font-size: 0.9rem;
+  }
+
   .footer-content {
     grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
   }
 
   .footer-links {
-    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .footer-column h4 {
+    font-size: 1rem;
+  }
+  .footer-column li {
+    margin-bottom: 0.2rem;
+  }
+  .footer-column a,
+  .footer-column router-link {
+    font-size: 0.8rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.8rem;
   }
 }
 </style>

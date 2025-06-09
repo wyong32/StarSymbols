@@ -33,7 +33,9 @@ const blogPosts = getLatestBlogPosts(8)
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .blog-item:hover {
@@ -44,6 +46,7 @@ const blogPosts = getLatestBlogPosts(8)
 .blog-image {
   position: relative;
   overflow: hidden;
+  font-size: 0;
 }
 
 .blog-image img {
@@ -128,7 +131,7 @@ const blogPosts = getLatestBlogPosts(8)
   }
 
   .blog-content {
-    padding: 1.25rem;
+    padding: 1rem;
   }
 
   .blog-title {
@@ -153,7 +156,7 @@ const blogPosts = getLatestBlogPosts(8)
   }
 
   .blog-content {
-    padding: 1rem;
+    padding: 0.8rem;
   }
 
   .blog-date {
@@ -166,8 +169,8 @@ const blogPosts = getLatestBlogPosts(8)
   }
 
   .blog-excerpt {
-    font-size: 0.85rem;
-    margin-bottom: 0.75rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.7rem;
   }
 
   .blog-read-more {
