@@ -65,3 +65,19 @@ Thumbs.db
 
 # Example/demo directories (if any)
 stellar-copy-paste-genesis-main/
+
+# SEO and documentation files (optional - can be included in repo)
+# Uncomment if you don't want these in your repository:
+# SEO_CHECKLIST.md
+# public/humans.txt
+# public/.well-known/
+
+# Generated sitemap (auto-generated during build)
+public/sitemap.xml
+dist/sitemap.xml
+
+# Security files with sensitive info (if they contain real contact info)
+# public/.well-known/security.txt
+
+# PWA files (these should be included in repo)
+# public/manifest.json
