@@ -86,7 +86,7 @@ export const starDetailsData = [
     slug: 'white-star', // 链接
     unicode: 'U+2606', // 编码
     seo: {
-      title: '☆ White Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '☆ White Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the classic white star symbol ☆ (U+2606). Ideal for ratings, design, and creative text. One-click copy Unicode hollow star symbol.',
       keywords:
@@ -162,7 +162,7 @@ export const starDetailsData = [
     slug: 'star-of-david', // 链接
     unicode: 'U+2721', // 编码
     seo: {
-      title: '✡ Star of David Symbol - Copy and Paste Unicode Symbol | StarCopy',
+      title: '✡ Star of David Symbol - Copy and Paste Unicode Symbol',
       description:
         'Copy the ✡ Star of David symbol (U+2721). A Unicode religious symbol used in Jewish contexts. Easily copy and paste for websites or documents.',
       keywords:
@@ -236,7 +236,7 @@ export const starDetailsData = [
     slug: 'black-four-pointed-star', // 链接
     unicode: 'U+2726', // 编码
     seo: {
-      title: '✦ Black Four Pointed Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✦ Black Four Pointed Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✦ Black Four Pointed Star symbol (U+2726). A stylish Unicode star often used in decoration, design, and emphasis. One-click copy and paste.',
       keywords:
@@ -310,7 +310,7 @@ export const starDetailsData = [
     slug: 'white-four-pointed-star', // 链接
     unicode: 'U+2727', // 编码
     seo: {
-      title: '✧ White Four Pointed Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✧ White Four Pointed Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✧ White Four Pointed Star symbol (U+2727). A decorative hollow star often used in visual design, sparkles, and styling. Click to copy.',
       keywords:
@@ -384,7 +384,7 @@ export const starDetailsData = [
     slug: 'stress-outlined-white-star', // 链接
     unicode: 'U+2729', // 编码
     seo: {
-      title: '✩ Stress Outlined White Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✩ Stress Outlined White Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✩ Stress Outlined White Star symbol (U+2729). A decorative star with a bold outline, often used in designs and stylized text. One-click copy.',
       keywords:
@@ -458,7 +458,7 @@ export const starDetailsData = [
     slug: 'circled-white-star', // 链接
     unicode: 'U+272A', // 编码
     seo: {
-      title: '✪ Circled White Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✪ Circled White Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✪ Circled White Star symbol (U+272A). A decorative star enclosed in a circle, commonly used in designs and text styling. Easy one-click copy.',
       keywords:
@@ -532,7 +532,7 @@ export const starDetailsData = [
     slug: 'open-centre-black-star', // 链接
     unicode: 'U+272B', // 编码
     seo: {
-      title: '✫ Open Centre Black Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✫ Open Centre Black Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✫ Open Centre Black Star symbol (U+272B). A decorative star with an open center, used in design and styling. One-click copy and paste.',
       keywords:
@@ -606,7 +606,7 @@ export const starDetailsData = [
     slug: 'black-centre-white-star', // 链接
     unicode: 'U+272C', // 编码
     seo: {
-      title: '✬ Black Centre White Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✬ Black Centre White Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✬ Black Centre White Star symbol (U+272C). A decorative star with a black center and white outline, perfect for design and styling. One-click copy.',
       keywords:
@@ -680,7 +680,7 @@ export const starDetailsData = [
     slug: 'outlined-black-star', // 链接
     unicode: 'U+272D', // 编码
     seo: {
-      title: '✭ Outlined Black Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✭ Outlined Black Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✭ Outlined Black Star symbol (U+272D). A decorative outlined star commonly used in text and design. One-click copy for easy use.',
       keywords:
@@ -754,7 +754,7 @@ export const starDetailsData = [
     slug: 'heavy-outlined-black-star', // 链接
     unicode: 'U+272E', // 编码
     seo: {
-      title: '✮ Heavy Outlined Black Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✮ Heavy Outlined Black Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✮ Heavy Outlined Black Star symbol (U+272E). A bold decorative star with a heavy outline, perfect for emphasis and design. One-click copy available.',
       keywords:
@@ -816,7 +816,7 @@ export const starDetailsData = [
     slug: 'pinwheel-star', // 链接
     unicode: 'U+272F', // 编码
     seo: {
-      title: '✯ Pinwheel Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✯ Pinwheel Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✯ Pinwheel Star symbol (U+272F). A decorative star resembling a pinwheel, ideal for design and text decoration. One-click copy available.',
       keywords:
@@ -878,7 +878,7 @@ export const starDetailsData = [
     slug: 'white-small-star', // 链接
     unicode: 'U+2B52', // 编码
     seo: {
-      title: '⭒ White Small Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '⭒ White Small Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ⭒ White Small Star symbol (U+2B52). A decorative small white star perfect for accents and text decoration. One-click copy.',
       keywords:
@@ -933,7 +933,7 @@ export const starDetailsData = [
     slug: 'black-small-star', // 链接
     unicode: 'U+2B51', // 编码
     seo: {
-      title: '⭑ Black Small Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '⭑ Black Small Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ⭑ Black Small Star symbol (U+2B51). A decorative small black star ideal for accents and design. One-click copy available.',
       keywords:
@@ -988,7 +988,7 @@ export const starDetailsData = [
     slug: 'shadowed-white-star', // 链接
     unicode: 'U+2730', // 编码
     seo: {
-      title: '✰ Shadowed White Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✰ Shadowed White Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✰ Shadowed White Star symbol (U+2730). A decorative star with shadow effect, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -1050,7 +1050,7 @@ export const starDetailsData = [
     slug: 'asterism', // 链接
     unicode: 'U+2042', // 编码
     seo: {
-      title: '⁂ Asterism Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '⁂ Asterism Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ⁂ Asterism symbol (U+2042). A decorative typographic symbol consisting of three asterisks in a triangle, perfect for section breaks and emphasis. One-click copy available.',
       keywords:
@@ -1105,7 +1105,7 @@ export const starDetailsData = [
     slug: 'low-asterisk', // 链接
     unicode: 'U+204E', // 编码
     seo: {
-      title: '⁎ Low Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '⁎ Low Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ⁎ Low Asterisk symbol (U+204E). A decorative asterisk placed lower than the usual position, perfect for stylistic text decoration. One-click copy available.',
       keywords:
@@ -1160,7 +1160,7 @@ export const starDetailsData = [
     slug: 'two-asterisks-aligned-vertically', // 链接
     unicode: 'U+2051', // 编码
     seo: {
-      title: '⁑ Two Asterisks Aligned Vertically Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '⁑ Two Asterisks Aligned Vertically Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ⁑ Two Asterisks Aligned Vertically symbol (U+2051). A decorative typographic symbol featuring two vertically aligned asterisks, ideal for design and emphasis. One-click copy available.',
       keywords:
@@ -1215,7 +1215,7 @@ export const starDetailsData = [
     slug: 'four-teardrop-spoked-asterisk', // 链接
     unicode: 'U+2722', // 编码
     seo: {
-      title: '✢ Four Teardrop-Spoked Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✢ Four Teardrop-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✢ Four Teardrop-Spoked Asterisk symbol (U+2722). A decorative star with four teardrop-shaped spokes, perfect for design accents and stylistic text. One-click copy available.',
       keywords:
@@ -1270,7 +1270,7 @@ export const starDetailsData = [
     slug: 'four-balloon-spoked-asterisk', // 链接
     unicode: 'U+2723', // 编码
     seo: {
-      title: '✣ Four Balloon-Spoked Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✣ Four Balloon-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✣ Four Balloon-Spoked Asterisk symbol (U+2723). A decorative star with four balloon-shaped spokes, ideal for stylistic text and design accents. One-click copy available.',
       keywords:
@@ -1325,7 +1325,7 @@ export const starDetailsData = [
     slug: 'heavy-four-balloon-spoked-asterisk', // 链接
     unicode: 'U+2724', // 编码
     seo: {
-      title: '✤ Heavy Four Balloon-Spoked Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✤ Heavy Four Balloon-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✤ Heavy Four Balloon-Spoked Asterisk symbol (U+2724). A bold decorative star with four balloon-shaped spokes, perfect for emphasis and design. One-click copy available.',
       keywords:
@@ -1380,7 +1380,7 @@ export const starDetailsData = [
     slug: 'four-club-spoked-asterisk', // 链接
     unicode: 'U+2725', // 编码
     seo: {
-      title: '✥ Four Club-Spoked Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✥ Four Club-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✥ Four Club-Spoked Asterisk symbol (U+2725). A decorative star with four club-shaped spokes, perfect for stylistic text and design elements. One-click copy available.',
       keywords:
@@ -1435,7 +1435,7 @@ export const starDetailsData = [
     slug: 'heavy-asterisk', // 链接
     unicode: 'U+2731', // 编码
     seo: {
-      title: '✱ Heavy Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✱ Heavy Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✱ Heavy Asterisk symbol (U+2731). A bold classic asterisk, perfect for emphasis and decorative use. One-click copy available.',
       keywords:
@@ -1490,7 +1490,7 @@ export const starDetailsData = [
     slug: 'open-centre-asterisk', // 链接
     unicode: 'U+2732', // 编码
     seo: {
-      title: '✲ Open Centre Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✲ Open Centre Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✲ Open Centre Asterisk symbol (U+2732). A classic asterisk with an open center, perfect for decorative and stylistic use. One-click copy available.',
       keywords:
@@ -1545,7 +1545,7 @@ export const starDetailsData = [
     slug: 'eight-spoked-asterisk', // 链接
     unicode: 'U+2733', // 编码
     seo: {
-      title: '✳ Eight Spoked Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✳ Eight Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✳ Eight Spoked Asterisk symbol (U+2733). A classic asterisk with eight spokes, ideal for decorative and stylistic text. One-click copy available.',
       keywords:
@@ -1600,7 +1600,7 @@ export const starDetailsData = [
     slug: 'eight-pointed-black-star', // 链接
     unicode: 'U+2734', // 编码
     seo: {
-      title: '✴ Eight Pointed Black Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✴ Eight Pointed Black Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✴ Eight Pointed Black Star symbol (U+2734). A classic star with eight black points, perfect for decoration and emphasis. One-click copy available.',
       keywords:
@@ -1655,7 +1655,7 @@ export const starDetailsData = [
     slug: 'eight-pointed-pinwheel-star', // 链接
     unicode: 'U+2735', // 编码
     seo: {
-      title: '✵ Eight Pointed Pinwheel Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✵ Eight Pointed Pinwheel Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✵ Eight Pointed Pinwheel Star symbol (U+2735). A decorative star with eight pinwheel-shaped points, perfect for stylish text and design. One-click copy available.',
       keywords:
@@ -1710,7 +1710,7 @@ export const starDetailsData = [
     slug: 'six-pointed-black-star', // 链接
     unicode: 'U+2736', // 编码
     seo: {
-      title: '✶ Six Pointed Black Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✶ Six Pointed Black Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✶ Six Pointed Black Star symbol (U+2736). A classic six-pointed star symbol, perfect for decoration and emphasis. One-click copy available.',
       keywords:
@@ -1765,8 +1765,7 @@ export const starDetailsData = [
     slug: 'eight-pointed-rectilinear-black-star', // 链接
     unicode: 'U+2737', // 编码
     seo: {
-      title:
-        '✷ Eight Pointed Rectilinear Black Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✷ Eight Pointed Rectilinear Black Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✷ Eight Pointed Rectilinear Black Star symbol (U+2737). A classic decorative eight-pointed star with straight edges, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -1821,8 +1820,7 @@ export const starDetailsData = [
     slug: 'heavy-eight-pointed-rectilinear-black-star', // 链接
     unicode: 'U+2738', // 编码
     seo: {
-      title:
-        '✸ Heavy Eight Pointed Rectilinear Black Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✸ Heavy Eight Pointed Rectilinear Black Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✸ Heavy Eight Pointed Rectilinear Black Star symbol (U+2738). A bold eight-pointed star with rectilinear design, perfect for emphasis and decoration. One-click copy available.',
       keywords:
@@ -1877,7 +1875,7 @@ export const starDetailsData = [
     slug: 'twelve-pointed-black-star', // 链接
     unicode: 'U+2739', // 编码
     seo: {
-      title: '✹ Twelve Pointed Black Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✹ Twelve Pointed Black Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✹ Twelve Pointed Black Star symbol (U+2739). A decorative twelve-pointed black star, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -1932,7 +1930,7 @@ export const starDetailsData = [
     slug: 'sixteen-pointed-asterisk', // 链接
     unicode: 'U+273A', // 编码
     seo: {
-      title: '✺ Sixteen Pointed Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✺ Sixteen Pointed Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✺ Sixteen Pointed Asterisk symbol (U+273A). A decorative sixteen-pointed asterisk symbol, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -1987,7 +1985,7 @@ export const starDetailsData = [
     slug: 'teardrop-spoked-asterisk', // 链接
     unicode: 'U+273B', // 编码
     seo: {
-      title: '✻ Teardrop-Spoked Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✻ Teardrop-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✻ Teardrop-Spoked Asterisk symbol (U+273B). A decorative asterisk with teardrop-shaped spokes, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -2042,8 +2040,7 @@ export const starDetailsData = [
     slug: 'open-centre-teardrop-spoked-asterisk', // 链接
     unicode: 'U+273C', // 编码
     seo: {
-      title:
-        '✼ Open Centre Teardrop-Spoked Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✼ Open Centre Teardrop-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✼ Open Centre Teardrop-Spoked Asterisk symbol (U+273C). A decorative asterisk with an open center and teardrop-shaped spokes, ideal for design and emphasis. One-click copy available.',
       keywords:
@@ -2098,7 +2095,7 @@ export const starDetailsData = [
     slug: 'heavy-teardrop-spoked-asterisk', // 链接
     unicode: 'U+273D', // 编码
     seo: {
-      title: '✽ Heavy Teardrop-Spoked Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✽ Heavy Teardrop-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✽ Heavy Teardrop-Spoked Asterisk symbol (U+273D). A bold asterisk with teardrop-shaped spokes, perfect for emphasis and design. One-click copy available.',
       keywords:
@@ -2153,8 +2150,7 @@ export const starDetailsData = [
     slug: 'six-petalled-black-and-white-florette', // 链接
     unicode: 'U+273E', // 编码
     seo: {
-      title:
-        '✾ Six Petalled Black And White Florette Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✾ Six Petalled Black And White Florette Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✾ Six Petalled Black And White Florette symbol (U+273E). A decorative florette with six petals, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -2209,7 +2205,7 @@ export const starDetailsData = [
     slug: 'black-florette', // 链接
     unicode: 'U+273F', // 编码
     seo: {
-      title: '✿ Black Florette Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '✿ Black Florette Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ✿ Black Florette symbol (U+273F). A decorative black florette, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -2264,7 +2260,7 @@ export const starDetailsData = [
     slug: 'white-florette', // 链接
     unicode: 'U+2740', // 编码
     seo: {
-      title: '❀ White Florette Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '❀ White Florette Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ❀ White Florette symbol (U+2740). A decorative white florette, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -2319,8 +2315,7 @@ export const starDetailsData = [
     slug: 'eight-petalled-outlined-black-florette', // 链接
     unicode: 'U+2741', // 编码
     seo: {
-      title:
-        '❁ Eight Petalled Outlined Black Florette Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '❁ Eight Petalled Outlined Black Florette Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ❁ Eight Petalled Outlined Black Florette symbol (U+2741). A decorative outlined florette with eight petals, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -2375,8 +2370,7 @@ export const starDetailsData = [
     slug: 'circled-open-centre-eight-pointed-star', // 链接
     unicode: 'U+2742', // 编码
     seo: {
-      title:
-        '❂ Circled Open Centre Eight Pointed Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '❂ Circled Open Centre Eight Pointed Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ❂ Circled Open Centre Eight Pointed Star symbol (U+2742). A decorative star with eight points and open center inside a circle. One-click copy available.',
       keywords:
@@ -2431,8 +2425,7 @@ export const starDetailsData = [
     slug: 'heavy-teardrop-spoked-pinwheel-asterisk', // 链接
     unicode: 'U+2743', // 编码
     seo: {
-      title:
-        '❃ Heavy Teardrop-Spoked Pinwheel Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '❃ Heavy Teardrop-Spoked Pinwheel Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ❃ Heavy Teardrop-Spoked Pinwheel Asterisk symbol (U+2743). A decorative heavy teardrop-spoked asterisk, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -2487,7 +2480,7 @@ export const starDetailsData = [
     slug: 'sparkle', // 链接
     unicode: 'U+2747', // 编码
     seo: {
-      title: '❇ Sparkle Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '❇ Sparkle Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ❇ Sparkle symbol (U+2747). A decorative sparkle star, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -2542,7 +2535,7 @@ export const starDetailsData = [
     slug: 'heavy-sparkle', // 链接
     unicode: 'U+2748', // 编码
     seo: {
-      title: '❈ Heavy Sparkle Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '❈ Heavy Sparkle Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ❈ Heavy Sparkle symbol (U+2748). A decorative heavy sparkle star, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -2597,7 +2590,7 @@ export const starDetailsData = [
     slug: 'balloon-spoked-asterisk', // 链接
     unicode: 'U+2749', // 编码
     seo: {
-      title: '❉ Balloon-Spoked Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '❉ Balloon-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ❉ Balloon-Spoked Asterisk symbol (U+2749). A decorative balloon-spoked asterisk, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -2652,8 +2645,7 @@ export const starDetailsData = [
     slug: 'eight-teardrop-spoked-propeller-asterisk', // 链接
     unicode: 'U+274A', // 编码
     seo: {
-      title:
-        '❊ Eight Teardrop-Spoked Propeller Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '❊ Eight Teardrop-Spoked Propeller Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ❊ Eight Teardrop-Spoked Propeller Asterisk symbol (U+274A). A decorative eight teardrop-spoked propeller asterisk, perfect for design and emphasis. One-click copy available.',
       keywords:
@@ -2709,7 +2701,7 @@ export const starDetailsData = [
     unicode: 'U+274B', // 编码
     seo: {
       title:
-        '❋ Heavy Eight Teardrop-Spoked Propeller Asterisk Symbol - Copy and Paste Unicode Star | StarCopy',
+        '❋ Heavy Eight Teardrop-Spoked Propeller Asterisk Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the ❋ Heavy Eight Teardrop-Spoked Propeller Asterisk symbol (U+274B). A bold decorative star ideal for design accents. One-click copy available.',
       keywords:
@@ -2764,7 +2756,7 @@ export const starDetailsData = [
     slug: 'snowflake', // 链接
     unicode: 'U+2744', // 编码
     seo: {
-      title: '❄ Snowflake Symbol - Copy and Paste Unicode Winter Icon | StarCopy',
+      title: '❄ Snowflake Symbol - Copy and Paste Unicode Winter Icon',
       description:
         'Copy the ❄ Snowflake symbol (U+2744). Perfect for winter themes, holiday designs, or decorative text. One-click copy supported.',
       keywords:
@@ -2819,7 +2811,7 @@ export const starDetailsData = [
     slug: 'heavy-chevron-snowflake', // 链接
     unicode: 'U+2746', // 编码
     seo: {
-      title: '❆ Heavy Chevron Snowflake Symbol - Copy and Paste Unicode Winter Icon | StarCopy',
+      title: '❆ Heavy Chevron Snowflake Symbol - Copy and Paste Unicode Winter Icon',
       description:
         'Copy the ❆ Heavy Chevron Snowflake symbol (U+2746). A bold snowflake design perfect for winter, holiday decorations, or themed text. One-click copy supported.',
       keywords:
@@ -2874,7 +2866,7 @@ export const starDetailsData = [
     slug: 'tight-trifoliate-snowflake', // 链接
     unicode: 'U+2745', // 编码
     seo: {
-      title: '❅ Tight Trifoliate Snowflake Symbol - Copy and Paste Unicode Winter Icon | StarCopy',
+      title: '❅ Tight Trifoliate Snowflake Symbol - Copy and Paste Unicode Winter Icon',
       description:
         'Copy the ❅ Tight Trifoliate Snowflake symbol (U+2745). A delicate snowflake design perfect for winter-themed messages, cards, or decor. Easy copy and paste supported.',
       keywords:
@@ -2929,7 +2921,7 @@ export const starDetailsData = [
     slug: 'star-operator', // 链接
     unicode: 'U+22C6', // 编码
     seo: {
-      title: '⋆ Star Operator Symbol - Copy and Paste Unicode Math Star | StarCopy',
+      title: '⋆ Star Operator Symbol - Copy and Paste Unicode Math Star',
       description:
         'Copy the ⋆ Star Operator symbol (U+22C6). Commonly used in mathematics, logic, and programming. Easy copy and paste, with HTML and CSS codes provided.',
       keywords:
@@ -2984,7 +2976,7 @@ export const starDetailsData = [
     slug: 'star-equals', // 链接
     unicode: 'U+225B', // 编码
     seo: {
-      title: '≛ Star Equals Symbol - Copy and Paste Unicode Math Symbol | StarCopy',
+      title: '≛ Star Equals Symbol - Copy and Paste Unicode Math Symbol',
       description:
         'Copy the ≛ Star Equals symbol (U+225B). A mathematical operator used in specialized contexts. Includes HTML, CSS, and Unicode references. Copy with one click.',
       keywords:
@@ -3039,7 +3031,7 @@ export const starDetailsData = [
     slug: 'canadian-syllabics-tth', // 链接
     unicode: 'U+157F', // 编码
     seo: {
-      title: 'ᕯ Canadian Syllabics Tth Symbol - Copy and Paste Unicode Symbol | StarCopy',
+      title: 'ᕯ Canadian Syllabics Tth Symbol - Copy and Paste Unicode Symbol',
       description:
         'Copy the ᕯ Canadian Syllabics Tth symbol (U+157F). A character from the Unified Canadian Aboriginal Syllabics block, often resembles a star symbol. Easy copy-paste, with HTML and CSS codes.',
       keywords:
@@ -3094,7 +3086,7 @@ export const starDetailsData = [
     slug: 'tibetan-sign-rdel-nag-gsum', // 链接
     unicode: 'U+0FDF', // 编码
     seo: {
-      title: '࿏ Tibetan Sign Rdel Nag Gsum - Copy and Paste Unicode Symbol | StarCopy',
+      title: '࿏ Tibetan Sign Rdel Nag Gsum - Copy and Paste Unicode Symbol',
       description:
         'Copy the ࿏ Tibetan Sign Rdel Nag Gsum symbol (U+0FDF). A religious and ornamental Tibetan mark, used in sacred texts. Includes HTML, CSS, and Unicode references.',
       keywords:
@@ -3149,7 +3141,7 @@ export const starDetailsData = [
     slug: 'combining-cyrillic-ten-millions-sign', // 链接
     unicode: 'U+A670', // 编码
     seo: {
-      title: '꙰ Combining Cyrillic Ten Millions Sign - Copy and Paste Unicode | StarCopy',
+      title: '꙰ Combining Cyrillic Ten Millions Sign - Copy and Paste Unicode',
       description:
         'Copy the ꙰ Combining Cyrillic Ten Millions Sign (U+A670). A rare historical combining character used in Cyrillic numeral systems. View Unicode, HTML, and CSS codes.',
       keywords:
@@ -3204,7 +3196,7 @@ export const starDetailsData = [
     slug: 'arabic-start-of-rub-el-hizb', // 链接
     unicode: 'U+06DE', // 编码
     seo: {
-      title: '۞ Arabic Start Of Rub El Hizb Symbol - Copy and Paste Unicode | StarCopy',
+      title: '۞ Arabic Start Of Rub El Hizb Symbol - Copy and Paste Unicode',
       description:
         'Copy the ۞ Rub El Hizb symbol (U+06DE), used in Arabic calligraphy and Quranic texts to mark divisions. Includes Unicode, HTML, and CSS codes.',
       keywords:
@@ -3259,7 +3251,7 @@ export const starDetailsData = [
     slug: 'apl-functional-symbol-circle-star', // 链接
     unicode: 'U+235F', // 编码
     seo: {
-      title: '⍟ Apl Functional Symbol Circle Star - Copy and Paste Unicode | StarCopy',
+      title: '⍟ Apl Functional Symbol Circle Star - Copy and Paste Unicode',
       description:
         'Copy the ⍟ Apl Functional Symbol Circle Star (U+235F). Used in APL programming language and mathematical notation. Includes HTML, CSS, and Unicode codes.',
       keywords:
@@ -3314,7 +3306,7 @@ export const starDetailsData = [
     slug: 'white-medium-star', // 链接
     unicode: 'U+2B50', // 编码
     seo: {
-      title: '⭐ White Medium Star Symbol - Copy and Paste Unicode Star | StarCopy',
+      title: '⭐ White Medium Star Symbol - Copy and Paste Unicode Star',
       description:
         'Copy the classic white medium star symbol ⭐ (U+2B50). Perfect for ratings, emphasis, and decorative text. Free Unicode star symbol with one-click copy.',
       keywords:
@@ -3369,7 +3361,7 @@ export const starDetailsData = [
     slug: 'shooting-star', // 链接
     unicode: 'U+1F320', // 编码
     seo: {
-      title: '🌠 Shooting Star Emoji - Copy and Paste Unicode | StarCopy',
+      title: '🌠 Shooting Star Emoji - Copy and Paste Unicode',
       description:
         'Copy the 🌠 Shooting Star emoji (U+1F320). Perfect for expressing wishes, magic, or nighttime themes. Includes Unicode, HTML, and CSS codes.',
       keywords: 'shooting star emoji, 🌠 symbol, unicode emoji, wish star, copy shooting star',
@@ -3423,7 +3415,7 @@ export const starDetailsData = [
     slug: 'glowing-star', // 链接
     unicode: 'U+1F31F', // 编码
     seo: {
-      title: '🌟 Glowing Star Emoji - Copy and Paste Unicode | StarCopy',
+      title: '🌟 Glowing Star Emoji - Copy and Paste Unicode',
       description:
         'Copy the 🌟 Glowing Star emoji (U+1F31F). Often used to express sparkle, glow, or magic. Includes Unicode, HTML, and CSS codes.',
       keywords:
@@ -3478,7 +3470,7 @@ export const starDetailsData = [
     slug: 'dizzy-symbol', // 链接
     unicode: 'U+1F4AB', // 编码
     seo: {
-      title: '💫 Dizzy Symbol Emoji - Copy and Paste Unicode | StarCopy',
+      title: '💫 Dizzy Symbol Emoji - Copy and Paste Unicode',
       description:
         'Copy the 💫 Dizzy Symbol emoji (U+1F4AB). Represents dizziness, swirling, or magical sparkles. Includes Unicode, HTML, and CSS codes.',
       keywords:
@@ -3533,7 +3525,7 @@ export const starDetailsData = [
     slug: 'sparkles', // 链接
     unicode: 'U+2728', // 编码
     seo: {
-      title: '✨ Sparkles Emoji - Copy and Paste Unicode | StarCopy',
+      title: '✨ Sparkles Emoji - Copy and Paste Unicode',
       description:
         'Copy the ✨ Sparkles emoji (U+2728). Often used to represent magic, glitter, or shine. Includes Unicode, HTML, and CSS codes.',
       keywords: 'sparkles emoji, ✨ symbol, unicode emoji, magic glitter, shine, copy sparkles',
@@ -3587,7 +3579,7 @@ export const starDetailsData = [
     slug: 'night-with-stars', // 链接
     unicode: 'U+1F303', // 编码
     seo: {
-      title: '🌃 Night With Stars Emoji - Copy and Paste Unicode | StarCopy',
+      title: '🌃 Night With Stars Emoji - Copy and Paste Unicode',
       description:
         'Copy the 🌃 Night With Stars emoji (U+1F303). Represents a city night scene with stars. Includes Unicode, HTML, and CSS codes.',
       keywords:
@@ -3642,7 +3634,7 @@ export const starDetailsData = [
     slug: 'six-pointed-star-with-middle-dot', // 链接
     unicode: 'U+1F52F', // 编码
     seo: {
-      title: '🔯 Six Pointed Star With Middle Dot Emoji - Copy and Paste Unicode | StarCopy',
+      title: '🔯 Six Pointed Star With Middle Dot Emoji - Copy and Paste Unicode',
       description:
         'Copy the 🔯 Six Pointed Star With Middle Dot emoji (U+1F52F). A star symbol with six points and a central dot. Includes Unicode, HTML, and CSS codes.',
       keywords:
