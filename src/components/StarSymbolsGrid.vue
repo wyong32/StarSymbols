@@ -101,7 +101,7 @@ const copySymbol = async (symbol) => {
 }
 
 .tab-button {
-  padding: 0.8rem 1.5rem;
+  padding: 0.5rem 1rem;
   border: 2px solid #e0e0e0;
   background: white;
   border-radius: 25px;
