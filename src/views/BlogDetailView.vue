@@ -47,6 +47,54 @@ import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { getBlogPostByPagename } from '@/data/blogPosts.js'
 
+// Add structured data for blog posts
+const addStructuredData = (post) => {
+  if (!post) return
+
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    image: post.image || 'https://starsymbols.io/og-image.svg',
+    author: {
+      '@type': 'Organization',
+      name: 'StarSymbols',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'StarSymbols',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://starsymbols.io/og-image.svg',
+      },
+    },
+    datePublished: post.date,
+    dateModified: post.date,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://starsymbols.io/blog/${post.pagename}`,
+    },
+    url: `https://starsymbols.io/blog/${post.pagename}`,
+    keywords: post.tags?.join(', ') || 'star symbols, unicode, copy paste',
+    articleSection: 'Technology',
+    wordCount: post.content?.length || 1000,
+  }
+
+  // Remove existing structured data
+  const existingScript = document.querySelector('script[type="application/ld+json"][data-blog]')
+  if (existingScript) {
+    existingScript.remove()
+  }
+
+  // Add new structured data
+  const script = document.createElement('script')
+  script.type = 'application/ld+json'
+  script.setAttribute('data-blog', 'true')
+  script.textContent = JSON.stringify(structuredData)
+  document.head.appendChild(script)
+}
+
 // Route and reactive data
 const route = useRoute()
 const post = ref(null)
@@ -134,6 +182,9 @@ onMounted(() => {
       canonical.setAttribute('href', window.location.href)
       document.head.appendChild(canonical)
     }
+
+    // Add structured data for the blog post
+    addStructuredData(post.value)
   }
 })
 </script>

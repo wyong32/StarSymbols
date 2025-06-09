@@ -1,0 +1,54 @@
+{
+  "name": "Star Copy And Paste - Free Star Symbols",
+  "short_name": "StarSymbols",
+  "description": "Free star symbols collection! Copy and paste Unicode star symbols instantly. Star text generator and aesthetic text tools for social media.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["utilities", "productivity", "lifestyle"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.svg",
+      "sizes": "1200x630",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "All Star Symbols",
+      "short_name": "Stars",
+      "description": "Browse all star symbols",
+      "url": "/all-star-symbols",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "32x32"
+        }
+      ]
+    },
+    {
+      "name": "Text Generator",
+      "short_name": "Generator",
+      "description": "Create aesthetic text with stars",
+      "url": "/text-symbol-generator",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "32x32"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Developer: StarSymbols Team
+    Contact: contact [at] starsymbols.io
+    Twitter: @starsymbols
+    From: Global
+
+# THANKS
+
+    Unicode Consortium for star symbols standards
+    Vue.js community for the amazing framework
+    All users who make this project possible
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Vue.js 3
+    Vite
+    JavaScript ES6+
+    Unicode Standards
+    Progressive Web App
+    
+# SITE
+
+    Last update: 2025/06/09
+    Language: English
+    Doctype: HTML5
+    IDE: VS Code
