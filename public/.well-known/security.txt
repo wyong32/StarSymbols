@@ -1,4 +1,4 @@
-Contact: mailto:contact@starsymbols.io
+Contact: mailto:delldremo9898@gmail.com
 Expires: 2026-12-31T23:59:59.000Z
 Preferred-Languages: en
 Canonical: https://starsymbols.io/.well-known/security.txt
