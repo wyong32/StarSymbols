@@ -172,7 +172,7 @@ const copySymbol = async () => {
     setTimeout(() => {
       showCopied.value = false
     }, 2000)
-  } catch (err) {
+  } catch {
     showToastMessage('Failed to copy symbol')
   }
 }
@@ -181,7 +181,7 @@ const copyTechValue = async (value) => {
   try {
     await navigator.clipboard.writeText(value)
     showToastMessage(`Copied ${value} to clipboard!`)
-  } catch (err) {
+  } catch {
     showToastMessage('Failed to copy value')
   }
 }
@@ -222,7 +222,7 @@ const handleCodeBlockClick = async (event) => {
       setTimeout(() => {
         pre.style.setProperty('--before-content', '"Click to copy"')
       }, 2000)
-    } catch (err) {
+    } catch {
       showToastMessage('Failed to copy code')
     }
   }
