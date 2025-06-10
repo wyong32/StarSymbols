@@ -85,13 +85,6 @@ const copySymbol = async (symbol) => {
 </script>
 
 <style scoped>
-.symbols-tabs {
-  background: white;
-  border-radius: 15px;
-  padding: 2rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
 .tab-buttons {
   display: flex;
   justify-content: center;
@@ -152,10 +145,6 @@ const copySymbol = async (symbol) => {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .symbols-tabs {
-    padding: 1rem;
-  }
-
   .symbols-grid {
     grid-template-columns: repeat(auto-fill, 46px);
     gap: 0.5rem;

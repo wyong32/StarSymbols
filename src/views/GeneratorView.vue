@@ -25,7 +25,9 @@
     <!-- Generator Section -->
     <section class="generator-section">
       <div class="section-container">
-        <TextGenerator :show-toast="showToastMessage" />
+        <div class="generator-card-container">
+          <TextGenerator :show-toast="showToastMessage" />
+        </div>
 
         <!-- Features Section -->
         <div class="features-section">
@@ -126,6 +128,13 @@ onMounted(() => {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   color: #333;
+}
+
+.generator-card-container {
+  background: white;
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 /* Section Styles */

@@ -770,42 +770,54 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✮ Using Alt Code</h2>
-<p>To type the ✮ (Heavy Outlined Black Star) symbol using your keyboard, follow these steps:</p>
-<ol>
-  <li>Ensure <strong>Num Lock</strong> is active.</li>
-  <li>Hold down the <strong>left Alt key</strong>.</li>
-  <li>While holding Alt, type <strong>10030</strong> on the numeric keypad.</li>
-  <li>Release the Alt key and the ✮ symbol will appear.</li>
-</ol>
-<p>This method works in many Windows programs supporting Unicode input.</p>
+  <h2>How to Type ✮ (Heavy Outlined Black Star) Symbol</h2>
 
-<h2>How to Add Heavy Outlined Black Star in HTML</h2>
-<p>Use these HTML codes to add the ✮ symbol:</p>
+  <h3>Using Alt Code on Windows</h3>
+  <p>You can type the ✮ symbol using the Alt code method:</p>
+  <ol>
+    <li>Turn on <strong>Num Lock</strong>.</li>
+    <li>Hold down the <strong>Alt</strong> key.</li>
+    <li>Type <strong>10030</strong> using the numeric keypad.</li>
+    <li>Release the Alt key and the ✮ symbol will appear.</li>
+  </ol>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10030; Symbol&lt;/span&gt;
+  <h3>Typing ✮ on Mac</h3>
+  <p>Use the macOS Character Viewer: press <strong>Control + Command + Space</strong>, search for “star,” then select ✮ from the symbol list.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x272E; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing ✮ on iPhone and Android</h3>
+  <p>Use the emoji/symbol keyboard or copy it from here: <strong>✮</strong>.</p>
 
-<p>All render as: <strong>I am ✮ Symbol</strong></p>
+  <h3>How to Use ✮ in HTML</h3>
+  <p>Add this bold star symbol in your web pages using these codes:</p>
 
-<h2>How to Add Heavy Outlined Black Star in CSS</h2>
-<p>To use the ✮ symbol in CSS, include it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Heavy Star: &#10030;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Heavy Star: &#x272E;&lt;/span&gt;</code></pre>
+
+  <p>Renders as: <strong>Heavy Star: ✮</strong></p>
+
+  <h3>How to Use ✮ in CSS</h3>
+  <p>You can include it in CSS using the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.heavyStar::before {
   content: '\\272E';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Heavy Outlined Black Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="heavyStar"&gt;Bold Decorative Star&lt;/div&gt;</code></pre>
 
-<p>This will show: <strong>Heavy Outlined Black Star✮</strong></p>
-</section>`,
+  <p>Displays as: <strong>✮Bold Decorative Star</strong></p>
+
+  <h3>What Is the ✮ Symbol?</h3>
+  <p>The ✮ symbol is a five-pointed star with a thick black outline. It belongs to the Unicode Dingbats block and is designed for high visual impact in text and design layouts.</p>
+
+  <h3>What Does ✮ Mean?</h3>
+  <p>This bold, decorative star is commonly used to highlight content, add emphasis, or style headings. It’s especially popular in posters, graphic design, and aesthetic typography.</p>
+</section>
+`,
   },
 
   {
@@ -832,42 +844,54 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✯ Using Alt Code</h2>
-<p>To type the ✯ (Pinwheel Star) symbol using your keyboard, follow these steps:</p>
-<ol>
-  <li>Make sure <strong>Num Lock</strong> is enabled.</li>
-  <li>Hold down the <strong>left Alt key</strong>.</li>
-  <li>While holding Alt, type <strong>10031</strong> on the numeric keypad.</li>
-  <li>Release the Alt key and the ✯ symbol will appear.</li>
-</ol>
-<p>This method works in many Windows applications that support Unicode input.</p>
+  <h2>How to Type ✯ (Pinwheel Star) Symbol</h2>
 
-<h2>How to Add Pinwheel Star in HTML</h2>
-<p>Use these HTML codes to display the ✯ symbol:</p>
+  <h3>Using Alt Code on Windows</h3>
+  <p>You can type the ✯ symbol using the Alt code method:</p>
+  <ol>
+    <li>Make sure <strong>Num Lock</strong> is turned on.</li>
+    <li>Hold the <strong>Alt</strong> key.</li>
+    <li>Type <strong>10031</strong> on the numeric keypad.</li>
+    <li>Release the Alt key, and the ✯ symbol will appear.</li>
+  </ol>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10031; Symbol&lt;/span&gt;
+  <h3>Typing ✯ on Mac</h3>
+  <p>On macOS, press <strong>Control + Command + Space</strong> to open the Character Viewer. Search for “star” and select ✯ from the list.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x272F; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing ✯ on iPhone and Android</h3>
+  <p>Use your phone’s emoji/symbol keyboard or simply copy it from here: <strong>✯</strong>.</p>
 
-<p>These render as: <strong>I am ✯ Symbol</strong></p>
+  <h3>How to Use ✯ in HTML</h3>
+  <p>You can insert this pinwheel star in a webpage using either of the following codes:</p>
 
-<h2>How to Add Pinwheel Star in CSS</h2>
-<p>To use the ✯ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Pinwheel Star: &#10031;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Pinwheel Star: &#x272F;&lt;/span&gt;</code></pre>
+
+  <p>Renders as: <strong>Pinwheel Star: ✯</strong></p>
+
+  <h3>How to Use ✯ in CSS</h3>
+  <p>To use this symbol in CSS content, use the Unicode escape:</p>
+
+  <pre><code>/* CSS */
+.pinwheelStar::before {
   content: '\\272F';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Pinwheel Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="pinwheelStar"&gt;Styled with a Star&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Pinwheel Star✯</strong></p>
-</section>`,
+  <p>Displays as: <strong>✯Styled with a Star</strong></p>
+
+  <h3>What Is the ✯ Symbol?</h3>
+  <p>The ✯ symbol is a five-pointed star with a pinwheel-like, rotating design. It belongs to the Unicode Dingbats block and is widely used for decoration and stylized text elements.</p>
+
+  <h3>What Does ✯ Mean?</h3>
+  <p>The ✯ symbol is primarily used to add flair, emphasis, or a playful, dynamic touch to text and graphics. It’s often seen in creative works, posters, and digital media.</p>
+</section>
+`,
   },
 
   {
@@ -894,35 +918,54 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ⭒ White Small Star</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use HTML and CSS codes below.</p>
+  <h2>How to Type ⭒ (White Small Star) Symbol</h2>
 
-<h2>How to Add White Small Star in HTML</h2>
-<p>Use these HTML codes to display the ⭒ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>There is no standard Alt code for ⭒, but you can insert it using Unicode input if supported:</p>
+  <ol>
+    <li>Hold <strong>Alt</strong> and press <strong>+</strong> on the numeric keypad.</li>
+    <li>Type <strong>2B52</strong>.</li>
+    <li>Release Alt to insert ⭒ (only works in some programs that support Unicode input).</li>
+  </ol>
+  <p>Alternatively, just copy the symbol from here: <strong>⭒</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#11090; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Press <strong>Control + Command + Space</strong> to open the Character Viewer. Search for “star” and select the ⭒ symbol if available.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2B52; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>Use your device's emoji/symbol keyboard or copy it directly from here: <strong>⭒</strong>.</p>
 
-<p>These will render as: <strong>I am ⭒ Symbol</strong></p>
+  <h3>How to Use ⭒ in HTML</h3>
+  <p>You can display the White Small Star symbol in HTML using:</p>
 
-<h2>How to Add White Small Star in CSS</h2>
-<p>To use the ⭒ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;White Small Star: &#11090;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;White Small Star: &#x2B52;&lt;/span&gt;</code></pre>
+
+  <p>Renders as: <strong>White Small Star: ⭒</strong></p>
+
+  <h3>How to Use ⭒ in CSS</h3>
+  <p>To insert the ⭒ symbol with CSS:</p>
+
+  <pre><code>/* CSS */
+.smallStar::before {
   content: '\\2B52';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;White Small Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="smallStar"&gt;Text with a Star&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>White Small Star⭒</strong></p>
-</section>`,
+  <p>Displays as: <strong>⭒Text with a Star</strong></p>
+
+  <h3>What Is the ⭒ Symbol?</h3>
+  <p>The ⭒ symbol is a small five-pointed white star. It’s part of the Unicode Miscellaneous Symbols and Arrows block. It’s used for visual decoration, emphasis, and stylistic accents in both text and UI design.</p>
+
+  <h3>What Does ⭒ Mean?</h3>
+  <p>This symbol adds a subtle decorative effect to content, making it ideal for separating items, embellishing text, or creating soft visual highlights.</p>
+</section>
+`,
   },
 
   {
@@ -949,35 +992,54 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ⭑ Black Small Star</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ⭑ (Black Small Star) Symbol</h2>
 
-<h2>How to Add Black Small Star in HTML</h2>
-<p>Use these HTML codes to display the ⭑ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>There is no standard Alt code for ⭑, but you can insert it using Unicode input if supported:</p>
+  <ol>
+    <li>Hold <strong>Alt</strong> and press <strong>+</strong> on the numeric keypad.</li>
+    <li>Type <strong>2B51</strong>.</li>
+    <li>Release Alt to insert ⭑ (only works in apps that support Unicode input).</li>
+  </ol>
+  <p>Or simply copy it from here: <strong>⭑</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#11089; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use <strong>Control + Command + Space</strong> to open the Character Viewer. Search for “star” and select the ⭑ symbol.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2B51; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>You can use the emoji or symbol keyboard, or copy the symbol directly: <strong>⭑</strong>.</p>
 
-<p>These render as: <strong>I am ⭑ Symbol</strong></p>
+  <h3>How to Use ⭑ in HTML</h3>
+  <p>You can display the Black Small Star in HTML using:</p>
 
-<h2>How to Add Black Small Star in CSS</h2>
-<p>To use the ⭑ symbol in CSS, set it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Black Small Star: &#11089;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Black Small Star: &#x2B51;&lt;/span&gt;</code></pre>
+
+  <p>Renders as: <strong>Black Small Star: ⭑</strong></p>
+
+  <h3>How to Use ⭑ in CSS</h3>
+  <p>To insert the symbol with CSS content:</p>
+
+  <pre><code>/* CSS */
+.blackSmallStar::before {
   content: '\\2B51';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Black Small Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="blackSmallStar"&gt;Text with a Star&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Black Small Star⭑</strong></p>
-</section>`,
+  <p>Displays as: <strong>⭑Text with a Star</strong></p>
+
+  <h3>What Is the ⭑ Symbol?</h3>
+  <p>The ⭑ Black Small Star is a small five-pointed filled star from the Unicode Miscellaneous Symbols and Arrows block. It’s often used in text decoration, designs, and interfaces requiring a compact star symbol.</p>
+
+  <h3>What Does ⭑ Mean?</h3>
+  <p>This star is commonly used for decorative accents, emphasizing items, or representing rating systems where a smaller, solid star is more visually appropriate.</p>
+</section>
+`,
   },
 
   {
@@ -1004,42 +1066,54 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✰ Using Alt Code</h2>
-<p>To type the ✰ (Shadowed White Star) symbol using your keyboard, follow these steps:</p>
-<ol>
-  <li>Ensure <strong>Num Lock</strong> is on.</li>
-  <li>Hold the <strong>left Alt key</strong>.</li>
-  <li>While holding Alt, type <strong>10032</strong> on the numeric keypad.</li>
-  <li>Release the Alt key and the ✰ symbol will appear.</li>
-</ol>
-<p>This works on many Windows programs supporting Unicode input.</p>
+  <h2>How to Type ✰ (Shadowed White Star) Symbol</h2>
 
-<h2>How to Add Shadowed White Star in HTML</h2>
-<p>Use the following HTML codes to display the ✰ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>You can type ✰ using its Unicode value if your system supports it:</p>
+  <ol>
+    <li>Hold <strong>Alt</strong> and press <strong>+</strong> on the numeric keypad.</li>
+    <li>Type <strong>2730</strong>.</li>
+    <li>Release Alt to insert ✰ (works in compatible applications).</li>
+  </ol>
+  <p>If it doesn’t work, just copy it directly: <strong>✰</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10032; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use the <strong>Control + Command + Space</strong> shortcut to open the Character Viewer. Search for “star” and choose the ✰ symbol.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2730; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol isn’t on standard keyboards, but you can copy and paste it here: <strong>✰</strong>.</p>
 
-<p>This will render as: <strong>I am ✰ Symbol</strong></p>
+  <h3>How to Use ✰ in HTML</h3>
+  <p>To display this star symbol in HTML, use the following codes:</p>
 
-<h2>How to Add Shadowed White Star in CSS</h2>
-<p>Use the ✰ symbol in CSS via the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Shadowed White Star: &#10032;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Shadowed White Star: &#x2730;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Shadowed White Star: ✰</strong></p>
+
+  <h3>How to Use ✰ in CSS</h3>
+  <p>Use the Unicode escape in CSS to insert the symbol:</p>
+
+  <pre><code>/* CSS */
+.shadowedStar::before {
   content: '\\2730';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Shadowed White Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="shadowedStar"&gt;Stylized Text&lt;/div&gt;</code></pre>
 
-<p>This displays as: <strong>Shadowed White Star✰</strong></p>
-</section>`,
+  <p>Renders as: <strong>✰Stylized Text</strong></p>
+
+  <h3>What Is the ✰ Symbol?</h3>
+  <p>The ✰ Shadowed White Star is a five-pointed star with a shadow effect, part of the Unicode Dingbats block. It’s commonly used for visual emphasis, decoration, or stylized text formatting.</p>
+
+  <h3>What Does ✰ Mean?</h3>
+  <p>This symbol is often used to highlight important content, indicate creativity or sparkle, or serve as a decorative bullet in lists or graphic design.</p>
+</section>
+`,
   },
 
   {
@@ -1066,35 +1140,54 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ⁂ Asterism</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ⁂ (Asterism) Symbol</h2>
 
-<h2>How to Add Asterism in HTML</h2>
-<p>Use these HTML codes to display the ⁂ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>There’s no direct Alt code for this symbol, but you can insert it using Unicode:</p>
+  <ol>
+    <li>Hold <strong>Alt</strong> and press <strong>+</strong> on your numeric keypad.</li>
+    <li>Type <strong>2042</strong>.</li>
+    <li>Release Alt (works in some applications).</li>
+  </ol>
+  <p>Or just copy it from here: <strong>⁂</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#8258; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use <strong>Control + Command + Space</strong> to open the Character Viewer. Search for “asterism” or look under punctuation symbols to find ⁂.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2042; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not directly available on mobile keyboards, so it’s best to copy and paste it: <strong>⁂</strong></p>
 
-<p>These render as: <strong>I am ⁂ Symbol</strong></p>
+  <h3>How to Use ⁂ in HTML</h3>
+  <p>You can include this symbol in HTML using the following codes:</p>
 
-<h2>How to Add Asterism in CSS</h2>
-<p>To use the ⁂ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Asterism: &#8258;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Asterism: &#x2042;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Asterism: ⁂</strong></p>
+
+  <h3>How to Use ⁂ in CSS</h3>
+  <p>To style this symbol in CSS, use the Unicode escape:</p>
+
+  <pre><code>/* CSS */
+.asterism::before {
   content: '\\2042';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Asterism&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="asterism"&gt;Section Break&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Asterism⁂</strong></p>
-</section>`,
+  <p>Result: <strong>⁂Section Break</strong></p>
+
+  <h3>What Is the ⁂ Symbol?</h3>
+  <p>The ⁂ Asterism is a typographic symbol made of three asterisks arranged in a triangle. It was traditionally used to mark section breaks or minor text divisions, especially in older books and manuscripts.</p>
+
+  <h3>What Does ⁂ Mean?</h3>
+  <p>It signifies a pause, division, or shift in topic. Today, it is often used for stylistic purposes or as a visual flourish in documents and creative writing.</p>
+</section>
+`,
   },
 
   {
@@ -1121,35 +1214,54 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ⁎ Low Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ⁎ (Low Asterisk) Symbol</h2>
 
-<h2>How to Add Low Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ⁎ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can insert it via Unicode if supported:</p>
+  <ol>
+    <li>Hold <strong>Alt</strong> and press <strong>+</strong> on your numeric keypad.</li>
+    <li>Type <strong>204E</strong>.</li>
+    <li>Release Alt (works in some editors).</li>
+  </ol>
+  <p>Or simply copy and paste it from here: <strong>⁎</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#2126; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use the Character Viewer by pressing <strong>Control + Command + Space</strong>. Search for “Low Asterisk” or browse under punctuation symbols to find it.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x204E; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not available directly from mobile keyboards. The best option is to copy and paste it: <strong>⁎</strong></p>
 
-<p>These render as: <strong>I am ⁎ Symbol</strong></p>
+  <h3>How to Use ⁎ in HTML</h3>
+  <p>To use this symbol in web development, insert it with one of the following codes:</p>
 
-<h2>How to Add Low Asterisk in CSS</h2>
-<p>To use the ⁎ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Low Asterisk: &#8270;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Low Asterisk: &#x204E;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Low Asterisk: ⁎</strong></p>
+
+  <h3>How to Use ⁎ in CSS</h3>
+  <p>Use the Unicode escape sequence in your CSS:</p>
+
+  <pre><code>/* CSS */
+.low-asterisk::before {
   content: '\\204E';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Low Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="low-asterisk"&gt;Note&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Low Asterisk⁎</strong></p>
-</section>`,
+  <p>Result: <strong>⁎Note</strong></p>
+
+  <h3>What Is the ⁎ Symbol?</h3>
+  <p>The ⁎ Low Asterisk is a variant of the standard asterisk symbol, positioned slightly lower than usual. It is a Unicode typographic symbol sometimes used for stylistic or scholarly purposes.</p>
+
+  <h3>What Does ⁎ Mean?</h3>
+  <p>While visually similar to a regular asterisk (*), the low asterisk can be used to indicate footnotes, citations, or emphasis in texts where the standard symbol may appear too high or crowded.</p>
+</section>
+`,
   },
 
   {
@@ -1176,35 +1288,54 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ⁑ Two Asterisks Aligned Vertically</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ⁑ (Two Asterisks Aligned Vertically) Symbol</h2>
 
-<h2>How to Add Two Asterisks Aligned Vertically in HTML</h2>
-<p>Use these HTML codes to display the ⁑ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can use Unicode input in some applications:</p>
+  <ol>
+    <li>Hold <strong>Alt</strong> and press the <strong>+</strong> key on your numeric keypad.</li>
+    <li>Type <strong>2051</strong>.</li>
+    <li>Release Alt to insert the symbol (works in some environments like Word or Notepad++).</li>
+  </ol>
+  <p>Or copy it directly from here: <strong>⁑</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#8273; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Open the Character Viewer using <strong>Control + Command + Space</strong>. Then search for “two asterisks” or find it in punctuation or symbol categories.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2051; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol isn’t available directly on mobile keyboards. You can copy and paste it instead: <strong>⁑</strong></p>
 
-<p>These render as: <strong>I am ⁑ Symbol</strong></p>
+  <h3>How to Use ⁑ in HTML</h3>
+  <p>Use the following code to embed the symbol on a website:</p>
 
-<h2>How to Add Two Asterisks Aligned Vertically in CSS</h2>
-<p>To use the ⁑ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#8273;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2051;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ⁑</strong></p>
+
+  <h3>How to Use ⁑ in CSS</h3>
+  <p>You can insert the symbol before or after an element using CSS content:</p>
+
+  <pre><code>/* CSS */
+.double-asterisks::before {
   content: '\\2051';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Two Asterisks Aligned Vertically&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="double-asterisks"&gt;Note&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Two Asterisks Aligned Vertically⁑</strong></p>
-</section>`,
+  <p>Result: <strong>⁑Note</strong></p>
+
+  <h3>What Is the ⁑ Symbol?</h3>
+  <p>The ⁑ symbol, also known as "Two Asterisks Aligned Vertically" or "Two Asterisks Operator," is a Unicode typographic character often used for scholarly or decorative purposes. It resembles two vertically stacked asterisks.</p>
+
+  <h3>What Does ⁑ Mean?</h3>
+  <p>This symbol is sometimes used in annotations or footnotes, or to signify special notation in texts. It may also serve as a unique marker for styling or emphasis.</p>
+</section>
+`,
   },
 
   {
@@ -1231,35 +1362,54 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✢ Four Teardrop-Spoked Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✢ (Four Teardrop-Spoked Asterisk) Symbol</h2>
 
-<h2>How to Add Four Teardrop-Spoked Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ✢ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code. However, in supported applications, you can use Unicode input:</p>
+  <ol>
+    <li>Hold <strong>Alt</strong> and press the <strong>+</strong> key on the numeric keypad.</li>
+    <li>Type <strong>2722</strong>.</li>
+    <li>Release Alt to insert the symbol. (Note: May only work in some apps like Word.)</li>
+  </ol>
+  <p>Or copy it directly from here: <strong>✢</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10018; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use the Character Viewer (<strong>Control + Command + Space</strong>) and search for “asterisk” or “teardrop.”</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2722; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol isn’t included in standard mobile keyboards, so you can copy and paste it: <strong>✢</strong></p>
 
-<p>These render as: <strong>I am ✢ Symbol</strong></p>
+  <h3>How to Use ✢ in HTML</h3>
+  <p>You can include the symbol in your webpage with one of the following HTML codes:</p>
 
-<h2>How to Add Four Teardrop-Spoked Asterisk in CSS</h2>
-<p>To use the ✢ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10018;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2722;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✢</strong></p>
+
+  <h3>How to Use ✢ in CSS</h3>
+  <p>To add this symbol in CSS using the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.teardrop-asterisk::before {
   content: '\\2722';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Four Teardrop-Spoked Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="teardrop-asterisk"&gt;Note&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Four Teardrop-Spoked Asterisk✢</strong></p>
-</section>`,
+  <p>Result: <strong>✢Note</strong></p>
+
+  <h3>What Is the ✢ Symbol?</h3>
+  <p>The ✢ symbol, officially named "Four Teardrop-Spoked Asterisk," is a decorative Unicode character featuring four teardrop-shaped points radiating from the center. It stands out visually and is used for ornamentation or emphasis.</p>
+
+  <h3>What Does ✢ Mean?</h3>
+  <p>Though not commonly used in standard writing, this symbol can be used in design, lists, or stylistic text to draw attention or provide a visual flourish. It may be seen in art, crafts, or themed publications.</p>
+</section>
+`,
   },
 
   {
@@ -1286,35 +1436,54 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✣ Four Balloon-Spoked Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✣ (Four Balloon-Spoked Asterisk) Symbol</h2>
 
-<h2>How to Add Four Balloon-Spoked Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ✣ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code. To type it using Unicode input:</p>
+  <ol>
+    <li>Hold <strong>Alt</strong> and press the <strong>+</strong> key on your numeric keypad.</li>
+    <li>Type <strong>2723</strong>.</li>
+    <li>Release Alt. (Note: This may only work in applications like Microsoft Word.)</li>
+  </ol>
+  <p>Alternatively, copy it directly: <strong>✣</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10019; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use the Character Viewer (<strong>Control + Command + Space</strong>), then search for “asterisk” or “balloon.”</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2723; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not typically on mobile keyboards, so the easiest method is to copy and paste it: <strong>✣</strong></p>
 
-<p>These render as: <strong>I am ✣ Symbol</strong></p>
+  <h3>How to Use ✣ in HTML</h3>
+  <p>Insert the symbol into your webpage using one of the following codes:</p>
 
-<h2>How to Add Four Balloon-Spoked Asterisk in CSS</h2>
-<p>To use the ✣ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10019;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2723;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✣</strong></p>
+
+  <h3>How to Use ✣ in CSS</h3>
+  <p>To display this symbol using CSS's <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.balloon-asterisk::before {
   content: '\\2723';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Four Balloon-Spoked Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="balloon-asterisk"&gt;Note&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Four Balloon-Spoked Asterisk✣</strong></p>
-</section>`,
+  <p>Result: <strong>✣Note</strong></p>
+
+  <h3>What Is the ✣ Symbol?</h3>
+  <p>The ✣ symbol, or "Four Balloon-Spoked Asterisk," is a decorative Unicode character composed of four rounded, balloon-like extensions from the center. It adds a soft, ornamental touch to text or design layouts.</p>
+
+  <h3>What Does ✣ Mean?</h3>
+  <p>This symbol is used primarily for visual flair in creative projects. It’s suitable for bullet points, section dividers, or stylized headers where a standard star or asterisk might feel too sharp or plain.</p>
+</section>
+`,
   },
 
   {
@@ -1341,35 +1510,54 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✤ Heavy Four Balloon-Spoked Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✤ (Heavy Four Balloon-Spoked Asterisk) Symbol</h2>
 
-<h2>How to Add Heavy Four Balloon-Spoked Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ✤ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn't have a standard Alt code. You can use Unicode input (in some apps like Microsoft Word):</p>
+  <ol>
+    <li>Hold <strong>Alt</strong> and press the <strong>+</strong> key on the numeric keypad.</li>
+    <li>Type <strong>2724</strong>.</li>
+    <li>Release <strong>Alt</strong>. The ✤ symbol should appear.</li>
+  </ol>
+  <p>Otherwise, simply copy and paste it: <strong>✤</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10020; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Press <strong>Control + Command + Space</strong> to open the Character Viewer. Search for “asterisk” or “balloon” to insert this symbol.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2724; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not available on mobile keyboards. You can copy it here: <strong>✤</strong></p>
 
-<p>These render as: <strong>I am ✤ Symbol</strong></p>
+  <h3>How to Use ✤ in HTML</h3>
+  <p>Use one of these codes to include ✤ on your website:</p>
 
-<h2>How to Add Heavy Four Balloon-Spoked Asterisk in CSS</h2>
-<p>To use the ✤ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10020;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2724;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✤</strong></p>
+
+  <h3>How to Use ✤ in CSS</h3>
+  <p>Use this in CSS with the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.heavy-balloon-asterisk::before {
   content: '\\2724';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Heavy Four Balloon-Spoked Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="heavy-balloon-asterisk"&gt;Highlight&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Heavy Four Balloon-Spoked Asterisk✤</strong></p>
-</section>`,
+  <p>Result: <strong>✤Highlight</strong></p>
+
+  <h3>What Is the ✤ Symbol?</h3>
+  <p>The ✤ symbol, known as the "Heavy Four Balloon-Spoked Asterisk," is a bold and symmetrical typographic star with rounded, balloon-like arms. It adds weight and visual emphasis in text or design work.</p>
+
+  <h3>What Does ✤ Mean?</h3>
+  <p>This symbol is used as a strong visual marker—great for decorative emphasis, list markers, or standout elements in design layouts or creative text.</p>
+</section>
+`,
   },
 
   {
@@ -1396,35 +1584,53 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✥ Four Club-Spoked Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✥ (Four Club-Spoked Asterisk) Symbol</h2>
 
-<h2>How to Add Four Club-Spoked Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ✥ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn't have a standard Alt code. However, in apps like Microsoft Word, you can use Unicode input:</p>
+  <ol>
+    <li>Type <strong>2725</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Alternatively, just copy it here: <strong>✥</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10021; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use <strong>Control + Command + Space</strong> to open the Character Viewer. Search for “asterisk” or “club” to find this symbol.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2725; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not on standard mobile keyboards. Simply copy it from here: <strong>✥</strong></p>
 
-<p>These render as: <strong>I am ✥ Symbol</strong></p>
+  <h3>How to Use ✥ in HTML</h3>
+  <p>Use the following codes to include the symbol on a webpage:</p>
 
-<h2>How to Add Four Club-Spoked Asterisk in CSS</h2>
-<p>To use the ✥ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10021;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2725;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✥</strong></p>
+
+  <h3>How to Use ✥ in CSS</h3>
+  <p>Use this code in CSS with the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.club-spoked-asterisk::before {
   content: '\\2725';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Four Club-Spoked Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="club-spoked-asterisk"&gt;Notice&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Four Club-Spoked Asterisk✥</strong></p>
-</section>`,
+  <p>Result: <strong>✥Notice</strong></p>
+
+  <h3>What Is the ✥ Symbol?</h3>
+  <p>The ✥ symbol, called the "Four Club-Spoked Asterisk," features four arms resembling club-shaped petals or trefoils. It's a decorative typographic element used in stylized text, graphic design, or creative lists.</p>
+
+  <h3>What Does ✥ Mean?</h3>
+  <p>Typically used for decorative purposes, the ✥ symbol adds flair and distinction to text. Its symmetrical, floral shape makes it ideal for highlighting content or embellishing visual designs.</p>
+</section>
+`,
   },
 
   {
@@ -1451,35 +1657,53 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✱ Heavy Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✱ (Heavy Asterisk) Symbol</h2>
 
-<h2>How to Add Heavy Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ✱ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code, but you can type it in Microsoft Word and similar applications using Unicode input:</p>
+  <ol>
+    <li>Type <strong>2731</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it: <strong>✱</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10033; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Press <strong>Control + Command + Space</strong> to open the Character Viewer, then search for “asterisk” or “star” and find the ✱ symbol.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2731; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>Not found on most mobile keyboards. The easiest way is to copy it: <strong>✱</strong></p>
 
-<p>These render as: <strong>I am ✱ Symbol</strong></p>
+  <h3>How to Use ✱ in HTML</h3>
+  <p>You can use the following HTML codes to display this symbol on a webpage:</p>
 
-<h2>How to Add Heavy Asterisk in CSS</h2>
-<p>To use the ✱ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10033;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2731;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✱</strong></p>
+
+  <h3>How to Use ✱ in CSS</h3>
+  <p>Use it in CSS with the <code>content</code> property like this:</p>
+
+  <pre><code>/* CSS */
+.heavy-asterisk::before {
   content: '\\2731';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Heavy Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="heavy-asterisk"&gt;Important&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Heavy Asterisk✱</strong></p>
-</section>`,
+  <p>Result: <strong>✱Important</strong></p>
+
+  <h3>What Is the ✱ Symbol?</h3>
+  <p>The ✱ symbol is known as the "Heavy Asterisk." It's a bolder and larger version of the standard asterisk, often used for emphasis, annotations, or visual design purposes.</p>
+
+  <h3>What Does ✱ Mean?</h3>
+  <p>While it can be used in a similar way to a regular asterisk (*), the ✱ symbol draws more attention due to its bold appearance. It’s ideal for highlighting key points or adding stylistic flair to text.</p>
+</section>
+`,
   },
 
   {
@@ -1505,36 +1729,54 @@ export const starDetailsData = [
       hexCode: '&#x2732;',
     },
     htmlContent: `
-  <section>
-<h2>Typing ✲ Open Centre Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+ <section>
+  <h2>How to Type ✲ (Open Centre Asterisk) Symbol</h2>
 
-<h2>How to Add Open Centre Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ✲ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can use Unicode input in Microsoft Word and similar programs:</p>
+  <ol>
+    <li>Type <strong>2732</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or just copy it: <strong>✲</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10034; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Press <strong>Control + Command + Space</strong> to open the Character Viewer. Search for “asterisk” or “star” and locate the ✲ symbol.</p>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2732; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not directly available on most mobile keyboards. The best method is to copy and paste it: <strong>✲</strong></p>
 
-<p>These render as: <strong>I am ✲ Symbol</strong></p>
+  <h3>How to Use ✲ in HTML</h3>
+  <p>You can insert the symbol into a webpage using HTML codes:</p>
 
-<h2>How to Add Open Centre Asterisk in CSS</h2>
-<p>To use the ✲ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10034;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2732;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✲</strong></p>
+
+  <h3>How to Use ✲ in CSS</h3>
+  <p>Use the symbol in CSS with the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.open-centre-asterisk::before {
   content: '\\2732';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Open Centre Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="open-centre-asterisk"&gt;Note&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Open Centre Asterisk✲</strong></p>
-</section>`,
+  <p>Result: <strong>✲Note</strong></p>
+
+  <h3>What Is the ✲ Symbol?</h3>
+  <p>The ✲ symbol is called the "Open Centre Asterisk." It resembles a classic six-pointed asterisk with a hollow center, giving it a delicate and decorative look.</p>
+
+  <h3>What Does ✲ Mean?</h3>
+  <p>Typically used for stylistic or visual emphasis, the ✲ symbol can appear in design elements, annotations, or to add charm to text content.</p>
+</section>
+`,
   },
 
   {
@@ -1561,35 +1803,58 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✳ Eight Spoked Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✳ (Eight Spoked Asterisk) Symbol</h2>
 
-<h2>How to Add Eight Spoked Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ✳ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code, but you can enter it using Unicode input in Microsoft Word and some other Windows programs:</p>
+  <ol>
+    <li>Type <strong>2733</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it here: <strong>✳</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10035; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use the Character Viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong>,</li>
+    <li>Search for “eight spoked asterisk” or “star,”</li>
+    <li>Click to insert the symbol ✳.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2733; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is usually not on the standard keyboard. The easiest method is to copy and paste: <strong>✳</strong></p>
 
-<p>These render as: <strong>I am ✳ Symbol</strong></p>
+  <h3>How to Use ✳ in HTML</h3>
+  <p>Use these HTML codes to display the symbol on web pages:</p>
 
-<h2>How to Add Eight Spoked Asterisk in CSS</h2>
-<p>To use the ✳ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10035;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2733;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✳</strong></p>
+
+  <h3>How to Use ✳ in CSS</h3>
+  <p>You can insert the symbol in CSS using the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.eight-spoked-asterisk::before {
   content: '\\2733';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Eight Spoked Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="eight-spoked-asterisk"&gt;Note&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Eight Spoked Asterisk✳</strong></p>
-</section>`,
+  <p>Result: <strong>✳Note</strong></p>
+
+  <h3>What Is the ✳ Symbol?</h3>
+  <p>The ✳ symbol is known as the "Eight Spoked Asterisk." It resembles a traditional asterisk but with eight evenly spaced points, giving it a fuller, more radiant appearance.</p>
+
+  <h3>What Does ✳ Mean?</h3>
+  <p>It is often used for decorative or typographic purposes, especially in design, annotation, or to draw attention to a particular piece of text.</p>
+</section>
+`,
   },
 
   {
@@ -1616,35 +1881,58 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✴ Eight Pointed Black Star</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✴ (Eight Pointed Black Star) Symbol</h2>
 
-<h2>How to Add Eight Pointed Black Star in HTML</h2>
-<p>Use these HTML codes to display the ✴ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can insert it using Unicode input in Word and some Windows apps:</p>
+  <ol>
+    <li>Type <strong>2734</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or copy it here: <strong>✴</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10036; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use the macOS Character Viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong>,</li>
+    <li>Search for “eight pointed star” or “black star”,</li>
+    <li>Click to insert ✴.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2734; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol isn’t available on the default keyboard. The easiest way is to copy and paste: <strong>✴</strong></p>
 
-<p>These render as: <strong>I am ✴ Symbol</strong></p>
+  <h3>How to Use ✴ in HTML</h3>
+  <p>To use the Eight Pointed Black Star in web development, insert the following HTML codes:</p>
 
-<h2>How to Add Eight Pointed Black Star in CSS</h2>
-<p>To use the ✴ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10036;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2734;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Result: <strong>Symbol: ✴</strong></p>
+
+  <h3>How to Use ✴ in CSS</h3>
+  <p>Insert it with CSS content property like this:</p>
+
+  <pre><code>/* CSS */
+.eight-pointed-black-star::before {
   content: '\\2734';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Eight Pointed Black Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="eight-pointed-black-star"&gt;Important&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Eight Pointed Black Star✴</strong></p>
-</section>`,
+  <p>Output: <strong>✴Important</strong></p>
+
+  <h3>What Is the ✴ Symbol?</h3>
+  <p>The ✴ symbol is called the "Eight Pointed Black Star." It’s a symmetrical symbol featuring eight solid points and is widely used in both digital and print media as a decorative element.</p>
+
+  <h3>What Does ✴ Mean?</h3>
+  <p>This symbol is commonly used for visual emphasis, as a bullet point, or to highlight key parts of a design or message. It can also appear in religious, cultural, or typographic contexts.</p>
+</section>
+`,
   },
 
   {
@@ -1671,35 +1959,58 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✵ Eight Pointed Pinwheel Star</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✵ (Eight Pointed Pinwheel Star) Symbol</h2>
 
-<h2>How to Add Eight Pointed Pinwheel Star in HTML</h2>
-<p>Use these HTML codes to display the ✵ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn't have a standard Alt code, but you can use Unicode input in applications like Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>2735</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or just copy it here: <strong>✵</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10037; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert this symbol on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “pinwheel” or “star”,</li>
+    <li>Click the ✵ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2735; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This star is not available on standard mobile keyboards. Simply copy it from here: <strong>✵</strong></p>
 
-<p>These render as: <strong>I am ✵ Symbol</strong></p>
+  <h3>How to Use ✵ in HTML</h3>
+  <p>You can add the Eight Pointed Pinwheel Star to your webpage with these codes:</p>
 
-<h2>How to Add Eight Pointed Pinwheel Star in CSS</h2>
-<p>To use the ✵ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10037;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2735;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Result: <strong>Symbol: ✵</strong></p>
+
+  <h3>How to Use ✵ in CSS</h3>
+  <p>Use the CSS <code>content</code> property to insert the symbol:</p>
+
+  <pre><code>/* CSS */
+.eight-pointed-pinwheel-star::before {
   content: '\\2735';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Eight Pointed Pinwheel Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="eight-pointed-pinwheel-star"&gt;Featured&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Eight Pointed Pinwheel Star✵</strong></p>
-</section>`,
+  <p>Output: <strong>✵Featured</strong></p>
+
+  <h3>What Is the ✵ Symbol?</h3>
+  <p>The ✵ symbol is called the "Eight Pointed Pinwheel Star." It features a radial, rotating design with eight points resembling a spinning pinwheel. It's often used for decorative, symbolic, or stylistic purposes.</p>
+
+  <h3>What Does ✵ Mean?</h3>
+  <p>This symbol can represent motion, energy, or decorative flair. It is often used in modern typography, UI design, or anywhere a star-shaped element adds visual impact.</p>
+</section>
+`,
   },
 
   {
@@ -1726,35 +2037,58 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✶ Six Pointed Black Star</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✶ (Six Pointed Black Star) Symbol</h2>
 
-<h2>How to Add Six Pointed Black Star in HTML</h2>
-<p>Use these HTML codes to display the ✶ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code, but you can type it using Unicode in programs like Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>2736</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it here: <strong>✶</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10038; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert this symbol on a Mac:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “black star” or “six pointed star”,</li>
+    <li>Click the ✶ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2736; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This star is not on standard mobile keyboards. You can copy it from here: <strong>✶</strong></p>
 
-<p>These render as: <strong>I am ✶ Symbol</strong></p>
+  <h3>How to Use ✶ in HTML</h3>
+  <p>You can display the Six Pointed Black Star on your webpage using these codes:</p>
 
-<h2>How to Add Six Pointed Black Star in CSS</h2>
-<p>To use the ✶ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10038;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2736;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Result: <strong>Symbol: ✶</strong></p>
+
+  <h3>How to Use ✶ in CSS</h3>
+  <p>Use the CSS <code>content</code> property to insert the symbol before an element:</p>
+
+  <pre><code>/* CSS */
+.six-pointed-black-star::before {
   content: '\\2736';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Six Pointed Black Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="six-pointed-black-star"&gt;Featured&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Six Pointed Black Star✶</strong></p>
-</section>`,
+  <p>Output: <strong>✶Featured</strong></p>
+
+  <h3>What Is the ✶ Symbol?</h3>
+  <p>The ✶ symbol is known as the "Six Pointed Black Star." It features six equally spaced points radiating from the center and is commonly used in decorative or symbolic contexts.</p>
+
+  <h3>What Does ✶ Mean?</h3>
+  <p>This symbol may represent emphasis, significance, or visual flair in design and text. It’s often used in graphic design, spiritual symbolism, and creative works.</p>
+</section>
+`,
   },
 
   {
@@ -1781,35 +2115,58 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✷ Eight Pointed Rectilinear Black Star</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✷ (Eight Pointed Rectilinear Black Star) Symbol</h2>
 
-<h2>How to Add Eight Pointed Rectilinear Black Star in HTML</h2>
-<p>Use these HTML codes to display the ✷ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code, but you can insert it using Unicode in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>2737</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it from here: <strong>✷</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10039; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert this star on a Mac:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “black star” or “rectilinear star”,</li>
+    <li>Select the ✷ symbol from the list.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2737; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not on standard mobile keyboards. You can copy and paste it from here: <strong>✷</strong></p>
 
-<p>These render as: <strong>I am ✷ Symbol</strong></p>
+  <h3>How to Use ✷ in HTML</h3>
+  <p>Use these HTML codes to display the Eight Pointed Rectilinear Black Star:</p>
 
-<h2>How to Add Eight Pointed Rectilinear Black Star in CSS</h2>
-<p>To use the ✷ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10039;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2737;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Result: <strong>Symbol: ✷</strong></p>
+
+  <h3>How to Use ✷ in CSS</h3>
+  <p>You can use this Unicode star in CSS with the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.eight-rectilinear-star::before {
   content: '\\2737';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Eight Pointed Rectilinear Black Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="eight-rectilinear-star"&gt;Highlight&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Eight Pointed Rectilinear Black Star✷</strong></p>
-</section>`,
+  <p>Output: <strong>✷Highlight</strong></p>
+
+  <h3>What Is the ✷ Symbol?</h3>
+  <p>The ✷ symbol is called the "Eight Pointed Rectilinear Black Star." It features eight straight-edged points radiating from the center, giving it a sharp and symmetrical appearance.</p>
+
+  <h3>What Does ✷ Mean?</h3>
+  <p>This star is typically used for stylistic decoration, emphasis, or graphic design. Its sharp and symmetrical style makes it ideal for logos, bullets, or symbolic representation.</p>
+</section>
+`,
   },
 
   {
@@ -1836,35 +2193,58 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✸ Heavy Eight Pointed Rectilinear Black Star</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✸ (Heavy Eight Pointed Rectilinear Black Star) Symbol</h2>
 
-<h2>How to Add Heavy Eight Pointed Rectilinear Black Star in HTML</h2>
-<p>Use these HTML codes to display the ✸ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can use the Unicode method in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>2738</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or copy it directly from here: <strong>✸</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10040; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert this star on a Mac:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “heavy star” or “rectilinear black star”,</li>
+    <li>Select the ✸ symbol from the results.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2738; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not available on standard mobile keyboards. You can copy and paste it from here: <strong>✸</strong></p>
 
-<p>These render as: <strong>I am ✸ Symbol</strong></p>
+  <h3>How to Use ✸ in HTML</h3>
+  <p>Use these HTML codes to include the Heavy Eight Pointed Rectilinear Black Star in your webpage:</p>
 
-<h2>How to Add Heavy Eight Pointed Rectilinear Black Star in CSS</h2>
-<p>To use the ✸ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10040;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2738;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Result: <strong>Symbol: ✸</strong></p>
+
+  <h3>How to Use ✸ in CSS</h3>
+  <p>You can use the Unicode character in CSS content like this:</p>
+
+  <pre><code>/* CSS */
+.heavy-rectilinear-star::before {
   content: '\\2738';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Heavy Eight Pointed Rectilinear Black Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="heavy-rectilinear-star"&gt;Note&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Heavy Eight Pointed Rectilinear Black Star✸</strong></p>
-</section>`,
+  <p>Output: <strong>✸Note</strong></p>
+
+  <h3>What Is the ✸ Symbol?</h3>
+  <p>The ✸ symbol is called the "Heavy Eight Pointed Rectilinear Black Star." It features eight straight, bold black spokes radiating outward in a symmetrical shape. The design is sharp and rectilinear.</p>
+
+  <h3>What Does ✸ Mean?</h3>
+  <p>This symbol is often used for decorative purposes, to mark important content, or as a graphic icon. Its heavier lines make it stand out more than the standard eight-pointed star, making it ideal for emphasis in text or designs.</p>
+</section>
+`,
   },
 
   {
@@ -1890,36 +2270,59 @@ export const starDetailsData = [
       hexCode: '&#x2739;',
     },
     htmlContent: `
-  <section>
-<h2>Typing ✹ Twelve Pointed Black Star</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+ <section>
+  <h2>How to Type ✹ (Twelve Pointed Black Star) Symbol</h2>
 
-<h2>How to Add Twelve Pointed Black Star in HTML</h2>
-<p>Use these HTML codes to display the ✹ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code, but you can insert it using the Unicode method in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>2739</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Alternatively, you can copy it directly: <strong>✹</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10041; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert this star on a Mac:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “twelve pointed star” or “black star”,</li>
+    <li>Select the ✹ symbol from the list.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2739; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not available on mobile keyboards. You can copy and paste it from here: <strong>✹</strong></p>
 
-<p>These render as: <strong>I am ✹ Symbol</strong></p>
+  <h3>How to Use ✹ in HTML</h3>
+  <p>Use these HTML codes to include the Twelve Pointed Black Star in your webpage:</p>
 
-<h2>How to Add Twelve Pointed Black Star in CSS</h2>
-<p>To use the ✹ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10041;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2739;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Result: <strong>Symbol: ✹</strong></p>
+
+  <h3>How to Use ✹ in CSS</h3>
+  <p>You can add the symbol in CSS with the following code:</p>
+
+  <pre><code>/* CSS */
+.twelve-pointed-star::before {
   content: '\\2739';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Twelve Pointed Black Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="twelve-pointed-star"&gt;Special Item&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Twelve Pointed Black Star✹</strong></p>
-</section>`,
+  <p>Output: <strong>✹Special Item</strong></p>
+
+  <h3>What Is the ✹ Symbol?</h3>
+  <p>The ✹ symbol is the "Twelve Pointed Black Star." It features twelve evenly spaced black spikes radiating from a center point, giving it a radiant and symmetrical appearance.</p>
+
+  <h3>What Does ✹ Mean?</h3>
+  <p>This symbol is mainly decorative and is used in design contexts to add flair or draw attention. It can symbolize brightness, energy, or be used as a unique bullet point or icon in user interfaces.</p>
+</section>
+`,
   },
 
   {
@@ -1946,35 +2349,58 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✺ Sixteen Pointed Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✺ (Sixteen Pointed Asterisk) Symbol</h2>
 
-<h2>How to Add Sixteen Pointed Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ✺ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code, but you can enter it using Unicode in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>273A</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it here: <strong>✺</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10042; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert this symbol on a Mac:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “asterisk” or “star”,</li>
+    <li>Find and select the ✺ symbol.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x273A; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This star is not found on most mobile keyboards, but you can copy and paste it: <strong>✺</strong></p>
 
-<p>These render as: <strong>I am ✺ Symbol</strong></p>
+  <h3>How to Use ✺ in HTML</h3>
+  <p>You can use the following HTML codes to display the Sixteen Pointed Asterisk on a webpage:</p>
 
-<h2>How to Add Sixteen Pointed Asterisk in CSS</h2>
-<p>To use the ✺ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10042;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x273A;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✺</strong></p>
+
+  <h3>How to Use ✺ in CSS</h3>
+  <p>Add this symbol via CSS using the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.sixteen-pointed-asterisk::before {
   content: '\\273A';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Sixteen Pointed Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="sixteen-pointed-asterisk"&gt;Featured Design&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Sixteen Pointed Asterisk✺</strong></p>
-</section>`,
+  <p>Output: <strong>✺Featured Design</strong></p>
+
+  <h3>What Is the ✺ Symbol?</h3>
+  <p>The ✺ symbol is the “Sixteen Pointed Asterisk.” It features sixteen pointed lines radiating from a central point, forming a detailed and decorative burst shape.</p>
+
+  <h3>What Does ✺ Mean?</h3>
+  <p>Primarily used for stylistic and design purposes, the ✺ symbol adds flair and visual emphasis. It can be used as an icon, a bullet point, or to highlight important information in text or graphics.</p>
+</section>
+`,
   },
 
   {
@@ -2001,35 +2427,58 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✻ Teardrop-Spoked Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✻ (Teardrop-Spoked Asterisk) Symbol</h2>
 
-<h2>How to Add Teardrop-Spoked Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ✻ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn't have a standard Alt code, but you can insert it using Unicode in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>273B</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or copy it directly: <strong>✻</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10043; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>On a Mac, use the Character Viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong>,</li>
+    <li>Search for “asterisk” or “star”,</li>
+    <li>Choose the ✻ symbol from the list.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x273B; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not available on most standard keyboards, but you can copy and paste it here: <strong>✻</strong></p>
 
-<p>These render as: <strong>I am ✻ Symbol</strong></p>
+  <h3>How to Use ✻ in HTML</h3>
+  <p>To display the Teardrop-Spoked Asterisk on a webpage, use the following HTML codes:</p>
 
-<h2>How to Add Teardrop-Spoked Asterisk in CSS</h2>
-<p>To use the ✻ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10043;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x273B;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✻</strong></p>
+
+  <h3>How to Use ✻ in CSS</h3>
+  <p>You can add this symbol using CSS like this:</p>
+
+  <pre><code>/* CSS */
+.teardrop-asterisk::before {
   content: '\\273B';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Teardrop-Spoked Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="teardrop-asterisk"&gt;Stylized Heading&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Teardrop-Spoked Asterisk✻</strong></p>
-</section>`,
+  <p>Output: <strong>✻Stylized Heading</strong></p>
+
+  <h3>What Is the ✻ Symbol?</h3>
+  <p>The ✻ symbol is known as the “Teardrop-Spoked Asterisk.” It features six spokes that taper into rounded teardrop shapes, giving it a decorative, floral-like appearance.</p>
+
+  <h3>What Does ✻ Mean?</h3>
+  <p>This symbol is mainly used for stylistic purposes in text, design, and graphics. It's a popular choice for adding emphasis, decoration, or artistic flair to content.</p>
+</section>
+`,
   },
 
   {
@@ -2056,35 +2505,58 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✼ Open Centre Teardrop-Spoked Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✼ (Open Centre Teardrop-Spoked Asterisk) Symbol</h2>
 
-<h2>How to Add Open Centre Teardrop-Spoked Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ✼ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code, but you can insert it in Microsoft Word by:</p>
+  <ol>
+    <li>Typing <strong>273C</strong>,</li>
+    <li>Then pressing <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it from here: <strong>✼</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10044; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use the macOS Character Viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong>,</li>
+    <li>Search for “asterisk” or “star”,</li>
+    <li>Select the ✼ symbol from the list.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x273C; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol usually isn't on mobile keyboards, but you can copy and paste it: <strong>✼</strong></p>
 
-<p>These render as: <strong>I am ✼ Symbol</strong></p>
+  <h3>How to Use ✼ in HTML</h3>
+  <p>To display the Open Centre Teardrop-Spoked Asterisk on a website, use these HTML codes:</p>
 
-<h2>How to Add Open Centre Teardrop-Spoked Asterisk in CSS</h2>
-<p>To use the ✼ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10044;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x273C;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✼</strong></p>
+
+  <h3>How to Use ✼ in CSS</h3>
+  <p>You can add this symbol using CSS content:</p>
+
+  <pre><code>/* CSS */
+.open-centre-asterisk::before {
   content: '\\273C';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Open Centre Teardrop-Spoked Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="open-centre-asterisk"&gt;Styled Label&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Open Centre Teardrop-Spoked Asterisk✼</strong></p>
-</section>`,
+  <p>Output: <strong>✼Styled Label</strong></p>
+
+  <h3>What Is the ✼ Symbol?</h3>
+  <p>The ✼ symbol is called the “Open Centre Teardrop-Spoked Asterisk.” It features six teardrop-shaped spokes radiating from a hollow center, giving it an airy and decorative look.</p>
+
+  <h3>What Does ✼ Mean?</h3>
+  <p>This symbol is used mostly for stylistic or ornamental purposes in documents, interfaces, and design. Its clean and floral shape makes it ideal for visual emphasis or graphic embellishments.</p>
+</section>
+`,
   },
 
   {
@@ -2111,35 +2583,58 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✽ Heavy Teardrop-Spoked Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✽ (Heavy Teardrop-Spoked Asterisk) Symbol</h2>
 
-<h2>How to Add Heavy Teardrop-Spoked Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ✽ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code, but you can enter it in Microsoft Word by:</p>
+  <ol>
+    <li>Typing <strong>273D</strong>,</li>
+    <li>Then pressing <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or copy it directly from here: <strong>✽</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10045; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use the macOS Character Viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong>,</li>
+    <li>Search for “asterisk” or “star”,</li>
+    <li>Find and click the ✽ symbol to insert.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x273D; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This character is not typically available on mobile keyboards. You can copy it: <strong>✽</strong></p>
 
-<p>These render as: <strong>I am ✽ Symbol</strong></p>
+  <h3>How to Use ✽ in HTML</h3>
+  <p>To display the Heavy Teardrop-Spoked Asterisk on a web page, use the following codes:</p>
 
-<h2>How to Add Heavy Teardrop-Spoked Asterisk in CSS</h2>
-<p>To use the ✽ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10045;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x273D;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✽</strong></p>
+
+  <h3>How to Use ✽ in CSS</h3>
+  <p>You can insert this symbol using the CSS <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.heavy-teardrop-asterisk::before {
   content: '\\273D';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Heavy Teardrop-Spoked Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="heavy-teardrop-asterisk"&gt;Important Note&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Heavy Teardrop-Spoked Asterisk✽</strong></p>
-</section>`,
+  <p>Output: <strong>✽Important Note</strong></p>
+
+  <h3>What Is the ✽ Symbol?</h3>
+  <p>The ✽ symbol is known as the “Heavy Teardrop-Spoked Asterisk.” It features six bold, teardrop-shaped rays forming a visually strong and decorative asterisk.</p>
+
+  <h3>What Does ✽ Mean?</h3>
+  <p>This symbol is often used in design, user interfaces, or decorative text to draw attention or serve as a stylistic separator. Its heavier shape makes it more noticeable than a regular asterisk.</p>
+</section>
+`,
   },
 
   {
@@ -2166,35 +2661,58 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✾ Six Petalled Black And White Florette</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✾ (Six Petalled Black And White Florette) Symbol</h2>
 
-<h2>How to Add Six Petalled Black And White Florette in HTML</h2>
-<p>Use these HTML codes to display the ✾ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code. However, in Microsoft Word you can type it by:</p>
+  <ol>
+    <li>Typing <strong>273E</strong>,</li>
+    <li>Then pressing <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it from here: <strong>✾</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10046; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use the macOS Character Viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong>,</li>
+    <li>Search for “florette” or “star”,</li>
+    <li>Click on the ✾ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x273E; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This character is not included on standard mobile keyboards. You can copy and paste it here: <strong>✾</strong></p>
 
-<p>These render as: <strong>I am ✾ Symbol</strong></p>
+  <h3>How to Use ✾ in HTML</h3>
+  <p>To display the Six Petalled Florette on a web page, use the following HTML codes:</p>
 
-<h2>How to Add Six Petalled Black And White Florette in CSS</h2>
-<p>To use the ✾ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10046;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x273E;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✾</strong></p>
+
+  <h3>How to Use ✾ in CSS</h3>
+  <p>You can insert this symbol using the CSS <code>content</code> property like so:</p>
+
+  <pre><code>/* CSS */
+.six-petalled-florette::before {
   content: '\\273E';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Six Petalled Black And White Florette&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="six-petalled-florette"&gt;Featured Section&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Six Petalled Black And White Florette✾</strong></p>
-</section>`,
+  <p>Output: <strong>✾Featured Section</strong></p>
+
+  <h3>What Is the ✾ Symbol?</h3>
+  <p>The ✾ symbol is known as the “Six Petalled Black And White Florette.” It resembles a decorative floral asterisk or rosette with six evenly spaced petals, giving it a stylized and ornamental appearance.</p>
+
+  <h3>What Does ✾ Mean?</h3>
+  <p>This symbol is used for decorative purposes in text and design. It can act as a bullet, section divider, or embellishment in creative typography, emphasizing elegance or uniqueness.</p>
+</section>
+`,
   },
 
   {
@@ -2221,35 +2739,62 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ✿ Black Florette</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ✿ (Black Florette) Symbol</h2>
 
-<h2>How to Add Black Florette in HTML</h2>
-<p>Use these HTML codes to display the ✿ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can type it in Microsoft Word using:</p>
+  <ol>
+    <li>Type <strong>273F</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it from here: <strong>✿</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10047; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use the built-in macOS Character Viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong>,</li>
+    <li>Search for “florette” or “flower”,</li>
+    <li>Click on the ✿ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x273F; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not available on default mobile keyboards. To use it:</p>
+  <ul>
+    <li>Copy it from here: <strong>✿</strong></li>
+    <li>Paste it anywhere you need it.</li>
+  </ul>
 
-<p>These render as: <strong>I am ✿ Symbol</strong></p>
+  <h3>How to Use ✿ in HTML</h3>
+  <p>To insert the Black Florette symbol into a webpage, use the following codes:</p>
 
-<h2>How to Add Black Florette in CSS</h2>
-<p>To use the ✿ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10047;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x273F;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ✿</strong></p>
+
+  <h3>How to Use ✿ in CSS</h3>
+  <p>To use this symbol in CSS with the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.black-florette::before {
   content: '\\273F';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Black Florette&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="black-florette"&gt;Featured Item&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Black Florette✿</strong></p>
-</section>`,
+  <p>Output: <strong>✿Featured Item</strong></p>
+
+  <h3>What Is the ✿ Symbol?</h3>
+  <p>The ✿ symbol, known as the “Black Florette,” is a stylized floral symbol resembling a blossom or rosette. It’s commonly used for decoration in text, designs, or user interfaces.</p>
+
+  <h3>What Does ✿ Mean?</h3>
+  <p>While it doesn’t carry specific linguistic meaning, the ✿ symbol is widely used for visual enhancement—often to represent flowers, nature, elegance, or to add a playful tone to text. It's popular in art, bullet lists, and digital decorations.</p>
+</section>
+`,
   },
 
   {
@@ -2276,35 +2821,62 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ❀ White Florette</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ❀ (White Florette) Symbol</h2>
 
-<h2>How to Add White Florette in HTML</h2>
-<p>Use these HTML codes to display the ❀ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code, but you can type it in Microsoft Word using:</p>
+  <ol>
+    <li>Type <strong>2740</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or copy it directly: <strong>❀</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10048; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert ❀ on a Mac:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “florette” or “flower”,</li>
+    <li>Select the ❀ symbol from the list.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2740; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not included in standard mobile keyboards. To use it:</p>
+  <ul>
+    <li>Copy it from here: <strong>❀</strong></li>
+    <li>Paste it into your message or design.</li>
+  </ul>
 
-<p>These render as: <strong>I am ❀ Symbol</strong></p>
+  <h3>How to Use ❀ in HTML</h3>
+  <p>You can display the White Florette symbol on a webpage using the following codes:</p>
 
-<h2>How to Add White Florette in CSS</h2>
-<p>To use the ❀ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;Symbol: &#10048;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;Symbol: &#x2740;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>Symbol: ❀</strong></p>
+
+  <h3>How to Use ❀ in CSS</h3>
+  <p>To add the ❀ symbol via CSS:</p>
+
+  <pre><code>/* CSS */
+.white-florette::before {
   content: '\\2740';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;White Florette&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="white-florette"&gt;Decorative Label&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>White Florette❀</strong></p>
-</section>`,
+  <p>Output: <strong>❀Decorative Label</strong></p>
+
+  <h3>What Is the ❀ Symbol?</h3>
+  <p>The ❀ symbol, known as the “White Florette,” is a decorative flower-like symbol featuring a soft, open-petal design. It’s often used for aesthetic purposes in text, decorations, and digital media.</p>
+
+  <h3>What Does ❀ Mean?</h3>
+  <p>While ❀ doesn’t have a standardized meaning, it commonly represents beauty, nature, calmness, or a floral theme. It's used in art, digital design, and sometimes to add a delicate or peaceful tone to text content.</p>
+</section>
+`,
   },
 
   {
@@ -2331,35 +2903,62 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ❁ Eight Petalled Outlined Black Florette</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ❁ (Eight Petalled Outlined Black Florette) Symbol</h2>
 
-<h2>How to Add Eight Petalled Outlined Black Florette in HTML</h2>
-<p>Use these HTML codes to display the ❁ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code. However, in Microsoft Word you can type it as follows:</p>
+  <ol>
+    <li>Type <strong>2741</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>You can also simply copy it here: <strong>❁</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10049; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To type ❁ on a Mac:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “florette” or “flower”,</li>
+    <li>Select the ❁ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2741; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not included in the standard mobile keyboards. To use it:</p>
+  <ul>
+    <li>Copy from here: <strong>❁</strong></li>
+    <li>Then paste it where needed in your app or message.</li>
+  </ul>
 
-<p>These render as: <strong>I am ❁ Symbol</strong></p>
+  <h3>How to Use ❁ in HTML</h3>
+  <p>Use the following HTML codes to display the symbol on a webpage:</p>
 
-<h2>How to Add Eight Petalled Outlined Black Florette in CSS</h2>
-<p>To use the ❁ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;Symbol: &#10049;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;Symbol: &#x2741;&lt;/span&gt;</code></pre>
+
+  <p>Output: <strong>Symbol: ❁</strong></p>
+
+  <h3>How to Use ❁ in CSS</h3>
+  <p>Use this CSS snippet to insert the symbol before content:</p>
+
+  <pre><code>/* CSS */
+.outlined-florette::before {
   content: '\\2741';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Eight Petalled Outlined Black Florette&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="outlined-florette"&gt;Embellished Section&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Eight Petalled Outlined Black Florette❁</strong></p>
-</section>`,
+  <p>Output: <strong>❁Embellished Section</strong></p>
+
+  <h3>What Is the ❁ Symbol?</h3>
+  <p>The ❁ symbol, officially known as the “Eight Petalled Outlined Black Florette,” is a decorative glyph with an outlined eight-petal design. It is often used to add stylistic detail, symmetry, or floral imagery in digital and print formats.</p>
+
+  <h3>What Does ❁ Mean?</h3>
+  <p>While ❁ has no specific linguistic meaning, it is widely used to represent elegance, symmetry, or natural beauty. Designers and writers use it as a flourish or divider in layouts and typography.</p>
+</section>
+`,
   },
 
   {
@@ -2386,35 +2985,62 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ❂ Circled Open Centre Eight Pointed Star</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ❂ (Circled Open Centre Eight Pointed Star) Symbol</h2>
 
-<h2>How to Add Circled Open Centre Eight Pointed Star in HTML</h2>
-<p>Use these HTML codes to display the ❂ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can still insert it in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>2742</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it from here: <strong>❂</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10050; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert the ❂ symbol on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “star” or “circled star”,</li>
+    <li>Click the ❂ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2742; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not available in standard mobile keyboards. To use it:</p>
+  <ul>
+    <li>Copy from here: <strong>❂</strong></li>
+    <li>Paste it where needed, such as in a message or social media post.</li>
+  </ul>
 
-<p>These render as: <strong>I am ❂ Symbol</strong></p>
+  <h3>How to Use ❂ in HTML</h3>
+  <p>You can insert the Circled Eight Pointed Star in HTML using either of the following codes:</p>
 
-<h2>How to Add Circled Open Centre Eight Pointed Star in CSS</h2>
-<p>To use the ❂ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;Symbol: &#10050;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;Symbol: &#x2742;&lt;/span&gt;</code></pre>
+
+  <p>Output: <strong>Symbol: ❂</strong></p>
+
+  <h3>How to Use ❂ in CSS</h3>
+  <p>To include the symbol via CSS before an element’s content:</p>
+
+  <pre><code>/* CSS */
+.circled-star::before {
   content: '\\2742';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Circled Open Centre Eight Pointed Star&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="circled-star"&gt;Featured Section&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Circled Open Centre Eight Pointed Star❂</strong></p>
-</section>`,
+  <p>Output: <strong>❂Featured Section</strong></p>
+
+  <h3>What Is the ❂ Symbol?</h3>
+  <p>The ❂ symbol, formally called the “Circled Open Centre Eight Pointed Star,” is a stylized star enclosed in a circle, commonly used for visual emphasis, decoration, and typographic embellishment.</p>
+
+  <h3>What Does ❂ Mean?</h3>
+  <p>This symbol has no fixed meaning in language but is often interpreted as a celestial, solar, or radiant symbol. It can represent balance, direction, or design sophistication in both print and digital media.</p>
+</section>
+`,
   },
 
   {
@@ -2441,35 +3067,62 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ❃ Heavy Teardrop-Spoked Pinwheel Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ❃ (Heavy Teardrop-Spoked Pinwheel Asterisk) Symbol</h2>
 
-<h2>How to Add Heavy Teardrop-Spoked Pinwheel Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ❃ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can easily insert it in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>2743</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Alternatively, copy it directly: <strong>❃</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10051; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert the ❃ symbol on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “asterisk” or “pinwheel” or “star”,</li>
+    <li>Click the ❃ symbol to insert it into your text.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2743; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not available on most mobile keyboards. To use it:</p>
+  <ul>
+    <li>Copy it from here: <strong>❃</strong></li>
+    <li>Paste it into messages, notes, or social media posts.</li>
+  </ul>
 
-<p>These render as: <strong>I am ❃ Symbol</strong></p>
+  <h3>How to Use ❃ in HTML</h3>
+  <p>You can display the Heavy Teardrop-Spoked Pinwheel Asterisk in HTML with:</p>
 
-<h2>How to Add Heavy Teardrop-Spoked Pinwheel Asterisk in CSS</h2>
-<p>To use the ❃ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;Symbol: &#10051;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;Symbol: &#x2743;&lt;/span&gt;</code></pre>
+
+  <p>Output: <strong>Symbol: ❃</strong></p>
+
+  <h3>How to Use ❃ in CSS</h3>
+  <p>To add this symbol before an element using CSS:</p>
+
+  <pre><code>/* CSS */
+.pinwheel-star::before {
   content: '\\2743';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Heavy Teardrop-Spoked Pinwheel Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="pinwheel-star"&gt;Stylish Heading&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Heavy Teardrop-Spoked Pinwheel Asterisk❃</strong></p>
-</section>`,
+  <p>Output: <strong>❃Stylish Heading</strong></p>
+
+  <h3>What Is the ❃ Symbol?</h3>
+  <p>The ❃ symbol is known as the “Heavy Teardrop-Spoked Pinwheel Asterisk.” It features a bold, decorative design resembling a stylized pinwheel or floral star, often used for ornamentation, emphasis, or visual flair.</p>
+
+  <h3>What Does ❃ Mean?</h3>
+  <p>This symbol doesn’t have a specific linguistic meaning but is commonly used in graphic design, invitations, artwork, and digital content to add a touch of creativity and decoration. Its pinwheel form can evoke motion, energy, or elegance.</p>
+</section>
+`,
   },
 
   {
@@ -2496,35 +3149,62 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ❇ Sparkle</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ❇ (Sparkle) Symbol</h2>
 
-<h2>How to Add Sparkle in HTML</h2>
-<p>Use these HTML codes to display the ❇ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can insert it in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>2747</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it here: <strong>❇</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10055; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert the ❇ symbol on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “sparkle” or “star”,</li>
+    <li>Click the ❇ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2747; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not typically available on standard mobile keyboards. To use it:</p>
+  <ul>
+    <li>Copy it from here: <strong>❇</strong></li>
+    <li>Paste it into your message, caption, or post.</li>
+  </ul>
 
-<p>These render as: <strong>I am ❇ Symbol</strong></p>
+  <h3>How to Use ❇ in HTML</h3>
+  <p>To include the Sparkle symbol in a webpage, use:</p>
 
-<h2>How to Add Sparkle in CSS</h2>
-<p>To use the ❇ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;Symbol: &#10055;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;Symbol: &#x2747;&lt;/span&gt;</code></pre>
+
+  <p>Result: <strong>Symbol: ❇</strong></p>
+
+  <h3>How to Use ❇ in CSS</h3>
+  <p>To display this symbol before an element using CSS:</p>
+
+  <pre><code>/* CSS */
+.sparkle::before {
   content: '\\2747';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Sparkle&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="sparkle"&gt;Shiny Text&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Sparkle❇</strong></p>
-</section>`,
+  <p>Output: <strong>❇Shiny Text</strong></p>
+
+  <h3>What Is the ❇ Symbol?</h3>
+  <p>The ❇ symbol, called “Sparkle,” represents a stylized sparkle or glittering starburst. It is commonly used for visual flair, decoration, or to suggest something magical, exciting, or eye-catching.</p>
+
+  <h3>What Does ❇ Mean?</h3>
+  <p>Though not used in formal writing or math, ❇ is often used in design, social media, and digital messages to suggest brightness, special emphasis, or elegance. It can symbolize beauty, uniqueness, or a magical effect.</p>
+</section>
+`,
   },
 
   {
@@ -2551,35 +3231,62 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ❈ Heavy Sparkle</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ❈ (Heavy Sparkle) Symbol</h2>
 
-<h2>How to Add Heavy Sparkle in HTML</h2>
-<p>Use these HTML codes to display the ❈ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code, but you can insert it in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>2748</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it from here: <strong>❈</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10056; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert the ❈ symbol on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “sparkle” or “star”,</li>
+    <li>Click the ❈ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2748; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>This symbol is not found on most default mobile keyboards. To use it:</p>
+  <ul>
+    <li>Copy it from here: <strong>❈</strong></li>
+    <li>Paste it where needed in your message or design.</li>
+  </ul>
 
-<p>These render as: <strong>I am ❈ Symbol</strong></p>
+  <h3>How to Use ❈ in HTML</h3>
+  <p>To add the Heavy Sparkle symbol in HTML, use:</p>
 
-<h2>How to Add Heavy Sparkle in CSS</h2>
-<p>To use the ❈ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;Symbol: &#10056;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;Symbol: &#x2748;&lt;/span&gt;</code></pre>
+
+  <p>Result: <strong>Symbol: ❈</strong></p>
+
+  <h3>How to Use ❈ in CSS</h3>
+  <p>To add the symbol before content using CSS:</p>
+
+  <pre><code>/* CSS */
+.heavy-sparkle::before {
   content: '\\2748';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Heavy Sparkle&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="heavy-sparkle"&gt;Elegant Design&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Heavy Sparkle❈</strong></p>
-</section>`,
+  <p>Output: <strong>❈Elegant Design</strong></p>
+
+  <h3>What Is the ❈ Symbol?</h3>
+  <p>The ❈ symbol, called “Heavy Sparkle,” is a bold, ornamental version of the sparkle symbol. It features a symmetrical design that resembles a decorative burst or star, making it useful for visual flair or accents.</p>
+
+  <h3>What Does ❈ Mean?</h3>
+  <p>❈ is not used in formal writing or equations, but it is commonly used in digital design, social media, or graphic decoration to indicate elegance, beauty, or emphasis. It adds a luxurious or magical touch to text or visuals.</p>
+</section>
+`,
   },
 
   {
@@ -2606,35 +3313,62 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ❉ Balloon-Spoked Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ❉ (Balloon-Spoked Asterisk) Symbol</h2>
 
-<h2>How to Add Balloon-Spoked Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ❉ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can insert it in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>2749</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or copy it directly from here: <strong>❉</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10057; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert the ❉ symbol on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “asterisk” or “star”,</li>
+    <li>Click the ❉ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x2749; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>Most mobile keyboards don’t have this symbol by default. To use it:</p>
+  <ul>
+    <li>Copy it from here: <strong>❉</strong></li>
+    <li>Paste it wherever you need.</li>
+  </ul>
 
-<p>These render as: <strong>I am ❉ Symbol</strong></p>
+  <h3>How to Use ❉ in HTML</h3>
+  <p>Use the following HTML code to add the Balloon-Spoked Asterisk:</p>
 
-<h2>How to Add Balloon-Spoked Asterisk in CSS</h2>
-<p>To use the ❉ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;Symbol: &#10057;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;Symbol: &#x2749;&lt;/span&gt;</code></pre>
+
+  <p>Result: <strong>Symbol: ❉</strong></p>
+
+  <h3>How to Use ❉ in CSS</h3>
+  <p>To include this symbol via CSS before or after content:</p>
+
+  <pre><code>/* CSS */
+.balloon-asterisk::before {
   content: '\\2749';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Balloon-Spoked Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="balloon-asterisk"&gt;Special Section&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Balloon-Spoked Asterisk❉</strong></p>
-</section>`,
+  <p>Output: <strong>❉Special Section</strong></p>
+
+  <h3>What Is the ❉ Symbol?</h3>
+  <p>The ❉ symbol, or “Balloon-Spoked Asterisk,” is a decorative star-like character with rounded, balloon-shaped spokes. It adds a playful or whimsical flair to designs, text, or digital decorations.</p>
+
+  <h3>What Does ❉ Mean?</h3>
+  <p>Though not used in mathematics or official writing, ❉ often appears in creative design, bullet lists, or ornamentation. It symbolizes elegance, celebration, or emphasis, making it ideal for aesthetic accents.</p>
+</section>
+`,
   },
 
   {
@@ -2661,35 +3395,62 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ❊ Eight Teardrop-Spoked Propeller Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ❊ (Eight Teardrop-Spoked Propeller Asterisk) Symbol</h2>
 
-<h2>How to Add Eight Teardrop-Spoked Propeller Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ❊ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can type it in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>274A</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or just copy it from here: <strong>❊</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10058; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert the ❊ symbol on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “asterisk” or “star”,</li>
+    <li>Click the ❊ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x274A; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>Most mobile keyboards don’t have this symbol by default. To use it:</p>
+  <ul>
+    <li>Copy it from here: <strong>❊</strong></li>
+    <li>Paste it into your message or app.</li>
+  </ul>
 
-<p>These render as: <strong>I am ❊ Symbol</strong></p>
+  <h3>How to Use ❊ in HTML</h3>
+  <p>To display the Eight Teardrop-Spoked Propeller Asterisk symbol in HTML, use one of the following:</p>
 
-<h2>How to Add Eight Teardrop-Spoked Propeller Asterisk in CSS</h2>
-<p>To use the ❊ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;Symbol: &#10058;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;Symbol: &#x274A;&lt;/span&gt;</code></pre>
+
+  <p>Result: <strong>Symbol: ❊</strong></p>
+
+  <h3>How to Use ❊ in CSS</h3>
+  <p>You can insert this symbol via CSS using the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.propeller-asterisk::before {
   content: '\\274A';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Eight Teardrop-Spoked Propeller Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="propeller-asterisk"&gt;Featured Item&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Eight Teardrop-Spoked Propeller Asterisk❊</strong></p>
-</section>`,
+  <p>Output: <strong>❊Featured Item</strong></p>
+
+  <h3>What Is the ❊ Symbol?</h3>
+  <p>The ❊ symbol, known as the Eight Teardrop-Spoked Propeller Asterisk, is a decorative Unicode character that resembles a flower or pinwheel with eight teardrop-shaped arms. It's ideal for creative uses in design, lists, and artwork.</p>
+
+  <h3>What Does ❊ Mean?</h3>
+  <p>This symbol conveys a sense of creativity, movement, or elegance. It is commonly used as an ornamental bullet or visual marker in designs, crafts, or digital content to add a playful or artistic touch.</p>
+</section>
+`,
   },
 
   {
@@ -2717,35 +3478,62 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ❋ Heavy Eight Teardrop-Spoked Propeller Asterisk</h2>
-<p>This symbol does not have a standard Alt code. You can copy and paste it directly or use the HTML and CSS codes below.</p>
+  <h2>How to Type ❋ (Heavy Eight Teardrop-Spoked Propeller Asterisk) Symbol</h2>
 
-<h2>How to Add Heavy Eight Teardrop-Spoked Propeller Asterisk in HTML</h2>
-<p>Use these HTML codes to display the ❋ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol does not have a standard Alt code, but you can enter it in Microsoft Word using Unicode:</p>
+  <ol>
+    <li>Type <strong>274B</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or copy it directly from here: <strong>❋</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;I am &#10059; Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert the ❋ symbol on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the Character Viewer,</li>
+    <li>Search for “asterisk” or “star”,</li>
+    <li>Click on the ❋ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;I am &#x274B; Symbol&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>Mobile keyboards usually don’t support this symbol directly. To use it:</p>
+  <ul>
+    <li>Copy from here: <strong>❋</strong></li>
+    <li>Paste into your message, post, or app.</li>
+  </ul>
 
-<p>These render as: <strong>I am ❋ Symbol</strong></p>
+  <h3>How to Use ❋ in HTML</h3>
+  <p>To use the Heavy Eight Teardrop-Spoked Propeller Asterisk symbol in HTML, use one of the following codes:</p>
 
-<h2>How to Add Heavy Eight Teardrop-Spoked Propeller Asterisk in CSS</h2>
-<p>To use the ❋ symbol in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;Symbol: &#10059;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS code */
-.addSymbol::after {
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;Symbol: &#x274B;&lt;/span&gt;</code></pre>
+
+  <p>Result: <strong>Symbol: ❋</strong></p>
+
+  <h3>How to Use ❋ in CSS</h3>
+  <p>You can add the ❋ symbol using CSS and the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.bold-propeller::before {
   content: '\\274B';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="addSymbol"&gt;Heavy Eight Teardrop-Spoked Propeller Asterisk&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="bold-propeller"&gt;Featured Section&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Heavy Eight Teardrop-Spoked Propeller Asterisk❋</strong></p>
-</section>`,
+  <p>Output: <strong>❋Featured Section</strong></p>
+
+  <h3>What Is the ❋ Symbol?</h3>
+  <p>The ❋ symbol is a bold, decorative asterisk with eight teardrop-shaped spokes, arranged like a propeller or flower. It's a stronger variation of the ❊ symbol and used for striking visual emphasis in design and documents.</p>
+
+  <h3>What Does ❋ Mean?</h3>
+  <p>Visually expressive, the ❋ symbol is often used to mark something important, artistic, or aesthetically highlighted. It stands out in decorative text, bullet points, invitations, and digital designs due to its bold appearance.</p>
+</section>
+`,
   },
 
   {
@@ -2772,35 +3560,63 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ❄ Snowflake</h2>
-<p>The ❄ Snowflake symbol can be copied directly or inserted using HTML or CSS codes. It does not have a standard Alt code.</p>
+  <h2>How to Type ❄ (Snowflake) Symbol</h2>
 
-<h2>How to Add Snowflake in HTML</h2>
-<p>You can use the following codes in HTML to display the snowflake symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>There is no standard Alt code for ❄, but you can insert it in Microsoft Word using Unicode:</p>
+  <ol>
+    <li>Type <strong>2744</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or copy it directly from here: <strong>❄</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;Let it snow! &#10052;&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To type ❄ on a Mac:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the emoji and symbol viewer,</li>
+    <li>Search for “snowflake”,</li>
+    <li>Click on the ❄ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;Let it snow! &#x2744;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>On most mobile keyboards:</p>
+  <ul>
+    <li>Open the emoji menu,</li>
+    <li>Look under “weather” or search “snowflake” if your device supports emoji search,</li>
+    <li>Or copy from here: <strong>❄</strong></li>
+  </ul>
 
-<p>Both render as: <strong>Let it snow! ❄</strong></p>
+  <h3>How to Use ❄ in HTML</h3>
+  <p>To use the Snowflake symbol in HTML, you can use the following codes:</p>
 
-<h2>How to Add Snowflake in CSS</h2>
-<p>To use ❄ in CSS with pseudo-elements, use:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;❄&lt;/span&gt; or &lt;span&gt;&#10052;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.winterIcon::before {
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;&#x2744;&lt;/span&gt;</code></pre>
+
+  <p>Result: <strong>❄</strong></p>
+
+  <h3>How to Use ❄ in CSS</h3>
+  <p>To add the ❄ symbol using CSS:</p>
+
+  <pre><code>/* CSS */
+.winter-theme::before {
   content: '\\2744';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="winterIcon"&gt;Snowflake&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="winter-theme"&gt;Snow Day Special&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>❄ Snowflake</strong></p>
-</section>`,
+  <p>Output: <strong>❄Snow Day Special</strong></p>
+
+  <h3>What Is the ❄ Symbol?</h3>
+  <p>The ❄ Snowflake symbol is a six-pointed crystalline icon representing cold, winter, and uniqueness. It's commonly used in weather forecasts, seasonal messages, or decorative text for the winter holidays.</p>
+
+  <h3>What Does ❄ Mean?</h3>
+  <p>The ❄ symbol often implies cold weather, wintertime fun, or the festive holiday season. In metaphorical use, it can suggest delicacy, beauty, or individuality—as no two snowflakes are the same.</p>
+</section>
+`,
   },
 
   {
@@ -2827,35 +3643,62 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ❆ Heavy Chevron Snowflake</h2>
-<p>The ❆ symbol can be inserted directly or via HTML/CSS code. It does not have a standard Alt code for typing from the keyboard.</p>
+  <h2>How to Type ❆ (Heavy Chevron Snowflake) Symbol</h2>
 
-<h2>How to Add Heavy Chevron Snowflake in HTML</h2>
-<p>Use the following HTML codes to display the symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can insert it using Unicode input in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>2746</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it from here: <strong>❆</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;Winter vibes ❆&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert ❆ on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the emoji and symbol viewer,</li>
+    <li>Search for “snowflake”,</li>
+    <li>Click on the ❆ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;Winter vibes &#x2746;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>On mobile devices:</p>
+  <ul>
+    <li>Use the emoji keyboard and look under “weather” or search “snowflake” if available,</li>
+    <li>Or copy it directly from here: <strong>❆</strong></li>
+  </ul>
 
-<p>Both will render as: <strong>Winter vibes ❆</strong></p>
+  <h3>How to Use ❆ in HTML</h3>
+  <p>You can include the Heavy Chevron Snowflake symbol using HTML codes:</p>
 
-<h2>How to Add Heavy Chevron Snowflake in CSS</h2>
-<p>To use ❆ in CSS, apply it with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;❆&lt;/span&gt; or &lt;span&gt;&#10054;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.winterDecor::before {
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;&#x2746;&lt;/span&gt;</code></pre>
+
+  <p>Display result: <strong>❆</strong></p>
+
+  <h3>How to Use ❆ in CSS</h3>
+  <p>Use the symbol in your stylesheet like this:</p>
+
+  <pre><code>/* CSS */
+.holiday-banner::before {
   content: '\\2746';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="winterDecor"&gt;Snowflake&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="holiday-banner"&gt;Winter Clearance Sale&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>❆ Snowflake</strong></p>
-</section>`,
+  <p>Rendered Output: <strong>❆Winter Clearance Sale</strong></p>
+
+  <h3>What Is the ❆ Symbol?</h3>
+  <p>The ❆ Heavy Chevron Snowflake is a bold and stylized snowflake character. Its thick, chevron-shaped branches make it visually distinct—ideal for festive winter themes, holiday cards, banners, or online decorations.</p>
+
+  <h3>What Does ❆ Mean?</h3>
+  <p>This snowflake symbol often represents cold, winter, or the holiday season. It can convey elegance, festivity, and the uniqueness associated with snowflakes in nature.</p>
+</section>
+`,
   },
 
   {
@@ -2882,35 +3725,62 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ❅ Tight Trifoliate Snowflake</h2>
-<p>The ❅ symbol can be copied directly or used via HTML/CSS. It doesn't have a standard Alt code for keyboard input.</p>
+  <h2>How to Type ❅ (Tight Trifoliate Snowflake) Symbol</h2>
 
-<h2>How to Add Tight Trifoliate Snowflake in HTML</h2>
-<p>Use these HTML codes to insert the ❅ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>This symbol doesn’t have a standard Alt code, but you can insert it using Unicode input in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>2745</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it from here: <strong>❅</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;Chilly day ❅&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert ❅ on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the emoji and symbol viewer,</li>
+    <li>Search for “snowflake”,</li>
+    <li>Click on the ❅ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;Chilly day &#x2745;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on iPhone and Android</h3>
+  <p>On mobile devices:</p>
+  <ul>
+    <li>Use the emoji keyboard and search “snowflake”,</li>
+    <li>Or copy it directly from here: <strong>❅</strong></li>
+  </ul>
 
-<p>Both render as: <strong>Chilly day ❅</strong></p>
+  <h3>How to Use ❅ in HTML</h3>
+  <p>You can include the Tight Trifoliate Snowflake symbol using HTML codes:</p>
 
-<h2>How to Add Tight Trifoliate Snowflake in CSS</h2>
-<p>Use this CSS snippet to include the ❅ symbol in content styling:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;❅&lt;/span&gt; or &lt;span&gt;&#10053;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.snowflakeIcon::before {
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;&#x2745;&lt;/span&gt;</code></pre>
+
+  <p>Display result: <strong>❅</strong></p>
+
+  <h3>How to Use ❅ in CSS</h3>
+  <p>Use the symbol in your stylesheet like this:</p>
+
+  <pre><code>/* CSS */
+.winter-icon::before {
   content: '\\2745';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="snowflakeIcon"&gt;Snowflake&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="winter-icon"&gt;Holiday Greetings&lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>❅ Snowflake</strong></p>
-</section>`,
+  <p>Rendered Output: <strong>❅Holiday Greetings</strong></p>
+
+  <h3>What Is the ❅ Symbol?</h3>
+  <p>The ❅ Tight Trifoliate Snowflake is a decorative Unicode symbol that represents a stylized snowflake with a compact, trifoliate (three-lobed) structure. It’s ideal for use in seasonal design, festive greetings, or aesthetic text formatting.</p>
+
+  <h3>What Does ❅ Mean?</h3>
+  <p>This snowflake symbol signifies winter, cold weather, uniqueness, or festive vibes. Its refined design makes it perfect for digital decor, holiday cards, and creative layouts.</p>
+</section>
+`,
   },
 
   {
@@ -2937,35 +3807,55 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ⋆ Star Operator</h2>
-<p>The ⋆ Star Operator is a mathematical symbol used in algebra, logic, and set theory. It can be copied directly or inserted via code.</p>
+  <h2>How to Type ⋆ (Star Operator) Symbol</h2>
 
-<h2>How to Add Star Operator in HTML</h2>
-<p>Use these HTML codes to display the symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>The ⋆ Star Operator symbol doesn’t have a standard Alt code, but you can insert it using Unicode input in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>22C6</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or just copy it from here: <strong>⋆</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;A ⋆ B&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert the ⋆ symbol on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the emoji & symbols viewer,</li>
+    <li>Search for “star operator” or “mathematical symbols”,</li>
+    <li>Click on the ⋆ to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;A &#x22C6; B&lt;/span&gt;
-</code></pre>
+  <h3>How to Use ⋆ in HTML</h3>
+  <p>You can insert the Star Operator symbol in your webpage using the following HTML code:</p>
 
-<p>Both render as: <strong>A ⋆ B</strong></p>
+  <pre><code>&lt;!-- Decimal --&gt;
+&lt;span&gt;&#8902;&lt;/span&gt;</code></pre>
 
-<h2>How to Add Star Operator in CSS</h2>
-<p>To include the ⋆ symbol using CSS content:</p>
+  <pre><code>&lt;!-- Hexadecimal --&gt;
+&lt;span&gt;&#x22C6;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.mathSymbol::before {
+  <p>Display result: <strong>⋆</strong></p>
+
+  <h3>How to Use ⋆ in CSS</h3>
+  <p>To include the ⋆ symbol in your CSS content:</p>
+
+  <pre><code>/* CSS */
+.math-star::before {
   content: '\\22C6';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="mathSymbol"&gt;Result&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="math-star"&gt; Convolution Example &lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>⋆ Result</strong></p>
-</section>`,
+  <p>Rendered Output: <strong>⋆ Convolution Example</strong></p>
+
+  <h3>What Is the ⋆ Symbol?</h3>
+  <p>The ⋆ Star Operator is a mathematical Unicode symbol used in logic, algebra, convolution operations, and computer science. It resembles a five-pointed star and is distinct from a regular asterisk (*) in both appearance and usage.</p>
+
+  <h3>What Does ⋆ Mean?</h3>
+  <p>In mathematics and programming, ⋆ is often used to denote custom operations, convolution, or associative binary functions. Its use depends on the context, but it's typically a placeholder for a user-defined operator.</p>
+</section>
+`,
   },
 
   {
@@ -2992,35 +3882,55 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ≛ Star Equals</h2>
-<p>The ≛ Star Equals symbol is a rarely used mathematical operator. It may appear in logic, algebra, or symbolic notation. You can copy it or use the codes below.</p>
+  <h2>How to Type ≛ (Star Equals) Symbol</h2>
 
-<h2>How to Add Star Equals in HTML</h2>
-<p>Use these HTML codes to display the ≛ symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>The ≛ Star Equals symbol doesn’t have a standard Alt code, but you can insert it in Microsoft Word using Unicode:</p>
+  <ol>
+    <li>Type <strong>225B</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
+  <p>Or simply copy it: <strong>≛</strong></p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;x ≛ y&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert the ≛ symbol on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the emoji & symbols viewer,</li>
+    <li>Search “star equals” or look under “Math Symbols”,</li>
+    <li>Click to insert the symbol.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;x &#x225B; y&lt;/span&gt;
-</code></pre>
+  <h3>How to Use ≛ in HTML</h3>
+  <p>You can insert the ≛ symbol in your HTML using either of the following codes:</p>
 
-<p>Both render as: <strong>x ≛ y</strong></p>
+  <pre><code>&lt;!-- Decimal --&gt;
+&lt;span&gt;&#8795;&lt;/span&gt;</code></pre>
 
-<h2>How to Add Star Equals in CSS</h2>
-<p>To use ≛ in CSS via pseudo-elements:</p>
+  <pre><code>&lt;!-- Hexadecimal --&gt;
+&lt;span&gt;&#x225B;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.mathLogic::after {
+  <p>Display result: <strong>≛</strong></p>
+
+  <h3>How to Use ≛ in CSS</h3>
+  <p>To add the ≛ symbol via CSS content property:</p>
+
+  <pre><code>/* CSS */
+.star-equals::before {
   content: '\\225B';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="mathLogic"&gt;Relation&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="star-equals"&gt; Defined Operation &lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>Relation≛</strong></p>
-</section>`,
+  <p>Rendered Output: <strong>≛ Defined Operation</strong></p>
+
+  <h3>What Is the ≛ Symbol?</h3>
+  <p>The ≛ Star Equals symbol is a mathematical operator combining an asterisk and an equals sign. It is used in logic, mathematics, or physics to signify an identity, equivalence, or specialized operator.</p>
+
+  <h3>What Does ≛ Mean?</h3>
+  <p>Its exact meaning depends on the context, but ≛ often indicates a defined equality or a relation that holds under specific conditions. It is rarely used in basic arithmetic but may appear in advanced technical literature or symbolic logic.</p>
+</section>
+`,
   },
 
   {
@@ -3047,35 +3957,56 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ᕯ Canadian Syllabics Tth</h2>
-<p>The ᕯ symbol comes from the Unified Canadian Aboriginal Syllabics Unicode block and represents the syllable "Tth". Though not a star by function, it has a star-like appearance.</p>
+  <h2>How to Type ᕯ (Canadian Syllabics Tth) Symbol</h2>
 
-<h2>How to Add ᕯ in HTML</h2>
-<p>Use these codes to display ᕯ in web content:</p>
+  <h3>Typing on Windows</h3>
+  <p>Since the ᕯ symbol doesn’t have a standard Alt code, the easiest method is to copy and paste it:</p>
+  <p><strong>ᕯ</strong></p>
+  <p>Alternatively, in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>157F</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;ᕯ Symbol&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>To insert the ᕯ symbol on macOS:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the character viewer,</li>
+    <li>Search “Canadian Syllabics” or browse the "Unicode" block,</li>
+    <li>Select and click the symbol to insert.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;&#x157F;&lt;/span&gt;
-</code></pre>
+  <h3>How to Use ᕯ in HTML</h3>
+  <p>You can insert the ᕯ symbol into your webpage using one of these HTML codes:</p>
 
-<p>Both render as: <strong>ᕯ Symbol</strong></p>
+  <pre><code>&lt;!-- Decimal --&gt;
+&lt;span&gt;&#5503;&lt;/span&gt;</code></pre>
 
-<h2>How to Add ᕯ in CSS</h2>
-<p>Insert it in CSS using the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Hexadecimal --&gt;
+&lt;span&gt;&#x157F;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.nativeSymbol::before {
+  <p>Display result: <strong>ᕯ</strong></p>
+
+  <h3>How to Use ᕯ in CSS</h3>
+  <p>To render the ᕯ symbol in CSS using the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.syllabic-tth::before {
   content: '\\157F';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="nativeSymbol"&gt;Language&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="syllabic-tth"&gt; Symbol Example &lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>ᕯ Language</strong></p>
-</section>`,
+  <p>Rendered Output: <strong>ᕯ Symbol Example</strong></p>
+
+  <h3>What Is the ᕯ Symbol?</h3>
+  <p>The ᕯ symbol is officially named <strong>Canadian Syllabics Tth</strong>. It is part of the Unicode block for Unified Canadian Aboriginal Syllabics (U+1400 to U+167F), which is used to write Indigenous languages such as Inuktitut and Cree.</p>
+
+  <h3>Why It Looks Like a Star</h3>
+  <p>While not a star symbol in function, the shape of ᕯ resembles a six-pointed star, which is why it's often used decoratively or symbolically in spiritual, cultural, or artistic contexts.</p>
+</section>
+`,
   },
 
   {
@@ -3102,35 +4033,56 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ࿏ Tibetan Sign Rdel Nag Gsum</h2>
-<p>The ࿏ symbol is part of the Tibetan script, primarily used in Buddhist texts. It often appears as a decorative or sacred punctuation mark.</p>
+  <h2>How to Type ࿏ (Tibetan Sign Rdel Nag Gsum) Symbol</h2>
 
-<h2>How to Add ࿏ in HTML</h2>
-<p>You can use the following HTML codes to include the symbol:</p>
+  <h3>Typing on Windows</h3>
+  <p>The ࿏ symbol has no standard Alt code. To use it:</p>
+  <p><strong>Copy and paste:</strong> ࿏</p>
+  <p>Or in Microsoft Word:</p>
+  <ol>
+    <li>Type <strong>0FDF</strong>,</li>
+    <li>Then press <strong>Alt + X</strong>.</li>
+  </ol>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;&#4063;&lt;/span&gt;
+  <h3>Typing on Mac</h3>
+  <p>Use the Character Viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong>,</li>
+    <li>Search “Tibetan” or scroll to the “Unicode” section,</li>
+    <li>Select the ࿏ symbol to insert it.</li>
+  </ol>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;&#x0FDF;&lt;/span&gt;
-</code></pre>
+  <h3>How to Use ࿏ in HTML</h3>
+  <p>You can add the ࿏ symbol to your HTML using the following code:</p>
 
-<p>Both render as: <strong>࿏</strong></p>
+  <pre><code>&lt;!-- Decimal --&gt;
+&lt;span&gt;&#4063;&lt;/span&gt;</code></pre>
 
-<h2>How to Add ࿏ in CSS</h2>
-<p>Use the <code>content</code> property to include it in CSS:</p>
+  <pre><code>&lt;!-- Hexadecimal --&gt;
+&lt;span&gt;&#x0FDF;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.tibetanSymbol::before {
+  <p>Rendered output: <strong>࿏</strong></p>
+
+  <h3>How to Use ࿏ in CSS</h3>
+  <p>You can use this Unicode character in CSS with the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.tibetan-symbol::before {
   content: '\\0FDF';
-}
+}</code></pre>
 
-/* HTML */
-&lt;div class="tibetanSymbol"&gt;Sacred Mark&lt;/div&gt;
-</code></pre>
+  <pre><code>/* HTML */
+&lt;div class="tibetan-symbol"&gt; Sacred Text &lt;/div&gt;</code></pre>
 
-<p>This will display: <strong>࿏ Sacred Mark</strong></p>
-</section>`,
+  <p>Rendered Output: <strong>࿏ Sacred Text</strong></p>
+
+  <h3>What Is the ࿏ Symbol?</h3>
+  <p>The Unicode character <strong>࿏ (Tibetan Sign Rdel Nag Gsum)</strong> is a sacred mark found in traditional Tibetan texts. It may appear at the beginning or end of scriptures, mantras, or prayers as a religious or ornamental element.</p>
+
+  <h3>Where Is It Used?</h3>
+  <p>Primarily found in classical Tibetan Buddhist manuscripts and texts, this symbol carries spiritual significance and is often used by monks, scholars, or calligraphers in the religious context of the Tibetan script (U+0F00–U+0FFF).</p>
+</section>
+`,
   },
 
   {
@@ -3157,35 +4109,57 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>About ꙰ Combining Cyrillic Ten Millions Sign</h2>
-<p>The ꙰ symbol (U+A670) is a historical combining mark used in the ancient Cyrillic numeral system to indicate values in the ten millions range. It combines with preceding characters and may not appear properly without compatible font support.</p>
+  <h2>How to Type ꙰ (Combining Cyrillic Ten Millions Sign) Symbol</h2>
 
-<h2>How to Use ꙰ in HTML</h2>
-<p>Use the following codes to include it in your HTML:</p>
+  <h3>What is a Combining Character?</h3>
+  <p>The ꙰ symbol (U+A670) is a <strong>combining mark</strong>. This means it attaches to the character that comes before it. For example, typing the letter <code>А</code> followed by <code>꙰</code> will display: А꙰</p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;&#42608;&lt;/span&gt;
+  <h3>Typing on Windows</h3>
+  <p>There’s no standard Alt code. To type it:</p>
+  <ul>
+    <li><strong>Copy and paste:</strong> ꙰</li>
+    <li>Or in Word: Type <strong>A670</strong> and press <strong>Alt + X</strong></li>
+  </ul>
 
-&lt;!-- HEX code --&gt;
-&lt;span&gt;&#xA670;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on Mac</h3>
+  <p>Use the Character Viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong>,</li>
+    <li>Search for “Cyrillic” or use the Unicode hex input to type A670,</li>
+    <li>It may display as a combining mark after a base character.</li>
+  </ol>
 
-<p>It may combine visually with the preceding character depending on your font and rendering engine.</p>
+  <h3>How to Use ꙰ in HTML</h3>
+  <p>Embed the combining character with the appropriate code:</p>
 
-<h2>How to Use ꙰ in CSS</h2>
-<p>You can apply it in CSS with the <code>content</code> property:</p>
+  <pre><code>&lt;!-- Decimal --&gt;
+&lt;span&gt;&#42608;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.cyrillicCombine::after {
-  content: '\\A670';
-}
+  <pre><code>&lt;!-- Hexadecimal --&gt;
+&lt;span&gt;&#xA670;&lt;/span&gt;</code></pre>
 
-/* HTML */
-&lt;div class="cyrillicCombine"&gt;Combines Here&lt;/div&gt;
-</code></pre>
+  <p><strong>Example (combined with А):</strong> <code>&amp;#1040;&amp;#42608;</code> → А꙰</p>
 
-<p>Output may vary depending on system support.</p>
-</section>`,
+  <h3>How to Use ꙰ in CSS</h3>
+  <p>Use it as part of a content string with a base character:</p>
+
+  <pre><code>/* CSS */
+.cyrillic-num::after {
+  content: 'А\uA670'; /* Renders А꙰ */
+}</code></pre>
+
+  <pre><code>/* HTML */
+&lt;span class="cyrillic-num"&gt;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Output: <strong>А꙰</strong></p>
+
+  <h3>What Is the ꙰ Symbol?</h3>
+  <p>The <strong>꙰ Combining Cyrillic Ten Millions Sign</strong> is a rare historical Unicode character used in ancient <strong>Cyrillic numeral systems</strong>. It represents large numeric values and is combined with base letters to form compound numbers.</p>
+
+  <h3>Where Is It Used?</h3>
+  <p>This symbol was used in <strong>Old Church Slavonic</strong> texts and <strong>medieval Eastern European manuscripts</strong>. It appears in academic or religious contexts where historical Cyrillic numeral systems are preserved or studied.</p>
+</section>
+`,
   },
 
   {
@@ -3212,35 +4186,67 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>About ۞ Rub El Hizb Symbol</h2>
-<p>The ۞ symbol (U+06DE), known as "Rub El Hizb," is used in Arabic calligraphy and religious texts such as the Quran. It marks the end of a quarter of a Hizb, which is a portion of the holy text, aiding recitation and memorization.</p>
+  <h2>How to Type ۞ (Rub El Hizb) Symbol</h2>
 
-<h2>How to Add ۞ in HTML</h2>
-<p>Use the following codes to display this symbol in your HTML content:</p>
+  <h3>What is the ۞ Symbol?</h3>
+  <p>The symbol <strong>۞</strong> (U+06DE), known as the <strong>Rub El Hizb</strong>, is an Arabic mark used in <strong>Quranic texts</strong> to denote the end of a Hizb (a section of the Quran). It consists of two overlapping squares (like an eight-pointed star) and is also used in Islamic calligraphy and art.</p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;&#1758;&lt;/span&gt;
+  <h3>Typing on Windows</h3>
+  <p>You can type or use this symbol as follows:</p>
+  <ul>
+    <li><strong>Copy and paste:</strong> ۞</li>
+    <li><strong>Word or apps supporting Unicode:</strong> Type <strong>06DE</strong>, then press <strong>Alt + X</strong></li>
+  </ul>
 
-&lt;!-- Hex code --&gt;
-&lt;span&gt;&#x06DE;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on Mac</h3>
+  <p>Use the Character Viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong></li>
+    <li>Search for “Rub El Hizb” or browse Unicode U+06DE</li>
+  </ol>
 
-<p>These will render as: <strong>۞</strong></p>
+  <h3>How to Use ۞ in HTML</h3>
+  <p>You can add the Rub El Hizb symbol using HTML codes:</p>
 
-<h2>How to Add ۞ in CSS</h2>
-<p>Use the <code>content</code> property in CSS to display the symbol:</p>
+  <pre><code>&lt;!-- Decimal code --&gt;
+&lt;span&gt;&#1758;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.quranMarker::before {
-  content: '\\06DE';
-}
+  <pre><code>&lt;!-- Hexadecimal code --&gt;
+&lt;span&gt;&#x06DE;&lt;/span&gt;</code></pre>
 
-/* HTML */
-&lt;div class="quranMarker"&gt;Start of Section&lt;/div&gt;
-</code></pre>
+  <p>Output: <strong>&#1758;</strong> → ۞</p>
 
-<p>This will render: <strong>۞ Start of Section</strong></p>
-</section>`,
+  <h3>How to Use ۞ in CSS</h3>
+  <p>Use the Unicode escape sequence in CSS:</p>
+
+  <pre><code>/* CSS */
+.quran-marker::after {
+  content: "\\06DE";
+}</code></pre>
+
+  <pre><code>/* HTML */
+&lt;span class="quran-marker"&gt;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Result: <strong><span style="font-family: serif;">۞</span></strong></p>
+
+  <h3>Where is the Rub El Hizb Used?</h3>
+  <p>The ۞ symbol appears in:</p>
+  <ul>
+    <li><strong>Quranic manuscripts</strong> to divide sections of recitation</li>
+    <li><strong>Islamic calligraphy</strong> and geometric art</li>
+    <li><strong>Flags and emblems</strong> in some Muslim countries</li>
+  </ul>
+
+  <h3>Unicode Details</h3>
+  <ul>
+    <li><strong>Unicode:</strong> U+06DE</li>
+    <li><strong>HTML Code:</strong> <code>&amp;#1758;</code></li>
+    <li><strong>CSS Code:</strong> <code>"\\06DE"</code></li>
+  </ul>
+
+  <p>You can copy and paste the Rub El Hizb symbol directly: <strong>۞</strong></p>
+</section>
+`,
   },
 
   {
@@ -3267,35 +4273,66 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>About ⍟ Apl Functional Symbol Circle Star</h2>
-<p>The ⍟ symbol (U+235F) is used in the APL programming language and in mathematical contexts to represent specific functions or operators.</p>
+  <h2>How to Type ⍟ (APL Functional Symbol Circle Star)</h2>
 
-<h2>How to Add ⍟ in HTML</h2>
-<p>Use these codes to include the symbol in your web content:</p>
+  <h3>What is the ⍟ Symbol?</h3>
+  <p>The symbol <strong>⍟</strong> (U+235F), known as the <strong>APL Functional Symbol Circle Star</strong>, is part of the APL (A Programming Language) character set. In APL, it represents the <strong>natural logarithm</strong> function. It resembles a five-pointed star within a circle and is also of interest in mathematical and symbolic notation.</p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;&#9055;&lt;/span&gt;
+  <h3>Typing on Windows</h3>
+  <ul>
+    <li><strong>Copy and paste:</strong> ⍟</li>
+    <li><strong>In Microsoft Word:</strong> Type <code>235F</code>, then press <strong>Alt + X</strong></li>
+  </ul>
 
-&lt;!-- Hex code --&gt;
-&lt;span&gt;&#x235F;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on Mac</h3>
+  <p>Use the macOS Character Viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong></li>
+    <li>Search for “APL circle star” or browse Unicode U+235F</li>
+  </ol>
 
-<p>These render as: <strong>⍟</strong></p>
+  <h3>How to Use ⍟ in HTML</h3>
+  <p>You can display the Circle Star symbol on a webpage using the following codes:</p>
 
-<h2>How to Add ⍟ in CSS</h2>
-<p>Use the <code>content</code> property in CSS:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;&#9055;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.aplCircleStar::before {
-  content: '\\235F';
-}
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;&#x235F;&lt;/span&gt;</code></pre>
 
-/* HTML */
-&lt;div class="aplCircleStar"&gt;APL Symbol&lt;/div&gt;
-</code></pre>
+  <p>Result: <strong>&#9055;</strong> → ⍟</p>
 
-<p>This will display: <strong>APL Symbol ⍟</strong></p>
-</section>`,
+  <h3>How to Use ⍟ in CSS</h3>
+  <p>Use the Unicode escape sequence in CSS:</p>
+
+  <pre><code>/* CSS */
+.apl-symbol::before {
+  content: "\\235F";
+}</code></pre>
+
+  <pre><code>/* HTML */
+&lt;span class="apl-symbol"&gt;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Example: <strong><span style="font-family: serif;">⍟</span></strong></p>
+
+  <h3>Where is ⍟ Used?</h3>
+  <p>The ⍟ symbol is commonly used in:</p>
+  <ul>
+    <li><strong>APL programming language</strong> to denote natural logarithm</li>
+    <li><strong>Mathematical notation</strong> and advanced symbolic logic</li>
+    <li><strong>Decorative or typographic use</strong> in modern contexts due to its star-in-circle appearance</li>
+  </ul>
+
+  <h3>Unicode and Encoding</h3>
+  <ul>
+    <li><strong>Unicode:</strong> U+235F</li>
+    <li><strong>HTML Code:</strong> <code>&amp;#9055;</code></li>
+    <li><strong>CSS Code:</strong> <code>"\\235F"</code></li>
+  </ul>
+
+  <p>You can copy and paste the Circle Star symbol here: <strong>⍟</strong></p>
+</section>
+`,
   },
 
   {
@@ -3322,35 +4359,67 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>Typing ⭐ White Medium Star</h2>
-<p>The ⭐ symbol is commonly used for ratings, highlights, and decorative purposes.</p>
+  <h2>How to Type ⭐ (White Medium Star)</h2>
 
-<h2>How to Add ⭐ in HTML</h2>
-<p>Use the following HTML codes:</p>
+  <h3>What is the ⭐ Symbol?</h3>
+  <p>The <strong>⭐ White Medium Star</strong> (Unicode <strong>U+2B50</strong>) is a widely recognized symbol often used for <strong>ratings, emphasis, favorites, and decoration</strong>. Though it’s named “white,” it usually appears as a filled yellow or gold star in most modern fonts and platforms, especially as an <strong>emoji</strong>.</p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;&#11088;&lt;/span&gt;
+  <h3>Typing on Windows</h3>
+  <ul>
+    <li><strong>Copy and paste:</strong> ⭐</li>
+    <li><strong>In Microsoft Word:</strong> Type <code>2B50</code>, then press <strong>Alt + X</strong></li>
+    <li><strong>Emoji Panel:</strong> Press <strong>Windows + .</strong> and search “star”</li>
+  </ul>
 
-&lt;!-- Hex code --&gt;
-&lt;span&gt;&#x2B50;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on Mac</h3>
+  <p>Use the Emoji & Symbols viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong></li>
+    <li>Search for “star” or find it in the emoji section</li>
+  </ol>
 
-<p>This renders as: <strong>⭐</strong></p>
+  <h3>How to Use ⭐ in HTML</h3>
+  <p>You can insert the White Medium Star in web pages using:</p>
 
-<h2>How to Add ⭐ in CSS</h2>
-<p>Use CSS content property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;&#11088;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.whiteMediumStar::after {
-  content: '\\2B50';
-}
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;&#x2B50;&lt;/span&gt;</code></pre>
 
-/* HTML */
-&lt;div class="whiteMediumStar"&gt;Star Rating&lt;/div&gt;
-</code></pre>
+  <p>Result: <strong>&#11088;</strong> → ⭐</p>
 
-<p>This will display: <strong>Star Rating⭐</strong></p>
-</section>`,
+  <h3>How to Use ⭐ in CSS</h3>
+  <p>Use the Unicode code point in your stylesheet:</p>
+
+  <pre><code>/* CSS */
+.star::before {
+  content: "\\2B50";
+}</code></pre>
+
+  <pre><code>/* HTML */
+&lt;span class="star"&gt;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Example: <strong style="font-size: 1.5em;">⭐</strong></p>
+
+  <h3>Common Uses of ⭐</h3>
+  <ul>
+    <li><strong>Star ratings</strong> for reviews and feedback</li>
+    <li><strong>Highlighting or emphasizing</strong> special content</li>
+    <li><strong>Emoji reactions</strong> or visual symbols in messaging apps</li>
+    <li><strong>Decoration</strong> in titles, headings, or holiday content</li>
+  </ul>
+
+  <h3>Unicode and Encoding Info</h3>
+  <ul>
+    <li><strong>Unicode:</strong> U+2B50</li>
+    <li><strong>HTML Code:</strong> <code>&amp;#11088;</code></li>
+    <li><strong>CSS Code:</strong> <code>"\\2B50"</code></li>
+  </ul>
+
+  <p>Copy this star: <strong>⭐</strong></p>
+</section>
+`,
   },
 
   {
@@ -3376,35 +4445,66 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>About 🌠 Shooting Star Emoji</h2>
-<p>The 🌠 symbol (U+1F320) represents a shooting star or comet, often used to convey wishes, magic, or nighttime scenes.</p>
+  <h2>How to Type 🌠 (Shooting Star)</h2>
 
-<h2>How to Add 🌠 in HTML</h2>
-<p>Use the following HTML codes:</p>
+  <h3>What is the 🌠 Symbol?</h3>
+  <p>The <strong>🌠 Shooting Star</strong> emoji (Unicode <strong>U+1F320</strong>) represents a <strong>star streaking across the sky</strong>. It is commonly used to convey <strong>wishes, dreams, nighttime, magic, and wonder</strong>. In various cultures, a shooting star symbolizes hope or a moment to make a wish.</p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;&#127776;&lt;/span&gt;
+  <h3>Typing on Windows</h3>
+  <ul>
+    <li><strong>Copy and paste:</strong> 🌠</li>
+    <li><strong>Emoji Panel:</strong> Press <strong>Windows + .</strong> and search “shooting star”</li>
+  </ul>
 
-&lt;!-- Hex code --&gt;
-&lt;span&gt;&#x1F320;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on Mac</h3>
+  <p>Use the Emoji & Symbols viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong></li>
+    <li>Search for “shooting star” in the emoji panel</li>
+  </ol>
 
-<p>This renders as: <strong>🌠</strong></p>
+  <h3>How to Use 🌠 in HTML</h3>
+  <p>Insert the Shooting Star emoji using these HTML codes:</p>
 
-<h2>How to Add 🌠 in CSS</h2>
-<p>Use CSS content property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;&#127776;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.shootingStar::before {
-  content: '\\01F320';
-}
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;&#x1F320;&lt;/span&gt;</code></pre>
 
-/* HTML */
-&lt;div class="shootingStar"&gt;Make a Wish&lt;/div&gt;
-</code></pre>
+  <p>Result: <strong>&#127776;</strong> → 🌠</p>
 
-<p>This will display: <strong>Make a Wish 🌠</strong></p>
-</section>`,
+  <h3>How to Use 🌠 in CSS</h3>
+  <p>Include the Unicode in CSS content strings:</p>
+
+  <pre><code>/* CSS */
+.shooting-star::before {
+  content: "\\01F320";
+}</code></pre>
+
+  <pre><code>/* HTML */
+&lt;span class="shooting-star"&gt;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Example: <strong style="font-size: 1.5em;">🌠</strong></p>
+
+  <h3>Common Uses of 🌠</h3>
+  <ul>
+    <li><strong>Wishing</strong> or expressing dreams</li>
+    <li><strong>Night scenes</strong> or space themes</li>
+    <li><strong>Magical or whimsical content</strong></li>
+    <li><strong>Decorative emoji</strong> in messages, posts, or graphics</li>
+  </ul>
+
+  <h3>Unicode and Encoding Info</h3>
+  <ul>
+    <li><strong>Unicode:</strong> U+1F320</li>
+    <li><strong>HTML Code:</strong> <code>&amp;#127776;</code></li>
+    <li><strong>CSS Code:</strong> <code>"\\01F320"</code></li>
+  </ul>
+
+  <p>Copy this emoji: <strong>🌠</strong></p>
+</section>
+`,
   },
 
   {
@@ -3431,35 +4531,66 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>About 🌟 Glowing Star Emoji</h2>
-<p>The 🌟 symbol (U+1F31F) is used to depict a glowing or sparkling star, commonly representing magic, brightness, or excitement.</p>
+  <h2>How to Type 🌟 (Glowing Star)</h2>
 
-<h2>How to Add 🌟 in HTML</h2>
-<p>Use these HTML codes to display the symbol:</p>
+  <h3>What is the 🌟 Symbol?</h3>
+  <p>The <strong>🌟 Glowing Star</strong> emoji (Unicode <strong>U+1F31F</strong>) represents a <strong>bright, sparkling star</strong>. It conveys feelings of <strong>magic, positivity, sparkle, and admiration</strong>. It’s widely used in social media, messages, and design to add flair or a sense of brilliance.</p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;&#127775;&lt;/span&gt;
+  <h3>Typing on Windows</h3>
+  <ul>
+    <li><strong>Copy and paste:</strong> 🌟</li>
+    <li><strong>Emoji Panel:</strong> Press <strong>Windows + .</strong> and type “glowing star”</li>
+  </ul>
 
-&lt;!-- Hex code --&gt;
-&lt;span&gt;&#x1F31F;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on Mac</h3>
+  <p>Use the Emoji & Symbols viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong></li>
+    <li>Search for “glowing star”</li>
+  </ol>
 
-<p>This renders as: <strong>🌟</strong></p>
+  <h3>How to Use 🌟 in HTML</h3>
+  <p>You can insert the Glowing Star emoji using these HTML codes:</p>
 
-<h2>How to Add 🌟 in CSS</h2>
-<p>Use the CSS <code>content</code> property like this:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;&#127775;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.glowingStar::after {
-  content: '\\01F31F';
-}
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;&#x1F31F;&lt;/span&gt;</code></pre>
 
-/* HTML */
-&lt;div class="glowingStar"&gt;Shining Bright&lt;/div&gt;
-</code></pre>
+  <p>Rendered Result: <strong>&#127775;</strong> → 🌟</p>
 
-<p>This will display: <strong>Shining Bright 🌟</strong></p>
-</section>`,
+  <h3>How to Use 🌟 in CSS</h3>
+  <p>To add the emoji via CSS content:</p>
+
+  <pre><code>/* CSS */
+.glowing-star::before {
+  content: "\\01F31F";
+}</code></pre>
+
+  <pre><code>/* HTML */
+&lt;span class="glowing-star"&gt;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Example: <strong style="font-size: 1.5em;">🌟</strong></p>
+
+  <h3>Common Uses of 🌟</h3>
+  <ul>
+    <li><strong>Highlighting special content</strong></li>
+    <li><strong>Magical or celebratory themes</strong></li>
+    <li><strong>Expressing admiration or brilliance</strong></li>
+    <li><strong>Adding sparkle in text or graphics</strong></li>
+  </ul>
+
+  <h3>Unicode and Encoding Info</h3>
+  <ul>
+    <li><strong>Unicode:</strong> U+1F31F</li>
+    <li><strong>HTML Code:</strong> <code>&amp;#127775;</code></li>
+    <li><strong>CSS Code:</strong> <code>"\\01F31F"</code></li>
+  </ul>
+
+  <p>Copy this emoji: <strong>🌟</strong></p>
+</section>
+`,
   },
 
   {
@@ -3486,35 +4617,65 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>About 💫 Dizzy Symbol Emoji</h2>
-<p>The 💫 symbol (U+1F4AB) is often used to represent dizziness, swirling motion, or magical sparkles.</p>
+  <h2>How to Type 💫 (Dizzy Symbol)</h2>
 
-<h2>How to Add 💫 in HTML</h2>
-<p>Use the following HTML codes:</p>
+  <h3>What is the 💫 Symbol?</h3>
+  <p>The <strong>💫 Dizzy Symbol</strong> emoji (Unicode <strong>U+1F4AB</strong>) depicts a swirling or shooting star, often used to represent <strong>dizziness, motion, magical effects</strong>, or whimsical sparkle. It's commonly used in comics and social media to show someone feeling lightheaded, or to add a magical flair.</p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;&#128171;&lt;/span&gt;
+  <h3>Typing on Windows</h3>
+  <ul>
+    <li><strong>Copy and paste:</strong> 💫</li>
+    <li><strong>Emoji Panel:</strong> Press <strong>Windows + .</strong> and search “dizzy”</li>
+  </ul>
 
-&lt;!-- Hex code --&gt;
-&lt;span&gt;&#x1F4AB;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on Mac</h3>
+  <p>Use the Emoji & Symbols viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong></li>
+    <li>Search for “dizzy”</li>
+  </ol>
 
-<p>This renders as: <strong>💫</strong></p>
+  <h3>How to Use 💫 in HTML</h3>
+  <p>Use the following HTML code to display the Dizzy Symbol emoji:</p>
 
-<h2>How to Add 💫 in CSS</h2>
-<p>Use the CSS content property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;&#128171;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.dizzySymbol::before {
-  content: '\\01F4AB';
-}
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;&#x1F4AB;&lt;/span&gt;</code></pre>
 
-/* HTML */
-&lt;div class="dizzySymbol"&gt;Feeling Dizzy&lt;/div&gt;
-</code></pre>
+  <p>Rendered Result: <strong>&#128171;</strong> → 💫</p>
 
-<p>This will display: <strong>Feeling Dizzy 💫</strong></p>
-</section>`,
+  <h3>How to Use 💫 in CSS</h3>
+  <p>You can include this emoji in your web design using the CSS <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.dizzy-symbol::before {
+  content: "\\01F4AB";
+}</code></pre>
+
+  <pre><code>/* HTML */
+&lt;span class="dizzy-symbol"&gt;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Example: <strong style="font-size: 1.5em;">💫</strong></p>
+
+  <h3>Common Uses of 💫</h3>
+  <ul>
+    <li><strong>Showing dizziness or fainting</strong> (e.g., after spinning or surprise)</li>
+    <li><strong>Indicating magic or sparkle</strong></li>
+    <li><strong>Adding visual flair to messages or posts</strong></li>
+  </ul>
+
+  <h3>Unicode and Encoding Info</h3>
+  <ul>
+    <li><strong>Unicode:</strong> U+1F4AB</li>
+    <li><strong>HTML Code:</strong> <code>&amp;#128171;</code></li>
+    <li><strong>CSS Code:</strong> <code>"\\01F4AB"</code></li>
+  </ul>
+
+  <p>Copy this emoji: <strong>💫</strong></p>
+</section>
+`,
   },
 
   {
@@ -3540,35 +4701,65 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>About ✨ Sparkles Emoji</h2>
-<p>The ✨ symbol (U+2728) is used to represent sparkle, glitter, magic, or shine effects.</p>
+  <h2>How to Type ✨ (Sparkles Emoji)</h2>
 
-<h2>How to Add ✨ in HTML</h2>
-<p>Use these HTML codes to display the symbol:</p>
+  <h3>What is the ✨ Symbol?</h3>
+  <p>The <strong>✨ Sparkles</strong> emoji (Unicode <strong>U+2728</strong>) is a popular emoji representing <strong>magic, shine, glitter, joy, or excitement</strong>. It features multiple twinkling stars and is often used to highlight something as beautiful, positive, or magical in tone.</p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;&#10024;&lt;/span&gt;
+  <h3>Typing on Windows</h3>
+  <ul>
+    <li><strong>Copy and paste:</strong> ✨</li>
+    <li><strong>Emoji Panel:</strong> Press <strong>Windows + .</strong> and search “sparkles”</li>
+  </ul>
 
-&lt;!-- Hex code --&gt;
-&lt;span&gt;&#x2728;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on Mac</h3>
+  <p>Use the Emoji & Symbols viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong></li>
+    <li>Search for “sparkles”</li>
+  </ol>
 
-<p>This renders as: <strong>✨</strong></p>
+  <h3>How to Use ✨ in HTML</h3>
+  <p>To include the Sparkles emoji in your webpage, use one of the following HTML codes:</p>
 
-<h2>How to Add ✨ in CSS</h2>
-<p>Use the CSS <code>content</code> property like this:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;&#10024;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.sparkles::after {
-  content: '\\2728';
-}
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;&#x2728;&lt;/span&gt;</code></pre>
 
-/* HTML */
-&lt;div class="sparkles"&gt;Magical Effect&lt;/div&gt;
-</code></pre>
+  <p>Rendered Result: <strong>&#10024;</strong> → ✨</p>
 
-<p>This will display: <strong>Magical Effect ✨</strong></p>
-</section>`,
+  <h3>How to Use ✨ in CSS</h3>
+  <p>Use the <code>content</code> property to include this emoji in a CSS pseudo-element:</p>
+
+  <pre><code>/* CSS */
+.sparkles::before {
+  content: "\\2728";
+}</code></pre>
+
+  <pre><code>/* HTML */
+&lt;span class="sparkles"&gt;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Example: <strong style="font-size: 1.5em;">✨</strong></p>
+
+  <h3>Common Uses of ✨</h3>
+  <ul>
+    <li><strong>To express magic or wonder</strong> (e.g., “✨ Magical moment ✨”)</li>
+    <li><strong>To add decorative emphasis</strong> to a compliment or celebration</li>
+    <li><strong>In social media captions</strong> to make text stand out</li>
+  </ul>
+
+  <h3>Unicode and Encoding Info</h3>
+  <ul>
+    <li><strong>Unicode:</strong> U+2728</li>
+    <li><strong>HTML Code:</strong> <code>&amp;#10024;</code></li>
+    <li><strong>CSS Code:</strong> <code>"\\2728"</code></li>
+  </ul>
+
+  <p>Copy this emoji: <strong>✨</strong></p>
+</section>
+`,
   },
 
   {
@@ -3595,35 +4786,65 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>About 🌃 Night With Stars Emoji</h2>
-<p>The 🌃 symbol (U+1F303) depicts a night scene in a city with stars in the sky.</p>
+  <h2>How to Type 🌃 (Night With Stars Emoji)</h2>
 
-<h2>How to Add 🌃 in HTML</h2>
-<p>Use the following HTML codes:</p>
+  <h3>What is the 🌃 Symbol?</h3>
+  <p>The <strong>🌃 Night With Stars</strong> emoji (Unicode <strong>U+1F303</strong>) depicts a nighttime cityscape with stars twinkling in the sky. It’s commonly used to represent a peaceful evening, nighttime beauty, or city nightlife.</p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;&#127747;&lt;/span&gt;
+  <h3>Typing on Windows</h3>
+  <ul>
+    <li><strong>Copy and paste:</strong> 🌃</li>
+    <li><strong>Emoji Panel:</strong> Press <strong>Windows + .</strong> and search for “night” or “stars”</li>
+  </ul>
 
-&lt;!-- Hex code --&gt;
-&lt;span&gt;&#x1F303;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on Mac</h3>
+  <p>Use the Emoji & Symbols viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong></li>
+    <li>Search “night” or “city”</li>
+  </ol>
 
-<p>This renders as: <strong>🌃</strong></p>
+  <h3>How to Use 🌃 in HTML</h3>
+  <p>Use one of the following codes to display this emoji on a webpage:</p>
 
-<h2>How to Add 🌃 in CSS</h2>
-<p>Use the CSS content property:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;&#127747;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.nightWithStars::before {
-  content: '\\01F303';
-}
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;&#x1F303;&lt;/span&gt;</code></pre>
 
-/* HTML */
-&lt;div class="nightWithStars"&gt;City Night&lt;/div&gt;
-</code></pre>
+  <p>Rendered Result: <strong>&#127747;</strong> → 🌃</p>
 
-<p>This will display: <strong>City Night 🌃</strong></p>
-</section>`,
+  <h3>How to Use 🌃 in CSS</h3>
+  <p>Add this emoji to content using the <code>content</code> property in CSS:</p>
+
+  <pre><code>/* CSS */
+.night-stars::before {
+  content: "\\01F303";
+}</code></pre>
+
+  <pre><code>/* HTML */
+&lt;span class="night-stars"&gt;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Example: <strong style="font-size: 1.5em;">🌃</strong></p>
+
+  <h3>Common Uses of 🌃</h3>
+  <ul>
+    <li><strong>To represent nighttime or evening vibes</strong></li>
+    <li><strong>To illustrate cityscapes or urban life at night</strong></li>
+    <li><strong>To accompany posts about stargazing, peace, or bedtime</strong></li>
+  </ul>
+
+  <h3>Unicode and Encoding Info</h3>
+  <ul>
+    <li><strong>Unicode:</strong> U+1F303</li>
+    <li><strong>HTML Code:</strong> <code>&amp;#127747;</code></li>
+    <li><strong>CSS Code:</strong> <code>"\\01F303"</code></li>
+  </ul>
+
+  <p>Copy this emoji: <strong>🌃</strong></p>
+</section>
+`,
   },
 
   {
@@ -3650,35 +4871,65 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-<h2>About 🔯 Six Pointed Star With Middle Dot Emoji</h2>
-<p>The 🔯 symbol (U+1F52F) shows a six-pointed star with a middle dot, often used for decorative or symbolic purposes.</p>
+  <h2>How to Type 🔯 (Six Pointed Star With Middle Dot Emoji)</h2>
 
-<h2>How to Add 🔯 in HTML</h2>
-<p>Use the following HTML codes:</p>
+  <h3>What is the 🔯 Symbol?</h3>
+  <p>The <strong>🔯 Six Pointed Star With Middle Dot</strong> emoji (Unicode <strong>U+1F52F</strong>) displays a six-pointed star with a central dot. It is commonly used in astrology, spirituality, or to symbolize magic, energy, or mysticism.</p>
 
-<pre><code>&lt;!-- Decimal code --&gt;
-&lt;span&gt;&#128303;&lt;/span&gt;
+  <h3>Typing on Windows</h3>
+  <ul>
+    <li><strong>Copy and paste:</strong> 🔯</li>
+    <li><strong>Emoji Panel:</strong> Press <strong>Windows + .</strong> and search “star” or “six”</li>
+  </ul>
 
-&lt;!-- Hex code --&gt;
-&lt;span&gt;&#x1F52F;&lt;/span&gt;
-</code></pre>
+  <h3>Typing on Mac</h3>
+  <p>Use the Emoji & Symbols viewer:</p>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong></li>
+    <li>Search for “six pointed star”</li>
+  </ol>
 
-<p>This renders as: <strong>🔯</strong></p>
+  <h3>How to Use 🔯 in HTML</h3>
+  <p>Add the Six Pointed Star With Middle Dot emoji to your HTML page using:</p>
 
-<h2>How to Add 🔯 in CSS</h2>
-<p>Use the CSS content property like this:</p>
+  <pre><code>&lt;!-- Decimal HTML code --&gt;
+&lt;span&gt;&#128303;&lt;/span&gt;</code></pre>
 
-<pre><code>/* CSS */
-.sixPointedStarWithMiddleDot::before {
-  content: '\\01F52F';
-}
+  <pre><code>&lt;!-- Hexadecimal HTML code --&gt;
+&lt;span&gt;&#x1F52F;&lt;/span&gt;</code></pre>
 
-/* HTML */
-&lt;div class="sixPointedStarWithMiddleDot"&gt;Star Symbol&lt;/div&gt;
-</code></pre>
+  <p>Rendered Result: <strong>&#128303;</strong> → 🔯</p>
 
-<p>This will display: <strong>Star Symbol 🔯</strong></p>
-</section>`,
+  <h3>How to Use 🔯 in CSS</h3>
+  <p>You can use this emoji in CSS with the <code>content</code> property:</p>
+
+  <pre><code>/* CSS */
+.six-pointed-star::before {
+  content: "\\01F52F";
+}</code></pre>
+
+  <pre><code>/* HTML */
+&lt;span class="six-pointed-star"&gt;&lt;/span&gt;</code></pre>
+
+  <p>Rendered Example: <strong style="font-size: 1.5em;">🔯</strong></p>
+
+  <h3>Common Uses of 🔯</h3>
+  <ul>
+    <li><strong>In mystic or magical themes</strong></li>
+    <li><strong>To symbolize esoteric or astrological ideas</strong></li>
+    <li><strong>In messages about energy, rituals, or spirituality</strong></li>
+  </ul>
+
+  <h3>Unicode and Encoding Info</h3>
+  <ul>
+    <li><strong>Unicode:</strong> U+1F52F</li>
+    <li><strong>HTML Code:</strong> <code>&amp;#128303;</code></li>
+    <li><strong>CSS Code:</strong> <code>"\\01F52F"</code></li>
+  </ul>
+
+  <p>Copy this emoji: <strong>🔯</strong></p>
+</section>
+`,
   },
 ]
 

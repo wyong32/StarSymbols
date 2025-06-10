@@ -23,15 +23,17 @@
           with beautiful Unicode star symbols! ✨
         </p>
 
-        <StarSymbolsGrid :show-toast="showToastMessage" />
+        <div class="symbols-container">
+          <StarSymbolsGrid :show-toast="showToastMessage" />
 
-        <div class="hero-cta">
-          <p class="cta-text">
-            Want to explore more star symbols?
-            <router-link to="/all-star-symbols" class="cta-link">
-              Browse our complete collection →
-            </router-link>
-          </p>
+          <div class="hero-cta">
+            <p class="cta-text">
+              Want to explore more star symbols?
+              <router-link to="/all-star-symbols" class="cta-link">
+                Browse our complete collection →
+              </router-link>
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -48,15 +50,17 @@
           </p>
         </div>
 
-        <TextGenerator :show-toast="showToastMessage" />
+        <div class="generator-card-container">
+          <TextGenerator :show-toast="showToastMessage" />
 
-        <div class="section-cta">
-          <p class="cta-text">
-            Need more advanced text styling options?
-            <router-link to="/text-symbol-generator" class="cta-link">
-              Try our full-featured generator →
-            </router-link>
-          </p>
+          <div class="section-cta">
+            <p class="cta-text">
+              Need more advanced text styling options?
+              <router-link to="/text-symbol-generator" class="cta-link">
+                Try our full-featured generator →
+              </router-link>
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -309,6 +313,21 @@ const faqs = [
     answer:
       "We're always looking to expand Star Copy And Paste star symbols collection! While we focus on widely-supported Unicode star symbols, feel free to reach out with suggestions for new star symbols or categories.",
   },
+  {
+    question: 'How to use star symbols on Windows with Alt codes?',
+    answer:
+      'On Windows, you can type star symbols using Alt codes. Hold down the Alt key and type the numeric code on your number pad. For example, Alt + 9733 creates a black star (★). Make sure Num Lock is on and use the numeric keypad for this to work.',
+  },
+  {
+    question: 'How to use star symbols on Mac with Character Viewer?',
+    answer:
+      'On Mac, press Control + Command + Space (⌃+⌘+Space) to open the Character Viewer. Search for "star" to find various star symbols, then double-click any symbol to insert it into your text. You can also access it through Edit menu > Emoji & Symbols.',
+  },
+  {
+    question: 'How to find star symbols on iPhone and Android emoji keyboards?',
+    answer:
+      'On iPhone, open the emoji keyboard and search for "star" in the search bar, or look in the Symbols section. On Android, access the emoji/symbol keyboard and search for "star" or browse the Symbols category. Most star emojis like ⭐ and ✨ are readily available.',
+  },
 ]
 
 // Methods
@@ -412,11 +431,20 @@ onMounted(() => {
 /* Hero CTA Styles */
 .hero-cta {
   margin-top: 2rem;
-  padding: 1.5rem;
-  background: rgba(255, 255, 255, 1);
-  backdrop-filter: blur(10px);
+}
+
+.symbols-container {
+  background: white;
   border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.generator-card-container {
+  background: white;
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .cta-text {
@@ -513,13 +541,7 @@ onMounted(() => {
 /* Section CTA Styles */
 .section-cta {
   text-align: center;
-  margin-top: 2rem;
   padding: 1.5rem;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
-  border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* All Sections - Full Screen Height and Centered */
@@ -679,16 +701,18 @@ section {
 }
 
 .faq-question {
-  padding: 1.5rem 1.5rem 1rem 1.5rem;
-  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
   font-weight: 600;
+  line-height: 1.5;
   color: #333;
   border-bottom: 2px solid #f0f0f0;
   margin-bottom: 0.5rem;
 }
 
 .faq-answer {
-  padding: 0 1.5rem 1.5rem;
+  padding: 0 1rem 0.5rem;
+  font-size: 0.9rem;
   color: #666;
   line-height: 1.6;
 }
@@ -858,6 +882,10 @@ section {
     font-size: 2rem;
     flex-wrap: wrap;
     gap: 0.8rem;
+  }
+
+  .symbols-container {
+    padding: 1rem;
   }
 
   .section-header {

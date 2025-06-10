@@ -302,10 +302,6 @@ const insertStarIntoText = (star) => {
 }
 
 .generator-card {
-  background: white;
-  border-radius: 15px;
-  padding: 1rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
 }
 

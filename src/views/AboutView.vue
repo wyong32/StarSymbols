@@ -12,8 +12,8 @@
           <span class="hero-star" style="--delay: 0.3s">✨</span>
           <span class="hero-star" style="--delay: 0.6s">⭐</span>
           <span class="hero-star" style="--delay: 0.9s">💫</span>
-          <span class="hero-star" style="--delay: 1.2s">🎯</span>
-          <span class="hero-star" style="--delay: 1.5s">💡</span>
+          <span class="hero-star" style="--delay: 1.2s">✪</span>
+          <span class="hero-star" style="--delay: 1.5s">✿</span>
         </div>
         <p class="hero-description">
           We're passionate about making creativity accessible to everyone. StarCopy was created to

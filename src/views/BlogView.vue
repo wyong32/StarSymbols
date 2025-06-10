@@ -8,12 +8,12 @@
       <div class="hero-content">
         <h1 class="hero-title">Star Blog</h1>
         <div class="hero-stars">
-          <span class="hero-star" style="--delay: 0s">📝</span>
+          <span class="hero-star" style="--delay: 0s">✲</span>
           <span class="hero-star" style="--delay: 0.3s">⭐</span>
           <span class="hero-star" style="--delay: 0.6s">✨</span>
-          <span class="hero-star" style="--delay: 0.9s">💡</span>
+          <span class="hero-star" style="--delay: 0.9s">💫</span>
           <span class="hero-star" style="--delay: 1.2s">🌟</span>
-          <span class="hero-star" style="--delay: 1.5s">📚</span>
+          <span class="hero-star" style="--delay: 1.5s">❆</span>
         </div>
         <p class="hero-description">
           Discover the latest articles, tips, and insights about star symbols, creative design, and

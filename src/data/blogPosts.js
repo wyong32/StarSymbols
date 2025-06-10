@@ -4,7 +4,7 @@ export const blogPostsData = [
     pagename: 'ultimate-guide-star-symbols',
     image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=400&h=300&fit=crop',
     title: 'The Ultimate Guide to Star Symbols',
-    date: 'December 15, 2024',
+    date: 'June 10, 2025',
     excerpt:
       'Discover the fascinating world of Unicode star symbols and learn how to use them effectively in your creative projects.',
     category: 'Guide',
@@ -20,7 +20,7 @@ export const blogPostsData = [
       <article>
         <header>
           <h1>The Ultimate Guide to Star Symbols</h1>
-          <time datetime="2024-12-15">December 15, 2024</time>
+          <time datetime="2025-06-10">June 10, 2025</time>
         </header>
 
         <section>
@@ -98,7 +98,7 @@ export const blogPostsData = [
     pagename: 'creating-aesthetic-text-with-stars',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop',
     title: 'Creating Aesthetic Text with Stars',
-    date: 'December 12, 2024',
+    date: 'June 10, 2025',
     excerpt:
       'Master the art of decorating your text with beautiful star symbols for social media, documents, and digital content.',
     category: 'Tutorial',
@@ -114,7 +114,7 @@ export const blogPostsData = [
       <article>
         <header>
           <h1>Creating Aesthetic Text with Stars</h1>
-          <time datetime="2024-12-12">December 12, 2024</time>
+          <time datetime="2025-06-10">June 10, 2025</time>
         </header>
 
         <section>
@@ -200,7 +200,7 @@ export const blogPostsData = [
     pagename: 'star-symbols-social-media-success',
     image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop',
     title: 'Star Symbols for Social Media Success',
-    date: 'December 10, 2024',
+    date: 'June 10, 2025',
     excerpt:
       'Boost your social media engagement with strategic use of star symbols. Learn platform-specific tips and best practices.',
     category: 'Tips',
@@ -216,7 +216,7 @@ export const blogPostsData = [
       <article>
         <header>
           <h1>Star Symbols for Social Media Success</h1>
-          <time datetime="2024-12-10">December 10, 2024</time>
+          <time datetime="2025-06-10">June 10, 2025</time>
         </header>
 
         <section>

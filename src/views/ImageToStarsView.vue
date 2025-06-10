@@ -8,7 +8,7 @@
       <div class="hero-content">
         <h1 class="hero-title">Image To Text Converter​</h1>
         <div class="hero-stars">
-          <span class="hero-star" style="--delay: 0s">🖼️</span>
+          <span class="hero-star" style="--delay: 0s">⍟</span>
           <span class="hero-star" style="--delay: 0.3s">⭐</span>
           <span class="hero-star" style="--delay: 0.6s">✨</span>
           <span class="hero-star" style="--delay: 0.9s">🌟</span>
