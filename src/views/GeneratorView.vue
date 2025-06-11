@@ -26,7 +26,7 @@
     <section class="generator-section">
       <div class="section-container">
         <div class="generator-card-container">
-          <TextGenerator :show-toast="showToastMessage" />
+          <StarTextGenerator :show-toast="showToastMessage" />
         </div>
 
         <!-- Features Section -->
@@ -61,23 +61,18 @@
           <h2>Style Examples</h2>
           <div class="examples-grid">
             <div class="example-card">
-              <h4>Classic</h4>
               <div class="example-text">★ Hello World ★</div>
             </div>
             <div class="example-card">
-              <h4>Sparkle</h4>
               <div class="example-text">✨ Hello World ✨</div>
             </div>
             <div class="example-card">
-              <h4>Decorative</h4>
               <div class="example-text">✧･ﾟ: * Hello World *:･ﾟ✧</div>
             </div>
             <div class="example-card">
-              <h4>Elegant</h4>
               <div class="example-text">⋆｡‧˚ʚ Hello World ɞ˚‧｡⋆</div>
             </div>
             <div class="example-card">
-              <h4>Cosmic</h4>
               <div class="example-text">🌟 Hello World 🌟</div>
             </div>
           </div>
@@ -99,7 +94,7 @@
 import { ref, onMounted } from 'vue'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
-import TextGenerator from '@/components/TextGenerator.vue'
+import StarTextGenerator from '@/components/StarTextGenerator.vue'
 import { copyProtection } from '@/utils/copyProtection.js'
 
 // Reactive data
@@ -192,7 +187,7 @@ onMounted(() => {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
 }
 
@@ -246,12 +241,12 @@ onMounted(() => {
 .examples-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .example-card {
   text-align: center;
-  padding: 1.5rem;
+  padding: 0.5rem 1rem;
   background: white;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -270,7 +265,7 @@ onMounted(() => {
 }
 
 .example-text {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #333;
   font-weight: 500;
   word-break: break-all;

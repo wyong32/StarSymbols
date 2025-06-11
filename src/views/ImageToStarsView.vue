@@ -120,7 +120,7 @@
 
         <!-- Features Section -->
         <div class="features-section">
-          <h2>Converter Features</h2>
+          <h2>Features of the Image to Text Converter</h2>
           <div class="features-grid">
             <div class="feature-card">
               <div class="feature-icon">🖼️</div>
@@ -154,7 +154,7 @@
 
         <!-- How It Works Section -->
         <div class="how-it-works-section">
-          <h2>How It Works</h2>
+          <h2>How Image to Text Works</h2>
           <div class="steps-grid">
             <div class="step-card">
               <div class="step-number">1</div>

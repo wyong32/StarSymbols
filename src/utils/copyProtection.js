@@ -144,21 +144,6 @@ export class CopyProtection {
         position: relative;
       }
 
-      .copy-allowed:hover::after {
-        content: '📋 Copyable';
-        position: absolute;
-        top: -30px;
-        right: 0;
-        background: rgba(0, 0, 0, 0.8);
-        color: white;
-        padding: 4px 8px;
-        border-radius: 4px;
-        font-size: 12px;
-        white-space: nowrap;
-        z-index: 1000;
-        pointer-events: none;
-      }
-
       .copy-highlight {
         border: 2px dashed #4CAF50 !important;
         background: rgba(76, 175, 80, 0.1) !important;
