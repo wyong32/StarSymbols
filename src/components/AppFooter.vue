@@ -8,8 +8,7 @@
             <h3>StarSymbols</h3>
           </div>
           <p>
-            The ultimate destination for star symbols and aesthetic text generation. Make your
-            content sparkle with our extensive collection of Unicode stars.
+            Your one-stop toolkit for symbols, generators, and creative text art.
           </p>
           <div class="footer-copyright">© 2025 StarCopy. All rights reserved.</div>
         </div>
