@@ -43,15 +43,15 @@ const activeTab = ref('all')
 // Symbol data
 const symbolTabs = [
   { id: 'all', name: 'All Stars' },
-  { id: 'classic', name: 'Classic' },
-  { id: 'five-pointed', name: 'Five Pointed' },
-  { id: 'four-pointed', name: 'Four Pointed' },
-  { id: 'six-pointed', name: 'Six Pointed' },
-  { id: 'multi-pointed', name: 'Multi Pointed' },
-  { id: 'religious', name: 'Religious' },
-  { id: 'emoji', name: 'Emoji' },
-  { id: 'math', name: 'Math' },
-  { id: 'other', name: 'Other' },
+  { id: 'classic', name: 'Classic Star' },
+  { id: 'four-pointed', name: 'Four-Pointed Star' },
+  { id: 'five-pointed', name: 'Five-Pointed Star' },
+  { id: 'six-pointed', name: 'Six-Pointed Star' },
+  { id: 'multi-pointed', name: 'Multi-pointed Star' },
+  { id: 'religious', name: 'Religious Star' },
+  { id: 'emoji', name: 'Emoji Star' },
+  { id: 'math', name: 'Math symbols star' },
+  { id: 'other', name: 'Other stars' },
 ]
 
 // Computed properties
