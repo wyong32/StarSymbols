@@ -6,11 +6,11 @@ const routes = [
     name: 'home',
     component: () => import('../views/HomeView.vue'),
     meta: {
-      title: 'Star Copy And Paste - Free Star Symbols | starsymbols.io',
+      title: 'Star Copy and Paste—Free Star Symbols ☆✡✦✧✩ | starsymbols.io',
       description:
-        'Free star symbols collection! Copy and paste Unicode star symbols instantly. Star text generator and aesthetic text tools for social media. ★☆',
+        'Free star symbols collection ★☆⭒⭑⍟✡✦ Copy and paste Unicode star symbols instantly. Star Text Symbols Generator and Image to Star Text Art Converter.',
       keywords:
-        'star copy paste, star symbols, unicode stars, copy star symbols, star text generator, aesthetic text',
+        'Star copy and paste, star symbols, Unicode stars, star text generator, image to text art converter.',
     },
   },
   {
@@ -18,10 +18,11 @@ const routes = [
     name: 'all-star-symbols',
     component: () => import('../views/StarsView.vue'),
     meta: {
-      title: 'Star Symbols - Unicode Star Collection | starsymbols.io',
+      title: 'All Star Symbols ★ ✦ ✧- Unicode Star Collection | starsymbols.io',
       description:
-        'Browse complete star symbols collection. Classic stars, decorative stars, and Unicode characters. One-click copy to clipboard.',
-      keywords: 'star symbols, unicode stars, star characters, copy star symbols, star emoji',
+        'Browse the most complete star symbols collection. Classic stars, emoji stars, Unicode stars ★, ☆, ✦, ✧, ✪, ✶, ✨, and more. One-click copy and paste.',
+      keywords:
+        'star symbols, unicode stars, classic stars, emoji stars, pointed stars, star characters, Copy and paste',
     },
   },
   {
@@ -128,6 +129,16 @@ const routes = [
         'Learn about copyright and intellectual property rights related to StarCopy and Unicode symbols. Understand proper usage and attribution requirements.',
       keywords:
         'copyright information, intellectual property, unicode rights, symbol usage rights, attribution, legal information',
+    },
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: () => import('../views/Contact.vue'),
+    meta: {
+      title: '联系我们 - StarSymbols | starsymbols.io',
+      description: '欢迎通过邮件联系我们，分享您的创意和建议。',
+      keywords: '联系我们, 联系方式, 邮件联系, 创意投稿',
     },
   },
 ]

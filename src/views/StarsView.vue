@@ -102,66 +102,66 @@ const router = useRouter()
 const predefinedCategories = [
   {
     id: 1,
-    displayName: 'Classic Star',
+    displayName: 'Classic Star Symbols',
     description:
       'A set of classic Unicode star symbols from the Dingbats block, perfect for decoration, emphasis, and design use',
-    matchCategories: ['Classic'], // 匹配数据中的category字段
+    matchCategories: ['classic'], // 匹配数据中的category字段
   },
   {
     id: 2,
-    displayName: 'Four-Pointed Star',
+    displayName: 'Four-Pointed Star Symbols',
     description:
       'Stylized Unicode stars with four points, often used for sparkle effects, highlights, or decorative accents.',
-    matchCategories: ['Four-Pointed Star'],
+    matchCategories: ['four-pointed'],
   },
   {
     id: 3,
-    displayName: 'Five-Pointed Star',
+    displayName: 'Five-Pointed Star Symbols',
     description:
       'A pentagram or pentacle is a five-pointed star drawn with a single continuous line. Pentagrams mean different things to different people, but they’re closely associated with mysticism and religion.',
-    matchCategories: ['Five-Pointed Star'],
+    matchCategories: ['five-pointed'],
   },
   {
     id: 4,
-    displayName: 'Six-Pointed Star',
+    displayName: 'Six-Pointed Star Symbols',
     description:
       'A collection of star-like Unicode symbols including asterisks and stars with many points—ideal for emphasis, decoration, and symbolic use.',
-    matchCategories: ['Six-Pointed Star'],
+    matchCategories: ['six-pointed'],
   },
   {
     id: 5,
-    displayName: 'Multi-pointed Star',
+    displayName: 'Multi-pointed Star Symbols',
     description:
       'Colorful and expressive star emojis used to convey magic, sparkle, celebration, or nighttime scenes in digital communication.',
-    matchCategories: ['Multi-pointed Star'],
+    matchCategories: ['multi-pointed'],
   },
   {
     id: 6,
-    displayName: 'Religious Star',
+    displayName: 'Religious Star Symbols',
     description:
       'Mathematical star symbols and operators used in technical documentation and mathematical notation.',
-    matchCategories: ['Religious Star'],
+    matchCategories: ['religious'],
   },
   {
     id: 7,
-    displayName: 'Emoji Star',
+    displayName: 'Emoji Star Symbols',
     description:
       'Miscellaneous star-like symbols from various Unicode blocks and special character sets.',
-    matchCategories: ['Emoji Star'],
+    matchCategories: ['emoji'],
   },
   {
     id: 8,
     displayName: 'Math symbols star',
     description:
       'Miscellaneous star-like symbols from various Unicode blocks and special character sets.',
-    matchCategories: ['Math Symbols Star'],
+    matchCategories: ['math'],
   },
   {
     id: 9,
-    displayName: 'Other stars',
+    displayName: 'Other stars Symbols',
     description:
       'Miscellaneous star-like symbols from various Unicode blocks and special character sets.',
-    matchCategories: ['Other star'],
+    matchCategories: ['other'],
   },
 ]
 
@@ -179,7 +179,7 @@ const categories = computed(() => {
         // 支持 categories 数组格式
         const starCategories = Array.isArray(star.categories) ? star.categories : [star.categories]
         return starCategories.some((starCategory) =>
-          category.matchCategories.includes(starCategory),
+          category.matchCategories.includes(starCategory)
         )
       })
 

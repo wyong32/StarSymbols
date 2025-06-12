@@ -18,9 +18,9 @@
           <span class="hero-star" style="--delay: 2.1s">✮</span>
         </div>
         <p class="hero-description">
-          Star Copy And Paste offers the ultimate collection of star symbols, copy-paste tools, and
-          aesthetic text generators. Discover thousands of star symbols to make your content shine
-          with beautiful Unicode star symbols! ✨
+          StarSymbols: the ultimate collection of star symbols, all star symbol copy and paste, a
+          Star Text Symbols Generator, and an Image to Star Text Art Converter. Discover thousands
+          of star symbols to make your content shine with beautiful Unicode star symbols! ✨
         </p>
 
         <div class="symbols-container">
@@ -28,9 +28,9 @@
 
           <div class="hero-cta">
             <p class="cta-text">
-              Want to explore more star symbols?
+              Want to explore more star symbols? Click Here
               <router-link to="/all-star-symbols" class="cta-link">
-                Browse our complete collection →
+                All Star Symbols →
               </router-link>
             </p>
           </div>
@@ -55,9 +55,9 @@
 
           <div class="section-cta">
             <p class="cta-text">
-              Need more advanced text styling options?
+              Need more advanced text styling options? Click Here
               <router-link to="/text-symbol-generator" class="cta-link">
-                Try our full-featured generator →
+                Text Symbol Generator →
               </router-link>
             </p>
           </div>
@@ -284,15 +284,20 @@ const howToSteps = [
 // FAQ data
 const faqs = [
   {
+    question: 'How do I copy and paste a star?',
+    answer:
+      'It’s easy! Just visit starsymbols.io, click on the star symbol you like, and it will be copied to your clipboard automatically. Then you can paste it anywhere—documents, messages, social media, or emails.',
+  },
+  {
     question: 'Are Star Copy And Paste star symbols compatible with all devices?',
     answer:
       'Yes! Star Copy And Paste star symbols are Unicode characters that work across all modern devices, operating systems, and applications. Star symbols display consistently on Windows, Mac, iOS, Android, and web browsers.',
   },
-  {
-    question: 'Can I use Star Copy And Paste star symbols commercially?',
-    answer:
-      'Absolutely! Star Copy And Paste star symbols are standard Unicode symbols that are free to use for any purpose, including commercial projects, social media, websites, and printed materials.',
-  },
+  // {
+  //   question: 'Can I use Star Copy And Paste star symbols commercially?',
+  //   answer:
+  //     'Absolutely! Star Copy And Paste star symbols are standard Unicode symbols that are free to use for any purpose, including commercial projects, social media, websites, and printed materials.',
+  // },
   {
     question: 'Do Star Copy And Paste star symbols work on social media platforms?',
     answer:
@@ -371,8 +376,7 @@ onMounted(() => {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image:
-    radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+  background-image: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
     radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.3) 0%, transparent 50%);
   z-index: 1;

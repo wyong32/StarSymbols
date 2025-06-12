@@ -23,6 +23,7 @@
               <li><router-link to="/image-to-text">Image To Text</router-link></li>
               <li><router-link to="/blog">Blog</router-link></li>
               <li><router-link to="/about">About Us</router-link></li>
+              <li><router-link to="/contact">Contact</router-link></li>
             </ul>
           </div>
 

@@ -38,11 +38,11 @@ const props = defineProps({
 })
 
 // Reactive data
-const activeTab = ref('all')
+const activeTab = ref('classic')
 
 // Symbol data
 const symbolTabs = [
-  { id: 'all', name: 'All Stars' },
+  // { id: 'all', name: 'All Stars' },
   { id: 'classic', name: 'Classic Star' },
   { id: 'four-pointed', name: 'Four-Pointed Star' },
   { id: 'five-pointed', name: 'Five-Pointed Star' },
@@ -89,12 +89,12 @@ const copySymbol = async (symbol) => {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.5rem;
   margin-bottom: 2rem;
 }
 
 .tab-button {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.75rem;
   border: 2px solid #e0e0e0;
   background: white;
   border-radius: 25px;

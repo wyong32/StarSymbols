@@ -16,8 +16,8 @@
           <span class="hero-star" style="--delay: 1.5s">✿</span>
         </div>
         <p class="hero-description">
-          We're passionate about making creativity accessible to everyone. StarCopy was created to
-          provide a simple, elegant solution for anyone looking to add a touch of magic to their
+          We're passionate about making creativity accessible to everyone. StarSymbols was created
+          to provide a simple, elegant solution for anyone looking to add a touch of magic to their
           digital content with beautiful star symbols.
         </p>
       </div>
@@ -206,9 +206,7 @@ import AppFooter from '@/components/AppFooter.vue'
   border-radius: 15px;
   border-left: 4px solid #667eea;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about-card:hover {
