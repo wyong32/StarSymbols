@@ -18,8 +18,11 @@
           <span class="hero-star" style="--delay: 2.1s">⚡</span>
         </div>
         <p class="hero-description">
-          Explore our complete collection of Unicode star symbols. From classic stars to decorative
-          sparkles, find the perfect symbol for your creative projects.
+          Explore the most complete collection of Unicode star symbols. We've meticulously collected
+          and organized every star symbol you could possibly need—from the classic five-pointed star
+          (★) and outlined star (☆) to unique eight-pointed stars (✶) and twelve-pointed stars (✹),
+          plus a wide variety of sparkles (✦✧), asterisks (*❉❊), and emoji stars (⭐🌠). <br />Just
+          one click to copy and paste for your bio, posts, and designs.
         </p>
       </div>
     </section>
@@ -298,6 +301,10 @@ onUnmounted(() => {
 
 <style scoped>
 @import '@/styles/hero.css';
+
+/* .hero-content {
+  max-width: 1536px;
+} */
 
 .stars-page {
   font-family: 'Arial', sans-serif;

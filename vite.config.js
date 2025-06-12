@@ -20,6 +20,7 @@ const staticRoutes = [
   '/privacy',
   '/terms',
   '/copyright',
+  '/contact',
 ]
 
 const dynamicBlogRoutes = blogPostsData.map((post) => `/blog/${post.pagename}`)

@@ -18,7 +18,7 @@ const routes = [
     name: 'all-star-symbols',
     component: () => import('../views/StarsView.vue'),
     meta: {
-      title: 'All Star Symbols ★ ✦ ✧- Unicode Star Collection | starsymbols.io',
+      title: 'All Star Symbols ★- Unicode Star Collection | starsymbols.io',
       description:
         'Browse the most complete star symbols collection. Classic stars, emoji stars, Unicode stars ★, ☆, ✦, ✧, ✪, ✶, ✨, and more. One-click copy and paste.',
       keywords:
@@ -134,7 +134,7 @@ const routes = [
   {
     path: '/contact',
     name: 'contact',
-    component: () => import('../views/Contact.vue'),
+    component: () => import('../views/ContactView.vue'),
     meta: {
       title: '联系我们 - StarSymbols | starsymbols.io',
       description: '欢迎通过邮件联系我们，分享您的创意和建议。',
