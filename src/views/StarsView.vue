@@ -61,7 +61,7 @@
             >
               <div class="category-header">
                 <h2 class="category-title">{{ category.displayName }}</h2>
-                <p class="category-description">{{ category.description }}</p>
+                <!-- <p class="category-description">{{ category.description }}</p> -->
               </div>
               <div class="stars-grid">
                 <div

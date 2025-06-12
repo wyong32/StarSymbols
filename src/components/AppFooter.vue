@@ -7,10 +7,8 @@
             <span class="star-icon">⭐</span>
             <h3>StarSymbols</h3>
           </div>
-          <p>
-            Your one-stop toolkit for symbols, generators, and creative text art.
-          </p>
-          <div class="footer-copyright">© 2025 StarCopy. All rights reserved.</div>
+          <p>Your one-stop toolkit for symbols, generators, and creative text art.</p>
+          <div class="footer-copyright">© 2025 StarSymbols. All rights reserved.</div>
         </div>
 
         <div class="footer-links">

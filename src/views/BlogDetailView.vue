@@ -143,7 +143,7 @@ onMounted(() => {
   // Update page SEO for blog post
   if (post.value) {
     // Use SEO data from post if available, otherwise fallback to default values
-    const seoTitle = post.value.seo?.title || `${post.value.title} | StarCopy Blog`
+    const seoTitle = post.value.seo?.title || `${post.value.title} | StarSymbols Blog`
     const seoDescription = post.value.seo?.description || post.value.excerpt
     const seoKeywords =
       post.value.seo?.keywords ||

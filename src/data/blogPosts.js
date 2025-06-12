@@ -104,7 +104,7 @@ export const blogPostsData = [
     category: 'Tutorial',
     // SEO Meta Data
     seo: {
-      title: 'Creating Aesthetic Text with Stars - Design Tutorial | StarCopy',
+      title: 'Creating Aesthetic Text with Stars - Design Tutorial | starsymbols.io',
       description:
         'Master the art of decorating your text with beautiful star symbols for social media, documents, and digital content. Learn design principles and techniques.',
       keywords:
@@ -196,7 +196,7 @@ export const blogPostsData = [
     `,
   },
   {
-    id: 4,
+    id: 3,
     pagename: 'star-symbols-social-media-success',
     image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop',
     title: 'Star Symbols for Social Media Success',
@@ -206,7 +206,7 @@ export const blogPostsData = [
     category: 'Tips',
     // SEO Meta Data
     seo: {
-      title: 'Star Symbols for Social Media Success - Engagement Tips | StarCopy',
+      title: 'Star Symbols for Social Media Success - Engagement Tips | starsymbols.io',
       description:
         'Boost your social media engagement with strategic use of star symbols. Learn platform-specific tips and best practices for Instagram, Twitter, and more.',
       keywords:
