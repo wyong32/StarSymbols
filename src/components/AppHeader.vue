@@ -14,7 +14,6 @@
         <router-link to="/image-to-text">Image To Text</router-link>
         <router-link to="/blog">Blog</router-link>
         <router-link to="/about">About Us</router-link>
-        <router-link to="/contact">Contact</router-link>
       </nav>
 
       <!-- Mobile Menu Button -->
@@ -40,7 +39,6 @@
         <router-link to="/image-to-text" @click="closeMobileMenu">Image To Text</router-link>
         <router-link to="/blog" @click="closeMobileMenu">Blog</router-link>
         <router-link to="/about" @click="closeMobileMenu">About Us</router-link>
-        <router-link to="/contact" @click="closeMobileMenu">Contact</router-link>
       </div>
     </nav>
 
