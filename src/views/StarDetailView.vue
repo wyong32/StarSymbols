@@ -17,87 +17,137 @@
 
         <!-- Star Content -->
         <div class="star-content">
-          <!-- Star Header -->
-          <div class="star-header">
-            <div
-              class="star-display clickable"
-              @click="copySymbol"
-              :class="{ copied: showCopied }"
-              :title="showCopied ? 'Copied!' : 'Click to copy'"
-            >
-              {{ star.symbol }}
+          <!-- Page Title -->
+          <h1 class="page-title">{{ star.name }}</h1>
+          <p class="star-meta">2025-06-12</p>
+
+          <!-- Star Display and Technical Info Section -->
+          <div class="star-info-section">
+            <!-- Left: Star Display -->
+            <div class="star-display-section">
+              <div
+                class="star-display clickable"
+                @click="copySymbol"
+                :class="{ copied: showCopied }"
+                :title="showCopied ? 'Copied!' : 'Click to copy'"
+              >
+                {{ star.symbol }}
+              </div>
+              <p class="copy-hint">
+                {{ showCopied ? 'Copied to clipboard!' : 'Click the symbol above to copy' }}
+              </p>
+
+              <p class="star-meta">
+                {{ star.unicode }} | Categories:
+                {{ Array.isArray(star.categories) ? star.categories.join(', ') : star.categories }}
+              </p>
             </div>
-            <h1>{{ star.name }}</h1>
-            <p class="star-meta">
-              {{ star.unicode }} | Categories:
-              {{ Array.isArray(star.categories) ? star.categories.join(', ') : star.categories }}
-            </p>
-            <p class="copy-hint">
-              {{ showCopied ? 'Copied to clipboard!' : 'Click the symbol above to copy' }}
-            </p>
+
+            <!-- Right: Technical Information -->
+            <section class="technical-info-section" v-if="star.technicalInfo">
+              <h2>Technical Information</h2>
+              <div class="tech-list">
+                <div class="tech-item">
+                  <span class="tech-label">Unicode:</span>
+                  <code
+                    class="tech-value"
+                    @click="copyTechValue(star.technicalInfo.unicode)"
+                    :title="'Click to copy: ' + star.technicalInfo.unicode"
+                  >
+                    {{ star.technicalInfo.unicode }}
+                  </code>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-label">Alt Code:</span>
+                  <code
+                    class="tech-value"
+                    @click="copyTechValue(star.technicalInfo.altCode)"
+                    :title="'Click to copy: ' + star.technicalInfo.altCode"
+                  >
+                    {{ star.technicalInfo.altCode }}
+                  </code>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-label">HTML Code:</span>
+                  <code
+                    class="tech-value"
+                    @click="copyTechValue(star.technicalInfo.htmlCode)"
+                    :title="'Click to copy: ' + star.technicalInfo.htmlCode"
+                  >
+                    {{ star.technicalInfo.htmlCode }}
+                  </code>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-label">CSS Code:</span>
+                  <code
+                    class="tech-value"
+                    @click="copyTechValue(star.technicalInfo.cssCode)"
+                    :title="'Click to copy: ' + star.technicalInfo.cssCode"
+                  >
+                    {{ star.technicalInfo.cssCode }}
+                  </code>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-label">HTML Entity:</span>
+                  <code
+                    class="tech-value"
+                    @click="copyTechValue(star.technicalInfo.htmlEntity)"
+                    :title="'Click to copy: ' + star.technicalInfo.htmlEntity"
+                  >
+                    {{ star.technicalInfo.htmlEntity }}
+                  </code>
+                </div>
+              </div>
+            </section>
           </div>
 
-          <!-- Technical Information -->
-          <section class="star-section" v-if="star.technicalInfo">
-            <h2>Technical Information</h2>
-            <div class="tech-list">
-              <div class="tech-item">
-                <span class="tech-label">Unicode:</span>
-                <code
-                  class="tech-value"
-                  @click="copyTechValue(star.technicalInfo.unicode)"
-                  :title="'Click to copy: ' + star.technicalInfo.unicode"
-                >
-                  {{ star.technicalInfo.unicode }}
-                </code>
-              </div>
-              <div class="tech-item">
-                <span class="tech-label">Alt Code:</span>
-                <code
-                  class="tech-value"
-                  @click="copyTechValue(star.technicalInfo.altCode)"
-                  :title="'Click to copy: ' + star.technicalInfo.altCode"
-                >
-                  {{ star.technicalInfo.altCode }}
-                </code>
-              </div>
-              <div class="tech-item">
-                <span class="tech-label">HTML Code:</span>
-                <code
-                  class="tech-value"
-                  @click="copyTechValue(star.technicalInfo.htmlCode)"
-                  :title="'Click to copy: ' + star.technicalInfo.htmlCode"
-                >
-                  {{ star.technicalInfo.htmlCode }}
-                </code>
-              </div>
-              <div class="tech-item">
-                <span class="tech-label">CSS Code:</span>
-                <code
-                  class="tech-value"
-                  @click="copyTechValue(star.technicalInfo.cssCode)"
-                  :title="'Click to copy: ' + star.technicalInfo.cssCode"
-                >
-                  {{ star.technicalInfo.cssCode }}
-                </code>
-              </div>
-              <div class="tech-item">
-                <span class="tech-label">HTML Entity:</span>
-                <code
-                  class="tech-value"
-                  @click="copyTechValue(star.technicalInfo.htmlEntity)"
-                  :title="'Click to copy: ' + star.technicalInfo.htmlEntity"
-                >
-                  {{ star.technicalInfo.htmlEntity }}
-                </code>
-              </div>
-            </div>
+          <!-- Creative Showcases Section (English, after about) -->
+          <section
+            v-if="star.creativeShowcases && star.creativeShowcases.length"
+            class="creative-showcase-section"
+          >
+            <h2>Creative Star Showcases</h2>
+            <ul class="creative-list">
+              <li
+                v-for="(item, idx) in star.creativeShowcases"
+                :key="idx"
+                class="creative-item"
+                @click="copyCreativeItem(item.symbol)"
+                :class="{ copied: item.copied }"
+                :title="item.copied ? 'Copied!' : 'Click to copy'"
+              >
+                <span class="creative-symbol">{{ item.symbol }}</span>
+                <span class="creative-name">{{ item.name }}</span>
+              </li>
+            </ul>
           </section>
 
           <!-- About Section -->
-          <section class="star-section">
+          <section class="about-section">
             <h2>{{ star.name }} Content</h2>
             <div class="about-content" v-html="star.htmlContent"></div>
+          </section>
+
+          <!-- Related Stars Section (English, after about) -->
+          <section
+            v-if="star.relatedStars && star.relatedStars.length"
+            class="related-stars-section"
+          >
+            <h2>Related Stars</h2>
+            <div class="related-list">
+              <div
+                v-for="item in star.relatedStars"
+                :key="item.slug"
+                class="related-item"
+                @click="goToStarDetail(item.slug)"
+                tabindex="0"
+                @keydown.enter="goToStarDetail(item.slug)"
+                role="button"
+              >
+                <span class="related-symbol">{{ item.symbol }}</span>
+                <span class="related-name">{{ item.name }}</span>
+              </div>
+            </div>
           </section>
         </div>
       </div>
@@ -126,13 +176,14 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted, watch } from 'vue'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { getStarDetailBySlug } from '@/data/starDetails.js'
 
 // Router
 const route = useRoute()
+const router = useRouter()
 
 // Reactive data
 const star = ref(null)
@@ -236,6 +287,30 @@ const cleanupCodeBlockCopy = () => {
   })
 }
 
+const goToStarDetail = (slug) => {
+  router.push({ name: 'StarDetail', params: { slug } })
+}
+
+// 添加复制创意展示项的方法
+const copyCreativeItem = async (symbol) => {
+  try {
+    await navigator.clipboard.writeText(symbol)
+    // 找到对应的item并设置copied状态
+    const item = star.value.creativeShowcases.find((item) => item.symbol === symbol)
+    if (item) {
+      item.copied = true
+      showToastMessage(`Copied ${symbol} to clipboard!`)
+
+      // 2秒后重置copied状态
+      setTimeout(() => {
+        item.copied = false
+      }, 2000)
+    }
+  } catch {
+    showToastMessage('Failed to copy symbol')
+  }
+}
+
 // Watch route changes
 onMounted(() => {
   loadStar()
@@ -254,7 +329,7 @@ watch(
     cleanupCodeBlockCopy() // 清理旧的事件监听器
     loadStar()
     setupCodeBlockCopy() // 重新设置事件监听器
-  },
+  }
 )
 </script>
 
@@ -271,7 +346,7 @@ watch(
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -304,84 +379,233 @@ watch(
 /* Star Content */
 .star-content {
   background: white;
-  padding: 3rem;
+  padding: 1rem;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   margin-bottom: 3rem;
 }
 
-/* Star Header */
-.star-header {
+/* Page Title */
+.page-title {
+  font-size: 2.2rem;
   text-align: center;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 2px solid #f0f0f0;
-}
-
-.star-display {
-  font-size: 5rem;
-  margin-bottom: 1rem;
-}
-
-.star-display.clickable {
-  cursor: pointer;
-  transition: all 0.2s ease;
-  padding: 1rem;
-  border-radius: 15px;
-  background: rgba(102, 126, 234, 0.05);
-  border: 2px solid transparent;
-  user-select: none;
-}
-
-.star-display.clickable:hover {
-  transform: scale(1.02);
-  background: rgba(102, 126, 234, 0.1);
-  border-color: rgba(102, 126, 234, 0.2);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
-}
-
-.star-display.clickable.copied {
-  background: rgba(76, 175, 80, 0.1);
-  border-color: rgba(76, 175, 80, 0.3);
-  transform: scale(1.01);
-}
-
-.copy-hint {
-  color: #666;
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-  font-style: italic;
-}
-
-.star-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  position: relative;
 }
 
 .star-meta {
-  color: #666;
+  text-align: center;
+  color: #6b7280;
   font-size: 1rem;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
 }
 
-/* Star Sections */
-.star-section {
-  margin-bottom: 2rem;
+/* Star Info Section */
+.star-info-section {
+  display: flex;
+  gap: 0.7rem;
+  margin-bottom: 1.2rem;
+  background: #fff;
+  border-radius: 12px;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+  position: relative;
+  overflow: hidden;
 }
 
-.star-section h2 {
-  font-size: 1.8rem;
+.star-info-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+}
+
+/* Star Display Section */
+.star-display-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+  background: #fafaff;
+  border-radius: 8px;
+  min-width: 0;
+}
+
+.star-display-section::before {
+  display: none;
+}
+
+.star-display {
+  font-size: 3.2rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 1;
+}
+
+.star-display.clickable {
+  padding: 0.7rem;
+  border-radius: 8px;
+  font-size: 3.2rem;
+}
+
+.star-display.clickable:hover {
+  transform: scale(1.04);
+  background: #f6f6ff;
+  border-color: #bdb7f7;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.08);
+}
+
+.star-display.clickable.copied {
+  background: #e6faed;
+  border-color: #34d399;
+  transform: scale(1.02);
+}
+
+.copy-hint {
+  color: #8b8fa7;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.star-meta {
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Technical Info Section */
+.technical-info-section {
+  flex: 1.2;
+  padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+  background: #f7f8fa;
+  border-radius: 8px;
+  position: relative;
+  min-width: 0;
+}
+
+.technical-info-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.7rem;
+  color: #1e293b;
+  text-align: left;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 0.2rem;
+}
+
+.technical-info-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 18px;
+  height: 2px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  border-radius: 1px;
+}
+
+.tech-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 1rem;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+  border: 1px solid #ececff;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 0.8rem;
+}
+
+.tech-item:hover {
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.08);
+  border-color: #bdb7f7;
+}
+
+.tech-label {
+  font-weight: 600;
+  color: #4b5563;
+  min-width: 100px;
+  font-size: 0.8rem;
+}
+
+.tech-value {
+  flex: 1;
+  padding: 0 0.5rem;
+  background: #f7f8fa;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.92rem;
+  color: #4f46e5;
+  border: 1px solid #ececff;
+}
+
+.tech-value:hover {
+  background: #4f46e5;
+  color: white;
+}
+
+/* About Section */
+.about-section {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+}
+
+.about-section h2 {
+  font-size: 1.6rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: #1e293b;
+  text-align: left;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 0.3rem;
 }
 
-.star-section h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0.8rem;
-  color: #444;
+.about-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  border-radius: 1px;
 }
 
 /* About Content Styles */
@@ -661,56 +885,6 @@ watch(
   border-radius: 1px;
 }
 
-/* Technical Information */
-.tech-list {
-  margin-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.tech-item {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.8rem;
-  background: #f8f9ff;
-  border-radius: 8px;
-  border-left: 4px solid #667eea;
-}
-
-.tech-label {
-  font-weight: 600;
-  color: #333;
-  min-width: 120px;
-  flex-shrink: 0;
-}
-
-.tech-value {
-  background: #e8ecff;
-  color: #667eea;
-  padding: 0.4rem 0.8rem;
-  border-radius: 6px;
-  font-family: 'Courier New', monospace;
-  font-size: 0.9rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border: 2px solid transparent;
-  user-select: all;
-}
-
-.tech-value:hover {
-  background: #667eea;
-  color: white;
-  border-color: #764ba2;
-  transform: translateY(-1px);
-}
-
-.tech-value-text {
-  color: #555;
-  font-size: 0.95rem;
-}
-
 /* Not Found */
 .not-found {
   text-align: center;
@@ -749,14 +923,14 @@ watch(
   bottom: 2rem;
   left: 50%;
   transform: translateX(-50%) translateY(100%);
-  background: #667eea;
+  background: #1e293b;
   color: white;
-  padding: 1rem 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-  z-index: 1001;
-  white-space: nowrap;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-weight: 500;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1000;
 }
 
 .toast.show {
@@ -764,173 +938,267 @@ watch(
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-  .container {
-    padding: 0 1.5rem;
-  }
-
-  .star-content {
-    padding: 2rem;
-  }
-
-  .star-display {
-    font-size: 4rem;
-  }
-
-  .tech-item {
+@media (max-width: 900px) {
+  .star-info-section {
     flex-direction: column;
-    align-items: flex-start;
     gap: 0.5rem;
+    padding: 0.3rem;
   }
-
-  .tech-label {
-    min-width: auto;
-  }
-
-  /* About Content Mobile Styles */
-  .about-content :deep(h1) {
-    font-size: 1.6rem;
-    margin: 2rem 0 1.2rem 0;
-    padding-bottom: 0.6rem;
-  }
-
-  .about-content :deep(h2) {
-    font-size: 1.5rem;
-  }
-
-  .about-content :deep(h3) {
-    font-size: 1.2rem;
-    margin: 1.5rem 0 0.8rem 0;
-  }
-
-  .about-content :deep(h4) {
-    font-size: 1rem;
-  }
-
-  .about-content :deep(pre) {
-    padding: 1rem;
-    margin: 1rem 0;
-    font-size: 0.85rem;
-  }
-
-  .about-content :deep(pre code) {
-    font-size: 0.85rem;
-  }
-
-  .about-content :deep(table) {
-    font-size: 0.9rem;
-  }
-
-  .about-content :deep(th),
-  .about-content :deep(td) {
-    padding: 0.6rem 0.8rem;
-  }
-
-  .about-content :deep(blockquote) {
-    padding: 0.8rem 1rem;
-    margin: 1rem 0;
+  .star-display-section,
+  .technical-info-section {
+    padding: 0.3rem 0.1rem;
   }
 }
 
-@media (max-width: 480px) {
-  .container {
-    padding: 0 1rem;
-  }
-
-  .star-content {
-    padding: 1.5rem;
-  }
-
-  .star-display {
-    font-size: 3rem;
-  }
-
-  /* About Content Small Mobile Styles */
-  .about-content {
-    font-size: 0.95rem;
-  }
-
-  .about-content :deep(h1) {
-    font-size: 1.4rem;
-    margin: 1.5rem 0 1rem 0;
-    padding-bottom: 0.5rem;
-  }
-
-  .about-content :deep(h2) {
-    font-size: 1.3rem;
-    margin: 1.5rem 0 0.8rem 0;
-  }
-
-  .about-content :deep(h3) {
+@media (max-width: 600px) {
+  .page-title {
     font-size: 1.1rem;
-    margin: 1.2rem 0 0.6rem 0;
   }
-
-  .about-content :deep(h3::before) {
-    width: 3px;
-    height: 1rem;
+  .star-meta {
+    font-size: 0.75rem;
   }
-
-  .about-content :deep(p) {
-    margin-bottom: 1rem;
-    text-align: left;
+  .star-display {
+    font-size: 2.1rem;
   }
-
-  .about-content :deep(ul),
-  .about-content :deep(ol) {
-    margin: 0.8rem 0 1.2rem 0;
+  .about-section,
+  .star-info-section {
+    padding: 0.2rem;
+    border-radius: 5px;
   }
-
-  .about-content :deep(li) {
-    margin-bottom: 0.5rem;
-    padding-left: 1.2rem;
-  }
-
-  .about-content :deep(table) {
-    font-size: 0.85rem;
-    margin: 1rem 0;
-  }
-
-  .about-content :deep(th),
-  .about-content :deep(td) {
-    padding: 0.5rem 0.6rem;
-  }
-
-  .about-content :deep(blockquote) {
-    padding: 0.6rem 0.8rem;
-    margin: 0.8rem 0;
+  .about-section h2,
+  .technical-info-section h2 {
     font-size: 0.9rem;
   }
-
-  .about-content :deep(img) {
-    margin: 1rem 0;
+  .tech-item,
+  .tech-label,
+  .tech-value {
+    font-size: 0.85rem;
   }
-
-  .about-content :deep(pre) {
-    padding: 0.8rem;
-    margin: 0.8rem 0;
-    font-size: 0.8rem;
-  }
-
-  .about-content :deep(pre code) {
-    font-size: 0.8rem;
-    line-height: 1.4;
-  }
-
-  .about-content :deep(pre::before) {
-    font-size: 0.7rem;
-    top: 0.4rem;
-    right: 0.8rem;
-  }
-
   .toast {
     left: 1rem;
     right: 1rem;
     transform: translateX(0) translateY(100%);
   }
-
   .toast.show {
     transform: translateX(0) translateY(0);
+  }
+}
+
+.creative-showcase-section {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  position: relative;
+  overflow: hidden;
+}
+
+.creative-showcase-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+}
+
+.creative-showcase-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #1e293b;
+  text-align: left;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 0.3rem;
+}
+
+.creative-showcase-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  border-radius: 1px;
+}
+
+.creative-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.creative-item {
+  font-size: 1.05rem;
+  background: #f8f9ff;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  color: #4f46e5;
+  border: 1px solid #ececff;
+  box-shadow: 0 2px 4px rgba(79, 70, 229, 0.05);
+  font-family: 'JetBrains Mono', 'Consolas', 'monospace';
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.creative-item:hover {
+  transform: translateY(-2px);
+  background: #f0f4ff;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.1);
+  border-color: #bdb7f7;
+}
+
+.creative-item.copied {
+  background: #e6faed;
+  border-color: #34d399;
+  transform: scale(1.02);
+}
+
+.creative-item.copied::after {
+  content: '✓';
+  position: absolute;
+  right: 0.8rem;
+  color: #34d399;
+  font-weight: bold;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.creative-symbol {
+  font-size: 1.3rem;
+  margin-right: 0.2rem;
+  color: #7c3aed;
+}
+
+.creative-name {
+  font-size: 0.95rem;
+  color: #6366f1;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.related-stars-section {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  position: relative;
+  overflow: hidden;
+}
+
+.related-stars-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+}
+
+.related-stars-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #1e293b;
+  text-align: left;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 0.3rem;
+}
+
+.related-stars-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  border-radius: 1px;
+}
+
+.related-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.related-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: #f8f9ff;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  color: #4f46e5;
+  border: 1px solid #ececff;
+  box-shadow: 0 2px 4px rgba(79, 70, 229, 0.05);
+  cursor: pointer;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+}
+
+.related-item:hover,
+.related-item:focus {
+  transform: translateY(-2px);
+  background: #f0f4ff;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.1);
+  border-color: #bdb7f7;
+}
+
+.related-symbol {
+  font-size: 1.3rem;
+  margin-right: 0.2rem;
+  color: #7c3aed;
+}
+
+.related-name {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #4f46e5;
+}
+
+@media (max-width: 600px) {
+  .creative-showcase-section,
+  .related-stars-section {
+    padding: 1rem;
+  }
+
+  .creative-item,
+  .related-item {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.95rem;
+  }
+
+  .creative-symbol,
+  .related-symbol {
+    font-size: 1.1rem;
+  }
+
+  .creative-name,
+  .related-name {
+    font-size: 0.95rem;
   }
 }
 </style>

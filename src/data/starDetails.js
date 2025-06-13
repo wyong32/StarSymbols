@@ -22,10 +22,20 @@ export const starDetailsData = [
       htmlEntity: '&starf;',
       hexCode: '&#x2605;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
     <section>
-  <h2>How to Type ★ (Black Star) Symbol</h2>
-
   <h3>Using Alt Code on Windows</h3>
   <p>You can type the ★ symbol using the Alt code method:</p>
   <ol>
@@ -37,7 +47,7 @@ export const starDetailsData = [
   <p>This technique works on most Windows systems and supports many other special characters.</p>
 
   <h3>Typing ★ on Mac</h3>
-  <p>Mac does not support Alt codes like Windows. Instead, press <strong>Control + Command + Space</strong> to open the Character Viewer, then search for “star” and select the ★ symbol.</p>
+  <p>Mac does not support Alt codes like Windows. Instead, press <strong>Control + Command + Space</strong> to open the Character Viewer, then search for "star" and select the ★ symbol.</p>
 
   <h3>Typing ★ on iPhone and Android</h3>
   <p>On mobile devices, open the emoji keyboard and search for the black star symbol or copy and paste it directly from here: <strong>★</strong>.</p>
@@ -70,14 +80,13 @@ export const starDetailsData = [
   <p>This will render as: <strong>Black Star★</strong></p>
 
   <h3>What Is the ★ Symbol?</h3>
-  <p>The ★ (Black Star) is a classic five-pointed star used for various purposes such as decoration, rating systems, emphasis, and symbolic representation. It’s a filled version of the white star (☆).</p>
+  <p>The ★ (Black Star) is a classic five-pointed star used for various purposes such as decoration, rating systems, emphasis, and symbolic representation. It's a filled version of the white star (☆).</p>
 
   <h3>What Does ★ Mean?</h3>
   <p>The ★ symbol often represents excellence, achievement, or a highlighted item. In rating systems, it typically indicates quality (e.g., ★★★★★ for a 5-star rating).</p>
 </section>
 `,
   },
-
   {
     id: 2,
     symbol: '☆', // 图案
@@ -100,10 +109,20 @@ export const starDetailsData = [
       htmlEntity: '&star;',
       hexCode: '&#x2606;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ☆ (White Star) Symbol</h2>
-
   <h3>Using Alt Code on Windows</h3>
   <p>You can type the ☆ symbol using the Alt code method on Windows:</p>
   <ol>
@@ -176,10 +195,20 @@ export const starDetailsData = [
       htmlEntity: '&#10017;', // no named entity for this symbol
       hexCode: '&#x2721;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✡ (Star of David) Symbol</h2>
-
   <h3>Using Alt Code on Windows</h3>
   <p>You can type the ✡ symbol using the Alt code method:</p>
   <ol>
@@ -242,6 +271,18 @@ export const starDetailsData = [
       keywords:
         'black four pointed star, decorative star, unicode star, ✦ symbol, black sparkle, copy star symbol',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     technicalInfo: {
       unicode: 'U+2726',
       altCode: 'Alt+10022',
@@ -252,8 +293,6 @@ export const starDetailsData = [
     },
     htmlContent: `
   <section>
-  <h2>How to Type ✦ (Black Four Pointed Star) Symbol</h2>
-
   <h3>Using Alt Code on Windows</h3>
   <p>To type the ✦ symbol with your keyboard:</p>
   <ol>
@@ -324,10 +363,20 @@ export const starDetailsData = [
       htmlEntity: '&#10023;', // no named entity
       hexCode: '&#x2727;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✧ (White Four Pointed Star) Symbol</h2>
-
   <h3>Using Alt Code on Windows</h3>
   <p>To type the ✧ symbol on a Windows keyboard:</p>
   <ol>
@@ -398,10 +447,20 @@ export const starDetailsData = [
       htmlEntity: '&#10025;', // no named entity
       hexCode: '&#x2729;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✩ (Stress Outlined White Star) Symbol</h2>
-
   <h3>Using Alt Code on Windows</h3>
   <p>You can type the ✩ symbol using the Alt code method:</p>
   <ol>
@@ -472,10 +531,20 @@ export const starDetailsData = [
       htmlEntity: '&#10026;', // 无命名实体
       hexCode: '&#x272A;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✪ (Circled White Star) Symbol</h2>
-
   <h3>Using Alt Code on Windows</h3>
   <p>You can type the ✪ symbol using this Alt code method:</p>
   <ol>
@@ -546,10 +615,20 @@ export const starDetailsData = [
       htmlEntity: '&#10027;', // 无命名实体
       hexCode: '&#x272B;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✫ (Open Centre Black Star) Symbol</h2>
-
   <h3>Using Alt Code on Windows</h3>
   <p>You can type the ✫ symbol using the Alt code method:</p>
   <ol>
@@ -620,10 +699,20 @@ export const starDetailsData = [
       htmlEntity: '&#10028;', // 无命名实体
       hexCode: '&#x272C;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✬ (Black Centre White Star) Symbol</h2>
-
   <h3>Using Alt Code on Windows</h3>
   <p>You can type the ✬ symbol with the Alt code method:</p>
   <ol>
@@ -694,10 +783,20 @@ export const starDetailsData = [
       htmlEntity: '&#10029;', // 无命名实体
       hexCode: '&#x272D;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✭ (Outlined Black Star) Symbol</h2>
-
   <h3>Using Alt Code on Windows</h3>
   <p>You can type the ✭ symbol using the Alt code method:</p>
   <ol>
@@ -768,10 +867,20 @@ export const starDetailsData = [
       htmlEntity: '&#10030;', // 无命名实体
       hexCode: '&#x272E;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✮ (Heavy Outlined Black Star) Symbol</h2>
-
   <h3>Using Alt Code on Windows</h3>
   <p>You can type the ✮ symbol using the Alt code method:</p>
   <ol>
@@ -842,10 +951,20 @@ export const starDetailsData = [
       htmlEntity: '&#10031;', // 无命名实体
       hexCode: '&#x272F;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✯ (Pinwheel Star) Symbol</h2>
-
   <h3>Using Alt Code on Windows</h3>
   <p>You can type the ✯ symbol using the Alt code method:</p>
   <ol>
@@ -916,10 +1035,20 @@ export const starDetailsData = [
       htmlEntity: '&#11090;',
       hexCode: '&#x2B52;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ⭒ (White Small Star) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>There is no standard Alt code for ⭒, but you can insert it using Unicode input if supported:</p>
   <ol>
@@ -990,10 +1119,20 @@ export const starDetailsData = [
       htmlEntity: '&#11089;',
       hexCode: '&#x2B51;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ⭑ (Black Small Star) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>There is no standard Alt code for ⭑, but you can insert it using Unicode input if supported:</p>
   <ol>
@@ -1064,10 +1203,20 @@ export const starDetailsData = [
       htmlEntity: '&#10032;', // 无命名实体
       hexCode: '&#x2730;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✰ (Shadowed White Star) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>You can type ✰ using its Unicode value if your system supports it:</p>
   <ol>
@@ -1138,10 +1287,20 @@ export const starDetailsData = [
       htmlEntity: '&#8258;',
       hexCode: '&#x2042;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ⁂ (Asterism) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>There’s no direct Alt code for this symbol, but you can insert it using Unicode:</p>
   <ol>
@@ -1212,10 +1371,20 @@ export const starDetailsData = [
       htmlEntity: '&#8270;',
       hexCode: '&#x204E;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ⁎ (Low Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can insert it via Unicode if supported:</p>
   <ol>
@@ -1286,10 +1455,20 @@ export const starDetailsData = [
       htmlEntity: '&#8273;',
       hexCode: '&#x2051;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ⁑ (Two Asterisks Aligned Vertically) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can use Unicode input in some applications:</p>
   <ol>
@@ -1360,10 +1539,20 @@ export const starDetailsData = [
       htmlEntity: '&#10018;',
       hexCode: '&#x2722;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✢ (Four Teardrop-Spoked Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code. However, in supported applications, you can use Unicode input:</p>
   <ol>
@@ -1434,10 +1623,20 @@ export const starDetailsData = [
       htmlEntity: '&#10019;',
       hexCode: '&#x2723;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✣ (Four Balloon-Spoked Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code. To type it using Unicode input:</p>
   <ol>
@@ -1508,10 +1707,20 @@ export const starDetailsData = [
       htmlEntity: '&#10020;',
       hexCode: '&#x2724;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✤ (Heavy Four Balloon-Spoked Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn't have a standard Alt code. You can use Unicode input (in some apps like Microsoft Word):</p>
   <ol>
@@ -1582,10 +1791,20 @@ export const starDetailsData = [
       htmlEntity: '&#10021;',
       hexCode: '&#x2725;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✥ (Four Club-Spoked Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn't have a standard Alt code. However, in apps like Microsoft Word, you can use Unicode input:</p>
   <ol>
@@ -1655,10 +1874,20 @@ export const starDetailsData = [
       htmlEntity: '&#10033;',
       hexCode: '&#x2731;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✱ (Heavy Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code, but you can type it in Microsoft Word and similar applications using Unicode input:</p>
   <ol>
@@ -1728,10 +1957,20 @@ export const starDetailsData = [
       htmlEntity: '&#10034;',
       hexCode: '&#x2732;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
  <section>
-  <h2>How to Type ✲ (Open Centre Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can use Unicode input in Microsoft Word and similar programs:</p>
   <ol>
@@ -1801,10 +2040,20 @@ export const starDetailsData = [
       htmlEntity: '&#10035;',
       hexCode: '&#x2733;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✳ (Eight Spoked Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code, but you can enter it using Unicode input in Microsoft Word and some other Windows programs:</p>
   <ol>
@@ -1879,10 +2128,20 @@ export const starDetailsData = [
       htmlEntity: '&#10036;',
       hexCode: '&#x2734;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✴ (Eight Pointed Black Star) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can insert it using Unicode input in Word and some Windows apps:</p>
   <ol>
@@ -1957,10 +2216,20 @@ export const starDetailsData = [
       htmlEntity: '&#10037;',
       hexCode: '&#x2735;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✵ (Eight Pointed Pinwheel Star) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn't have a standard Alt code, but you can use Unicode input in applications like Microsoft Word:</p>
   <ol>
@@ -2035,10 +2304,20 @@ export const starDetailsData = [
       htmlEntity: '&#10038;',
       hexCode: '&#x2736;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✶ (Six Pointed Black Star) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code, but you can type it using Unicode in programs like Microsoft Word:</p>
   <ol>
@@ -2113,10 +2392,20 @@ export const starDetailsData = [
       htmlEntity: '&#10039;',
       hexCode: '&#x2737;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✷ (Eight Pointed Rectilinear Black Star) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code, but you can insert it using Unicode in Microsoft Word:</p>
   <ol>
@@ -2191,10 +2480,20 @@ export const starDetailsData = [
       htmlEntity: '&#10040;',
       hexCode: '&#x2738;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✸ (Heavy Eight Pointed Rectilinear Black Star) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can use the Unicode method in Microsoft Word:</p>
   <ol>
@@ -2269,10 +2568,20 @@ export const starDetailsData = [
       htmlEntity: '&#10041;',
       hexCode: '&#x2739;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
  <section>
-  <h2>How to Type ✹ (Twelve Pointed Black Star) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code, but you can insert it using the Unicode method in Microsoft Word:</p>
   <ol>
@@ -2347,10 +2656,20 @@ export const starDetailsData = [
       htmlEntity: '&#10042;',
       hexCode: '&#x273A;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✺ (Sixteen Pointed Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code, but you can enter it using Unicode in Microsoft Word:</p>
   <ol>
@@ -2425,10 +2744,20 @@ export const starDetailsData = [
       htmlEntity: '&#10043;',
       hexCode: '&#x273B;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✻ (Teardrop-Spoked Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn't have a standard Alt code, but you can insert it using Unicode in Microsoft Word:</p>
   <ol>
@@ -2503,10 +2832,20 @@ export const starDetailsData = [
       htmlEntity: '&#10044;',
       hexCode: '&#x273C;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✼ (Open Centre Teardrop-Spoked Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code, but you can insert it in Microsoft Word by:</p>
   <ol>
@@ -2581,10 +2920,20 @@ export const starDetailsData = [
       htmlEntity: '&#10045;',
       hexCode: '&#x273D;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✽ (Heavy Teardrop-Spoked Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code, but you can enter it in Microsoft Word by:</p>
   <ol>
@@ -2659,10 +3008,20 @@ export const starDetailsData = [
       htmlEntity: '&#10046;',
       hexCode: '&#x273E;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✾ (Six Petalled Black And White Florette) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code. However, in Microsoft Word you can type it by:</p>
   <ol>
@@ -2737,10 +3096,20 @@ export const starDetailsData = [
       htmlEntity: '&#10047;',
       hexCode: '&#x273F;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✿ (Black Florette) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can type it in Microsoft Word using:</p>
   <ol>
@@ -2819,10 +3188,20 @@ export const starDetailsData = [
       htmlEntity: '&#10048;',
       hexCode: '&#x2740;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ❀ (White Florette) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code, but you can type it in Microsoft Word using:</p>
   <ol>
@@ -2901,10 +3280,20 @@ export const starDetailsData = [
       htmlEntity: '&#10049;',
       hexCode: '&#x2741;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ❁ (Eight Petalled Outlined Black Florette) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code. However, in Microsoft Word you can type it as follows:</p>
   <ol>
@@ -2983,10 +3372,20 @@ export const starDetailsData = [
       htmlEntity: '&#10050;',
       hexCode: '&#x2742;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ❂ (Circled Open Centre Eight Pointed Star) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can still insert it in Microsoft Word:</p>
   <ol>
@@ -3065,10 +3464,20 @@ export const starDetailsData = [
       htmlEntity: '&#10051;',
       hexCode: '&#x2743;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ❃ (Heavy Teardrop-Spoked Pinwheel Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can easily insert it in Microsoft Word:</p>
   <ol>
@@ -3147,10 +3556,20 @@ export const starDetailsData = [
       htmlEntity: '&#10055;',
       hexCode: '&#x2747;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ❇ (Sparkle) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can insert it in Microsoft Word:</p>
   <ol>
@@ -3229,10 +3648,20 @@ export const starDetailsData = [
       htmlEntity: '&#10056;',
       hexCode: '&#x2748;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ❈ (Heavy Sparkle) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code, but you can insert it in Microsoft Word:</p>
   <ol>
@@ -3311,10 +3740,20 @@ export const starDetailsData = [
       htmlEntity: '&#10057;',
       hexCode: '&#x2749;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ❉ (Balloon-Spoked Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can insert it in Microsoft Word:</p>
   <ol>
@@ -3393,10 +3832,20 @@ export const starDetailsData = [
       htmlEntity: '&#10058;',
       hexCode: '&#x274A;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ❊ (Eight Teardrop-Spoked Propeller Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can type it in Microsoft Word:</p>
   <ol>
@@ -3476,10 +3925,20 @@ export const starDetailsData = [
       htmlEntity: '&#10059;',
       hexCode: '&#x274B;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ❋ (Heavy Eight Teardrop-Spoked Propeller Asterisk) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol does not have a standard Alt code, but you can enter it in Microsoft Word using Unicode:</p>
   <ol>
@@ -3558,10 +4017,20 @@ export const starDetailsData = [
       htmlEntity: '&#10052;',
       hexCode: '&#x2744;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ❄ (Snowflake) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>There is no standard Alt code for ❄, but you can insert it in Microsoft Word using Unicode:</p>
   <ol>
@@ -3641,10 +4110,20 @@ export const starDetailsData = [
       htmlEntity: '&#10054;',
       hexCode: '&#x2746;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ❆ (Heavy Chevron Snowflake) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can insert it using Unicode input in Microsoft Word:</p>
   <ol>
@@ -3723,10 +4202,20 @@ export const starDetailsData = [
       htmlEntity: '&#10053;',
       hexCode: '&#x2745;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ❅ (Tight Trifoliate Snowflake) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>This symbol doesn’t have a standard Alt code, but you can insert it using Unicode input in Microsoft Word:</p>
   <ol>
@@ -3805,10 +4294,20 @@ export const starDetailsData = [
       htmlEntity: '&#8902;',
       hexCode: '&#x22C6;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ⋆ (Star Operator) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>The ⋆ Star Operator symbol doesn’t have a standard Alt code, but you can insert it using Unicode input in Microsoft Word:</p>
   <ol>
@@ -3880,10 +4379,20 @@ export const starDetailsData = [
       htmlEntity: '&#8795;',
       hexCode: '&#x225B;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ≛ (Star Equals) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>The ≛ Star Equals symbol doesn’t have a standard Alt code, but you can insert it in Microsoft Word using Unicode:</p>
   <ol>
@@ -3955,10 +4464,20 @@ export const starDetailsData = [
       htmlEntity: '&#5487;',
       hexCode: '&#x157F;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ᕯ (Canadian Syllabics Tth) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>Since the ᕯ symbol doesn’t have a standard Alt code, the easiest method is to copy and paste it:</p>
   <p><strong>ᕯ</strong></p>
@@ -4031,10 +4550,20 @@ export const starDetailsData = [
       htmlEntity: '&#4047;',
       hexCode: '&#x0FDF;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ࿏ (Tibetan Sign Rdel Nag Gsum) Symbol</h2>
-
   <h3>Typing on Windows</h3>
   <p>The ࿏ symbol has no standard Alt code. To use it:</p>
   <p><strong>Copy and paste:</strong> ࿏</p>
@@ -4107,10 +4636,20 @@ export const starDetailsData = [
       htmlEntity: '&#42608;',
       hexCode: '&#xA670;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ꙰ (Combining Cyrillic Ten Millions Sign) Symbol</h2>
-
   <h3>What is a Combining Character?</h3>
   <p>The ꙰ symbol (U+A670) is a <strong>combining mark</strong>. This means it attaches to the character that comes before it. For example, typing the letter <code>А</code> followed by <code>꙰</code> will display: А꙰</p>
 
@@ -4184,10 +4723,20 @@ export const starDetailsData = [
       htmlEntity: '&#1758;',
       hexCode: '&#x06DE;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ۞ (Rub El Hizb) Symbol</h2>
-
   <h3>What is the ۞ Symbol?</h3>
   <p>The symbol <strong>۞</strong> (U+06DE), known as the <strong>Rub El Hizb</strong>, is an Arabic mark used in <strong>Quranic texts</strong> to denote the end of a Hizb (a section of the Quran). It consists of two overlapping squares (like an eight-pointed star) and is also used in Islamic calligraphy and art.</p>
 
@@ -4271,10 +4820,20 @@ export const starDetailsData = [
       htmlEntity: '&#9055;',
       hexCode: '&#x235F;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ⍟ (APL Functional Symbol Circle Star)</h2>
-
   <h3>What is the ⍟ Symbol?</h3>
   <p>The symbol <strong>⍟</strong> (U+235F), known as the <strong>APL Functional Symbol Circle Star</strong>, is part of the APL (A Programming Language) character set. In APL, it represents the <strong>natural logarithm</strong> function. It resembles a five-pointed star within a circle and is also of interest in mathematical and symbolic notation.</p>
 
@@ -4357,10 +4916,20 @@ export const starDetailsData = [
       htmlEntity: '&#11088;',
       hexCode: '&#x2B50;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ⭐ (White Medium Star)</h2>
-
   <h3>What is the ⭐ Symbol?</h3>
   <p>The <strong>⭐ White Medium Star</strong> (Unicode <strong>U+2B50</strong>) is a widely recognized symbol often used for <strong>ratings, emphasis, favorites, and decoration</strong>. Though it’s named “white,” it usually appears as a filled yellow or gold star in most modern fonts and platforms, especially as an <strong>emoji</strong>.</p>
 
@@ -4443,10 +5012,20 @@ export const starDetailsData = [
       htmlEntity: '&#127776;',
       hexCode: '&#x1F320;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type 🌠 (Shooting Star)</h2>
-
   <h3>What is the 🌠 Symbol?</h3>
   <p>The <strong>🌠 Shooting Star</strong> emoji (Unicode <strong>U+1F320</strong>) represents a <strong>star streaking across the sky</strong>. It is commonly used to convey <strong>wishes, dreams, nighttime, magic, and wonder</strong>. In various cultures, a shooting star symbolizes hope or a moment to make a wish.</p>
 
@@ -4529,10 +5108,20 @@ export const starDetailsData = [
       htmlEntity: '&#127775;',
       hexCode: '&#x1F31F;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type 🌟 (Glowing Star)</h2>
-
   <h3>What is the 🌟 Symbol?</h3>
   <p>The <strong>🌟 Glowing Star</strong> emoji (Unicode <strong>U+1F31F</strong>) represents a <strong>bright, sparkling star</strong>. It conveys feelings of <strong>magic, positivity, sparkle, and admiration</strong>. It’s widely used in social media, messages, and design to add flair or a sense of brilliance.</p>
 
@@ -4615,10 +5204,20 @@ export const starDetailsData = [
       htmlEntity: '&#128171;',
       hexCode: '&#x1F4AB;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type 💫 (Dizzy Symbol)</h2>
-
   <h3>What is the 💫 Symbol?</h3>
   <p>The <strong>💫 Dizzy Symbol</strong> emoji (Unicode <strong>U+1F4AB</strong>) depicts a swirling or shooting star, often used to represent <strong>dizziness, motion, magical effects</strong>, or whimsical sparkle. It's commonly used in comics and social media to show someone feeling lightheaded, or to add a magical flair.</p>
 
@@ -4699,10 +5298,20 @@ export const starDetailsData = [
       htmlEntity: '&#10024;',
       hexCode: '&#x2728;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type ✨ (Sparkles Emoji)</h2>
-
   <h3>What is the ✨ Symbol?</h3>
   <p>The <strong>✨ Sparkles</strong> emoji (Unicode <strong>U+2728</strong>) is a popular emoji representing <strong>magic, shine, glitter, joy, or excitement</strong>. It features multiple twinkling stars and is often used to highlight something as beautiful, positive, or magical in tone.</p>
 
@@ -4784,10 +5393,20 @@ export const starDetailsData = [
       htmlEntity: '&#127747;',
       hexCode: '&#x1F303;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type 🌃 (Night With Stars Emoji)</h2>
-
   <h3>What is the 🌃 Symbol?</h3>
   <p>The <strong>🌃 Night With Stars</strong> emoji (Unicode <strong>U+1F303</strong>) depicts a nighttime cityscape with stars twinkling in the sky. It’s commonly used to represent a peaceful evening, nighttime beauty, or city nightlife.</p>
 
@@ -4869,10 +5488,20 @@ export const starDetailsData = [
       htmlEntity: '&#128303;',
       hexCode: '&#x1F52F;',
     },
+    creativeShowcases: [
+      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
+      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
+      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
+      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
+      { name: 'Minimalist Star', symbol: '✩.*˚' },
+    ],
+    relatedStars: [
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+    ],
     htmlContent: `
   <section>
-  <h2>How to Type 🔯 (Six Pointed Star With Middle Dot Emoji)</h2>
-
   <h3>What is the 🔯 Symbol?</h3>
   <p>The <strong>🔯 Six Pointed Star With Middle Dot</strong> emoji (Unicode <strong>U+1F52F</strong>) displays a six-pointed star with a central dot. It is commonly used in astrology, spirituality, or to symbolize magic, energy, or mysticism.</p>
 
@@ -4931,6 +5560,7 @@ export const starDetailsData = [
 </section>
 `,
   },
+  
 ]
 
 // --- Pre-computed data for performance ---
