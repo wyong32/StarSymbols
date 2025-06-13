@@ -6,7 +6,7 @@
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-content">
-        <h1 class="hero-title">Image To Text Converter</h1>
+        <h1 class="hero-title">Image to ASCII Text Art Converter</h1>
         <div class="hero-stars">
           <span class="hero-star" style="--delay: 0s">⍟</span>
           <span class="hero-star" style="--delay: 0.3s">⭐</span>
@@ -98,17 +98,12 @@
             <div class="result-section" v-if="result" :class="{ 'dark-theme': darkTheme }">
               <div class="result-header">
                 <h3>Text Art Result</h3>
-                <button
-                  @click="copyResult"
-                  class="copy-btn-header"
-                  v-copy-allowed
-                  :disabled="!result"
-                >
+                <button @click="copyResult" class="copy-btn-header" :disabled="!result">
                   📋 Copy Result
                 </button>
               </div>
               <div class="result-container">
-                <pre class="result-text" v-copy-allowed>{{ result }}</pre>
+                <pre class="result-text">{{ result }}</pre>
               </div>
             </div>
             <div v-else class="no-result">
@@ -268,7 +263,7 @@ watch(
       }
     }
   },
-  { deep: true },
+  { deep: true }
 )
 
 // Watch for dark theme changes
@@ -1124,9 +1119,6 @@ onUnmounted(() => {
 
 /* Dark theme transitions */
 .result-section.dark-theme * {
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease,
-    border-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 </style>

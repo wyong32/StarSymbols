@@ -30,11 +30,11 @@ const routes = [
     name: 'text-symbol-generator',
     component: () => import('../views/GeneratorView.vue'),
     meta: {
-      title: 'Star Text Generator - Create Star-Decorated Text | starsymbols.io',
+      title: 'Fancy Text Generator ✨ | Create Cool Fonts with Symbols',
       description:
-        'Generate stunning star-decorated text with our free generator. Choose from 5 unique styles: Classic, Sparkle, Decorative, Elegant, Cosmic.',
+        'Instantly create cool and aesthetic fonts! Decorate your text with unique symbols like stars ✨, hearts ❤, and arrows →. Free, fast, and easy to copy and paste.',
       keywords:
-        'star text generator, aesthetic text, decorated text, star text maker, social media text, fancy text',
+        'fancy text generator, cool fonts, aesthetic text, symbol generator, copy and paste fonts',
     },
   },
   {
@@ -65,11 +65,11 @@ const routes = [
     name: 'image-to-text',
     component: () => import('../views/ImageToStarsView.vue'),
     meta: {
-      title: 'Image to Star Text Art Converter | starsymbols.io',
+      title: 'Image to ASCII Art Converter ✨ | Convert Picture to Text Art',
       description:
-        'Convert images into beautiful star text art! Upload photos and transform them into ASCII art using star symbols. Free online converter.',
+        'Transform any image into stunning ASCII art with our free online Converter.  Customize width, dithering and Grayscale.Upload and convert instantly!',
       keywords:
-        'image to text art, ascii art generator, image converter, star text art, photo to text, image to ascii',
+        'image to ascii art Converter, free ascii art Converter, online ascii creator, convert image to text',
     },
   },
   {

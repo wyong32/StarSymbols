@@ -16,7 +16,6 @@
                   v-for="(star, index) in category.symbols"
                   :key="index"
                   class="star-picker-item"
-                  v-copy-allowed
                   @click="insertStarIntoText(star)"
                   :title="`Click to add ${star} to your text`"
                 >
@@ -32,7 +31,6 @@
           id="input-text"
           ref="textareaRef"
           v-model="inputText"
-          v-copy-allowed
           placeholder="Enter your text here... Click 'Add Stars to Text' above to insert stars anywhere!"
           rows="4"
         ></textarea>
@@ -68,17 +66,10 @@
       <div class="result-group">
         <label for="generated-text">Generated Text</label>
         <div class="result-container">
-          <textarea
-            id="generated-text"
-            v-model="generatedText"
-            v-copy-allowed
-            readonly
-            rows="4"
-          ></textarea>
+          <textarea id="generated-text" v-model="generatedText" readonly rows="4"></textarea>
           <button
             v-if="inputText.trim() && generatedText"
             class="copy-button"
-            v-copy-allowed
             @click="copyGeneratedText"
           >
             Copy

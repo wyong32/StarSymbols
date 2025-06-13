@@ -4,8 +4,8 @@
       <!-- Star Picker Section with Tabs -->
       <div class="star-picker-section">
         <div class="star-picker-header">
-          <h3>Choose Stars to Insert</h3>
-          <p>Click any star to insert it at cursor position</p>
+          <h2>Choose Symbols to Insert</h2>
+          <p>Click any symbol to add it to the preselected area</p>
         </div>
 
         <!-- Category Tabs -->
@@ -24,15 +24,45 @@
         <!-- Star Symbols Grid -->
         <div class="star-symbols-grid">
           <button
-            v-for="symbol in currentCategorySymbols"
-            :key="symbol.id"
+            v-for="(star, index) in currentCategorySymbols"
+            :key="index"
             class="star-symbol-btn"
-            v-copy-allowed
-            @click="insertStarIntoText(symbol.symbol)"
-            :title="`${symbol.name} - Click to add ${symbol.symbol} to your text`"
+            @click="addToPreview(star)"
+            :title="`Click to add ${star.symbol} to preview`"
           >
-            {{ symbol.symbol }}
+            {{ star.symbol }}
           </button>
+        </div>
+
+        <!-- 新增预览区域 -->
+        <div class="preview-area">
+          <div class="preview-header">
+            <h4>Symbol Preselection Box</h4>
+            <button
+              v-if="previewSymbols.length > 0"
+              class="clear-preview-btn"
+              @click="clearPreview"
+            >
+              Clear All
+            </button>
+          </div>
+          <div class="preview-symbols" :class="{ empty: previewSymbols.length === 0 }">
+            <template v-if="previewSymbols.length > 0">
+              <span
+                v-for="(symbol, index) in previewSymbols"
+                :key="index"
+                class="preview-symbol"
+                @click="insertSymbolToText(symbol)"
+                :title="`Click to insert ${symbol} into text`"
+              >
+                {{ symbol }}
+              </span>
+            </template>
+            <span v-else class="preview-placeholder">
+              Click symbols above to add them here, then click a symbol to insert it into the text
+              box
+            </span>
+          </div>
         </div>
       </div>
 
@@ -43,7 +73,6 @@
           id="input-text"
           ref="textareaRef"
           v-model="inputText"
-          v-copy-allowed
           placeholder="Enter your text here... Click stars above to insert them anywhere!"
           rows="4"
         ></textarea>
@@ -55,20 +84,34 @@
           <div class="style-selector-left">
             <label for="style-selector">Text Style</label>
             <select id="style-selector" v-model="selectedStyle">
-              <option value="plain">Plain Text</option>
-              <option value="classic">★ Classic ★</option>
-              <option value="sparkle">✨ Sparkle ✨</option>
-              <option value="decorative">✧ Decorative ✧</option>
-              <option value="elegant">⋆ Elegant ⋆</option>
-              <option value="cosmic">🌟 Cosmic 🌟</option>
+              <option v-for="opt in styleOptions" :key="opt.value" :value="opt.value">
+                {{ opt.label }}
+              </option>
             </select>
           </div>
           <div class="style-selector-right">
             <label>Preview</label>
             <div class="style-preview">
-              <div class="preview-text">
-                {{ starStyles[selectedStyle].prefix }} Your Text
-                {{ starStyles[selectedStyle].suffix }}
+              <div
+                class="preview-text"
+                :class="{
+                  'preview-bold': selectedStyle === 'bold',
+                  'preview-large': selectedStyle === 'large',
+                  'preview-small': selectedStyle === 'small',
+                  'preview-reverse': selectedStyle === 'reverse',
+                }"
+              >
+                <template v-if="selectedStyle === 'reverse'">
+                  {{
+                    (styleOptions.find((opt) => opt.value === selectedStyle)?.prefix || '') +
+                    [...'Your Text'].reverse().join('') +
+                    (styleOptions.find((opt) => opt.value === selectedStyle)?.suffix || '')
+                  }}
+                </template>
+                <template v-else>
+                  {{ styleOptions.find((opt) => opt.value === selectedStyle)?.prefix || '' }} Your
+                  Text {{ styleOptions.find((opt) => opt.value === selectedStyle)?.suffix || '' }}
+                </template>
               </div>
             </div>
           </div>
@@ -76,23 +119,27 @@
       </div>
 
       <!-- Generate Button -->
-      <button class="generate-button" @click="generateStarText">Generate Star Text ✨</button>
+      <button class="generate-button" @click="generateStarText">Generate Fancy Text</button>
 
       <!-- Result -->
       <div class="result-group">
         <label for="generated-text">Generated Text</label>
         <div class="result-container">
-          <textarea
+          <div
             id="generated-text"
-            v-model="generatedText"
-            v-copy-allowed
-            readonly
-            rows="4"
-          ></textarea>
+            class="generated-text-content"
+            :class="{
+              'generated-large': appliedStyle === 'large',
+              'generated-small': appliedStyle === 'small',
+              'generated-bold': appliedStyle === 'bold',
+            }"
+            contenteditable="false"
+          >
+            {{ generatedText }}
+          </div>
           <button
             v-if="inputText.trim() && generatedText"
             class="copy-button"
-            v-copy-allowed
             @click="copyGeneratedText"
           >
             Copy
@@ -104,7 +151,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, nextTick, watch, onMounted } from 'vue'
 import { generatorSymbolsData } from '@/data/generatorSymbols.js'
 
 // Props
@@ -118,9 +165,11 @@ const props = defineProps({
 // Reactive data
 const inputText = ref('')
 const selectedStyle = ref('plain')
+const appliedStyle = ref('plain')
 const generatedText = ref('')
 const textareaRef = ref(null)
 const activeCategory = ref('star')
+const previewSymbols = ref([])
 
 // Category definitions
 const categories = [
@@ -207,15 +256,25 @@ const categories = [
   },
 ]
 
-// Star styles for text generator
-const starStyles = {
-  plain: { prefix: '', suffix: '', separator: ' ' },
-  classic: { prefix: '★', suffix: '★', separator: ' ✦ ' },
-  sparkle: { prefix: '✨', suffix: '✨', separator: ' ⭐ ' },
-  decorative: { prefix: '✧･ﾟ: *', suffix: '*:･ﾟ✧', separator: ' ✩ ' },
-  elegant: { prefix: '⋆｡‧˚ʚ', suffix: 'ɞ˚‧｡⋆', separator: ' ★ ' },
-  cosmic: { prefix: '🌟', suffix: '🌟', separator: ' 💫 ' },
-}
+// 用数组统一风格配置
+const styleOptions = [
+  {
+    label: 'Bold',
+    value: 'bold',
+  },
+  {
+    label: 'Large',
+    value: 'large',
+  },
+  {
+    label: 'Small',
+    value: 'small',
+  },
+  {
+    label: 'Reverse',
+    value: 'reverse',
+  },
+]
 
 // Computed properties
 const currentCategorySymbols = computed(() => {
@@ -233,16 +292,16 @@ const generateStarText = () => {
     generatedText.value = ''
     return
   }
+  appliedStyle.value = selectedStyle.value
+  let text = inputText.value.trim()
 
-  const style = starStyles[selectedStyle.value]
-  const words = inputText.value.trim().split(' ')
-  const decoratedText = words.join(style.separator)
-
-  if (selectedStyle.value === 'plain') {
-    generatedText.value = decoratedText
-  } else {
-    generatedText.value = `${style.prefix} ${decoratedText} ${style.suffix}`
+  // 根据样式生成文本
+  let styledText = text
+  if (appliedStyle.value === 'reverse') {
+    styledText = text.split('').reverse().join('')
   }
+
+  generatedText.value = styledText
 }
 
 const copyGeneratedText = async () => {
@@ -252,7 +311,14 @@ const copyGeneratedText = async () => {
   }
 
   try {
-    await navigator.clipboard.writeText(generatedText.value)
+    const text = document.getElementById('generated-text')
+    const selection = window.getSelection()
+    const range = document.createRange()
+    range.selectNodeContents(text)
+    selection.removeAllRanges()
+    selection.addRange(range)
+    document.execCommand('copy')
+    selection.removeAllRanges()
     props.showToast('Generated text copied to clipboard!')
   } catch (err) {
     console.error('Copy failed: ', err)
@@ -260,21 +326,62 @@ const copyGeneratedText = async () => {
   }
 }
 
-const insertStarIntoText = (star) => {
-  const textarea = textareaRef.value
-  if (!textarea) return
+const addToPreview = (symbolObj) => {
+  previewSymbols.value.push(symbolObj.symbol)
+}
 
+// Cookie操作函数
+function setCookie(name, value, days = 30) {
+  const expires = new Date(Date.now() + days * 864e5).toUTCString()
+  document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=/'
+}
+function getCookie(name) {
+  return document.cookie.split('; ').reduce((r, v) => {
+    const parts = v.split('=')
+    return parts[0] === name ? decodeURIComponent(parts[1]) : r
+  }, '')
+}
+function deleteCookie(name) {
+  setCookie(name, '', -1)
+}
+
+// 页面加载时从cookie恢复
+onMounted(() => {
+  const cookieVal = getCookie('previewSymbols')
+  if (cookieVal) {
+    try {
+      const arr = JSON.parse(cookieVal)
+      if (Array.isArray(arr)) previewSymbols.value = arr
+    } catch {}
+  }
+})
+
+// 监听previewSymbols变化，写入cookie
+watch(
+  previewSymbols,
+  (val) => {
+    setCookie('previewSymbols', JSON.stringify(val))
+  },
+  { deep: true }
+)
+
+// 清空时同步清空cookie
+const clearPreview = () => {
+  previewSymbols.value = []
+  deleteCookie('previewSymbols')
+}
+
+const insertSymbolToText = (symbol) => {
+  const textarea = document.getElementById('input-text')
+  if (!textarea) return
   const start = textarea.selectionStart
   const end = textarea.selectionEnd
   const text = inputText.value
-
-  inputText.value = text.substring(0, start) + star + text.substring(end)
-
-  // Set cursor position after the inserted star
-  setTimeout(() => {
+  inputText.value = text.substring(0, start) + symbol + text.substring(end)
+  nextTick(() => {
     textarea.focus()
-    textarea.setSelectionRange(start + star.length, start + star.length)
-  }, 0)
+    textarea.setSelectionRange(start + symbol.length, start + symbol.length)
+  })
 }
 </script>
 
@@ -505,6 +612,104 @@ const insertStarIntoText = (star) => {
   background: #5a67d8;
 }
 
+/* 预览区域样式 */
+.preview-area {
+  margin-top: 1rem;
+  background: #f8f9ff;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid #ececff;
+}
+
+.preview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.preview-header h4 {
+  font-size: 0.9rem;
+  color: #4f46e5;
+  margin: 0;
+  font-weight: 600;
+}
+
+.clear-preview-btn {
+  background: none;
+  border: none;
+  color: #667eea;
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.clear-preview-btn:hover {
+  background: #f0f4ff;
+  color: #4f46e5;
+}
+
+.preview-symbols {
+  min-height: 60px;
+  background: white;
+  border-radius: 6px;
+  padding: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #ececff;
+}
+
+.preview-symbols:hover {
+  border-color: #bdb7f7;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.08);
+}
+
+.preview-symbols.empty {
+  align-items: center;
+  justify-content: center;
+  background: #fafaff;
+}
+
+.preview-symbol {
+  font-size: 1.2rem;
+  padding: 0.3rem 0.6rem;
+  background: #f0f4ff;
+  border-radius: 4px;
+  color: #4f46e5;
+  transition: all 0.2s ease;
+}
+
+.preview-symbol:hover {
+  transform: scale(1.1);
+  background: #e6eaff;
+}
+
+.preview-placeholder {
+  color: #8b8fa7;
+  font-size: 0.85rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.preview-bold {
+  font-weight: bold;
+}
+.preview-large {
+  font-size: 2rem;
+}
+.preview-small {
+  font-size: 0.7rem;
+}
+.preview-reverse {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .star-picker-section {
@@ -554,6 +759,24 @@ const insertStarIntoText = (star) => {
   .form-group select {
     padding: 0.6rem;
     font-size: 0.85rem;
+  }
+
+  .preview-area {
+    padding: 0.8rem;
+  }
+
+  .preview-symbols {
+    min-height: 50px;
+    padding: 0.6rem;
+  }
+
+  .preview-symbol {
+    font-size: 1.1rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .preview-placeholder {
+    font-size: 0.8rem;
   }
 }
 
@@ -611,8 +834,61 @@ const insertStarIntoText = (star) => {
     font-size: 0.85rem;
   }
 
-  .preview-text {
-    font-size: 0.85rem;
+  .preview-area {
+    padding: 0.6rem;
   }
+
+  .preview-symbols {
+    min-height: 45px;
+    padding: 0.5rem;
+  }
+
+  .preview-symbol {
+    font-size: 1rem;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .preview-placeholder {
+    font-size: 0.75rem;
+  }
+}
+
+/* 生成文本样式 */
+.generated-text-content {
+  padding: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  background: #f8f9ff;
+  width: 100%;
+  min-height: 100px;
+  outline: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+.generated-text-content:focus {
+  border-color: #667eea;
+}
+
+.generated-text-content[contenteditable='true']:empty:before {
+  content: 'Generated text will appear here...';
+  color: #999;
+}
+
+/* 样式类 */
+.generated-bold {
+  font-weight: bold !important;
+}
+
+.generated-large {
+  font-size: 2rem !important;
+  line-height: 1.2;
+}
+
+.generated-small {
+  font-size: 0.7rem !important;
+  line-height: 1.2;
 }
 </style>

@@ -16,7 +16,6 @@
         v-for="(symbol, index) in currentSymbols"
         :key="index"
         class="symbol-button"
-        v-copy-allowed
         @click="copySymbol(symbol)"
       >
         {{ symbol }}
