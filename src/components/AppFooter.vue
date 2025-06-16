@@ -8,6 +8,13 @@
             <h3>StarSymbols</h3>
           </div>
           <p>Your one-stop toolkit for symbols, generators, and creative text art.</p>
+          <ul>
+            <li>
+              <a href="toolpilot.ai/" target="_blank">
+                <img src="/images/icon_1.svg" alt="toolpilot" srcset="/images/icon_1.svg" />
+              </a>
+            </li>
+          </ul>
           <div class="footer-copyright">© 2025 StarSymbols. All rights reserved.</div>
         </div>
 
@@ -67,6 +74,32 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.footer-brand ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-brand ul li {
+  list-style: none;
+}
+
+.footer-brand ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.footer-brand ul li a img {
+  width: 20px;
+  height: 20px;
+  color: white;
 }
 
 .footer-logo {
