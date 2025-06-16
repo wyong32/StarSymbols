@@ -98,9 +98,14 @@
             <div class="result-section" v-if="result" :class="{ 'dark-theme': darkTheme }">
               <div class="result-header">
                 <h3>Text Art Result</h3>
-                <button @click="copyResult" class="copy-btn-header" :disabled="!result">
-                  📋 Copy Result
-                </button>
+                <div class="result-actions">
+                  <button @click="downloadAsImage" class="download-btn-header" :disabled="!result">
+                    💾 Download
+                  </button>
+                  <button @click="copyResult" class="copy-btn-header" :disabled="!result">
+                    📋 Copy Result
+                  </button>
+                </div>
               </div>
               <div class="result-container">
                 <pre class="result-text">{{ result }}</pre>
@@ -226,6 +231,7 @@ import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { createImageCanvas, canvasToText } from '@/utils/brailleConverter.js'
 import { copyProtection } from '@/utils/copyProtection.js'
+import html2canvas from 'html2canvas'
 
 // Reactive data
 const fileInput = ref(null)
@@ -398,6 +404,54 @@ onUnmounted(() => {
   document.removeEventListener('paste', handlePaste)
   window.removeEventListener('resize', handleResize)
 })
+
+// 添加下载功能
+const downloadAsImage = async () => {
+  if (!result.value) return
+
+  try {
+    showToastMessage('Preparing download...')
+
+    // 创建一个临时div来渲染文本
+    const tempDiv = document.createElement('div')
+    tempDiv.style.cssText = `
+      position: absolute;
+      left: -9999px;
+      top: -9999px;
+      white-space: pre;
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      line-height: 1;
+      background: ${darkTheme.value ? '#000' : '#fff'};
+      color: ${darkTheme.value ? '#fff' : '#000'};
+      padding: 20px;
+    `
+    tempDiv.textContent = result.value
+    document.body.appendChild(tempDiv)
+
+    // 使用html2canvas将文本转换为图片
+    const canvas = await html2canvas(tempDiv, {
+      backgroundColor: darkTheme.value ? '#000' : '#fff',
+      scale: 2, // 提高清晰度
+      logging: false,
+      useCORS: true,
+    })
+
+    // 移除临时div
+    document.body.removeChild(tempDiv)
+
+    // 转换为图片并下载
+    const link = document.createElement('a')
+    link.download = 'ascii-art.png'
+    link.href = canvas.toDataURL('image/png')
+    link.click()
+
+    showToastMessage('Image downloaded successfully!')
+  } catch (error) {
+    console.error('Download failed:', error)
+    showToastMessage('Download failed, please try again')
+  }
+}
 </script>
 
 <style scoped>
@@ -774,6 +828,34 @@ onUnmounted(() => {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.result-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.download-btn-header {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.download-btn-header:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px);
+}
+
+.download-btn-header:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .result-header h3 {

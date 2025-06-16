@@ -7,6 +7,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed'], // 分类（数组形式）
     slug: 'black-star', // 链接
     unicode: 'U+2605', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '★ Black Star Symbol - Copy and Paste Unicode Star | StarSymbols',
       description:
@@ -94,6 +95,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed'], // 分类（数组形式）
     slug: 'white-star', // 链接
     unicode: 'U+2606', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '☆ White Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -180,6 +182,7 @@ export const starDetailsData = [
     categories: ['classic', 'six-pointed', 'religious'], // 分类（数组形式，属于多个分类）
     slug: 'star-of-david', // 链接
     unicode: 'U+2721', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✡ Star of David Symbol - Copy and Paste Unicode Symbol',
       description:
@@ -264,6 +267,7 @@ export const starDetailsData = [
     categories: ['classic', 'four-pointed'], // 分类（数组形式）
     slug: 'black-four-pointed-star', // 链接
     unicode: 'U+2726', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✦ Black Four Pointed Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -348,6 +352,7 @@ export const starDetailsData = [
     categories: ['classic', 'four-pointed'], // 分类（数组形式）
     slug: 'white-four-pointed-star', // 链接
     unicode: 'U+2727', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✧ White Four Pointed Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -432,6 +437,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed'], // 分类（数组形式）
     slug: 'stress-outlined-white-star', // 链接
     unicode: 'U+2729', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✩ Stress Outlined White Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -516,6 +522,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed'], // 分类（数组形式）
     slug: 'circled-white-star', // 链接
     unicode: 'U+272A', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✪ Circled White Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -600,6 +607,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed'], // 分类（数组形式）
     slug: 'open-centre-black-star', // 链接
     unicode: 'U+272B', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✫ Open Centre Black Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -684,6 +692,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed'], // 分类（数组形式）
     slug: 'black-centre-white-star', // 链接
     unicode: 'U+272C', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✬ Black Centre White Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -768,6 +777,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed'], // 分类（数组形式）
     slug: 'outlined-black-star', // 链接
     unicode: 'U+272D', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✭ Outlined Black Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -852,6 +862,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed'], // 分类（数组形式）
     slug: 'heavy-outlined-black-star', // 链接
     unicode: 'U+272E', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✮ Heavy Outlined Black Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -936,6 +947,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed'], // 分类（数组形式）
     slug: 'pinwheel-star', // 链接
     unicode: 'U+272F', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✯ Pinwheel Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -1020,6 +1032,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed'], // 分类（数组形式）
     slug: 'white-small-star', // 链接
     unicode: 'U+2B52', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '⭒ White Small Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -1104,6 +1117,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed'], // 分类（数组形式）
     slug: 'black-small-star', // 链接
     unicode: 'U+2B51', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '⭑ Black Small Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -1188,6 +1202,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed'], // 分类（数组形式）
     slug: 'shadowed-white-star', // 链接
     unicode: 'U+2730', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✰ Shadowed White Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -1272,6 +1287,7 @@ export const starDetailsData = [
     categories: ['six-pointed', 'other'], // 分类（数组形式）
     slug: 'asterism', // 链接
     unicode: 'U+2042', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '⁂ Asterism Symbol - Copy and Paste Unicode Star',
       description:
@@ -1356,6 +1372,7 @@ export const starDetailsData = [
     categories: ['six-pointed', 'classic'], // 分类（数组形式）
     slug: 'low-asterisk', // 链接
     unicode: 'U+204E', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '⁎ Low Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -1440,6 +1457,7 @@ export const starDetailsData = [
     categories: ['six-pointed', 'other'], // 分类（数组形式）
     slug: 'two-asterisks-aligned-vertically', // 链接
     unicode: 'U+2051', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '⁑ Two Asterisks Aligned Vertically Symbol - Copy and Paste Unicode Star',
       description:
@@ -1524,6 +1542,7 @@ export const starDetailsData = [
     categories: ['other', 'four-pointed'], // 分类（数组形式）
     slug: 'four-teardrop-spoked-asterisk', // 链接
     unicode: 'U+2722', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✢ Four Teardrop-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -1608,6 +1627,7 @@ export const starDetailsData = [
     categories: ['other', 'four-pointed'], // 分类（数组形式）
     slug: 'four-balloon-spoked-asterisk', // 链接
     unicode: 'U+2723', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✣ Four Balloon-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -1692,6 +1712,7 @@ export const starDetailsData = [
     categories: ['other', 'four-pointed'], // 分类（数组形式）
     slug: 'heavy-four-balloon-spoked-asterisk', // 链接
     unicode: 'U+2724', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✤ Heavy Four Balloon-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -1776,6 +1797,7 @@ export const starDetailsData = [
     categories: ['other', 'four-pointed'], // 分类（数组形式）
     slug: 'four-club-spoked-asterisk', // 链接
     unicode: 'U+2725', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✥ Four Club-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -1859,6 +1881,7 @@ export const starDetailsData = [
     categories: ['six-pointed'], // 分类（数组形式）
     slug: 'heavy-asterisk', // 链接
     unicode: 'U+2731', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✱ Heavy Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -1942,6 +1965,7 @@ export const starDetailsData = [
     categories: ['classic', 'six-pointed'], // 分类（数组形式）
     slug: 'open-centre-asterisk', // 链接
     unicode: 'U+2732', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✲ Open Centre Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -2025,6 +2049,7 @@ export const starDetailsData = [
     categories: ['classic', 'multi-pointed'], // 分类（数组形式）
     slug: 'eight-spoked-asterisk', // 链接
     unicode: 'U+2733', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✳ Eight Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -2113,6 +2138,7 @@ export const starDetailsData = [
     categories: ['classic', 'multi-pointed'], // 分类（数组形式）
     slug: 'eight-pointed-black-star', // 链接
     unicode: 'U+2734', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✴ Eight Pointed Black Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -2201,6 +2227,7 @@ export const starDetailsData = [
     categories: ['classic', 'multi-pointed'], // 分类（数组形式）
     slug: 'eight-pointed-pinwheel-star', // 链接
     unicode: 'U+2735', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✵ Eight Pointed Pinwheel Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -2289,6 +2316,7 @@ export const starDetailsData = [
     categories: ['classic', 'six-pointed'], // 分类（数组形式）
     slug: 'six-pointed-black-star', // 链接
     unicode: 'U+2736', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✶ Six Pointed Black Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -2377,6 +2405,7 @@ export const starDetailsData = [
     categories: ['classic', 'multi-pointed'], // 分类（数组形式）
     slug: 'eight-pointed-rectilinear-black-star', // 链接
     unicode: 'U+2737', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✷ Eight Pointed Rectilinear Black Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -2465,6 +2494,7 @@ export const starDetailsData = [
     categories: ['classic', 'multi-pointed'], // 分类（数组形式）
     slug: 'heavy-eight-pointed-rectilinear-black-star', // 链接
     unicode: 'U+2738', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✸ Heavy Eight Pointed Rectilinear Black Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -2553,6 +2583,7 @@ export const starDetailsData = [
     categories: ['classic', 'multi-pointed'], // 分类（数组形式）
     slug: 'twelve-pointed-black-star', // 链接
     unicode: 'U+2739', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✹ Twelve Pointed Black Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -2641,6 +2672,7 @@ export const starDetailsData = [
     categories: ['multi-pointed'], // 分类（数组形式）
     slug: 'sixteen-pointed-asterisk', // 链接
     unicode: 'U+273A', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✺ Sixteen Pointed Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -2729,6 +2761,7 @@ export const starDetailsData = [
     categories: ['six-pointed'], // 分类（数组形式）
     slug: 'teardrop-spoked-asterisk', // 链接
     unicode: 'U+273B', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✻ Teardrop-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -2817,6 +2850,7 @@ export const starDetailsData = [
     categories: ['six-pointed'], // 分类（数组形式）
     slug: 'open-centre-teardrop-spoked-asterisk', // 链接
     unicode: 'U+273C', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✼ Open Centre Teardrop-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -2905,6 +2939,7 @@ export const starDetailsData = [
     categories: ['six-pointed'], // 分类（数组形式）
     slug: 'heavy-teardrop-spoked-asterisk', // 链接
     unicode: 'U+273D', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✽ Heavy Teardrop-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -2993,6 +3028,7 @@ export const starDetailsData = [
     categories: ['six-pointed', 'other'], // 分类（数组形式）
     slug: 'six-petalled-black-and-white-florette', // 链接
     unicode: 'U+273E', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✾ Six Petalled Black And White Florette Symbol - Copy and Paste Unicode Star',
       description:
@@ -3081,6 +3117,7 @@ export const starDetailsData = [
     categories: ['six-pointed', 'other'], // 分类（数组形式）
     slug: 'black-florette', // 链接
     unicode: 'U+273F', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✿ Black Florette Symbol - Copy and Paste Unicode Star',
       description:
@@ -3173,6 +3210,7 @@ export const starDetailsData = [
     categories: ['six-pointed', 'other'], // 分类（数组形式）
     slug: 'white-florette', // 链接
     unicode: 'U+2740', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '❀ White Florette Symbol - Copy and Paste Unicode Star',
       description:
@@ -3265,6 +3303,7 @@ export const starDetailsData = [
     categories: ['multi-pointed', 'other'], // 分类（数组形式）
     slug: 'eight-petalled-outlined-black-florette', // 链接
     unicode: 'U+2741', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '❁ Eight Petalled Outlined Black Florette Symbol - Copy and Paste Unicode Star',
       description:
@@ -3357,6 +3396,7 @@ export const starDetailsData = [
     categories: ['multi-pointed', 'other'], // 分类（数组形式）
     slug: 'circled-open-centre-eight-pointed-star', // 链接
     unicode: 'U+2742', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '❂ Circled Open Centre Eight Pointed Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -3449,6 +3489,7 @@ export const starDetailsData = [
     categories: ['multi-pointed', 'other'], // 分类（数组形式）
     slug: 'heavy-teardrop-spoked-pinwheel-asterisk', // 链接
     unicode: 'U+2743', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '❃ Heavy Teardrop-Spoked Pinwheel Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -3541,6 +3582,7 @@ export const starDetailsData = [
     categories: ['multi-pointed', 'other'], // 分类（数组形式）
     slug: 'sparkle', // 链接
     unicode: 'U+2747', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '❇ Sparkle Symbol - Copy and Paste Unicode Star',
       description:
@@ -3633,6 +3675,7 @@ export const starDetailsData = [
     categories: ['multi-pointed', 'other'], // 分类（数组形式）
     slug: 'heavy-sparkle', // 链接
     unicode: 'U+2748', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '❈ Heavy Sparkle Symbol - Copy and Paste Unicode Star',
       description:
@@ -3725,6 +3768,7 @@ export const starDetailsData = [
     categories: ['multi-pointed', 'other'], // 分类（数组形式）
     slug: 'balloon-spoked-asterisk', // 链接
     unicode: 'U+2749', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '❉ Balloon-Spoked Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -3817,6 +3861,7 @@ export const starDetailsData = [
     categories: ['multi-pointed', 'other'], // 分类（数组形式）
     slug: 'eight-teardrop-spoked-propeller-asterisk', // 链接
     unicode: 'U+274A', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '❊ Eight Teardrop-Spoked Propeller Asterisk Symbol - Copy and Paste Unicode Star',
       description:
@@ -3909,6 +3954,7 @@ export const starDetailsData = [
     categories: ['multi-pointed', 'other'], // 分类（数组形式）
     slug: 'heavy-eight-teardrop-spoked-propeller-asterisk', // 链接
     unicode: 'U+274B', // 编码
+    date: 'June 10, 2025',
     seo: {
       title:
         '❋ Heavy Eight Teardrop-Spoked Propeller Asterisk Symbol - Copy and Paste Unicode Star',
@@ -4002,6 +4048,7 @@ export const starDetailsData = [
     categories: ['multi-pointed', 'other'], // 分类（数组形式）
     slug: 'snowflake', // 链接
     unicode: 'U+2744', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '❄ Snowflake Symbol - Copy and Paste Unicode Winter Icon',
       description:
@@ -4095,6 +4142,7 @@ export const starDetailsData = [
     categories: ['multi-pointed', 'other'], // 分类（数组形式）
     slug: 'heavy-chevron-snowflake', // 链接
     unicode: 'U+2746', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '❆ Heavy Chevron Snowflake Symbol - Copy and Paste Unicode Winter Icon',
       description:
@@ -4187,6 +4235,7 @@ export const starDetailsData = [
     categories: ['multi-pointed', 'other'], // 分类（数组形式）
     slug: 'tight-trifoliate-snowflake', // 链接
     unicode: 'U+2745', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '❅ Tight Trifoliate Snowflake Symbol - Copy and Paste Unicode Winter Icon',
       description:
@@ -4279,6 +4328,7 @@ export const starDetailsData = [
     categories: ['math', 'five-pointed'], // 分类（数组形式）
     slug: 'star-operator', // 链接
     unicode: 'U+22C6', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '⋆ Star Operator Symbol - Copy and Paste Unicode Math Star',
       description:
@@ -4364,6 +4414,7 @@ export const starDetailsData = [
     categories: ['math', 'other'], // 分类（数组形式）
     slug: 'star-equals', // 链接
     unicode: 'U+225B', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '≛ Star Equals Symbol - Copy and Paste Unicode Math Symbol',
       description:
@@ -4449,6 +4500,7 @@ export const starDetailsData = [
     categories: ['religious', 'other'], // 分类（数组形式）
     slug: 'canadian-syllabics-tth', // 链接
     unicode: 'U+157F', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: 'ᕯ Canadian Syllabics Tth Symbol - Copy and Paste Unicode Symbol',
       description:
@@ -4535,6 +4587,7 @@ export const starDetailsData = [
     categories: ['other'], // 分类（数组形式）
     slug: 'tibetan-sign-rdel-nag-gsum', // 链接
     unicode: 'U+0FDF', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '࿏ Tibetan Sign Rdel Nag Gsum - Copy and Paste Unicode Symbol',
       description:
@@ -4621,6 +4674,7 @@ export const starDetailsData = [
     categories: ['other'], // 分类（数组形式）
     slug: 'combining-cyrillic-ten-millions-sign', // 链接
     unicode: 'U+A670', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '꙰ Combining Cyrillic Ten Millions Sign - Copy and Paste Unicode',
       description:
@@ -4708,6 +4762,7 @@ export const starDetailsData = [
     categories: ['religious', 'other'], // 分类（数组形式）
     slug: 'arabic-start-of-rub-el-hizb', // 链接
     unicode: 'U+06DE', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '۞ Arabic Start Of Rub El Hizb Symbol - Copy and Paste Unicode',
       description:
@@ -4805,6 +4860,7 @@ export const starDetailsData = [
     categories: ['math', 'other', 'five-pointed'], // 分类（数组形式）
     slug: 'apl-functional-symbol-circle-star', // 链接
     unicode: 'U+235F', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '⍟ Apl Functional Symbol Circle Star - Copy and Paste Unicode',
       description:
@@ -4901,6 +4957,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed', 'emoji'], // 分类（数组形式，属于多个分类）
     slug: 'white-medium-star', // 链接
     unicode: 'U+2B50', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '⭐ White Medium Star Symbol - Copy and Paste Unicode Star',
       description:
@@ -4998,6 +5055,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed', 'emoji'], // 分类（数组形式）
     slug: 'shooting-star', // 链接
     unicode: 'U+1F320', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '🌠 Shooting Star Emoji - Copy and Paste Unicode',
       description:
@@ -5093,6 +5151,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed', 'emoji'], // 分类（数组形式）
     slug: 'glowing-star', // 链接
     unicode: 'U+1F31F', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '🌟 Glowing Star Emoji - Copy and Paste Unicode',
       description:
@@ -5189,6 +5248,7 @@ export const starDetailsData = [
     categories: ['classic', 'five-pointed', 'emoji'], // 分类（数组形式）
     slug: 'dizzy-symbol', // 链接
     unicode: 'U+1F4AB', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '💫 Dizzy Symbol Emoji - Copy and Paste Unicode',
       description:
@@ -5284,6 +5344,7 @@ export const starDetailsData = [
     categories: ['classic', 'four-pointed', 'emoji'], // 分类（数组形式，属于多个分类）
     slug: 'sparkles', // 链接
     unicode: 'U+2728', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '✨ Sparkles Emoji - Copy and Paste Unicode',
       description:
@@ -5378,6 +5439,7 @@ export const starDetailsData = [
     categories: ['emoji', 'other'], // 分类（数组形式）
     slug: 'night-with-stars', // 链接
     unicode: 'U+1F303', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '🌃 Night With Stars Emoji - Copy and Paste Unicode',
       description:
@@ -5473,6 +5535,7 @@ export const starDetailsData = [
     categories: ['emoji', 'four-pointed'], // 分类（数组形式）
     slug: 'six-pointed-star-with-middle-dot', // 链接
     unicode: 'U+1F52F', // 编码
+    date: 'June 10, 2025',
     seo: {
       title: '🔯 Six Pointed Star With Middle Dot Emoji - Copy and Paste Unicode',
       description:

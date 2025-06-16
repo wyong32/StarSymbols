@@ -17,7 +17,7 @@
             :class="{ active: activeCategory === category.id }"
             @click="setActiveCategory(category.id)"
           >
-            {{ category.name }}
+            {{ isMobile ? category.mobileName : category.name }}
           </button>
         </div>
 
@@ -151,7 +151,7 @@
 </template>
 
 <script setup>
-import { ref, computed, nextTick, watch, onMounted } from 'vue'
+import { ref, computed, nextTick, watch, onMounted, onUnmounted } from 'vue'
 import { generatorSymbolsData } from '@/data/generatorSymbols.js'
 
 // Props
@@ -170,88 +170,120 @@ const generatedText = ref('')
 const textareaRef = ref(null)
 const activeCategory = ref('star')
 const previewSymbols = ref([])
+const isMobile = ref(false)
+
+// 检测是否为移动设备
+const checkMobile = () => {
+  isMobile.value = window.innerWidth <= 768
+}
+
+// 监听窗口大小变化
+onMounted(() => {
+  checkMobile()
+  window.addEventListener('resize', checkMobile)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', checkMobile)
+})
 
 // Category definitions
 const categories = [
   {
     id: 'star',
     name: 'Stars Symbols',
+    mobileName: 'Stars',
     description: 'Star symbols',
   },
   {
     id: 'heart',
     name: 'Hearts Symbols',
+    mobileName: 'Hearts',
     description: 'Heart symbols',
   },
   {
     id: 'arrow',
     name: 'Arrows Symbols',
+    mobileName: 'Arrows',
     description: 'Arrow symbols',
   },
 
   {
     id: 'sun',
     name: 'Sun Symbols',
+    mobileName: 'Sun',
     description: 'Sun symbols',
   },
   {
     id: 'moon',
     name: 'Moon Symbols',
+    mobileName: 'Moon',
     description: 'Moon symbols',
   },
   {
     id: 'smiley',
     name: 'Smiley Symbols',
+    mobileName: 'Smiley',
     description: 'Smiley symbols',
   },
   {
     id: 'hand',
     name: 'Hands Symbols',
+    mobileName: 'Hands',
     description: 'Hand symbols',
   },
   {
     id: 'triangle',
     name: 'Triangle Symbols',
+    mobileName: 'Triangle',
     description: 'Triangle symbols',
   },
   {
     id: 'circle',
     name: 'Circle Symbols',
+    mobileName: 'Circle',
     description: 'Circle symbols',
   },
   {
     id: 'square',
     name: 'Square Symbols',
+    mobileName: 'Square',
     description: 'Square symbols',
   },
   {
     id: 'rectangle',
     name: 'Rectangle Symbols',
+    mobileName: 'Rectangle',
     description: 'Rectangle  symbols',
   },
   {
     id: 'math',
     name: 'Math Symbols',
+    mobileName: 'Math',
     description: 'Math symbols',
   },
   {
     id: 'athena',
     name: 'Athena Symbols',
+    mobileName: 'Athena',
     description: 'Athena symbols',
   },
   {
     id: 'fruit',
     name: 'Fruit Symbols',
+    mobileName: 'Fruit',
     description: 'Fruit  symbols',
   },
   {
     id: 'religious-and-symbols',
     name: 'Religious and Symbols',
+    mobileName: 'Religious',
     description: 'Religious and symbols',
   },
   {
     id: 'hanging-star',
     name: 'Hanging star Symbol',
+    mobileName: 'Hanging',
     description: 'Hanging star symbol',
   },
 ]
@@ -423,23 +455,26 @@ const insertSymbolToText = (symbol) => {
 
 /* Category Tabs */
 .category-tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.75rem;
   margin-bottom: 1.5rem;
-  justify-content: center;
+  padding: 0 1rem;
 }
 
 .category-tab {
-  padding: 0.5rem 1rem;
-  border: 2px solid #e5e7eb;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid #e0e0e0;
   background: white;
-  border-radius: 20px;
-  font-size: 0.9rem;
+  border-radius: 25px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
-  color: #6b7280;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .category-tab:hover {
@@ -449,8 +484,8 @@ const insertSymbolToText = (symbol) => {
 
 .category-tab.active {
   background: #667eea;
-  border-color: #667eea;
   color: white;
+  border-color: #667eea;
 }
 
 /* Star Symbols Grid */
@@ -711,145 +746,37 @@ const insertSymbolToText = (symbol) => {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-  .star-picker-section {
-    padding: 1rem;
-  }
-
-  .star-picker-header h3 {
-    font-size: 1.1rem;
-  }
-
-  .star-picker-header p {
-    font-size: 0.85rem;
-  }
-
+@media (max-width: 1024px) {
   .category-tabs {
-    gap: 0.3rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+    padding: 0 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .category-tabs {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
   }
 
   .category-tab {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.85rem;
-  }
-
-  .star-symbols-grid {
-    gap: 0.4rem;
-    max-height: 150px;
-  }
-
-  .star-symbol-btn {
-    min-width: 40px;
-    height: 40px;
-    font-size: 1.1rem;
-    padding: 0 0.4rem;
-  }
-
-  .style-selector-container {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .generate-button {
-    padding: 0.6rem 1.5rem;
-    font-size: 1rem;
-  }
-
-  .form-group textarea,
-  .form-group select {
-    padding: 0.6rem;
-    font-size: 0.85rem;
-  }
-
-  .preview-area {
-    padding: 0.8rem;
-  }
-
-  .preview-symbols {
-    min-height: 50px;
-    padding: 0.6rem;
-  }
-
-  .preview-symbol {
-    font-size: 1.1rem;
-    padding: 0.2rem 0.5rem;
-  }
-
-  .preview-placeholder {
-    font-size: 0.8rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.9rem;
   }
 }
 
 @media (max-width: 480px) {
-  .star-picker-section {
-    padding: 0.8rem;
-  }
-
-  .star-picker-header h3 {
-    font-size: 1rem;
-  }
-
-  .star-picker-header p {
-    font-size: 0.8rem;
-  }
-
   .category-tabs {
-    gap: 0.25rem;
-  }
-
-  .category-tab {
-    padding: 0.3rem 0.6rem;
-    font-size: 0.8rem;
-  }
-
-  .star-symbols-grid {
     gap: 0.3rem;
-    max-height: 120px;
-  }
-
-  .star-symbol-btn {
-    min-width: 35px;
-    height: 35px;
-    font-size: 1rem;
     padding: 0 0.3rem;
   }
 
-  .generate-button {
-    padding: 0.5rem 1.2rem;
-    font-size: 0.9rem;
-  }
-
-  .form-group textarea,
-  .form-group select {
-    padding: 0.5rem;
-    font-size: 0.8rem;
-  }
-
-  .form-group label {
+  .category-tab {
+    padding: 0.25rem 0.4rem;
     font-size: 0.85rem;
-  }
-
-  .copy-button {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.85rem;
-  }
-
-  .preview-area {
-    padding: 0.6rem;
-  }
-
-  .preview-symbols {
-    min-height: 45px;
-    padding: 0.5rem;
-  }
-
-  .preview-symbol {
-    font-size: 1rem;
-    padding: 0.2rem 0.4rem;
-  }
-
-  .preview-placeholder {
-    font-size: 0.75rem;
   }
 }
 

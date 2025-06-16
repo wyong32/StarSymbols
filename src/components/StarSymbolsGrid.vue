@@ -7,7 +7,7 @@
         :class="['tab-button', { active: activeTab === tab.id }]"
         @click="activeTab = tab.id"
       >
-        {{ tab.name }}
+        {{ isMobile ? tab.mobileName : tab.name }}
       </button>
     </div>
 
@@ -25,7 +25,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { starSymbolsData } from '@/data/starSymbols.js'
 
 // Props
@@ -38,19 +38,35 @@ const props = defineProps({
 
 // Reactive data
 const activeTab = ref('classic')
+const isMobile = ref(false)
+
+// 检测是否为移动设备
+const checkMobile = () => {
+  isMobile.value = window.innerWidth <= 768
+}
+
+// 监听窗口大小变化
+onMounted(() => {
+  checkMobile()
+  window.addEventListener('resize', checkMobile)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', checkMobile)
+})
 
 // Symbol data
 const symbolTabs = [
   // { id: 'all', name: 'All Stars' },
-  { id: 'classic', name: 'Classic Star' },
-  { id: 'four-pointed', name: 'Four-Pointed Star' },
-  { id: 'five-pointed', name: 'Five-Pointed Star' },
-  { id: 'six-pointed', name: 'Six-Pointed Star' },
-  { id: 'multi-pointed', name: 'Multi-pointed Star' },
-  { id: 'religious', name: 'Religious Star' },
-  { id: 'emoji', name: 'Emoji Star' },
-  { id: 'math', name: 'Math symbols star' },
-  { id: 'other', name: 'Other stars' },
+  { id: 'classic', name: 'Classic Star', mobileName: 'Classic' },
+  { id: 'four-pointed', name: 'Four-Pointed Star', mobileName: 'Four' },
+  { id: 'five-pointed', name: 'Five-Pointed Star', mobileName: 'Five' },
+  { id: 'six-pointed', name: 'Six-Pointed Star', mobileName: 'Six' },
+  { id: 'multi-pointed', name: 'Multi-pointed Star', mobileName: 'Multi' },
+  { id: 'religious', name: 'Religious Star', mobileName: 'Religious' },
+  { id: 'emoji', name: 'Emoji Star', mobileName: 'Emoji' },
+  { id: 'math', name: 'Math symbols star', mobileName: 'Math' },
+  { id: 'other', name: 'Other stars', mobileName: 'Other' },
 ]
 
 // Computed properties
@@ -85,11 +101,11 @@ const copySymbol = async (symbol) => {
 
 <style scoped>
 .tab-buttons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.75rem;
   margin-bottom: 2rem;
+  padding: 0 1rem;
 }
 
 .tab-button {
@@ -100,6 +116,11 @@ const copySymbol = async (symbol) => {
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .tab-button:hover {
@@ -143,6 +164,14 @@ const copySymbol = async (symbol) => {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+  .tab-buttons {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+    padding: 0 0.75rem;
+  }
+}
+
 @media (max-width: 768px) {
   .symbols-grid {
     grid-template-columns: repeat(auto-fill, 46px);
@@ -156,13 +185,27 @@ const copySymbol = async (symbol) => {
   }
 
   .tab-buttons {
-    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem;
     margin-bottom: 1rem;
+    padding: 0 0.5rem;
   }
 
   .tab-button {
-    padding: 0.3rem 1rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tab-buttons {
+    gap: 0.3rem;
+    padding: 0 0.3rem;
+  }
+
+  .tab-button {
+    padding: 0.25rem 0.4rem;
+    font-size: 0.85rem;
   }
 }
 </style>

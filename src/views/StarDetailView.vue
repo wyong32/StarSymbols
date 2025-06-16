@@ -19,7 +19,7 @@
         <div class="star-content">
           <!-- Page Title -->
           <h1 class="page-title">{{ star.name }}</h1>
-          <p class="star-meta">2025-06-12</p>
+          <p class="star-meta">{{ star.date }}</p>
 
           <!-- Star Display and Technical Info Section -->
           <div class="star-info-section">
