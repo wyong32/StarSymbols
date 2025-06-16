@@ -9,7 +9,7 @@
         <div v-if="post" class="blog-detail">
           <!-- Blog Header -->
           <header class="blog-header">
-            <img :src="post.image" :alt="post.title" class="blog-featured-image" />
+            <!-- <img :src="post.image" :alt="post.title" class="blog-featured-image" /> -->
             <div class="blog-meta">
               <h1 class="blog-title">{{ post.title }}</h1>
               <time :datetime="formatDatetime(post.date)" class="blog-date">{{ post.date }}</time>
@@ -365,9 +365,8 @@ onMounted(() => {
   border-left: 4px solid #667eea;
 }
 .blog-content :deep(img) {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
-  margin: 1rem 0;
 }
 
 /* Navigation */
@@ -442,6 +441,10 @@ onMounted(() => {
 
   .blog-navigation {
     padding: 1.5rem;
+  }
+
+  .blog-content :deep(img) {
+    max-width: 100%;
   }
 }
 
