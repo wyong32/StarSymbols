@@ -335,6 +335,7 @@ onMounted(() => {
   border-radius: 8px;
   overflow-x: auto;
   margin: 1rem 0;
+  line-height: 1;
 }
 
 .blog-content :deep(table) {
@@ -362,6 +363,11 @@ onMounted(() => {
   border-radius: 8px;
   margin: 1rem 0;
   border-left: 4px solid #667eea;
+}
+.blog-content :deep(img) {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
 }
 
 /* Navigation */

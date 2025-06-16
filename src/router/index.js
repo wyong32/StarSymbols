@@ -136,9 +136,9 @@ const routes = [
     name: 'contact',
     component: () => import('../views/ContactView.vue'),
     meta: {
-      title: '联系我们 - StarSymbols | starsymbols.io',
-      description: '欢迎通过邮件联系我们，分享您的创意和建议。',
-      keywords: '联系我们, 联系方式, 邮件联系, 创意投稿',
+      title: 'Contact Us - StarSymbols | starsymbols.io',
+      description: 'Get in touch with us via email to share your ideas and suggestions. We welcome your feedback and creative contributions.',
+      keywords: 'contact us, email contact, feedback, suggestions, creative contributions, star symbols support',
     },
   },
 ]

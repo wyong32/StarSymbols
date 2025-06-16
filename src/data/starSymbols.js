@@ -519,7 +519,7 @@ export const starSymbolsData = [
     name: 'Shooting Star',
     tab: ['classic', 'five-pointed', 'emoji'],
     showSymbols: true,
-    showEdit: false,
+    showEdit: true,
     description: 'A shooting star emoji',
   },
   {
@@ -528,7 +528,7 @@ export const starSymbolsData = [
     name: 'Glowing Star',
     tab: ['classic', 'five-pointed', 'emoji'],
     showSymbols: true,
-    showEdit: false,
+    showEdit: true,
     description: 'A glowing star emoji',
   },
   {
@@ -537,7 +537,7 @@ export const starSymbolsData = [
     name: 'Dizzy Symbol',
     tab: ['classic', 'five-pointed', 'emoji'],
     showSymbols: true,
-    showEdit: false,
+    showEdit: true,
     description: 'A dizzy face with stars',
   },
   {
@@ -546,7 +546,7 @@ export const starSymbolsData = [
     name: 'Sparkles',
     tab: ['classic', 'four-pointed', 'emoji'],
     showSymbols: true,
-    showEdit: false,
+    showEdit: true,
     description: 'Sparkling stars emoji',
   },
   {
@@ -555,7 +555,7 @@ export const starSymbolsData = [
     name: 'Night With Stars',
     tab: ['Emoji', 'other'],
     showSymbols: true,
-    showEdit: false,
+    showEdit: true,
     description: 'A night scene with stars emoji',
   },
   {
@@ -564,7 +564,7 @@ export const starSymbolsData = [
     name: 'Six Pointed Star With Middle Dot',
     tab: ['Emoji', 'four-pointed'],
     showSymbols: true,
-    showEdit: false,
+    showEdit: true,
     description: 'A six-pointed star with a dot in the center',
   },
 ]

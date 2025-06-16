@@ -11,7 +11,32 @@
           <ul>
             <li>
               <a href="toolpilot.ai/" target="_blank">
-                <img src="/images/icon_1.svg" alt="toolpilot" srcset="/images/icon_1.svg" />
+                <img
+                  src="/images/icon/icon_1.svg"
+                  alt="toolpilot"
+                  srcset="/images/icon/icon_1.svg"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/people/Starsymbolsio/61577152511872/"
+                target="_blank"
+              >
+                <img
+                  src="/images/icon/icon_2.ico"
+                  alt="toolpilot"
+                  srcset="/images/icon/icon_2.ico"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/JessicaGar75864/status/1934532852001239379" target="_blank">
+                <img
+                  src="/images/icon/icon_3.ico"
+                  alt="toolpilot"
+                  srcset="/images/icon/icon_3.ico"
+                />
               </a>
             </li>
           </ul>

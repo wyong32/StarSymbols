@@ -2,92 +2,92 @@
 export const starDetailsData = [
   {
     id: 1,
-    symbol: '★', // 图案
-    name: 'Black Star', // 名称
-    categories: ['classic', 'five-pointed'], // 分类（数组形式）
-    slug: 'black-star', // 链接
-    unicode: 'U+2605', // 编码
-    date: 'June 10, 2025',
+    symbol: '★',
+    name: 'Black Star',
+    categories: ['classic', 'five-pointed'],
+    slug: 'black-star',
+    unicode: 'U+2605',
+    date: 'June 16, 2025',
     seo: {
-      title: '★ Black Star Symbol - Copy and Paste Unicode Star | StarSymbols',
-      description:
-        'Copy the classic black star symbol ★ (U+2605). Perfect for ratings, emphasis, and decorative text. Free Unicode star symbol with one-click copy.',
-      keywords:
-        'black star symbol, filled star, unicode star, star rating, classic star, copy star symbol',
+      title: '★ Black Star Symbol – Copy and Paste Tool | StarSymbols', // 55 字符
+      description: 'Copy and paste the ★ Black Star symbol from StarSymbols. Perfect for messages, blogs, ratings, HTML, CSS, and Unicode text. Instant copy supported.', // 156 字符
+      keywords: 'black star symbol, copy black star, star symbols, star unicode, filled star, black star html', // 92 字符
     },
     technicalInfo: {
       unicode: 'U+2605',
-      altCode: 'Alt+8364',
+      altCode: 'Alt+9733',
       htmlCode: '&#9733;',
       cssCode: '"\\2605"',
       htmlEntity: '&starf;',
       hexCode: '&#x2605;',
     },
     creativeShowcases: [
-      { name: 'Lovely Star', symbol: '˚*•̩̩͙✩•̩̩͙*˚＊' },
-      { name: 'Cute Star Face', symbol: '✩°｡⋆⸜(ू｡•ω•｡)' },
-      { name: 'Decorative Star', symbol: '✩⃛( ͒ ु•·̫• ू ͒)' },
-      { name: 'Five Stars', symbol: '✩✩✩✩✩' },
-      { name: 'Minimalist Star', symbol: '✩.*˚' },
+      { name: 'Black Star Border', symbol: '★・★・★・★・★' },
+      { name: 'Sparkle Black Stars', symbol: '★彡★彡★' },
+      { name: 'Star Frame', symbol: '✪★✪★✪' },
+      { name: 'Classic Five Stars', symbol: '★★★★★' },
+      { name: 'Minimal Star Highlight', symbol: '•★•' },
     ],
     relatedStars: [
       { symbol: '☆', name: 'White Star', slug: 'white-star' },
-      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
-      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+      { symbol: '⭐', name: 'White Medium Star', slug: 'white-medium-star' },
+      { symbol: '✶', name: 'Six Pointed Star', slug: 'six-pointed-star' },
     ],
     htmlContent: `
     <section>
-  <h3>Using Alt Code on Windows</h3>
-  <p>You can type the ★ symbol using the Alt code method:</p>
-  <ol>
-    <li>Ensure that <strong>Num Lock</strong> is turned on.</li>
-    <li>Hold down the <strong>left Alt key</strong>.</li>
-    <li>Type <strong>9733</strong> on the numeric keypad.</li>
-    <li>Release the Alt key to insert the ★ symbol.</li>
-  </ol>
-  <p>This technique works on most Windows systems and supports many other special characters.</p>
+      <h2>Black Star Symbol (★) – Copy and Paste from StarSymbols</h2>
+      <p>The <strong>Black Star</strong> symbol (★) is a bold and filled Unicode <strong>star symbol</strong> widely used across digital platforms. As one of the most popular <strong>star symbols</strong>, the <strong>Black Star</strong> conveys emphasis, rating, importance, and design appeal. It’s featured prominently on <strong>StarSymbols</strong>, your ultimate resource for copying and using <strong>star symbols</strong> easily.</p>
+    
+      <p>The <strong>Black Star</strong> is part of a broader family of <strong>star symbols</strong> that includes outlined stars, sparkles, and four-pointed designs. However, the <strong>Black Star</strong> remains the favorite for its clean look and compatibility across platforms. You can copy and paste the <strong>Black Star</strong> directly from this page or use the methods below to insert it in your text, code, or creative content.</p>
+    
+      <h3>How to Type the Black Star on Windows</h3>
+      <p>Typing the <strong>Black Star</strong> on Windows is simple using the Alt code method:</p>
+      <ol>
+        <li>Ensure Num Lock is on.</li>
+        <li>Hold the Alt key and type <strong>9733</strong> on the numeric keypad.</li>
+        <li>Release Alt, and the <strong>Black Star</strong> (★) will appear.</li>
+      </ol>
+      <p>This is a quick and effective way to type the <strong>Black Star</strong> and other <strong>star symbols</strong> on Windows systems.</p>
+    
+      <h3>Insert the Black Star on Mac</h3>
+      <p>To insert the <strong>Black Star</strong> on Mac, press <strong>Control + Command + Space</strong> to open the Character Viewer. Then search for "<strong>star symbols</strong>" and select the <strong>Black Star</strong>. It’s a built-in way to access <strong>star symbols</strong> in macOS apps and text editors.</p>
+    
+      <h3>Using Black Star on Mobile Devices</h3>
+      <p>iPhone and Android users can find the <strong>Black Star</strong> in the emoji keyboard. Just search for "<strong>star symbols</strong>" or copy and paste the <strong>Black Star</strong> directly from StarSymbols. It’s perfect for messaging, social media bios, or rating apps.</p>
+    
+      <h3>HTML Code for Black Star Symbol</h3>
+      <p>The <strong>Black Star</strong> can be added to your website or email using the following HTML code:</p>
+      <pre><code>&lt;span&gt;&amp;starf;&lt;/span&gt;</code></pre>
+      <pre><code>&lt;span&gt;&#9733;&lt;/span&gt;</code></pre>
+      <pre><code>&lt;span&gt;&#x2605;&lt;/span&gt;</code></pre>
+      <p>All render the <strong>Black Star</strong> (★), one of the most trusted <strong>star symbols</strong> for web content.</p>
+    
+      <h3>CSS Usage for Black Star</h3>
+      <p>If you want to display the <strong>Black Star</strong> in CSS, use this example:</p>
+      <pre><code>.black-star::after {
+      content: "\\2605";
+    }</code></pre>
+      <p>This adds a <strong>Black Star</strong> using the <code>content</code> property in CSS. This method works beautifully for styling rating systems and button labels with <strong>star symbols</strong>.</p>
+    
+      <h3>Meaning of the Black Star</h3>
+      <p>The <strong>Black Star</strong> symbol is commonly associated with excellence, importance, priority, and recognition. In many apps, a <strong>Black Star</strong> represents a five-star rating. Among all <strong>star symbols</strong>, the <strong>Black Star</strong> is the most recognizable and widely used.</p>
+    
+      <h3>Why Choose the Black Star from StarSymbols?</h3>
+      <p><strong>StarSymbols</strong> is your go-to platform for copying and using Unicode <strong>star symbols</strong>. We feature all major <strong>star symbols</strong>, including the <strong>Black Star</strong>, White Star, sparkles, four-pointed stars, and more.</p>
+    
+      <p>Our <strong>Black Star</strong> symbol is optimized for compatibility and visual clarity. Use it in reviews, apps, blog posts, headers, or portfolios. With <strong>StarSymbols</strong>, you can copy the <strong>Black Star</strong> instantly and integrate it wherever you need a powerful visual element.</p>
+    
+      <h3>Creative Uses of Black Star</h3>
+      <p>The <strong>Black Star</strong> can be combined with other <strong>star symbols</strong> to create stylish separators, unique name tags, and custom review blocks. Try mixing the <strong>Black Star</strong> with outlined <strong>star symbols</strong> to create contrast and meaning in your design.</p>
+    
+      <p>Explore our collection on <strong>StarSymbols</strong> to discover more creative ways to use the <strong>Black Star</strong> symbol. Whether you're designing a UI, rating content, or enhancing a message, <strong>Black Star</strong> and its fellow <strong>star symbols</strong> provide endless flexibility.</p>
+    
+      <p>Start copying <strong>Black Star</strong> now and let <strong>StarSymbols</strong> guide you through the universe of Unicode <strong>star symbols</strong> today!</p>
+    </section>
+`    
 
-  <h3>Typing ★ on Mac</h3>
-  <p>Mac does not support Alt codes like Windows. Instead, press <strong>Control + Command + Space</strong> to open the Character Viewer, then search for "star" and select the ★ symbol.</p>
-
-  <h3>Typing ★ on iPhone and Android</h3>
-  <p>On mobile devices, open the emoji keyboard and search for the black star symbol or copy and paste it directly from here: <strong>★</strong>.</p>
-
-  <h3>How to Use ★ in HTML</h3>
-  <p>Here are several ways to include the ★ symbol in your HTML code:</p>
-
-  <pre><code>&lt;!-- HTML entity --&gt;
-&lt;span&gt;I am &amp;starf; Symbol&lt;/span&gt;</code></pre>
-
-  <pre><code>&lt;!-- HTML decimal code --&gt;
-&lt;span&gt;I am &#9733; Symbol&lt;/span&gt;</code></pre>
-
-  <pre><code>&lt;!-- HTML hexadecimal code --&gt;
-&lt;span&gt;I am &#x2605; Symbol&lt;/span&gt;</code></pre>
-
-  <p>All three methods render as: <strong>I am ★ Symbol</strong></p>
-
-  <h3>How to Use ★ in CSS</h3>
-  <p>Use the CSS <code>content</code> property to display the ★ symbol with pseudo-elements:</p>
-
-  <pre><code>/* CSS */
-.addSymbol::after {
-  content: '\\2605';
-}</code></pre>
-
-  <pre><code>/* HTML */
-&lt;div class="addSymbol"&gt;Black Star&lt;/div&gt;</code></pre>
-
-  <p>This will render as: <strong>Black Star★</strong></p>
-
-  <h3>What Is the ★ Symbol?</h3>
-  <p>The ★ (Black Star) is a classic five-pointed star used for various purposes such as decoration, rating systems, emphasis, and symbolic representation. It's a filled version of the white star (☆).</p>
-
-  <h3>What Does ★ Mean?</h3>
-  <p>The ★ symbol often represents excellence, achievement, or a highlighted item. In rating systems, it typically indicates quality (e.g., ★★★★★ for a 5-star rating).</p>
-</section>
-`,
   },
+  
   {
     id: 2,
     symbol: '☆', // 图案
