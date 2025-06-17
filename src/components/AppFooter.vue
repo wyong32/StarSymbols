@@ -10,7 +10,7 @@
           <p>Your one-stop toolkit for symbols, generators, and creative text art.</p>
           <ul>
             <li>
-              <a href="toolpilot.ai/" target="_blank">
+              <a href="https://www.toolpilot.ai/" target="_blank">
                 <img
                   src="/images/icon/icon_1.svg"
                   alt="toolpilot"
