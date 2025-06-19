@@ -117,7 +117,7 @@
                 :title="item.copied ? 'Copied!' : 'Click to copy'"
               >
                 <span class="creative-symbol">{{ item.symbol }}</span>
-                <span class="creative-name">{{ item.name }}</span>
+                <!-- <span class="creative-name">{{ item.name }}</span> -->
               </li>
             </ul>
           </section>
@@ -523,8 +523,8 @@ watch(
 }
 
 .creative-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   list-style: none;
   padding: 0;
