@@ -47,7 +47,7 @@
             <section class="technical-info-section" v-if="star.technicalInfo">
               <h2>Technical Information</h2>
               <div class="tech-list">
-                <div class="tech-item">
+                <div class="tech-item" v-if="star.technicalInfo.unicode">
                   <span class="tech-label">Unicode:</span>
                   <code
                     class="tech-value"
@@ -57,7 +57,7 @@
                     {{ star.technicalInfo.unicode }}
                   </code>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" v-if="star.technicalInfo.altCode">
                   <span class="tech-label">Alt Code:</span>
                   <code
                     class="tech-value"
@@ -67,7 +67,7 @@
                     {{ star.technicalInfo.altCode }}
                   </code>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" v-if="star.technicalInfo.htmlCode">
                   <span class="tech-label">HTML Code:</span>
                   <code
                     class="tech-value"
@@ -77,7 +77,7 @@
                     {{ star.technicalInfo.htmlCode }}
                   </code>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" v-if="star.technicalInfo.cssCode">
                   <span class="tech-label">CSS Code:</span>
                   <code
                     class="tech-value"
@@ -87,7 +87,7 @@
                     {{ star.technicalInfo.cssCode }}
                   </code>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" v-if="star.technicalInfo.htmlEntity">
                   <span class="tech-label">HTML Entity:</span>
                   <code
                     class="tech-value"
@@ -533,8 +533,8 @@ watch(
 .creative-item {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 1rem;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
   background: white;
   border-radius: 10px;
   cursor: pointer;
@@ -554,7 +554,7 @@ watch(
 }
 
 .creative-symbol {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .creative-name {
@@ -696,6 +696,393 @@ watch(
   }
 }
 
+/* 增强的移动端响应式样式 */
+@media (max-width: 768px) {
+  /* 面包屑导航优化 */
+  .breadcrumb {
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  .breadcrumb-separator {
+    margin: 0 0.25rem;
+  }
+
+  /* 页面标题优化 */
+  .page-title {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+  }
+
+  .star-meta {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* 星号信息区域优化 */
+  .star-info-section {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  /* 星号显示区域优化 */
+  .star-display-section {
+    text-align: center;
+  }
+
+  .star-display {
+    font-size: 4.5rem;
+    padding: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .copy-hint {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  /* 技术信息区域优化 */
+  .technical-info-section {
+    padding: 1.25rem;
+  }
+
+  .technical-info-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .tech-item {
+    padding: 0.5rem;
+    gap: 0.75rem;
+  }
+
+  .tech-label {
+    font-size: 0.9rem;
+    min-width: 80px;
+  }
+
+  .tech-value {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+    word-break: break-all;
+  }
+
+  /* 创意展示区域优化 */
+  .creative-showcase-section {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .creative-showcase-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .creative-list {
+    gap: 0.75rem;
+  }
+
+  .creative-item {
+    padding: 0.4rem 0.8rem;
+    min-width: 60px;
+    justify-content: center;
+  }
+
+  .creative-symbol {
+    font-size: 0.9rem;
+  }
+
+  /* 关于区域优化 */
+  .about-section {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .about-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1.25rem;
+  }
+
+  /* 相关星号区域优化 */
+  .related-stars-section {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .related-stars-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .related-list {
+    gap: 0.75rem;
+  }
+
+  .related-item {
+    padding: 0.5rem 1rem;
+    min-width: 80px;
+  }
+
+  .related-symbol {
+    font-size: 1rem;
+  }
+
+  .related-name {
+    font-size: 0.8rem;
+  }
+
+  /* Toast通知优化 */
+  .toast {
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    transform: translateY(100%);
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .toast.show {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  /* 超小屏幕优化 */
+  .container {
+    padding: 0.75rem;
+  }
+
+  .star-content {
+    padding: 1rem;
+    border-radius: 15px;
+  }
+
+  /* 面包屑进一步优化 */
+  .breadcrumb {
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  /* 页面标题进一步优化 */
+  .page-title {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .star-meta {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  /* 星号信息区域进一步优化 */
+  .star-info-section {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 12px;
+  }
+
+  /* 星号显示进一步优化 */
+  .star-display {
+    font-size: 3.5rem;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  .copy-hint {
+    font-size: 0.9rem;
+  }
+
+  /* 技术信息进一步优化 */
+  .technical-info-section {
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  .technical-info-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .tech-item {
+    padding: 0.4rem;
+    gap: 0.5rem;
+    border-radius: 6px;
+  }
+
+  .tech-label {
+    font-size: 0.8rem;
+    min-width: 70px;
+  }
+
+  .tech-value {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+  }
+
+  /* 创意展示进一步优化 */
+  .creative-showcase-section {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 12px;
+  }
+
+  .creative-showcase-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .creative-list {
+    gap: 0.5rem;
+  }
+
+  .creative-item {
+    padding: 0.3rem 0.6rem;
+    border-radius: 8px;
+    min-width: 50px;
+  }
+
+  .creative-symbol {
+    font-size: 0.8rem;
+  }
+
+  /* 关于区域进一步优化 */
+  .about-section {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 12px;
+  }
+
+  .about-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  /* 相关星号进一步优化 */
+  .related-stars-section {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 12px;
+  }
+
+  .related-stars-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .related-list {
+    gap: 0.5rem;
+  }
+
+  .related-item {
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    min-width: 70px;
+  }
+
+  .related-symbol {
+    font-size: 0.9rem;
+  }
+
+  .related-name {
+    font-size: 0.75rem;
+  }
+
+  /* 404页面优化 */
+  .not-found {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .not-found h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .not-found p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+  }
+
+  .back-link:hover {
+    background: #764ba2;
+    transform: translateY(-2px);
+  }
+}
+
+/* 横屏模式优化 */
+@media (max-width: 768px) and (orientation: landscape) {
+  .star-display {
+    font-size: 3rem;
+    padding: 1rem;
+  }
+
+  .star-info-section {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .page-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* 触摸设备优化 */
+@media (hover: none) and (pointer: coarse) {
+  .star-display:hover {
+    transform: none;
+  }
+
+  .star-display:active {
+    transform: scale(0.95);
+    background: #e6faed;
+    color: #34d399;
+  }
+
+  .tech-value:hover {
+    background: #2d3748;
+  }
+
+  .tech-value:active {
+    background: #1a202c;
+  }
+
+  .creative-item:hover {
+    transform: none;
+  }
+
+  .creative-item:active {
+    transform: scale(0.95);
+    background: #e6faed;
+    border-color: #34d399;
+  }
+
+  .related-item:hover {
+    transform: none;
+  }
+
+  .related-item:active {
+    transform: scale(0.95);
+    border-color: #667eea;
+  }
+}
+
 /* v-html content styles */
 :deep(.about-content) {
   color: #4a5568;
@@ -818,5 +1205,147 @@ watch(
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 0 8px 8px 0;
+}
+
+/* 移动端 v-html 内容优化 */
+@media (max-width: 768px) {
+  :deep(.about-content) {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  :deep(.about-content h3) {
+    font-size: 1.3rem;
+    margin: 1.25rem 0 0.75rem;
+    padding-bottom: 0.4rem;
+  }
+
+  :deep(.about-content p) {
+    margin-bottom: 0.75rem;
+  }
+
+  :deep(.about-content ul) {
+    margin: 0.75rem 0;
+    padding-left: 1.25rem;
+  }
+
+  :deep(.about-content li) {
+    margin-bottom: 0.4rem;
+  }
+
+  :deep(.about-content code) {
+    font-size: 0.85em;
+    padding: 0.15rem 0.3rem;
+  }
+
+  :deep(.about-content pre) {
+    padding: 0.75rem;
+    margin: 0.75rem 0;
+    border-radius: 6px;
+    font-size: 0.85rem;
+  }
+
+  :deep(.about-content blockquote) {
+    padding-left: 0.75rem;
+    margin: 0.75rem 0;
+    font-size: 0.9rem;
+  }
+
+  :deep(.about-content table) {
+    margin: 0.75rem 0;
+    font-size: 0.85rem;
+  }
+
+  :deep(.about-content th),
+  :deep(.about-content td) {
+    padding: 0.5rem 0.4rem;
+  }
+
+  :deep(.about-content img) {
+    margin: 0.75rem 0;
+    border-radius: 6px;
+  }
+
+  :deep(.about-content .note),
+  :deep(.about-content .warning),
+  :deep(.about-content .tip) {
+    padding: 0.75rem;
+    margin: 0.75rem 0;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  :deep(.about-content) {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  :deep(.about-content h3) {
+    font-size: 1.2rem;
+    margin: 1rem 0 0.5rem;
+    padding-bottom: 0.3rem;
+  }
+
+  :deep(.about-content p) {
+    margin-bottom: 0.6rem;
+  }
+
+  :deep(.about-content ul) {
+    margin: 0.6rem 0;
+    padding-left: 1rem;
+  }
+
+  :deep(.about-content li) {
+    margin-bottom: 0.3rem;
+  }
+
+  :deep(.about-content code) {
+    font-size: 0.8em;
+    padding: 0.1rem 0.25rem;
+  }
+
+  :deep(.about-content pre) {
+    padding: 0.6rem;
+    margin: 0.6rem 0;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
+
+  :deep(.about-content blockquote) {
+    padding-left: 0.6rem;
+    margin: 0.6rem 0;
+    font-size: 0.85rem;
+  }
+
+  :deep(.about-content table) {
+    margin: 0.6rem 0;
+    font-size: 0.8rem;
+  }
+
+  :deep(.about-content th),
+  :deep(.about-content td) {
+    padding: 0.4rem 0.3rem;
+  }
+
+  :deep(.about-content img) {
+    margin: 0.6rem 0;
+    border-radius: 4px;
+  }
+
+  :deep(.about-content .note),
+  :deep(.about-content .warning),
+  :deep(.about-content .tip) {
+    padding: 0.6rem;
+    margin: 0.6rem 0;
+    font-size: 0.85rem;
+  }
+
+  /* 超小屏幕表格优化 */
+  :deep(.about-content table) {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
 </style>

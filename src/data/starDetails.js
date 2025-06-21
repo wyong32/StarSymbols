@@ -116,42 +116,42 @@ export const starDetailsData = [
   },
 
   {
-    "id": 2,
-    "symbol": "☆",
-    "name": "White Star",
-    "categories": ['classic', 'five-pointed'],
-    "slug": "white-star",
-    "unicode": "U+2606",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "☆ White Star Symbol: Copy & Paste, Unicode, HTML, CSS",
-      "description": "Copy, paste, and use the ☆ White Star symbol. Learn its meaning, how to type this hollow star, and apply it in HTML & CSS for web design and ratings.",
-      "keywords": "white star, hollow star, outline star, copy paste star, unicode, html css, empty, rating star"
+    id: 2,
+    symbol: "☆",
+    name: "White Star",
+    categories: ['classic', 'five-pointed'],
+    slug: "white-star",
+    unicode: "U+2606",
+    date: "June 10, 2025",
+    seo: {
+      title: "☆ White Star Symbol: Copy & Paste, Unicode, HTML, CSS",
+      description: "Copy, paste, and use the ☆ White Star symbol. Learn its meaning, how to type this hollow star, and apply it in HTML & CSS for web design and ratings.",
+      keywords: "white star, hollow star, outline star, copy paste star, unicode, html css, empty, rating star"
     },
-    "technicalInfo": {
-      "unicode": "U+2606",
-      "altCode": "Alt+9734",
-      "htmlCode": "&#9734;",
-      "cssCode": "\"\\2606\"",
-      "htmlEntity": "&star;",
-      "hexCode": "&#x2606;"
+    technicalInfo: {
+      unicode: "U+2606",
+      altCode: "Alt+9734",
+      htmlCode: "&#9734;",
+      cssCode: "\"\\2606\"",
+      htmlEntity: "&star;",
+      hexCode: "&#x2606;"
     },
-    "creativeShowcases": [
-      { "name": "Lovely White Star", "symbol": "˚*•̩̩͙✩•̩̩͙*˚＊" },
-      { "name": "Cute White Star Face", "symbol": "✩°｡⋆⸜(ू｡•ω•｡)" },
-      { "name": "Decorative White Star", "symbol": "✩⃛( ͒ ु•·̫• ू ͒)" },
-      { "name": "Five White Stars", "symbol": "☆ ☆ ☆ ☆ ☆" },
-      { "name": "Minimalist White Star", "symbol": "☆⋆｡°✩" }
+    creativeShowcases: [
+      { name: "Lovely White Star", symbol: "˚*•̩̩͙✩•̩̩͙*˚＊" },
+      { name: "Cute White Star Face", symbol: "✩°｡⋆⸜(ू｡•ω•｡)" },
+      { name: "Decorative White Star", symbol: "✩⃛( ͒ ु•·̫• ू ͒)" },
+      { name: "Five White Stars", symbol: "☆ ☆ ☆ ☆ ☆" },
+      { name: "Minimalist White Star", symbol: "☆⋆｡°✩" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "🌟", "name": "Glowing Star", "slug": "glowing-star" },
-      { "symbol": "✩", "name": "Stress Outlined White Star", "slug": "stress-outlined-white-star" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✶", "name": "Six Pointed Black Star", "slug": "six-pointed-black-star" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "✩", name: "Stress Outlined White Star", slug: "stress-outlined-white-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
     <section>
       <h2>Your Guide to the ☆ White Star Symbol</h2>
       <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ☆ White Star symbol**, a highly versatile Unicode character. This **hollow star** or **outline star** is widely used in digital contexts for ratings, design, and as a clear visual element. Whether you're a web developer or content creator, this **Star Symbols** guide covers everything about the **White Star**.</p>
@@ -231,41 +231,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 3,
-    "symbol": "✡",
-    "name": "Star of David",
-    "categories": ["classic", "six-pointed", "religious"],
-    "slug": "star-of-david",
-    "unicode": "U+2721",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✡ Star of David: Copy, Paste, Unicode, HTML, CSS, Meaning",
-      "description": "Easily copy and paste the ✡ Star of David. Learn its profound meaning, typing methods (Windows, Mac, mobile), and how to use it in HTML & CSS for web design and cultural representation.",
-      "keywords": "star of david, jewish symbol, judaism symbol, six-pointed star, religious symbol, copy paste, unicode, html css, hexagram"
+    id: 3,
+    symbol: "✡",
+    name: "Star of David",
+    categories: ["classic", "six-pointed", "religious"],
+    slug: "star-of-david",
+    unicode: "U+2721",
+    date: "June 10, 2025",
+    seo: {
+      title: "✡ Star of David: Copy, Paste, Unicode, HTML, CSS, Meaning",
+      description: "Easily copy and paste the ✡ Star of David. Learn its profound meaning, typing methods (Windows, Mac, mobile), and how to use it in HTML & CSS for web design and cultural representation.",
+      keywords: "star of david, jewish symbol, judaism symbol, six-pointed star, religious symbol, copy paste, unicode, html css, hexagram"
     },
-    "technicalInfo": {
-      "unicode": "U+2721",
-      "altCode": "Alt+10017",
-      "htmlCode": "&#10017;",
-      "cssCode": "\"\\2721\"",
-      "htmlEntity": "&#10017;",
-      "hexCode": "&#x2721;"
+    technicalInfo: {
+      unicode: "U+2721",
+      altCode: "Alt+10017",
+      htmlCode: "&#10017;",
+      cssCode: "\"\\2721\"",
+      htmlEntity: "&#10017;",
+      hexCode: "&#x2721;"
     },
-    "creativeShowcases": [
-      { "name": "Star of David Accent", "symbol": "✡︎" },
-      { "name": "Symbolic Hexagram", "symbol": "⛤" },
-      { "name": "United Star Design", "symbol": "✡︎✡︎✡︎" },
-      { "name": "Geometric Star", "symbol": "◆◇✡︎◇◆" },
-      { "name": "Faithful Symbol", "symbol": "✡︎✨" }
+    creativeShowcases: [
+      { name: "Star of David Accent", symbol: "✡︎" },
+      { name: "Symbolic Hexagram", symbol: "⛤" },
+      { name: "United Star Design", symbol: "✡︎✡︎✡︎" },
+      { name: "Geometric Star", symbol: "◆◇✡︎◇◆" },
+      { name: "Faithful Symbol", symbol: "✡︎✨" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✧", "name": "White Four Pointed Star", "slug": "white-four-pointed-star" },
-      { "symbol": "🌟", "name": "Glowing Star", "slug": "glowing-star" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Four Pointed Star", slug: "white-four-pointed-star" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✡ Star of David Symbol: Your Guide to Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✡ Star of David symbol**, a profound and historically significant Unicode character. Also known as Magen David, this **six-pointed star** is a widely recognized symbol of Judaism and Jewish identity. Whether you're a historian, web designer, or looking to use this powerful **Star of David** symbol, this **Star Symbols** guide provides all essential information.</p>
@@ -344,42 +344,42 @@ export const starDetailsData = [
   },
 
   {
-    "id": 4,
-    "symbol": "✦",
-    "name": "Black Four Pointed Star",
-    "categories": ['classic', 'four-pointed'],
-    "slug": "black-four-pointed-star",
-    "unicode": "U+2726",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✦ Black Four Pointed Star: Copy, Paste, Unicode, HTML, CSS",
-      "description": "Copy & paste the ✦ Black Four Pointed Star. Discover its decorative uses, how to type, and implement it in HTML & CSS for stylish designs and emphasis.",
-      "keywords": "black four pointed star, four-pointed, decorative, sparkle, copy paste, unicode, html css"
+    id: 4,
+    symbol: "✦",
+    name: "Black Four Pointed Star",
+    categories: ['classic', 'four-pointed'],
+    slug: "black-four-pointed-star",
+    unicode: "U+2726",
+    date: "June 10, 2025",
+    seo: {
+      title: "✦ Black Four Pointed Star: Copy, Paste, Unicode, HTML, CSS",
+      description: "Copy & paste the ✦ Black Four Pointed Star. Discover its decorative uses, how to type, and implement it in HTML & CSS for stylish designs and emphasis.",
+      keywords: "black four pointed star, four-pointed, decorative, sparkle, copy paste, unicode, html css"
     },
-    "creativeShowcases": [
-      { "name": "Four-Pointed Accent", "symbol": "✦" },
-      { "name": "Sparkle Divider", "symbol": "✦ — ✦ — ✦" },
-      { "name": "Celestial Glow", "symbol": "✦✨" },
-      { "name": "Directional Star", "symbol": "⟐✦⟐" },
-      { "name": "Subtle Highlight", "symbol": "“Text”✦" }
+    creativeShowcases: [
+      { name: "Four-Pointed Accent", symbol: "✦" },
+      { name: "Sparkle Divider", symbol: "✦ — ✦ — ✦" },
+      { name: "Celestial Glow", symbol: "✦✨" },
+      { name: "Directional Star", symbol: "⟐✦⟐" },
+      { name: "Subtle Highlight", symbol: "“Text”✦" }
     ],
-    "relatedStars": [
-      { "symbol": "✧", "name": "White Four Pointed Star", "slug": "white-four-pointed-star" },
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" },
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" },
-      { "symbol": "✳", "name": "Eight Spoked Asterisk", "slug": "eight-spoked-asterisk" },
-      { "symbol": "✶", "name": "Six Pointed Black Star", "slug": "six-pointed-black-star" }
+    relatedStars: [
+      { symbol: "✧", name: "White Four Pointed Star", slug: "white-four-pointed-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" }
     ],
-    "technicalInfo": {
-      "unicode": "U+2726",
-      "altCode": "Alt+10022",
-      "htmlCode": "&#10022;",
-      "cssCode": "\"\\2726\"",
-      "htmlEntity": "&#10022;",
-      "hexCode": "&#x2726;"
+    technicalInfo: {
+      unicode: "U+2726",
+      altCode: "Alt+10022",
+      htmlCode: "&#10022;",
+      cssCode: "\"\\2726\"",
+      htmlEntity: "&#10022;",
+      hexCode: "&#x2726;"
     },
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✦ Black Four Pointed Star Symbol: Your Guide to Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✦ Black Four Pointed Star symbol**, a stylish and versatile Unicode character. This **four-pointed star** is favored for its decorative appeal, often used to add flair, emphasis, or a touch of sparkle to digital content. Whether you're a web designer, a content creator, or simply looking for a unique accent **star symbol** for your messages, this **Star Symbols** guide covers everything you need to know about the **✦ Black Four Pointed Star**.</p>
@@ -458,42 +458,42 @@ export const starDetailsData = [
   },
 
   {
-    "id": 5,
-    "symbol": "✧",
-    "name": "White Four Pointed Star",
-    "categories": ["classic", "four-pointed"],
-    "slug": "white-four-pointed-star",
-    "unicode": "U+2727",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✧ White Four Pointed Star: Copy, Paste Unicode Star",
-      "description": "Copy the ✧ White Four Pointed Star symbol (U+2727). A decorative hollow star often used in visual design, sparkles, and styling. Click to copy.",
-      "keywords": "white four pointed star, sparkle, unicode hollow star, decorative star, copy star symbol"
+    id: 5,
+    symbol: "✧",
+    name: "White Four Pointed Star",
+    categories: ["classic", "four-pointed"],
+    slug: "white-four-pointed-star",
+    unicode: "U+2727",
+    date: "June 10, 2025",
+    seo: {
+      title: "✧ White Four Pointed Star: Copy, Paste Unicode Star",
+      description: "Copy the ✧ White Four Pointed Star symbol (U+2727). A decorative hollow star often used in visual design, sparkles, and styling. Click to copy.",
+      keywords: "white four pointed star, sparkle, unicode hollow star, decorative star, copy star symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+2727",
-      "altCode": "Alt+10023",
-      "htmlCode": "&#10023;",
-      "cssCode": "\"\\2727\"",
-      "htmlEntity": "&#10023;",
-      "hexCode": "&#x2727;"
+    technicalInfo: {
+      unicode: "U+2727",
+      altCode: "Alt+10023",
+      htmlCode: "&#10023;",
+      cssCode: "\"\\2727\"",
+      htmlEntity: "&#10023;",
+      hexCode: "&#x2727;"
     },
-    "creativeShowcases": [
-      { "name": "Four-Pointed Sparkle", "symbol": "✧" },
-      { "name": "Subtle Accent Star", "symbol": "⋆✧⋆" },
-      { "name": "White Twinkle Effect", "symbol": "✨✧✨" },
-      { "name": "Outline Star Design", "symbol": "⟐✧⟐" },
-      { "name": "Light Emphasis", "symbol": "✧ \"Text\"" }
+    creativeShowcases: [
+      { name: "Four-Pointed Sparkle", symbol: "✧" },
+      { name: "Subtle Accent Star", symbol: "⋆✧⋆" },
+      { name: "White Twinkle Effect", symbol: "✨✧✨" },
+      { name: "Outline Star Design", symbol: "⟐✧⟐" },
+      { name: "Light Emphasis", symbol: "✧ \"Text\"" }
     ],
-    "relatedStars": [
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" },
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "✶", "name": "Six Pointed Black Star", "slug": "six-pointed-black-star" }
+    relatedStars: [
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✧ White Four Pointed Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✧ White Four Pointed Star symbol**, a stylish and versatile Unicode character. This **four-pointed star** is favored for its decorative appeal, often used to add flair, emphasis, or a touch of sparkle to digital content. Whether you're a web designer, a content creator, or simply looking for a unique accent **star symbol** for your messages, this **Star Symbols** guide covers everything you need to know about the **✧ White Four Pointed Star**.</p>
@@ -573,42 +573,42 @@ export const starDetailsData = [
   },
 
   {
-    "id": 6,
-    "symbol": "✩",
-    "name": "Stress Outlined White Star",
-    "categories": ["classic", "five-pointed"],
-    "slug": "stress-outlined-white-star",
-    "unicode": "U+2729",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✩ Stress Outlined White Star: Copy, Paste Unicode Star",
-      "description": "Copy the ✩ Stress Outlined White Star symbol (U+2729). A decorative star with a bold outline, often used in designs and stylized text. One-click copy.",
-      "keywords": "stress outlined white star, outlined star, unicode star, decorative star, copy star symbol"
+    id: 6,
+    symbol: "✩",
+    name: "Stress Outlined White Star",
+    categories: ["classic", "five-pointed"],
+    slug: "stress-outlined-white-star",
+    unicode: "U+2729",
+    date: "June 10, 2025",
+    seo: {
+      title: "✩ Stress Outlined White Star: Copy, Paste Unicode Star",
+      description: "Copy the ✩ Stress Outlined White Star symbol (U+2729). A decorative star with a bold outline, often used in designs and stylized text. One-click copy.",
+      keywords: "stress outlined white star, outlined star, unicode star, decorative star, copy star symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+2729",
-      "altCode": "Alt+10025",
-      "htmlCode": "&#10025;",
-      "cssCode": "\"\\2729\"",
-      "htmlEntity": "&#10025;",
-      "hexCode": "&#x2729;"
+    technicalInfo: {
+      unicode: "U+2729",
+      altCode: "Alt+10025",
+      htmlCode: "&#10025;",
+      cssCode: "\"\\2729\"",
+      htmlEntity: "&#10025;",
+      hexCode: "&#x2729;"
     },
-    "creativeShowcases": [
-      { "name": "Bold Outline Star", "symbol": "✩" },
-      { "name": "Emphasized Star Text", "symbol": "✩ Highlight ✩" },
-      { "name": "Stylized Star Divider", "symbol": "—✩—" },
-      { "name": "Impactful Star Design", "symbol": "✹✩✹" },
-      { "name": "Decorative Text Accent", "symbol": "Text ✩" }
+    creativeShowcases: [
+      { name: "Bold Outline Star", symbol: "✩" },
+      { name: "Emphasized Star Text", symbol: "✩ Highlight ✩" },
+      { name: "Stylized Star Divider", symbol: "—✩—" },
+      { name: "Impactful Star Design", symbol: "✹✩✹" },
+      { name: "Decorative Text Accent", symbol: "Text ✩" }
     ],
-    "relatedStars": [
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✧", "name": "White Four Pointed Star", "slug": "white-four-pointed-star" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" }
+    relatedStars: [
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Four Pointed Star", slug: "white-four-pointed-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✩ Stress Outlined White Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✩ Stress Outlined White Star symbol**, a distinct Unicode character known for its bold outline. This **outlined star** is widely favored for adding visual emphasis, stylistic flair, and a unique decorative touch to digital content. Whether you're a web designer, a content creator, or simply looking for a striking accent **star symbol** for your messages, this **Star Symbols** guide covers everything you need to know about the **✩ Stress Outlined White Star**.</p>
@@ -688,40 +688,40 @@ export const starDetailsData = [
   },
 
   {
-    "id": 7,
-    "symbol": "✪",
-    "name": "Circled White Star",
-    "categories": ["classic", "five-pointed"],
-    "slug": "circled-white-star",
-    "unicode": "U+272A",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✪ Circled White Star: Copy, Paste Unicode Star",
-      "description": "Copy the ✪ Circled White Star symbol (U+272A). A decorative star enclosed in a circle, commonly used in designs and text styling. Easy one-click copy.",
-      "keywords": "circled white star, star in circle, unicode star, ✪ symbol, decorative star, copy star symbol"
+    id: 7,
+    symbol: "✪",
+    name: "Circled White Star",
+    categories: ["classic", "five-pointed"],
+    slug: "circled-white-star",
+    unicode: "U+272A",
+    date: "June 10, 2025",
+    seo: {
+      title: "✪ Circled White Star: Copy, Paste Unicode Star",
+      description: "Copy the ✪ Circled White Star symbol (U+272A). A decorative star enclosed in a circle, commonly used in designs and text styling. Easy one-click copy.",
+      keywords: "circled white star, star in circle, unicode star, ✪ symbol, decorative star, copy star symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+272A",
-      "altCode": "Alt+10026",
-      "htmlCode": "&#10026;",
-      "cssCode": "\"\\272A\"",
-      "htmlEntity": "&#10026;",
-      "hexCode": "&#x272A;"
+    technicalInfo: {
+      unicode: "U+272A",
+      altCode: "Alt+10026",
+      htmlCode: "&#10026;",
+      cssCode: "\"\\272A\"",
+      htmlEntity: "&#10026;",
+      hexCode: "&#x272A;"
     },
-    "creativeShowcases": [
-      { "name": "Featured Star", "symbol": "✪" },
-      { "name": "Badge Design", "symbol": "🏆✪" },
-      { "name": "Iconic Element", "symbol": "✪ Title" },
-      { "name": "Important Highlight", "symbol": "✨✪✨" },
-      { "name": "Circled Accent", "symbol": "«✪»" }
+    creativeShowcases: [
+      { name: "Featured Star", symbol: "✪" },
+      { name: "Badge Design", symbol: "🏆✪" },
+      { name: "Iconic Element", symbol: "✪ Title" },
+      { name: "Important Highlight", symbol: "✨✪✨" },
+      { name: "Circled Accent", symbol: "«✪»" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "🌟", "name": "Glowing Star", "slug": "glowing-star" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✪ Circled White Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✪ Circled White Star symbol**, a distinct Unicode character featuring a five-pointed star neatly enclosed within a circle. This **star in circle** symbol is highly versatile and is commonly used in various digital designs, text styling, and to signify importance or excellence. Whether you're a designer, content creator, or simply looking for a unique accent **star symbol**, this **Star Symbols** guide covers everything you need to know about the **✪ Circled White Star**.</p>
@@ -801,40 +801,40 @@ export const starDetailsData = [
   },
 
   {
-    "id": 8,
-    "symbol": "✫",
-    "name": "Open Centre Black Star",
-    "categories": ["classic", "five-pointed"],
-    "slug": "open-centre-black-star",
-    "unicode": "U+272B",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✫ Open Centre Black Star: Copy, Paste Unicode Star",
-      "description": "Copy the ✫ Open Centre Black Star symbol (U+272B). A decorative star with an open center, used in design and styling. One-click copy and paste.",
-      "keywords": "open centre black star, decorative star, unicode star, ✫ symbol, design star, copy star symbol"
+    id: 8,
+    symbol: "✫",
+    name: "Open Centre Black Star",
+    categories: ["classic", "five-pointed"],
+    slug: "open-centre-black-star",
+    unicode: "U+272B",
+    date: "June 10, 2025",
+    seo: {
+      title: "✫ Open Centre Black Star: Copy, Paste Unicode Star",
+      description: "Copy the ✫ Open Centre Black Star symbol (U+272B). A decorative star with an open center, used in design and styling. One-click copy and paste.",
+      keywords: "open centre black star, decorative star, unicode star, ✫ symbol, design star, copy star symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+272B",
-      "altCode": "Alt+10027",
-      "htmlCode": "&#10027;",
-      "cssCode": "\"\\272B\"",
-      "htmlEntity": "&#10027;",
-      "hexCode": "&#x272B;"
+    technicalInfo: {
+      unicode: "U+272B",
+      altCode: "Alt+10027",
+      htmlCode: "&#10027;",
+      cssCode: "\"\\272B\"",
+      htmlEntity: "&#10027;",
+      hexCode: "&#x272B;"
     },
-    "creativeShowcases": [
-      { "name": "Open Star Accent", "symbol": "✫" },
-      { "name": "Stylized Bullet", "symbol": "✫ Item" },
-      { "name": "Design Element", "symbol": "✫✫✫" },
-      { "name": "Decorative Divider", "symbol": "—✫—" },
-      { "name": "Unique Marker", "symbol": "Text ✫" }
+    creativeShowcases: [
+      { name: "Open Star Accent", symbol: "✫" },
+      { name: "Stylized Bullet", symbol: "✫ Item" },
+      { name: "Design Element", symbol: "✫✫✫" },
+      { name: "Decorative Divider", symbol: "—✫—" },
+      { name: "Unique Marker", symbol: "Text ✫" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "🌟", "name": "Glowing Star", "slug": "glowing-star" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✫ Open Centre Black Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✫ Open Centre Black Star symbol**, a unique Unicode character featuring a five-pointed star with a distinctive open or hollow center. This **open centre black star** is widely recognized for its elegant and minimalist aesthetic, making it perfect for various design applications, text styling, and adding a subtle decorative touch. Whether you're a web designer, content creator, or simply looking for a striking accent **star symbol**, this **Star Symbols** guide covers everything you need to know about the **✫ Open Centre Black Star**.</p>
@@ -914,42 +914,42 @@ export const starDetailsData = [
   },
 
   {
-    "id": 9,
-    "symbol": "✬",
-    "name": "Black Centre White Star",
-    "categories": ["classic", "five-pointed"],
-    "slug": "black-centre-white-star",
-    "unicode": "U+272C",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✬ Black Centre White Star: Copy, Paste Unicode",
-      "description": "Copy the ✬ Black Centre White Star symbol (U+272C). A decorative star with a black center and white outline, perfect for design and styling. One-click copy.",
-      "keywords": "black centre white star, decorative star, unicode star, ✬ symbol, design star, copy star symbol"
+    id: 9,
+    symbol: "✬",
+    name: "Black Centre White Star",
+    categories: ["classic", "five-pointed"],
+    slug: "black-centre-white-star",
+    unicode: "U+272C",
+    date: "June 10, 2025",
+    seo: {
+      title: "✬ Black Centre White Star: Copy, Paste Unicode",
+      description: "Copy the ✬ Black Centre White Star symbol (U+272C). A decorative star with a black center and white outline, perfect for design and styling. One-click copy.",
+      keywords: "black centre white star, decorative star, unicode star, ✬ symbol, design star, copy star symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+272C",
-      "altCode": "Alt+10028",
-      "htmlCode": "&#10028;",
-      "cssCode": "\"\\272C\"",
-      "htmlEntity": "&#10028;",
-      "hexCode": "&#x272C;"
+    technicalInfo: {
+      unicode: "U+272C",
+      altCode: "Alt+10028",
+      htmlCode: "&#10028;",
+      cssCode: "\"\\272C\"",
+      htmlEntity: "&#10028;",
+      hexCode: "&#x272C;"
     },
-    "creativeShowcases": [
-      { "name": "Distinguished Star", "symbol": "✬" },
-      { "name": "Elegant Marker", "symbol": "✬ Item" },
-      { "name": "Stylish Rating", "symbol": "✬✬✬✬✬" },
-      { "name": "Visual Highlight", "symbol": "Text ✬" },
-      { "name": "Contrasting Design", "symbol": "✦✬✦" }
+    creativeShowcases: [
+      { name: "Distinguished Star", symbol: "✬" },
+      { name: "Elegant Marker", symbol: "✬ Item" },
+      { name: "Stylish Rating", symbol: "✬✬✬✬✬" },
+      { name: "Visual Highlight", symbol: "Text ✬" },
+      { name: "Contrasting Design", symbol: "✦✬✦" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "✫", "name": "Open Centre Black Star", "slug": "open-centre-black-star" },
-      { "symbol": "✪", "name": "Circled White Star", "slug": "circled-white-star" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✧", "name": "White Four Pointed Star", "slug": "white-four-pointed-star" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "✫", name: "Open Centre Black Star", slug: "open-centre-black-star" },
+      { symbol: "✪", name: "Circled White Star", slug: "circled-white-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Four Pointed Star", slug: "white-four-pointed-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✬ Black Centre White Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✬ Black Centre White Star symbol**, a distinct Unicode character featuring a white outline and a prominent black center. This **black centre white star** combines classic star imagery with a striking contrast, making it perfect for decorative designs, unique bullet points, and stylistic emphasis in digital content. Whether you're a web designer, content creator, or simply looking for a sophisticated accent **star symbol**, this **Star Symbols** guide covers everything you need to know about the **✬ Black Centre White Star**.</p>
@@ -1031,42 +1031,42 @@ export const starDetailsData = [
   },
 
   {
-    "id": 10,
-    "symbol": "✭",
-    "name": "Outlined Black Star",
-    "categories": ["classic", "five-pointed"],
-    "slug": "outlined-black-star",
-    "unicode": "U+272D",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✭ Outlined Black Star: Copy, Paste Unicode Star",
-      "description": "Copy the ✭ Outlined Black Star symbol (U+272D). A decorative outlined star commonly used in text and design. One-click copy for easy use.",
-      "keywords": "outlined black star, decorative star, unicode star, ✭ symbol, design star, copy star symbol"
+    id: 10,
+    symbol: "✭",
+    name: "Outlined Black Star",
+    categories: ["classic", "five-pointed"],
+    slug: "outlined-black-star",
+    unicode: "U+272D",
+    date: "June 10, 2025",
+    seo: {
+      title: "✭ Outlined Black Star: Copy, Paste Unicode Star",
+      description: "Copy the ✭ Outlined Black Star symbol (U+272D). A decorative outlined star commonly used in text and design. One-click copy for easy use.",
+      keywords: "outlined black star, decorative star, unicode star, ✭ symbol, design star, copy star symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+272D",
-      "altCode": "Alt+10029",
-      "htmlCode": "&#10029;",
-      "cssCode": "\"\\272D\"",
-      "htmlEntity": "&#10029;",
-      "hexCode": "&#x272D;"
+    technicalInfo: {
+      unicode: "U+272D",
+      altCode: "Alt+10029",
+      htmlCode: "&#10029;",
+      cssCode: "\"\\272D\"",
+      htmlEntity: "&#10029;",
+      hexCode: "&#x272D;"
     },
-    "creativeShowcases": [
-      { "name": "Classic Outline", "symbol": "✭" },
-      { "name": "Header Accent", "symbol": "✭ Section Title" },
-      { "name": "Rating Indicator", "symbol": "✭✭✭✭✭" },
-      { "name": "Decorative Divider", "symbol": "—✭—" },
-      { "name": "Emphasis Marker", "symbol": "Important ✭" }
+    creativeShowcases: [
+      { name: "Classic Outline", symbol: "✭" },
+      { name: "Header Accent", symbol: "✭ Section Title" },
+      { name: "Rating Indicator", symbol: "✭✭✭✭✭" },
+      { name: "Decorative Divider", symbol: "—✭—" },
+      { name: "Emphasis Marker", symbol: "Important ✭" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "✩", "name": "Stress Outlined White Star", "slug": "stress-outlined-white-star" },
-      { "symbol": "✬", "name": "Black Centre White Star", "slug": "black-centre-white-star" },
-      { "symbol": "✫", "name": "Open Centre Black Star", "slug": "open-centre-black-star" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "✩", name: "Stress Outlined White Star", slug: "stress-outlined-white-star" },
+      { symbol: "✬", name: "Black Centre White Star", slug: "black-centre-white-star" },
+      { symbol: "✫", name: "Open Centre Black Star", slug: "open-centre-black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✭ Outlined Black Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✭ Outlined Black Star symbol**, a distinct Unicode character featuring a five-pointed star with a clear outline. This **outlined black star** is highly versatile and is frequently used to add visual emphasis, stylistic flair, and a unique decorative touch to digital content. Whether you're a web designer, content creator, or simply looking for a classic accent **star symbol** for your messages, this **Star Symbols** guide covers everything you need to know about the **✭ Outlined Black Star**.</p>
@@ -1146,42 +1146,42 @@ export const starDetailsData = [
   },
 
   {
-    "id": 11,
-    "symbol": "✮",
-    "name": "Heavy Outlined Black Star",
-    "categories": ["classic", "five-pointed"],
-    "slug": "heavy-outlined-black-star",
-    "unicode": "U+272E",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✮ Heavy Outlined Black Star: Copy, Paste Unicode",
-      "description": "Copy the ✮ Heavy Outlined Black Star symbol (U+272E). A bold decorative star with a heavy outline, perfect for emphasis and design. One-click copy available.",
-      "keywords": "heavy outlined black star, decorative star, unicode star, ✮ symbol, bold star, copy star symbol"
+    id: 11,
+    symbol: "✮",
+    name: "Heavy Outlined Black Star",
+    categories: ["classic", "five-pointed"],
+    slug: "heavy-outlined-black-star",
+    unicode: "U+272E",
+    date: "June 10, 2025",
+    seo: {
+      title: "✮ Heavy Outlined Black Star: Copy, Paste Unicode",
+      description: "Copy the ✮ Heavy Outlined Black Star symbol (U+272E). A bold decorative star with a heavy outline, perfect for emphasis and design. One-click copy available.",
+      keywords: "heavy outlined black star, decorative star, unicode star, ✮ symbol, bold star, copy star symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+272E",
-      "altCode": "Alt+10030",
-      "htmlCode": "&#10030;",
-      "cssCode": "\"\\272E\"",
-      "htmlEntity": "&#10030;",
-      "hexCode": "&#x272E;"
+    technicalInfo: {
+      unicode: "U+272E",
+      altCode: "Alt+10030",
+      htmlCode: "&#10030;",
+      cssCode: "\"\\272E\"",
+      htmlEntity: "&#10030;",
+      hexCode: "&#x272E;"
     },
-    "creativeShowcases": [
-      { "name": "Bold Statement", "symbol": "✮" },
-      { "name": "Strong Emphasis", "symbol": "✮ NEW! ✮" },
-      { "name": "Impactful Icon", "symbol": "✮ Award" },
-      { "name": "Thick Outline Decor", "symbol": "—✮—" },
-      { "name": "Eye-catching Bullet", "symbol": "✮ List Item" }
+    creativeShowcases: [
+      { name: "Bold Statement", symbol: "✮" },
+      { name: "Strong Emphasis", symbol: "✮ NEW! ✮" },
+      { name: "Impactful Icon", symbol: "✮ Award" },
+      { name: "Thick Outline Decor", symbol: "—✮—" },
+      { name: "Eye-catching Bullet", symbol: "✮ List Item" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "✩", "name": "Stress Outlined White Star", "slug": "stress-outlined-white-star" },
-      { "symbol": "✭", "name": "Outlined Black Star", "slug": "outlined-black-star" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✧", "name": "White Four Pointed Star", "slug": "white-four-pointed-star" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "✩", name: "Stress Outlined White Star", slug: "stress-outlined-white-star" },
+      { symbol: "✭", name: "Outlined Black Star", slug: "outlined-black-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Four Pointed Star", slug: "white-four-pointed-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✮ Heavy Outlined Black Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✮ Heavy Outlined Black Star symbol**, a distinct Unicode character featuring a five-pointed star with a strikingly thick outline. This **heavy outlined black star** is designed for maximum visual impact, making it ideal for strong emphasis, bold design elements, and decorative purposes where a regular star might not stand out enough. Whether you're a web designer, content creator, or simply looking for a powerful accent **star symbol** for your messages, this **Star Symbols** guide covers everything you need to know about the **✮ Heavy Outlined Black Star**.</p>
@@ -1261,42 +1261,42 @@ export const starDetailsData = [
   },
 
   {
-    "id": 12,
-    "symbol": "✯",
-    "name": "Pinwheel Star",
-    "categories": ["classic", "five-pointed"],
-    "slug": "pinwheel-star",
-    "unicode": "U+272F",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✯ Pinwheel Star Symbol - Copy and Paste Unicode Star",
-      "description": "Copy the ✯ Pinwheel Star symbol (U+272F). A decorative star resembling a pinwheel, ideal for design and text decoration. One-click copy available.",
-      "keywords": "pinwheel star, decorative star, unicode star, ✯ symbol, design star, copy star symbol"
+    id: 12,
+    symbol: "✯",
+    name: "Pinwheel Star",
+    categories: ["classic", "five-pointed"],
+    slug: "pinwheel-star",
+    unicode: "U+272F",
+    date: "June 10, 2025",
+    seo: {
+      title: "✯ Pinwheel Star Symbol - Copy and Paste Unicode Star",
+      description: "Copy the ✯ Pinwheel Star symbol (U+272F). A decorative star resembling a pinwheel, ideal for design and text decoration. One-click copy available.",
+      keywords: "pinwheel star, decorative star, unicode star, ✯ symbol, design star, copy star symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+272F",
-      "altCode": "Alt+10031",
-      "htmlCode": "&#10031;",
-      "cssCode": "\"\\272F\"",
-      "htmlEntity": "&#10031;",
-      "hexCode": "&#x272F;"
+    technicalInfo: {
+      unicode: "U+272F",
+      altCode: "Alt+10031",
+      htmlCode: "&#10031;",
+      cssCode: "\"\\272F\"",
+      htmlEntity: "&#10031;",
+      hexCode: "&#x272F;"
     },
-    "creativeShowcases": [
-      { "name": "Dynamic Accent", "symbol": "✯" },
-      { "name": "Whirling Highlight", "symbol": "✯ NEW! ✯" },
-      { "name": "Playful Design", "symbol": "✯ Fun!" },
-      { "name": "Animated Element", "symbol": "—✯—" },
-      { "name": "Unique Marker", "symbol": "Item ✯" }
+    creativeShowcases: [
+      { name: "Dynamic Accent", symbol: "✯" },
+      { name: "Whirling Highlight", symbol: "✯ NEW! ✯" },
+      { name: "Playful Design", symbol: "✯ Fun!" },
+      { name: "Animated Element", symbol: "—✯—" },
+      { name: "Unique Marker", symbol: "Item ✯" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "🌟", "name": "Glowing Star", "slug": "glowing-star" },
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✧", "name": "White Four Pointed Star", "slug": "white-four-pointed-star" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Four Pointed Star", slug: "white-four-pointed-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✯ Pinwheel Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✯ Pinwheel Star symbol**, a charming Unicode character featuring a five-pointed star with a unique, dynamic, pinwheel-like design. This **pinwheel star** adds a touch of whimsy and movement to any text or design, making it perfect for creative projects, decorative accents, and engaging content. Whether you're a designer, a content creator, or simply looking for a playful accent **star symbol**, this **Star Symbols** guide covers everything you need to know about the **✯ Pinwheel Star**.</p>
@@ -1376,42 +1376,42 @@ export const starDetailsData = [
   },
 
   {
-    "id": 13,
-    "symbol": "⭒",
-    "name": "White Small Star",
-    "categories": ["classic", "five-pointed"],
-    "slug": "white-small-star",
-    "unicode": "U+2B52",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "⭒ White Small Star Symbol - Copy and Paste Unicode Star",
-      "description": "Copy the ⭒ White Small Star (U+2B52). A delicate and decorative accent, perfect for minimalist designs and subtle text enhancement. One-click copy for easy use.",
-      "keywords": "white small star, decorative star, unicode star, ⭒ symbol, small star, copy star symbol"
+    id: 13,
+    symbol: "⭒",
+    name: "White Small Star",
+    categories: ["classic", "five-pointed"],
+    slug: "white-small-star",
+    unicode: "U+2B52",
+    date: "June 10, 2025",
+    seo: {
+      title: "⭒ White Small Star Symbol - Copy and Paste Unicode Star",
+      description: "Copy the ⭒ White Small Star (U+2B52). A delicate and decorative accent, perfect for minimalist designs and subtle text enhancement. One-click copy for easy use.",
+      keywords: "white small star, decorative star, unicode star, ⭒ symbol, small star, copy star symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+2B52",
-      "altCode": "11090",
-      "htmlCode": "&#11090;",
-      "cssCode": "\"\\2B52\"",
-      "htmlEntity": "&#11090;",
-      "hexCode": "&#x2B52;"
+    technicalInfo: {
+      unicode: "U+2B52",
+      altCode: "11090",
+      htmlCode: "&#11090;",
+      cssCode: "\"\\2B52\"",
+      htmlEntity: "&#11090;",
+      hexCode: "&#x2B52;"
     },
-    "creativeShowcases": [
-      { "name": "Subtle Accent", "symbol": "⭒" },
-      { "name": "Minimalist Bullet", "symbol": "⭒ Item" },
-      { "name": "Delicate Sparkle", "symbol": "✨⭒✨" },
-      { "name": "Rating Detail", "symbol": "⭐⭒" },
-      { "name": "Tiny Decor", "symbol": "Text ⭒" }
+    creativeShowcases: [
+      { name: "Subtle Accent", symbol: "⭒" },
+      { name: "Minimalist Bullet", symbol: "⭒ Item" },
+      { name: "Delicate Sparkle", symbol: "✨⭒✨" },
+      { name: "Rating Detail", symbol: "⭐⭒" },
+      { name: "Tiny Decor", symbol: "Text ⭒" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" },
-      { "symbol": "🌟", "name": "Glowing Star", "slug": "glowing-star" },
-      { "symbol": "✩", "name": "Stress Outlined White Star", "slug": "stress-outlined-white-star" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "✩", name: "Stress Outlined White Star", slug: "stress-outlined-white-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>⭒ White Small Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ⭒ White Small Star symbol**, a delicate Unicode character perfect for adding subtle accents and decorative touches. This **white small star** offers a minimalist yet elegant way to enhance text, lists, and designs without overwhelming the content. Whether you're a web designer, content creator, or simply looking for a tiny, charming accent **star symbol**, this **Star Symbols** guide covers everything you need to know about the **⭒ White Small Star**.</p>
@@ -1492,42 +1492,42 @@ export const starDetailsData = [
   },
 
   {
-    "id": 14,
-    "symbol": "⭑",
-    "name": "Black Small Star",
-    "categories": ["classic", "five-pointed"],
-    "slug": "black-small-star",
-    "unicode": "U+2B51",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "⭒ White Small Star Symbol - Copy and Paste Unicode Star",
-      "description": "Copy the ⭒ White Small Star (U+2B52). A delicate and decorative accent, ideal for minimalist designs and enhancing text with a subtle touch. One-click copy.",
-      "keywords": "white small star, decorative star, unicode star, ⭒ symbol, small star, copy star symbol"
+    id: 14,
+    symbol: "⭑",
+    name: "Black Small Star",
+    categories: ["classic", "five-pointed"],
+    slug: "black-small-star",
+    unicode: "U+2B51",
+    date: "June 10, 2025",
+    seo: {
+      title: "⭒ White Small Star Symbol - Copy and Paste Unicode Star",
+      description: "Copy the ⭒ White Small Star (U+2B52). A delicate and decorative accent, ideal for minimalist designs and enhancing text with a subtle touch. One-click copy.",
+      keywords: "white small star, decorative star, unicode star, ⭒ symbol, small star, copy star symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+2B51",
-      "altCode": "11089",
-      "htmlCode": "&#11089;",
-      "cssCode": "\"\\2B51\"",
-      "htmlEntity": "&#11089;",
-      "hexCode": "&#x2B51;"
+    technicalInfo: {
+      unicode: "U+2B51",
+      altCode: "11089",
+      htmlCode: "&#11089;",
+      cssCode: "\"\\2B51\"",
+      htmlEntity: "&#11089;",
+      hexCode: "&#x2B51;"
     },
-    "creativeShowcases": [
-      { "name": "Tiny Accent", "symbol": "⭑" },
-      { "name": "Subtle Rating", "symbol": "⭐⭑" },
-      { "name": "Dark Bullet", "symbol": "⭑ Item" },
-      { "name": "Compact Decor", "symbol": "Text ⭑" },
-      { "name": "Emphasis Dot", "symbol": "Important⭑" }
+    creativeShowcases: [
+      { name: "Tiny Accent", symbol: "⭑" },
+      { name: "Subtle Rating", symbol: "⭐⭑" },
+      { name: "Dark Bullet", symbol: "⭑ Item" },
+      { name: "Compact Decor", symbol: "Text ⭑" },
+      { name: "Emphasis Dot", symbol: "Important⭑" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "⭒", "name": "White Small Star", "slug": "white-small-star" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "🌟", "name": "Glowing Star", "slug": "glowing-star" },
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "⭒", name: "White Small Star", slug: "white-small-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>⭑ Black Small Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ⭑ Black Small Star symbol**, a compact Unicode character that provides a subtle yet effective visual accent. This **black small star** is a solid, five-pointed **star symbol**, ideal for minimalist designs, compact ratings, and adding clear, understated emphasis to your text. Whether you're a web developer, content creator, or simply looking for a small yet impactful **star symbol**, this **Star Symbols** guide covers everything you need to know about the **⭑ Black Small Star**.</p>
@@ -1608,42 +1608,42 @@ export const starDetailsData = [
   },
 
   {
-    "id": 15,
-    "symbol": "✰",
-    "name": "Shadowed White Star",
-    "categories": ["classic", "five-pointed"],
-    "slug": "shadowed-white-star",
-    "unicode": "U+2730",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✰ Shadowed White Star Symbol - Copy and Paste Unicode Star",
-      "description": "Copy the ✰ Shadowed White Star symbol (U+2730). A decorative star with shadow effect, perfect for design and emphasis. One-click copy available.",
-      "keywords": "shadowed white star, decorative star, unicode star, ✰ symbol, design star, copy star symbol"
+    id: 15,
+    symbol: "✰",
+    name: "Shadowed White Star",
+    categories: ["classic", "five-pointed"],
+    slug: "shadowed-white-star",
+    unicode: "U+2730",
+    date: "June 10, 2025",
+    seo: {
+      title: "✰ Shadowed White Star Symbol - Copy and Paste Unicode Star",
+      description: "Copy the ✰ Shadowed White Star symbol (U+2730). A decorative star with shadow effect, perfect for design and emphasis. One-click copy available.",
+      keywords: "shadowed white star, decorative star, unicode star, ✰ symbol, design star, copy star symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+2730",
-      "altCode": "Alt+10032",
-      "htmlCode": "&#10032;",
-      "cssCode": "\"\\2730\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2730;"
+    technicalInfo: {
+      unicode: "U+2730",
+      altCode: "Alt+10032",
+      htmlCode: "&#10032;",
+      cssCode: "\"\\2730\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2730;"
     },
-    "creativeShowcases": [
-      { "name": "3D Accent", "symbol": "✰" },
-      { "name": "Highlighted Item", "symbol": "✰ Item" },
-      { "name": "Fancy Bullet", "symbol": "Text ✰" },
-      { "name": "Sparkling Divider", "symbol": "--- ✰ ---" },
-      { "name": "Depth Effect", "symbol": "✰ Shadow" }
+    creativeShowcases: [
+      { name: "3D Accent", symbol: "✰" },
+      { name: "Highlighted Item", symbol: "✰ Item" },
+      { name: "Fancy Bullet", symbol: "Text ✰" },
+      { name: "Sparkling Divider", symbol: "--- ✰ ---" },
+      { name: "Depth Effect", symbol: "✰ Shadow" }
     ],
-    "relatedStars": [
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "✩", "name": "Stress Outlined White Star", "slug": "stress-outlined-white-star" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "🌟", "name": "Glowing Star", "slug": "glowing-star" },
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" }
+    relatedStars: [
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "✩", name: "Stress Outlined White Star", slug: "stress-outlined-white-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✰ Shadowed White Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✰ Shadowed White Star symbol**, a unique Unicode character that features a distinctive shadow effect. This **shadowed white star** adds depth and visual interest, making it an excellent **star symbol** for design, emphasis, and creative text formatting. Whether you're a designer, content creator, or simply looking for a standout **star symbol**, this **Star Symbols** guide provides all the information you need about the **✰ Shadowed White Star**.</p>
@@ -1722,39 +1722,39 @@ export const starDetailsData = [
   },
 
   {
-    "id": 16,
-    "symbol": "⁂",
-    "name": "Asterism",
-    "categories": ["six-pointed', 'other"],
-    "slug": "asterism",
-    "unicode": "U+2042",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "⁂ Asterism Symbol - Copy and Paste Unicode Typographic Mark",
-      "description": "Copy the ⁂ Asterism (U+2042). This unique typographic mark, a triangle of three asterisks, signifies section breaks or emphasis. One-click copy.",
-      "keywords": "asterism symbol, typographic symbol, section break, text divider, ⁂ symbol, copy paste, unicode"
+    id: 16,
+    symbol: "⁂",
+    name: "Asterism",
+    categories: ["six-pointed', 'other"],
+    slug: "asterism",
+    unicode: "U+2042",
+    date: "June 10, 2025",
+    seo: {
+      title: "⁂ Asterism Symbol - Copy and Paste Unicode Typographic Mark",
+      description: "Copy the ⁂ Asterism (U+2042). This unique typographic mark, a triangle of three asterisks, signifies section breaks or emphasis. One-click copy.",
+      keywords: "asterism symbol, typographic symbol, section break, text divider, ⁂ symbol, copy paste, unicode"
     },
-    "technicalInfo": {
-      "unicode": "U+2042",
-      "altCode": "Alt+8258",
-      "htmlCode": "&#8258;",
-      "cssCode": "\"\\2042\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2042;"
+    technicalInfo: {
+      unicode: "U+2042",
+      altCode: "Alt+8258",
+      htmlCode: "&#8258;",
+      cssCode: "\"\\2042\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2042;"
     },
-    "creativeShowcases": [
-      { "name": "Section Separator", "symbol": "⁂" },
-      { "name": "Text Divider", "symbol": "--- ⁂ ---" },
-      { "name": "Emphasis Mark", "symbol": "⁂ Important Note ⁂" },
-      { "name": "Stylistic Break", "symbol": "Chapter End ⁂" },
-      { "name": "Typographic Flair", "symbol": "Heading ⁂" }
+    creativeShowcases: [
+      { name: "Section Separator", symbol: "⁂" },
+      { name: "Text Divider", symbol: "--- ⁂ ---" },
+      { name: "Emphasis Mark", symbol: "⁂ Important Note ⁂" },
+      { name: "Stylistic Break", symbol: "Chapter End ⁂" },
+      { name: "Typographic Flair", symbol: "Heading ⁂" }
     ],
-    "relatedStars": [
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "✰", "name": "Shadowed White Star", "slug": "shadowed-white-star" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" }
+    relatedStars: [
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "✰", name: "Shadowed White Star", slug: "shadowed-white-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>⁂ Asterism Symbol: Copy, Paste & Use in Text and Design</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ⁂ Asterism symbol**, a distinct Unicode typographic mark. This unique symbol, consisting of three asterisks arranged in a triangular form, is primarily used to indicate a section break or a stylistic division within text. While not a "star" in the traditional sense, its visual appeal and historical use make it a fascinating addition to any document or design. Explore this guide on **Star Symbols** to learn everything about the **⁂ Asterism symbol**.</p>
@@ -1834,40 +1834,40 @@ export const starDetailsData = [
   },
 
   {
-    "id": 17,
-    "symbol": "⁎",
-    "name": "Low Asterisk",
-    "categories": ['six-pointed', 'classic'],
-    "slug": "low-asterisk",
-    "unicode": "U+204E",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "Low Asterisk Symbol - Copy & Paste Unicode Typographic Mark",
-      "description": "Copy the ⁎ Low Asterisk (U+204E). This decorative, lower-positioned asterisk is ideal for footnotes, emphasis, or unique text decoration. One-click copy.",
-      "keywords": "low asterisk, asterisk symbol, unicode, ⁎ symbol, footnote mark, text decoration, copy paste"
+    id: 17,
+    symbol: "⁎",
+    name: "Low Asterisk",
+    categories: ['six-pointed', 'classic'],
+    slug: "low-asterisk",
+    unicode: "U+204E",
+    date: "June 10, 2025",
+    seo: {
+      title: "Low Asterisk Symbol - Copy & Paste Unicode Typographic Mark",
+      description: "Copy the ⁎ Low Asterisk (U+204E). This decorative, lower-positioned asterisk is ideal for footnotes, emphasis, or unique text decoration. One-click copy.",
+      keywords: "low asterisk, asterisk symbol, unicode, ⁎ symbol, footnote mark, text decoration, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+204E",
-      "altCode": "Alt+8270",
-      "htmlCode": "&#8270;",
-      "cssCode": "\"\\204E\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x204E;"
+    technicalInfo: {
+      unicode: "U+204E",
+      altCode: "Alt+8270",
+      htmlCode: "&#8270;",
+      cssCode: "\"\\204E\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x204E;"
     },
-    "creativeShowcases": [
-      { "name": "Footnote Indicator", "symbol": "Text⁎" },
-      { "name": "Subtle Emphasis", "symbol": "⁎ Important Point" },
-      { "name": "Stylistic Bullet", "symbol": "⁎ Item" },
-      { "name": "Text Decorator", "symbol": "Word⁎" },
-      { "name": "Low-Position Mark", "symbol": "⁎ Note Below" }
+    creativeShowcases: [
+      { name: "Footnote Indicator", symbol: "Text⁎" },
+      { name: "Subtle Emphasis", symbol: "⁎ Important Point" },
+      { name: "Stylistic Bullet", symbol: "⁎ Item" },
+      { name: "Text Decorator", symbol: "Word⁎" },
+      { name: "Low-Position Mark", symbol: "⁎ Note Below" }
     ],
-    "relatedStars": [
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "✰", "name": "Shadowed White Star", "slug": "shadowed-white-star" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✧", "name": "White Medium Star", "slug": "white-medium-star" },
+    relatedStars: [
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "✰", name: "Shadowed White Star", slug: "shadowed-white-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Medium Star", slug: "white-medium-star" },
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>⁎ Low Asterisk Symbol: Copy, Paste & Use in Text and Design</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ⁎ Low Asterisk symbol**, a unique Unicode character distinct from a standard asterisk. This **low asterisk**, positioned slightly below the baseline, offers a subtle yet effective way to mark text for footnotes, emphasis, or as a decorative element. Whether you're a writer, designer, or developer looking for precise typographic control, this **Star Symbols** guide covers everything you need to know about the **⁎ Low Asterisk**.</p>
@@ -1948,40 +1948,40 @@ export const starDetailsData = [
   },
 
   {
-    "id": 18,
-    "symbol": "⁑",
-    "name": "Two Asterisks Aligned Vertically",
-    "categories": ['six-pointed', 'other'],
-    "slug": "two-asterisks-aligned-vertically",
-    "unicode": "U+2051",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "⁑ Two Asterisks Aligned Vertically Symbol - Copy & Paste",
-      "description": "Copy the ⁑ Two Asterisks Aligned Vertically (U+2051). This typographic symbol is ideal for special notes, annotations, or elegant text styling. One-click copy.",
-      "keywords": "two asterisks vertically, double asterisk, unicode, ⁑ symbol, typographic, annotation, copy paste"
+    id: 18,
+    symbol: "⁑",
+    name: "Two Asterisks Aligned Vertically",
+    categories: ['six-pointed', 'other'],
+    slug: "two-asterisks-aligned-vertically",
+    unicode: "U+2051",
+    date: "June 10, 2025",
+    seo: {
+      title: "⁑ Two Asterisks Aligned Vertically Symbol - Copy & Paste",
+      description: "Copy the ⁑ Two Asterisks Aligned Vertically (U+2051). This typographic symbol is ideal for special notes, annotations, or elegant text styling. One-click copy.",
+      keywords: "two asterisks vertically, double asterisk, unicode, ⁑ symbol, typographic, annotation, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2051",
-      "altCode": "Alt+8273",
-      "htmlCode": "&#8273;",
-      "cssCode": "\"\\2051\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2051;"
+    technicalInfo: {
+      unicode: "U+2051",
+      altCode: "Alt+8273",
+      htmlCode: "&#8273;",
+      cssCode: "\"\\2051\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2051;"
     },
-    "creativeShowcases": [
-      { "name": "Special Note Marker", "symbol": "Text ⁑" },
-      { "name": "Annotation Symbol", "symbol": "⁑ See page 5." },
-      { "name": "Text Divider", "symbol": "--- ⁑ ---" },
-      { "name": "Literary Device", "symbol": "A short pause. ⁑" },
-      { "name": "Emphasis Mark", "symbol": "⁑ Important ⁑" }
+    creativeShowcases: [
+      { name: "Special Note Marker", symbol: "Text ⁑" },
+      { name: "Annotation Symbol", symbol: "⁑ See page 5." },
+      { name: "Text Divider", symbol: "--- ⁑ ---" },
+      { name: "Literary Device", symbol: "A short pause. ⁑" },
+      { name: "Emphasis Mark", symbol: "⁑ Important ⁑" }
     ],
-    "relatedStars": [
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "✰", "name": "Shadowed White Star", "slug": "shadowed-white-star" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✧", "name": "White Medium Star", "slug": "white-medium-star" },
+    relatedStars: [
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "✰", name: "Shadowed White Star", slug: "shadowed-white-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Medium Star", slug: "white-medium-star" },
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>⁑ Two Asterisks Aligned Vertically Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ⁑ Two Asterisks Aligned Vertically symbol**, a unique Unicode typographic mark. This distinctive symbol, which appears as two asterisks stacked vertically, is often used in scholarly texts, annotations, or as a decorative element to signify special notes or transitions. Explore this comprehensive guide on **Star Symbols** to learn everything about the **⁑ Two Asterisks Aligned Vertically symbol**.</p>
@@ -2060,41 +2060,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 19,
-    "symbol": "✢",
-    "name": "Four Teardrop-Spoked Asterisk",
-    "categories": ['other', 'four-pointed'],
-    "slug": "four-teardrop-spoked-asterisk",
-    "unicode": "U+2722",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✢ Four Teardrop-Spoked Asterisk Symbol - Copy & Paste",
-      "description": "Copy the ✢ Four Teardrop-Spoked Asterisk (U+2722). This decorative star with unique teardrop spokes is ideal for design accents or stylistic text.",
-      "keywords": "four teardrop-spoked asterisk, decorative, unicode, ✢ symbol, design accent, stylistic text, copy"
+    id: 19,
+    symbol: "✢",
+    name: "Four Teardrop-Spoked Asterisk",
+    categories: ['other', 'four-pointed'],
+    slug: "four-teardrop-spoked-asterisk",
+    unicode: "U+2722",
+    date: "June 10, 2025",
+    seo: {
+      title: "✢ Four Teardrop-Spoked Asterisk Symbol - Copy & Paste",
+      description: "Copy the ✢ Four Teardrop-Spoked Asterisk (U+2722). This decorative star with unique teardrop spokes is ideal for design accents or stylistic text.",
+      keywords: "four teardrop-spoked asterisk, decorative, unicode, ✢ symbol, design accent, stylistic text, copy"
     },
-    "technicalInfo": {
-      "unicode": "U+2722",
-      "altCode": "Alt+10018",
-      "htmlCode": "&#10018;",
-      "cssCode": "\"\\2722\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2722;"
+    technicalInfo: {
+      unicode: "U+2722",
+      altCode: "Alt+10018",
+      htmlCode: "&#10018;",
+      cssCode: "\"\\2722\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2722;"
     },
-    "creativeShowcases": [
-      { "name": "Design Accent", "symbol": "✢ Item 1" },
-      { "name": "Text Separator", "symbol": "--- ✢ ---" },
-      { "name": "Bullet Point Style", "symbol": "✢ Feature" },
-      { "name": "Decorative Flourish", "symbol": "Word✢" },
-      { "name": "Stylish Marker", "symbol": "Page ✢" }
+    creativeShowcases: [
+      { name: "Design Accent", symbol: "✢ Item 1" },
+      { name: "Text Separator", symbol: "--- ✢ ---" },
+      { name: "Bullet Point Style", symbol: "✢ Feature" },
+      { name: "Decorative Flourish", symbol: "Word✢" },
+      { name: "Stylish Marker", symbol: "Page ✢" }
     ],
-    "relatedStars": [
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✧", "name": "White Four Pointed Star", "slug": "white-four-pointed-star" },
-      { "symbol": "✶", "name": "Six Pointed Black Star", "slug": "six-pointed-black-star" },
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" },
-      { "symbol": "✻", "name": "Teardrop-Spoked Asterisk", "slug": "teardrop-spoked-asterisk" }
+    relatedStars: [
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Four Pointed Star", slug: "white-four-pointed-star" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "✻", name: "Teardrop-Spoked Asterisk", slug: "teardrop-spoked-asterisk" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✢ Four Teardrop-Spoked Asterisk Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✢ Four Teardrop-Spoked Asterisk symbol**, a unique Unicode character perfect for adding a decorative flair. This elegant symbol features four points resembling teardrops or petals, making it an ideal choice for design accents, stylish text, and creative projects. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✢ Four Teardrop-Spoked Asterisk**, a truly unique star symbol.</p>
@@ -2173,41 +2173,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 20,
-    "symbol": "✣",
-    "name": "Four Balloon-Spoked Asterisk",
-    "categories": ['other', 'four-pointed'],
-    "slug": "four-balloon-spoked-asterisk",
-    "unicode": "U+2723",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✣ Four Balloon-Spoked Asterisk Symbol - Copy & Paste",
-      "description": "Copy the ✣ Four Balloon-Spoked Asterisk (U+2723). This decorative star with unique balloon-shaped spokes is ideal for stylistic text or design accents. One-click copy.",
-      "keywords": "four balloon-spoked asterisk, decorative, unicode, ✣ symbol, design accent, stylistic text, copy paste"
+    id: 20,
+    symbol: "✣",
+    name: "Four Balloon-Spoked Asterisk",
+    categories: ['other', 'four-pointed'],
+    slug: "four-balloon-spoked-asterisk",
+    unicode: "U+2723",
+    date: "June 10, 2025",
+    seo: {
+      title: "✣ Four Balloon-Spoked Asterisk Symbol - Copy & Paste",
+      description: "Copy the ✣ Four Balloon-Spoked Asterisk (U+2723). This decorative star with unique balloon-shaped spokes is ideal for stylistic text or design accents. One-click copy.",
+      keywords: "four balloon-spoked asterisk, decorative, unicode, ✣ symbol, design accent, stylistic text, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2723",
-      "altCode": "Alt+10019",
-      "htmlCode": "&#10019;",
-      "cssCode": "\"\\2723\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2723;"
+    technicalInfo: {
+      unicode: "U+2723",
+      altCode: "Alt+10019",
+      htmlCode: "&#10019;",
+      cssCode: "\"\\2723\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2723;"
     },
-    "creativeShowcases": [
-      { "name": "Soft Bullet Point", "symbol": "✣ Item 1" },
-      { "name": "Gentle Separator", "symbol": "--- ✣ ---" },
-      { "name": "Whimsical Accent", "symbol": "Word✣" },
-      { "name": "Stylized List Marker", "symbol": "✣ Important Note" },
-      { "name": "Creative Divider", "symbol": "✣✣✣" }
+    creativeShowcases: [
+      { name: "Soft Bullet Point", symbol: "✣ Item 1" },
+      { name: "Gentle Separator", symbol: "--- ✣ ---" },
+      { name: "Whimsical Accent", symbol: "Word✣" },
+      { name: "Stylized List Marker", symbol: "✣ Important Note" },
+      { name: "Creative Divider", symbol: "✣✣✣" }
     ],
-    "relatedStars": [
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✧", "name": "White Four Pointed Star", "slug": "white-four-pointed-star" },
-      { "symbol": "✶", "name": "Six Pointed Black Star", "slug": "six-pointed-black-star" },
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" },
-      { "symbol": "✻", "name": "Teardrop-Spoked Asterisk", "slug": "teardrop-spoked-asterisk" }
+    relatedStars: [
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Four Pointed Star", slug: "white-four-pointed-star" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "✻", name: "Teardrop-Spoked Asterisk", slug: "teardrop-spoked-asterisk" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✣ Four Balloon-Spoked Asterisk Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✣ Four Balloon-Spoked Asterisk symbol**, a unique Unicode character perfect for adding a soft, decorative flair. This charming symbol features four rounded, balloon-shaped points radiating from its center, making it an ideal choice for playful design accents, gentle stylistic text, and whimsical creative projects. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✣ Four Balloon-Spoked Asterisk symbol**, a delightful star symbol.</p>
@@ -2286,41 +2286,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 21,
-    "symbol": "✤",
-    "name": "Heavy Four Balloon-Spoked Asterisk",
-    "categories": ['other', 'four-pointed'],
-    "slug": "heavy-four-balloon-spoked-asterisk",
-    "unicode": "U+2724",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✤ Heavy Four Balloon-Spoked Asterisk - Copy & Paste",
-      "description": "Copy the ✤ Heavy Four Balloon-Spoked Asterisk (U+2724). This bold, decorative star with balloon-shaped spokes is perfect for emphasis or design accents.",
-      "keywords": "heavy four balloon-spoked asterisk, decorative, unicode, ✤ symbol, bold, design accent, copy paste"
+    id: 21,
+    symbol: "✤",
+    name: "Heavy Four Balloon-Spoked Asterisk",
+    categories: ['other', 'four-pointed'],
+    slug: "heavy-four-balloon-spoked-asterisk",
+    unicode: "U+2724",
+    date: "June 10, 2025",
+    seo: {
+      title: "✤ Heavy Four Balloon-Spoked Asterisk - Copy & Paste",
+      description: "Copy the ✤ Heavy Four Balloon-Spoked Asterisk (U+2724). This bold, decorative star with balloon-shaped spokes is perfect for emphasis or design accents.",
+      keywords: "heavy four balloon-spoked asterisk, decorative, unicode, ✤ symbol, bold, design accent, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2724",
-      "altCode": "Alt+10020",
-      "htmlCode": "&#10020;",
-      "cssCode": "\"\\2724\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2724;"
+    technicalInfo: {
+      unicode: "U+2724",
+      altCode: "Alt+10020",
+      htmlCode: "&#10020;",
+      cssCode: "\"\\2724\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2724;"
     },
-    "creativeShowcases": [
-      { "name": "Strong Bullet Point", "symbol": "✤ Item 1" },
-      { "name": "Prominent Separator", "symbol": "--- ✤ ---" },
-      { "name": "Bold Accent", "symbol": "Text✤" },
-      { "name": "Key Highlight Marker", "symbol": "✤ Important Detail" },
-      { "name": "Visual Section Break", "symbol": "✤✤✤" }
+    creativeShowcases: [
+      { name: "Strong Bullet Point", symbol: "✤ Item 1" },
+      { name: "Prominent Separator", symbol: "--- ✤ ---" },
+      { name: "Bold Accent", symbol: "Text✤" },
+      { name: "Key Highlight Marker", symbol: "✤ Important Detail" },
+      { name: "Visual Section Break", symbol: "✤✤✤" }
     ],
-    "relatedStars": [
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✧", "name": "White Four Pointed Star", "slug": "white-four-pointed-star" },
-      { "symbol": "✶", "name": "Six Pointed Black Star", "slug": "six-pointed-black-star" },
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" },
-      { "symbol": "✣", "name": "Four Balloon-Spoked Asterisk", "slug": "four-balloon-spoked-asterisk" }
+    relatedStars: [
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Four Pointed Star", slug: "white-four-pointed-star" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "✣", name: "Four Balloon-Spoked Asterisk", slug: "four-balloon-spoked-asterisk" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✤ Heavy Four Balloon-Spoked Asterisk Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✤ Heavy Four Balloon-Spoked Asterisk symbol**, a striking Unicode character perfect for adding bold emphasis and decorative impact. This distinctive symbol features four thick, rounded, balloon-shaped points radiating from its center, offering a more substantial visual presence than its lighter counterpart. It's an ideal choice for prominent design accents, impactful stylistic text, and creative projects requiring a strong visual marker. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✤ Heavy Four Balloon-Spoked Asterisk symbol**.</p>
@@ -2399,41 +2399,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 22,
-    "symbol": "✥",
-    "name": "Four Club-Spoked Asterisk",
-    "categories": ['other', 'four-pointed'],
-    "slug": "four-club-spoked-asterisk",
-    "unicode": "U+2725",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✥ Four Club-Spoked Asterisk - Copy & Paste Symbol",
-      "description": "Copy the ✥ Four Club-Spoked Asterisk (U+2725). This decorative star with unique club-shaped spokes is perfect for stylish text and design elements.",
-      "keywords": "four club-spoked asterisk, decorative, unicode, ✥ symbol, design element, copy paste"
+    id: 22,
+    symbol: "✥",
+    name: "Four Club-Spoked Asterisk",
+    categories: ['other', 'four-pointed'],
+    slug: "four-club-spoked-asterisk",
+    unicode: "U+2725",
+    date: "June 10, 2025",
+    seo: {
+      title: "✥ Four Club-Spoked Asterisk - Copy & Paste Symbol",
+      description: "Copy the ✥ Four Club-Spoked Asterisk (U+2725). This decorative star with unique club-shaped spokes is perfect for stylish text and design elements.",
+      keywords: "four club-spoked asterisk, decorative, unicode, ✥ symbol, design element, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2725",
-      "altCode": "Alt+10021",
-      "htmlCode": "&#10021;",
-      "cssCode": "\"\\2725\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2725;"
+    technicalInfo: {
+      unicode: "U+2725",
+      altCode: "Alt+10021",
+      htmlCode: "&#10021;",
+      cssCode: "\"\\2725\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2725;"
     },
-    "creativeShowcases": [
-      { "name": "Elegant Bullet Point", "symbol": "✥ Item 1" },
-      { "name": "Stylistic Separator", "symbol": "--- ✥ ---" },
-      { "name": "Decorative Embellishment", "symbol": "Word✥" },
-      { "name": "Unique List Marker", "symbol": "✥ Key Point" },
-      { "name": "Artistic Flourish", "symbol": "✥✥✥" }
+    creativeShowcases: [
+      { name: "Elegant Bullet Point", symbol: "✥ Item 1" },
+      { name: "Stylistic Separator", symbol: "--- ✥ ---" },
+      { name: "Decorative Embellishment", symbol: "Word✥" },
+      { name: "Unique List Marker", symbol: "✥ Key Point" },
+      { name: "Artistic Flourish", symbol: "✥✥✥" }
     ],
-    "relatedStars": [
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✧", "name": "White Four Pointed Star", "slug": "white-four-pointed-star" },
-      { "symbol": "✶", "name": "Six Pointed Black Star", "slug": "six-pointed-black-star" },
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" },
-      { "symbol": "✢", "name": "Four Teardrop-Spoked Asterisk", "slug": "four-teardrop-spoked-asterisk" }
+    relatedStars: [
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Four Pointed Star", slug: "white-four-pointed-star" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "✢", name: "Four Teardrop-Spoked Asterisk", slug: "four-teardrop-spoked-asterisk" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✥ Four Club-Spoked Asterisk Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✥ Four Club-Spoked Asterisk symbol**, a refined Unicode character perfect for adding elegant decorative flair. This sophisticated symbol features four distinct club-shaped spokes or petals, reminiscent of a trefoil, making the **Four Club-Spoked Asterisk** an excellent choice for refined design accents, sophisticated stylistic text, and unique creative projects. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✥ Four Club-Spoked Asterisk symbol**, a truly unique star symbol.</p>
@@ -2512,37 +2512,37 @@ export const starDetailsData = [
   },
 
   {
-    "id": 23,
-    "symbol": "✱",
-    "name": "Heavy Asterisk",
-    "categories": ['six-pointed'],
-    "slug": "heavy-asterisk",
-    "unicode": "U+2731",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✱ Heavy Asterisk Symbol - Copy & Paste Unicode",
-      "description": "Copy the ✱ Heavy Asterisk symbol (U+2731). This bold, classic asterisk is perfect for emphasis, annotations, and decorative use. One-click copy.",
-      "keywords": "heavy asterisk, bold asterisk, unicode, ✱ symbol, decorative, emphasis, copy paste"
+    id: 23,
+    symbol: "✱",
+    name: "Heavy Asterisk",
+    categories: ['six-pointed'],
+    slug: "heavy-asterisk",
+    unicode: "U+2731",
+    date: "June 10, 2025",
+    seo: {
+      title: "✱ Heavy Asterisk Symbol - Copy & Paste Unicode",
+      description: "Copy the ✱ Heavy Asterisk symbol (U+2731). This bold, classic asterisk is perfect for emphasis, annotations, and decorative use. One-click copy.",
+      keywords: "heavy asterisk, bold asterisk, unicode, ✱ symbol, decorative, emphasis, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2731",
-      "altCode": "Alt+10033",
-      "htmlCode": "&#10033;",
-      "cssCode": "\"\\2731\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2731;"
+    technicalInfo: {
+      unicode: "U+2731",
+      altCode: "Alt+10033",
+      htmlCode: "&#10033;",
+      cssCode: "\"\\2731\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2731;"
     },
-    "creativeShowcases": [
-      { "name": "Strong Annotation", "symbol": "✱ Note here." },
-      { "name": "Bold Bullet Point", "symbol": "✱ Item 1" },
-      { "name": "Emphasis Marker", "symbol": "Important✱" },
-      { "name": "Highlight Separator", "symbol": "---✱---" },
-      { "name": "Decorative Text Break", "symbol": "✱✱✱" }
+    creativeShowcases: [
+      { name: "Strong Annotation", symbol: "✱ Note here." },
+      { name: "Bold Bullet Point", symbol: "✱ Item 1" },
+      { name: "Emphasis Marker", symbol: "Important✱" },
+      { name: "Highlight Separator", symbol: "---✱---" },
+      { name: "Decorative Text Break", symbol: "✱✱✱" }
     ],
-    "relatedStars": [
-      { "symbol": "⁑", "name": "Two Asterisks Aligned Vertically", "slug": "two-asterisks-aligned-vertically" },
+    relatedStars: [
+      { symbol: "⁑", name: "Two Asterisks Aligned Vertically", slug: "two-asterisks-aligned-vertically" },
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✱ Heavy Asterisk Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✱ Heavy Asterisk symbol**, a distinct and bold Unicode character. This **Heavy Asterisk** is a thicker, more prominent version of the standard asterisk, making it excellent for drawing attention to specific text, annotations, or adding a strong decorative element to your designs. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✱ Heavy Asterisk symbol**.</p>
@@ -2620,41 +2620,39 @@ export const starDetailsData = [
   },
 
   {
-    "id": 24,
-    "symbol": "✲",
-    "name": "Open Centre Asterisk",
-    "categories": ["typographic", "decorative", "asterisk", "six-pointed"],
-    "slug": "open-centre-asterisk",
-    "unicode": "U+2732",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✲ Open Centre Asterisk - Copy & Paste Unicode Symbol",
-      "description": "Copy the ✲ Open Centre Asterisk (U+2732). A classic six-pointed asterisk with a hollow center, ideal for decorative and stylistic use. One-click copy.",
-      "keywords": "open centre asterisk, decorative, unicode, ✲ symbol, stylistic, hollow asterisk, copy paste"
+    id: 24,
+    symbol: "✲",
+    name: "Open Centre Asterisk",
+    categories: ['classic', 'six-pointed'],
+    slug: "open-centre-asterisk",
+    unicode: "U+2732",
+    date: "June 10, 2025",
+    seo: {
+      title: "✲ Open Centre Asterisk - Copy & Paste Unicode Symbol",
+      description: "Copy the ✲ Open Centre Asterisk (U+2732). A classic six-pointed asterisk with a hollow center, ideal for decorative and stylistic use. One-click copy.",
+      keywords: "open centre asterisk, decorative, unicode, ✲ symbol, stylistic, hollow asterisk, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2732",
-      "altCode": "Alt+10034",
-      "htmlCode": "&#10034;",
-      "cssCode": "\"\\2732\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2732;"
+    technicalInfo: {
+      unicode: "U+2732",
+      altCode: "Alt+10034",
+      htmlCode: "&#10034;",
+      cssCode: "\"\\2732\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2732;"
     },
-    "creativeShowcases": [
-      { "name": "Elegant Bullet Point", "symbol": "✲ Item 1" },
-      { "name": "Gentle Separator", "symbol": "--- ✲ ---" },
-      { "name": "Subtle Accent", "symbol": "Word✲" },
-      { "name": "Delicate List Marker", "symbol": "✲ Important Note" },
-      { "name": "Stylized Divider", "symbol": "✲✲✲" }
+    creativeShowcases: [
+      { name: "Elegant Bullet Point", symbol: "✲ Item 1" },
+      { name: "Gentle Separator", symbol: "--- ✲ ---" },
+      { name: "Subtle Accent", symbol: "Word✲" },
+      { name: "Delicate List Marker", symbol: "✲ Important Note" },
+      { name: "Stylized Divider", symbol: "✲✲✲" }
     ],
-    "relatedStars": [
-      { "symbol": "*", "name": "Asterisk", "slug": "asterisk" },
-      { "symbol": "✱", "name": "Heavy Asterisk", "slug": "heavy-asterisk" },
-      { "symbol": "✳", "name": "Eight Spoked Asterisk", "slug": "eight-spoked-asterisk" },
-      { "symbol": "⁑", "name": "Two Asterisks Aligned Vertically", "slug": "two-asterisks-aligned-vertically" },
-      { "symbol": "⁂", "name": "Asterism", "slug": "asterism" }
+    relatedStars: [
+      { symbol: "✱", name: "Heavy Asterisk", slug: "heavy-asterisk" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" },
+      { symbol: "⁑", name: "Two Asterisks Aligned Vertically", slug: "two-asterisks-aligned-vertically" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✲ Open Centre Asterisk Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✲ Open Centre Asterisk symbol**, a unique Unicode character known for its delicate design. This **Open Centre Asterisk** features a classic six-pointed shape with a distinctive hollow center, giving it an airy and elegant appearance. It's perfect for adding subtle decorative elements, refined stylistic flair to text, or serving as an appealing annotation marker. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✲ Open Centre Asterisk symbol**, a truly charming asterisk symbol.</p>
@@ -2732,41 +2730,39 @@ export const starDetailsData = [
   },
 
   {
-    "id": 25,
-    "symbol": "✳",
-    "name": "Eight Spoked Asterisk",
-    "categories": ["typographic", "decorative", "asterisk", "eight-pointed", "multi-pointed"],
-    "slug": "eight-spoked-asterisk",
-    "unicode": "U+2733",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✳ Eight Spoked Asterisk - Copy & Paste Unicode Symbol",
-      "description": "Copy the ✳ Eight Spoked Asterisk (U+2733). A classic eight-pointed asterisk, ideal for decorative use, stylistic text, or as a visual marker. One-click copy.",
-      "keywords": "eight spoked asterisk, decorative, unicode, ✳ symbol, typographic, design, copy paste"
+    id: 25,
+    symbol: "✳",
+    name: "Eight Spoked Asterisk",
+    categories: ['classic', 'multi-pointed'],
+    slug: "eight-spoked-asterisk",
+    unicode: "U+2733",
+    date: "June 10, 2025",
+    seo: {
+      title: "✳ Eight Spoked Asterisk - Copy & Paste Unicode Symbol",
+      description: "Copy the ✳ Eight Spoked Asterisk (U+2733). A classic eight-pointed asterisk, ideal for decorative use, stylistic text, or as a visual marker. One-click copy.",
+      keywords: "eight spoked asterisk, decorative, unicode, ✳ symbol, typographic, design, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2733",
-      "altCode": "Alt+10035",
-      "htmlCode": "&#10035;",
-      "cssCode": "\"\\2733\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2733;"
+    technicalInfo: {
+      unicode: "U+2733",
+      altCode: "Alt+10035",
+      htmlCode: "&#10035;",
+      cssCode: "\"\\2733\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2733;"
     },
-    "creativeShowcases": [
-      { "name": "Radial Bullet Point", "symbol": "✳ Item 1" },
-      { "name": "Text Embellishment", "symbol": "Word✳" },
-      { "name": "Design Flourish", "symbol": "---✳---" },
-      { "name": "Key Annotation Marker", "symbol": "✳ Important Note" },
-      { "name": "Visual Separator", "symbol": "✳✳✳" }
+    creativeShowcases: [
+      { name: "Radial Bullet Point", symbol: "✳ Item 1" },
+      { name: "Text Embellishment", symbol: "Word✳" },
+      { name: "Design Flourish", symbol: "---✳---" },
+      { name: "Key Annotation Marker", symbol: "✳ Important Note" },
+      { name: "Visual Separator", symbol: "✳✳✳" }
     ],
-    "relatedStars": [
-      { "symbol": "*", "name": "Asterisk", "slug": "asterisk" },
-      { "symbol": "✱", "name": "Heavy Asterisk", "slug": "heavy-asterisk" },
-      { "symbol": "✲", "name": "Open Centre Asterisk", "slug": "open-centre-asterisk" },
-      { "symbol": "⁂", "name": "Asterism", "slug": "asterism" },
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" }
+    relatedStars: [
+      { symbol: "✱", name: "Heavy Asterisk", slug: "heavy-asterisk" },
+      { symbol: "✲", name: "Open Centre Asterisk", slug: "open-centre-asterisk" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✳ Eight Spoked Asterisk Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✳ Eight Spoked Asterisk symbol**, a versatile Unicode character known for its classic and balanced appearance. This **Eight Spoked Asterisk** resembles a traditional asterisk but with eight distinct points radiating evenly from its center, giving it a fuller, more radiant look. It's an excellent choice for decorative elements, stylistic text, or as a clear visual marker. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✳ Eight Spoked Asterisk symbol**.</p>
@@ -2844,41 +2840,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 26,
-    "symbol": "✴",
-    "name": "Eight Pointed Black Star",
-    "categories": ["star", "decorative", "black", "eight-pointed", "multi-pointed"],
-    "slug": "eight-pointed-black-star",
-    "unicode": "U+2734",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✴ Eight Pointed Black Star - Copy & Paste Unicode Symbol",
-      "description": "Copy the ✴ Eight Pointed Black Star (U+2734). This classic, solid eight-pointed black star is perfect for decoration and emphasizing text. One-click copy.",
-      "keywords": "eight pointed black star, decorative, unicode, ✴ symbol, emphasis, black star, copy paste"
+    id: 26,
+    symbol: "✴",
+    name: "Eight Pointed Black Star",
+    categories: ['classic', 'multi-pointed'],
+    slug: "eight-pointed-black-star",
+    unicode: "U+2734",
+    date: "June 10, 2025",
+    seo: {
+      title: "✴ Eight Pointed Black Star - Copy & Paste Unicode Symbol",
+      description: "Copy the ✴ Eight Pointed Black Star (U+2734). This classic, solid eight-pointed black star is perfect for decoration and emphasizing text. One-click copy.",
+      keywords: "eight pointed black star, decorative, unicode, ✴ symbol, emphasis, black star, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2734",
-      "altCode": "Alt+10036",
-      "htmlCode": "&#10036;",
-      "cssCode": "\"\\2734\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2734;"
+    technicalInfo: {
+      unicode: "U+2734",
+      altCode: "Alt+10036",
+      htmlCode: "&#10036;",
+      cssCode: "\"\\2734\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2734;"
     },
-    "creativeShowcases": [
-      { "name": "Strong Bullet Point", "symbol": "✴ Item 1" },
-      { "name": "Bold Separator", "symbol": "---✴---" },
-      { "name": "Highlight Marker", "symbol": "✴ Important Note" },
-      { "name": "Decorative Accent", "symbol": "Text✴" },
-      { "name": "Visual Break", "symbol": "✴✴✴" }
+    creativeShowcases: [
+      { name: "Strong Bullet Point", symbol: "✴ Item 1" },
+      { name: "Bold Separator", symbol: "---✴---" },
+      { name: "Highlight Marker", symbol: "✴ Important Note" },
+      { name: "Decorative Accent", symbol: "Text✴" },
+      { name: "Visual Break", symbol: "✴✴✴" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✶", "name": "Six Pointed Black Star", "slug": "six-pointed-black-star" },
-      { "symbol": "✳", "name": "Eight Spoked Asterisk", "slug": "eight-spoked-asterisk" },
-      { "symbol": "✮", "name": "Heavy Heart Exclamation Mark Ornament", "slug": "heavy-heart-exclamation-mark-ornament" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" },
+      { symbol: "✮", name: "Heavy Outlined Black Star", slug: "heavy-outlined-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✴ Eight Pointed Black Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✴ Eight Pointed Black Star symbol**, a striking Unicode character known for its classic yet impactful appearance. This **Eight Pointed Black Star** is a solid, symmetrical star with eight sharp points radiating outwards, offering a bold and clear visual presence. It's an excellent choice for decorative elements, strong emphasis in text, or as a distinct visual marker in various digital and print media. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✴ Eight Pointed Black Star symbol**.</p>
@@ -2957,41 +2953,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 27,
-    "symbol": "✵",
-    "name": "Eight Pointed Pinwheel Star",
-    "categories": ["star", "decorative", "eight-pointed", "multi-pointed", "pinwheel", "motion"],
-    "slug": "eight-pointed-pinwheel-star",
-    "unicode": "U+2735",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✵ Eight Pointed Pinwheel Star - Copy & Paste Unicode",
-      "description": "Copy the ✵ Eight Pointed Pinwheel Star (U+2735). This decorative star with eight pinwheel-shaped points is ideal for dynamic designs and stylish text.",
-      "keywords": "eight pointed pinwheel star, decorative, unicode, ✵ symbol, motion, dynamic design, copy paste"
+    id: 27,
+    symbol: "✵",
+    name: "Eight Pointed Pinwheel Star",
+    categories: ['classic', 'multi-pointed'],
+    slug: "eight-pointed-pinwheel-star",
+    unicode: "U+2735",
+    date: "June 10, 2025",
+    seo: {
+      title: "✵ Eight Pointed Pinwheel Star - Copy & Paste Unicode",
+      description: "Copy the ✵ Eight Pointed Pinwheel Star (U+2735). This decorative star with eight pinwheel-shaped points is ideal for dynamic designs and stylish text.",
+      keywords: "eight pointed pinwheel star, decorative, unicode, ✵ symbol, motion, dynamic design, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2735",
-      "altCode": "Alt+10037",
-      "htmlCode": "&#10037;",
-      "cssCode": "\"\\2735\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2735;"
+    technicalInfo: {
+      unicode: "U+2735",
+      altCode: "Alt+10037",
+      htmlCode: "&#10037;",
+      cssCode: "\"\\2735\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2735;"
     },
-    "creativeShowcases": [
-      { "name": "Dynamic Bullet", "symbol": "✵ Item 1" },
-      { "name": "Flowing Separator", "symbol": "---✵---" },
-      { "name": "Animated Accent", "symbol": "Text✵" },
-      { "name": "Pinwheel Decor", "symbol": "✵✵✵" },
-      { "name": "Stylized Pointer", "symbol": "✵ Discover" }
+    creativeShowcases: [
+      { name: "Dynamic Bullet", symbol: "✵ Item 1" },
+      { name: "Flowing Separator", symbol: "---✵---" },
+      { name: "Animated Accent", symbol: "Text✵" },
+      { name: "Pinwheel Decor", symbol: "✵✵✵" },
+      { name: "Stylized Pointer", symbol: "✵ Discover" }
     ],
-    "relatedStars": [
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" },
-      { "symbol": "✳", "name": "Eight Spoked Asterisk", "slug": "eight-spoked-asterisk" },
-      { "symbol": "✹", "name": "Twelve Pointed Black Star", "slug": "twelve-pointed-black-star" },
-      { "symbol": "۞", "name": "Star and Crescent", "slug": "star-and-crescent" },
-      { "symbol": "💫", "name": "Dizzy Symbol", "slug": "dizzy-symbol" }
+    relatedStars: [
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" },
+      { symbol: "✹", name: "Twelve Pointed Black Star", slug: "twelve-pointed-black-star" },
+      { symbol: "۞", name: "Arabic Start Of Rub El Hizb", slug: "arabic-start-of-rub-el-hizb" },
+      { symbol: "💫", name: "Dizzy Symbol", slug: "dizzy-symbol" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✵ Eight Pointed Pinwheel Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✵ Eight Pointed Pinwheel Star symbol**, a fascinating Unicode character with a distinctive radial design. This **Eight Pointed Pinwheel Star** features eight points that appear to be in motion, resembling a spinning pinwheel or a dynamic vortex. It's an excellent choice for adding a sense of energy, decorative flair, or unique stylistic elements to your text and designs. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✵ Eight Pointed Pinwheel Star symbol**.</p>
@@ -3070,41 +3066,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 28,
-    "symbol": "✶",
-    "name": "Six Pointed Black Star",
-    "categories": ["star", "decorative", "black", "six-pointed", "typographic"],
-    "slug": "six-pointed-black-star",
-    "unicode": "U+2736",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✶ Six Pointed Black Star - Copy & Paste Unicode Symbol",
-      "description": "Copy the ✶ Six Pointed Black Star (U+2736). This classic, solid six-pointed star is perfect for decoration, emphasis, or symbolic use. One-click copy.",
-      "keywords": "six pointed black star, decorative, unicode, ✶ symbol, emphasis, black star, copy paste"
+    id: 28,
+    symbol: "✶",
+    name: "Six Pointed Black Star",
+    categories: ['classic', 'six-pointed'],
+    slug: "six-pointed-black-star",
+    unicode: "U+2736",
+    date: "June 10, 2025",
+    seo: {
+      title: "✶ Six Pointed Black Star - Copy & Paste Unicode Symbol",
+      description: "Copy the ✶ Six Pointed Black Star (U+2736). This classic, solid six-pointed star is perfect for decoration, emphasis, or symbolic use. One-click copy.",
+      keywords: "six pointed black star, decorative, unicode, ✶ symbol, emphasis, black star, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2736",
-      "altCode": "Alt+10038",
-      "htmlCode": "&#10038;",
-      "cssCode": "\"\\2736\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2736;"
+    technicalInfo: {
+      unicode: "U+2736",
+      altCode: "Alt+10038",
+      htmlCode: "&#10038;",
+      cssCode: "\"\\2736\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2736;"
     },
-    "creativeShowcases": [
-      { "name": "Bold List Marker", "symbol": "✶ Item One" },
-      { "name": "Decorative Separator", "symbol": "---✶---" },
-      { "name": "Point of Interest", "symbol": "✶ New Update" },
-      { "name": "Stylish Accent", "symbol": "Word✶" },
-      { "name": "Thematic Divider", "symbol": "✶✶✶" }
+    creativeShowcases: [
+      { name: "Bold List Marker", symbol: "✶ Item One" },
+      { name: "Decorative Separator", symbol: "---✶---" },
+      { name: "Point of Interest", symbol: "✶ New Update" },
+      { name: "Stylish Accent", symbol: "Word✶" },
+      { name: "Thematic Divider", symbol: "✶✶✶" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" },
-      { "symbol": "✳", "name": "Eight Spoked Asterisk", "slug": "eight-spoked-asterisk" },
-      { "symbol": "✹", "name": "Twelve Pointed Black Star", "slug": "twelve-pointed-black-star" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" },
+      { symbol: "✹", name: "Twelve Pointed Black Star", slug: "twelve-pointed-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✶ Six Pointed Black Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✶ Six Pointed Black Star symbol**, a classic and distinct Unicode character. This **Six Pointed Black Star** is a solid, symmetrical star with six well-defined points radiating from its center, offering a clear and impactful visual presence. It's an excellent choice for adding strong decorative elements, clear emphasis in text, or serving as a significant visual marker in various digital and print media. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✶ Six Pointed Black Star symbol**.</p>
@@ -3183,41 +3179,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 29,
-    "symbol": "✷",
-    "name": "Eight Pointed Rectilinear Black Star",
-    "categories": ["star", "decorative", "black", "eight-pointed", "geometric", "typographic"],
-    "slug": "eight-pointed-rectilinear-black-star",
-    "unicode": "U+2737",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✷ Eight Pointed Rectilinear Black Star - Copy & Paste",
-      "description": "Copy the ✷ Eight Pointed Rectilinear Black Star (U+2737). A sharp, solid star, ideal for geometric designs, strong emphasis, and decorative use. One-click copy.",
-      "keywords": "eight pointed rectilinear black star, decorative, unicode, ✷ symbol, geometric star, copy paste"
+    id: 29,
+    symbol: "✷",
+    name: "Eight Pointed Rectilinear Black Star",
+    categories: ['classic', 'multi-pointed'],
+    slug: "eight-pointed-rectilinear-black-star",
+    unicode: "U+2737",
+    date: "June 10, 2025",
+    seo: {
+      title: "✷ Eight Pointed Rectilinear Black Star - Copy & Paste",
+      description: "Copy the ✷ Eight Pointed Rectilinear Black Star (U+2737). A sharp, solid star, ideal for geometric designs, strong emphasis, and decorative use. One-click copy.",
+      keywords: "eight pointed rectilinear black star, decorative, unicode, ✷ symbol, geometric star, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2737",
-      "altCode": "Alt+10039",
-      "htmlCode": "&#10039;",
-      "cssCode": "\"\\2737\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2737;"
+    technicalInfo: {
+      unicode: "U+2737",
+      altCode: "Alt+10039",
+      htmlCode: "&#10039;",
+      cssCode: "\"\\2737\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2737;"
     },
-    "creativeShowcases": [
-      { "name": "Geometric Bullet", "symbol": "✷ Item 1" },
-      { "name": "Modern Divider", "symbol": "---✷---" },
-      { "name": "Sharp Accent", "symbol": "Text✷" },
-      { "name": "Bold Marker", "symbol": "✷ Key Point" },
-      { "name": "Structured Design", "symbol": "✷✷✷" }
+    creativeShowcases: [
+      { name: "Geometric Bullet", symbol: "✷ Item 1" },
+      { name: "Modern Divider", symbol: "---✷---" },
+      { name: "Sharp Accent", symbol: "Text✷" },
+      { name: "Bold Marker", symbol: "✷ Key Point" },
+      { name: "Structured Design", symbol: "✷✷✷" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" },
-      { "symbol": "✳", "name": "Eight Spoked Asterisk", "slug": "eight-spoked-asterisk" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✹", "name": "Twelve Pointed Black Star", "slug": "twelve-pointed-black-star" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✹", name: "Twelve Pointed Black Star", slug: "twelve-pointed-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✷ Eight Pointed Rectilinear Black Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✷ Eight Pointed Rectilinear Black Star symbol**, a distinct Unicode character known for its sharp and geometric design. This **Eight Pointed Rectilinear Black Star** is a solid, symmetrical star with eight straight-edged points radiating from its center, giving it a modern and precise appearance. It's an excellent choice for adding strong decorative elements, clear emphasis in text, or serving as a bold visual marker in various digital and print media, particularly those with a contemporary or structured aesthetic. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✷ Eight Pointed Rectilinear Black Star symbol**.</p>
@@ -3296,41 +3292,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 30,
-    "symbol": "✸",
-    "name": "Heavy Eight Pointed Rectilinear Black Star",
-    "categories": ["star", "decorative", "black", "eight-pointed", "bold", "geometric", "typographic"],
-    "slug": "heavy-eight-pointed-rectilinear-black-star",
-    "unicode": "U+2738",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✸ Heavy Eight Pointed Rectilinear Black Star - Copy & Paste",
-      "description": "Copy & paste the ✦ Black Four Pointed Star. Learn its uses, how to type it on any device, and implement in HTML & CSS for stylish designs and emphasis.",
-      "keywords": "black four pointed star, four-pointed, decorative, sparkle, copy paste, unicode, html css"
+    id: 30,
+    symbol: "✸",
+    name: "Heavy Eight Pointed Rectilinear Black Star",
+    categories: ['classic', 'multi-pointed'],
+    slug: "heavy-eight-pointed-rectilinear-black-star",
+    unicode: "U+2738",
+    date: "June 10, 2025",
+    seo: {
+      title: "✸ Heavy Eight Pointed Rectilinear Black Star - Copy & Paste",
+      description: "Copy & paste the ✦ Black Four Pointed Star. Learn its uses, how to type it on any device, and implement in HTML & CSS for stylish designs and emphasis.",
+      keywords: "black four pointed star, four-pointed, decorative, sparkle, copy paste, unicode, html css"
     },
-    "technicalInfo": {
-      "unicode": "U+2738",
-      "altCode": "Alt+10040",
-      "htmlCode": "&#10040;",
-      "cssCode": "\"\\2738\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2738;"
+    technicalInfo: {
+      unicode: "U+2738",
+      altCode: "Alt+10040",
+      htmlCode: "&#10040;",
+      cssCode: "\"\\2738\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2738;"
     },
-    "creativeShowcases": [
-      { "name": "Strong Bullet Point", "symbol": "✸ Item 1" },
-      { "name": "Heavy Divider", "symbol": "---✸---" },
-      { "name": "Bold Highlight", "symbol": "✸ Important Note" },
-      { "name": "Geometric Emphasis", "symbol": "Text✸" },
-      { "name": "Declarative Mark", "symbol": "✸✸✸" }
+    creativeShowcases: [
+      { name: "Strong Bullet Point", symbol: "✸ Item 1" },
+      { name: "Heavy Divider", symbol: "---✸---" },
+      { name: "Bold Highlight", symbol: "✸ Important Note" },
+      { name: "Geometric Emphasis", symbol: "Text✸" },
+      { name: "Declarative Mark", symbol: "✸✸✸" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" },
-      { "symbol": "✷", "name": "Eight Pointed Rectilinear Black Star", "slug": "eight-pointed-rectilinear-black-star" },
-      { "symbol": "✳", "name": "Eight Spoked Asterisk", "slug": "eight-spoked-asterisk" },
-      { "symbol": "✹", "name": "Twelve Pointed Black Star", "slug": "twelve-pointed-black-star" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "✷", name: "Eight Pointed Rectilinear Black Star", slug: "eight-pointed-rectilinear-black-star" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" },
+      { symbol: "✹", name: "Twelve Pointed Black Star", slug: "twelve-pointed-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✸ Heavy Eight Pointed Rectilinear Black Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✸ Heavy Eight Pointed Rectilinear Black Star symbol**, a robust and impactful Unicode character. This **Heavy Eight Pointed Rectilinear Black Star** features eight thick, straight-edged points radiating from its center, giving it a powerful and geometric appearance. It's an excellent choice for adding commanding decorative elements, emphasizing crucial text, or serving as a bold visual marker in various digital and print media, especially when a strong, clear statement is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✸ Heavy Eight Pointed Rectilinear Black Star symbol**.</p>
@@ -3409,41 +3405,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 31,
-    "symbol": "✹",
-    "name": "Twelve Pointed Black Star",
-    "categories": ["star", "decorative", "black", "multi-pointed", "typographic"],
-    "slug": "twelve-pointed-black-star",
-    "unicode": "U+2739",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✹ Twelve Pointed Black Star - Copy & Paste Unicode",
-      "description": "Copy the ✹ Twelve Pointed Black Star (U+2739). A striking decorative symbol perfect for adding flair, emphasis, or unique visual impact. One-click copy.",
-      "keywords": "twelve pointed black star, decorative star, unicode, symbol, design star, copy paste, multi-pointed"
+    id: 31,
+    symbol: "✹",
+    name: "Twelve Pointed Black Star",
+    categories: ['classic', 'multi-pointed'],
+    slug: "twelve-pointed-black-star",
+    unicode: "U+2739",
+    date: "June 10, 2025",
+    seo: {
+      title: "✹ Twelve Pointed Black Star - Copy & Paste Unicode",
+      description: "Copy the ✹ Twelve Pointed Black Star (U+2739). A striking decorative symbol perfect for adding flair, emphasis, or unique visual impact. One-click copy.",
+      keywords: "twelve pointed black star, decorative star, unicode, symbol, design star, copy paste, multi-pointed"
     },
-    "technicalInfo": {
-      "unicode": "U+2739",
-      "altCode": "Alt+10041",
-      "htmlCode": "&#10041;",
-      "cssCode": "\"\\2739\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2739;"
+    technicalInfo: {
+      unicode: "U+2739",
+      altCode: "Alt+10041",
+      htmlCode: "&#10041;",
+      cssCode: "\"\\2739\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2739;"
     },
-    "creativeShowcases": [
-      { "name": "Radiant Bullet", "symbol": "✹ Item one" },
-      { "name": "Event Highlight", "symbol": "✹ Grand Opening!" },
-      { "name": "Decorative Separator", "symbol": "───✹───" },
-      { "name": "Sparkling Accent", "symbol": "Idea✹" },
-      { "name": "Complex Marker", "symbol": "✹✹✹" }
+    creativeShowcases: [
+      { name: "Radiant Bullet", symbol: "✹ Item one" },
+      { name: "Event Highlight", symbol: "✹ Grand Opening!" },
+      { name: "Decorative Separator", symbol: "───✹───" },
+      { name: "Sparkling Accent", symbol: "Idea✹" },
+      { name: "Complex Marker", symbol: "✹✹✹" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" },
-      { "symbol": "✳", "name": "Eight Spoked Asterisk", "slug": "eight-spoked-asterisk" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✶", "name": "Six Pointed Black Star", "slug": "six-pointed-black-star" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✹ Twelve Pointed Black Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✹ Twelve Pointed Black Star symbol**, a highly intricate and striking Unicode character. This **Twelve Pointed Black Star** features twelve evenly spaced, solid black spikes radiating from its center, creating a vibrant and symmetrical appearance. It's an excellent choice for adding sophisticated decorative elements, strong visual emphasis, or serving as a unique and intricate marker in various digital and print media. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✹ Twelve Pointed Black Star symbol**.</p>
@@ -3522,41 +3518,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 32,
-    "symbol": "✺",
-    "name": "Sixteen Pointed Asterisk",
-    "categories": ["star", "decorative", "multi-pointed", "typographic", "burst"],
-    "slug": "sixteen-pointed-asterisk",
-    "unicode": "U+273A",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✺ Sixteen Pointed Asterisk - Copy & Paste Unicode Symbol",
-      "description": "Copy the ✺ Sixteen Pointed Asterisk (U+273A). This intricate decorative symbol is perfect for adding flair, emphasis, or unique visual impact. One-click copy.",
-      "keywords": "sixteen pointed asterisk, decorative, unicode, ✺ symbol, design, copy paste, multi-pointed, burst"
+    id: 32,
+    symbol: "✺",
+    name: "Sixteen Pointed Asterisk",
+    categories: ['multi-pointed'],
+    slug: "sixteen-pointed-asterisk",
+    unicode: "U+273A",
+    date: "June 10, 2025",
+    seo: {
+      title: "✺ Sixteen Pointed Asterisk - Copy & Paste Unicode Symbol",
+      description: "Copy the ✺ Sixteen Pointed Asterisk (U+273A). This intricate decorative symbol is perfect for adding flair, emphasis, or unique visual impact. One-click copy.",
+      keywords: "sixteen pointed asterisk, decorative, unicode, ✺ symbol, design, copy paste, multi-pointed, burst"
     },
-    "technicalInfo": {
-      "unicode": "U+273A",
-      "altCode": "Alt+10042",
-      "htmlCode": "&#10042;",
-      "cssCode": "\"\\273A\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x273A;"
+    technicalInfo: {
+      unicode: "U+273A",
+      altCode: "Alt+10042",
+      htmlCode: "&#10042;",
+      cssCode: "\"\\273A\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x273A;"
     },
-    "creativeShowcases": [
-      { "name": "Intricate Bullet", "symbol": "✺ Item 1" },
-      { "name": "Visual Flair", "symbol": "Headline ✺" },
-      { "name": "Detailed Separator", "symbol": "─✺─" },
-      { "name": "Notification Icon", "symbol": "✺ New Message" },
-      { "name": "Complex Accent", "symbol": "Design✺" }
+    creativeShowcases: [
+      { name: "Intricate Bullet", symbol: "✺ Item 1" },
+      { name: "Visual Flair", symbol: "Headline ✺" },
+      { name: "Detailed Separator", symbol: "─✺─" },
+      { name: "Notification Icon", symbol: "✺ New Message" },
+      { name: "Complex Accent", symbol: "Design✺" }
     ],
-    "relatedStars": [
-      { "symbol": "✹", "name": "Twelve Pointed Black Star", "slug": "twelve-pointed-black-star" },
-      { "symbol": "✴", "name": "Eight Pointed Black Star", "slug": "eight-pointed-black-star" },
-      { "symbol": "✳", "name": "Eight Spoked Asterisk", "slug": "eight-spoked-asterisk" },
-      { "symbol": "✱", "name": "Black Small Star", "slug": "black-small-star" },
-      { "symbol": "✲", "name": "Open Centre Black Star", "slug": "open-centre-black-star" }
+    relatedStars: [
+      { symbol: "✹", name: "Twelve Pointed Black Star", slug: "twelve-pointed-black-star" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" },
+      { symbol: "✱", name: "Heavy Asterisk", slug: "heavy-asterisk" },
+      { symbol: "✲", name: "Open Centre Black Star", slug: "open-centre-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✺ Sixteen Pointed Asterisk Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✺ Sixteen Pointed Asterisk symbol**, an incredibly intricate and versatile Unicode character. This **Sixteen Pointed Asterisk** features numerous fine lines radiating from a central point, creating a highly detailed and decorative burst-like shape. It's an excellent choice for adding sophisticated decorative elements, strong visual emphasis, or serving as a unique and intricate marker in various digital and print media, particularly where precision and detail are valued. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✺ Sixteen Pointed Asterisk symbol**.</p>
@@ -3635,41 +3631,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 33,
-    "symbol": "✻",
-    "name": "Teardrop-Spoked Asterisk",
-    "categories": ["star", "decorative", "six-pointed", "typographic", "floral"],
-    "slug": "teardrop-spoked-asterisk",
-    "unicode": "U+273B",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✻ Teardrop-Spoked Asterisk - Copy & Paste Unicode Symbol",
-      "description": "Copy the ✻ Teardrop-Spoked Asterisk (U+273B). A unique decorative symbol with floral-like spokes, ideal for stylish text and design. One-click copy.",
-      "keywords": "teardrop-spoked asterisk, decorative, unicode, ✻ symbol, floral, design, copy paste, six-pointed"
+    id: 33,
+    symbol: "✻",
+    name: "Teardrop-Spoked Asterisk",
+    categories: ['six-pointed'],
+    slug: "teardrop-spoked-asterisk",
+    unicode: "U+273B",
+    date: "June 10, 2025",
+    seo: {
+      title: "✻ Teardrop-Spoked Asterisk - Copy & Paste Unicode Symbol",
+      description: "Copy the ✻ Teardrop-Spoked Asterisk (U+273B). A unique decorative symbol with floral-like spokes, ideal for stylish text and design. One-click copy.",
+      keywords: "teardrop-spoked asterisk, decorative, unicode, ✻ symbol, floral, design, copy paste, six-pointed"
     },
-    "technicalInfo": {
-      "unicode": "U+273B",
-      "altCode": "Alt+10043",
-      "htmlCode": "&#10043;",
-      "cssCode": "\"\\273B\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x273B;"
+    technicalInfo: {
+      unicode: "U+273B",
+      altCode: "Alt+10043",
+      htmlCode: "&#10043;",
+      cssCode: "\"\\273B\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x273B;"
     },
-    "creativeShowcases": [
-      { "name": "Floral Bullet", "symbol": "✻ Item A" },
-      { "name": "Gentle Separator", "symbol": "✻─✻─✻" },
-      { "name": "Stylish Accent", "symbol": "Chapter ✻" },
-      { "name": "Design Element", "symbol": "✻ Mark" },
-      { "name": "Soft Highlight", "symbol": "✻ Note:" }
+    creativeShowcases: [
+      { name: "Floral Bullet", symbol: "✻ Item A" },
+      { name: "Gentle Separator", symbol: "✻─✻─✻" },
+      { name: "Stylish Accent", symbol: "Chapter ✻" },
+      { name: "Design Element", symbol: "✻ Mark" },
+      { name: "Soft Highlight", symbol: "✻ Note:" }
     ],
-    "relatedStars": [
-      { "symbol": "✱", "name": "Black Small Star", "slug": "black-small-star" },
-      { "symbol": "✲", "name": "Open Centre Black Star", "slug": "open-centre-black-star" },
-      { "symbol": "✳", "name": "Eight Spoked Asterisk", "slug": "eight-spoked-asterisk" },
-      { "symbol": "✺", "name": "Sixteen Pointed Asterisk", "slug": "sixteen-pointed-asterisk" },
-      { "symbol": "✶", "name": "Six Pointed Black Star", "slug": "six-pointed-black-star" }
+    relatedStars: [
+      { symbol: "✱", name: "Heavy Asterisk", slug: "heavy-asterisk" },
+      { symbol: "✲", name: "Open Centre Asterisk", slug: "open-centre-asterisk" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" },
+      { symbol: "✺", name: "Sixteen Pointed Asterisk", slug: "sixteen-pointed-asterisk" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✻ Teardrop-Spoked Asterisk Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✻ Teardrop-Spoked Asterisk symbol**, a charming and elegant Unicode character. This **Teardrop-Spoked Asterisk** features six spokes that gently taper into rounded, teardrop-like shapes, giving it a distinctive decorative and somewhat floral appearance. It's an excellent choice for adding sophisticated decorative elements, subtle emphasis, or serving as a unique and artistic marker in various digital and print media, particularly where a soft, refined touch is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✻ Teardrop-Spoked Asterisk symbol**.</p>
@@ -3748,41 +3744,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 34,
-    "symbol": "✼",
-    "name": "Open Centre Teardrop-Spoked Asterisk",
-    "categories": ["star", "decorative", "six-pointed", "typographic", "floral", "hollow"],
-    "slug": "open-centre-teardrop-spoked-asterisk",
-    "unicode": "U+273C",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✼ Open Centre Teardrop-Spoked Asterisk - Copy & Paste",
-      "description": "Copy the ✼ Open Centre Teardrop-Spoked Asterisk (U+273C). A decorative symbol with floral-like spokes and a hollow center, ideal for unique designs.",
-      "keywords": "open centre teardrop-spoked asterisk, decorative, unicode, ✼ symbol, floral, design, copy paste"
+    id: 34,
+    symbol: "✼",
+    name: "Open Centre Teardrop-Spoked Asterisk",
+    categories: ['six-pointed'],
+    slug: "open-centre-teardrop-spoked-asterisk",
+    unicode: "U+273C",
+    date: "June 10, 2025",
+    seo: {
+      title: "✼ Open Centre Teardrop-Spoked Asterisk - Copy & Paste",
+      description: "Copy the ✼ Open Centre Teardrop-Spoked Asterisk (U+273C). A decorative symbol with floral-like spokes and a hollow center, ideal for unique designs.",
+      keywords: "open centre teardrop-spoked asterisk, decorative, unicode, ✼ symbol, floral, design, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+273C",
-      "altCode": "Alt+10044",
-      "htmlCode": "&#10044;",
-      "cssCode": "\"\\273C\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x273C;"
+    technicalInfo: {
+      unicode: "U+273C",
+      altCode: "Alt+10044",
+      htmlCode: "&#10044;",
+      cssCode: "\"\\273C\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x273C;"
     },
-    "creativeShowcases": [
-      { "name": "Light Bullet Point", "symbol": "✼ Item one" },
-      { "name": "Elegant Separator", "symbol": "─✼─✼─" },
-      { "name": "Delicate Accent", "symbol": "✼ Chapter Two" },
-      { "name": "Floral Design Marker", "symbol": "Design ✼" },
-      { "name": "Subtle Emphasis", "symbol": "✼ Note:" }
+    creativeShowcases: [
+      { name: "Light Bullet Point", symbol: "✼ Item one" },
+      { name: "Elegant Separator", symbol: "─✼─✼─" },
+      { name: "Delicate Accent", symbol: "✼ Chapter Two" },
+      { name: "Floral Design Marker", symbol: "Design ✼" },
+      { name: "Subtle Emphasis", symbol: "✼ Note:" }
     ],
-    "relatedStars": [
-      { "symbol": "✻", "name": "Teardrop-Spoked Asterisk", "slug": "teardrop-spoked-asterisk" },
-      { "symbol": "✱", "name": "Black Small Star", "slug": "black-small-star" },
-      { "symbol": "✲", "name": "Open Centre Black Star", "slug": "open-centre-black-star" },
-      { "symbol": "✳", "name": "Eight Spoked Asterisk", "slug": "eight-spoked-asterisk" },
-      { "symbol": "✹", "name": "Twelve Pointed Black Star", "slug": "twelve-pointed-black-star" }
+    relatedStars: [
+      { symbol: "✻", name: "Teardrop-Spoked Asterisk", slug: "teardrop-spoked-asterisk" },
+      { symbol: "✱", name: "Heavy Asterisk", slug: "heavy-asterisk" },
+      { symbol: "✲", name: "Open Centre Asterisk", slug: "open-centre-asterisk" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" },
+      { symbol: "✹", name: "Twelve Pointed Black Star", slug: "twelve-pointed-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✼ Open Centre Teardrop-Spoked Asterisk Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✼ Open Centre Teardrop-Spoked Asterisk symbol**, a graceful and airy Unicode character. This **Open Centre Teardrop-Spoked Asterisk** features six delicate, teardrop-shaped spokes radiating from a distinct hollow center, giving it a light, decorative, and somewhat floral appearance. It's an excellent choice for adding sophisticated decorative elements, gentle emphasis, or serving as a unique and artistic marker in various digital and print media, particularly where a refined and open aesthetic is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✼ Open Centre Teardrop-Spoked Asterisk symbol**.</p>
@@ -3861,41 +3857,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 35,
-    "symbol": "✽",
-    "name": "Heavy Teardrop-Spoked Asterisk",
-    "categories": ["star", "decorative", "six-pointed", "bold", "typographic", "floral"],
-    "slug": "heavy-teardrop-spoked-asterisk",
-    "unicode": "U+273D",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✽ Heavy Teardrop-Spoked Asterisk - Copy & Paste Symbol",
-      "description": "Copy the ✽ Heavy Teardrop-Spoked Asterisk (U+273D). A bold, decorative symbol with teardrop-shaped spokes, ideal for strong emphasis and design. One-click copy.",
-      "keywords": "heavy teardrop-spoked asterisk, decorative, unicode, ✽ symbol, floral, bold, design, copy paste"
+    id: 35,
+    symbol: "✽",
+    name: "Heavy Teardrop-Spoked Asterisk",
+    categories: ['six-pointed'],
+    slug: "heavy-teardrop-spoked-asterisk",
+    unicode: "U+273D",
+    date: "June 10, 2025",
+    seo: {
+      title: "✽ Heavy Teardrop-Spoked Asterisk - Copy & Paste Symbol",
+      description: "Copy the ✽ Heavy Teardrop-Spoked Asterisk (U+273D). A bold, decorative symbol with teardrop-shaped spokes, ideal for strong emphasis and design. One-click copy.",
+      keywords: "heavy teardrop-spoked asterisk, decorative, unicode, ✽ symbol, floral, bold, design, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+273D",
-      "altCode": "Alt+10045",
-      "htmlCode": "&#10045;",
-      "cssCode": "\"\\273D\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x273D;"
+    technicalInfo: {
+      unicode: "U+273D",
+      altCode: "Alt+10045",
+      htmlCode: "&#10045;",
+      cssCode: "\"\\273D\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x273D;"
     },
-    "creativeShowcases": [
-      { "name": "Strong Bullet Point", "symbol": "✽ Item A" },
-      { "name": "Bold Separator", "symbol": "──✽──" },
-      { "name": "Important Accent", "symbol": "✽ Read This" },
-      { "name": "Striking Marker", "symbol": "✽ Event Details" },
-      { "name": "Decorative Headline", "symbol": "✽Headline✽" }
+    creativeShowcases: [
+      { name: "Strong Bullet Point", symbol: "✽ Item A" },
+      { name: "Bold Separator", symbol: "──✽──" },
+      { name: "Important Accent", symbol: "✽ Read This" },
+      { name: "Striking Marker", symbol: "✽ Event Details" },
+      { name: "Decorative Headline", symbol: "✽Headline✽" }
     ],
-    "relatedStars": [
-      { "symbol": "✻", "name": "Teardrop-Spoked Asterisk", "slug": "teardrop-spoked-asterisk" },
-      { "symbol": "✼", "name": "Open Centre Teardrop-Spoked Asterisk", "slug": "open-centre-teardrop-spoked-asterisk" },
-      { "symbol": "✱", "name": "Black Small Star", "slug": "black-small-star" },
-      { "symbol": "✲", "name": "Open Centre Black Star", "slug": "open-centre-black-star" },
-      { "symbol": "✶", "name": "Six Pointed Black Star", "slug": "six-pointed-black-star" }
+    relatedStars: [
+      { symbol: "✻", name: "Teardrop-Spoked Asterisk", slug: "teardrop-spoked-asterisk" },
+      { symbol: "✼", name: "Open Centre Teardrop-Spoked Asterisk", slug: "open-centre-teardrop-spoked-asterisk" },
+      { symbol: "✱", name: "Heavy Asterisk", slug: "heavy-asterisk" },
+      { symbol: "✲", name: "Open Centre Asterisk", slug: "open-centre-asterisk" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✽ Heavy Teardrop-Spoked Asterisk Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✽ Heavy Teardrop-Spoked Asterisk symbol**, a robust and visually impactful Unicode character. This **Heavy Teardrop-Spoked Asterisk** features six bold, teardrop-shaped spokes radiating outwards, creating a strong yet decorative and slightly floral appearance. It's an excellent choice for adding commanding decorative elements, emphasizing crucial text, or serving as a bold and artistic marker in various digital and print media, particularly when a distinct and noticeable accent is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✽ Heavy Teardrop-Spoked Asterisk symbol**.</p>
@@ -3974,41 +3970,39 @@ export const starDetailsData = [
   },
 
   {
-    "id": 36,
-    "symbol": "✾",
-    "name": "Six Petalled Black And White Florette",
-    "categories": ["floral", "decorative", "six-pointed", "typographic", "ornament"],
-    "slug": "six-petalled-black-and-white-florette",
-    "unicode": "U+273E",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✾ Six Petalled Florette - Copy & Paste Unicode Symbol",
-      "description": "Copy the ✾ Six Petalled Black And White Florette (U+273E). A decorative floral asterisk, perfect for elegant designs, emphasis, or text embellishment.",
-      "keywords": "six petalled florette, decorative, unicode, ✾ symbol, floral, ornament, design, copy paste"
+    id: 36,
+    symbol: "✾",
+    name: "Six Petalled Black And White Florette",
+    categories: ['six-pointed', 'other'],
+    slug: "six-petalled-black-and-white-florette",
+    unicode: "U+273E",
+    date: "June 10, 2025",
+    seo: {
+      title: "✾ Six Petalled Florette - Copy & Paste Unicode Symbol",
+      description: "Copy the ✾ Six Petalled Black And White Florette (U+273E). A decorative floral asterisk, perfect for elegant designs, emphasis, or text embellishment.",
+      keywords: "six petalled florette, decorative, unicode, ✾ symbol, floral, ornament, design, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+273E",
-      "altCode": "Alt+10046",
-      "htmlCode": "&#10046;",
-      "cssCode": "\"\\273E\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x273E;"
+    technicalInfo: {
+      unicode: "U+273E",
+      altCode: "Alt+10046",
+      htmlCode: "&#10046;",
+      cssCode: "\"\\273E\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x273E;"
     },
-    "creativeShowcases": [
-      { "name": "Elegant Bullet", "symbol": "✾ Point 1" },
-      { "name": "Floral Divider", "symbol": "──✾──" },
-      { "name": "Stylish Accent", "symbol": "✾ Special Note" },
-      { "name": "Design Motif", "symbol": "Product ✾" },
-      { "name": "Ornamental Heading", "symbol": "✾ Chapter Title" }
+    creativeShowcases: [
+      { name: "Elegant Bullet", symbol: "✾ Point 1" },
+      { name: "Floral Divider", symbol: "──✾──" },
+      { name: "Stylish Accent", symbol: "✾ Special Note" },
+      { name: "Design Motif", symbol: "Product ✾" },
+      { name: "Ornamental Heading", symbol: "✾ Chapter Title" }
     ],
-    "relatedStars": [
-      { "symbol": "✻", "name": "Teardrop-Spoked Asterisk", "slug": "teardrop-spoked-asterisk" },
-      { "symbol": "✼", "name": "Open Centre Teardrop-Spoked Asterisk", "slug": "open-centre-teardrop-spoked-asterisk" },
-      { "symbol": "✽", "name": "Heavy Teardrop-Spoked Asterisk", "slug": "heavy-teardrop-spoked-asterisk" },
-      { "symbol": "❊", "name": "Heavy Asterisk", "slug": "heavy-asterisk" },
-      { "symbol": "❋", "name": "Balloon Spoked Asterisk", "slug": "balloon-spoked-asterisk" }
+    relatedStars: [
+      { symbol: "✻", name: "Teardrop-Spoked Asterisk", slug: "teardrop-spoked-asterisk" },
+      { symbol: "✼", name: "Open Centre Teardrop-Spoked Asterisk", slug: "open-centre-teardrop-spoked-asterisk" },
+      { symbol: "✽", name: "Heavy Teardrop-Spoked Asterisk", slug: "heavy-teardrop-spoked-asterisk" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✾ Six Petalled Black And White Florette Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✾ Six Petalled Black And White Florette symbol**, an enchanting and versatile Unicode character. This **Six Petalled Florette** resembles a decorative floral asterisk or a delicate rosette with six distinct petals, offering a stylized and ornamental appearance. It's an excellent choice for adding sophisticated decorative elements, gentle emphasis, or serving as a unique and artistic marker in various digital and print media, particularly when an elegant, natural, or refined aesthetic is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✾ Six Petalled Black And White Florette symbol**.</p>
@@ -4087,41 +4081,37 @@ export const starDetailsData = [
   },
 
   {
-    "id": 37,
-    "symbol": "✿",
-    "name": "Black Florette",
-    "categories": ["floral", "decorative", "ornament", "typographic", "flower"],
-    "slug": "black-florette",
-    "unicode": "U+273F",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✿ Black Florette Symbol - Copy & Paste Unicode",
-      "description": "Copy the ✿ Black Florette (U+273F). A decorative floral symbol, perfect for adding elegance, emphasis, or a touch of nature to any design. One-click copy.",
-      "keywords": "black florette, floral symbol, decorative, unicode, ✿ symbol, flower, ornament, copy paste"
+    id: 37,
+    symbol: "✿",
+    name: "Black Florette",
+    categories: ['six-pointed', 'other'],
+    slug: "black-florette",
+    unicode: "U+273F",
+    date: "June 10, 2025",
+    seo: {
+      title: "✿ Black Florette Symbol - Copy & Paste Unicode",
+      description: "Copy the ✿ Black Florette (U+273F). A decorative floral symbol, perfect for adding elegance, emphasis, or a touch of nature to any design. One-click copy.",
+      keywords: "black florette, floral symbol, decorative, unicode, ✿ symbol, flower, ornament, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+273F",
-      "altCode": "Alt+10047",
-      "htmlCode": "&#10047;",
-      "cssCode": "\"\\273F\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x273F;"
+    technicalInfo: {
+      unicode: "U+273F",
+      altCode: "Alt+10047",
+      htmlCode: "&#10047;",
+      cssCode: "\"\\273F\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x273F;"
     },
-    "creativeShowcases": [
-      { "name": "Floral Bullet", "symbol": "✿ Item One" },
-      { "name": "Elegant Separator", "symbol": "───✿───" },
-      { "name": "Decorative Headline", "symbol": "✿ Chapter Title ✿" },
-      { "name": "Nature Accent", "symbol": "Spring Collection ✿" },
-      { "name": "Stylish List Marker", "symbol": "✿ To-Do" }
+    creativeShowcases: [
+      { name: "Floral Bullet", symbol: "✿ Item One" },
+      { name: "Elegant Separator", symbol: "───✿───" },
+      { name: "Decorative Headline", symbol: "✿ Chapter Title ✿" },
+      { name: "Nature Accent", symbol: "Spring Collection ✿" },
+      { name: "Stylish List Marker", symbol: "✿ To-Do" }
     ],
-    "relatedStars": [
-      { "symbol": "✾", "name": "Six Petalled Black And White Florette", "slug": "six-petalled-black-and-white-florette" },
-      { "symbol": "⎈", "name": "Flower Emoji", "slug": "flower-emoji" },
-      { "symbol": "❀", "name": "White Flower", "slug": "white-flower" },
-      { "symbol": "⚛", "name": "Atom Symbol", "slug": "atom-symbol" },
-      { "symbol": "⚜", "name": "Fleur-De-Lis", "slug": "fleur-de-lis" }
+    relatedStars: [
+      { symbol: "✾", name: "Six Petalled Black And White Florette", slug: "six-petalled-black-and-white-florette" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✿ Black Florette Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✿ Black Florette symbol**, a charming and versatile Unicode character. This **Black Florette** is a stylized floral symbol, resembling a delicate blossom or rosette, typically depicted in solid black. It's an excellent choice for adding sophisticated decorative elements, gentle emphasis, or serving as a unique and artistic marker in various digital and print media, particularly when an elegant, natural, or refined aesthetic is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✿ Black Florette symbol**.</p>
@@ -4200,41 +4190,37 @@ export const starDetailsData = [
   },
 
   {
-    "id": 38,
-    "symbol": "❀",
-    "name": "White Florette",
-    "categories": ["floral", "decorative", "ornament", "typographic", "flower", "white"],
-    "slug": "white-florette",
-    "unicode": "U+2740",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "❀ White Florette Symbol - Copy & Paste Unicode",
-      "description": "Copy the ❀ White Florette (U+2740). A charming decorative floral symbol, perfect for adding softness, elegance, or a natural touch to any design.",
-      "keywords": "white florette, floral symbol, decorative, unicode, ❀ symbol, flower, ornament, copy paste"
+    id: 38,
+    symbol: "❀",
+    name: "White Florette",
+    categories: ['six-pointed', 'other'],
+    slug: "white-florette",
+    unicode: "U+2740",
+    date: "June 10, 2025",
+    seo: {
+      title: "❀ White Florette Symbol - Copy & Paste Unicode",
+      description: "Copy the ❀ White Florette (U+2740). A charming decorative floral symbol, perfect for adding softness, elegance, or a natural touch to any design.",
+      keywords: "white florette, floral symbol, decorative, unicode, ❀ symbol, flower, ornament, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2740",
-      "altCode": "Alt+10048",
-      "htmlCode": "&#10048;",
-      "cssCode": "\"\\2740\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2740;"
+    technicalInfo: {
+      unicode: "U+2740",
+      altCode: "Alt+10048",
+      htmlCode: "&#10048;",
+      cssCode: "\"\\2740\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2740;"
     },
-    "creativeShowcases": [
-      { "name": "Soft Bullet", "symbol": "❀ Point Two" },
-      { "name": "Gentle Divider", "symbol": "═❀═❀═" },
-      { "name": "Charming Accent", "symbol": "❀ Best Wishes" },
-      { "name": "Wedding Motif", "symbol": "❀ Love Story ❀" },
-      { "name": "Delicate List Marker", "symbol": "❀ To-Do Item" }
+    creativeShowcases: [
+      { name: "Soft Bullet", symbol: "❀ Point Two" },
+      { name: "Gentle Divider", symbol: "═❀═❀═" },
+      { name: "Charming Accent", symbol: "❀ Best Wishes" },
+      { name: "Wedding Motif", symbol: "❀ Love Story ❀" },
+      { name: "Delicate List Marker", symbol: "❀ To-Do Item" }
     ],
-    "relatedStars": [
-      { "symbol": "✿", "name": "Black Florette", "slug": "black-florette" },
-      { "symbol": "✾", "name": "Six Petalled Black And White Florette", "slug": "six-petalled-black-and-white-florette" },
-      { "symbol": "❁", "name": "Eight Petalled Asterisk", "slug": "eight-petalled-asterisk" },
-      { "symbol": "⚛", "name": "Atom Symbol", "slug": "atom-symbol" },
-      { "symbol": "⚜", "name": "Fleur-De-Lis", "slug": "fleur-de-lis" }
+    relatedStars: [
+      { symbol: "✾", name: "Six Petalled Black And White Florette", slug: "six-petalled-black-and-white-florette" },
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>❀ White Florette Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ❀ White Florette symbol**, a delicate and visually appealing Unicode character. This **White Florette** is a stylized floral symbol, resembling an open blossom or rosette with a soft, outlined appearance, often rendered with a white or transparent fill. It's an excellent choice for adding subtle decorative elements, gentle emphasis, or serving as a unique and artistic marker in various digital and print media, particularly when a light, natural, or refined aesthetic is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **❀ White Florette symbol**.</p>
@@ -4313,41 +4299,37 @@ export const starDetailsData = [
   },
 
   {
-    "id": 39,
-    "symbol": "❁",
-    "name": "Eight Petalled Outlined Black Florette",
-    "categories": ["floral", "decorative", "ornament", "typographic", "flower", "outlined", "eight-petalled"],
-    "slug": "eight-petalled-outlined-black-florette",
-    "unicode": "U+2741",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✶ Heavy Eight Pointed Rectilinear Black Star - Copy & Paste",
-      "description": "Copy the ▫ White Small Star symbol (U+2B52). A delicate and decorative accent star, perfect for minimalist designs and enh ancing text with a subtle touch.",
-      "keywords": "white small star, decorative star, unicode, ▫ symbol, small star, copy",
+    id: 39,
+    symbol: "❁",
+    name: "Eight Petalled Outlined Black Florette",
+    categories: ['multi-pointed', 'other'],
+    slug: "eight-petalled-outlined-black-florette",
+    unicode: "U+2741",
+    date: "June 10, 2025",
+    seo: {
+      title: "✶ Heavy Eight Pointed Rectilinear Black Star - Copy & Paste",
+      description: "Copy the ▫ White Small Star symbol (U+2B52). A delicate and decorative accent star, perfect for minimalist designs and enh ancing text with a subtle touch.",
+      keywords: "white small star, decorative star, unicode, ▫ symbol, small star, copy",
     },
-    "technicalInfo": {
-      "unicode": "U+2741",
-      "altCode": "Alt+10049",
-      "htmlCode": "&#10049;",
-      "cssCode": "\"\\2741\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2741;"
+    technicalInfo: {
+      unicode: "U+2741",
+      altCode: "Alt+10049",
+      htmlCode: "&#10049;",
+      cssCode: "\"\\2741\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2741;"
     },
-    "creativeShowcases": [
-      { "name": "Detailed Bullet", "symbol": "❁ Item A" },
-      { "name": "Elegant Divider", "symbol": "════❁════" },
-      { "name": "Refined Accent", "symbol": "❁ Event Update" },
-      { "name": "Sophisticated Marker", "symbol": "❁ Details" },
-      { "name": "Formal Embellishment", "symbol": "❁ Invitation ❁" }
+    creativeShowcases: [
+      { name: "Detailed Bullet", symbol: "❁ Item A" },
+      { name: "Elegant Divider", symbol: "════❁════" },
+      { name: "Refined Accent", symbol: "❁ Event Update" },
+      { name: "Sophisticated Marker", symbol: "❁ Details" },
+      { name: "Formal Embellishment", symbol: "❁ Invitation ❁" }
     ],
-    "relatedStars": [
-      { "symbol": "✿", "name": "Black Florette", "slug": "black-florette" },
-      { "symbol": "❀", "name": "White Florette", "slug": "white-florette" },
-      { "symbol": "✾", "name": "Six Petalled Black And White Florette", "slug": "six-petalled-black-and-white-florette" },
-      { "symbol": "⚜", "name": "Fleur-De-Lis", "slug": "fleur-de-lis" },
-      { "symbol": "⚛", "name": "Atom Symbol", "slug": "atom-symbol" }
+    relatedStars: [
+      { symbol: "✾", name: "Six Petalled Black And White Florette", slug: "six-petalled-black-and-white-florette" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>❁ Eight Petalled Outlined Black Florette Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ❁ Eight Petalled Outlined Black Florette symbol**, an exquisitely detailed and versatile Unicode character. This particular **Eight Petalled Outlined Black Florette** is a decorative floral glyph featuring eight distinct, outlined petals, often appearing as a delicate, symmetrical blossom. It's an excellent choice for adding sophisticated decorative elements, intricate details, or serving as a refined and artistic marker in various digital and print media, particularly when an elegant, structured, or traditional aesthetic is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **❁ Eight Petalled Outlined Black Florette symbol**.</p>
@@ -4426,41 +4408,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 40,
-    "symbol": "❂",
-    "name": "Circled Open Centre Eight Pointed Star",
-    "categories": ["star", "multi-pointed", "decorative", "geometric", "circled"],
-    "slug": "circled-open-centre-eight-pointed-star",
-    "unicode": "U+2742",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "❂ Circled Open Centre Eight Pointed Star - Copy & Paste",
-      "description": "Copy the ❂ Circled Open Centre Eight Pointed Star (U+2742). This decorative star with eight points inside a circle is perfect for visual emphasis & designs.",
-      "keywords": "circled open centre star, eight pointed star, decorative star, unicode, ❂ symbol, geometric"
+    id: 40,
+    symbol: "❂",
+    name: "Circled Open Centre Eight Pointed Star",
+    categories: ['multi-pointed', 'other'],
+    slug: "circled-open-centre-eight-pointed-star",
+    unicode: "U+2742",
+    date: "June 10, 2025",
+    seo: {
+      title: "❂ Circled Open Centre Eight Pointed Star - Copy & Paste",
+      description: "Copy the ❂ Circled Open Centre Eight Pointed Star (U+2742). This decorative star with eight points inside a circle is perfect for visual emphasis & designs.",
+      keywords: "circled open centre star, eight pointed star, decorative star, unicode, ❂ symbol, geometric"
     },
-    "technicalInfo": {
-      "unicode": "U+2742",
-      "altCode": "Alt+10050",
-      "htmlCode": "&#10050;",
-      "cssCode": "\"\\2742\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2742;"
+    technicalInfo: {
+      unicode: "U+2742",
+      altCode: "Alt+10050",
+      htmlCode: "&#10050;",
+      cssCode: "\"\\2742\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2742;"
     },
-    "creativeShowcases": [
-      { "name": "Section Divider", "symbol": "━━━❂━━━" },
-      { "name": "Highlighted Point", "symbol": "❂ Important Note" },
-      { "name": "Geometric Accent", "symbol": "Design Element ❂" },
-      { "name": "Celestial Marker", "symbol": "Night Sky ❂" },
-      { "name": "Radiant Bullet", "symbol": "❂ Key Feature" }
+    creativeShowcases: [
+      { name: "Section Divider", symbol: "━━━❂━━━" },
+      { name: "Highlighted Point", symbol: "❂ Important Note" },
+      { name: "Geometric Accent", symbol: "Design Element ❂" },
+      { name: "Celestial Marker", symbol: "Night Sky ❂" },
+      { name: "Radiant Bullet", symbol: "❂ Key Feature" }
     ],
-    "relatedStars": [
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "✶", "name": "Heavy Eight Pointed Rectilinear Black Star", "slug": "heavy-eight-pointed-rectilinear-black-star" },
-      { "symbol": "✴", "name": "Eight Pointed Rectilinear Black Star", "slug": "eight-pointed-rectilinear-black-star" },
-      { "symbol": "✺", "name": "Eight Petalled Cross Star", "slug": "eight-petalled-cross-star" }
+    relatedStars: [
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "✺", name: "Sixteen Pointed Asterisk", slug: "sixteen-pointed-asterisk" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>❂ Circled Open Centre Eight Pointed Star: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ❂ Circled Open Centre Eight Pointed Star symbol**, a striking and versatile Unicode character. This **Circled Open Centre Eight Pointed Star** features eight distinct points enclosed within a circle, with an open center, creating a unique and decorative appearance. It's an excellent choice for adding sophisticated visual emphasis, geometric flair, or serving as a refined marker in various digital and print media, particularly when a balanced, directional, or radiant aesthetic is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **❂ Circled Open Centre Eight Pointed Star symbol**.</p>
@@ -4539,41 +4521,39 @@ export const starDetailsData = [
   },
 
   {
-    "id": 41,
-    "symbol": "❃",
-    "name": "Heavy Teardrop-Spoked Pinwheel Asterisk",
-    "categories": ["star", "multi-pointed", "decorative", "pinwheel", "asterisk"],
-    "slug": "heavy-teardrop-spoked-pinwheel-asterisk",
-    "unicode": "U+2743",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "❃ Heavy Teardrop-Spoked Pinwheel Asterisk - Copy & Paste",
-      "description": "Copy the ❃ Heavy Teardrop-Spoked Pinwheel Asterisk (U+2743). This decorative, bold pinwheel asterisk is perfect for emphasis & creative design. One-click copy.",
-      "keywords": "heavy teardrop-spoked pinwheel asterisk, pinwheel asterisk, decorative star, unicode, ❃ symbol"
+    id: 41,
+    symbol: "❃",
+    name: "Heavy Teardrop-Spoked Pinwheel Asterisk",
+    categories: ['multi-pointed', 'other'],
+    slug: "heavy-teardrop-spoked-pinwheel-asterisk",
+    unicode: "U+2743",
+    date: "June 10, 2025",
+    seo: {
+      title: "❃ Heavy Teardrop-Spoked Pinwheel Asterisk - Copy & Paste",
+      description: "Copy the ❃ Heavy Teardrop-Spoked Pinwheel Asterisk (U+2743). This decorative, bold pinwheel asterisk is perfect for emphasis & creative design. One-click copy.",
+      keywords: "heavy teardrop-spoked pinwheel asterisk, pinwheel asterisk, decorative star, unicode, ❃ symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+2743",
-      "altCode": "Alt+10051",
-      "htmlCode": "&#10051;",
-      "cssCode": "\"\\2743\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2743;"
+    technicalInfo: {
+      unicode: "U+2743",
+      altCode: "Alt+10051",
+      htmlCode: "&#10051;",
+      cssCode: "\"\\2743\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2743;"
     },
-    "creativeShowcases": [
-      { "name": "Dynamic Bullet", "symbol": "❃ Key Point" },
-      { "name": "Decorative Separator", "symbol": "━━━❃━━━" },
-      { "name": "Energetic Accent", "symbol": "New Release ❃" },
-      { "name": "Floral Flair", "symbol": "Garden Party ❃" },
-      { "name": "Stylish Emphasis", "symbol": "❃ Important Update" }
+    creativeShowcases: [
+      { name: "Dynamic Bullet", symbol: "❃ Key Point" },
+      { name: "Decorative Separator", symbol: "━━━❃━━━" },
+      { name: "Energetic Accent", symbol: "New Release ❃" },
+      { name: "Floral Flair", symbol: "Garden Party ❃" },
+      { name: "Stylish Emphasis", symbol: "❃ Important Update" }
     ],
-    "relatedStars": [
-      { "symbol": "✢", "name": "Four Teardrop-Spoked Asterisk", "slug": "four-teardrop-spoked-asterisk" },
-      { "symbol": "❖", "name": "Four Club-Spoked Asterisk", "slug": "four-club-spoked-asterisk" },
-      { "symbol": "✣", "name": "Four Teardrop-Spoked Asterisk", "slug": "four-teardrop-spoked-asterisk-variant" },
-      { "symbol": "✶", "name": "Heavy Eight Pointed Rectilinear Black Star", "slug": "heavy-eight-pointed-rectilinear-black-star" },
-      { "symbol": "❅", "name": "Tight Trifid Asterisk", "slug": "tight-trifid-asterisk" }
+    relatedStars: [
+      { symbol: "✢", name: "Four Teardrop-Spoked Asterisk", slug: "four-teardrop-spoked-asterisk" },
+      { symbol: "✣", name: "Four Balloon-Spoked Asterisk", slug: "four-balloon-spoked-asterisk" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>❃ Heavy Teardrop-Spoked Pinwheel Asterisk: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ❃ Heavy Teardrop-Spoked Pinwheel Asterisk symbol**, a bold and dynamic Unicode character. This **Heavy Teardrop-Spoked Pinwheel Asterisk** features a distinctive design with thick, teardrop-shaped spokes arranged in a visually appealing pinwheel pattern. It's an excellent choice for adding strong decorative elements, emphasizing text, or serving as a unique artistic marker in various digital and print media, particularly when a lively, energetic, or stylish aesthetic is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **❃ Heavy Teardrop-Spoked Pinwheel Asterisk symbol**.</p>
@@ -4652,41 +4632,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 42,
-    "symbol": "❇",
-    "name": "Sparkle",
-    "categories": ["star", "decorative", "effect", "light", "magical"],
-    "slug": "sparkle",
-    "unicode": "U+2747",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "❇ Sparkle Symbol - Copy & Paste Unicode Star",
-      "description": "Copy the ❇ Sparkle symbol (U+2747). This decorative sparkle star is perfect for adding flair, emphasis, or a magical touch to any design. One-click copy.",
-      "keywords": "sparkle symbol, decorative star, unicode, ❇ symbol, design, magic, light, copy paste"
+    id: 42,
+    symbol: "❇",
+    name: "Sparkle",
+    categories: ['multi-pointed', 'other'],
+    slug: "sparkle",
+    unicode: "U+2747",
+    date: "June 10, 2025",
+    seo: {
+      title: "❇ Sparkle Symbol - Copy & Paste Unicode Star",
+      description: "Copy the ❇ Sparkle symbol (U+2747). This decorative sparkle star is perfect for adding flair, emphasis, or a magical touch to any design. One-click copy.",
+      keywords: "sparkle symbol, decorative star, unicode, ❇ symbol, design, magic, light, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2747",
-      "altCode": "Alt+10055",
-      "htmlCode": "&#10055;",
-      "cssCode": "\"\\2747\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2747;"
+    technicalInfo: {
+      unicode: "U+2747",
+      altCode: "Alt+10055",
+      htmlCode: "&#10055;",
+      cssCode: "\"\\2747\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2747;"
     },
-    "creativeShowcases": [
-      { "name": "Magical Accent", "symbol": "✨ Dream Big ❇" },
-      { "name": "Highlight Point", "symbol": "❇ New Feature!" },
-      { "name": "Celebration Decor", "symbol": "Happy Birthday ❇" },
-      { "name": "Bright Bullet", "symbol": "❇ Idea Spark" },
-      { "name": "Shine Effect", "symbol": "Make it Shine ❇" }
+    creativeShowcases: [
+      { name: "Magical Accent", symbol: "✨ Dream Big ❇" },
+      { name: "Highlight Point", symbol: "❇ New Feature!" },
+      { name: "Celebration Decor", symbol: "Happy Birthday ❇" },
+      { name: "Bright Bullet", symbol: "❇ Idea Spark" },
+      { name: "Shine Effect", symbol: "Make it Shine ❇" }
     ],
-    "relatedStars": [
-      { "symbol": "✨", "name": "Sparkles Emoji", "slug": "sparkles-emoji" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "🌟", "name": "Glowing Star Emoji", "slug": "glowing-star-emoji" },
-      { "symbol": "💫", "name": "Dizzy Symbol Emoji", "slug": "dizzy-symbol-emoji" }
+    relatedStars: [
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "💫", name: "Dizzy Symbol", slug: "dizzy-symbol" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>❇ Sparkle Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ❇ Sparkle symbol**, a vibrant and eye-catching Unicode character. This **Sparkle symbol** represents a stylized sparkle or a burst of glittering light, commonly depicted as a four-pointed star with additional smaller points emanating from its sides. It's an excellent choice for adding visual flair, drawing attention, suggesting excitement, or imparting a magical touch to various digital and print media. Explore this comprehensive guide on **Star Symbols** to learn everything about the **❇ Sparkle symbol**.</p>
@@ -4765,41 +4745,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 43,
-    "symbol": "❈",
-    "name": "Heavy Sparkle",
-    "categories": ["star", "decorative", "effect", "bold", "sparkle"],
-    "slug": "heavy-sparkle",
-    "unicode": "U+2748",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "❈ Heavy Sparkle Symbol - Copy & Paste Unicode Star",
-      "description": "Copy the ❈ Heavy Sparkle symbol (U+2748). This bold, decorative sparkle star is perfect for strong emphasis & elegant designs. One-click copy available.",
-      "keywords": "heavy sparkle symbol, decorative star, unicode, ❈ symbol, bold sparkle, design, copy paste"
+    id: 43,
+    symbol: "❈",
+    name: "Heavy Sparkle",
+    categories: ['multi-pointed', 'other'],
+    slug: "heavy-sparkle",
+    unicode: "U+2748",
+    date: "June 10, 2025",
+    seo: {
+      title: "❈ Heavy Sparkle Symbol - Copy & Paste Unicode Star",
+      description: "Copy the ❈ Heavy Sparkle symbol (U+2748). This bold, decorative sparkle star is perfect for strong emphasis & elegant designs. One-click copy available.",
+      keywords: "heavy sparkle symbol, decorative star, unicode, ❈ symbol, bold sparkle, design, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2748",
-      "altCode": "Alt+10056",
-      "htmlCode": "&#10056;",
-      "cssCode": "\"\\2748\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2748;"
+    technicalInfo: {
+      unicode: "U+2748",
+      altCode: "Alt+10056",
+      htmlCode: "&#10056;",
+      cssCode: "\"\\2748\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2748;"
     },
-    "creativeShowcases": [
-      { "name": "Bold Accent", "symbol": "❈ Premium Offer" },
-      { "name": "Strong Emphasis", "symbol": "Important ❈" },
-      { "name": "Elegant Separator", "symbol": "═════❈═════" },
-      { "name": "Luxurious Touch", "symbol": "❈ Exclusive Collection" },
-      { "name": "Eye-catching Bullet", "symbol": "❈ New Style" }
+    creativeShowcases: [
+      { name: "Bold Accent", symbol: "❈ Premium Offer" },
+      { name: "Strong Emphasis", symbol: "Important ❈" },
+      { name: "Elegant Separator", symbol: "═════❈═════" },
+      { name: "Luxurious Touch", symbol: "❈ Exclusive Collection" },
+      { name: "Eye-catching Bullet", symbol: "❈ New Style" }
     ],
-    "relatedStars": [
-      { "symbol": "❇", "name": "Sparkle", "slug": "sparkle" },
-      { "symbol": "✨", "name": "Sparkles Emoji", "slug": "sparkles-emoji" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "🌟", "name": "Glowing Star Emoji", "slug": "glowing-star-emoji" }
+    relatedStars: [
+      { symbol: "❇", name: "Sparkle", slug: "sparkle" },
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>❈ Heavy Sparkle Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ❈ Heavy Sparkle symbol**, a bold and impactful Unicode character. This **Heavy Sparkle symbol** is an ornamental version of the sparkle, featuring a thicker, more prominent design that resembles a strong burst of light or a robust decorative star. It's an excellent choice for adding powerful visual flair, drawing significant attention, or imparting a sense of luxury and elegance to various digital and print media. Explore this comprehensive guide on **Star Symbols** to learn everything about the **❈ Heavy Sparkle symbol**.</p>
@@ -4878,41 +4858,40 @@ export const starDetailsData = [
   },
 
   {
-    "id": 44,
-    "symbol": "❉",
-    "name": "Balloon-Spoked Asterisk",
-    "categories": ["star", "decorative", "asterisk", "rounded", "fluffy"],
-    "slug": "balloon-spoked-asterisk",
-    "unicode": "U+2749",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "❉ Balloon-Spoked Asterisk Symbol - Copy & Paste",
-      "description": "Copy the ❉ Balloon-Spoked Asterisk (U+2749). This decorative star with rounded spokes is perfect for adding soft flair & emphasis. One-click copy available.",
-      "keywords": "balloon-spoked asterisk, decorative star, unicode, ❉ symbol, rounded asterisk, soft design"
+    id: 44,
+    symbol: "❉",
+    name: "Balloon-Spoked Asterisk",
+    categories: ['multi-pointed', 'other'],
+    slug: "balloon-spoked-asterisk",
+    unicode: "U+2749",
+    date: "June 10, 2025",
+    seo: {
+      title: "❉ Balloon-Spoked Asterisk Symbol - Copy & Paste",
+      description: "Copy the ❉ Balloon-Spoked Asterisk (U+2749). This decorative star with rounded spokes is perfect for adding soft flair & emphasis. One-click copy available.",
+      keywords: "balloon-spoked asterisk, decorative star, unicode, ❉ symbol, rounded asterisk, soft design"
     },
-    "technicalInfo": {
-      "unicode": "U+2749",
-      "altCode": "Alt+10057",
-      "htmlCode": "&#10057;",
-      "cssCode": "\"\\2749\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2749;"
+    technicalInfo: {
+      unicode: "U+2749",
+      altCode: "Alt+10057",
+      htmlCode: "&#10057;",
+      cssCode: "\"\\2749\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2749;"
     },
-    "creativeShowcases": [
-      { "name": "Soft Bullet", "symbol": "❉ Item One" },
-      { "name": "Gentle Divider", "symbol": "~~~❉~~~" },
-      { "name": "Whimsical Accent", "symbol": "Party Time ❉" },
-      { "name": "Friendly Marker", "symbol": "❉ Friendly Reminder" },
-      { "name": "Elegant Flair", "symbol": "❉ Special Announcement" }
+    creativeShowcases: [
+      { name: "Soft Bullet", symbol: "❉ Item One" },
+      { name: "Gentle Divider", symbol: "~~~❉~~~" },
+      { name: "Whimsical Accent", symbol: "Party Time ❉" },
+      { name: "Friendly Marker", symbol: "❉ Friendly Reminder" },
+      { name: "Elegant Flair", symbol: "❉ Special Announcement" }
     ],
-    "relatedStars": [
-      { "symbol": "✥", "name": "Heavy Four Balloon-Spoked Asterisk", "slug": "heavy-four-balloon-spoked-asterisk" },
-      { "symbol": "✢", "name": "Four Teardrop-Spoked Asterisk", "slug": "four-teardrop-spoked-asterisk" },
-      { "symbol": "❖", "name": "Four Club-Spoked Asterisk", "slug": "four-club-spoked-asterisk" },
-      { "symbol": "❃", "name": "Heavy Teardrop-Spoked Pinwheel Asterisk", "slug": "heavy-teardrop-spoked-pinwheel-asterisk" },
-      { "symbol": "❇", "name": "Sparkle", "slug": "sparkle" }
+    relatedStars: [
+      { symbol: "✥", name: "Four Club-Spoked Asterisk", slug: "four-club-spoked-asterisk" },
+      { symbol: "✢", name: "Four Teardrop-Spoked Asterisk", slug: "four-teardrop-spoked-asterisk" },
+      { symbol: "❃", name: "Heavy Teardrop-Spoked Pinwheel Asterisk", slug: "heavy-teardrop-spoked-pinwheel-asterisk" },
+      { symbol: "❇", name: "Sparkle", slug: "sparkle" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>❉ Balloon-Spoked Asterisk: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ❉ Balloon-Spoked Asterisk symbol**, a charming and versatile Unicode character. This **Balloon-Spoked Asterisk** is a decorative star-like symbol featuring rounded, soft, and somewhat inflated spokes, giving it a playful or whimsical appearance. It's an excellent choice for adding gentle visual flair, emphasizing text in a friendly manner, or serving as a unique artistic marker in various digital and print media, particularly when a lighthearted, celebratory, or elegant aesthetic is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **❉ Balloon-Spoked Asterisk symbol**.</p>
@@ -4991,41 +4970,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 45,
-    "symbol": "❊",
-    "name": "Eight Teardrop-Spoked Propeller Asterisk",
-    "categories": ["star", "decorative", "pinwheel", "flower", "eight-pointed"],
-    "slug": "eight-teardrop-spoked-propeller-asterisk",
-    "unicode": "U+274A",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "❊ Eight Teardrop-Spoked Propeller Asterisk - Copy & Paste",
-      "description": "Copy the ❊ Eight Teardrop-Spoked Propeller Asterisk (U+274A). This decorative, flower-like symbol is perfect for unique designs & emphasis. One-click copy.",
-      "keywords": "eight teardrop-spoked propeller asterisk, propeller asterisk, decorative star, unicode, ❊ symbol, flower, pinwheel, copy paste"
+    id: 45,
+    symbol: "❊",
+    name: "Eight Teardrop-Spoked Propeller Asterisk",
+    categories: ['multi-pointed', 'other'],
+    slug: "eight-teardrop-spoked-propeller-asterisk",
+    unicode: "U+274A",
+    date: "June 10, 2025",
+    seo: {
+      title: "❊ Eight Teardrop-Spoked Propeller Asterisk - Copy & Paste",
+      description: "Copy the ❊ Eight Teardrop-Spoked Propeller Asterisk (U+274A). This decorative, flower-like symbol is perfect for unique designs & emphasis. One-click copy.",
+      keywords: "eight teardrop-spoked propeller asterisk, propeller asterisk, decorative star, unicode, ❊ symbol, flower, pinwheel, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+274A",
-      "altCode": "Alt+10058",
-      "htmlCode": "&#10058;",
-      "cssCode": "\"\\274A\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x274A;"
+    technicalInfo: {
+      unicode: "U+274A",
+      altCode: "Alt+10058",
+      htmlCode: "&#10058;",
+      cssCode: "\"\\274A\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x274A;"
     },
-    "creativeShowcases": [
-      { "name": "Floral Bullet", "symbol": "❊ Special Offer" },
-      { "name": "Dynamic Accent", "symbol": "New Collection ❊" },
-      { "name": "Decorative Divider", "symbol": "——❊——" },
-      { "name": "Artistic Marker", "symbol": "❊ Limited Edition" },
-      { "name": "Stylish List Item", "symbol": "❊ Handcrafted" }
+    creativeShowcases: [
+      { name: "Floral Bullet", symbol: "❊ Special Offer" },
+      { name: "Dynamic Accent", symbol: "New Collection ❊" },
+      { name: "Decorative Divider", symbol: "——❊——" },
+      { name: "Artistic Marker", symbol: "❊ Limited Edition" },
+      { name: "Stylish List Item", symbol: "❊ Handcrafted" }
     ],
-    "relatedStars": [
-      { "symbol": "❃", "name": "Heavy Teardrop-Spoked Pinwheel Asterisk", "slug": "heavy-teardrop-spoked-pinwheel-asterisk" },
-      { "symbol": "❉", "name": "Balloon-Spoked Asterisk", "slug": "balloon-spoked-asterisk" },
-      { "symbol": "❁", "name": "Eight Petalled Outlined Black Florette", "slug": "eight-petalled-outlined-black-florette" },
-      { "symbol": "✢", "name": "Four Teardrop-Spoked Asterisk", "slug": "four-teardrop-spoked-asterisk" },
-      { "symbol": "✾", "name": "Six Petalled Black And White Florette", "slug": "six-petalled-black-and-white-florette" }
+    relatedStars: [
+      { symbol: "❃", name: "Heavy Teardrop-Spoked Pinwheel Asterisk", slug: "heavy-teardrop-spoked-pinwheel-asterisk" },
+      { symbol: "❉", name: "Balloon-Spoked Asterisk", slug: "balloon-spoked-asterisk" },
+      { symbol: "❁", name: "Eight Petalled Outlined Black Florette", slug: "eight-petalled-outlined-black-florette" },
+      { symbol: "✢", name: "Four Teardrop-Spoked Asterisk", slug: "four-teardrop-spoked-asterisk" },
+      { symbol: "✾", name: "Six Petalled Black And White Florette", slug: "six-petalled-black-and-white-florette" }
     ],
-    "htmlContent": `
+    htmlContent: `
       < section >
           <h2>❊ Eight Teardrop-Spoked Propeller Asterisk: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ❊ Eight Teardrop-Spoked Propeller Asterisk symbol**, a uniquely elegant and dynamic Unicode character. This **Eight Teardrop-Spoked Propeller Asterisk** features eight teardrop-shaped spokes arranged in a swirling, propeller-like or floral pattern, giving it a sense of motion and natural grace. It's an excellent choice for adding sophisticated decorative elements, emphasizing text with a gentle flourish, or serving as a refined artistic marker in various digital and print media, particularly when a flowing, organic, or elegant aesthetic is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **❊ Eight Teardrop-Spoked Propeller Asterisk symbol**.</p>
@@ -5104,41 +5083,40 @@ export const starDetailsData = [
   },
 
   {
-    "id": 46,
-    "symbol": "❋",
-    "name": "Heavy Eight Teardrop-Spoked Propeller Asterisk",
-    "categories": ["star", "decorative", "bold", "flower", "eight-pointed"],
-    "slug": "heavy-eight-teardrop-spoked-propeller-asterisk",
-    "unicode": "U+274B",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✴ Eight Pointed Rectilinear Black Star - Copy & Paste",
-      "description": "Copy the Eight Pointed Rectilinear Black Star (U+2737). A so lid, sharp eight-pointed star, perfect for geometric designs, str ong emphasis, and decorative use.",
-      "keywords": "eight pointed rectilinear black star, decorative, unicode, ✴ symbol, geometric star, sharp star"
+    id: 46,
+    symbol: "❋",
+    name: "Heavy Eight Teardrop-Spoked Propeller Asterisk",
+    categories: ['multi-pointed', 'other'],
+    slug: "heavy-eight-teardrop-spoked-propeller-asterisk",
+    unicode: "U+274B",
+    date: "June 10, 2025",
+    seo: {
+      title: "✴ Eight Pointed Rectilinear Black Star - Copy & Paste",
+      description: "Copy the Eight Pointed Rectilinear Black Star (U+2737). A so lid, sharp eight-pointed star, perfect for geometric designs, str ong emphasis, and decorative use.",
+      keywords: "eight pointed rectilinear black star, decorative, unicode, ✴ symbol, geometric star, sharp star"
     },
-    "technicalInfo": {
-      "unicode": "U+274B",
-      "altCode": "Alt+10059",
-      "htmlCode": "&#10059;",
-      "cssCode": "\"\\274B\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x274B;"
+    technicalInfo: {
+      unicode: "U+274B",
+      altCode: "Alt+10059",
+      htmlCode: "&#10059;",
+      cssCode: "\"\\274B\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x274B;"
     },
-    "creativeShowcases": [
-      { "name": "Powerful Bullet", "symbol": "❋ Key Insight" },
-      { "name": "Strong Separator", "symbol": "═════❋═════" },
-      { "name": "Striking Accent", "symbol": "New Arrival ❋" },
-      { "name": "Robust Floral", "symbol": "❋ Premium Design" },
-      { "name": "Bold Statement", "symbol": "❋ Limited Stock" }
+    creativeShowcases: [
+      { name: "Powerful Bullet", symbol: "❋ Key Insight" },
+      { name: "Strong Separator", symbol: "═════❋═════" },
+      { name: "Striking Accent", symbol: "New Arrival ❋" },
+      { name: "Robust Floral", symbol: "❋ Premium Design" },
+      { name: "Bold Statement", symbol: "❋ Limited Stock" }
     ],
-    "relatedStars": [
-      { "symbol": "❊", "name": "Eight Teardrop-Spoked Propeller Asterisk", "slug": "eight-teardrop-spoked-propeller-asterisk" },
-      { "symbol": "❃", "name": "Heavy Teardrop-Spoked Pinwheel Asterisk", "slug": "heavy-teardrop-spoked-pinwheel-asterisk" },
-      { "symbol": "❁", "name": "Eight Petalled Outlined Black Florette", "slug": "eight-petalled-outlined-black-florette" },
-      { "symbol": "❉", "name": "Balloon-Spoked Asterisk", "slug": "balloon-spoked-asterisk" },
-      { "symbol": "❇", "name": "Sparkle", "slug": "sparkle" }
+    relatedStars: [
+      { symbol: "❃", name: "Heavy Teardrop-Spoked Pinwheel Asterisk", slug: "heavy-teardrop-spoked-pinwheel-asterisk" },
+      { symbol: "❁", name: "Eight Petalled Outlined Black Florette", slug: "eight-petalled-outlined-black-florette" },
+      { symbol: "❉", name: "Balloon-Spoked Asterisk", slug: "balloon-spoked-asterisk" },
+      { symbol: "❇", name: "Sparkle", slug: "sparkle" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>❋ Heavy Eight Teardrop-Spoked Propeller Asterisk: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ❋ Heavy Eight Teardrop-Spoked Propeller Asterisk symbol**, a robust and visually impactful Unicode character. This **Heavy Eight Teardrop-Spoked Propeller Asterisk** is a bolder, more substantial version of the propeller asterisk, featuring thick, teardrop-shaped spokes arranged in a dynamic, flower-like or pinwheel pattern. It's an excellent choice for adding strong decorative elements, commanding attention, or serving as a prominent artistic marker in various digital and print media, particularly when a powerful, elegant, or organic aesthetic is desired. Explore this comprehensive guide on **Star Symbols** to learn everything about the **❋ Heavy Eight Teardrop-Spoked Propeller Asterisk symbol**.</p>
@@ -5217,41 +5195,39 @@ export const starDetailsData = [
   },
 
   {
-    "id": 47,
-    "symbol": "❄",
-    "name": "Snowflake",
-    "categories": ["winter", "nature", "weather", "cold", "decorative"],
-    "slug": "snowflake",
-    "unicode": "U+2744",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "❄ Snowflake Symbol - Copy & Paste Unicode Winter Icon",
-      "description": "Copy the ❄ Snowflake symbol (U+2744). Perfect for winter themes, holiday designs, or decorative text. This unique winter icon is ready for one-click copy.",
-      "keywords": "snowflake symbol, unicode snowflake, winter icon, ❄ symbol, cold, holiday, copy paste snowflake"
+    id: 47,
+    symbol: "❄",
+    name: "Snowflake",
+    categories: ['multi-pointed', 'other'],
+    slug: "snowflake",
+    unicode: "U+2744",
+    date: "June 10, 2025",
+    seo: {
+      title: "❄ Snowflake Symbol - Copy & Paste Unicode Winter Icon",
+      description: "Copy the ❄ Snowflake symbol (U+2744). Perfect for winter themes, holiday designs, or decorative text. This unique winter icon is ready for one-click copy.",
+      keywords: "snowflake symbol, unicode snowflake, winter icon, ❄ symbol, cold, holiday, copy paste snowflake"
     },
-    "technicalInfo": {
-      "unicode": "U+2744",
-      "altCode": "Alt+10052",
-      "htmlCode": "&#10052;",
-      "cssCode": "\"\\2744\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2744;"
+    technicalInfo: {
+      unicode: "U+2744",
+      altCode: "Alt+10052",
+      htmlCode: "&#10052;",
+      cssCode: "\"\\2744\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2744;"
     },
-    "creativeShowcases": [
-      { "name": "Winter Theme", "symbol": "❄ Winter Wonderland ❄" },
-      { "name": "Holiday Greeting", "symbol": "Happy Holidays ❄" },
-      { "name": "Cold Weather Alert", "symbol": "❄ Freezing Temps" },
-      { "name": "Decorative Accent", "symbol": "Let it Snow ❄" },
-      { "name": "Unique Element", "symbol": "❄ Special Design ❄" }
+    creativeShowcases: [
+      { name: "Winter Theme", symbol: "❄ Winter Wonderland ❄" },
+      { name: "Holiday Greeting", symbol: "Happy Holidays ❄" },
+      { name: "Cold Weather Alert", symbol: "❄ Freezing Temps" },
+      { name: "Decorative Accent", symbol: "Let it Snow ❄" },
+      { name: "Unique Element", symbol: "❄ Special Design ❄" }
     ],
-    "relatedStars": [
-      { "symbol": "❅", "name": "Heavy Chevron Snowflake", "slug": "heavy-chevron-snowflake" },
-      { "symbol": "❆", "name": "Heavy Snowflake", "slug": "heavy-snowflake" },
-      { "symbol": "✨", "name": "Sparkles Emoji", "slug": "sparkles-emoji" },
-      { "symbol": "🌟", "name": "Glowing Star Emoji", "slug": "glowing-star-emoji" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" }
+    relatedStars: [
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>❄ Snowflake Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ❄ Snowflake symbol**, a widely recognized and charming Unicode character. This **Snowflake symbol** is a stylized representation of a real snowflake, typically depicted with six points, symbolizing winter, cold, and the unique beauty of nature. It's an excellent choice for adding seasonal flair, enhancing holiday designs, indicating weather conditions, or simply decorating text with a delicate touch. Explore this comprehensive guide on **Star Symbols** to learn everything about the **❄ Snowflake symbol**.</p>
@@ -5331,41 +5307,39 @@ export const starDetailsData = [
   },
 
   {
-    "id": 48,
-    "symbol": "❆",
-    "name": "Heavy Chevron Snowflake",
-    "categories": ["winter", "nature", "weather", "cold", "decorative", "bold"],
-    "slug": "heavy-chevron-snowflake",
-    "unicode": "U+2746",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "❆ Heavy Chevron Snowflake Symbol - Copy & Paste Unicode",
-      "description": "Copy the ❆ Heavy Chevron Snowflake symbol (U+2746). A bold snowflake design perfect for winter, holiday decorations, or themed text. One-click copy.",
-      "keywords": "heavy chevron snowflake, unicode snowflake, ❆ symbol, winter icon, bold snowflake, holiday"
+    id: 48,
+    symbol: "❆",
+    name: "Heavy Chevron Snowflake",
+    categories: ['multi-pointed', 'other'],
+    slug: "heavy-chevron-snowflake",
+    unicode: "U+2746",
+    date: "June 10, 2025",
+    seo: {
+      title: "❆ Heavy Chevron Snowflake Symbol - Copy & Paste Unicode",
+      description: "Copy the ❆ Heavy Chevron Snowflake symbol (U+2746). A bold snowflake design perfect for winter, holiday decorations, or themed text. One-click copy.",
+      keywords: "heavy chevron snowflake, unicode snowflake, ❆ symbol, winter icon, bold snowflake, holiday"
     },
-    "technicalInfo": {
-      "unicode": "U+2746",
-      "altCode": "Alt+10054",
-      "htmlCode": "&#10054;",
-      "cssCode": "\"\\2746\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2746;"
+    technicalInfo: {
+      unicode: "U+2746",
+      altCode: "Alt+10054",
+      htmlCode: "&#10054;",
+      cssCode: "\"\\2746\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2746;"
     },
-    "creativeShowcases": [
-      { "name": "Bold Winter Accent", "symbol": "❆ Frosty Deals ❆" },
-      { "name": "Holiday Banner", "symbol": "❆ Merry & Bright ❆" },
-      { "name": "Strong Seasonal Theme", "symbol": "Winter Sale ❆" },
-      { "name": "Decorative Divider", "symbol": "——❆——" },
-      { "name": "Eye-catching Element", "symbol": "❆ Exclusive Offer" }
+    creativeShowcases: [
+      { name: "Bold Winter Accent", symbol: "❆ Frosty Deals ❆" },
+      { name: "Holiday Banner", symbol: "❆ Merry & Bright ❆" },
+      { name: "Strong Seasonal Theme", symbol: "Winter Sale ❆" },
+      { name: "Decorative Divider", symbol: "——❆——" },
+      { name: "Eye-catching Element", symbol: "❆ Exclusive Offer" }
     ],
-    "relatedStars": [
-      { "symbol": "❄", "name": "Snowflake", "slug": "snowflake" },
-      { "symbol": "❅", "name": "Heavy Snowflake", "slug": "heavy-snowflake" },
-      { "symbol": "✨", "name": "Sparkles Emoji", "slug": "sparkles-emoji" },
-      { "symbol": "🌟", "name": "Glowing Star Emoji", "slug": "glowing-star-emoji" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" }
+    relatedStars: [
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
       < section >
           <h2>❆ Heavy Chevron Snowflake: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ❆ Heavy Chevron Snowflake symbol**, a robust and visually distinct Unicode character. This **Heavy Chevron Snowflake** is characterized by its thick, chevron-shaped branches, giving it a strong and prominent appearance compared to other snowflake symbols. It's an excellent choice for adding impactful seasonal flair, enhancing bold holiday designs, or decorating text with a powerful winter theme. Explore this comprehensive guide on **Star Symbols** to learn everything about the **❆ Heavy Chevron Snowflake symbol**.</p>
@@ -5445,41 +5419,39 @@ export const starDetailsData = [
   },
 
   {
-    "id": 49,
-    "symbol": "❅",
-    "name": "Tight Trifoliate Snowflake",
-    "categories": ["winter", "nature", "weather", "cold", "decorative", "delicate"],
-    "slug": "tight-trifoliate-snowflake",
-    "unicode": "U+2745",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "❅ Tight Trifoliate Snowflake Symbol - Copy & Paste",
-      "description": "Copy the ❅ Tight Trifoliate Snowflake (U+2745). A delicate snowflake perfect for winter themes, holiday cards, or festive decor. Easy copy and paste.",
-      "keywords": "tight trifoliate snowflake, ❅ symbol, unicode snowflake, winter decor, snow emoji, copy paste"
+    id: 49,
+    symbol: "❅",
+    name: "Tight Trifoliate Snowflake",
+    categories: ['multi-pointed', 'other'],
+    slug: "tight-trifoliate-snowflake",
+    unicode: "U+2745",
+    date: "June 10, 2025",
+    seo: {
+      title: "❅ Tight Trifoliate Snowflake Symbol - Copy & Paste",
+      description: "Copy the ❅ Tight Trifoliate Snowflake (U+2745). A delicate snowflake perfect for winter themes, holiday cards, or festive decor. Easy copy and paste.",
+      keywords: "tight trifoliate snowflake, ❅ symbol, unicode snowflake, winter decor, snow emoji, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2745",
-      "altCode": "Alt+10053",
-      "htmlCode": "&#10053;",
-      "cssCode": "\"\\2745\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2745;"
+    technicalInfo: {
+      unicode: "U+2745",
+      altCode: "Alt+10053",
+      htmlCode: "&#10053;",
+      cssCode: "\"\\2745\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2745;"
     },
-    "creativeShowcases": [
-      { "name": "Delicate Winter Accent", "symbol": "❅ Snowy Season ❅" },
-      { "name": "Festive Card Detail", "symbol": "Warm Wishes ❅" },
-      { "name": "Graceful Text Separator", "symbol": "~~~❅~~~" },
-      { "name": "Minimalist Holiday Mark", "symbol": "❅ Joyful Moments" },
-      { "name": "Subtle Design Element", "symbol": "❅ Event Details" }
+    creativeShowcases: [
+      { name: "Delicate Winter Accent", symbol: "❅ Snowy Season ❅" },
+      { name: "Festive Card Detail", symbol: "Warm Wishes ❅" },
+      { name: "Graceful Text Separator", symbol: "~~~❅~~~" },
+      { name: "Minimalist Holiday Mark", symbol: "❅ Joyful Moments" },
+      { name: "Subtle Design Element", symbol: "❅ Event Details" }
     ],
-    "relatedStars": [
-      { "symbol": "❄", "name": "Snowflake", "slug": "snowflake" },
-      { "symbol": "❆", "name": "Heavy Chevron Snowflake", "slug": "heavy-chevron-snowflake" },
-      { "symbol": "✨", "name": "Sparkles Emoji", "slug": "sparkles-emoji" },
-      { "symbol": "🌟", "name": "Glowing Star Emoji", "slug": "glowing-star-emoji" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" }
+    relatedStars: [
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
       < section >
           <h2>❅ Tight Trifoliate Snowflake: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ❅ Tight Trifoliate Snowflake symbol**, a delicate and intricate Unicode character. This **Tight Trifoliate Snowflake** is a stylized representation of a snowflake, characterized by its compact, three-lobed (trifoliate) structure, giving it a refined and elegant appearance. It's an excellent choice for adding subtle seasonal flair, enhancing sophisticated holiday designs, or decorating text with a graceful winter theme. Explore this comprehensive guide on **Star Symbols** to learn everything about the **❅ Tight Trifoliate Snowflake symbol**.</p>
@@ -5645,41 +5617,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 51,
-    "symbol": "≛",
-    "name": "Star Equals",
-    "categories": ["math", "operator", "logic", "typographic"],
-    "slug": "star-equals",
-    "unicode": "U+225B",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "≛ Star Equals Symbol - Copy & Paste Unicode Math",
-      "description": "Copy the ≛ Star Equals symbol (U+225B). A specialized mathematical operator used in logic, algebra, or physics. Easy copy & paste for technical content.",
-      "keywords": "star equals, ≛ symbol, math unicode, mathematical operator, logic symbol, equivalence, copy paste"
+    id: 51,
+    symbol: "≛",
+    name: "Star Equals",
+    categories: ['math', 'other'],
+    slug: "star-equals",
+    unicode: "U+225B",
+    date: "June 10, 2025",
+    seo: {
+      title: "≛ Star Equals Symbol - Copy & Paste Unicode Math",
+      description: "Copy the ≛ Star Equals symbol (U+225B). A specialized mathematical operator used in logic, algebra, or physics. Easy copy & paste for technical content.",
+      keywords: "star equals, ≛ symbol, math unicode, mathematical operator, logic symbol, equivalence, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+225B",
-      "altCode": "Alt+8795",
-      "htmlCode": "&#8795;",
-      "cssCode": "\"\\225B\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x225B;"
+    technicalInfo: {
+      unicode: "U+225B",
+      altCode: "Alt+8795",
+      htmlCode: "&#8795;",
+      cssCode: "\"\\225B\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x225B;"
     },
-    "creativeShowcases": [
-      { "name": "Mathematical Identity", "symbol": "$$A \\text{ }\\overline{\\text{=}}\\text{ } B$$" },
-      { "name": "Defined Equivalence", "symbol": "Definition ≛ Result" },
-      { "name": "Logical Operation", "symbol": "$$P \\text{ }\\overline{\\text{=}}\\text{ } Q$$" },
-      { "name": "Special Operator", "symbol": "Function ≛ Output" },
-      { "name": "Conditional Equality", "symbol": "Condition ≛ True" }
+    creativeShowcases: [
+      { name: "Mathematical Identity", symbol: "$$A \\text{ }\\overline{\\text{=}}\\text{ } B$$" },
+      { name: "Defined Equivalence", symbol: "Definition ≛ Result" },
+      { name: "Logical Operation", symbol: "$$P \\text{ }\\overline{\\text{=}}\\text{ } Q$$" },
+      { name: "Special Operator", symbol: "Function ≛ Output" },
+      { name: "Conditional Equality", symbol: "Condition ≛ True" }
     ],
-    "relatedStars": [
-      { "symbol": "=", "name": "Equals Sign", "slug": "equals-sign" },
-      { "symbol": "≈", "name": "Approximately Equal To", "slug": "approximately-equal-to" },
-      { "symbol": "≡", "name": "Identical To", "slug": "identical-to" },
-      { "symbol": "⋆", "name": "Star Operator", "slug": "star-operator" },
-      { "symbol": "*", "name": "Asterisk", "slug": "asterisk" }
+    relatedStars: [
+      { symbol: "⋆", name: "Star Operator", slug: "star-operator" },
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>≛ Star Equals Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ≛ Star Equals symbol**, a distinct Unicode character used in advanced mathematical and logical contexts. This **Star Equals symbol** combines an asterisk (or a small star) above an equals sign, indicating a specialized form of equality, definition, or equivalence. It is primarily found in academic papers, technical documentation, and symbolic logic to denote conditions, identities, or operator definitions beyond standard arithmetic. Explore this comprehensive guide on **Star Symbols** to learn everything about the **≛ Star Equals symbol**.</p>
@@ -5757,41 +5729,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 52,
-    "symbol": "ᕯ",
-    "name": "Canadian Syllabics Tth",
-    "categories": ["typographic", "indigenous-script", "star-like", "symbol"],
-    "slug": "canadian-syllabics-tth",
-    "unicode": "U+157F",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "ᕯ Canadian Syllabics Tth Symbol - Copy & Paste Unicode",
-      "description": "Copy the ᕯ Canadian Syllabics Tth symbol (U+157F). A character from Unified Canadian Aboriginal Syllabics, it resembles a six-pointed star. Easy copy & paste.",
-      "keywords": "canadian syllabics tth, ᕯ symbol, unicode ᕯ, aboriginal script, star-like symbol, copy paste"
+    id: 52,
+    symbol: "ᕯ",
+    name: "Canadian Syllabics Tth",
+    categories: ['religious', 'other'],
+    slug: "canadian-syllabics-tth",
+    unicode: "U+157F",
+    date: "June 10, 2025",
+    seo: {
+      title: "ᕯ Canadian Syllabics Tth Symbol - Copy & Paste Unicode",
+      description: "Copy the ᕯ Canadian Syllabics Tth symbol (U+157F). A character from Unified Canadian Aboriginal Syllabics, it resembles a six-pointed star. Easy copy & paste.",
+      keywords: "canadian syllabics tth, ᕯ symbol, unicode ᕯ, aboriginal script, star-like symbol, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+157F",
-      "altCode": "Alt+5487",
-      "htmlCode": "&#5503;",
-      "cssCode": "\"\\157F\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x157F;"
+    technicalInfo: {
+      unicode: "U+157F",
+      altCode: "Alt+5487",
+      htmlCode: "&#5503;",
+      cssCode: "\"\\157F\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x157F;"
     },
-    "creativeShowcases": [
-      { "name": "Cultural Text", "symbol": "ᕯ Inuktitut Script" },
-      { "name": "Star-like Accent", "symbol": "ᕯ Decorative Element" },
-      { "name": "Unique Bullet Point", "symbol": "ᕯ Important Note" },
-      { "name": "Symbolic Design", "symbol": "Art Piece ᕯ" },
-      { "name": "Indigenous Language Example", "symbol": "ᕯ syllabic character" }
+    creativeShowcases: [
+      { name: "Cultural Text", symbol: "ᕯ Inuktitut Script" },
+      { name: "Star-like Accent", symbol: "ᕯ Decorative Element" },
+      { name: "Unique Bullet Point", symbol: "ᕯ Important Note" },
+      { name: "Symbolic Design", symbol: "Art Piece ᕯ" },
+      { name: "Indigenous Language Example", symbol: "ᕯ syllabic character" }
     ],
-    "relatedStars": [
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "✶", "name": "Heavy Eight Pointed Rectilinear Black Star", "slug": "heavy-eight-pointed-rectilinear-black-star" },
-      { "symbol": "✴", "name": "Eight Pointed Rectilinear Black Star", "slug": "eight-pointed-rectilinear-black-star" },
-      { "symbol": "❋", "name": "Heavy Eight Teardrop-Spoked Propeller Asterisk", "slug": "heavy-eight-teardrop-spoked-propeller-asterisk" },
-      { "symbol": "❄", "name": "Snowflake", "slug": "snowflake" }
+    relatedStars: [
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" },
+      { symbol: "✴", name: "Eight Pointed Black Star", slug: "eight-pointed-black-star" },
+      { symbol: "❋", name: "Heavy Eight Teardrop-Spoked Propeller Asterisk", slug: "heavy-eight-teardrop-spoked-propeller-asterisk" },
+      { symbol: "❄", name: "Snowflake", slug: "snowflake" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>ᕯ Canadian Syllabics Tth Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ᕯ Canadian Syllabics Tth symbol**, a unique Unicode character primarily found within the Unified Canadian Aboriginal Syllabics block. While it functions as a syllabic character for Indigenous languages like Inuktitut and Cree, its distinctive six-pointed shape often leads it to be recognized for its resemblance to a star or snowflake, making it appealing for decorative and symbolic uses. Explore this comprehensive guide on **Star Symbols** to learn everything about the **ᕯ Canadian Syllabics Tth symbol**.</p>
@@ -5869,41 +5841,40 @@ export const starDetailsData = [
   },
 
   {
-    "id": 53,
-    "symbol": "࿏",
-    "name": "Tibetan Sign Rdel Nag Gsum",
-    "categories": ["religious", "ornamental", "tibetan", "typographic", "sacred"],
-    "slug": "tibetan-sign-rdel-nag-gsum",
-    "unicode": "U+0FDF",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "࿏ Tibetan Sign Rdel Nag Gsum - Copy & Paste Unicode",
-      "description": "Copy the ࿏ Tibetan Sign Rdel Nag Gsum (U+0FDF). A sacred and ornamental Tibetan mark used in religious texts & Buddhist practices. Easy copy & paste.",
-      "keywords": "tibetan rdel nag gsum, ࿏ symbol, tibetan unicode, sacred text, ornamental, buddhist mark, copy paste"
+    id: 53,
+    symbol: "࿏",
+    name: "Tibetan Sign Rdel Nag Gsum",
+    categories: ['other'],
+    slug: "tibetan-sign-rdel-nag-gsum",
+    unicode: "U+0FDF",
+    date: "June 10, 2025",
+    seo: {
+      title: "࿏ Tibetan Sign Rdel Nag Gsum - Copy & Paste Unicode",
+      description: "Copy the ࿏ Tibetan Sign Rdel Nag Gsum (U+0FDF). A sacred and ornamental Tibetan mark used in religious texts & Buddhist practices. Easy copy & paste.",
+      keywords: "tibetan rdel nag gsum, ࿏ symbol, tibetan unicode, sacred text, ornamental, buddhist mark, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+0FDF",
-      "altCode": "Alt+4047",
-      "htmlCode": "&#4063;",
-      "cssCode": "\"\\0FDF\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x0FDF;"
+    technicalInfo: {
+      unicode: "U+0FDF",
+      altCode: "Alt+4047",
+      htmlCode: "&#4063;",
+      cssCode: "\"\\0FDF\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x0FDF;"
     },
-    "creativeShowcases": [
-      { "name": "Sacred Text Divider", "symbol": "࿏ Chapter One ࿏" },
-      { "name": "Ornamental Script", "symbol": "࿏ Ancient Wisdom ࿏" },
-      { "name": "Buddhist Prayer Accent", "symbol": "Om Mani Padme Hum ࿏" },
-      { "name": "Calligraphy Element", "symbol": "࿏ Fine Art" },
-      { "name": "Digital Manuscript Mark", "symbol": "࿏ Section End" }
+    creativeShowcases: [
+      { name: "Sacred Text Divider", symbol: "࿏ Chapter One ࿏" },
+      { name: "Ornamental Script", symbol: "࿏ Ancient Wisdom ࿏" },
+      { name: "Buddhist Prayer Accent", symbol: "Om Mani Padme Hum ࿏" },
+      { name: "Calligraphy Element", symbol: "࿏ Fine Art" },
+      { name: "Digital Manuscript Mark", symbol: "࿏ Section End" }
     ],
-    "relatedStars": [
-      { "symbol": "☸", "name": "Wheel of Dharma", "slug": "wheel-of-dharma" },
-      { "symbol": "ॐ", "name": "Om Symbol", "slug": "om-symbol" },
-      { "symbol": "卍", "name": "Swastika (Right-hand)", "slug": "swastika-right-hand" },
-      { "symbol": "༓", "name": "Tibetan Mark Segment End", "slug": "tibetan-mark-segment-end" },
-      { "symbol": "༅", "name": "Tibetan Om", "slug": "tibetan-om" }
+    relatedStars: [
+      { symbol: "⋆", name: "Star Operator", slug: "star-operator" },
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>࿏ Tibetan Sign Rdel Nag Gsum: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ࿏ Tibetan Sign Rdel Nag Gsum symbol**, a unique Unicode character with deep cultural and religious significance. This **Tibetan Sign Rdel Nag Gsum symbol** is an ornamental and sacred mark used in traditional Tibetan texts, particularly in Buddhist scriptures, mantras, and prayers. Its intricate design often serves to delineate sections, mark beginnings or endings, or simply adorn sacred writings. Explore this comprehensive guide on **Star Symbols** to learn everything about the **࿏ Tibetan Sign Rdel Nag Gsum symbol**.</p>
@@ -6070,41 +6041,40 @@ export const starDetailsData = [
   },
 
   {
-    "id": 55,
-    "symbol": "۞",
-    "name": "Arabic Start Of Rub El Hizb",
-    "categories": ["religious", "islamic", "arabic", "ornamental", "geometric", "star-like", "quranic"],
-    "slug": "arabic-start-of-rub-el-hizb",
-    "unicode": "U+06DE",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "۞ Arabic Start Of Rub El Hizb Symbol - Copy & Paste Unicode",
-      "description": "Copy the ۞ Rub El Hizb symbol (U+06DE), used in Arabic calligraphy and Quranic texts to mark divisions. Includes Unicode, HTML, and CSS codes for easy use.",
-      "keywords": "rub el hizb, ۞ symbol, arabic symbol, quranic mark, islamic symbols, islamic calligraphy, copy paste"
+    id: 55,
+    symbol: "۞",
+    name: "Arabic Start Of Rub El Hizb",
+    categories: ['religious', 'other'],
+    slug: "arabic-start-of-rub-el-hizb",
+    unicode: "U+06DE",
+    date: "June 10, 2025",
+    seo: {
+      title: "۞ Arabic Start Of Rub El Hizb Symbol - Copy & Paste Unicode",
+      description: "Copy the ۞ Rub El Hizb symbol (U+06DE), used in Arabic calligraphy and Quranic texts to mark divisions. Includes Unicode, HTML, and CSS codes for easy use.",
+      keywords: "rub el hizb, ۞ symbol, arabic symbol, quranic mark, islamic symbols, islamic calligraphy, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+06DE",
-      "altCode": "Alt+1758",
-      "htmlCode": "&#1758;",
-      "cssCode": "\"\\06DE\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x06DE;"
+    technicalInfo: {
+      unicode: "U+06DE",
+      altCode: "Alt+1758",
+      htmlCode: "&#1758;",
+      cssCode: "\"\\06DE\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x06DE;"
     },
-    "creativeShowcases": [
-      { "name": "Quranic Page Divider", "symbol": "بسم الله الرحمن الرحيم ۞" },
-      { "name": "Islamic Art Motif", "symbol": "Geometric Patterns ۞" },
-      { "name": "Calligraphy Accent", "symbol": "Elegant Arabic Script ۞" },
-      { "name": "Cultural Design Element", "symbol": "Traditional Designs ۞" },
-      { "name": "Digital Text Annotation", "symbol": "Surah Al-Fatiha ۞" }
+    creativeShowcases: [
+      { name: "Quranic Page Divider", symbol: "بسم الله الرحمن الرحيم ۞" },
+      { name: "Islamic Art Motif", symbol: "Geometric Patterns ۞" },
+      { name: "Calligraphy Accent", symbol: "Elegant Arabic Script ۞" },
+      { name: "Cultural Design Element", symbol: "Traditional Designs ۞" },
+      { name: "Digital Text Annotation", symbol: "Surah Al-Fatiha ۞" }
     ],
-    "relatedStars": [
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "⭐", "name": "Star Emoji", "slug": "star-emoji" },
-      { "symbol": "☪", "name": "Star and Crescent", "slug": "star-and-crescent" },
-      { "symbol": "✢", "name": "Four Teardrop Spoked Asterisk", "slug": "four-teardrop-spoked-asterisk" }
+    relatedStars: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "✢", name: "Four Teardrop Spoked Asterisk", slug: "four-teardrop-spoked-asterisk" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>۞ Arabic Start Of Rub El Hizb: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ۞ Arabic Start Of Rub El Hizb symbol**, a culturally and religiously significant Unicode character. This **Arabic Start Of Rub El Hizb symbol** is widely recognized in Islamic contexts, particularly within the Quran. It's a precise **geometric mark** formed by two overlapping squares, creating an eight-pointed star, and is used to signify a specific division within the Quranic text. Beyond its primary function, the **Arabic Start Of Rub El Hizb** also boasts aesthetic appeal, making it popular in Islamic art and calligraphy. Explore this comprehensive guide on **Star Symbols** to learn everything about the **۞ Arabic Start Of Rub El Hizb symbol**.</p>
@@ -6185,41 +6155,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 56,
-    "symbol": "⍟",
-    "name": "Apl Functional Symbol Circle Star",
-    "categories": ["math", "programming", "five-pointed-star", "typographic", "symbol"],
-    "slug": "apl-functional-symbol-circle-star",
-    "unicode": "U+235F",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "⍟ Apl Functional Symbol Circle Star - Copy & Paste Unicode",
-      "description": "Copy the ⍟ Apl Functional Symbol Circle Star (U+235F). Used in APL programming and mathematical notation. Includes HTML, CSS, and Unicode codes for easy use.",
-      "keywords": "apl functional symbol circle star, ⍟ symbol, unicode math, apl symbol, circle star, copy symbol"
+    id: 56,
+    symbol: "⍟",
+    name: "Apl Functional Symbol Circle Star",
+    categories: ['math', 'other', 'five-pointed'],
+    slug: "apl-functional-symbol-circle-star",
+    unicode: "U+235F",
+    date: "June 10, 2025",
+    seo: {
+      title: "⍟ Apl Functional Symbol Circle Star - Copy & Paste Unicode",
+      description: "Copy the ⍟ Apl Functional Symbol Circle Star (U+235F). Used in APL programming and mathematical notation. Includes HTML, CSS, and Unicode codes for easy use.",
+      keywords: "apl functional symbol circle star, ⍟ symbol, unicode math, apl symbol, circle star, copy symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+235F",
-      "altCode": "Alt+9055",
-      "htmlCode": "&#9055;",
-      "cssCode": "\"\\235F\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x235F;"
+    technicalInfo: {
+      unicode: "U+235F",
+      altCode: "Alt+9055",
+      htmlCode: "&#9055;",
+      cssCode: "\"\\235F\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x235F;"
     },
-    "creativeShowcases": [
-      { "name": "APL Code Snippet", "symbol": "X ← ⍟ Y" },
-      { "name": "Mathematical Expression", "symbol": "$$f(x) = \\text{}\\overline{\\text{ln}}(x) = \\; \\! \\! \\! \\! \\! \\text{⍟} \\, x$$" },
-      { "name": "Decorative Bullet", "symbol": "⍟ Key Point" },
-      { "name": "Programming Notation", "symbol": "Function: ⍟ (Natural Log)" },
-      { "name": "Geometric Accent", "symbol": "Design Element ⍟" }
+    creativeShowcases: [
+      { name: "APL Code Snippet", symbol: "X ← ⍟ Y" },
+      { name: "Mathematical Expression", symbol: "$$f(x) = \\text{}\\overline{\\text{ln}}(x) = \\; \\! \\! \\! \\! \\! \\text{⍟} \\, x$$" },
+      { name: "Decorative Bullet", symbol: "⍟ Key Point" },
+      { name: "Programming Notation", symbol: "Function: ⍟ (Natural Log)" },
+      { name: "Geometric Accent", symbol: "Design Element ⍟" }
     ],
-    "relatedStars": [
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "✩", "name": "Circled White Star", "slug": "circled-white-star" },
-      { "symbol": "✶", "name": "Heavy Eight Pointed Rectilinear Black Star", "slug": "heavy-eight-pointed-rectilinear-black-star" },
-      { "symbol": "✳", "name": "Eight Spoked Asterisk", "slug": "eight-spoked-asterisk" }
+    relatedStars: [
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "✩", name: "Stress Outlined White Star", slug: "stress-outlined-white-star" },
+      { symbol: "✶", name: "Six Pointed Black Star", slug: "six-pointed-black-star" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>⍟ APL Functional Symbol Circle Star: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ⍟ APL Functional Symbol Circle Star**, a unique Unicode character with applications in programming, mathematics, and design. This **APL Functional Symbol Circle Star** is instantly recognizable by its distinct five-pointed star contained within a circle. Primarily, it serves as an operator in the APL programming language, representing the natural logarithm function. Its elegant and compact form also makes it a popular choice for various decorative and symbolic uses. Explore this comprehensive guide on **Star Symbols** to learn everything about the **⍟ APL Functional Symbol Circle Star**.</p>
@@ -6298,41 +6268,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 57,
-    "symbol": "⭐",
-    "name": "White Medium Star",
-    "categories": ["classic", "five-pointed", "emoji", "rating", "decoration"],
-    "slug": "white-medium-star",
-    "unicode": "U+2B50",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "⭐ White Medium Star Symbol - Copy and Paste Unicode Star",
-      "description": "Copy the classic white medium star symbol (U+2B50). Perfect for ratings, emphasis, and decorative text. Free Unicode star symbol with one-click copy and paste.",
-      "keywords": "white medium star symbol, ⭐ symbol, unicode star, star rating, classic star, copy star symbol"
+    id: 57,
+    symbol: "⭐",
+    name: "White Medium Star",
+    categories: ['classic', 'five-pointed', 'emoji'],
+    slug: "white-medium-star",
+    unicode: "U+2B50",
+    date: "June 10, 2025",
+    seo: {
+      title: "⭐ White Medium Star Symbol - Copy and Paste Unicode Star",
+      description: "Copy the classic white medium star symbol (U+2B50). Perfect for ratings, emphasis, and decorative text. Free Unicode star symbol with one-click copy and paste.",
+      keywords: "white medium star symbol, ⭐ symbol, unicode star, star rating, classic star, copy star symbol"
     },
-    "technicalInfo": {
-      "unicode": "U+2B50",
-      "altCode": "Alt+11088",
-      "htmlCode": "&#11088;",
-      "cssCode": "\"\\2B50\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2B50;"
+    technicalInfo: {
+      unicode: "U+2B50",
+      altCode: "Alt+11088",
+      htmlCode: "&#11088;",
+      cssCode: "\"\\2B50\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2B50;"
     },
-    "creativeShowcases": [
-      { "name": "Product Rating", "symbol": "⭐⭐⭐⭐⭐ Excellent!" },
-      { "name": "Favorite Item", "symbol": "My Favorite ⭐" },
-      { "name": "Achievement Unlocked", "symbol": "Level Up! ⭐" },
-      { "name": "Decorative Border", "symbol": "⭐✨⭐✨⭐" },
-      { "name": "Social Media Highlight", "symbol": "New Post! ⭐" }
+    creativeShowcases: [
+      { name: "Product Rating", symbol: "⭐⭐⭐⭐⭐ Excellent!" },
+      { name: "Favorite Item", symbol: "My Favorite ⭐" },
+      { name: "Achievement Unlocked", symbol: "Level Up! ⭐" },
+      { name: "Decorative Border", symbol: "⭐✨⭐✨⭐" },
+      { name: "Social Media Highlight", symbol: "New Post! ⭐" }
     ],
-    "relatedStars": [
-      { "symbol": "☆", "name": "White Star", "slug": "white-star" },
-      { "symbol": "★", "name": "Black Star", "slug": "black-star" },
-      { "symbol": "✦", "name": "Black Four Pointed Star", "slug": "black-four-pointed-star" },
-      { "symbol": "✧", "name": "White Four Pointed Star", "slug": "white-four-pointed-star" },
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" }
+    relatedStars: [
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Four Pointed Star", slug: "white-four-pointed-star" },
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>⭐ White Medium Star Symbol: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ⭐ White Medium Star symbol**, a universally recognized and incredibly versatile Unicode character. This **White Medium Star symbol** (U+2B50) is a classic five-pointed star, frequently used for ratings, adding emphasis, marking favorites, or simply for decorative flair. Although its official name is "White Medium Star," it commonly renders as a filled yellow or gold star across most modern digital platforms and as a popular emoji. Explore this comprehensive guide on **Star Symbols** to learn everything about the **⭐ White Medium Star symbol**.</p>
@@ -6415,41 +6385,40 @@ export const starDetailsData = [
   },
 
   {
-    "id": 58,
-    "symbol": "🌠",
-    "name": "Shooting Star",
-    "categories": ["classic", "five-pointed", "emoji", "nature", "celestial", "wish"],
-    "slug": "shooting-star",
-    "unicode": "U+1F320",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "🌠 Shooting Star Emoji - Copy and Paste Unicode Symbol",
-      "description": "Copy the enchanting 🌠 Shooting Star emoji (U+1F320). Perfect for wishes, magic, dreams, or nighttime themes. This popular Unicode star emoji is ready.",
-      "keywords": "shooting star emoji, 🌠 symbol, unicode emoji, wish star, magic, night sky, celestial, copy paste"
+    id: 58,
+    symbol: "🌠",
+    name: "Shooting Star",
+    categories: ['classic', 'five-pointed', 'emoji'],
+    slug: "shooting-star",
+    unicode: "U+1F320",
+    date: "June 10, 2025",
+    seo: {
+      title: "🌠 Shooting Star Emoji - Copy and Paste Unicode Symbol",
+      description: "Copy the enchanting 🌠 Shooting Star emoji (U+1F320). Perfect for wishes, magic, dreams, or nighttime themes. This popular Unicode star emoji is ready.",
+      keywords: "shooting star emoji, 🌠 symbol, unicode emoji, wish star, magic, night sky, celestial, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+1F320",
-      "altCode": "Alt+127776",
-      "htmlCode": "&#127776;",
-      "cssCode": "\"\\01F320\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x1F320;"
+    technicalInfo: {
+      unicode: "U+1F320",
+      altCode: "Alt+127776",
+      htmlCode: "&#127776;",
+      cssCode: "\"\\01F320\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x1F320;"
     },
-    "creativeShowcases": [
-      { "name": "Make a Wish", "symbol": "Make a wish! 🌠" },
-      { "name": "Night Sky Scene", "symbol": "Starry night 🌃🌠" },
-      { "name": "Magical Event", "symbol": "Magical moment 🌠✨" },
-      { "name": "Dream Big", "symbol": "Dream big, shine bright 🌠" },
-      { "name": "Fantasy Theme", "symbol": "Unicorns and shooting stars 🦄🌠" }
+    creativeShowcases: [
+      { name: "Make a Wish", symbol: "Make a wish! 🌠" },
+      { name: "Night Sky Scene", symbol: "Starry night 🌃🌠" },
+      { name: "Magical Event", symbol: "Magical moment 🌠✨" },
+      { name: "Dream Big", symbol: "Dream big, shine bright 🌠" },
+      { name: "Fantasy Theme", symbol: "Unicorns and shooting stars 🦄🌠" }
     ],
-    "relatedStars": [
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" },
-      { "symbol": "🌟", "name": "Glowing Star", "slug": "glowing-star" },
-      { "symbol": "💫", "name": "Dizzy Symbol", "slug": "dizzy-symbol" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "🌌", "name": "Milky Way", "slug": "milky-way" }
+    relatedStars: [
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "💫", name: "Dizzy Symbol", slug: "dizzy-symbol" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>🌠 Shooting Star Emoji: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the 🌠 Shooting Star emoji**, a captivating and widely used Unicode character. This **Shooting Star emoji** (U+1F320) beautifully illustrates a star streaking across the night sky, often with a vibrant trail. It's universally recognized for conveying wishes, dreams, magic, wonder, and nighttime themes. Due to its dynamic visual, the **🌠 Shooting Star emoji** is perfect for adding a touch of enchantment to your digital communications. Explore this comprehensive guide on **Star Symbols** to learn everything about the **🌠 Shooting Star emoji**.</p>
@@ -6530,41 +6499,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 59,
-    "symbol": "🌟",
-    "name": "Glowing Star",
-    "categories": ["classic", "five-pointed", "emoji", "celebration", "magic", "sparkle"],
-    "slug": "glowing-star",
-    "unicode": "U+1F31F",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "🌟 Glowing Star Emoji - Copy and Paste Unicode Symbol",
-      "description": "Copy the dazzling 🌟 Glowing Star emoji (U+1F31F). Perfect for expressing sparkle, magic, wonder, or celebration. Find Unicode, HTML, and CSS codes here.",
-      "keywords": "glowing star emoji, 🌟 symbol, unicode emoji, sparkle, magic star, celebration, copy paste"
+    id: 59,
+    symbol: "🌟",
+    name: "Glowing Star",
+    categories: ['classic', 'five-pointed', 'emoji'],
+    slug: "glowing-star",
+    unicode: "U+1F31F",
+    date: "June 10, 2025",
+    seo: {
+      title: "🌟 Glowing Star Emoji - Copy and Paste Unicode Symbol",
+      description: "Copy the dazzling 🌟 Glowing Star emoji (U+1F31F). Perfect for expressing sparkle, magic, wonder, or celebration. Find Unicode, HTML, and CSS codes here.",
+      keywords: "glowing star emoji, 🌟 symbol, unicode emoji, sparkle, magic star, celebration, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+1F31F",
-      "altCode": "Alt+127775",
-      "htmlCode": "&#127775;",
-      "cssCode": "\"\\01F31F\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x1F31F;"
+    technicalInfo: {
+      unicode: "U+1F31F",
+      altCode: "Alt+127775",
+      htmlCode: "&#127775;",
+      cssCode: "\"\\01F31F\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x1F31F;"
     },
-    "creativeShowcases": [
-      { "name": "Shining Moment", "symbol": "What a🌟 moment!" },
-      { "name": "Magical Effect", "symbol": "Feeling the magic 🌟✨" },
-      { "name": "Celebration", "symbol": "Happy Birthday! 🎂🌟" },
-      { "name": "Quality Highlight", "symbol": "Top Quality Product 🌟" },
-      { "name": "Inspiration", "symbol": "Shine bright like a 🌟" }
+    creativeShowcases: [
+      { name: "Shining Moment", symbol: "What a🌟 moment!" },
+      { name: "Magical Effect", symbol: "Feeling the magic 🌟✨" },
+      { name: "Celebration", symbol: "Happy Birthday! 🎂🌟" },
+      { name: "Quality Highlight", symbol: "Top Quality Product 🌟" },
+      { name: "Inspiration", symbol: "Shine bright like a 🌟" }
     ],
-    "relatedStars": [
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "💫", "name": "Dizzy Symbol", "slug": "dizzy-symbol" },
-      { "symbol": "🌠", "name": "Shooting Star", "slug": "shooting-star" },
-      { "symbol": "🌟", "name": "Sparkling Star", "slug": "sparkling-star" }
+    relatedStars: [
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "💫", name: "Dizzy Symbol", slug: "dizzy-symbol" },
+      { symbol: "🌠", name: "Shooting Star", slug: "shooting-star" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>🌟 Glowing Star Emoji: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the 🌟 Glowing Star emoji**, a vibrant and expressive Unicode character. This **Glowing Star emoji** (U+1F31F) vividly represents a bright, sparkling star, often with radiating lines suggesting brilliance and luminosity. It's widely used to convey feelings of magic, positivity, success, admiration, and celebration, adding a radiant touch to any digital communication. Explore this comprehensive guide on **Star Symbols** to learn everything about the **🌟 Glowing Star emoji**.</p>
@@ -6646,41 +6615,40 @@ export const starDetailsData = [
   },
 
   {
-    "id": 60,
-    "symbol": "💫",
-    "name": "Dizzy Symbol",
-    "categories": ["classic", "five-pointed", "emoji", "motion", "magic", "sparkle"],
-    "slug": "dizzy-symbol",
-    "unicode": "U+1F4AB",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "💫 Dizzy Symbol Emoji - Copy and Paste Unicode Symbol",
-      "description": "Copy the dynamic 💫 Dizzy Symbol emoji (U+1F4AB). Perfect for expressing dizziness, swirling motion, or magical sparkles. Find Unicode, HTML and CSS codes here.",
-      "keywords": "dizzy symbol emoji, 💫 symbol, unicode emoji, swirling, magical sparkles, motion, copy paste"
+    id: 60,
+    symbol: "💫",
+    name: "Dizzy Symbol",
+    categories: ['classic', 'five-pointed', 'emoji'],
+    slug: "dizzy-symbol",
+    unicode: "U+1F4AB",
+    date: "June 10, 2025",
+    seo: {
+      title: "💫 Dizzy Symbol Emoji - Copy and Paste Unicode Symbol",
+      description: "Copy the dynamic 💫 Dizzy Symbol emoji (U+1F4AB). Perfect for expressing dizziness, swirling motion, or magical sparkles. Find Unicode, HTML and CSS codes here.",
+      keywords: "dizzy symbol emoji, 💫 symbol, unicode emoji, swirling, magical sparkles, motion, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+1F4AB",
-      "altCode": "Alt+128171",
-      "htmlCode": "&#128171;",
-      "cssCode": "\"\\01F4AB\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x1F4AB;"
+    technicalInfo: {
+      unicode: "U+1F4AB",
+      altCode: "Alt+128171",
+      htmlCode: "&#128171;",
+      cssCode: "\"\\01F4AB\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x1F4AB;"
     },
-    "creativeShowcases": [
-      { "name": "Feeling Dizzy", "symbol": "I feel dizzy 😵💫" },
-      { "name": "Magical Aura", "symbol": "A burst of magic 💫✨" },
-      { "name": "Swirling Effect", "symbol": "Spinning around 💫" },
-      { "name": "Cartoon Impact", "symbol": "Hit! 💥💫" },
-      { "name": "Dreamy State", "symbol": "Lost in thought 💭💫" }
+    creativeShowcases: [
+      { name: "Feeling Dizzy", symbol: "I feel dizzy 😵💫" },
+      { name: "Magical Aura", symbol: "A burst of magic 💫✨" },
+      { name: "Swirling Effect", symbol: "Spinning around 💫" },
+      { name: "Cartoon Impact", symbol: "Hit! 💥💫" },
+      { name: "Dreamy State", symbol: "Lost in thought 💭💫" }
     ],
-    "relatedStars": [
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" },
-      { "symbol": "🌟", "name": "Glowing Star", "slug": "glowing-star" },
-      { "symbol": "🌠", "name": "Shooting Star", "slug": "shooting-star" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "💥", "name": "Collision Symbol", "slug": "collision-symbol" }
+    relatedStars: [
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "🌠", name: "Shooting Star", slug: "shooting-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>💫 Dizzy Symbol Emoji: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the 💫 Dizzy Symbol emoji**, a dynamic and expressive Unicode character. This **Dizzy Symbol emoji** (U+1F4AB) typically depicts a swirling pattern of stars or lines, often used to represent feelings of dizziness, disorientation, or a magical, sparkling effect. It's a popular choice in comics, animations, and digital communication to convey a sense of being lightheaded, stunned, or to add a whimsical flair. Explore this comprehensive guide on **Star Symbols** to learn everything about the **💫 Dizzy Symbol emoji**.</p>
@@ -6760,41 +6728,41 @@ export const starDetailsData = [
   },
 
   {
-    "id": 61,
-    "symbol": "✨",
-    "name": "Sparkles",
-    "categories": ["classic", "four-pointed", "emoji", "magic", "glitter", "celebration"],
-    "slug": "sparkles",
-    "unicode": "U+2728",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "✨ Sparkles Emoji - Copy and Paste Unicode Symbol",
-      "description": "Copy the enchanting ✨ Sparkles emoji (U+2728). Perfect for representing magic, glitter, shine, joy, or excitement. Find Unicode, HTML, and CSS codes here.",
-      "keywords": "sparkles emoji, ✨ symbol, unicode emoji, magic glitter, shine, joy, excitement, copy paste"
+    id: 61,
+    symbol: "✨",
+    name: "Sparkles",
+    categories: ['classic', 'five-pointed', 'emoji'],
+    slug: "sparkles",
+    unicode: "U+2728",
+    date: "June 10, 2025",
+    seo: {
+      title: "✨ Sparkles Emoji - Copy and Paste Unicode Symbol",
+      description: "Copy the enchanting ✨ Sparkles emoji (U+2728). Perfect for representing magic, glitter, shine, joy, or excitement. Find Unicode, HTML, and CSS codes here.",
+      keywords: "sparkles emoji, ✨ symbol, unicode emoji, magic glitter, shine, joy, excitement, copy paste"
     },
-    "technicalInfo": {
-      "unicode": "U+2728",
-      "altCode": "Alt+10024",
-      "htmlCode": "&#10024;",
-      "cssCode": "\"\\2728\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x2728;"
+    technicalInfo: {
+      unicode: "U+2728",
+      altCode: "Alt+10024",
+      htmlCode: "&#10024;",
+      cssCode: "\"\\2728\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x2728;"
     },
-    "creativeShowcases": [
-      { "name": "Magical Effect", "symbol": "✨ Abracadabra ✨" },
-      { "name": "Glittery Text", "symbol": "Sparkle and shine ✨" },
-      { "name": "New Idea", "symbol": "Lightbulb moment! 💡✨" },
-      { "name": "Celebration", "symbol": "Happy New Year! 🎉✨" },
-      { "name": "Beautiful", "symbol": "Absolutely beautiful ✨" }
+    creativeShowcases: [
+      { name: "Magical Effect", symbol: "✨ Abracadabra ✨" },
+      { name: "Glittery Text", symbol: "Sparkle and shine ✨" },
+      { name: "New Idea", symbol: "Lightbulb moment! 💡✨" },
+      { name: "Celebration", symbol: "Happy New Year! 🎉✨" },
+      { name: "Beautiful", symbol: "Absolutely beautiful ✨" }
     ],
-    "relatedStars": [
-      { "symbol": "🌟", "name": "Glowing Star", "slug": "glowing-star" },
-      { "symbol": "💫", "name": "Dizzy Symbol", "slug": "dizzy-symbol" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "💖", "name": "Sparkling Heart", "slug": "sparkling-heart" },
-      { "symbol": "✨", "name": "Four Pointed Star", "slug": "four-pointed-star" }
+    relatedStars: [
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" },
+      { symbol: "💫", name: "Dizzy Symbol", slug: "dizzy-symbol" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "💖", name: "Sparkling Heart", slug: "sparkling-heart-emoji" },
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>✨ Sparkles Emoji: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the ✨ Sparkles emoji**, a universally popular and versatile Unicode character. This **Sparkles emoji** (U+2728) typically depicts a cluster of three four-pointed stars, often rendered in a yellow or gold color, giving the impression of glittering light. It's widely used to represent magic, shine, glitter, joy, excitement, and a general sense of positivity or beauty. Explore this comprehensive guide on **Star Symbols** to learn everything about the **✨ Sparkles emoji**.</p>
@@ -6876,41 +6844,39 @@ export const starDetailsData = [
   },
 
   {
-    "id": 62,
-    "symbol": "🌃",
-    "name": "Night With Stars",
-    "categories": ["emoji", "nature", "city", "night", "celestial"],
-    "slug": "night-with-stars",
-    "unicode": "U+1F303",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "🌃 Night With Stars Emoji - Copy and Paste Unicode Symbol",
-      "description": "Copy the tranquil 🌃 Night With Stars emoji (U+1F303). Represents a city night scene under a starry sky. Find Unicode, HTML, and CSS codes here for easy use.",
-      "keywords": "night with stars emoji, 🌃 symbol, unicode emoji, city night, stars, copy paste, evening, urban"
+    id: 62,
+    symbol: "🌃",
+    name: "Night With Stars",
+    categories: ['Emoji', 'other'],
+    slug: "night-with-stars",
+    unicode: "U+1F303",
+    date: "June 10, 2025",
+    seo: {
+      title: "🌃 Night With Stars Emoji - Copy and Paste Unicode Symbol",
+      description: "Copy the tranquil 🌃 Night With Stars emoji (U+1F303). Represents a city night scene under a starry sky. Find Unicode, HTML, and CSS codes here for easy use.",
+      keywords: "night with stars emoji, 🌃 symbol, unicode emoji, city night, stars, copy paste, evening, urban"
     },
-    "technicalInfo": {
-      "unicode": "U+1F303",
-      "altCode": "Alt+127747",
-      "htmlCode": "&#127747;",
-      "cssCode": "\"\\01F303\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x1F303;"
+    technicalInfo: {
+      unicode: "U+1F303",
+      altCode: "Alt+127747",
+      htmlCode: "&#127747;",
+      cssCode: "\"\\01F303\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x1F303;"
     },
-    "creativeShowcases": [
-      { "name": "City at Night", "symbol": "The city lights 🌃" },
-      { "name": "Evening Vibes", "symbol": "Peaceful evening 🌙🌃" },
-      { "name": "Stargazing in City", "symbol": "Stargazing 🌃✨" },
-      { "name": "Night Out", "symbol": "Ready for a night out 🌃" },
-      { "name": "Dreamy Scene", "symbol": "Dreaming under the 🌃" }
+    creativeShowcases: [
+      { name: "City at Night", symbol: "The city lights 🌃" },
+      { name: "Evening Vibes", symbol: "Peaceful evening 🌙🌃" },
+      { name: "Stargazing in City", symbol: "Stargazing 🌃✨" },
+      { name: "Night Out", symbol: "Ready for a night out 🌃" },
+      { name: "Dreamy Scene", symbol: "Dreaming under the 🌃" }
     ],
-    "relatedStars": [
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" },
-      { "symbol": "⭐", "name": "White Medium Star", "slug": "white-medium-star" },
-      { "symbol": "🌠", "name": "Shooting Star", "slug": "shooting-star" },
-      { "symbol": "🌙", "name": "Crescent Moon", "slug": "crescent-moon" },
-      { "symbol": "🌆", "name": "Cityscape At Dusk", "slug": "cityscape-at-dusk" }
+    relatedStars: [
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "🌠", name: "Shooting Star", slug: "shooting-star" }
     ],
-    "htmlContent": `
+    htmlContent: `
         <section>
           <h2>🌃 Night With Stars Emoji: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the 🌃 Night With Stars emoji**, a serene and evocative Unicode character. This **Night With Stars emoji** (U+1F303) visually depicts a cityscape silhouetted against a dark sky, adorned with twinkling stars and often a moon. It's commonly used to represent a peaceful evening, the beauty of a night sky, urban nightlife, or simply to set a nocturnal mood. Explore this comprehensive guide on **Star Symbols** to learn everything about the **🌃 Night With Stars emoji**.</p>
@@ -6991,41 +6957,38 @@ export const starDetailsData = [
   },
 
   {
-    "id": 63,
-    "symbol": "🔯",
-    "name": "Six Pointed Star With Middle Dot",
-    "categories": ["emoji", "geometric", "spiritual", "symbol"],
-    "slug": "six-pointed-star-with-middle-dot",
-    "unicode": "U+1F52F",
-    "date": "June 10, 2025",
-    "seo": {
-      "title": "🔯 Six Pointed Star With Middle Dot Emoji - Copy and Paste",
-      "description": "Copy the 🔯 Six Pointed Star With Middle Dot emoji (U+1F52F). A unique star symbol with a central dot, often used for spiritual or mystical themes.",
-      "keywords": "six pointed star emoji, 🔯 symbol, unicode emoji, star with middle dot, spiritual, mystical"
+    id: 63,
+    symbol: "🔯",
+    name: "Six Pointed Star With Middle Dot",
+    categories: ['Emoji', 'four-pointed'],
+    slug: "six-pointed-star-with-middle-dot",
+    unicode: "U+1F52F",
+    date: "June 10, 2025",
+    seo: {
+      title: "🔯 Six Pointed Star With Middle Dot Emoji - Copy and Paste",
+      description: "Copy the 🔯 Six Pointed Star With Middle Dot emoji (U+1F52F). A unique star symbol with a central dot, often used for spiritual or mystical themes.",
+      keywords: "six pointed star emoji, 🔯 symbol, unicode emoji, star with middle dot, spiritual, mystical"
     },
-    "technicalInfo": {
-      "unicode": "U+1F52F",
-      "altCode": "Alt+128303",
-      "htmlCode": "&#128303;",
-      "cssCode": "\"\\01F52F\"",
-      "htmlEntity": "No named entity",
-      "hexCode": "&#x1F52F;"
+    technicalInfo: {
+      unicode: "U+1F52F",
+      altCode: "Alt+128303",
+      htmlCode: "&#128303;",
+      cssCode: "\"\\01F52F\"",
+      htmlEntity: "No named entity",
+      hexCode: "&#x1F52F;"
     },
-    "creativeShowcases": [
-      { "name": "Spiritual Journey", "symbol": "On a spiritual path 🧘‍♀️🔯" },
-      { "name": "Mystic Symbol", "symbol": "Ancient mystic arts 🔯🔮" },
-      { "name": "Energy Point", "symbol": "Focus your energy 🔯" },
-      { "name": "Geometric Design", "symbol": "Perfect geometry 📐🔯" },
-      { "name": "Esoteric Theme", "symbol": "Exploring esoteric knowledge 📖🔯" }
+    creativeShowcases: [
+      { name: "Spiritual Journey", symbol: "On a spiritual path 🧘‍♀️🔯" },
+      { name: "Mystic Symbol", symbol: "Ancient mystic arts 🔯🔮" },
+      { name: "Energy Point", symbol: "Focus your energy 🔯" },
+      { name: "Geometric Design", symbol: "Perfect geometry 📐🔯" },
+      { name: "Esoteric Theme", symbol: "Exploring esoteric knowledge 📖🔯" }
     ],
-    "relatedStars": [
-      { "symbol": "✡️", "name": "Star of David", "slug": "star-of-david" },
-      { "symbol": "☯️", "name": "Yin Yang", "slug": "yin-yang" },
-      { "symbol": "✨", "name": "Sparkles", "slug": "sparkles" },
-      { "symbol": "🔮", "name": "Crystal Ball", "slug": "crystal-ball" },
-      { "symbol": "⚛️", "name": "Atom Symbol", "slug": "atom-symbol" }
+    relatedStars: [
+      { symbol: "✡️", name: "Star of David", slug: "star-of-david" },
+      { symbol: "✨", name: "Sparkles", slug: "sparkles" },
     ],
-    "htmlContent": `
+    htmlContent: `
       < section >
           <h2>🔯 Six Pointed Star With Middle Dot Emoji: Copy, Paste & Use</h2>
           <p>Welcome to **Star Symbols**! Here, you can easily **copy and paste the 🔯 Six Pointed Star With Middle Dot emoji**, a unique and often symbolically rich Unicode character. This **Six Pointed Star With Middle Dot emoji** (U+1F52F) depicts a six-pointed star, similar to a hexagram, with a small dot positioned at its center. While it can appear in various contexts, it is commonly associated with astrology, spirituality, mysticism, and esoteric concepts, symbolizing balance, energy, or deeper universal principles. Explore this comprehensive guide on **Star Symbols** to learn everything about the **🔯 Six Pointed Star With Middle Dot emoji**.</p>
@@ -7104,6 +7067,1932 @@ export const starDetailsData = [
         </section >
   `
   },
+
+  {
+    id: 64,
+    symbol: '⚝',
+    name: 'Circled Star Symbol',
+    categories: ['classic', 'five-pointed'],
+    slug: 'circled-star-symbol',
+    unicode: 'U+269D',
+    date: 'June 20, 2025',
+    seo: {
+      title: 'Circled White Star Symbol: Copy & Paste, Unicode, HTML, CSS',
+      description: 'Copy and paste the ⚝ Circled White Star symbol easily! Learn its meaning, usage on Windows, Mac, & mobile, and how to implement it in HTML & CSS.',
+      keywords: 'circled white star, unicode star, copy paste star, star html css, decorative star'
+    },
+    technicalInfo: {
+      unicode: 'U+269D',
+      altCode: 'Alt+9885',
+      htmlCode: '&#9885;',
+      cssCode: '"\\269D"',
+      htmlEntity: '', // No named entity
+      hexCode: '&#x269D;',
+    },
+    creativeShowcases: [
+      { name: 'Celestial Flair', symbol: '⚝✧༚' },
+      { name: 'Mystic Star Pattern', symbol: '༓⚝༓⚝༓' },
+      { name: 'Elegant Star Banner', symbol: '⋆˚₊⋆⚝⋆₊˚⋆' },
+      { name: 'Starry Divider', symbol: '⚝⋆⭒⋆⚝' },
+      { name: 'Magical Cluster', symbol: '｡･:*:･ﾟ⚝･:*:･｡' }
+    ],
+    relatedStars: [
+      { symbol: '★', name: 'Black Star', slug: 'black-star' },
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✪', name: 'Circled White Star', slug: 'circled-white-star' },
+      { symbol: '✰', name: 'Shadowed White Star', slug: 'shadowed-white-star' },
+      { symbol: '✵', name: 'Eight Pointed Pinwheel Star', slug: 'eight-pointed-pinwheel-star' },
+      { symbol: '✺', name: 'Sixteen Pointed Asterisk', slug: 'sixteen-pointed-asterisk' }
+    ],
+    htmlContent: `
+    <section>
+  <h2>Your Ultimate Guide to the ⚝ Circled Star Symbol</h2>
+  <p>Welcome to <strong>Star Symbols</strong>, your go-to destination for unique and expressive Unicode characters. Today we explore the <strong>⚝ Circled Star Symbol</strong> — a distinctive and decorative symbol that stands out in text and design. Whether you’re looking to copy, type, or integrate the <strong>Circled Star Symbol</strong> into your work, this guide provides all the information and tools you need. The <strong>⚝ Circled Star Symbol</strong> combines the elegance of a star with the framing of a circle, making it ideal for ornamental, spiritual, or artistic uses. Learn how to use the <strong>Circled Star Symbol</strong> across platforms, in HTML, in CSS, and more with <strong>Star Symbols</strong>.</p>
+
+  ---
+
+  <h2>✍️ How to Copy & Type the ⚝ Circled Star Symbol</h2>
+  <p>The <strong>⚝ Circled Star Symbol</strong> is officially encoded in Unicode as <code>U+269D</code>. It's supported in most modern systems and can be typed or inserted using various input methods. Below are clear steps for typing or copying the <strong>Circled Star Symbol</strong> on any device.</p>
+
+  <h3>Windows: Alt Code for ⚝</h3>
+  <ol>
+    <li>Ensure <strong>Num Lock</strong> is enabled.</li>
+    <li>Hold <strong>Alt</strong> and type <strong>9885</strong> on the numeric keypad.</li>
+    <li>Release <strong>Alt</strong> to reveal the <strong>⚝ Circled Star Symbol</strong>.</li>
+  </ol>
+
+  <h3>Mac: Character Viewer Method</h3>
+  <ol>
+    <li>Press <strong>Control + Command + Space</strong> to open the character viewer.</li>
+    <li>Search for "Circled Star" or scroll to symbols.</li>
+    <li>Double-click the <strong>⚝ Circled Star Symbol</strong> to insert it.</li>
+  </ol>
+
+  <h3>Mobile Devices: iPhone & Android</h3>
+  <ul>
+    <li><strong>iPhone:</strong> Use the emoji keyboard or paste the <strong>⚝ Circled Star Symbol</strong> from here.</li>
+    <li><strong>Android:</strong> Paste the <strong>Circled Star Symbol</strong> into messages or notes using copy from <strong>Star Symbols</strong>.</li>
+  </ul>
+  <p><strong>Tip:</strong> Copy and paste the <strong>⚝ Circled Star Symbol</strong> from this page directly if you cannot find it on your keyboard.</p>
+
+  ---
+
+  <h2>💻 Using ⚝ Circled Star Symbol in HTML & CSS</h2>
+  <p>Integrating the <strong>⚝ Circled Star Symbol</strong> into your web designs is simple and impactful. Below are several ways to include this unique character in your HTML and CSS, enhancing your site’s appearance.</p>
+
+  <h3>HTML Code</h3>
+  <pre><code>&lt;p&gt;Unicode: &#9885;&lt;/p&gt;</code></pre>
+  <pre><code>&lt;p&gt;Hex: &#x269D;&lt;/p&gt;</code></pre>
+
+  <h3>CSS Code</h3>
+  <pre><code>.circled-star::before {
+    content: '\\\\269D';
+    font-size: 1.4em;
+    color: #444;
+    padding-right: 5px;
+  }</code></pre>
+  <p class="note"><em>Use appropriate fallback fonts to ensure the <strong>Circled Star Symbol</strong> renders correctly on all browsers.</em></p>
+
+  ---
+
+  <h2>🌟 Meaning & Usage of the ⚝ Circled Star Symbol</h2>
+  <p>The <strong>⚝ Circled Star Symbol</strong> is not commonly associated with any one religion or ideology, making it a flexible glyph for aesthetic, esoteric, or symbolic use. Its circle adds balance and containment to the star, representing harmony or focused energy. Some interpretations also relate it to alchemy, magic, or spiritual geometry. The <strong>Circled Star Symbol</strong> is often used in design elements where a classic or mystic vibe is desired.</p>
+
+  <ul>
+    <li><strong>Design Accents:</strong> Use the <strong>Circled Star Symbol</strong> to mark sections, buttons, or transitions.</li>
+    <li><strong>Decorative Titles:</strong> Add elegance to headings or names with the ⚝ symbol.</li>
+    <li><strong>Spiritual or Esoteric Content:</strong> The <strong>Circled Star Symbol</strong> suggests deeper or mystical significance.</li>
+    <li><strong>Symbol Collections:</strong> Pair with ✡ ✦ ✧ to create themed sets.</li>
+  </ul>
+
+  ---
+
+  <h2>💡 Why Use Star Symbols for ⚝ Circled Star Symbol?</h2>
+  <p><strong>Star Symbols</strong> makes finding and using characters like the <strong>⚝ Circled Star Symbol</strong> effortless. Our guides are designed for designers, writers, developers, and symbol enthusiasts who need both technical accuracy and creative inspiration. Whether you’re building a web page, crafting a piece of text art, or creating symbolic graphics, the <strong>Circled Star Symbol</strong> is a subtle yet striking choice.</p>
+
+  <p>From HTML code to spiritual meaning, <strong>Star Symbols</strong> gives you the full context for the <strong>⚝ Circled Star Symbol</strong>. Discover related characters, copy them with one click, and use them confidently in your projects. Add a magical or elegant touch to your text today with the <strong>Circled Star Symbol</strong> — all made easy by <strong>Star Symbols</strong>.</p>
+</section>
+  `
+  },
+
+  {
+    id: 65,
+    symbol: '☪',
+    name: 'Star and Crescent',
+    categories: ['religious', 'classic'],
+    slug: 'star-and-crescent',
+    unicode: 'U+262A',
+    date: 'June 20, 2025',
+    seo: {
+      title: '☪ Star and Crescent Symbol: Copy & Paste, Unicode, HTML, CSS',
+      description: 'Copy and paste the ☪ Star and Crescent symbol easily! Learn its meaning, cultural context, and how to use it in HTML & CSS. Compatible on Windows, Mac, mobile.',
+      keywords: 'star and crescent, islamic star, moon star symbol, unicode religious symbol, copy paste islam symbol'
+    },
+    technicalInfo: {
+      unicode: 'U+262A',
+      altCode: 'Alt+9770',
+      htmlCode: '&#9770;',
+      cssCode: '"\\262A"',
+      htmlEntity: '', // No named entity
+      hexCode: '&#x262A;',
+    },
+    creativeShowcases: [
+      { name: 'Islamic Calligraphy Accent', symbol: '٭☪٭' },
+      { name: 'Spiritual Emblem', symbol: '✧☪✧' },
+      { name: 'Moonlit Blessing', symbol: '☪︎✦' },
+      { name: 'Celestial Border', symbol: '۞☪۞' },
+      { name: 'Elegant Star Crescent', symbol: '☪°✷' }
+    ],
+    relatedStars: [
+      { symbol: '✡', name: 'Star of David', slug: 'star-of-david' },
+      { symbol: '★', name: 'Black Star', slug: 'black-star' },
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+    ],
+    htmlContent: `
+    <section>
+      <h2>Your Ultimate Guide to the ☪ Star and Crescent Symbol</h2>
+      <p>Welcome to **Star Symbols**, your premier resource for understanding and utilizing unique Unicode characters. Today, we delve into the **☪ Star and Crescent symbol**—a universally recognized emblem with deep historical and cultural significance. This **moon and star symbol**, often simply called the **Star and Crescent**, prominently represents Islam, appearing on national flags, mosques, and various artistic works. Whether you need to copy, type, or integrate the **Star and Crescent symbol** into digital content, this guide from **Star Symbols** provides all the essential information about the **☪ Star and Crescent**. Discover its meaning, explore how to use the **Star and Crescent** across different platforms, and learn its HTML and CSS implementations.</p>
+
+      ---
+
+      <h2>✍️ How to Copy & Type the ☪ Star and Crescent Symbol</h2>
+      <p>The **☪ Star and Crescent symbol** is officially encoded in Unicode as <code>U+262A</code>. It's widely supported across modern operating systems and devices, making this **Star and Crescent symbol** easy to use. The quickest method to obtain the **Star and Crescent symbol** is to simply copy it directly from this page. Below are detailed instructions for typing or inserting the **☪ Star and Crescent symbol** on various platforms if you prefer manual input.</p>
+
+      <h3>Windows: Alt Code for ☪ Star and Crescent</h3>
+      <ol>
+        <li>Ensure **Num Lock** is enabled on your keyboard.</li>
+        <li>Hold down the **Alt** key.</li>
+        <li>On the numeric keypad, type **9770**.</li>
+        <li>Release the **Alt** key to display the **☪ Star and Crescent symbol**.</li>
+      </ol>
+
+      <h3>Mac: Character Viewer Method for ☪ Star and Crescent</h3>
+      <ol>
+        <li>Press **Control + Command + Space** to open the Character Viewer.</li>
+        <li>In the search bar, type "Star and Crescent" or "Islam symbol."</li>
+        <li>Locate and double-click the **☪ Star and Crescent symbol** to insert it into your text or application.</li>
+      </ol>
+
+      <h3>Mobile Devices: iPhone & Android for ☪ Star and Crescent</h3>
+      <ul>
+        <li>**iPhone:** Access the emoji keyboard (usually by tapping the globe or smiley face icon), navigate to the symbols section, and search for "star" or "crescent." You might find the **☪ Star and Crescent symbol** there. Alternatively, copy it from this page.</li>
+        <li>**Android:** Similar to iPhone, most Android keyboards offer an emoji/symbol section where you can find the **Star and Crescent symbol**. If not, copying and pasting the **☪ symbol** from **Star Symbols** is a reliable solution.</li>
+      </ul>
+      <p>**Tip:** If you're having trouble finding the **☪ Star and Crescent** easily on your device's keyboard, simply copy the **☪ Star and Crescent symbol** from this page and paste it wherever you need it. **Star Symbols** makes access simple!</p>
+
+      ---
+
+      <h2>💻 Using the ☪ Star and Crescent Symbol in HTML & CSS</h2>
+      <p>Integrating the **☪ Star and Crescent symbol** into your web projects is straightforward, whether you're adding it directly into HTML content or using CSS for stylistic purposes. This is particularly useful for religious, cultural, or decorative web elements involving the **Star and Crescent**.</p>
+
+      <h3>HTML Code for ☪ Star and Crescent</h3>
+      <p>While there isn't a named HTML entity specifically for the **☪ Star and Crescent symbol**, you can reliably use its numeric HTML codes:</p>
+      <pre><code>&lt;p&gt;Decimal Code: &amp;#9770;&lt;/p&gt;</code></pre>
+      <pre><code>&lt;p&gt;Hexadecimal Code: &amp;#x262A;&lt;/p&gt;</code></pre>
+
+      <h3>CSS Code for ☪ Star and Crescent</h3>
+      <p>To display the **☪ Star and Crescent symbol** using CSS, you can employ the <code>content</code> property with its Unicode escape sequence. This is perfect for adding the **Star and Crescent** before or after text, or as part of decorative elements:</p>
+      <pre><code>.islamic-icon::before {
+        content: '\\\\262A'; /* Unicode U+262A for Star and Crescent */
+        font-size: 1.2em;
+        color: #006633; /* Example: a green color often associated with Islam */
+        margin-right: 5px;
+        /* Ensure you have a font that supports this symbol */
+        font-family: 'Segoe UI Symbol', 'Noto Color Emoji', sans-serif;
+      }</code></pre>
+      <p class="note"><em>**Important:** Always include fallback fonts in your CSS to ensure the **☪ Star and Crescent symbol** renders correctly across various browsers and operating systems, as font support can vary.</em></p>
+
+      ---
+
+      <h2>🌟 Meaning & Usage of the ☪ Star and Crescent Symbol</h2>
+      <p>The **☪ Star and Crescent symbol** holds profound significance, primarily recognized as the most prominent symbol of **Islam**. While not originating from the religion's earliest days, the **Star and Crescent** became widely adopted by the Ottoman Empire and subsequently by many Muslim-majority nations and communities. The star often represents divinity or light, and the crescent moon symbolizes progress and the lunar calendar, which is central to Islamic practices. Understanding the **Star and Crescent's** rich history is crucial for its appropriate use.</p>
+
+      <p>Key uses and meanings of the **☪ Star and Crescent symbol** include:</p>
+      <ul>
+        <li>**Religious Identity:** A widespread representation of Islam and Muslim communities globally, the **Star and Crescent** is a core symbol.</li>
+        <li>**National Emblems:** Featured on the flags of several countries, including Turkey, Pakistan, Malaysia, and Algeria, showcasing the **Star and Crescent** as a national symbol.</li>
+        <li>**Architectural Decoration:** Found adorning mosques and other Islamic structures, the **Star and Crescent** adds symbolic beauty.</li>
+        <li>**Cultural Representation:** Used in art, jewelry, and various cultural contexts to signify Islamic heritage, the **Star and Crescent** is a powerful motif.</li>
+        <li>**Digital Communication:** Employed in online discussions, social media, and documents where a clear reference to Islam and the **Star and Crescent symbol** is needed.</li>
+      </ul>
+      <p>It's important to use the **☪ Star and Crescent symbol** respectfully and in appropriate contexts, acknowledging its deep religious and cultural value.</p>
+
+      ---
+
+      <h2>💡 Why Choose Star Symbols for Your Symbol Needs?</h2>
+      <p>**Star Symbols** is dedicated to providing accurate, easy-to-use information for a wide array of Unicode symbols, including the impactful **☪ Star and Crescent symbol**. Our platform offers more than just a copy-and-paste function; we provide comprehensive guides, technical details, and contextual insights for each symbol, including the **Star and Crescent**. Whether you're a web developer implementing symbols, a writer needing specific characters, or simply curious about their meanings, **Star Symbols** is your trusted resource for the **Star and Crescent** and other symbols.</p>
+
+      <p>With **Star Symbols**, you can effortlessly find, understand, and integrate the **☪ Star and Crescent symbol** into your projects, ensuring proper representation and usage. Explore our extensive collection of religious, classic, and other star-related symbols to enhance your digital communication and design. Discover, copy, and connect—made easy by **Star Symbols**.</p>
+    </section>
+  `,
+  },
+
+  {
+    id: 66,
+    symbol: '💖',
+    name: 'Sparkling Heart',
+    categories: ['emoji', 'classic'],
+    slug: 'sparkling-heart-emoji',
+    unicode: 'U+1F496',
+    date: 'June 20, 2025',
+    seo: {
+      title: '💖 Sparkling Heart Emoji: Copy & Paste, Meaning & Code',
+      description: 'Copy and paste the 💖 Sparkling Heart emoji! Learn its meaning, use it in chats or websites, and get the Unicode, HTML & CSS codes instantly.',
+      keywords: 'sparkling heart emoji, love emoji, 💖 copy paste, emoji html css, heart unicode'
+    },
+    technicalInfo: {
+      unicode: 'U+1F496',
+      altCode: 'N/A',
+      htmlCode: '&#128150;',
+      cssCode: '"\\1F496"',
+      htmlEntity: '',
+      hexCode: '&#x1F496;',
+    },
+    creativeShowcases: [
+      { name: 'Cute Heart Combo', symbol: '💖💫💞' },
+      { name: 'Kawaii Expression', symbol: '(♡˙︶˙♡)💖' },
+      { name: 'Starry Love Line', symbol: '💖✨💖✨💖' },
+      { name: 'Emotional Spark', symbol: '｡･:*:･ﾟ★,｡･:*:･ﾟ💖' },
+      { name: 'Heart Emphasis Style', symbol: '💬💖 Important! 💖💬' }
+    ],
+    relatedStars: [
+      { symbol: '✨', name: 'Sparkles', slug: 'sparkles' },
+      { symbol: '💫', name: 'Dizzy Symbol', slug: 'dizzy-symbol' }
+    ],
+    htmlContent: `
+     <section>
+      <h2>Your Ultimate Guide to the 💖 Sparkling Heart Emoji</h2>
+      <p>Welcome to **Star Symbols**, your go-to place for all things emojis, especially the vibrant **💖 Sparkling Heart Emoji**. The **sparkling heart** is a brilliant pink heart adorned with charming sparkles, symbolizing intense love, joy, affection, and emotional radiance. Whether you're sending a message, designing a graphic, or building a webpage, the **sparkling heart emoji** instantly adds a touch of charm and heartfelt emotion to your communication. This comprehensive guide will help you effortlessly copy, understand the nuances of, and effectively use the delightful 💖 **sparkling heart** in any context.</p>
+
+      ---
+
+      <h2>📋 How to Copy and Use the 💖 Sparkling Heart Emoji</h2>
+      <p>The **sparkling heart emoji** is a standard part of the official Unicode emoji library, ensuring its compatibility across all major digital platforms, from smartphones to desktops. You can instantly copy this **sparkling heart emoji** directly from here: **💖**. Once copied, simply paste it into your social media posts, emails, user bios, instant messages, or even into your code—it’s incredibly simple and universal. This versatile **sparkling heart** symbol is perfect for adding warmth, excitement, and a burst of positive energy to anything you write.</p>
+
+      <h3>Typing 💖 Sparkling Heart on Different Devices</h3>
+      <ul>
+        <li>**Windows:** For Windows users, press the <code>Win + .</code> (Windows key + period) shortcut to open the emoji keyboard. Then, type “heart” in the search bar and select the 💖 **sparkling heart emoji** from the results.</li>
+        <li>**Mac:** On a Mac, use the <code>Control + Command + Space</code> key combination to open the Character Viewer. In the search box, type “sparkling heart” to quickly find and insert the emoji.</li>
+        <li>**iPhone/Android:** On your mobile device, open your default emoji keyboard. Navigate to the heart section (often found under 'symbols' or 'emotions') and tap on the 💖 **sparkling heart** to insert it into your text.</li>
+      </ul>
+      <p>For frequent use, consider saving the **sparkling heart** to your frequently used emojis section on your device's keyboard. A single 💖 can truly light up someone’s day or emphasize your feelings!</p>
+
+      ---
+
+      <h2>💻 Use 💖 Sparkling Heart in HTML & CSS</h2>
+      <p>Developers and designers often want to display the **sparkling heart emoji** seamlessly on webpages or within applications. Integrating the 💖 **sparkling heart** is straightforward using its Unicode character in HTML or through CSS content properties. Here’s how you can make the **sparkling heart** an integral part of your web experiences, adding a vibrant visual element.</p>
+
+      <h3>HTML Code for 💖 Sparkling Heart</h3>
+      <p>You can embed the **💖 sparkling heart emoji** directly into your HTML using its decimal or hexadecimal Unicode entity:</p>
+      <pre><code>&lt;span&gt;&amp;#128150;&lt;/span&gt; &lt;!-- Decimal Unicode for 💖 Sparkling Heart --&gt;
+&lt;span&gt;&amp;#x1F496;&lt;/span&gt; &lt;!-- Hexadecimal Unicode for 💖 Sparkling Heart --&gt;</code></pre>
+
+      <h3>CSS Example for 💖 Sparkling Heart</h3>
+      <p>To incorporate the **💖 sparkling heart emoji** using CSS, typically as a pseudo-element for decorative purposes, use its Unicode escape sequence within the content property:</p>
+      <pre><code>.sparkling-heart-icon::after {
+        content: '1F496'; /* Unicode U+1F496 for 💖 Sparkling Heart */
+        font-size: 1.5rem; /* Adjust size as needed */
+        color: deeppink; /* Customize color, though emoji color is often fixed by system */
+        margin-left: 5px; /* Add some spacing */
+        /* Ensure font support for emojis */
+        font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+      }</code></pre>
+      <p class="note"><em>The 💖 **sparkling heart emoji** will render best if your website or application explicitly uses fonts that support colorful Unicode emojis. Always test rendering across different browsers and devices.</em></p>
+
+      ---
+
+      <h2>💡 What Does the 💖 Sparkling Heart Emoji Mean?</h2>
+      <p>The **💖 Sparkling Heart emoji** is bursting with emotion and positive sentiment. It expresses deep affection, admiration, excitement, and effusive joy. Unlike the standard red heart, the **sparkling heart** adds an extra layer of vibrancy and a literal "sparkle"—often used in messages filled with intense love, profound gratitude, or exuberant celebration. It's an incredibly popular choice on special occasions like Valentine’s Day, birthdays, anniversaries, and in heartfelt messages to friends, family, or romantic partners.</p>
+
+      <ul>
+        <li>**Romantic 💖 Sparkling Heart:** A powerful emoji for expressing passionate love and profound care in romantic contexts.</li>
+        <li>**Gratitude 💖:** Use the **sparkling heart** to convey immense thanks and appreciation in a way that truly shines.</li>
+        <li>**Friendship 💖 Sparkling Heart:** Beyond romance, the **sparkling heart** is perfect for showing strong appreciation and affection for close friends.</li>
+        <li>**Enthusiasm & Joy 💖:** When words aren't enough, the **sparkling heart** adds a burst of excitement and happiness to your text.</li>
+        <li>**Style & Emphasis 💖:** Add personality, color, and visual flair to social media posts, bios, and digital content with the eye-catching 💖 **sparkling heart**.</li>
+      </ul>
+
+      ---
+
+      <h2>✨ Creative Uses of 💖 Sparkling Heart Emoji</h2>
+      <p>Unleash your creativity by combining the **💖 Sparkling Heart emoji** with other symbols and emojis for unique visual expressions. Use the **sparkling heart** to create dynamic emoji banners, design charming love-themed graphics, or as part of decorative text dividers, for example: <code>💖✨💖✨💖</code>. Pair it with related emojis like 💘, 💞, or ⭐ for an amplified visual effect. The versatile **sparkling heart** is ideal for enriching text messages, crafting unique stickers, enhancing brand identity, or even making presentations more engaging.</p>
+
+      <h3>Examples of Creative 💖 Combinations:</h3>
+      <ul>
+        <li>💖💫💘 – A combination for romantic sparkle and allure.</li>
+        <li>(｡• ᵕ •｡) 💖 – A super cute Kawaii expression featuring the **sparkling heart**.</li>
+        <li>💖✨💖 Important Announcement! 💖✨💖 – Emphasize key information with a bright, friendly touch.</li>
+        <li>🌟💖🌟 Best wishes! 🌟💖🌟 – A starry and heartfelt greeting.</li>
+      </ul>
+
+      <h2>🌟 Why Star Symbols for Your 💖 Sparkling Heart Needs?</h2>
+      <p>**Star Symbols** is your comprehensive resource for everything related to the 💖 **sparkling heart emoji**: from technical Unicode and HTML/CSS codes to in-depth usage guides and inspiring creative samples. We strive to make it easy for everyone to explore the beauty, meaning, and application behind every emoji, especially one as universally expressive as the **sparkling heart**. Whether you’re a developer building an interactive web interface or simply texting someone special, the 💖 **sparkling heart** is designed to bring an undeniable emotional sparkle to your message.</p>
+
+      <p>Feel free to copy the 💖 **sparkling heart emoji** from our site anytime you need it. Also, be sure to check out related emojis and symbols like ❤️, 💕, 💞, and 💝 for other expressions of love and emotion. For all your needs concerning love, design, and style, the 💖 **sparkling heart** shines brightest and is made accessible at **Star Symbols**.</p>
+    </section >
+  `
+  },
+
+  {
+    id: 67,
+    symbol: '🔮',
+    name: 'Crystal Ball',
+    categories: ['emoji'],
+    slug: 'crystal-ball-emoji',
+    unicode: 'U+1F52E',
+    date: 'June 20, 2025',
+    seo: {
+      title: '🔮 Crystal Ball Emoji: Copy & Paste, Unicode, HTML & CSS',
+      description: 'Copy and paste the 🔮 Crystal Ball emoji! Learn its meaning, uses in chats, websites, and how to add it to your designs with Unicode, HTML, and CSS.',
+      keywords: 'crystal ball emoji, fortune-telling emoji, 🔮 copy paste, emoji crystal ball, unicode emoji html css'
+    },
+    technicalInfo: {
+      unicode: 'U+1F52E',
+      altCode: 'N/A',
+      htmlCode: '&#128262;',
+      cssCode: '"\\1F52E"',
+      htmlEntity: '',
+      hexCode: '&#x1F52E;',
+    },
+    creativeShowcases: [
+      { name: 'Fortune Teller Charm', symbol: '🔮✨💫' },
+      { name: 'Mystic Symbols', symbol: '🔮🧿✨' },
+      { name: 'Tarot Reading Vibes', symbol: '🔮💜🔮' },
+      { name: 'Psychic Prediction', symbol: '🔮🌟🔮' },
+      { name: 'Wizards’ Spell', symbol: '🔮🌙💫' }
+    ],
+    relatedStars: [
+      { symbol: '⭐', name: 'Glowing Star', slug: 'glowing-star' },
+      { symbol: '🔯', name: 'Six Pointed Star', slug: 'six-pointed-star' },
+      { symbol: '🌙', name: 'Crescent Moon', slug: 'crescent-moon' },
+      { symbol: '🧙‍♂️', name: 'Mage', slug: 'mage' },
+      { symbol: '🌌', name: 'Milky Way', slug: 'milky-way' }
+    ],
+    htmlContent: `
+      <section>
+        <h2>Your Ultimate Guide to the 🔮 Crystal Ball Emoji</h2>
+        <p>Welcome to **Star Symbols**, your go-to guide for all things Unicode, including the enchanting **🔮 Crystal Ball Emoji**. This particular emoji beautifully represents the mystical, the supernatural, and the realm of the unknown. The **crystal ball emoji** is frequently used to symbolize fortune-telling, psychic abilities, predictions, or simply the magic inherent in life's mysteries. Whether you're exploring astrology, delving into the occult, or just captivated by the intrigue of the **crystal ball emoji**, this guide will provide a comprehensive understanding of its meaning, common usages, and how to seamlessly implement it in your digital projects and communications.</p>
+
+        ---
+
+        <h2>📋 How to Copy & Use the 🔮 Crystal Ball Emoji</h2>
+        <p>Adding the **🔮 Crystal Ball Emoji** to your messages, social media posts, or design projects is incredibly simple. You can instantly copy the emoji directly from here: **🔮**. Once copied, just paste it wherever you desire! For those who prefer manual input, the **crystal ball emoji** is readily available within the emoji keyboards on most major platforms, whether you're using a Windows PC, Mac, Android device, or iPhone.</p>
+
+        <h3>Manual Input Methods for the 🔮 Crystal Ball Emoji</h3>
+        <ul>
+          <li>**Windows:** On Windows, simply press the <code>Win + .</code> (Windows key + period) shortcut to open the emoji panel. From there, you can type "crystal ball" into the search bar to quickly locate and insert the 🔮 **crystal ball emoji**.</li>
+          <li>**Mac:** For Mac users, press <code>Control + Command + Space</code> to open the Character Viewer. In the search field, type "crystal ball" to find and add the emoji to your text.</li>
+          <li>**iPhone & Android:** On your smartphone, open your emoji keyboard. Navigate through the categories (often found under 'objects,' 'symbols,' or 'activities') or use the search function to locate the 🔮 **crystal ball emoji** in the emoji list.</li>
+        </ul>
+        <p>**Tip:** For an extra touch of magical enchantment, consider pairing the **crystal ball emoji** with other sparkling emojis like 💫 (dizzy symbol) or ✨ (sparkles)!</p>
+
+        ---
+
+        <h2>💻 Using the 🔮 Crystal Ball Emoji in HTML & CSS</h2>
+        <p>Web developers and designers can easily integrate the **🔮 Crystal Ball Emoji** into their websites and various digital designs. Here's a practical guide on how to utilize this captivating emoji using standard HTML and CSS:</p>
+
+        <h3>HTML Code for 🔮 Crystal Ball Emoji</h3>
+        <p>You can embed the **🔮 crystal ball emoji** directly into your HTML documents using its decimal or hexadecimal Unicode entity, ensuring broad compatibility:</p>
+        <pre><code>&lt;span&gt;&amp;#128262;&lt;/span&gt; &lt;!-- Decimal Unicode for 🔮 Crystal Ball Emoji --&gt;
+&lt;span&gt;&amp;#x1F52E;&lt;/span&gt; &lt;!-- Hexadecimal Unicode for 🔮 Crystal Ball Emoji --&gt;</code></pre>
+
+        <h3>CSS Example for 🔮 Crystal Ball Emoji</h3>
+        <p>To incorporate the **🔮 crystal ball emoji** via CSS, typically as a decorative element or an icon, use its Unicode escape sequence within the content property of a pseudo-element:</p>
+        <pre><code>.fortune-symbol::after {
+          content: '\\\\1F52E'; /* Unicode U+1F52E for Crystal Ball Emoji */
+          font-size: 1.5rem; /* Adjust size as needed */
+          color: #8A2BE2; /* Example: A mystical purple color */
+          margin-left: 5px; /* Add some spacing */
+          /* Ensure font support for emojis across different systems */
+          font-family: 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+        }</code></pre>
+        <p class="note"><em>**Important:** For optimal rendering across all browsers and operating systems, always ensure your project's CSS includes fallback fonts that support a wide range of Unicode emojis, such as "Segoe UI Emoji" or "Apple Color Emoji." This ensures your **🔮 crystal ball emoji** displays correctly for all users.</em></p>
+
+        ---
+
+        <h2>💡 What Does the 🔮 Crystal Ball Emoji Mean?</h2>
+        <p>The **🔮 Crystal Ball Emoji** is primarily used to represent mysticism, fortune-telling, and the profound unknown. It's an ideal visual shorthand in discussions surrounding predictions, horoscopes, divination, or simply as a playful emoji to evoke a sense of magic, mystery, or foresight. Whether you're alluding to a psychic reading, incorporating it into a Halloween-themed message, or adding a touch of wonder to a casual post, this **crystal ball emoji** inherently adds an element of intrigue and anticipation.</p>
+
+        <ul>
+          <li><strong>Fortune Telling 🔮:</strong> Most commonly associated with astrology, psychic readings, and foretelling the future.</li>
+          <li><strong>Magic and Mysticism 🔮:</strong> A perfect visual for mystical or fantasy-themed conversations and content.</li>
+          <li><strong>Prediction 🔮:</strong> Used when sharing something anticipated, foreseen, or when talking about uncertain future events.</li>
+          <li><strong>Supernatural & Esoteric 🔮:</strong> Implies connection to magical, otherworldly, or esoteric events and themes.</li>
+          <li><strong>Curiosity & Discovery 🔮:</strong> Can also represent exploring hidden truths or uncovering secrets.</li>
+        </ul>
+
+        ---
+
+        <h2>✨ Creative Uses of the 🔮 Crystal Ball Emoji</h2>
+        <p>The versatile **🔮 Crystal Ball Emoji** fits perfectly into a variety of creative contexts related to magic, predictions, fantasy, and spirituality. Here are some innovative ways to incorporate it:</p>
+
+        <ul>
+          <li>**Fortune Teller Themes 🔮:** Combine the **crystal ball emoji** with other mystical symbols like 💫 (dizzy symbol) or ✨ (sparkles) to create enchanting digital designs or social media posts, enhancing the magical atmosphere.</li>
+          <li>**Astrology & Predictions 🔮:** Use it prominently in daily horoscopes, astrological forecasts, or whenever you're discussing future predictions or cosmic insights.</li>
+          <li>**Fantasy & Gaming Projects 🔮:** Incorporate the **crystal ball emoji** into titles, descriptions, or character dialogues within fantasy stories, sci-fi narratives, or role-playing games.</li>
+          <li>**Creative Designs 🔮:** Employ the **crystal ball** in website headers, section dividers, or as part of intricate magical art and visual narratives to draw attention and evoke a sense of wonder.</li>
+          <li>**Social Media Engagement 🔮:** Ask "What does your 🔮 predict for today?" or "Looking into my 🔮 for answers!" to spark curiosity and interaction.</li>
+        </ul>
+
+        ---
+
+        <h2>🌟 Why Use Star Symbols for 🔮 Crystal Ball Emoji?</h2>
+        <p>**Star Symbols** is your comprehensive and easy-to-use platform for discovering and utilizing unique emoji symbols, including the fascinating **🔮 Crystal Ball Emoji**. We provide all the essential technical information—such as Unicode, HTML, and CSS codes—along with practical usage examples and inspiring creative showcases. Our goal is to empower you to use this **crystal ball emoji** effectively and expressively in all your digital endeavors. Whether you’re designing a mystical website, writing a captivating magical story, or simply looking to convey excitement and mystery in a chat, the **crystal ball emoji** adds a perfect spark of magic to any context.</p>
+
+        <p>Explore the **🔮 Crystal Ball Emoji** alongside related emojis and symbols such as 💫 (dizzy symbol), 🌟 (star), and 🔯 (six-pointed star) for even greater mystical flair. Copy it with ease, use it confidently in your digital content, or integrate it into your next big creative project. The **crystal ball emoji** truly shines brightest here at **Star Symbols**, making magic accessible to everyone.</p>
+      </section>
+    `
+  },
+
+  {
+    id: 68,
+    symbol: '⍣',
+    name: 'Apl Functional Symbol Circle with X',
+    categories: ['math', 'classic'],
+    slug: 'apl-functional-symbol-circle-with-x',
+    unicode: 'U+2373',
+    date: 'June 20, 2025',
+    seo: {
+      title: '⍣ Apl Functional Symbol Circle with X: Copy & Paste, Unicode',
+      description: 'Copy and paste the ⍣ Apl Functional Symbol Circle with X! Learn its meaning, uses in mathematical and functional contexts, and how to implement it in Unicode.',
+      keywords: 'APL functional symbol, circle with x, ⍣ symbol, mathematical symbols, unicode apl symbol'
+    },
+    technicalInfo: {
+      unicode: 'U+2373',
+      altCode: 'N/A',
+      htmlCode: '&#9003;',
+      cssCode: '"\\2373"',
+      htmlEntity: '',
+      hexCode: '&#x2373;',
+    },
+    creativeShowcases: [
+      { name: 'Math Expression', symbol: '⍣×⍣' },
+      { name: 'APL Programming', symbol: '⍣→⍣' },
+      { name: 'Functional Design', symbol: '⍣⊗⍣' },
+      { name: 'Symbolic Division', symbol: '⍣⨯⍣' },
+      { name: 'Circle Logic', symbol: '⍣∞⍣' }
+    ],
+    relatedSymbols: [
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "✰", name: "Shadowed White Star", slug: "shadowed-white-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Medium Star", slug: "white-medium-star" },
+    ],
+    htmlContent: `
+       <section>
+        <h2>Your Ultimate Guide to the ⍣ APL Functional Symbol Circle with X</h2>
+        <p>Welcome to **Star Symbols**, your go-to source for understanding unique Unicode characters. Today, we focus on the **⍣ APL Functional Symbol Circle with X**. This distinctive mathematical symbol is a core component of APL (**A Programming Language**), where it represents various advanced functional and mathematical operations. Encoded in Unicode as <code>U+2373</code>, the **⍣ Circle with X** is essential for programmers, mathematicians, and anyone interested in the concise notation of APL. This comprehensive guide will help you understand the specific meanings of the **⍣ APL Functional Symbol Circle with X**, how to effectively use it, and how to implement this powerful symbol in your digital projects.</p>
+
+        ---
+
+        <h2>📋 How to Copy & Use the ⍣ APL Functional Symbol Circle with X</h2>
+        <p>Acquiring the **⍣ APL Functional Symbol Circle with X** for your text or code is incredibly straightforward. Simply highlight and copy the symbol directly from this page: **⍣**. You can then paste this **APL functional symbol** wherever it's needed, whether in an APL programming environment, a mathematical document, or any text editor. While direct keyboard input can be specialized for APL, you can also manually insert or find this **⍣ Circle with X** using the following methods on common operating systems:</p>
+
+        <h3>Manual Input Methods for ⍣ APL Functional Symbol Circle with X</h3>
+        <ul>
+          <li>**Windows:** Open the built-in emoji panel by pressing <code>Win + .</code> (Windows key + period). Search for "circle with x" or "APL" to locate the **⍣ APL Functional Symbol Circle with X**.</li>
+          <li>**Mac:** Use the Character Viewer by pressing <code>Control + Command + Space</code>. In the search bar, type "APL symbol" or "circle with x" to find and insert the **⍣ symbol**.</li>
+          <li>**iPhone/Android:** While direct typing may vary by keyboard, you can usually find this **APL functional symbol** in the symbol or mathematical sections of advanced emoji keyboards, or simply copy it from this **Star Symbols** page.</li>
+        </ul>
+        <p><strong>💡 Tip:</strong> For APL programmers, adding the **⍣ APL Functional Symbol Circle with X** to your system's text expander or frequently used symbols list can significantly speed up your workflow when dealing with APL code or mathematical expressions.</p>
+
+        ---
+
+        <h2>💻 Using the ⍣ APL Functional Symbol Circle with X in HTML & CSS</h2>
+        <p>For web developers aiming to display the **⍣ APL Functional Symbol Circle with X** on websites or within web applications, standard HTML and CSS methods offer seamless integration. This is particularly useful for online APL tutorials, mathematical documentation, or any project requiring precise symbolic notation.</p>
+
+        <h3>HTML Code for ⍣ APL Functional Symbol Circle with X</h3>
+        <p>Since there isn't a named HTML entity specifically for the **⍣ APL Functional Symbol Circle with X**, you should use its numeric character codes:</p>
+        <pre><code>&lt;span&gt;&amp;#9003;&lt;/span&gt; &lt;!-- Decimal Unicode for ⍣ APL Functional Symbol Circle with X --&gt;
+&lt;span&gt;&amp;#x2373;&lt;/span&gt; &lt;!-- Hexadecimal Unicode for ⍣ APL Functional Symbol Circle with X --&gt;</code></pre>
+
+        <h3>CSS Example for ⍣ APL Functional Symbol Circle with X</h3>
+        <p>To incorporate the **⍣ APL Functional Symbol Circle with X** using CSS, typically as part of content or as a decorative element, employ its Unicode escape sequence within the content property of a pseudo-element:</p>
+        <pre><code>.apl-operator::before {
+          content: '\\\\2373'; /* Unicode U+2373 for ⍣ APL Functional Symbol Circle with X */
+          font-size: 1.5rem; /* Adjust size as needed */
+          color: #0044cc; /* Example: A common color for code syntax */
+          margin-right: 3px; /* Add some spacing */
+          /* Ensure font support for APL symbols */
+          font-family: 'Segoe UI Symbol', 'Noto Sans Symbols', 'Apple Color Emoji', sans-serif;
+        }</code></pre>
+        <p class="note"><em>**Important:** For accurate rendering of the **⍣ APL Functional Symbol Circle with X** across various browsers and operating systems, ensure your CSS includes fallback fonts that specifically support a wide range of Unicode symbols, especially those from the APL block.</em></p>
+
+        ---
+
+        <h2>💡 What Does the ⍣ APL Functional Symbol Circle with X Mean?</h2>
+        <p>The **⍣ APL Functional Symbol Circle with X** is a highly versatile glyph within APL, serving multiple functions depending on its context. In APL, it's primarily used to denote various functional operations, including scalar functions like **conjugation (complex numbers)**, and often appears in more complex array operations such as a **generalized inner product** or a **matrix inverse** depending on the surrounding syntax. This makes understanding the **⍣ Circle with X** crucial for anyone engaged in APL programming, advanced mathematical notations, or specialized functional programming paradigms. Its precise meaning is derived from the arguments it operates on and its position in an APL expression.</p>
+
+        <ul>
+          <li>**Functional Notation ⍣:** Represents a powerful functional operator, core to APL's concise and expressive syntax.</li>
+          <li>**Mathematical Operations ⍣:** Utilized for a range of advanced mathematical and logical operations, including matrix operations and complex number handling.</li>
+          <li>**APL Programming ⍣:** A special character indicating a specific monadic (one-argument) or dyadic (two-argument) operation or transformation.</li>
+          <li>**Symbolic Use ⍣:** Beyond strict APL, it can be used for various symbolic notations, acting as a unique divider or a marker for specialized functions in technical documents.</li>
+        </ul>
+
+        ---
+
+        <h2>✨ Creative Uses of ⍣ APL Functional Symbol Circle with X</h2>
+        <p>While the **⍣ APL Functional Symbol Circle with X** is intrinsically linked to APL programming, its distinct visual form also opens doors for creative applications in graphic design, typography, and even abstract visual art. Its blend of geometric shapes makes it suitable for various technical and artistic contexts.</p>
+
+        <ul>
+          <li>**Math-Themed Art ⍣:** Incorporate the **⍣ symbol** into designs that explore mathematical themes, logic, algorithmic structures, or abstract representations of equations.</li>
+          <li>**APL Projects & Documentation ⍣:** It's indispensable for accurately creating and documenting APL-related projects, developing visual programming tutorials, or illustrating complex mathematical workflows.</li>
+          <li>**Creative Notation & Visual Markers ⍣:** Use the **⍣ APL Functional Symbol Circle with X** for unique textual dividers, as a distinctive bullet point, or to represent abstract transformations and operators in academic or technical publications.</li>
+          <li>**Logo & Branding ⍣:** Its geometric nature can be stylized for logos or branding related to programming, logic, or analytical fields.</li>
+        </ul>
+
+        ---
+
+        <h2>🌟 Why Choose Star Symbols for ⍣ APL Functional Symbol Circle with X?</h2>
+        <p>**Star Symbols** is your ultimate platform for easily accessing and understanding specialized mathematical and functional symbols like the **⍣ APL Functional Symbol Circle with X**. We provide all the necessary technical information—including Unicode values, HTML entities, and CSS codes—along with practical usage examples and inspiring creative showcases. Our goal is to equip you with everything you need to effectively use this symbol in your projects, whether you're coding in APL, writing precise mathematical expressions, or creating educational content.</p>
+
+        <p>Empower your work with the precision and clarity offered by the **⍣ APL Functional Symbol Circle with X**. Explore our extensive collection for similar symbols, related APL functions, and other advanced mathematical notations. Discover, copy, and integrate—made simple at **Star Symbols**.</p>
+      </section>
+    `
+  },
+
+  {
+    id: 69,
+    symbol: '⛤',
+    name: 'Pentagram',
+    categories: ['classic', 'five-pointed', 'religious'],
+    slug: 'pentagram',
+    unicode: 'U+26E4',
+    date: 'June 20, 2025',
+    seo: {
+      title: 'Pentagram Symbol: Copy & Paste, Meaning, Unicode, HTML & CSS',
+      description: 'Copy and paste the ⛤ Pentagram symbol. Learn its meaning, historical origins, religious associations, and how to use it in HTML, CSS, and Unicode.',
+      keywords: 'pentagram symbol, ⛤ star, five-pointed star, magic star, unicode pentagram, religious star symbol'
+    },
+    technicalInfo: {
+      unicode: 'U+26E4',
+      altCode: 'N/A',
+      htmlCode: '&#9956;',
+      cssCode: '"\\26E4"',
+      htmlEntity: '',
+      hexCode: '&#x26E4;',
+    },
+    creativeShowcases: [
+      { name: 'Mystic Star Circle', symbol: '⛤✦⛤' },
+      { name: 'Witchcraft Aesthetic', symbol: '⛤✨🌙⛤' },
+      { name: 'Dark Magic Alignment', symbol: '⛤🜏⛧' },
+      { name: 'Classic Five-Point Star', symbol: '⛤⛤⛤⛤⛤' },
+      { name: 'Spiritual Protection Set', symbol: '⛤🔯🧿' }
+    ],
+    relatedStars: [
+      { symbol: '★', name: 'Black Star', slug: 'black-star' },
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✡', name: 'Star of David', slug: 'star-of-david' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '⛧', name: 'Inverted Pentagram', slug: 'inverted-pentagram' }
+    ],
+    htmlContent: `
+     <section>
+        <h2>Your Ultimate Guide to the ⛤ Pentagram Symbol</h2>
+        <p>Welcome to **Star Symbols**, your definitive source for understanding and utilizing powerful Unicode characters. Today, we explore the profound **⛤ Pentagram Symbol**. This iconic five-pointed star has been revered and utilized for thousands of years across diverse cultures and belief systems. The **pentagram** is deeply rooted in both spiritual and magical traditions, where it historically served as a potent symbol of protection, divine power, and cosmic connection. As a truly powerful and versatile **symbol**, the **pentagram** carries immense significance in various ancient religions, modern mysticism, and a wide array of occult traditions.</p>
+
+        ---
+
+        <h2>📋 How to Copy & Use the ⛤ Pentagram Symbol</h2>
+        <p>Obtaining and using the **⛤ Pentagram Symbol** is straightforward. You can effortlessly copy this captivating **pentagram symbol** directly from here: **⛤**. Once copied, you can paste this **five-pointed star** into a multitude of contexts, including religious or spiritual texts, within websites, in graphic designs, or wherever you wish to symbolize protection, sacred geometry, or mystical energy. For those who prefer manual input, the **pentagram** can also be typed or inserted using the following platform-specific methods:</p>
+
+        <h3>Manual Input Methods for the ⛤ Pentagram Symbol</h3>
+        <ul>
+          <li>**Windows:** On a Windows PC, press <code>Win + .</code> (Windows key + period) to open the emoji and symbol panel. Then, search for "pentagram" or "star" to locate and insert the **⛤ symbol**.</li>
+          <li>**Mac:** On a Mac, press <code>Control + Command + Space</code> to open the Character Viewer. In the search field, type "pentagram" or "five-pointed star" to easily find and add the **pentagram symbol**.</li>
+          <li>**HTML:** For web development, you can directly embed the **pentagram symbol** using its HTML numeric entities: <code>&amp;#9956;</code> (decimal) or <code>&amp;#x26E4;</code> (hexadecimal).</li>
+          <li>**CSS:** When styling web pages, use the CSS content property with its Unicode escape sequence: <code>content: "\\\\26E4";</code> to display the **pentagram**.</li>
+        </ul>
+        <p><strong>💡 Tip:</strong> Integrating the **pentagram** into your HTML and CSS allows you to subtly yet effectively symbolize divine energy, sacred geometry, or even specific magical design motifs on your digital platforms.</p>
+
+        ---
+
+        <h2>💻 Using the ⛤ Pentagram in HTML & CSS</h2>
+        <p>The **⛤ Pentagram Symbol** can be seamlessly integrated into your web projects using standard HTML and CSS techniques. Whether you’re developing a website with religious or spiritual content, working on a project with magical themes, or simply wish to incorporate a distinctive **five-pointed star** into your design, this powerful **symbol** is a perfect fit for a wide variety of web applications.</p>
+
+        <h3>HTML Code Example for ⛤ Pentagram</h3>
+        <p>Embed the **⛤ pentagram symbol** directly into your web content using its Unicode numeric entities:</p>
+        <pre><code>&lt;span&gt;&amp;#9956;&lt;/span&gt; &lt;!-- Decimal Unicode for ⛤ Pentagram Symbol --&gt;
+&lt;span&gt;&amp;#x26E4;&lt;/span&gt; &lt;!-- Hexadecimal Unicode for ⛤ Pentagram Symbol --&gt;</code></pre>
+
+        <h3>CSS Code Example for ⛤ Pentagram</h3>
+        <p>To use the **⛤ pentagram symbol** as a decorative element or icon via CSS, utilize its Unicode escape sequence within a pseudo-element's content property:</p>
+        <pre><code>.symbol-pentagram::before {
+          content: '\\\\26E4'; /* Unicode U+26E4 for ⛤ Pentagram */
+          font-size: 1.5rem; /* Adjust size as needed */
+          color: #4B0082; /* Example: Deep purple for a mystical appearance */
+          margin-right: 5px; /* Add some spacing */
+          /* Ensure font support for symbols */
+          font-family: 'Segoe UI Symbol', 'Noto Sans Symbols', 'Apple Color Emoji', sans-serif;
+        }</code></pre>
+        <p class="note"><em>**Important:** For the **pentagram symbol** to display optimally across all browsers and devices, ensure your CSS specifies fallback fonts that widely support Unicode symbols, such as "Segoe UI Symbol" or "Apple Color Emoji."</em></p>
+
+        ---
+
+        <h2>🔮 The Meaning and Symbolism of the ⛤ Pentagram</h2>
+        <p>The **pentagram symbol** is far more than just a simple five-pointed star; it is a potent emblem steeped in layers of historical and spiritual meaning. In many traditions, the **pentagram** is understood to represent the balance of the elements (Earth, Air, Fire, Water) crowned by Spirit, or sometimes humanity itself. This **symbol** is extensively used as a sign of protection, often seen etched on altars, magical tools, and sigils in various esoteric practices. The upright **pentagram** typically symbolizes harmony, spiritual connection, and the triumph of spirit over matter. It has been an integral part of ancient rituals, modern Wicca, Neopaganism, and other spiritual paths, consistently symbolizing the intricate connection between humans and the vast universe.</p>
+
+        <ul>
+          <li>**Wiccan Symbolism:** In Wicca and many Neopagan traditions, the **pentagram** represents the five fundamental elements (Earth, Air, Fire, Water, and Spirit), and is frequently employed in protection spells and rituals to evoke balance and sacred connection.</li>
+          <li>**Occult Meaning:** Within various occult disciplines, the **pentagram** stands as a powerful magical symbol, embodying spiritual energy, knowledge, and protection against negative influences.</li>
+          <li>**Religious Uses:** Historically, the **pentagram** saw varied use; in early Christianity, it sometimes represented the five wounds of Christ, although later associations in some traditions shifted towards darker, more controversial themes.</li>
+          <li>**Mathematical Significance:** Beyond its mystical roles, the **pentagram symbol** holds mathematical importance, being intrinsically linked to the golden ratio (Phi) and other divine proportions, reflecting cosmic order and geometric perfection.</li>
+          <li>**Protection:** Across many cultures and practices, the **pentagram** is revered as a ward against evil and a symbol of safeguarding.</li>
+        </ul>
+
+        ---
+
+        <h2>✨ Creative Uses of the ⛤ Pentagram Symbol</h2>
+        <p>Beyond its rich religious and spiritual meanings, the distinct form of the **pentagram** lends itself beautifully to creative incorporation across various types of art and design. Here are some inspiring examples of how you can utilize the **pentagram symbol** in your projects:</p>
+        <ul>
+          <li>**Graphic Design:** Integrate the **pentagram** into logo designs, posters, album art, or product packaging to convey a mystical, magical, or esoteric aesthetic.</li>
+          <li>**Web Design:** The **pentagram** can add a unique symbolic element to your website’s headers, footers, navigation icons, or as a recurring visual motif to establish a particular theme.</li>
+          <li>**Astrology and Spirituality:** Feature the **pentagram** prominently in astrological charts, horoscope layouts, or as a powerful symbol within spiritual texts and digital resources.</li>
+          <li>**Fantasy and Fiction:** Incorporate the **pentagram** into book covers, character designs, maps in role-playing games, or other creative works with magical or fantastical themes.</li>
+          <li>**Decorative Elements:** Use the **⛤ symbol** as a stylized bullet point, a unique text divider, or as part of intricate patterns in backgrounds and borders.</li>
+        </ul>
+
+        ---
+
+        <h2>🌟 Why Choose Star Symbols for Your ⛤ Pentagram Needs?</h2>
+        <p>**Star Symbols** is your comprehensive, reliable resource for all information pertaining to stars, powerful symbols, and unique Unicode characters like the **⛤ Pentagram Symbol**. Whether you’re researching occultism, embarking on a creative design project, or studying religious symbolism, we offer the most extensive and well-explained collection of **pentagram symbols** and related characters. Explore our library for symbols such as the ✡ Star of David, ✦ Black Four Pointed Star, and other geometrically significant or spiritually charged symbols.</p>
+
+        <p>Unleash the power of the **pentagram symbol** in your digital and physical creations today. At **Star Symbols**, we make it easy for you to discover, understand, and effectively bring powerful symbols to life in your designs, websites, and creative works.</p>
+      </section>
+    `
+  },
+
+  {
+    id: 70,
+    symbol: '⧆',
+    name: 'White Diamond Containing Black Small Diamond',
+    slug: 'white-diamond-containing-black-small-diamond',
+    categories: ['math', 'other'],
+    unicode: 'U+29C6',
+    date: 'June 20, 2025',
+    seo: {
+      title: 'White Diamond Containing Black Diamond:Copy & Paste, Unicode',
+      description: 'Explore the ⧆ White Diamond Containing Black Small Diamond symbol. Copy and paste it easily, learn Unicode U+29C6, how to use it in HTML/CSS.',
+      keywords: '⧆ symbol, white diamond black diamond, white diamond with dot, unicode star, math symbols'
+    },
+    technicalInfo: {
+      unicode: 'U+29C6',
+      htmlCode: '&#10694;',
+      hexCode: '&#x29C6;',
+      cssCode: '"\\29C6"',
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [
+      { name: 'Geometric Pattern', symbol: '⧆⧆⧆⧆⧆' },
+      { name: 'Diamond Accent', symbol: '✧⧆✧' },
+      { name: 'Sci-Fi Divider', symbol: '⧆—⧆—⧆' },
+      { name: 'Dot-In-Diamond Motif', symbol: '⧆•⧆•⧆' }
+    ],
+    relatedStars: [
+      { symbol: '★', name: 'Black Star', slug: 'black-star' },
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✡', name: 'Star of David', slug: 'star-of-david' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' }
+    ],
+    htmlContent: `
+      <section>
+        <h2>⧆ Explore the White Diamond Containing Black Small Diamond Symbol</h2>
+        <p>Welcome to **Star Symbols**, your go-to destination for unique Unicode characters. Here, we delve into the **⧆ White Diamond Containing Black Small Diamond** symbol. This rare and distinctive Unicode symbol (officially encoded at **Unicode U+29C6**) masterfully blends geometric elegance with subtle symbolic depth. Often utilized as a **math symbol** or a sophisticated **geometric symbol**, the **⧆ White Diamond Containing Black Small Diamond** offers a unique and compelling addition to scientific papers, design projects, and any content requiring precise or abstract visual notation. Whether you're a mathematician, a graphic designer, or a dedicated Unicode enthusiast, this **⧆ symbol** is an intriguing character to explore.</p>
+
+        ---
+
+        <h2>📋 How to Copy and Use the ⧆ White Diamond Containing Black Small Diamond Symbol</h2>
+        <p>Need to integrate the **⧆ White Diamond Containing Black Small Diamond symbol** into your work immediately? It’s simple: just copy and paste it from here: **⧆**. This versatile **⧆ symbol** is widely supported across most modern operating systems, including macOS, Windows, and Linux, as well as within popular web browsers, word processors, and design software. It proves especially useful in contexts where precise or symbolic notation is crucial, such as in advanced mathematical equations, intricate diagrams, or compelling sci-fi and technical design elements.</p>
+
+        <h3>Manual Input Methods for ⧆ Symbol</h3>
+        <ul>
+          <li>**Windows:** On a Windows PC, you can use the Character Map tool to find and insert the **⧆ symbol**. Alternatively, in applications like Microsoft Word, you can type its Unicode value (<code>29C6</code>) and then press <kbd>Alt + X</kbd> to convert it to the **⧆ White Diamond Containing Black Small Diamond**.</li>
+          <li>**Mac:** On a Mac, open the Character Viewer (accessible via Control + Command + Space). In the search bar, type "diamond" or "containing" to quickly locate the **⧆ symbol**.</li>
+          <li>**Mobile:** Direct input of the **⧆ White Diamond Containing Black Small Diamond** via default mobile keyboards is uncommon. Therefore, the most efficient method on mobile devices is to copy the **⧆ symbol** from this page and paste it into your desired application.</li>
+        </ul>
+
+        ---
+
+        <h2>💻 HTML & CSS Implementation for ⧆ White Diamond Containing Black Small Diamond</h2>
+        <p>For web developers and designers, incorporating the **⧆ White Diamond Containing Black Small Diamond** symbol into web pages and applications is straightforward using standard HTML and CSS methods. This allows for flexible styling and precise placement of this unique geometric character.</p>
+
+        <h3>HTML Code for ⧆ Symbol</h3>
+        <p>You can embed the **⧆ White Diamond Containing Black Small Diamond symbol** directly into your HTML document using its numeric Unicode entities:</p>
+        <pre><code>&amp;#10694; &lt;!-- Decimal Unicode for ⧆ White Diamond Containing Black Small Diamond --&gt;
+&amp;#x29C6; &lt;!-- Hexadecimal Unicode for ⧆ White Diamond Containing Black Small Diamond --&gt;</code></pre>
+
+        <h3>CSS Code for ⧆ Symbol</h3>
+        <p>To display the **⧆ White Diamond Containing Black Small Diamond symbol** using CSS, typically as a decorative element or a pseudo-element, utilize its Unicode escape sequence within the content property:</p>
+        <pre><code>.diamond-symbol::before {
+          content: '\\\\29C6'; /* Unicode U+29C6 for ⧆ White Diamond Containing Black Small Diamond */
+          font-size: 1.5rem; /* Adjust size as desired */
+          color: #555; /* Example: A subtle grey color */
+          margin-right: 5px; /* Add some spacing */
+          /* Ensure proper font support for extended Unicode symbols */
+          font-family: 'STIXGeneral', 'DejaVu Sans', 'Segoe UI Symbol', 'Noto Sans Symbols', sans-serif;
+        }</code></pre>
+        <p class="note"><em>**Important:** For the **⧆ White Diamond Containing Black Small Diamond symbol** to render correctly across all browsers and devices, it's crucial to use fonts that support extended Unicode math symbols. Recommended fonts include "STIXGeneral", "DejaVu Sans", and "Segoe UI Symbol". Always test your implementation across various platforms.</em></p>
+
+        ---
+
+        <h2>📐 Symbolism and Design Use of the ⧆ White Diamond Containing Black Small Diamond</h2>
+        <p>The **⧆ White Diamond Containing Black Small Diamond** is visually striking, combining two contrasting geometric shapes: a larger white diamond (a hollow rhombus) with a smaller, solid black diamond perfectly centered within it. This dual-layer, nested design makes the **⧆ symbol** particularly effective as a **symbol of convergence, layering, encapsulation, or centralization**. Its inherent structure can convey concepts of "inside/outside," "core element," or "contained truth." This **geometric symbol** is also highly impactful in abstract graphic layouts, technical diagrams, and themes exploring sci-fi, alchemy, or logical structures.</p>
+
+        <ul>
+          <li><strong>In Mathematics:</strong> The **⧆ symbol** may be employed in abstract notation, set theory, or geometry texts to indicate nested structures, containment, or compositions within larger frameworks.</li>
+          <li><strong>In Design:</strong> It serves as an excellent element for creating symmetrical, futuristic, or minimalist patterns and motifs, adding sophistication to visual branding.</li>
+          <li><strong>In Symbolism:</strong> The **⧆ White Diamond Containing Black Small Diamond** can represent profound concepts such as "truth inside form," the inner self or core essence, the containment of energy or data, or the intersection of ideas.</li>
+          <li><strong>In Technical Diagrams:</strong> Ideal for representing data encapsulation, hierarchical structures, or specific component relationships in technical schematics.</li>
+        </ul>
+
+        ---
+
+        <h2>🌀 Related Geometric and Mathematical Symbols</h2>
+        <p>If the **⧆ White Diamond Containing Black Small Diamond** resonates with your needs, you might also find these similar geometric or diamond symbols useful in your projects:</p>
+        <ul>
+          <li>**◇ White Diamond Suit:** A clean, hollow rhombus shape, commonly used in card suits.</li>
+          <li>**◆ Black Diamond Suit:** The filled variation of the diamond, also a standard card suit.</li>
+          <li>**⧫ Black Small Diamond:** A smaller, solid diamond shape, often used in logic, bullet points, or technical formatting.</li>
+          <li>**⧄ Square Containing Small Black Square:** A visually analogous nested geometric symbol.</li>
+          <li>**✧ Eight-Pointed Sparkle:** A more decorative star-like symbol with an ornate flair, suitable for visual accents.</li>
+        </ul>
+
+        ---
+
+        <h2>✨ Why Choose Star Symbols for Unicode Icons?</h2>
+        <p>**Star Symbols** is your dedicated and comprehensive resource for all things symbolic—from intricate stars and elegant diamonds to essential mathematical and expressive emoji characters. Whether you’re searching for the perfect **geometric symbol** to enhance a technical diagram, or you specifically need the precise Unicode and HTML codes for the **⧆ White Diamond Containing Black Small Diamond**, we are here to provide accurate and accessible information.</p>
+
+        <p>Start exploring with us today and discover how powerful and elegant symbols like the **⧆ White Diamond Containing Black Small Diamond** can add precision, profound meaning, and unique visual appeal to all your digital and creative work.</p>
+      </section>
+    `
+  },
+
+  {
+    id: 71,
+    symbol: '⛧',
+    name: 'Inverted Pentagram',
+    categories: ['religious', 'five-pointed', 'other', 'classic'],
+    slug: 'inverted-pentagram',
+    unicode: 'U+26A7',
+    date: 'June 20, 2025',
+    seo: {
+      title: 'Inverted Pentagram Symbol: Meaning, Unicode, Copy & Paste',
+      description: 'Learn about the ⛧ Inverted Pentagram symbol: its meaning, historical significance, how to copy and paste it, and how to use it in HTML, CSS, and Unicode.',
+      keywords: 'inverted pentagram symbol, ⛧ symbol, five-pointed star, occult symbol, satanic pentagram'
+    },
+    technicalInfo: {
+      unicode: 'U+26A7',
+      altCode: 'N/A',
+      htmlCode: '&#10647;',
+      cssCode: '"\\26A7"',
+      htmlEntity: '',
+      hexCode: '&#x26A7;',
+    },
+    creativeShowcases: [
+      { name: 'Occult Design', symbol: '⛧✦⛧' },
+      { name: 'Mystic Divider', symbol: '⛧—⛧' },
+      { name: 'Magical Symbol', symbol: '⛧✨🖤' },
+      { name: 'Dark Art', symbol: '⛧🖤⚡' },
+      { name: 'Witchcraft Element', symbol: '⛧🖤🕯️' }
+    ],
+    relatedSymbols: [
+      { symbol: '✡', name: 'Star of David', slug: 'star-of-david' },
+      { symbol: '🔮', name: 'Crystal Ball', slug: 'crystal-ball' },
+      { symbol: '✨', name: 'Sparkles', slug: 'sparkles' },
+      { symbol: '⛤', name: 'Pentagram', slug: 'pentagram' }
+    ],
+    htmlContent: `
+      <section>
+        <h2>⛧ The Inverted Pentagram Symbol: A Comprehensive Guide</h2>
+        <p>Welcome to **Star Symbols**, your definitive resource for understanding the complex world of Unicode symbols. Today, we delve into the **⛧ Inverted Pentagram symbol**, one of the most iconic and often misunderstood emblems in religious, spiritual, and occult traditions. This **inverted pentagram**, a five-pointed star with a single point facing downward, fundamentally symbolizes a reversal or transformation of natural order and is frequently associated with the occult, dark magic, and various mystical arts. It holds significant ties to Satanism, certain interpretations within Wicca, and other esoteric practices.</p>
+
+        <h3>Symbolism and Meaning of the Inverted Pentagram</h3>
+        <p>The **⛧ Inverted Pentagram** is a powerful **occult symbol**, prominently featured in rituals, ceremonies, and a wide array of spiritual and magical contexts. In stark contrast to the upright **pentagram** (which typically symbolizes the harmonious balance of the five elements with spirit ascending), the **inverted pentagram** is often believed to represent a focus on the material over the spiritual, the embrace of chaos, individuality, or the subversion of traditional values. Historically, this **⛧ symbol** has also been utilized to signify an antithesis to conventional divine authority, particularly within Satanism and related philosophical or ideological frameworks.</p>
+
+        ---
+
+        <h2>📋 How to Copy & Use the ⛧ Inverted Pentagram Symbol</h2>
+        <p>Integrating the **⛧ Inverted Pentagram symbol** into your digital content is incredibly easy. The quickest way is to simply highlight and copy it directly from this page: **⛧**. Once copied, you can paste this distinctive **five-pointed star** wherever you need it—be it for a graphic design project, within a spiritual text, or as part of occult-related content. For those who prefer manual input, here are methods for typing or inserting the **inverted pentagram** on various platforms:</p>
+
+        <h3>Manual Input Methods for ⛧ Inverted Pentagram</h3>
+        <ul>
+          <li>**Windows:** On a Windows PC, open the Character Map utility. You can search for "pentagram" or navigate to the Unicode block (Miscellaneous Symbols) to find and select the **⛧ symbol**. Alternatively, in applications that support Unicode input, type <code>26A7</code> and then press <kbd>Alt + X</kbd>.</li>
+          <li>**Mac:** On a Mac, press <code>Control + Command + Space</code> to bring up the Character Viewer. In the search bar, type "inverted pentagram" or "star" to quickly locate and insert the **⛧ symbol**.</li>
+          <li>**HTML:** For web developers, you can embed the **inverted pentagram symbol** using its HTML numeric entities: <code>&amp;#9959;</code> (decimal) or <code>&amp;#x26A7;</code> (hexadecimal).</li>
+          <li>**CSS:** When applying styling to web pages, use the CSS content property with its Unicode escape sequence: <code>content: "\\\\26A7";</code> to display the **⛧ Inverted Pentagram symbol**.</li>
+        </ul>
+
+        ---
+
+        <h2>💻 How to Use the ⛧ Inverted Pentagram in HTML & CSS</h2>
+        <p>Integrating the **⛧ Inverted Pentagram symbol** seamlessly into your website or digital designs is straightforward using standard HTML and CSS techniques. This allows for precise control over its appearance and placement within your content.</p>
+
+        <h3>HTML Code for ⛧ Inverted Pentagram</h3>
+        <p>You can insert the **⛧ Inverted Pentagram symbol** directly into your HTML document using its numeric Unicode entities:</p>
+        <pre><code>&lt;span&gt;&amp;#9959;&lt;/span&gt; &lt;!-- Decimal Unicode for ⛧ Inverted Pentagram --&gt;
+&lt;span&gt;&amp;#x26A7;&lt;/span&gt; &lt;!-- Hexadecimal Unicode for ⛧ Inverted Pentagram --&gt;</code></pre>
+
+        <h3>CSS Styling Example for ⛧ Inverted Pentagram</h3>
+        <p>To apply styles or use the **⛧ Inverted Pentagram symbol** as a decorative element (e.g., as a pseudo-element), use its Unicode escape sequence within the content property in your CSS:</p>
+        <pre><code>.inverted-pentagram-icon::before {
+          content: '\\\\26A7'; /* Unicode U+26A7 for ⛧ Inverted Pentagram */
+          font-size: 1.8rem; /* Adjust size for visual impact */
+          color: darkred; /* Example: A color often associated with the occult */
+          margin-right: 8px; /* Add some spacing */
+          /* Ensure font support for symbols */
+          font-family: 'Segoe UI Symbol', 'Noto Sans Symbols', 'Apple Color Emoji', sans-serif;
+        }</code></pre>
+        <p class="note"><em>**Important:** For optimal rendering of the **⛧ Inverted Pentagram symbol** across various browsers and operating systems, always ensure your CSS includes fallback fonts that widely support Unicode symbols, such as "Segoe UI Symbol" or "Apple Color Emoji."</em></p>
+
+        ---
+
+        <h2>🌌 The Meaning and Symbolism of the ⛧ Inverted Pentagram</h2>
+        <p>The **⛧ Inverted Pentagram** is a symbol with rich and often debated meanings, primarily used in occultism to represent concepts such as spiritual descent, personal transformation, and a conscious rebellion against traditional religious doctrines. While commonly associated with darker themes, its symbolism is nuanced. It can also signify a balance between light and dark, the embrace of primal energies, or be used to invoke specific spiritual energies or to ward off negative influences in certain belief systems.</p>
+
+        <ul>
+          <li>**Occultism and Satanism:** The **inverted pentagram** is famously associated with Satanic practices and philosophies, where it often represents individualism, defiance of Abrahamic religions, and the celebration of the carnal self.</li>
+          <li>**Wicca and Paganism:** While the upright **pentagram** is more common, some Wiccan traditions and individual practitioners use the **inverted pentagram** to symbolize a different relationship with nature's elements, focusing on the shadow aspects, the descent into the underworld, or the Horned God.</li>
+          <li>**Magical Use:** It is a potent symbol in various magical rites, sometimes ritually drawn or inscribed on objects, altars, or within protective circles during specific workings.</li>
+          <li>**Art and Design:** Beyond its ritualistic uses, the **inverted pentagram** frequently appears in art, literature, and media to evoke themes of rebellion, mysticism, the supernatural, or counter-culture.</li>
+          <li>**Balance of Opposites:** In some interpretations, the **⛧ symbol** can represent the necessary balance and integration of opposing forces, such as spirit and matter, or light and shadow.</li>
+        </ul>
+
+        ---
+
+        <h2>🖤 Creative Uses of the ⛧ Inverted Pentagram Symbol</h2>
+        <p>The **⛧ Inverted Pentagram symbol** offers a distinct visual appeal that makes it highly effective for creative applications in graphic design, tattoos, jewelry, fashion, and other forms of visual art. It can instantly add a powerful, dark, or mystical element to any project and is frequently utilized in:</p>
+
+        <ul>
+          <li>**Occult Art & Illustrations:** Incorporate the **inverted pentagram** into occult-themed designs, book covers for fantasy or horror genres, or posters that evoke a sense of ancient mystery.</li>
+          <li>**Music and Fashion Industry:** The **⛧ symbol** is a prevalent motif in subcultures like goth, metal, and punk, appearing on album covers, band merchandise, and alternative fashion lines.</li>
+          <li>**Spiritual & Protective Items:** Design custom protective talismans, sigils, or amulets featuring the **inverted pentagram** for those who resonate with its protective or transformative energies.</li>
+          <li>**Tattoo Art:** The **inverted pentagram** is a popular choice for tattoos, symbolizing personal rebellion, spiritual beliefs, or a connection to esoteric practices.</li>
+          <li>**Digital Content:** Use the **⛧ symbol** as a stylistic element in blog posts about mysticism, in social media graphics for alternative communities, or as part of a gaming interface.</li>
+        </ul>
+
+        ---
+
+        <h2>🌟 Why Use Star Symbols for Your Inverted Pentagram Needs?</h2>
+        <p>**Star Symbols** is your perfect platform for accessing and utilizing a vast array of unique Unicode symbols, including the powerful **⛧ Inverted Pentagram**. Whether you are a designer creating mystical art, a writer exploring esoteric subjects, or simply someone curious about the world of symbolic imagery, our platform provides comprehensive information. From precise Unicode values and HTML/CSS codes to insightful meanings and visual examples, we offer everything you need for your creative and spiritual projects.</p>
+
+        <p>Empower your designs, stories, and spiritual practices today. Get your **⛧ Inverted Pentagram** and other captivating symbols from **Star Symbols**, and discover how these profound shapes can enhance your work and convey deep meaning.</p>
+      </section>
+    `
+  },
+
+  {
+    id: 72,
+    symbol: '🤩',
+    name: 'Star Struck',
+    slug: 'star-struck',
+    categories: ['emoji', 'five-pointed', 'classic'],
+    unicode: 'U+1F929',
+    date: 'June 20, 2025',
+    seo: {
+      title: '🤩 Star-Struck: Copy & Paste, Meaning, Unicode, HTML & CSS',
+      description: 'Copy and paste the 🤩 Star-Struck emoji! Discover its joyful meaning, Unicode (U+1F929), HTML and CSS, and how to use it in your social media or web design.',
+      keywords: 'star-struck emoji, 🤩 emoji, smiling star eyes, emoji copy paste, star eyes face, unicode star emoji'
+    },
+    technicalInfo: {
+      unicode: 'U+1F929',
+      htmlCode: '&#129321;',
+      hexCode: '&#x1F929;',
+      cssCode: '"\\1F929"',
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [
+      { name: 'Excited Expression', symbol: '🤩🎉' },
+      { name: 'Fan Reaction', symbol: '🤩👏💫' },
+      { name: 'Celebrity Spotting', symbol: '🤩🌟📸' },
+      { name: 'Glowing Star Vibes', symbol: '🤩✨🪩' },
+      { name: 'Overjoyed Combo', symbol: '🤩😍❤️' }
+    ],
+    relatedSymbols: [
+      { symbol: '✨', name: 'Sparkles', slug: 'sparkles' },
+      { symbol: '🌟', name: 'Glowing Star', slug: 'glowing-star' },
+      { symbol: '💖', name: 'Sparkling Heart', slug: 'sparkling-heart' },
+      { symbol: '💫', name: 'Dizzy Symbol', slug: 'dizzy-symbol' }
+    ],
+    htmlContent: `
+      <section>
+        <h2>🤩 Star-Struck Emoji: The Ultimate Expression of Amazement and Joy</h2>
+        <p>Welcome to **Star Symbols**, your go-to resource for understanding and utilizing popular Unicode characters. Today, we're putting the spotlight on the vibrant **🤩 Star-Struck emoji**, also affectionately known as the **smiling star eyes emoji**. This highly expressive emoji perfectly encapsulates feelings of profound amazement, overwhelming wonder, and pure, unadulterated joy. With its cheerful, beaming face and prominent five-pointed star-shaped eyes, the **Star-Struck emoji** is the quintessential visual representation of admiration, thrilling celebrity encounters, exciting news, and boundless enthusiasm. Whether you're reacting to a performance by your favorite idol or celebrating a major personal success, the **🤩 Star-Struck** face is the ideal way to communicate that you are absolutely amazed or utterly thrilled.</p>
+
+        <p>Commonly referred to as the **star eyes emoji** or the **Star-Struck face**, this widely recognized Unicode symbol (<code>U+1F929</code>) is a staple across all major social media platforms, popular messaging apps, personal blogs, and various creative digital designs. The **Star-Struck emoji** is not only colorful and emotionally charged but also instantly communicates a burst of excitement without the need for additional words, making it a favorite for quick, impactful reactions.</p>
+
+        ---
+
+        <h2>📋 Copy & Paste the 🤩 Star-Struck Emoji Instantly</h2>
+        <p>Ready to infuse your message with the radiant energy of the **Star-Struck emoji**? You can copy it immediately from here: **🤩**. This **🤩 Star-Struck** face is universally supported across all major platforms, including iPhone, Android, Windows, macOS, and popular social media services like Facebook, Instagram, TikTok, and YouTube. You'll find the **Star-Struck emoji** readily available within most standard emoji keyboards and rich text editors, making it incredibly convenient to use.</p>
+
+        <h3>How to Find the 🤩 Star-Struck Emoji on Your Device</h3>
+        <ul>
+          <li>**Windows:** On a Windows PC, press the <kbd>Win</kbd> + <kbd>.</kbd> (Windows key + period) shortcut to open the emoji panel. In the search bar, type "star-struck" to quickly locate and insert the **🤩 emoji**.</li>
+          <li>**Mac:** On a Mac, press <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd> to open the Character Viewer. Then, type “star-struck” in the search box to find and select the **🤩 Star-Struck emoji**.</li>
+          <li>**iOS/Android:** On your mobile device, open your default emoji keyboard. Navigate to the "smileys & emotion" or "faces" category, then scroll or search for the distinctive **🤩 Star-Struck emoji** among the expressions.</li>
+        </ul>
+        <p>If for any reason your device's keyboard doesn’t readily display it, you can always reliably **copy and paste the 🤩 Star-Struck emoji** directly from this page at **Star Symbols**!</p>
+
+        ---
+
+        <h2>💡 The Meaning and Interpretations of the 🤩 Star-Struck Emoji</h2>
+        <p>The **🤩 Star-Struck emoji** fundamentally represents someone who is utterly amazed, completely captivated, or in profound awe, particularly after encountering something or someone truly incredible. The very design of the **Star-Struck face** literally conveys "stars in your eyes," reflecting a powerful sense of wonder. It is extensively used to communicate deep admiration, overflowing joy, intense inspiration, or fervent fan reactions across various digital communications.</p>
+
+        <h3>Common Interpretations and Usage of 🤩 Star-Struck</h3>
+        <ul>
+          <li>**Celebrity Reactions:** This emoji is perfect for expressing your excitement when reacting to a famous person’s photo, video, performance, or even a real-life sighting.</li>
+          <li>**Exciting News & Achievements:** Use the **🤩 Star-Struck emoji** to celebrate thrilling news like a new job, a blossoming relationship, a significant personal achievement, or any major positive life event.</li>
+          <li>**Crush or Love at First Sight:** If you're feeling completely overwhelmed and charmed by someone, dropping a **🤩** perfectly conveys that "love at first sight" or intense admiration.</li>
+          <li>**Dream Come True Moments:** From fulfilling travel aspirations to winning a competition, or experiencing any scenario that feels like a dream realized, these moments absolutely deserve a **Star-Struck emoji**.</li>
+          <li>**Inspiration & Awe:** When you are profoundly inspired by an idea, a piece of art, or a breathtaking view, the **🤩 Star-Struck** effectively communicates that sense of awe.</li>
+        </ul>
+        <p>Essentially, whenever you are thoroughly amazed, pleasantly shocked, or profoundly inspired by something or someone, the **🤩 Star-Struck emoji** is your go-to expression!</p>
+
+        ---
+
+        <h2>💻 HTML, Unicode & CSS for the 🤩 Star-Struck Emoji</h2>
+        <p>For developers and designers, the **🤩 Star-Struck emoji** is a standardized Unicode character, located at code point <code>U+1F929</code>. This standardization ensures easy and consistent use across websites and digital applications.</p>
+
+        <h3>HTML Encoding for 🤩 Star-Struck</h3>
+        <p>You can embed the **🤩 Star-Struck emoji** directly into your HTML document using its numeric character codes:</p>
+        <pre><code>&amp;#129321; &lt;!-- Decimal Unicode for 🤩 Star-Struck Emoji --&gt;
+&amp;#x1F929; &lt;!-- Hexadecimal Unicode for 🤩 Star-Struck Emoji --&gt;</code></pre>
+
+        <h3>CSS Usage for 🤩 Star-Struck</h3>
+        <p>To incorporate the **🤩 Star-Struck emoji** using CSS, typically as a decorative element or within content generated by CSS, employ its Unicode escape sequence within the content property:</p>
+        <pre><code>.star-struck-icon::before {
+          content: '\\\\1F929'; /* Unicode U+1F929 for 🤩 Star-Struck Emoji */
+          font-size: 2rem; /* Adjust size as desired */
+          /* Ensure proper font support for emojis */
+          font-family: 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+        }</code></pre>
+        <p class="note"><em>**Important:** To guarantee the proper and vibrant display of the **🤩 Star-Struck emoji** across all platforms and browsers, always ensure your CSS includes fallback fonts that widely support colorful Unicode emojis, such as “Segoe UI Emoji,” “Apple Color Emoji,” or “Noto Color Emoji.”</em></p>
+
+        ---
+
+        <h2>🌟 Creative Uses of the 🤩 Star-Struck Emoji</h2>
+        <p>The highly expressive **Star-Struck face emoji** is a versatile tool for adding flair and emotion in various digital scenarios. It is commonly seen and effectively used in the following contexts:</p>
+        <ul>
+          <li>**Fandom Culture:** Essential for reacting to celebrity sightings, sharing fan art, creating engaging fan cams, and crafting heartfelt tributes to beloved public figures.</li>
+          <li>**Event Promotion:** Ideal for generating excitement for music festivals, new product launches, major announcements, or any event designed to create a "wow" factor.</li>
+          <li>**Social Messaging:** A perfect response to visually appealing photos, exciting style reveals, triumphant personal news, or any big moment worth celebrating.</li>
+          <li>**Brand Design & Marketing:** Brands often use the **🤩 Star-Struck emoji** to imbue their design or marketing materials with a starry, enthusiastic, and positive vibe, signaling excitement about their products or services.</li>
+          <li>**Educational Content:** Use it to express fascination when discussing amazing facts, scientific discoveries, or historical events.</li>
+        </ul>
+        <p>For an extra layer of flair and aesthetic appeal, combine the **🤩 Star-Struck emoji** with other sparkling and expressive emojis such as ✨ (sparkles), 💖 (sparkling heart), 🌟 (glowing star), or 🪩 (disco ball)!</p>
+
+        ---
+
+        <h2>🔍 Related Emojis and Star Symbols</h2>
+        <p>If you enjoy the expressive power of the **🤩 Star-Struck emoji**, here are some related emojis and symbols that convey similar emotions or visual themes to explore further:</p>
+        <ul>
+          <li><strong>😍 Smiling Face with Heart-Eyes Emoji:</strong> For expressing love, adoration, or strong affection.</li>
+          <li><strong>✨ Sparkles Emoji:</strong> To add a touch of magic, newness, or cleanliness.</li>
+          <li><strong>🌟 Glowing Star Emoji:</strong> Represents a real star, excellence, or a shining moment.</li>
+          <li><strong>💫 Dizzy Symbol Emoji:</strong> Used for feeling dizzy, star-struck, or stunned.</li>
+          <li><strong>💖 Sparkling Heart Emoji:</strong> A vibrant heart for expressing strong, joyful love.</li>
+          <li><strong>🤯 Exploding Head Emoji:</strong> For moments of disbelief, shock, or being overwhelmed (often positively).</li>
+          <li><strong>😲 Astonished Face Emoji:</strong> Similar to star-struck, conveying surprise and amazement.</li>
+        </ul>
+
+        ---
+
+        <h2>🎯 Final Thoughts: Why the 🤩 Star-Struck Emoji Shines So Brightly</h2>
+        <p>The **🤩 Star-Struck emoji** is far more than just a simple icon—it’s a dynamic, joyful, and incredibly expressive way to communicate profound excitement, admiration, and awe across the digital landscape. Whether you’re designing a vibrant marketing campaign, posting a heartfelt reaction to compelling content, or simply highlighting a moment of personal wonder, the **Star-Struck emoji** effortlessly adds undeniable star power and emotional depth to your message.</p>
+
+        <p>Continue to explore more amazing and expressive emojis like **🤩** right here on **Star Symbols**—your premier destination for all things Unicode stars, compelling emotional expressions, and everything that truly shines!</p>
+      </section>
+    `
+  },
+
+  {
+    id: 73,
+    symbol: '𓇻',
+    name: 'Egyptian Hieroglyph Vulture',
+    slug: 'egyptian-hieroglyph-vulture',
+    categories: ['other', 'classic', 'five-pointed'],
+    unicode: 'U+133BB',
+    date: 'June 20, 2025',
+    seo: {
+      title: 'Egyptian Hieroglyph Vulture: Meaning, Unicode, Copy & Paste',
+      description: 'Learn about the 𓇻 Egyptian Hieroglyph Vulture symbol. Discover its meaning in ancient Egyptian culture, Unicode (U+133BB), how to copy and paste it.',
+      keywords: '𓇻 vulture hieroglyph, egyptian hieroglyph vulture, copy paste egyptian symbol, unicode hieroglyph'
+    },
+    technicalInfo: {
+      unicode: 'U+133BB',
+      htmlCode: '&#12635;',
+      hexCode: '&#x133BB;',
+      cssCode: '"\\133BB"',
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [
+      { name: 'Egyptian Art Motif', symbol: '𓇻𓇻𓇻' },
+      { name: 'Ancient Wisdom Symbol', symbol: '𓇻🌟𓇻' },
+      { name: 'Pharaoh’s Protection', symbol: '𓇻💀🦅' },
+      { name: 'Divine Animal Icon', symbol: '𓇻⛥💫' },
+      { name: 'Mythical Design', symbol: '𓇻⚡✨' }
+    ],
+    relatedSymbols: [
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" },
+      { symbol: "✰", name: "Shadowed White Star", slug: "shadowed-white-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Medium Star", slug: "white-medium-star" },
+    ],
+    htmlContent: `
+<section>
+  <h2>𓇻 Egyptian Hieroglyph Vulture: A Sacred Symbol of Protection and Royal Power</h2>
+  <p>Welcome to **Star Symbols**, your go-to resource for exploring the rich history and modern usage of Unicode characters. Today, we're diving into the **𓇻 Egyptian Hieroglyph Vulture**, a profoundly symbolic character from ancient Egyptian writing. Part of the extended Unicode system, the **Egyptian Hieroglyph Vulture** represents far more than just a bird. It embodies divine motherhood, fierce protection, and undeniable royal legitimacy. Closely linked to the powerful goddess Nekhbet, the vulture was one of the most revered animals in ancient Egyptian religion and art. When you choose to use the **Egyptian Hieroglyph Vulture** in contemporary design or content, you're tapping into thousands of years of profound spiritual and cultural significance.</p>
+
+  <p>This distinctive **Egyptian Hieroglyph Vulture** appears extensively in hieroglyphic inscriptions, majestic temple carvings, and crucial funerary texts from ancient Egypt. It carries both phonetic and powerful symbolic meaning. Phonetically, the character itself corresponds to the "mut" sound, meaning "mother," reflecting its association with maternal and nurturing deities. Symbolically, it served as a visual representation of protective forces, safeguarding individuals and royalty alike in both life and the challenging journey into the afterlife. The **Egyptian Hieroglyph Vulture** was not merely a component of written language but a potent visual talisman in its own right.</p>
+
+  ---
+
+  <h2>📋 How to Copy and Paste the 𓇻 Egyptian Hieroglyph Vulture Symbol</h2>
+  <p>You can effortlessly **copy and paste the Egyptian Hieroglyph Vulture** directly from here: **𓇻**. Use this powerful Unicode symbol to instantly infuse your projects with an authentic ancient Egyptian aesthetic and deep historical meaning. Whether you're an Egyptology enthusiast, an educator designing learning materials, an artist creating themed works, or a graphic designer seeking unique elements, the **Egyptian Hieroglyph Vulture** will bring a sense of history, meaning, and authority to your work.</p>
+
+  <h3>Copy Instructions for 𓇻:</h3>
+  <ul>
+    <li>**Windows:** On a Windows PC, press <kbd>Win</kbd> + <kbd>.</kbd> (Windows key + period) to open the Emoji panel. While you might not find specific hieroglyphs by text search there, you can directly paste the **Egyptian Hieroglyph Vulture** if copied from this page. For advanced users, Character Map or third-party Unicode input tools may be used.</li>
+    <li>**Mac:** On a Mac, press <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd> to open the Character Viewer. You can then search for “vulture” or the Unicode value “133BB” to locate the **𓇻 symbol**.</li>
+    <li>**Mobile:** On most smartphones, simply long-tap on the **𓇻 Egyptian Hieroglyph Vulture** displayed on this page, then select "Copy." You can then paste it into virtually any app or text field.</li>
+  </ul>
+  <p>This easy **copy and paste Egyptian symbol** functionality makes it perfect for quickly adding the **Egyptian Hieroglyph Vulture** to social media posts, website headers, academic papers, or intricate design elements.</p>
+
+  ---
+
+  <h2>💡 Symbolic Meaning of the 𓇻 Egyptian Hieroglyph Vulture</h2>
+  <p>The **𓇻 Egyptian Hieroglyph Vulture** is rich in meaning, primarily representing divine protection, nurturing motherhood, and profound spiritual power. Its most significant association is with **Nekhbet**, the venerable vulture goddess of Upper Egypt. Nekhbet was revered as a divine guardian, fiercely protecting the pharaohs and their cities. Consequently, the **Egyptian Hieroglyph Vulture** was prominently featured on royal crowns, majestic temple reliefs, and protective magical amulets, underscoring its pivotal role in royal and religious iconography.</p>
+
+  <p>In the context of funerary beliefs, the **Egyptian Hieroglyph Vulture** played a crucial role in ensuring a safe and blessed passage for the deceased into the afterlife. As a component of the elaborate visual language of hieroglyphs, the **Egyptian Hieroglyph Vulture** communicated clear intentions of protection and conveyed powerful maternal blessings. Its consistent presence in royal iconography, often alongside the cobra (representing Lower Egypt), further emphasizes its paramount cultural and spiritual importance as a symbol of united Egypt and divine guardianship.</p>
+
+  <ul>
+    <li>**Royal Use:** The **Egyptian Hieroglyph Vulture** was a key emblem on the crowns of queens and pharaohs, signifying their divine protection and legitimacy.</li>
+    <li>**Spiritual Symbol:** It conveyed a sense of divine oversight, maternal protection, and spiritual guardianship.</li>
+    <li>**Hieroglyphic Function:** Phonetically, it was used to represent the sound "mut," which means "mother" in ancient Egyptian.</li>
+    <li>**Protective Glyph:** Frequently inscribed in tomb walls, sarcophagi, and charms to ensure safety and blessings in the journey to the afterlife.</li>
+    <li>**Goddess Nekhbet:** Directly symbolizes the goddess Nekhbet, patron deity of Upper Egypt and protector of the king.</li>
+  </ul>
+
+  ---
+
+  <h2>💻 Use the 𓇻 Egyptian Hieroglyph Vulture in HTML and CSS</h2>
+  <p>Web designers and developers can seamlessly incorporate the **𓇻 Egyptian Hieroglyph Vulture** into their digital projects, provided they utilize full Unicode support. Here’s how to insert this powerful ancient symbol into your HTML or CSS code:</p>
+
+  <h3>HTML Code for 𓇻:</h3>
+  <p>You can embed the **𓇻 Egyptian Hieroglyph Vulture** directly into your HTML document using its numeric Unicode entities:</p>
+  <pre><code>&amp;#78651; &lt;!-- Decimal Unicode for 𓇻 Egyptian Hieroglyph Vulture --&gt;
+&amp;#x133BB; &lt;!-- Hexadecimal Unicode for 𓇻 Egyptian Hieroglyph Vulture --&gt;</code></pre>
+
+  <h3>CSS Code for 𓇻:</h3>
+  <p>To display the **𓇻 Egyptian Hieroglyph Vulture** using CSS, perhaps as a decorative background element or a pseudo-element for text, employ its Unicode escape sequence within the content property:</p>
+  <pre><code>.vulture-glyph::before {
+          content: '\\\\133BB'; /* Unicode U+133BB for 𓇻 Egyptian Hieroglyph Vulture */
+          font-family: 'Noto Sans Egyptian Hieroglyphs', serif; /* Critical for rendering */
+          font-size: 2.5rem; /* Adjust size as needed */
+          color: #B8860B; /* Example: A golden color to evoke ancient artifacts */
+        }</code></pre>
+
+  <p class="note"><em>**Important:** Ensure that your website or application explicitly uses fonts that support extended Unicode glyphs, specifically the Egyptian Hieroglyphs block. The **𓇻 Egyptian Hieroglyph Vulture** will render best and most authentically in scholarly, historical, educational, or mystical projects where the unique aesthetics of ancient Egyptian visual language add significant depth and authenticity. A recommended font for broad support is **'Noto Sans Egyptian Hieroglyphs'** or similar specialized fonts.</em></p>
+
+  ---
+
+  <h2>🎨 Modern Uses of the 𓇻 Egyptian Hieroglyph Vulture Symbol</h2>
+  <p>Today, the **𓇻 Egyptian Hieroglyph Vulture** continues to be a captivating symbol, finding its way into various modern applications. It appears in tattoos, fine art, spiritual tools, and educational resources, bridging the gap between ancient history and contemporary culture. Many individuals choose the **Egyptian Hieroglyph Vulture** as a personal symbol of protection, maternal energy, or divine power. Designers also cleverly integrate the **Egyptian Hieroglyph Vulture** into logos, product packaging, jewelry, and intricate graphic storytelling to evoke a sense of ancient mystery and enduring power.</p>
+
+  <ul>
+    <li>**Decorative Arts:** Include the **Egyptian Hieroglyph Vulture** as a central element in decorative borders, repeating motifs, or modern hieroglyphic-inspired art pieces.</li>
+    <li>**Tattoos:** A popular choice for those looking to honor ancestry, symbolize powerful protection, or express connection to divine feminine energy.</li>
+    <li>**Books & Educational Courses:** Scholarly and educational materials frequently feature the **Egyptian Hieroglyph Vulture** in glossaries, grammar charts for ancient languages, or historical illustrations.</li>
+    <li>**Mystical & Esoteric Branding:** The **𓇻 symbol** naturally lends historical weight, authenticity, and an aura of ancient wisdom to spiritual, esoteric, and cultural products or brands.</li>
+    <li>**Gaming & Media:** Use in video games, films, or documentaries exploring ancient Egyptian themes.</li>
+  </ul>
+
+  ---
+
+  <h2>🌟 Discover More Ancient Symbols at Star Symbols</h2>
+  <p>**Star Symbols** is your comprehensive and reliable resource for hundreds of meaningful Unicode glyphs, from celestial bodies to ancient scripts like the **𓇻 Egyptian Hieroglyph Vulture**. Explore our curated collections of other sacred symbols, classic star icons, diverse religious signs, and fascinating Unicode characters that can infuse cultural richness and aesthetic beauty into all your projects. Whether you want to effortlessly **copy and paste the Egyptian Hieroglyph Vulture** for a quick use or meticulously embed it into your code, this page provides all the essential information you need.</p>
+
+  <p>Don’t stop your exploration at the **𓇻 Egyptian Hieroglyph Vulture**—we encourage you to also discover and use related symbols:</p>
+  <ul>
+    <li>**𓂀 Eye of Horus:** A powerful symbol of protection, royal power, and good health.</li>
+    <li>**𓇽 Ankh:** The ancient Egyptian hieroglyphic character that symbolizes life.</li>
+    <li>**𓅂 Egyptian Hieroglyph Falcon:** Often associated with Horus, a symbol of kingship and divine power.</li>
+    <li>**𓂓 Lotus Flower:** Symbolizing creation, rebirth, and the sun in Egyptian mythology.</li>
+  </ul>
+
+  <p>All these and many more unique characters are easily available with full Unicode support at **Star Symbols**, ready to be used just like the **𓇻 Egyptian Hieroglyph Vulture** to enrich your digital and creative endeavors. Which ancient symbol will you bring to life next?</p>
+</section>
+    `
+  },
+
+
+  {
+    id: 74,
+    symbol: '🟄',
+    name: 'Mahjong Tile Red Dragon',
+    slug: 'mahjong-tile-red-dragon',
+    categories: ['four-pointed', 'other', 'math'],
+    unicode: 'U+1F004',
+    date: 'June 20, 2025',
+    seo: {
+      title: '🟄 Mahjong Tile Red Dragon: Meaning, Unicode, Copy & Paste',
+      description: 'Discover the 🟄 Mahjong Tile Red Dragon symbol: its meaning, Unicode (U+1F004), how to use it in HTML, CSS, and copy-paste it in your designs.',
+      keywords: '🟄 symbol, Mahjong tile red dragon, Unicode red dragon, Mahjong tile symbol, red dragon symbol'
+    },
+    technicalInfo: {
+      unicode: 'U+1F004',
+      htmlCode: '&#127004;',
+      hexCode: '&#x1F004;',
+      cssCode: '"\\1F004"',
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [
+      { name: 'Gaming Design Element', symbol: '🟄🎮' },
+      { name: 'Decorative Border', symbol: '🟄🟄🟄' },
+      { name: 'Chinese New Year Decoration', symbol: '🟄🎆🧧' },
+      { name: 'Colorful Tile Art', symbol: '🟄✨🖌️' },
+      { name: 'Lucky Symbol Design', symbol: '🟄🌟🎨' }
+    ],
+    relatedSymbols: [
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
+      { symbol: "✧", name: "White Four Pointed Star", slug: "white-four-pointed-star" },
+      { symbol: "🌟", name: "Glowing Star", slug: "glowing-star" }
+    ],
+    htmlContent: `
+    <section>
+        <h2>🟄 Mahjong Tile Red Dragon: Unicode Symbol of Luck, Power, and Honor</h2>
+        <p>Welcome to **Star Symbols**, your go-to resource for exploring the fascinating world of Unicode characters and their cultural significance. Today, we're highlighting the **🟄 Mahjong Tile Red Dragon**, a unique and visually striking Unicode character directly inspired by the traditional Chinese game of Mahjong. As an integral part of the Mahjong tile set, the **Mahjong Tile Red Dragon** (also known as "zhong" or "center") profoundly represents themes of luck, formidable power, and esteemed honor. In the expansive Unicode system, this tile has been meticulously preserved as a versatile symbol, appealing not only to game enthusiasts but also to designers, web developers, and content creators who seek to integrate a rich, culturally resonant emblem into their digital work.</p>
+
+        <p>While the **🟄 Mahjong Tile Red Dragon** was primarily intended for authentic digital representations of Mahjong games, its distinctive appearance and auspicious connotations have led to its widespread adoption. It's now commonly used as a decorative emoji, a charming symbol of good fortune, or a thematic design element in various digital contexts. Its bold, vibrant red appearance makes it exceptionally suitable for celebratory events, dynamic gaming platforms, and diverse artistic projects. Whether you're coding a compelling game user interface or designing a festive cultural post, the **Mahjong Tile Red Dragon** stands as a potent and visually impactful icon to consider.</p>
+
+        ---
+
+        <h2>📋 How to Copy and Paste the 🟄 Mahjong Tile Red Dragon Symbol Instantly</h2>
+        <p>Do you need to use the **🟄 Mahjong Tile Red Dragon** right now? It's incredibly simple! Just copy this character: **🟄** and paste it into any document, website, messaging app, or design software. The **Mahjong Tile Red Dragon** is universally supported by modern digital platforms, including iOS, Android, macOS, and Windows, ensuring it displays correctly across your devices.</p>
+
+        <h3>Quick Input Methods for 🟄 Mahjong Tile Red Dragon:</h3>
+        <ul>
+          <li>**Windows:** On a Windows PC, press <kbd>Win</kbd> + <kbd>.</kbd> (Windows key + period) to open the emoji picker. You can then search for “Mahjong” or navigate through the symbol categories to find the **🟄 Mahjong Tile Red Dragon**.</li>
+          <li>**Mac:** On a Mac, press <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd> to open the Character Viewer. Type “Mahjong Tile Red Dragon” or "red dragon" in the search bar to locate the **🟄 symbol**.</li>
+          <li>**Mobile (iPhone/Android):** Access your standard emoji keyboard. You may find the **🟄 Mahjong Tile Red Dragon** by searching for "Mahjong," "tile," or "dragon," or by Browse through the symbols or game categories.</li>
+        </ul>
+        <p>If you're unable to find it via your keyboard, the most reliable method is always to **copy and paste the 🟄 Mahjong Tile Red Dragon** directly from this page. It's fast, convenient, and requires no special input configuration.</p>
+
+        ---
+
+        <h2>💻 HTML and CSS Usage of the 🟄 Mahjong Tile Red Dragon</h2>
+        <p>For web developers and designers, incorporating the **🟄 Mahjong Tile Red Dragon** into websites or applications is straightforward by embedding its specific Unicode value. This method ensures consistent rendering and allows for styling flexibility.</p>
+
+        <h3>HTML Code for 🟄 Mahjong Tile Red Dragon:</h3>
+        <p>You can insert the **🟄 Mahjong Tile Red Dragon** directly into your HTML document using its numeric Unicode entities:</p>
+        <pre><code>&amp;#127004; &lt;!-- Decimal Unicode for 🟄 Mahjong Tile Red Dragon --&gt;
+&amp;#x1F004; &lt;!-- Hexadecimal Unicode for 🟄 Mahjong Tile Red Dragon --&gt;</code></pre>
+
+        <h3>CSS Usage for 🟄 Mahjong Tile Red Dragon:</h3>
+        <p>To style or display the **🟄 Mahjong Tile Red Dragon** using CSS, for instance, as a decorative element or within a pseudo-element, use its Unicode escape sequence within the content property:</p>
+        <pre><code>.mahjong-dragon::before {
+          content: '\\\\1F004'; /* Unicode U+1F004 for 🟄 Mahjong Tile Red Dragon */
+          font-family: 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; /* Crucial for display */
+          font-size: 2.2rem; /* Adjust size as desired */
+          color: #CC0000; /* Example: A bold red color to match the tile's theme */
+          margin-right: 5px; /* Add some spacing */
+        }</code></pre>
+        <p class="note"><em>**Important:** To ensure the **🟄 Mahjong Tile Red Dragon** displays beautifully and consistently across all browsers and devices, it is critical that your font stack includes fonts that fully support emoji glyphs, such as "Segoe UI Emoji," "Apple Color Emoji," or "Noto Color Emoji." Always test your implementation on different platforms.</em></p>
+
+        ---
+
+        <h2>🎨 Creative Uses of the 🟄 Mahjong Tile Red Dragon Symbol</h2>
+        <p>The **🟄 Mahjong Tile Red Dragon** is not just a game piece; its powerful aesthetic and cultural resonance make it a fantastic element for creative designs that aim to evoke themes of Eastern tradition, prosperity, and authority. Here are several compelling ways people are using the **Mahjong Tile Red Dragon** in modern contexts:</p>
+
+        <ul>
+          <li>**Graphic Design:** A striking addition to greeting cards, celebratory posters, festive banners, and digital flyers—especially impactful for Chinese New Year celebrations, cultural events, or luck-themed promotions.</li>
+          <li>**Gaming User Interfaces (UIs):** Many digital Mahjong-inspired games and applications utilize the **🟄 Mahjong Tile Red Dragon** for scoring displays, loading screens, individual tile previews, or as a symbol of high achievement.</li>
+          <li>**Decorative Dividers & Borders:** Create visually engaging and culturally rich repeating patterns or borders using the **🟄 Mahjong Tile Red Dragon** as a unique accent in web design or print layouts.</li>
+          <li>**Cultural & Spiritual Design:** Integrate the **🟄 Mahjong Tile Red Dragon** into mandalas, digital art pieces, or symbolic arrangements to express concepts of inner strength, prosperity, and spiritual clarity.</li>
+          <li>**Merchandise & Branding:** A distinctive emblem for merchandise, apparel, or branding for businesses that align with themes of Eastern culture, gaming, or good fortune.</li>
+        </ul>
+        <p>As both a cherished traditional artifact and a versatile modern symbol, the **🟄 Mahjong Tile Red Dragon** effectively bridges deep cultural meaning with undeniable aesthetic impact in contemporary design.</p>
+
+        ---
+
+        <h2>📚 Symbol Meaning: What Does the 🟄 Mahjong Tile Red Dragon Represent?</h2>
+        <p>In the beloved game of Mahjong, the **🟄 Mahjong Tile Red Dragon** (known as “zhong” or the "center" tile) holds significant power and prestige. It is one of the three "Dragon" tiles, alongside the White Dragon (&#127000; or 🀀) and the Green Dragon (&#127005; or 🀅). The Red Dragon is particularly revered and is commonly a crucial component in high-scoring winning hands and complex combinations. Beyond its gameplay mechanics, the **🟄 Mahjong Tile Red Dragon** has been widely interpreted in Chinese culture as a potent symbol of spiritual clarity, inner fire, ceremonial authority, and central power, often associated with imperial might and righteousness.</p>
+
+        <p>In Unicode, the **🟄 Mahjong Tile Red Dragon** is specifically encoded as **U+1F004** and resides within the dedicated Mahjong Tiles block. Its standardized recognition across various digital systems allows it to be seamlessly combined with text, other emojis, or images to create unique and culturally rich visual results.</p>
+
+        ---
+
+        <h2>🔗 Related Mahjong Tiles and Cultural Symbols</h2>
+        <p>If you find the **🟄 Mahjong Tile Red Dragon** appealing, you might also be interested in exploring these related Mahjong tiles and other culturally significant symbols:</p>
+        <ul>
+          <li>**🀀 Mahjong Tile White Dragon:** Often represents purity, honesty, or simply a blank slate in the game.</li>
+          <li>**🀅 Mahjong Tile Green Dragon:** Symbolizes prosperity, growth, and good fortune.</li>
+          <li>**🀄 Mahjong Tile Red Middle:** (Note: This is often another representation of the Red Dragon, but sometimes used distinctly depending on font/context).</li>
+          <li>**🟥 Red Square Emoji:** A basic geometric symbol sharing the iconic red color.</li>
+          <li>**🐉 Dragon Emoji:** A more generic, but culturally significant, dragon symbol.</li>
+          <li>**🧧 Red Envelope Emoji:** Associated with good luck and gifts, especially during Chinese New Year.</li>
+        </ul>
+        <p>Combine these with the **🟄 Mahjong Tile Red Dragon** for multi-symbol compositions or richly themed cultural content in your designs and communications.</p>
+
+        ---
+
+        <h2>✨ Why Choose Star Symbols for Unicode Tiles Like the 🟄 Mahjong Tile Red Dragon?</h2>
+        <p>**Star Symbols** is your comprehensive and user-friendly platform, providing easy access to hundreds of Unicode-based visual symbols. Our extensive library includes a diverse range of characters—from expressive emojis and precise mathematical shapes to unique cultural tiles like the **🟄 Mahjong Tile Red Dragon**. We are dedicated to helping you effortlessly find, copy, and correctly implement even rare or specialized symbols in your creative, academic, or professional work. The **Mahjong Tile Red Dragon** is a prime example of how ancient symbolism powerfully converges with modern technology, and **Star Symbols** makes that connection more accessible than ever before.</p>
+
+        <p>Ready to unlock the power and luck of the **🟄 Mahjong Tile Red Dragon**? Copy it now and start enriching your digital creations with this culturally significant and visually striking Unicode character!</p>
+      </section>
+    `
+  },
+
+  {
+    id: 75,
+    symbol: '🟇',
+    name: 'Medium Four Pointed Pinwheel Star', // Name updated to reflect search results
+    slug: 'medium-four-pointed-pinwheel-star', // Slug updated
+    categories: ['emoji', 'other', 'four-pointed'], // Categories refined
+    unicode: 'U+1F7C7',
+    date: 'June 20, 2025',
+    seo: {
+      title: '🟇 Medium Four Pointed Pinwheel Star: Copy & Paste', // SEO title updated
+      description: 'Explore the 🟇 Medium Four Pointed Pinwheel Star symbol: discover its unique geometric meaning, Unicode (U+1F7C7), and use it in HTML and CSS.', // SEO description updated
+      keywords: '🟇 symbol, medium four pointed pinwheel star, pinwheel star, geometric star, unicode star' // SEO keywords updated
+    },
+    technicalInfo: {
+      unicode: 'U+1F7C7',
+      htmlCode: '&#128759;',
+      hexCode: '&#x1F7C7;',
+      cssCode: '"\\1F7C7"',
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [ // Showcases updated to align with pinwheel star
+      { name: 'Geometric Pattern', symbol: '🟇🟇🟇🟇' },
+      { name: 'Abstract Design Element', symbol: '🌀🟇🌀' },
+      { name: 'Loading Spinner Motif', symbol: '⚙️🟇⚙️' },
+      { name: 'Decorative Divider', symbol: '🟇🔸🔹🟇' },
+      { name: 'Modern Art Accent', symbol: '✨🟇✨' }
+    ],
+    relatedSymbols: [ // Related symbols updated to include other stars/geometric shapes
+      { symbol: '🟈', name: 'Brown Square', slug: 'brown-square' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+      { symbol: '⭐', name: 'White Medium Star', slug: 'white-medium-star' }
+    ],
+    htmlContent: `
+       <section>
+      <h2>🟇 Medium Four Pointed Pinwheel Star: A Dynamic Geometric Symbol</h2>
+      <p>Welcome to **Star Symbols**, your ultimate resource for exploring the vast world of Unicode characters. Today, we're focusing on the intriguing 🟇 **Medium Four Pointed Pinwheel Star**. This unique geometric Unicode character stands out with its dynamic and balanced visual appeal, evoking a sense of rotation, energy, or a central point. Unlike a typical star or a simple square, its abstract form resembles a pinwheel or spinning blades, making the **Medium Four Pointed Pinwheel Star** ideal for projects that aim to convey motion, vitality, or a modern aesthetic. The **Medium Four Pointed Pinwheel Star** is truly a versatile symbol.</p>
+
+      <p>With its clean yet energetic design, the 🟇 **Medium Four Pointed Pinwheel Star** finds widespread use in various digital applications, particularly in abstract art, UI elements, and decorative content. Whether you're seeking a distinctive geometric shape to enhance an interface or simply need a vibrant symbol to infuse your design with dynamism, the **Medium Four Pointed Pinwheel Star** offers endless creative possibilities for any project, making it a powerful visual tool.</p>
+
+      ---
+
+      <h2>📋 How to Copy & Paste the 🟇 Medium Four Pointed Pinwheel Star Symbol</h2>
+      <p>Using the 🟇 **Medium Four Pointed Pinwheel Star** symbol is incredibly easy. Just copy it directly from here: **🟇**, and then paste it into any document, website, or message. This distinctive and dynamic **Medium Four Pointed Pinwheel Star** design is suitable for all sorts of digital applications, from mobile apps to web graphics, seamlessly integrating into your creative work. Get your **Medium Four Pointed Pinwheel Star** copied and pasted in seconds!</p>
+
+      <h3>Steps to Copy the 🟇 Medium Four Pointed Pinwheel Star:</h3>
+      <ul>
+        <li><strong>Windows:</strong> Press <kbd>Win</kbd> + <kbd>.</kbd> to open the emoji panel. You might try searching for "star" or "pinwheel" to locate the **Medium Four Pointed Pinwheel Star**, or simply paste the 🟇 symbol if you've already copied it.</li>
+        <li><strong>Mac:</strong> Press <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd> to open the Character Viewer. Then, search for “pinwheel star” or “four pointed star” to find this specific **Medium Four Pointed Pinwheel Star** symbol.</li>
+        <li><strong>Mobile:</strong> On your phone or tablet, simply long-press on the 🟇 **Medium Four Pointed Pinwheel Star** displayed on this page, and then select "Copy" to paste it into any app. You'll find the **Medium Four Pointed Pinwheel Star** renders beautifully.</li>
+      </ul>
+
+      ---
+
+      <h2>💻 How to Use 🟇 in HTML & CSS</h2>
+      <p>Integrating the 🟇 **Medium Four Pointed Pinwheel Star** symbol into your web projects is straightforward using standard HTML and CSS. You can add the **Medium Four Pointed Pinwheel Star** to your website or application by leveraging its Unicode value, as shown below:</p>
+
+      <h3>HTML Code:</h3>
+      <pre><code>&amp;#128759; or &amp;#x1F7C7;</code></pre>
+
+      <h3>CSS Styling:</h3>
+      <pre><code>.pinwheel-star-icon::before {
+        content: '\\\\1F7C7'; /* Unicode U+1F7C7 for 🟇 Medium Four Pointed Pinwheel Star */
+        font-size: 2.5rem; /* Adjust size for visual impact */
+        color: #007BFF; /* Example color, you can change as needed */
+        /* Ensure font support for symbols */
+        font-family: 'Segoe UI Emoji', 'Noto Color Emoji', 'Apple Color Emoji', sans-serif;
+      }</code></pre>
+
+      <p class="note"><em>**Important:** To ensure the 🟇 **Medium Four Pointed Pinwheel Star** renders correctly and consistently across various browsers and operating systems, make sure your website's font stack includes emoji-supporting fonts such as "Segoe UI Emoji," "Noto Color Emoji," or "Apple Color Emoji." Consistent display of the **Medium Four Pointed Pinwheel Star** is key.</em></p>
+
+      ---
+
+      <h2>🎨 Creative Uses for the 🟇 Medium Four Pointed Pinwheel Star</h2>
+      <p>The 🟇 **Medium Four Pointed Pinwheel Star** is a versatile symbol, perfect for a wide range of digital and graphic design projects, especially where you want to evoke geometric elegance and abstract concepts:</p>
+      <ul>
+        <li><strong>Abstract Art & Design:</strong> Integrate the **Medium Four Pointed Pinwheel Star** into modern, geometric, or abstract artworks to create unique visual focal points or repeating patterns. The **Medium Four Pointed Pinwheel Star** brings a dynamic edge.</li>
+        <li><strong>User Interface Elements:</strong> Use the 🟇 symbol as a distinctive UI element, a dynamic loading indicator, or part of a progress bar to add visual interest to user experiences. This **Medium Four Pointed Pinwheel Star** can truly enhance interactivity.</li>
+        <li><strong>Decorative Dividers:</strong> Combine the **Medium Four Pointed Pinwheel Star** with other geometric symbols or colors to craft eye-catching page dividers or borders in content layouts. A repeating **Medium Four Pointed Pinwheel Star** pattern can be very striking.</li>
+        <li><strong>Branding & Logo Design:</strong> Leverage its unique shape for logos or branding that aims to convey innovation, technology, or dynamic movement. The **Medium Four Pointed Pinwheel Star** makes a memorable and impactful emblem.</li>
+        <li><strong>Sci-Fi or Fantasy Themes:</strong> Employ the **Medium Four Pointed Pinwheel Star** in designs related to cosmos, energy, or magical arrays as a mystical or power-invoking symbol. Its abstract nature makes the **Medium Four Pointed Pinwheel Star** ideal for such uses.</li>
+      </ul>
+
+      ---
+
+      <h2>🔗 Related Geometric & Star Symbols</h2>
+      <p>If you find the unique geometry of the 🟇 **Medium Four Pointed Pinwheel Star** appealing, you might also be interested in exploring these related symbols that share similar themes or visual characteristics:</p>
+      <ul>
+        <li><strong>🟈</strong> Four Pointed Pinwheel Star</li>
+        <li><strong>✦</strong> Black Four Pointed Star</li>
+        <li><strong>✧</strong> White Four Pointed Star</li>
+        <li><strong>✴️</strong> Eight Pointed Star</li>
+        <li><strong>🌀</strong> Cyclone Emoji (visually similar to a pinwheel)</li>
+        <li><strong>⭐</strong> White Medium Star</li>
+      </ul>
+
+      ---
+
+      <h2>🌟 Why Choose Star Symbols for Geometric Icons Like 🟇?</h2>
+      <p>**Star Symbols** gives you easy access to a vast array of Unicode characters, including versatile geometric shapes like the 🟇 **Medium Four Pointed Pinwheel Star**. Whether you're meticulously designing an interface, creating intricate digital art, or simply looking to add a unique decorative element to your website, we offer a comprehensive and user-friendly collection of geometric and emoji symbols for all your creative and professional needs. The **Medium Four Pointed Pinwheel Star** is just one example of the many powerful symbols we provide.</p>
+
+      <p>Start using the 🟇 **Medium Four Pointed Pinwheel Star** today—just copy, paste, and watch this powerful, versatile symbol enhance your digital designs!</p>
+    </section>
+    `
+  },
+
+  {
+    id: 76,
+    symbol: '🟆',
+    name: 'Squared Katakana Wo', // Corrected name based on Unicode standard
+    slug: 'squared-katakana-wo', // Corrected slug
+    categories: ['other', 'classic', 'four-pointed'], // Updated categories
+    unicode: 'U+1F206',
+    date: 'June 20, 2025',
+    seo: {
+      title: '🟆 Squared Katakana Wo: Meaning, Unicode, Copy & Paste', // SEO title updated
+      description: 'Discover the 🟆 Squared Katakana Wo symbol (U+1F206): learn its origin as a Japanese Katakana character, its meaning, how to copy and paste it.', // SEO description updated
+      keywords: '🟆 symbol, Squared Katakana Wo, Katakana Wo, Japanese character, Unicode Katakana' // SEO keywords updated
+    },
+    technicalInfo: {
+      unicode: 'U+1F206',
+      htmlCode: '&#127102;',
+      hexCode: '&#x1F206;',
+      cssCode: '"\\1F206"',
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [ // Creative showcases adjusted for the character's nature
+      { name: 'Cultural Design Element', symbol: '🌸🟆⛩️' },
+      { name: 'Gaming Interface Accent', symbol: '🎮🟆🕹️' },
+      { name: 'Educational Material', symbol: '📚🟆📖' },
+      { name: 'Stylized Bullet Point', symbol: '🟆 Item One' }
+    ],
+    relatedSymbols: [ // Related symbols adjusted to be more relevant
+      { symbol: '🟈', name: 'Brown Square', slug: 'brown-square' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+      { symbol: '⭐', name: 'White Medium Star', slug: 'white-medium-star' }
+    ],
+    htmlContent: `
+      <section>
+      <h2>🟆 Squared Katakana Wo: A Unique Japanese Character Symbol</h2>
+      <p>Welcome to **Star Symbols**, your go-to resource for exploring the fascinating world of Unicode characters. Today, we're diving into the 🟆 **Squared Katakana Wo**, a distinctive Unicode symbol originating from the Japanese writing system. This **Squared Katakana Wo** character visually represents the Katakana character 'ヲ' (read as "wo" or sometimes "o") enclosed within a square. While this particular **Squared Katakana Wo** is frequently rendered with a yellow background in many emoji sets, its primary identity and meaning stem from its phonetic and linguistic role in Japanese. The versatility of the **Squared Katakana Wo** makes it a valuable digital asset.</p>
+
+      <p>The **Squared Katakana Wo (🟆)** is part of a series of "squared" Japanese characters in Unicode, often used for stylistic purposes, to emphasize text, or in digital interfaces where a clear, concise visual representation of the Katakana 'ヲ' is needed. This specific **Squared Katakana Wo** bridges the gap between text and iconography, making the **Squared Katakana Wo** a versatile symbol for both informational and decorative applications in digital content, design, and even gaming contexts.</p>
+
+      ---
+
+      <h2>📋 How to Copy & Paste the 🟆 Squared Katakana Wo Symbol</h2>
+      <p>Need to use the 🟆 **Squared Katakana Wo** in your project or message? Simply copy the **Squared Katakana Wo** from here: **🟆** and paste it wherever you need it. This distinct **Squared Katakana Wo** symbol is widely supported across modern digital platforms, including iOS, Android, macOS, and Windows, ensuring the **Squared Katakana Wo** displays correctly in most contexts.</p>
+
+      <h3>How to Copy the 🟆 Squared Katakana Wo:</h3>
+      <ul>
+        <li><strong>Windows:</strong> Press <kbd>Win</kbd> + <kbd>.</kbd> to open the emoji panel. While direct search for "Katakana Wo" might vary, you can easily paste the 🟆 **Squared Katakana Wo** once copied from this page.</li>
+        <li><strong>Mac:</strong> Press <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd> to open the Character Viewer. Search for "Katakana Wo" or its Unicode value "1F206" to find the 🟆 **Squared Katakana Wo** symbol.</li>
+        <li><strong>Mobile:</strong> On iOS or Android, long-press on the 🟆 **Squared Katakana Wo** displayed on this page, then select "Copy." You can then paste the **Squared Katakana Wo** into any app or text field.</li>
+      </ul>
+
+      <p>This **copy and paste Squared Katakana Wo** symbol is ideal for adding an authentic Japanese flair to your content, for linguistic examples, or as a unique design element. The **Squared Katakana Wo** truly stands out.</p>
+
+      ---
+
+      <h2>💻 Using 🟆 in HTML & CSS</h2>
+      <p>For web developers and designers, the 🟆 **Squared Katakana Wo** symbol can be seamlessly embedded into web content using its Unicode value. This ensures proper rendering of the **Squared Katakana Wo** across different browsers and devices.</p>
+
+      <h3>HTML Code:</h3>
+      <pre><code>&amp;#127102; or &amp;#x1F206;</code></pre>
+
+      <h3>CSS Code:</h3>
+      <pre><code>.katakana-wo-symbol::before {
+        content: '\\\\1F206'; /* Unicode U+1F206 for 🟆 Squared Katakana Wo */
+        font-size: 2.5rem; /* Adjust size as needed */
+        color: #DAA520; /* Example: A gold/yellow hue, reflecting common emoji rendering for Squared Katakana Wo */
+        /* Ensure font stack supports Japanese characters and emojis */
+        font-family: 'Segoe UI Emoji', 'Noto Color Emoji', 'Apple Color Emoji', 'Meiryo', sans-serif;
+      }</code></pre>
+
+      <p class="note"><em>**Important:** To ensure the 🟆 **Squared Katakana Wo** symbol displays correctly, especially its Katakana character, make sure your website's font stack includes fonts that support Japanese characters and Unicode emoji glyphs, such as "Segoe UI Emoji," "Apple Color Emoji," "Noto Color Emoji," or specific Japanese fonts like "Meiryo" or "Yu Gothic." Consistent display of the **Squared Katakana Wo** is paramount.</em></p>
+
+      ---
+
+      <h2>🎨 Creative Uses of the 🟆 Squared Katakana Wo</h2>
+      <p>The 🟆 **Squared Katakana Wo** is a versatile symbol with unique applications, particularly in contexts involving Japanese language, culture, or stylized design:</p>
+      <ul>
+        <li><strong>Japanese Typography & Text:</strong> Use the **Squared Katakana Wo** to add emphasis to Japanese text, in educational materials for language learning, or in subtitles. The **Squared Katakana Wo** highlights specific words.</li>
+        <li><strong>Cultural & Thematic Designs:</strong> Incorporate the **Squared Katakana Wo** into designs for Japanese-themed events, products, or websites, adding an authentic touch. This **Squared Katakana Wo** enhances cultural representation.</li>
+        <li><strong>Gaming Interfaces:</strong> The **Squared Katakana Wo** is ideal for use in game UIs, especially those with a Japanese origin or theme, perhaps for specific commands, item labels, or decorative elements. Many games benefit from the **Squared Katakana Wo**.</li>
+        <li><strong>Digital Art & Emoticons:</strong> The **Squared Katakana Wo** can serve as a unique element in digital art compositions or as a specialized emoticon in messaging apps. Artists find the **Squared Katakana Wo** an interesting addition.</li>
+        <li><strong>Branding:</strong> For brands aiming to convey a connection to Japanese culture, innovation, or a unique style, the **Squared Katakana Wo** can be a distinctive logo element or branding accent. Consider using the **Squared Katakana Wo** for a memorable brand identity.</li>
+      </ul>
+
+      ---
+
+      <h2>🔗 Related Symbols and Japanese Characters</h2>
+      <p>If you're interested in the 🟆 **Squared Katakana Wo**, you might also find these related symbols and Japanese characters useful for your projects:</p>
+      <ul>
+        <li><strong>🈁</strong> Squared Katakana Koko (another common squared Katakana character)</li>
+        <li><strong>🈹</strong> Squared Katakana Discount (a widely recognized squared Katakana)</li>
+        <li><strong>🈐</strong> Squared Katakana Pronunciation (another specific squared Katakana)</li>
+        <li><strong>ヲ</strong> Katakana Letter Wo (the un-squared version of the character, related to Squared Katakana Wo)</li>
+        <li><strong>🟨</strong> Large Yellow Square Emoji (for comparison, a plain yellow square, distinct from Squared Katakana Wo)</li>
+        <li><strong>🇯🇵</strong> Flag of Japan Emoji (a general symbol for Japan, often used alongside Squared Katakana Wo)</li>
+      </ul>
+      <p>These symbols can be combined with the **Squared Katakana Wo** to create rich, culturally infused compositions, making your designs more impactful with the inclusion of **Squared Katakana Wo**.</p>
+
+      ---
+
+      <h2>✨ Why Choose Star Symbols for Unique Characters Like 🟆?</h2>
+      <p>**Star Symbols** offers a wide array of Unicode characters, from common emojis to unique linguistic symbols like the 🟆 **Squared Katakana Wo**. We make it easy to find, copy, and correctly implement these special characters in your creative and professional projects. Whether you're working on web development, graphic design, or content creation, **Star Symbols** is your ultimate source for accurate Unicode symbol information and easy-to-use tools. The **Squared Katakana Wo** is just one example of the many powerful symbols we provide, empowering your digital work.</p>
+
+      <p>Start exploring the 🟆 **Squared Katakana Wo** and other unique symbols today on **Star Symbols**—your reliable guide to Unicode characters and a valuable resource for finding the perfect **Squared Katakana Wo**!</p>
+    </section>
+    `
+  },
+
+  {
+    id: 77,
+    symbol: '🟈',
+    name: 'Four Pointed Pinwheel Star', // Corrected name based on U+1F7C8
+    slug: 'four-pointed-pinwheel-star', // Corrected slug
+    categories: ['four-pointed', 'emoji', 'other'], // Updated categories
+    unicode: 'U+1F7C8', // Corrected Unicode for 🟈
+    date: 'June 20, 2025',
+    seo: {
+      title: '🟈 Four Pointed Pinwheel Star: Copy & Paste, Unicode', // SEO title updated
+      description: 'Explore the 🟈 Four Pointed Pinwheel Star symbol: discover its unique geometric design, Unicode, and how to easily copy, paste, and use it in HTML and CSS.', // SEO description updated
+      keywords: '🟈 symbol, four pointed pinwheel star, pinwheel star, geometric star, unicode star, abstract symbol' // SEO keywords updated
+    },
+    technicalInfo: {
+      unicode: 'U+1F7C8', // Corrected Unicode
+      htmlCode: '&#128968;', // Corrected decimal HTML entity for U+1F7C8
+      hexCode: '&#x1F7C8;', // Corrected hexadecimal HTML entity for U+1F7C8
+      cssCode: '"\\1F7C8"', // Corrected CSS code for U+1F7C8
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [ // Creative showcases adjusted for a pinwheel star
+      { name: 'Dynamic Geometric Pattern', symbol: '🟈🟈🟈🟈' },
+      { name: 'Abstract Art Element', symbol: '🌀🟈🌀' },
+      { name: 'Visual Loading Indicator', symbol: '⏳🟈🔄' },
+      { name: 'Stylized Divider', symbol: '🟈✨🔸🟈' },
+      { name: 'Modern Design Accent', symbol: '🎨🟈🖌️' }
+    ],
+    relatedSymbols: [ // Related symbols adjusted to include other stars/geometric shapes
+      { symbol: '🟇', name: 'Medium Four Pointed Pinwheel Star', slug: 'medium-four-pointed-pinwheel-star' }, // The previously generated pinwheel star
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+      { symbol: '✴️', name: 'Eight Pointed Black Star', slug: 'eight-pointed-black-star' },
+      { symbol: '⭐', name: 'White Medium Star', slug: 'white-medium-star' },
+    ],
+    htmlContent: `
+      <section>
+        <h2>🟈 Four Pointed Pinwheel Star: A Symbol of Motion and Abstract Design</h2>
+        <p>Welcome to **Star Symbols**, your ultimate destination for discovering unique Unicode characters. Today, we're exploring the intriguing 🟈 **Four Pointed Pinwheel Star**. This geometric Unicode symbol is distinct for its abstract, dynamic design, resembling a pinwheel in motion. The **Four Pointed Pinwheel Star** conveys a sense of energy, rotation, or a central focal point, making it a powerful visual element in various digital contexts. Its unique structure differentiates it from simpler star or square symbols.</p>
+  
+        <p>The 🟈 **Four Pointed Pinwheel Star** is a highly versatile symbol often utilized in modern interface design, abstract graphic art, and as a decorative accent. Whether you're aiming to infuse your projects with a sense of movement, create intricate patterns, or add a contemporary flair, the **Four Pointed Pinwheel Star** offers endless creative possibilities. It's an excellent choice for designs that prioritize dynamic aesthetics and visual interest.</p>
+  
+        ---
+  
+        <h2>📋 How to Copy & Paste the 🟈 Four Pointed Pinwheel Star Symbol</h2>
+        <p>Using the 🟈 **Four Pointed Pinwheel Star** symbol is straightforward. Simply copy it directly from here: **🟈** and paste it into your document, website, or message. This distinctive **Four Pointed Pinwheel Star** is broadly supported across contemporary digital platforms, including iOS, Android, macOS, and Windows, ensuring it displays accurately in most applications.</p>
+  
+        <h3>Steps to Copy the 🟈 Four Pointed Pinwheel Star:</h3>
+        <ul>
+          <li><strong>Windows:</strong> Press <kbd>Win</kbd> + <kbd>.</kbd> to open the emoji panel. You may try searching for "pinwheel star" to locate the 🟈 **Four Pointed Pinwheel Star**, or simply paste it if already copied.</li>
+          <li><strong>Mac:</strong> Press <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd> to open the Character Viewer. Search for “pinwheel star” or its Unicode value "1F7C8" to easily find this **Four Pointed Pinwheel Star** symbol.</li>
+          <li><strong>Mobile:</strong> On your smartphone or tablet, long-press on the 🟈 **Four Pointed Pinwheel Star** displayed on this page, then select "Copy." You can then paste this **Four Pointed Pinwheel Star** into any app or text field.</li>
+        </ul>
+  
+        <p>This **copy and paste Four Pointed Pinwheel Star** symbol is ideal for adding unique visual interest, representing dynamism, or creating striking patterns in your digital content.</p>
+  
+        ---
+  
+        <h2>💻 Using 🟈 in HTML & CSS</h2>
+        <p>For web developers and designers, the 🟈 **Four Pointed Pinwheel Star** symbol can be seamlessly embedded into web content using its Unicode value. This method ensures that the **Four Pointed Pinwheel Star** renders correctly across various browsers and devices.</p>
+  
+        <h3>HTML Code:</h3>
+        <pre><code>&amp;#128968; or &amp;#x1F7C8;</code></pre>
+  
+        <h3>CSS Styling:</h3>
+        <pre><code>.pinwheel-star-icon::before {
+          content: '\\\\1F7C8'; /* Unicode U+1F7C8 for 🟈 Four Pointed Pinwheel Star */
+          font-size: 2.5rem; /* Adjust size for visual impact */
+          color: #FF6347; /* Example: A dynamic, complementary color for the Four Pointed Pinwheel Star */
+          /* Ensure font stack supports geometric symbols and emojis */
+          font-family: 'Segoe UI Emoji', 'Noto Color Emoji', 'Apple Color Emoji', sans-serif;
+        }</code></pre>
+  
+        <p class="note"><em>**Important:** To ensure the 🟈 **Four Pointed Pinwheel Star** symbol displays correctly and consistently across different platforms, ensure your website's font stack includes fonts that widely support Unicode geometric shapes and emoji glyphs, such as "Segoe UI Emoji," "Apple Color Emoji," or "Noto Color Emoji." Proper rendering of the **Four Pointed Pinwheel Star** is crucial for visual integrity.</em></p>
+  
+        ---
+  
+        <h2>🎨 Creative Uses for the 🟈 Four Pointed Pinwheel Star</h2>
+        <p>The 🟈 **Four Pointed Pinwheel Star** is a highly versatile symbol, perfect for a wide array of digital and graphic design projects, especially those requiring a sense of movement, abstract art, or distinctive visual accents:</p>
+        <ul>
+          <li><strong>Abstract Art & Patterns:</strong> Integrate the **Four Pointed Pinwheel Star** into modern art pieces, repeating patterns, or background textures to create dynamic and engaging visuals.</li>
+          <li><strong>User Interface Elements:</strong> Use the 🟈 symbol as a unique button icon, a loading spinner, or a navigational element in apps and websites, leveraging the visual dynamism of the **Four Pointed Pinwheel Star**.</li>
+          <li><strong>Decorative Borders & Dividers:</strong> Combine the **Four Pointed Pinwheel Star** with other geometric shapes or lines to craft eye-catching borders or section dividers in content layouts.</li>
+          <li><strong>Branding & Logos:</strong> Leverage the distinctive shape of the **Four Pointed Pinwheel Star** for logos or branding that aims to convey innovation, energy, or a forward-thinking approach.</li>
+          <li><strong>Infographics & Data Visualization:</strong> Employ the **Four Pointed Pinwheel Star** to represent cyclical processes, points of interest, or abstract data categories in a visually appealing way.</li>
+        </ul>
+  
+        ---
+  
+        <h2>🔗 Related Geometric & Star Symbols</h2>
+        <p>If you find the unique geometry of the 🟈 **Four Pointed Pinwheel Star** appealing, you might also be interested in exploring these related symbols that share similar themes or visual characteristics:</p>
+        <ul>
+          <li><strong>🟇</strong> Medium Four Pointed Pinwheel Star (a related, slightly different pinwheel star)</li>
+          <li><strong>✦</strong> Black Four Pointed Star</li>
+          <li><strong>✧</strong> White Four Pointed Star</li>
+          <li><strong>✴️</strong> Eight Pointed Star</li>
+          <li><strong>🌀</strong> Cyclone Emoji (visually evokes similar motion)</li>
+          <li><strong>⭐</strong> White Medium Star</li>
+          <li><strong>🟫</strong> Brown Square Emoji (the actual brown square for reference)</li>
+        </ul>
+        <p>These symbols can be combined with the **Four Pointed Pinwheel Star** to create diverse and visually rich compositions.</p>
+  
+        ---
+  
+        <h2>✨ Why Choose Star Symbols for Geometric Icons Like 🟈?</h2>
+        <p>**Star Symbols** offers you easy access to a vast array of Unicode characters, including versatile geometric shapes like the 🟈 **Four Pointed Pinwheel Star**. Whether you're meticulously designing an interface, creating intricate digital art, or simply looking to add a unique decorative element to your website, we provide a comprehensive and user-friendly collection of geometric and emoji symbols for all your creative and professional needs. The **Four Pointed Pinwheel Star** is just one example of the many powerful symbols we empower you to use.</p>
+  
+        <p>Start using the 🟈 **Four Pointed Pinwheel Star** today—just copy, paste, and watch this powerful, versatile symbol enhance your digital designs!</p>
+      </section>
+    `
+  },
+
+  {
+    id: 78,
+    symbol: '🟍',
+    name: 'Left-Pointing Black Triangle with Vertices at Cap and Baseline', // Corrected official Unicode name for U+1F7CD
+    slug: 'left-pointing-black-triangle', // More concise slug for a long name
+    categories: ['emoji', 'other', 'six-pointed'], // Updated categories
+    unicode: 'U+1F7CD', // Corrected Unicode for 🟍
+    date: 'June 20, 2025',
+    seo: {
+      title: '🟍 Left-Pointing Black Triangle: Copy & Paste, Unicode', // SEO title updated
+      description: 'Explore the 🟍 Left-Pointing Black Triangle with Vertices at Cap and Baseline symbol: learn its meaning, Unicode (U+1F7CD), and how to copy, paste', // SEO description updated
+      keywords: '🟍 symbol, left-pointing black triangle, black triangle, geometric triangle, Unicode triangle' // SEO keywords updated
+    },
+    technicalInfo: {
+      unicode: 'U+1F7CD', // Corrected Unicode
+      htmlCode: '&#128973;', // Corrected decimal HTML entity for U+1F7CD
+      hexCode: '&#x1F7CD;', // Corrected hexadecimal HTML entity for U+1F7CD
+      cssCode: '"\\1F7CD"', // Corrected CSS code for U+1F7CD
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [ // Creative showcases adjusted for a left-pointing triangle
+      { name: 'Directional Indicator', symbol: '🟍 Left' },
+      { name: 'Navigation Arrow', symbol: '🟍 Back' },
+      { name: 'Geometric Pattern', symbol: '🟍🟍🟍' },
+      { name: 'Abstract Design Element', symbol: '🔺🟍🔻' },
+      { name: 'List Bullet Point', symbol: '🟍 Item' }
+    ],
+    relatedSymbols: [
+      { symbol: "✻", name: "Teardrop-Spoked Asterisk", slug: "teardrop-spoked-asterisk" },
+      { symbol: "✱", name: "Heavy Asterisk", slug: "heavy-asterisk" },
+      { symbol: "✲", name: "Open Centre Asterisk", slug: "open-centre-asterisk" },
+      { symbol: "✳", name: "Eight Spoked Asterisk", slug: "eight-spoked-asterisk" },
+      { symbol: "✹", name: "Twelve Pointed Black Star", slug: "twelve-pointed-black-star" }
+    ],
+    htmlContent: `
+      <section>
+        <h2>🟍 Left-Pointing Black Triangle with Vertices at Cap and Baseline: A Directional Geometric Symbol</h2>
+        <p>Welcome to **Star Symbols**, your comprehensive guide to Unicode characters. Today, we delve into the 🟍 **Left-Pointing Black Triangle with Vertices at Cap and Baseline**. This precise geometric Unicode symbol, often simply called a **Left-Pointing Black Triangle**, serves primarily as a directional indicator. Its sharp, angular form clearly points to the left, making it a versatile element in user interfaces, navigational systems, and various design contexts.</p>
+  
+        <p>The **Left-Pointing Black Triangle with Vertices at Cap and Baseline (🟍)** is a staple in digital design for its clear, unambiguous direction. Its solid black fill offers strong visual contrast, making the **Left-Pointing Black Triangle** highly noticeable. Designers often employ this **Left-Pointing Black Triangle** when conveying movement, indicating a previous step, or simply adding a crisp, modern geometric accent to any layout. The utility of the **Left-Pointing Black Triangle** spans across web design, app development, and graphic illustration.</p>
+  
+        ---
+  
+        <h2>📋 How to Copy & Paste the 🟍 Left-Pointing Black Triangle Symbol</h2>
+        <p>Using the 🟍 **Left-Pointing Black Triangle with Vertices at Cap and Baseline** is incredibly easy. Just copy it directly from here: **🟍** and paste it into any document, website, or message. This direct method ensures you can quickly deploy the **Left-Pointing Black Triangle** wherever it's needed, with broad support across most modern digital platforms.</p>
+  
+        <h3>Steps to Copy the 🟍 Left-Pointing Black Triangle:</h3>
+        <ul>
+          <li><strong>Windows:</strong> Press <kbd>Win</kbd> + <kbd>.</kbd> to open the emoji panel. Search for "triangle" or "left arrow" to find variations, or simply paste the 🟍 **Left-Pointing Black Triangle** once copied.</li>
+          <li><strong>Mac:</strong> Press <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd> to open the Character Viewer. Search for "triangle left" or "1F7CD" to locate this 🟍 **Left-Pointing Black Triangle**.</li>
+          <li><strong>Mobile:</strong> On your smartphone or tablet, long-press on the 🟍 **Left-Pointing Black Triangle** displayed on this page, then select "Copy." You can then paste the **Left-Pointing Black Triangle** into any app or text field.</li>
+        </ul>
+  
+        <p>This **copy and paste Left-Pointing Black Triangle** symbol is perfect for navigational cues, decorative elements, or any design requiring a strong leftward indication.</p>
+  
+        ---
+  
+        <h2>💻 Using 🟍 in HTML & CSS</h2>
+        <p>For web developers and designers, the 🟍 **Left-Pointing Black Triangle with Vertices at Cap and Baseline** symbol can be seamlessly embedded into web content using its Unicode value. This ensures proper rendering of the **Left-Pointing Black Triangle** across various browsers and devices.</p>
+  
+        <h3>HTML Code:</h3>
+        <pre><code>&amp;#128973; or &amp;#x1F7CD;</code></pre>
+  
+        <h3>CSS Styling:</h3>
+        <pre><code>.left-triangle-symbol::before {
+          content: '\\\\1F7CD'; /* Unicode U+1F7CD for 🟍 Left-Pointing Black Triangle */
+          font-size: 2.5rem; /* Adjust size for visual impact */
+          color: #000000; /* Standard black color for the Left-Pointing Black Triangle */
+          /* Ensure font stack supports geometric symbols and emojis */
+          font-family: 'Segoe UI Emoji', 'Noto Color Emoji', 'Apple Color Emoji', sans-serif;
+        }</code></pre>
+  
+        <p class="note"><em>**Important:** To ensure the 🟍 **Left-Pointing Black Triangle with Vertices at Cap and Baseline** symbol displays correctly and consistently across different platforms, ensure your website's font stack includes fonts that widely support Unicode geometric shapes and emoji glyphs, such as "Segoe UI Emoji," "Apple Color Emoji," or "Noto Color Emoji." Consistent rendering of the **Left-Pointing Black Triangle** is crucial for its intended meaning.</em></p>
+  
+        ---
+  
+        <h2>🎨 Creative Uses for the 🟍 Left-Pointing Black Triangle</h2>
+        <p>The 🟍 **Left-Pointing Black Triangle with Vertices at Cap and Baseline** is a highly versatile symbol, perfect for a wide array of digital and graphic design projects, especially those requiring clear direction or minimalist aesthetics:</p>
+        <ul>
+          <li><strong>Navigation & UI Design:</strong> Use the **Left-Pointing Black Triangle** as an intuitive "back" button, previous page indicator, or a directional arrow within user interfaces.</li>
+          <li><strong>Bullet Points & Lists:</strong> Employ the 🟍 symbol as a unique, modern bullet point for lists, providing a clean and subtle emphasis.</li>
+          <li><strong>Geometric Patterns & Art:</strong> Integrate the **Left-Pointing Black Triangle** into abstract art compositions, repeating patterns, or minimalist logos to create visually striking designs.</li>
+          <li><strong>Infographics & Data Visualization:</strong> Utilize the **Left-Pointing Black Triangle** to indicate trends, shifts, or specific points of interest in data representations that point left.</li>
+          <li><strong>Stylized Text Dividers:</strong> Combine the **Left-Pointing Black Triangle** with lines or other geometric shapes to create elegant and functional content dividers.</li>
+        </ul>
+  
+        ---
+  
+        <h2>🔗 Related Geometric & Directional Symbols</h2>
+        <p>If you find the clear directionality and crisp geometry of the 🟍 **Left-Pointing Black Triangle with Vertices at Cap and Baseline** appealing, you might also be interested in exploring these related symbols:</p>
+        <ul>
+          <li><strong>🟎</strong> Right-Pointing Black Triangle with Vertices at Cap and Baseline (its symmetrical counterpart)</li>
+          <li><strong>▲</strong> Black Up-Pointing Triangle</li>
+          <li><strong>▼</strong> Black Down-Pointing Triangle</li>
+          <li><strong>◀️</strong> Black Left-Pointing Triangle Emoji (a commonly used left arrow emoji)</li>
+          <li><strong>⬅️</strong> Left Arrow Emoji</li>
+          <li><strong>⬛</strong> Black Large Square (a basic black geometric shape for comparison)</li>
+        </ul>
+        <p>These symbols can be used in conjunction with the **Left-Pointing Black Triangle** to create comprehensive navigational systems or complex geometric artworks.</p>
+  
+        ---
+  
+        <h2>✨ Why Choose Star Symbols for Unique Characters Like 🟍?</h2>
+        <p>**Star Symbols** offers you easy access to a vast array of Unicode characters, including versatile geometric shapes and directional indicators like the 🟍 **Left-Pointing Black Triangle with Vertices at Cap and Baseline**. We make it simple to find, copy, and correctly implement these special characters in your creative and professional projects. Whether you're designing an intuitive interface, creating compelling digital art, or simply need a clear directional symbol, **Star Symbols** is your ultimate resource for accurate Unicode symbol information and easy-to-use tools. The **Left-Pointing Black Triangle** is just one example of the many powerful symbols we empower you to use effectively.</p>
+  
+        <p>Start using the 🟍 **Left-Pointing Black Triangle with Vertices at Cap and Baseline** today—just copy, paste, and let this clear, powerful symbol guide your designs!</p>
+      </section>
+    `
+  },
+
+  {
+    id: 79,
+    symbol: '🟔',
+    name: 'Square With X Fill', // Corrected name based on U+1F714
+    slug: 'square-with-x-fill', // Corrected slug
+    categories: ['geometric', 'square', 'mark', 'symbol', 'cross', 'abstract'], // Updated categories
+    unicode: 'U+1F714', // Corrected Unicode for 🟔
+    date: 'June 20, 2025',
+    seo: {
+      title: '🟔 Square With X Fill: Copy & Paste, Unicode, Meaning', // SEO title updated
+      description: 'Explore the 🟔 Square With X Fill symbol: discover its unique geometric design, Unicode (U+1F714), paste, and use it in HTML and CSS for your creative projects.', // SEO description updated
+      keywords: '🟔 symbol, square with x fill, square x mark, geometric square, unicode square, check mark' // SEO keywords updated
+    },
+    technicalInfo: {
+      unicode: 'U+1F714', // Corrected Unicode
+      htmlCode: '&#128788;', // Corrected decimal HTML entity for U+1F714
+      hexCode: '&#x1F714;', // Corrected hexadecimal HTML entity for U+1F714
+      cssCode: '"\\1F714"', // Corrected CSS code for U+1F714
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [ // Creative showcases adjusted for a square with X
+      { name: 'Completion Mark', symbol: '✅🟔' },
+      { name: 'Placeholder Icon', symbol: '🟔 Item' },
+      { name: 'Geometric Pattern', symbol: '🟔🟔🟔' },
+      { name: 'Checkbox State', symbol: '[🟔]' },
+      { name: 'Stylized Graphic', symbol: '🔹🟔🔸' }
+    ],
+    relatedSymbols: [
+      { symbol: '🟈', name: 'Brown Square', slug: 'brown-square' },
+      { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
+      { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
+      { symbol: '⭐', name: 'White Medium Star', slug: 'white-medium-star' }
+    ],
+    htmlContent: `
+      <section>
+        <h2>🟔 Square With X Fill: A Versatile Geometric Mark</h2>
+        <p>Welcome to **Star Symbols**, your go-to resource for exploring unique Unicode characters. Today, we're focusing on the 🟔 **Square With X Fill**. This geometric Unicode symbol, officially known as **"SQUARE WITH X FILL"** (U+1F714), features a square shape with a distinct 'X' mark filling its interior. The **Square With X Fill** serves as a clear visual indicator, often implying cancellation, selection, a placeholder, or a marked item. Its clean, bold design makes the **Square With X Fill** highly effective in various digital and print applications.</p>
+  
+        <p>The 🟔 **Square With X Fill** is a highly versatile symbol often utilized in user interfaces, forms, graphic designs, and educational materials. Whether you're marking an item, indicating a choice, or simply adding a unique geometric element, the **Square With X Fill** offers broad creative possibilities. Its unambiguous visual meaning makes the **Square With X Fill** an excellent choice for communicating precise states or actions within a minimalist aesthetic.</p>
+  
+        ---
+  
+        <h2>📋 How to Copy & Paste the 🟔 Square With X Fill Symbol</h2>
+        <p>Using the 🟔 **Square With X Fill** symbol is straightforward. Simply copy it directly from here: **🟔** and paste it into your document, website, or message. This distinctive **Square With X Fill** is widely supported across contemporary digital platforms, including iOS, Android, macOS, and Windows, ensuring the **Square With X Fill** displays accurately in most applications.</p>
+  
+        <h3>Steps to Copy the 🟔 Square With X Fill:</h3>
+        <ul>
+          <li><strong>Windows:</strong> Press <kbd>Win</kbd> + <kbd>.</kbd> to open the emoji panel. While direct search for "Square With X Fill" might vary, you can easily paste the 🟔 **Square With X Fill** once copied.</li>
+          <li><strong>Mac:</strong> Press <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd> to open the Character Viewer. Search for "square x" or its Unicode value "1F714" to easily find this 🟔 **Square With X Fill** symbol.</li>
+          <li><strong>Mobile:</strong> On your smartphone or tablet, long-press on the 🟔 **Square With X Fill** displayed on this page, then select "Copy." You can then paste this **Square With X Fill** into any app or text field.</li>
+        </ul>
+  
+        <p>This **copy and paste Square With X Fill** symbol is perfect for marking choices, indicating a placeholder, or adding distinctive geometric flair to your digital content. The **Square With X Fill** is highly adaptable.</p>
+  
+        ---
+  
+        <h2>💻 Using 🟔 in HTML & CSS</h2>
+        <p>For web developers and designers, the 🟔 **Square With X Fill** symbol can be seamlessly embedded into web content using its Unicode value. This method ensures that the **Square With X Fill** renders correctly across various browsers and devices.</p>
+  
+        <h3>HTML Code:</h3>
+        <pre><code>&amp;#128788; or &amp;#x1F714;</code></pre>
+  
+        <h3>CSS Styling:</h3>
+        <pre><code>.square-x-fill::before {
+          content: '\\\\1F714'; /* Unicode U+1F714 for 🟔 Square With X Fill */
+          font-size: 2.5rem; /* Adjust size for visual impact */
+          color: #333333; /* Example: A neutral dark grey, common for the Square With X Fill */
+          /* Ensure font stack supports geometric symbols and emojis */
+          font-family: 'Segoe UI Emoji', 'Noto Color Emoji', 'Apple Color Emoji', sans-serif;
+        }</code></pre>
+  
+        <p class="note"><em>**Important:** To ensure the 🟔 **Square With X Fill** symbol displays correctly and consistently across different platforms, ensure your website's font stack includes fonts that widely support Unicode geometric shapes and emoji glyphs, such as "Segoe UI Emoji," "Apple Color Emoji," or "Noto Color Emoji." Consistent rendering of the **Square With X Fill** is crucial for its intended meaning and visual integrity.</em></p>
+  
+        ---
+  
+        <h2>🎨 Creative Uses for the 🟔 Square With X Fill</h2>
+        <p>The 🟔 **Square With X Fill** is a highly versatile symbol, perfect for a wide array of digital and graphic design projects, especially those requiring clear marking, selection states, or minimalist aesthetics:</p>
+        <ul>
+          <li><strong>User Interface Elements:</strong> Use the **Square With X Fill** as a checkbox indicator, a delete icon, or a placeholder for unselected options in forms and applications.</li>
+          <li><strong>Checklist & Task Management:</strong> Employ the 🟔 symbol to clearly mark incomplete or cancelled tasks on a digital checklist or task manager. The **Square With X Fill** provides clear visual feedback.</li>
+          <li><strong>Geometric Patterns & Art:</strong> Integrate the **Square With X Fill** into abstract art compositions, repeating patterns, or modern logos to create visually striking and conceptual designs.</li>
+          <li><strong>Educational Materials:</strong> Utilize the **Square With X Fill** in quizzes, worksheets, or diagrams to indicate incorrect answers, marked points, or specific areas of focus.</li>
+          <li><strong>Visual Cues in Games:</strong> The **Square With X Fill** can represent marked territories, specific action zones, or unselected options within gaming interfaces.</li>
+        </ul>
+  
+        ---
+  
+        <h2>🔗 Related Geometric & Mark Symbols</h2>
+        <p>If you find the clear marking and geometric design of the 🟔 **Square With X Fill** appealing, you might also be interested in exploring these related symbols:</p>
+        <ul>
+          <li><strong>✖️</strong> Multiplication X (a simple X mark)</li>
+          <li><strong>❌</strong> Cross Mark (a red cross mark emoji, often used for error/cancellation)</li>
+          <li><strong>✅</strong> White Heavy Check Mark (for indicating completion/selection)</li>
+          <li><strong>☑️</strong> Check Box With Check (another common checkbox representation)</li>
+          <li><strong>⬛</strong> Black Large Square (a basic square shape for comparison)</li>
+          <li><strong>⬜</strong> White Large Square (another basic square shape)</li>
+          <li><strong>🟪</strong> Purple Square Emoji (the actual purple square emoji, provided for distinction)</li>
+        </ul>
+        <p>These symbols can be used in conjunction with the **Square With X Fill** to create comprehensive systems for marking, selection, and visual communication.</p>
+  
+        ---
+  
+        <h2>✨ Why Choose Star Symbols for Unique Characters Like 🟔?</h2>
+        <p>**Star Symbols** offers you easy access to a vast array of Unicode characters, including versatile geometric shapes and marking indicators like the 🟔 **Square With X Fill**. We make it simple to find, copy, and correctly implement these special characters in your creative and professional projects. Whether you're designing an intuitive interface, creating compelling digital art, or simply needing a clear marking symbol, **Star Symbols** is your ultimate resource for accurate Unicode symbol information and easy-to-use tools. The **Square With X Fill** is just one example of the many powerful symbols we empower you to use effectively.</p>
+  
+        <p>Start using the 🟔 **Square With X Fill** today—just copy, paste, and let this clear, powerful symbol enhance your digital designs and communications!</p>
+      </section>
+    `
+  },
+
+  {
+    id: 80,
+    symbol: '🟐',
+    name: 'Circled OC with Squared Logo for CC', // Corrected official Unicode name for U+1F12D
+    slug: 'circled-oc-cc-logo', // More concise slug for this specific logo
+    categories: ['symbol', 'media', 'broadcasting', 'accessibility', 'logo', 'textual'], // Updated categories
+    unicode: 'U+1F12D', // Corrected Unicode for 🟐
+    date: 'June 20, 2025',
+    seo: {
+      title: '🟐 Circled OC with Squared Logo for CC: Copy & Paste,Unicode', // SEO title updated
+      description: 'Explore the 🟐 Circled OC with Squared Logo for CC symbol: learn its specific meaning in media (Original Content / Open Caption), its Unicode (U+1F12D).',
+      keywords: '🟐 symbol, Circled OC with Squared Logo for CC, logo, Original Content symbol, Open Caption symbol'
+    },
+    technicalInfo: {
+      unicode: 'U+1F12D', // Corrected Unicode
+      htmlCode: '&#127197;', // Corrected decimal HTML entity for U+1F12D
+      hexCode: '&#x1F12D;', // Corrected hexadecimal HTML entity for U+1F12D
+      cssCode: '"\\1F12D"', // Corrected CSS code for U+1F12D
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [ // Creative showcases adjusted for this specific media logo
+      { name: 'Media Content Label', symbol: '📺🟐🎬' },
+      { name: 'Broadcast Identifier', symbol: '📡🟐🎤' },
+      { name: 'Accessibility Feature', symbol: '🟐 Caption' },
+      { name: 'Content Management', symbol: '📁🟐📄' },
+      { name: 'Digital Library Tag', symbol: '📚🟐📜' }
+    ],
+    relatedSymbols: [ // Related symbols adjusted to include other media/accessibility symbols
+      { symbol: '©️', name: 'Copyright Symbol', slug: 'copyright-symbol' },
+      { symbol: '®️', name: 'Registered Sign', slug: 'registered-sign' },
+      { symbol: '™️', name: 'Trade Mark Sign', slug: 'trade-mark-sign' },
+      { symbol: '🈠', name: 'Squared CJK Unified Ideograph-3298', slug: 'squared-cjk-unified-ideograph-3298' }, // Often used for "Closed Captioning" or similar
+      { symbol: '🟪', name: 'Purple Square Emoji', slug: 'purple-square-emoji' }, // A simple purple square emoji for general geometric needs
+      { symbol: '🔘', name: 'Radio Button', slug: 'radio-button' } // The closest symbol to "Circle with a White Dot"
+    ],
+    htmlContent: `
+      <section>
+        <h2>🟐 Circled OC with Squared Logo for CC: A Specific Media Content Indicator</h2>
+        <p>Welcome to **Star Symbols**, your definitive source for understanding unique Unicode characters. Today, we're exploring the highly specialized 🟐 **Circled OC with Squared Logo for CC**. This distinctive Unicode symbol (U+1F12D) is primarily used in broadcasting and digital media to denote "Original Content" (OC) or "Open Caption" in conjunction with a symbol that represents "Closed Captioning" (CC). The **Circled OC with Squared Logo for CC** is a technical mark, providing crucial information about the source or accessibility features of video and audio content.</p>
+  
+        <p>The 🟐 **Circled OC with Squared Logo for CC** serves as an important identifier in media libraries, program guides, and content platforms. Its presence indicates that the content is either original or features open captions, catering to specific broadcasting standards or accessibility needs. Understanding the meaning of the **Circled OC with Squared Logo for CC** is key for media professionals and consumers who rely on these visual cues for content classification and consumption.</p>
+  
+        ---
+  
+        <h2>📋 How to Copy & Paste the 🟐 Circled OC with Squared Logo for CC Symbol</h2>
+        <p>To use the 🟐 **Circled OC with Squared Logo for CC** symbol, simply copy it directly from here: **🟐** and paste it into your documents, web pages, or media-related applications. While this **Circled OC with Squared Logo for CC** is highly specific, it is supported across modern digital systems, ensuring it displays correctly where Unicode characters are rendered.</p>
+  
+        <h3>Steps to Copy the 🟐 Symbol:</h3>
+        <ul>
+          <li><strong>Windows:</strong> Press <kbd>Win</kbd> + <kbd>.</kbd> to open the emoji panel. Direct search for "OC CC" or its full name might vary; you can paste the 🟐 **Circled OC with Squared Logo for CC** once copied from this page.</li>
+          <li><strong>Mac:</strong> Press <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd> to open the Character Viewer. Search for "OC CC" or its Unicode value "1F12D" to locate this 🟐 **Circled OC with Squared Logo for CC** symbol.</li>
+          <li><strong>Mobile:</strong> On your smartphone or tablet, long-press on the 🟐 **Circled OC with Squared Logo for CC** displayed, then select "Copy." You can then paste this specific **Circled OC with Squared Logo for CC** into any compatible app or text field.</li>
+        </ul>
+  
+        <p>This **copy and paste Circled OC with Squared Logo for CC** symbol is ideal for media cataloging, broadcasting documentation, or any context where specific content attributes need to be clearly marked.</p>
+  
+        ---
+  
+        <h2>💻 Using 🟐 in HTML & CSS</h2>
+        <p>For web developers and designers working with media platforms or content databases, the 🟐 **Circled OC with Squared Logo for CC** symbol can be seamlessly embedded into web content using its Unicode value. This ensures that the **Circled OC with Squared Logo for CC** renders correctly across various browsers and devices.</p>
+  
+        <h3>HTML Code:</h3>
+        <pre><code>&amp;#127197; or &amp;#x1F12D;</code></pre>
+  
+        <h3>CSS Styling:</h3>
+        <pre><code>.oc-cc-logo::before {
+          content: '\\\\1F12D'; /* Unicode U+1F12D for 🟐 Circled OC with Squared Logo for CC */
+          font-size: 2rem; /* Adjust size as needed for media labels */
+          color: #000000; /* Often rendered in black or a neutral color */
+          /* Ensure font stack supports specialized Unicode symbols */
+          font-family: 'Segoe UI Symbol', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+        }</code></pre>
+  
+        <p class="note"><em>**Important:** To ensure the 🟐 **Circled OC with Squared Logo for CC** symbol displays correctly and consistently, especially its specific textual components ("OC" and "CC"), ensure your website's font stack includes fonts that widely support specialized Unicode symbols, such as "Segoe UI Symbol" (Windows) or appropriate system fonts on other operating systems. Proper rendering of the **Circled OC with Squared Logo for CC** is vital for its technical meaning.</em></p>
+  
+        ---
+  
+        <h2>🎨 Creative Uses for the 🟐 Circled OC with Squared Logo for CC</h2>
+        <p>The 🟐 **Circled OC with Squared Logo for CC** is a highly specialized symbol with specific applications in media and broadcasting. Its primary uses are functional, but it can also be incorporated into related design contexts:</p>
+        <ul>
+          <li><strong>Media Platform Labeling:</strong> Use the **Circled OC with Squared Logo for CC** to clearly mark original content or content with open captions on streaming services, video archives, or TV guides.</li>
+          <li><strong>Broadcasting Documentation:</strong> Employ the 🟐 symbol in technical specifications, content manifests, or production notes to indicate specific media attributes.</li>
+          <li><strong>Accessibility Features Promotion:</strong> The **Circled OC with Squared Logo for CC** can be part of a visual language indicating accessibility features within media players or content libraries.</li>
+          <li><strong>Digital Rights Management (DRM) Information:</strong> While not a DRM symbol itself, it fits within the context of specific content descriptors, making the **Circled OC with Squared Logo for CC** useful here.</li>
+          <li><strong>Educational Content about Media:</strong> Use the **Circled OC with Squared Logo for CC** in lessons or presentations explaining broadcasting standards or content tagging.</li>
+        </ul>
+  
+        ---
+  
+        <h2>🔗 Related Media & Accessibility Symbols</h2>
+        <p>If you're working with the 🟐 **Circled OC with Squared Logo for CC**, you might also find these related symbols useful for a comprehensive media context:</p>
+        <ul>
+          <li><strong>©️</strong> Copyright Symbol (for content ownership)</li>
+          <li><strong>®️</strong> Registered Sign (for registered trademarks)</li>
+          <li><strong>™️</strong> Trade Mark Sign (for unregistered trademarks)</li>
+          <li><strong>🈠</strong> Squared CJK Unified Ideograph-3298 (often used as a placeholder for CC or similar)</li>
+          <li><strong>🈸</strong> Squared CJK Unified Ideograph-3000 (another squared ideograph often used for specific media labels)</li>
+          <li><strong>🎧</strong> Headphone Emoji (related to audio access/features)</li>
+          <li><strong>🔊</strong> Speaker High Volume Emoji (related to audio)</li>
+          <li><strong>🔘</strong> Radio Button (closest common symbol to a "circle with a dot" for general use)</li>
+        </ul>
+        <p>These symbols, including the **Circled OC with Squared Logo for CC**, help build a complete vocabulary for media information.</p>
+  
+        ---
+  
+        <h2>✨ Why Choose Star Symbols for Specialized Characters Like 🟐?</h2>
+        <p>**Star Symbols** is your dedicated platform for accurate and detailed information on a vast array of Unicode characters, including highly specialized ones like the 🟐 **Circled OC with Squared Logo for CC**. We simplify the process of understanding, copying, and correctly implementing these symbols, empowering you to precisely label and enrich your digital content. Whether you're working in broadcasting, media management, or simply seeking to understand unique Unicode entries, **Star Symbols** is your reliable guide.</p>
+  
+        <p>Start utilizing the 🟐 **Circled OC with Squared Logo for CC** today and enhance your media-related projects with precise and meaningful symbols!</p>
+      </section>
+    `
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ]
 

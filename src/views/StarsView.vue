@@ -21,7 +21,7 @@
           Explore the most complete collection of Unicode star symbols. We've meticulously collected
           and organized every star symbol you could possibly need—from the classic five-pointed star
           (★) and outlined star (☆) to unique eight-pointed stars (✶) and twelve-pointed stars (✹),
-          plus a wide variety of sparkles (✦✧), asterisks (*❉❊), and emoji stars (⭐🌠). <br />Just
+          plus a wide variety of sparkles (✦✧), asterisks (❉❊), and emoji stars (⭐🌠). <br />Just
           one click to copy and paste for your bio, posts, and designs.
         </p>
       </div>
