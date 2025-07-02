@@ -407,7 +407,7 @@ export const blogPostsData = [
         <p>But what if you could take a symbol's power and translate it into a new medium? Imagine its explosive energy captured in a mosaic of pure text:</p>
         <img src="../images/Chaos_Star.png" alt="Chaos Star" />
         
-        <p>This is the magic of ASCII art, a blend of rebellious symbolism and modern technology. At <a href="https://www.starsymbols.io">StarSymbols.io</a>, we believe in exploring symbols from every angle. As we dive into the deep meaning of the Chaos Star, think about how you could bring your own symbols of power to life with our <a href="https://www.starsymbols.io/image-to-ascii-text-art-converter">Image to ASCII Text Art Converter</a>.</p>
+        <p>This is the magic of ASCII art, a blend of rebellious symbolism and modern technology. At <a href="/">StarSymbols.io</a>, we believe in exploring symbols from every angle. As we dive into the deep meaning of the Chaos Star, think about how you could bring your own symbols of power to life with our <a href="/image-to-text">Image to ASCII Text Art Converter</a>.</p>
       </section>
 
       <section>
@@ -527,7 +527,7 @@ export const blogPostsData = [
           <p>"A long time ago in a galaxy far, far away...."</p>
           <p>Those words transport us to a universe of epic battles, legendary heroes, and unforgettable villains. But beyond the lightsabers and starships, the story of Star Wars is told through powerful symbols. These emblems aren't just decorations on a uniform; they represent entire ideologies, defining the clash between oppression and freedom.</p>
           <p>And what if you could wield these symbols yourself, transforming them into a unique digital language? Imagine the cold precision of the Empire, captured in text:</p>
-          <p>This is the magic of ASCII art, where iconic imagery meets modern creativity. At <a href="https://www.starsymbols.io">StarSymbols.io</a> , we believe every symbol has a story. As we decode the meaning behind the Galactic Empire and Rebel Alliance symbols, think about how you could immortalize your favorite galactic icons with our <a href="https://www.starsymbols.io/image-to-ascii-text-art-converter">Image to ASCII Text Art Converter</a>.</p>
+          <p>This is the magic of ASCII art, where iconic imagery meets modern creativity. At <a href="/">StarSymbols.io</a> , we believe every symbol has a story. As we decode the meaning behind the Galactic Empire and Rebel Alliance symbols, think about how you could immortalize your favorite galactic icons with our <a href="/image-to-text">Image to ASCII Text Art Converter</a>.</p>
         </section>
   
         <section>
@@ -653,7 +653,7 @@ export const blogPostsData = [
         <section>
           <h2>Create Your Own Galactic Symbols!</h2>
           <p>Feeling inspired by the power of these symbols? Which side does your allegiance lie with? Now, you can bring the galaxy's most iconic images to life in a whole new way.</p>
-          <p>With the <a href="">StarSymbols.io</a> <a href="https://www.starsymbols.io/image-to-ascii-text-art-converter">Image to ASCII Text Art Converter</a>, your creative potential is unlimited.</p>
+          <p>With the <a href="/">StarSymbols.io</a> <a href="/image-to-text">Image to ASCII Text Art Converter</a>, your creative potential is unlimited.</p>
           <p>Upload a picture of a TIE fighter, an X-wing, a lightsaber, or even Darth Vader's helmet, and watch as our tool instantly transforms it into amazing text art. It's the perfect way for any Star Wars fan to get creative.</p>
           <p><strong>Try it now and share your creations!</strong></p>
         </section>
