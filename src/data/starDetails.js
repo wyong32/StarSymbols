@@ -7529,7 +7529,7 @@ export const starDetailsData = [
       { name: 'Advanced Logic', symbol: 'A ⍣ B ⍣ C' },
       { name: 'Code Block Marker', symbol: '⍣ START ⍣' }
     ],
-    relatedSymbols: [
+    relatedStars: [
       { symbol: '★', name: 'Black Star', slug: 'black-star' },
       { symbol: '☆', name: 'White Star', slug: 'white-star' },
       { symbol: '🌙', name: 'Crescent Moon', slug: 'crescent-moon' },
@@ -7749,7 +7749,7 @@ export const starDetailsData = [
       { name: 'Sci-Fi Divider', symbol: '⧆—⧆—⧆' },
       { name: 'Dot-In-Diamond Motif', symbol: '⧆•⧆•⧆' }
     ],
-    relatedStars: [ // Renamed relatedStars to relatedSymbols as not all are stars
+    relatedStars: [ // Renamed relatedStars to relatedStars as not all are stars
       { symbol: '★', name: 'Black Star', slug: 'black-star' },
       { symbol: '☆', name: 'White Star', slug: 'white-star' }
     ],
@@ -7854,7 +7854,7 @@ export const starDetailsData = [
       { name: 'Dark Art', symbol: '⛧🖤⚡' },
       { name: 'Witchcraft Element', symbol: '⛧🖤🕯️' }
     ],
-    relatedSymbols: [
+    relatedStars: [
       { symbol: '✡', name: 'Star of David', slug: 'star-of-david' },
       { symbol: '🔮', name: 'Crystal Ball', slug: 'crystal-ball' },
       { symbol: '✨', name: 'Sparkles', slug: 'sparkles' },
@@ -7968,7 +7968,7 @@ export const starDetailsData = [
       { name: 'Glowing Star Vibes', symbol: '🤩✨🪩' },
       { name: 'Overjoyed Combo', symbol: '🤩😍❤️' }
     ],
-    relatedSymbols: [
+    relatedStars: [
       { symbol: '✨', name: 'Sparkles', slug: 'sparkles' },
       { symbol: '🌟', name: 'Glowing Star', slug: 'glowing-star' },
       { symbol: '💖', name: 'Sparkling Heart', slug: 'sparkling-heart' },
@@ -8094,7 +8094,7 @@ export const starDetailsData = [
       { name: 'Divine Animal Icon', symbol: '𓇻⛥💫' },
       { name: 'Mythical Design', symbol: '𓇻⚡✨' }
     ],
-    relatedSymbols: [
+    relatedStars: [
       { symbol: '✨', name: 'Sparkles', slug: 'sparkles' },
       { symbol: '🌟', name: 'Glowing Star', slug: 'glowing-star' },
       { symbol: '💖', name: 'Sparkling Heart', slug: 'sparkling-heart' },
@@ -8216,7 +8216,7 @@ export const starDetailsData = [
       { name: 'Geometric Art', symbol: '🟄✨▪️' },
       { name: 'Modern Design Element', symbol: '🟄🔳⭐' }
     ],
-    relatedSymbols: [
+    relatedStars: [
       { symbol: "★", name: "Black Star", slug: "black-star" },
       { symbol: "☆", name: "White Star", slug: "white-star" },
       { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
@@ -8343,7 +8343,7 @@ export const starDetailsData = [
       { name: 'Decorative Divider', symbol: '🟇🔸🔹🟇' },
       { name: 'Modern Art Accent', symbol: '✨🟇✨' }
     ],
-    relatedSymbols: [
+    relatedStars: [
       { symbol: '🟈', name: 'Reverse Light Four Pointed Pinwheel Star', slug: 'reverse-light-four-pointed-pinwheel-star' }, // This should likely be a different specific pinwheel if U+1F7C8 is another variant, otherwise remove or specify (there's no U+1F7C8 officially listed as 'Four Pointed Pinwheel Star' exactly, but similar geometric shapes)
       { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
       { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
@@ -8451,7 +8451,7 @@ export const starDetailsData = [
       { name: 'Decorative Bullet Point', symbol: '🟆 Item One' },
       { name: 'Modern Art Icon', symbol: '✨🟆✨' }
     ],
-    relatedSymbols: [ // Related symbols updated to include other stars/geometric shapes
+    relatedStars: [ // Related symbols updated to include other stars/geometric shapes
       { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' }, // This is very similar, often contextually interchangeable depending on font
       { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
       { symbol: '★', name: 'Black Star', slug: 'black-star' },
@@ -8575,7 +8575,7 @@ export const starDetailsData = [
       { name: 'Stylized Divider', symbol: '🟈✨🔸🟈' },
       { name: 'Modern Design Accent', symbol: '🎨🟈🖌️' }
     ],
-    relatedSymbols: [
+    relatedStars: [
       { symbol: '🟇', name: 'Medium Four Pointed Pinwheel Star', slug: 'medium-four-pointed-pinwheel-star' },
       { symbol: '✦', name: 'Black Four Pointed Star', slug: 'black-four-pointed-star' },
       { symbol: '✧', name: 'White Four Pointed Star', slug: 'white-four-pointed-star' },
@@ -8687,7 +8687,7 @@ export const starDetailsData = [
       { name: 'Decorative Divider', symbol: '─🟍─🟍─' },
       { name: 'Modern Art Accent', symbol: '✨🟍🎨' }
     ],
-    relatedSymbols: [ // Related symbols adjusted to include other stars/geometric shapes, especially pinwheels
+    relatedStars: [ // Related symbols adjusted to include other stars/geometric shapes, especially pinwheels
       { symbol: "🟇", name: "Medium Four Pointed Pinwheel Star", slug: "medium-four-pointed-pinwheel-star" },
       { symbol: "🟈", name: "Reverse Light Four Pointed Pinwheel Star", slug: "reverse-light-four-pointed-pinwheel-star" },
       { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
@@ -8799,7 +8799,7 @@ export const starDetailsData = [
       { name: 'Checkbox State', symbol: '[🟔]' },
       { name: 'Stylized Graphic', symbol: '🔹🟔🔸' }
     ],
-    relatedSymbols: [
+    relatedStars: [
       { symbol: "🟇", name: "Medium Four Pointed Pinwheel Star", slug: "medium-four-pointed-pinwheel-star" },
       { symbol: "🟈", name: "Reverse Light Four Pointed Pinwheel Star", slug: "reverse-light-four-pointed-pinwheel-star" },
       { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
@@ -8911,7 +8911,7 @@ export const starDetailsData = [
       { name: 'Content Management', symbol: '📁🟐📄' },
       { name: 'Digital Library Tag', symbol: '📚🟐📜' }
     ],
-    relatedSymbols: [
+    relatedStars: [
       { symbol: "🟇", name: "Medium Four Pointed Pinwheel Star", slug: "medium-four-pointed-pinwheel-star" },
       { symbol: "🟈", name: "Reverse Light Four Pointed Pinwheel Star", slug: "reverse-light-four-pointed-pinwheel-star" },
       { symbol: "✦", name: "Black Four Pointed Star", slug: "black-four-pointed-star" },
@@ -8995,6 +8995,228 @@ export const starDetailsData = [
       </section>
     `
   },
+
+  {
+    id: 81,
+    symbol: '⯨',
+    name: 'Left Half Black Star',
+    slug: 'left-half-black-star',
+    categories: ['classic', 'other'],
+    unicode: 'U+2BE8',
+    date: 'July 2, 2025',
+    seo: {
+      title: '⯨ Left Half Black Star: Copy & Paste, Unicode, HTML Code',
+      description: 'Explore the symbol ⯨ Left Half Black Star, a unique Unicode character used in symbolic representation and interface design. Learn its Unicode (U+2BE8).',
+      keywords: '⯨ symbol, Left Half Black Star, Unicode star, half black star, HTML star symbol, Unicode U+2BE8'
+    },
+    technicalInfo: {
+      unicode: 'U+2BE8',
+      htmlCode: '&#11240;',
+      hexCode: '&#x2BE8;',
+      cssCode: '"\\2BE8"',
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [
+      { name: 'UI Directional Design', symbol: '⯨➡️' },
+      { name: 'Half Star Rating', symbol: '⭐⯨' },
+      { name: 'Symbolic Contrast Display', symbol: '⬛⯨⬜' },
+      { name: 'Textual Iconography', symbol: '📝⯨📄' },
+      { name: 'Thematic Divider', symbol: '⯨—⯨' }
+    ],
+    relatedStars: [
+      { symbol: '★', name: 'Black Star', slug: 'black-star' },
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '⭐', name: 'White Medium Star', slug: 'white-medium-star' },
+      { symbol: '✫', name: 'Circled White Star', slug: 'circled-white-star' },
+      { symbol: '⯪', name: 'Right Half Black Star', slug: 'right-half-black-star' }
+    ],
+    htmlContent: `
+      <section>
+        <h2>⯨ Left Half Black Star: Symbol Meaning, Unicode & Usage</h2>
+        <p>Welcome to <strong>Star Symbols</strong>, your trusted resource for deep dives into rare and fascinating Unicode symbols. Today we shine a spotlight on the ⯨ <strong>Left Half Black Star</strong>. This symbol, encoded as Unicode U+2BE8, is part of the <em>Miscellaneous Symbols and Arrows</em> block and resides in the Basic Multilingual Plane. The <strong>Left Half Black Star</strong> is a unique and visually striking character often used in symbolic rating systems, contrastive iconography, and specialized UI design elements.</p>
+  
+        <p>As the name suggests, the ⯨ <strong>Left Half Black Star</strong> is a stylized star that displays only its left half filled in black. This makes it particularly useful for scenarios where fractional representation is desired — such as half-star ratings — or where asymmetrical visual contrast is required. Though it’s not a common character in everyday writing, the <strong>Left Half Black Star</strong> serves a distinct role in interface feedback systems, stylized visual content, and metaphorical representations of partial states.</p>
+  
+        <hr />
+  
+        <h2>📋 How to Copy & Paste the ⯨ Left Half Black Star</h2>
+        <p>You can easily use the ⯨ <strong>Left Half Black Star</strong> by copying it directly from here: <strong>⯨</strong> and pasting it into your project or design. It’s compatible with modern operating systems and Unicode-supporting applications.</p>
+  
+        <h3>Steps to Copy the ⯨ Symbol:</h3>
+        <ul>
+          <li><strong>Windows:</strong> Press <kbd>Win</kbd> + <kbd>.</kbd> to bring up the emoji panel. Search may not show it directly, so it's best to copy ⯨ from this page.</li>
+          <li><strong>Mac:</strong> Press <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd> to access the Character Viewer. Enter the Unicode "2BE8" if needed.</li>
+          <li><strong>Mobile:</strong> Tap and hold the ⯨ <strong>Left Half Black Star</strong>, then choose "Copy" from the menu. Paste it anywhere text input is allowed.</li>
+        </ul>
+  
+        <p>Whether you're creating infographics, designing star-based interfaces, or crafting symbolic content, the ⯨ <strong>Left Half Black Star</strong> provides visual uniqueness and functional clarity.</p>
+  
+        <hr />
+  
+        <h2>💻 HTML & CSS Implementation for ⯨ Left Half Black Star</h2>
+        <p>For web developers and designers, embedding the ⯨ <strong>Left Half Black Star</strong> into HTML and CSS is straightforward and standards-compliant.</p>
+  
+        <h3>HTML Code:</h3>
+        <pre><code>&amp;#11240; or &amp;#x2BE8;</code></pre>
+  
+        <h3>CSS Styling Example:</h3>
+        <pre><code>.left-half-star::before {
+    content: '\\2BE8'; /* Unicode U+2BE8 for ⯨ Left Half Black Star */
+    font-size: 1.5rem;
+    color: #444;
+    font-family: 'Segoe UI Symbol', 'Noto Sans Symbols', 'Arial Unicode MS', sans-serif;
+  }</code></pre>
+  
+        <p class="note"><em>Important:</em> Ensure the font family includes symbol-supporting fonts, especially for characters like the ⯨ <strong>Left Half Black Star</strong> which may not be widely supported in legacy typefaces.</p>
+  
+        <hr />
+  
+        <h2>🎨 Creative Applications of ⯨ Left Half Black Star</h2>
+        <p>The ⯨ <strong>Left Half Black Star</strong> is more than a decorative glyph — it has meaningful roles in a variety of design systems and information layers:</p>
+        <ul>
+          <li><strong>Rating Systems:</strong> Use ⯨ to denote half-star ratings alongside ★ and ☆.</li>
+          <li><strong>State Representation:</strong> Visually depict partial completion or dual-state values.</li>
+          <li><strong>Graphical Interfaces:</strong> Employ in UI/UX mockups to indicate progressive feedback.</li>
+          <li><strong>Thematic Separation:</strong> Add symbolic dividers in text layouts or web interfaces.</li>
+          <li><strong>Creative Typography:</strong> Combine with other symbols for expressive logotypes or emblems.</li>
+        </ul>
+  
+        <hr />
+  
+        <h2>🔗 Related Unicode Stars and Symbols</h2>
+        <p>The ⯨ <strong>Left Half Black Star</strong> fits within a family of star-related characters. Here are some worth exploring:</p>
+        <ul>
+          <li><strong>★</strong> – Black Star (U+2605)</li>
+          <li><strong>☆</strong> – White Star (U+2606)</li>
+          <li><strong>⯪</strong> – Right Half Black Star (U+2BEA)</li>
+          <li><strong>✯</strong> – Pinwheel Star (U+272F)</li>
+          <li><strong>⭐</strong> – White Medium Star (U+2B50)</li>
+        </ul>
+  
+        <p>Together, these symbols — including the <strong>Left Half Black Star</strong> — help build rich visual metaphors for ratings, clarity, contrast, and partiality in design language.</p>
+  
+        <hr />
+  
+        <h2>✨ Why Use Star Symbols for Unicode Like ⯨?</h2>
+        <p><strong>Star Symbols</strong> is your dedicated source for precise documentation, usage guides, and technical implementation of specialized Unicode characters like the ⯨ <strong>Left Half Black Star</strong>. Whether you're a web developer, designer, accessibility advocate, or content creator, our platform empowers you to use such symbols with clarity and confidence.</p>
+  
+        <p>Start integrating the ⯨ <strong>Left Half Black Star</strong> into your visual systems today, and enhance your designs with meaningful and specialized Unicode glyphs.</p>
+      </section>
+    `
+  },
+
+  {
+    id: 82,
+    symbol: '⯩',
+    name: 'Right Half Black Star',
+    slug: 'right-half-black-star',
+    categories: ['classic', 'other'],
+    unicode: 'U+2BE9',
+    date: 'July 2, 2025',
+    seo: {
+      title: '⯩ Right Half Black Star: Copy & Paste, Unicode Details',
+      description: 'Discover the Unicode character ⯩ Right Half Black Star (U+2BE9). Learn how to use it, copy & paste, HTML CSS implementation, and explore its symbolic meaning.',
+      keywords: '⯩ symbol, Right Half Black Star, half black star, Unicode star, U+2BE9, HTML star, symbolic Unicode'
+    },
+    technicalInfo: {
+      unicode: 'U+2BE9',
+      htmlCode: '&#11241;',
+      hexCode: '&#x2BE9;',
+      cssCode: '"\\2BE9"',
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [
+      { name: 'Fractional Rating UI', symbol: '⭐⯩' },
+      { name: 'Contrast Split Icons', symbol: '⬜⯩⬛' },
+      { name: 'Directional Indicators', symbol: '➡️⯩' },
+      { name: 'Incomplete Progress Symbol', symbol: '⯨⯩' },
+      { name: 'Symbolic Balance', symbol: '⯨⚖⯩' }
+    ],
+    relatedStars: [
+      { symbol: '⯨', name: 'Left Half Black Star', slug: 'left-half-black-star' },
+      { symbol: '★', name: 'Black Star', slug: 'black-star' },
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✪', name: 'Circled White Star', slug: 'circled-white-star' },
+      { symbol: '⭐', name: 'White Medium Star', slug: 'white-medium-star' }
+    ],
+    htmlContent: `
+      <section>
+        <h2>⯩ Right Half Black Star: Unicode, Meaning & Usage</h2>
+        <p>Welcome to <strong>Star Symbols</strong>, where we explore the most unique and specialized characters in the Unicode standard. Today we’re featuring the ⯩ <strong>Right Half Black Star</strong>, a distinctive symbol found in the Unicode block <em>Miscellaneous Symbols and Arrows</em>. Represented by Unicode <strong>U+2BE9</strong>, the ⯩ <strong>Right Half Black Star</strong> is a mirrored counterpart to the Left Half Black Star. It represents a half-star shape, with the right half filled and the left half empty.</p>
+  
+        <p>The ⯩ <strong>Right Half Black Star</strong> has a growing presence in interface design, rating systems, and creative iconography. Unlike typical star characters such as ★ (Black Star) or ☆ (White Star), the <strong>Right Half Black Star</strong> serves a fractional or dual-state purpose. Its partial fill makes it ideal for representing half-complete states, partial ratings, or visual asymmetry in symbolic systems. It’s particularly useful when paired with ⯨ (Left Half Black Star), creating a balanced representation of divided values or progress.</p>
+  
+        <hr />
+  
+        <h2>📋 How to Copy & Paste the ⯩ Right Half Black Star</h2>
+        <p>You can copy and paste the ⯩ <strong>Right Half Black Star</strong> directly from this page: <strong>⯩</strong>. Whether you are designing, coding, or documenting symbolic systems, this character can be used seamlessly across most Unicode-supporting environments.</p>
+  
+        <h3>Steps to Copy the ⯩ Symbol:</h3>
+        <ul>
+          <li><strong>Windows:</strong> Use <kbd>Win</kbd> + <kbd>.</kbd> to open the emoji picker. The ⯩ <strong>Right Half Black Star</strong> might not appear by name, but you can paste it once copied.</li>
+          <li><strong>macOS:</strong> Open the Character Viewer with <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd>. Use the Unicode “2BE9” to locate it directly.</li>
+          <li><strong>Mobile:</strong> Long-press the ⯩ symbol above and select "Copy" to paste into messages or apps.</li>
+        </ul>
+  
+        <p>The ⯩ <strong>Right Half Black Star</strong> can enrich content where nuanced symbolic meaning is required — especially in progress tracking, aesthetic layouts, and star-based rating displays.</p>
+  
+        <hr />
+  
+        <h2>💻 HTML & CSS Implementation for ⯩ Right Half Black Star</h2>
+        <p>Web developers can embed the ⯩ <strong>Right Half Black Star</strong> in HTML and style it using CSS with full Unicode compliance.</p>
+  
+        <h3>HTML Code:</h3>
+        <pre><code>&amp;#11241; or &amp;#x2BE9;</code></pre>
+  
+        <h3>CSS Example:</h3>
+        <pre><code>.right-half-star::before {
+    content: '\\2BE9';
+    font-size: 1.6rem;
+    color: #333;
+    font-family: 'Segoe UI Symbol', 'Noto Sans Symbols', 'Arial Unicode MS', sans-serif;
+  }</code></pre>
+  
+        <p class="note"><em>Note:</em> Font support for the ⯩ <strong>Right Half Black Star</strong> may vary across systems. Ensure your font stack includes fallback symbol fonts for proper rendering.</p>
+  
+        <hr />
+  
+        <h2>🎨 Creative Use Cases for ⯩ Right Half Black Star</h2>
+        <p>The ⯩ <strong>Right Half Black Star</strong> is not just a Unicode oddity — it has practical applications in design, communication, and visual logic:</p>
+        <ul>
+          <li><strong>Rating Systems:</strong> Display half-star ratings like ⭐⯩ to indicate partial satisfaction or scoring.</li>
+          <li><strong>Progress Indicators:</strong> Represent partial achievements or incomplete tasks in productivity dashboards.</li>
+          <li><strong>Symbolic Dividers:</strong> Use ⯨⯩ to split content or ideas visually with mirrored halves.</li>
+          <li><strong>Metaphorical Use:</strong> Represent partial success, duality, or balance in philosophical or artistic content.</li>
+          <li><strong>Creative Typography:</strong> Integrate into star-themed logos or icons for modern appeal.</li>
+        </ul>
+  
+        <hr />
+  
+        <h2>🔗 Related Symbols to ⯩ Right Half Black Star</h2>
+        <p>If you're using the ⯩ <strong>Right Half Black Star</strong>, you may want to explore other star and half-star symbols that complement it:</p>
+        <ul>
+          <li><strong>⯨</strong> – Left Half Black Star (U+2BE8)</li>
+          <li><strong>★</strong> – Black Star (U+2605)</li>
+          <li><strong>☆</strong> – White Star (U+2606)</li>
+          <li><strong>✫</strong> – Circled White Star (U+272B)</li>
+          <li><strong>⭐</strong> – White Medium Star (U+2B50)</li>
+        </ul>
+  
+        <p>The ⯩ <strong>Right Half Black Star</strong> becomes even more meaningful when paired with these related symbols, creating a full visual vocabulary for stars and ratings.</p>
+  
+        <hr />
+  
+        <h2>✨ Why Use Star Symbols for Unicode Characters Like ⯩?</h2>
+        <p><strong>Star Symbols</strong> is your go-to resource for understanding rare and specialized Unicode characters like the ⯩ <strong>Right Half Black Star</strong>. We provide comprehensive usage guides, technical integration, and creative inspiration for developers, designers, and content creators.</p>
+  
+        <p>Start using the ⯩ <strong>Right Half Black Star</strong> in your projects today — whether you're building a web app, designing interfaces, or simply exploring the creative possibilities of Unicode.</p>
+      </section>
+    `
+  }
+
+
 
 
 
