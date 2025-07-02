@@ -369,6 +369,12 @@ onMounted(() => {
   height: auto;
 }
 
+.blog-content :deep(a) {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 /* Navigation */
 .blog-navigation {
   padding: 2rem;

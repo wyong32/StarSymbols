@@ -35,17 +35,17 @@ export const blogPostsData = [
           <h3>Classic Stars</h3>
           <p>The most recognizable star symbols include:</p>
           <ul>
-            <li><strong>★ (Black Star)</strong> - The quintessential filled star symbol</li>
-            <li><strong>☆ (White Star)</strong> - The classic outline star</li>
-            <li><strong>✦ (Black Four Pointed Star)</strong> - A geometric variation</li>
+            <li><a href="/all-star-symbols/black-star">★ (Black Star)</a> - The quintessential filled star symbol</li>
+            <li><a href="/all-star-symbols/white-star">☆ (White Star)</a> - The classic outline star</li>
+            <li><a href="/all-star-symbols/black-four-pointed-star">✦ (Black Four Pointed Star)</a> - A geometric variation</li>
           </ul>
 
           <h3>Decorative Stars</h3>
           <p>For more artistic applications, consider these decorative options:</p>
           <ul>
-            <li><strong>✨ (Sparkles)</strong> - Perfect for adding magic to your text</li>
-            <li><strong>🌟 (Glowing Star)</strong> - An emoji-style star with radiance</li>
-            <li><strong>💫 (Dizzy Star)</strong> - Dynamic movement representation</li>
+            <li><a href="/all-star-symbols/sparkles">✨ (Sparkles)</a> - Perfect for adding magic to your text</li>
+            <li><a href="/all-star-symbols/glowing-star">🌟 (Glowing Star)</a> - An emoji-style star with radiance</li>
+            <li><a href="/all-star-symbols/dizzy-star">💫 (Dizzy Star)</a> - Dynamic movement representation</li>
           </ul>
         </section>
 
@@ -177,9 +177,9 @@ export const blogPostsData = [
           <h3>Emotional Context</h3>
           <p>Match your star choice to the emotional tone:</p>
           <ul>
-            <li><strong>Celebration</strong> - Use bright, energetic stars like ✨ and 🌟</li>
-            <li><strong>Romance</strong> - Opt for soft, elegant patterns with ⋆ and ✧</li>
-            <li><strong>Professional</strong> - Choose clean, simple stars like ★ and ☆</li>
+            <li><strong>Celebration</strong> - Use bright, energetic stars like <a href="/all-star-symbols/sparkles">✨</a> and <a href="/all-star-symbols/glowing-star">🌟</a></li>
+            <li><strong>Romance</strong> - Opt for soft, elegant patterns with <a href="/all-star-symbols/white-star">⋆</a> and <a href="/all-star-symbols/black-four-pointed-star">✧</a></li>
+            <li><strong>Professional</strong> - Choose clean, simple stars like <a href="/all-star-symbols/black-star">★</a> and <a href="/all-star-symbols/white-star">☆</a></li>
           </ul>
 
           <h3>Cultural Sensitivity</h3>
