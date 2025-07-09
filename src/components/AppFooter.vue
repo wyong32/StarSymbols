@@ -18,7 +18,7 @@
                 <img
                   src="https://img.turbo0.com/badge-listed-light.svg"
                   alt="Listed on Turbo0"
-                  style="height: 54px; width: auto"
+                  style="height: 30px; width: auto"
                 />
               </a>
             </li>
@@ -27,8 +27,8 @@
                 <img
                   src="https://magicbox.tools/badge.svg"
                   alt="Featured on MagicBox.tools"
-                  width="200"
-                  height="54"
+                  width="100"
+                  height="30"
                 />
               </a>
             </li>
@@ -37,8 +37,8 @@
                 ><img
                   src="https://twelve.tools/badge0-light.svg"
                   alt="Featured on Twelve Tools"
-                  width="200"
-                  height="54"
+                  width="100"
+                  height="30"
               /></a>
             </li>
             <li>
