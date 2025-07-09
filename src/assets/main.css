@@ -6,3 +6,27 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.ad-content{
+  margin: 1rem 0;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ad-pc{
+  display: block !important;
+}
+
+.ad-ph{
+  display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .ad-pc {
+    display: none !important;
+  }
+  .ad-ph{
+    display: block !important;
+  }
+}

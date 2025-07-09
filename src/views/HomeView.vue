@@ -2,10 +2,13 @@
   <div class="app">
     <!-- Header Section -->
     <AppHeader />
-
     <!-- Hero Section -->
     <section class="hero" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)">
       <div class="hero-content">
+        <!-- 移动端横幅-1 -->
+        <aside class="ad-content" v-if="isMobile" :key="'ph-ad-' + adKey">
+          <ins class="eas6a97888e10" data-zoneid="5670024"></ins>
+        </aside>
         <h1 class="hero-title">Star Copy and Paste - All Star Symbols</h1>
         <div class="hero-stars">
           <span class="hero-star" style="--delay: 0s">★</span>
@@ -23,6 +26,11 @@
           of star symbols to make your content shine with beautiful Unicode star symbols! ✨
         </p>
 
+        <!-- PC端横幅顶部位 -->
+        <aside class="ad-content" v-if="!isMobile" :key="'pc-ad-' + adKey">
+          <ins class="eas6a97888e2" data-zoneid="5670016"></ins>
+        </aside>
+
         <div class="symbols-container">
           <StarSymbolsGrid :show-toast="showToastMessage" />
 
@@ -35,6 +43,10 @@
             </p>
           </div>
         </div>
+        <!-- 移动端横幅-2 -->
+        <aside class="ad-content" v-if="isMobile" :key="'ph-ad-' + adKey">
+          <ins class="eas6a97888e10" data-zoneid="5670028"></ins>
+        </aside>
       </div>
     </section>
 
@@ -64,6 +76,11 @@
         </div>
       </div>
     </section>
+
+    <!-- 页内原生广告位 -->
+    <aside class="ad-content" :key="'pc-ad-' + adKey">
+      <ins class="eas6a97888e20" data-zoneid="5670022"></ins>
+    </aside>
 
     <!-- How to Use Section -->
     <section class="how-to-use-section">
@@ -248,10 +265,15 @@ import StarSymbolsGrid from '@/components/StarSymbolsGrid.vue'
 import BlogGrid from '@/components/BlogGrid.vue'
 import TextGenerator from '@/components/TextGenerator.vue'
 import { copyProtection } from '@/utils/copyProtection.js'
+import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
+
+const { isMobile } = useDeviceDetection()
 
 // Reactive data
 const showToast = ref(false)
 const toastMessage = ref('')
+// 广告刷新的key，用于强制重新渲染广告
+const adKey = ref(0)
 
 // How to use steps
 const howToSteps = [
@@ -344,9 +366,37 @@ const showToastMessage = (message) => {
   }, 3000)
 }
 
+// 手动触发广告加载
+const loadAds = () => {
+  if (window.AdProvider) {
+    try {
+      window.AdProvider.push({ serve: {} })
+    } catch (e) {
+      console.error('广告加载失败:', e)
+    }
+  } else {
+    // 如果 AdProvider 还没加载，动态加载脚本
+    const script = document.createElement('script')
+    script.async = true
+    script.type = 'application/javascript'
+    script.src = 'https://a.magsrv.com/ad-provider.js'
+    script.onload = () => {
+      if (window.AdProvider) {
+        window.AdProvider.push({ serve: {} })
+      }
+    }
+    script.onerror = (e) => {
+      console.error('广告脚本加载失败:', e)
+    }
+    document.head.appendChild(script)
+  }
+}
+
 // Set up copy protection toast callback
 onMounted(() => {
   copyProtection.setToastCallback(showToastMessage)
+  // 加载广告
+  setTimeout(loadAds, 1000)
 })
 </script>
 
