@@ -18,7 +18,7 @@
                 <img
                   src="https://img.turbo0.com/badge-listed-light.svg"
                   alt="Listed on Turbo0"
-                  style="height: 30px; width: auto"
+                  style="height: 54px; width: auto"
                 />
               </a>
             </li>
