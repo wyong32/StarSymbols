@@ -23,6 +23,25 @@
               </a>
             </li>
             <li>
+              <a href="https://magicbox.tools" target="_blank">
+                <img
+                  src="https://magicbox.tools/badge.svg"
+                  alt="Featured on MagicBox.tools"
+                  width="200"
+                  height="54"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://twelve.tools" target="_blank"
+                ><img
+                  src="https://twelve.tools/badge0-light.svg"
+                  alt="Featured on Twelve Tools"
+                  width="200"
+                  height="54"
+              /></a>
+            </li>
+            <li>
               <a
                 class="footer-link"
                 href="https://www.facebook.com/people/Starsymbolsio/61577152511872/"
