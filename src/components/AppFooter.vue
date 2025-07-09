@@ -10,20 +10,26 @@
           <p>Your one-stop toolkit for symbols, generators, and creative text art.</p>
           <ul>
             <li>
-              <a href="https://www.toolpilot.ai/" target="_blank">
+              <a
+                href="https://turbo0.com/item/starsymbols"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
-                  src="/images/icon/icon_1.svg"
-                  alt="toolpilot"
-                  srcset="/images/icon/icon_1.svg"
+                  src="https://img.turbo0.com/badge-listed-light.svg"
+                  alt="Listed on Turbo0"
+                  style="height: 30px; width: auto"
                 />
               </a>
             </li>
             <li>
               <a
+                class="footer-link"
                 href="https://www.facebook.com/people/Starsymbolsio/61577152511872/"
                 target="_blank"
               >
                 <img
+                  class="footer-icon"
                   src="/images/icon/icon_2.ico"
                   alt="toolpilot"
                   srcset="/images/icon/icon_2.ico"
@@ -31,8 +37,13 @@
               </a>
             </li>
             <li>
-              <a href="https://x.com/JessicaGar75864/status/1934532852001239379" target="_blank">
+              <a
+                class="footer-link"
+                href="https://x.com/JessicaGar75864/status/1934532852001239379"
+                target="_blank"
+              >
                 <img
+                  class="footer-icon"
                   src="/images/icon/icon_3.ico"
                   alt="toolpilot"
                   srcset="/images/icon/icon_3.ico"
@@ -103,14 +114,16 @@
 
 .footer-brand ul {
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
 .footer-brand ul li {
   list-style: none;
+  font-size: 0;
 }
 
-.footer-brand ul li a {
+.footer-brand .footer-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,7 +134,7 @@
   background-color: #fff;
 }
 
-.footer-brand ul li a img {
+.footer-brand .footer-icon {
   width: 20px;
   height: 20px;
   color: white;
