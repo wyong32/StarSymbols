@@ -9214,7 +9214,230 @@ export const starDetailsData = [
         <p>Start using the ⯩ <strong>Right Half Black Star</strong> in your projects today — whether you're building a web app, designing interfaces, or simply exploring the creative possibilities of Unicode.</p>
       </section>
     `
+  },
+
+  {
+    id: 83,
+    symbol: '⯪',
+    name: 'Star with Left Half Black',
+    slug: 'star-with-left-half-black',
+    categories: ['classic', 'other'],
+    unicode: 'U+2BEA',
+    date: 'July 8, 2025',
+    seo: {
+      title: '⯪ Star with Left Half Black: Copy & Paste, Unicode Details',
+      description: 'Learn everything about the ⯪ Star with Left Half Black (U+2BEA) Unicode symbol. Copy and paste, HTML & CSS usage, creative examples, and symbolic meaning.',
+      keywords: '⯪ symbol, Star with Left Half Black, half star, Unicode star, U+2BEA, HTML star, CSS star, Unicode character'
+    },
+    technicalInfo: {
+      unicode: 'U+2BEA',
+      htmlCode: '&#11242;',
+      hexCode: '&#x2BEA;',
+      cssCode: '"\\2BEA"',
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [
+      { name: 'Half-Star Rating', symbol: '⯪⭐' },
+      { name: 'Symmetrical Split Icons', symbol: '⯪⯩' },
+      { name: 'Black and White Star Layout', symbol: '⬛⯪⬜' },
+      { name: 'Dual-Value Indicator', symbol: '⚖⯪⯩' },
+      { name: 'Step Progression Bar', symbol: '⯪⯪⯩⯩' }
+    ],
+    relatedStars: [
+      { symbol: '⯩', name: 'Right Half Black Star', slug: 'right-half-black-star' },
+      { symbol: '★', name: 'Black Star', slug: 'black-star' },
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '✫', name: 'Circled White Star', slug: 'circled-white-star' },
+      { symbol: '⭐', name: 'White Medium Star', slug: 'white-medium-star' }
+    ],
+    htmlContent: `
+      <section>
+        <h2>⯪ Star with Left Half Black: Unicode Symbol, Meaning & Usage</h2>
+        <p>The ⯪ <strong>Star with Left Half Black</strong> is a distinctive Unicode character that represents a star with its left half filled in black. This unique symbol, encoded as <strong>U+2BEA</strong>, belongs to the <em>Miscellaneous Symbols and Arrows</em> block and was introduced in <strong>Unicode 11.0</strong>. The <strong>Star with Left Half Black</strong> is often used in digital interfaces, ratings, design systems, and symbolic communication.</p>
+  
+        <p>Unlike traditional star icons such as ★ (Black Star) or ☆ (White Star), the <strong>Star with Left Half Black</strong> provides a semi-filled variant. This makes the ⯪ <strong>Star with Left Half Black</strong> perfect for expressing partial ratings, asymmetric symbols, or dualistic visual metaphors. It is especially effective when used alongside its counterpart, the ⯩ Right Half Black Star.</p>
+  
+        <hr />
+  
+        <h2>📋 How to Copy & Paste the ⯪ Star with Left Half Black</h2>
+        <p>You can easily copy the ⯪ <strong>Star with Left Half Black</strong> from this page and use it in your projects. The symbol is supported in most environments where Unicode is enabled.</p>
+  
+        <h3>Steps to Copy the ⯪ Star with Left Half Black:</h3>
+        <ul>
+          <li><strong>Windows:</strong> Press <kbd>Win</kbd> + <kbd>.</kbd>, then paste ⯪ manually where needed.</li>
+          <li><strong>macOS:</strong> Use <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd> to open the character viewer and input <strong>U+2BEA</strong>.</li>
+          <li><strong>Mobile:</strong> Long press the ⯪ <strong>Star with Left Half Black</strong> symbol and tap “Copy.”</li>
+        </ul>
+  
+        <p>Use the ⯪ <strong>Star with Left Half Black</strong> in documents, emails, UIs, creative content, or anywhere you want to represent a fractional star or left-side emphasis.</p>
+  
+        <hr />
+  
+        <h2>💻 HTML & CSS Implementation of the ⯪ Star with Left Half Black</h2>
+        <p>Web developers and designers can implement the ⯪ <strong>Star with Left Half Black</strong> with simple HTML and CSS code. Here’s how to integrate it:</p>
+  
+        <h3>HTML Code:</h3>
+        <pre><code>&amp;#11242; or &amp;#x2BEA;</code></pre>
+  
+        <h3>CSS Example:</h3>
+        <pre><code>.left-half-black-star::before {
+    content: '\\2BEA';
+    font-size: 1.5rem;
+    color: #222;
+    font-family: 'Segoe UI Symbol', 'Noto Sans Symbols', 'Arial Unicode MS', sans-serif;
+  }</code></pre>
+  
+        <p class="note"><em>Note:</em> Rendering may vary depending on the font stack and platform support. Always include fallback fonts to ensure the ⯪ <strong>Star with Left Half Black</strong> displays correctly.</p>
+  
+        <hr />
+  
+        <h2>🎨 Creative Use Cases for the ⯪ Star with Left Half Black</h2>
+        <p>The ⯪ <strong>Star with Left Half Black</strong> can enhance your visual storytelling and interface designs. Here are some creative examples where this symbol excels:</p>
+        <ul>
+          <li><strong>Partial Rating UI:</strong> Show fractional scores using ⯪ combined with ⭐ or ⯩.</li>
+          <li><strong>Duality Representation:</strong> Represent halves or contrasting sides using ⯪ and ⯩.</li>
+          <li><strong>Progress Indicators:</strong> Track partial task completion visually with multiple ⯪ symbols.</li>
+          <li><strong>Modern Iconography:</strong> Use the ⯪ <strong>Star with Left Half Black</strong> in logos or infographics.</li>
+          <li><strong>Symbolic Contrast:</strong> Pair with full stars like ★ and ☆ to represent progression or difference.</li>
+        </ul>
+  
+        <hr />
+  
+        <h2>🔗 Related Symbols to the ⯪ Star with Left Half Black</h2>
+        <p>Explore other Unicode stars that complement the ⯪ <strong>Star with Left Half Black</strong>:</p>
+        <ul>
+          <li><strong>⯩</strong> – Right Half Black Star (U+2BE9)</li>
+          <li><strong>★</strong> – Black Star (U+2605)</li>
+          <li><strong>☆</strong> – White Star (U+2606)</li>
+          <li><strong>✫</strong> – Circled White Star (U+272B)</li>
+          <li><strong>⭐</strong> – White Medium Star (U+2B50)</li>
+        </ul>
+  
+        <p>Combining the ⯪ <strong>Star with Left Half Black</strong> with these symbols creates a visual vocabulary for rating systems, navigation, and creative UI components.</p>
+  
+        <hr />
+  
+        <h2>✨ Why Use the ⯪ Star with Left Half Black?</h2>
+        <p>Symbols like the ⯪ <strong>Star with Left Half Black</strong> offer more than just decorative elements — they help convey meaning through form. Whether you’re creating a complex rating scale, expressing duality, or adding symbolic depth to your writing or interface, the ⯪ <strong>Star with Left Half Black</strong> is a subtle yet powerful tool.</p>
+  
+        <p>Use the ⯪ <strong>Star with Left Half Black</strong> to add depth, precision, and creativity to your projects. It’s one of the lesser-known gems in the Unicode catalog, and with proper use, it can elevate your visual and semantic design.</p>
+      </section>
+    `
+  },
+
+  {
+    id: 84,
+    symbol: '⯫',
+    name: 'Star with Right Half Black',
+    slug: 'star-with-right-half-black',
+    categories: ['classic', 'other'],
+    unicode: 'U+2BEB',
+    date: 'July 8, 2025',
+    seo: {
+      title: '⯫ Star with Right Half Black - Unicode Symbol & Copy Guide',
+      description: 'Explore the ⯫ Star with Right Half Black (U+2BEB). Copy & paste, use in HTML/CSS, and learn its meaning and design applications.',
+      keywords: 'Star with Right Half Black, ⯫ symbol, Unicode star, U+2BEB, HTML star, half star'
+    },
+    technicalInfo: {
+      unicode: 'U+2BEB',
+      htmlCode: '&#11243;',
+      hexCode: '&#x2BEB;',
+      cssCode: '"\\2BEB"',
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [
+      { name: 'Split Star Rating', symbol: '⭐⯫' },
+      { name: 'Right Emphasis Pairing', symbol: '⯪⯫' },
+      { name: 'Directional Symmetry', symbol: '⯫➡️' },
+      { name: 'Half-Black Balance', symbol: '⚖⯫⯪' },
+      { name: 'Contrast Layout', symbol: '⬜⯫⬛' }
+    ],
+    relatedStars: [
+      { symbol: '⯪', name: 'Star with Left Half Black', slug: 'star-with-left-half-black' },
+      { symbol: '⯩', name: 'Right Half Black Star', slug: 'right-half-black-star' },
+      { symbol: '★', name: 'Black Star', slug: 'black-star' },
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '⭐', name: 'White Medium Star', slug: 'white-medium-star' }
+    ],
+    htmlContent: `
+      <section>
+        <h2>⯫ Star with Right Half Black: Unicode Symbol Overview</h2>
+        <p>The ⯫ <strong>Star with Right Half Black</strong> is a special Unicode character introduced in <strong>Unicode 11.0</strong> (2018). It belongs to the <em>Miscellaneous Symbols and Arrows</em> block and is represented by code point <strong>U+2BEB</strong>. The <strong>Star with Right Half Black</strong> visually displays a star where only the right half is filled, leaving the left side unfilled.</p>
+  
+        <p>Used in design, UI rating systems, and symbolic metaphors, the ⯫ <strong>Star with Right Half Black</strong> stands out for its ability to communicate fractional states, progression, and asymmetry. When paired with the ⯪ Star with Left Half Black, it forms a complete visual set for expressing duality, balance, or two-part values.</p>
+  
+        <hr />
+  
+        <h2>📋 How to Copy & Paste the ⯫ Star with Right Half Black</h2>
+        <p>Need to use the ⯫ <strong>Star with Right Half Black</strong> in your document, project, or interface? Just copy the symbol directly from here: <strong>⯫</strong>.</p>
+  
+        <h3>How to Copy the ⯫ Star with Right Half Black:</h3>
+        <ul>
+          <li><strong>Windows:</strong> Press <kbd>Win</kbd> + <kbd>.</kbd>, paste the copied ⯫ symbol into your editor.</li>
+          <li><strong>macOS:</strong> Use <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd>, then search Unicode code “2BEB”.</li>
+          <li><strong>Mobile:</strong> Tap and hold the ⯫ <strong>Star with Right Half Black</strong> symbol above, then select “Copy”.</li>
+        </ul>
+  
+        <p>The ⯫ <strong>Star with Right Half Black</strong> is compatible with most platforms that support Unicode, making it a versatile addition to creative and technical workflows.</p>
+  
+        <hr />
+  
+        <h2>💻 HTML & CSS Code for ⯫ Star with Right Half Black</h2>
+        <p>To display the ⯫ <strong>Star with Right Half Black</strong> on your website or app, use the following HTML or CSS implementation:</p>
+  
+        <h3>HTML Entity Code:</h3>
+        <pre><code>&amp;#11243; or &amp;#x2BEB;</code></pre>
+  
+        <h3>CSS Example:</h3>
+        <pre><code>.right-half-black-star::before {
+    content: '\\2BEB';
+    font-size: 1.4rem;
+    color: #000;
+    font-family: 'Segoe UI Symbol', 'Noto Sans Symbols', 'Arial Unicode MS', sans-serif;
+  }</code></pre>
+  
+        <p class="note"><em>Note:</em> Font support for the ⯫ <strong>Star with Right Half Black</strong> may vary by browser and OS. Always test across platforms and include fallback fonts for best results.</p>
+  
+        <hr />
+  
+        <h2>🎨 Creative Applications for ⯫ Star with Right Half Black</h2>
+        <p>The ⯫ <strong>Star with Right Half Black</strong> offers visual and symbolic utility across many creative scenarios:</p>
+        <ul>
+          <li><strong>Half-Star Ratings:</strong> Use ⯫ alongside ⯪ or ⭐ to indicate partial reviews or scores.</li>
+          <li><strong>Symbolic Representation:</strong> Represent incomplete states, imbalances, or directional concepts.</li>
+          <li><strong>Duality Themes:</strong> Use in contrast with the Star with Left Half Black to symbolize polarities.</li>
+          <li><strong>Progress Indicators:</strong> Add ⯫ to milestone charts, trackers, or task dashboards.</li>
+          <li><strong>Decorative Typography:</strong> Incorporate the ⯫ <strong>Star with Right Half Black</strong> into modern logos or UI icons.</li>
+        </ul>
+  
+        <hr />
+  
+        <h2>🔗 Related Symbols to ⯫ Star with Right Half Black</h2>
+        <p>If you're working with the ⯫ <strong>Star with Right Half Black</strong>, you might also be interested in these related Unicode star characters:</p>
+        <ul>
+          <li><strong>⯪</strong> – Star with Left Half Black (U+2BEA)</li>
+          <li><strong>⯩</strong> – Right Half Black Star (U+2BE9)</li>
+          <li><strong>★</strong> – Black Star (U+2605)</li>
+          <li><strong>☆</strong> – White Star (U+2606)</li>
+          <li><strong>⭐</strong> – White Medium Star (U+2B50)</li>
+        </ul>
+  
+        <p>These symbols, including the ⯫ <strong>Star with Right Half Black</strong>, help construct more expressive rating systems, graphic contrasts, and Unicode-based themes.</p>
+  
+        <hr />
+  
+        <h2>✨ Why Use the ⯫ Star with Right Half Black?</h2>
+        <p>The ⯫ <strong>Star with Right Half Black</strong> isn’t just a curiosity in the Unicode table — it’s a symbol of meaning. Whether you’re a designer, developer, writer, or Unicode enthusiast, the ⯫ <strong>Star with Right Half Black</strong> can enhance your visual storytelling with subtle nuance. It represents half-completion, imbalance, contrast, or progression depending on how you choose to interpret or implement it.</p>
+  
+        <p>From progress bars to metaphorical designs, the ⯫ <strong>Star with Right Half Black</strong> is a compact and powerful visual element. Explore its use in your creative workflows today and unlock the flexibility of Unicode design.</p>
+      </section>
+    `
   }
+
+
+
 
 
 
