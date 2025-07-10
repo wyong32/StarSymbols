@@ -702,7 +702,6 @@ export const blogPostsData = [
   
         <section>
           <h2>Why Do 'Tofu' Boxes Appear? Understanding Unicode and Fonts</h2>
-          <img src="../images/missing_character_example.png" alt="Example of missing characters as tofu boxes" />
           <p>The core of this issue lies in the relationship between **Unicode** and **fonts**.</p>
   
           <h3>Unicode and Glyphs</h3>
