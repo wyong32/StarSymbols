@@ -41,6 +41,18 @@
                 {{ star.unicode }} | Categories:
                 {{ Array.isArray(star.categories) ? star.categories.join(', ') : star.categories }}
               </p>
+
+              <p class="star-meta" v-if="star.isUnicode">
+                <strong>
+                  If you see '□', please refer to
+                  <a
+                    href="https://starsymbols.io/blog/fix-missing-characters-ascii-art"
+                    target="_blank"
+                    >fix missing characters ascii art</a
+                  >
+                  for a solution.</strong
+                >
+              </p>
             </div>
 
             <!-- Right: Technical Information -->

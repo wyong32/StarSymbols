@@ -9004,6 +9004,7 @@ export const starDetailsData = [
     categories: ['classic', 'other'],
     unicode: 'U+2BE8',
     date: 'July 2, 2025',
+    isUnicode: true,
     seo: {
       title: '⯨ Left Half Black Star: Copy & Paste, Unicode, HTML Code',
       description: 'Explore the symbol ⯨ Left Half Black Star, a unique Unicode character used in symbolic representation and interface design. Learn its Unicode (U+2BE8).',
@@ -9102,9 +9103,6 @@ export const starDetailsData = [
         <p><strong>Star Symbols</strong> is your dedicated source for precise documentation, usage guides, and technical implementation of specialized Unicode characters like the ⯨ <strong>Left Half Black Star</strong>. Whether you're a web developer, designer, accessibility advocate, or content creator, our platform empowers you to use such symbols with clarity and confidence.</p>
   
         <p>Start integrating the ⯨ <strong>Left Half Black Star</strong> into your visual systems today, and enhance your designs with meaningful and specialized Unicode glyphs.</p>
-
-        <hr />
-        <p><strong>If you see '□', please refer to <a href="https://starsymbols.io/blog/fix-missing-characters-ascii-art" target="_blank">this blog post</a> for a solution.</strong></p>
       </section>
     `
   },
@@ -9117,6 +9115,7 @@ export const starDetailsData = [
     categories: ['classic', 'other'],
     unicode: 'U+2BE9',
     date: 'July 2, 2025',
+    isUnicode: true,
     seo: {
       title: '⯩ Right Half Black Star: Copy & Paste, Unicode Details',
       description: 'Discover the Unicode character ⯩ Right Half Black Star (U+2BE9). Learn how to use it, copy & paste, HTML CSS implementation, and explore its symbolic meaning.',
@@ -9215,8 +9214,6 @@ export const starDetailsData = [
         <p><strong>Star Symbols</strong> is your go-to resource for understanding rare and specialized Unicode characters like the ⯩ <strong>Right Half Black Star</strong>. We provide comprehensive usage guides, technical integration, and creative inspiration for developers, designers, and content creators.</p>
   
         <p>Start using the ⯩ <strong>Right Half Black Star</strong> in your projects today — whether you're building a web app, designing interfaces, or simply exploring the creative possibilities of Unicode.</p>
-        <hr />
-        <p><strong>If you see '□', please refer to <a href="https://starsymbols.io/blog/fix-missing-characters-ascii-art" target="_blank">this blog post</a> for a solution.</strong></p>
       </section>
     `
   },
@@ -9229,6 +9226,7 @@ export const starDetailsData = [
     categories: ['classic', 'other'],
     unicode: 'U+2BEA',
     date: 'July 8, 2025',
+    isUnicode: true,
     seo: {
       title: '⯪ Star with Left Half Black: Copy & Paste, Unicode Details',
       description: 'Learn everything about the ⯪ Star with Left Half Black (U+2BEA) Unicode symbol. Copy and paste, HTML & CSS usage, creative examples, and symbolic meaning.',
@@ -9327,8 +9325,7 @@ export const starDetailsData = [
         <p>Symbols like the ⯪ <strong>Star with Left Half Black</strong> offer more than just decorative elements — they help convey meaning through form. Whether you’re creating a complex rating scale, expressing duality, or adding symbolic depth to your writing or interface, the ⯪ <strong>Star with Left Half Black</strong> is a subtle yet powerful tool.</p>
   
         <p>Use the ⯪ <strong>Star with Left Half Black</strong> to add depth, precision, and creativity to your projects. It’s one of the lesser-known gems in the Unicode catalog, and with proper use, it can elevate your visual and semantic design.</p>
-        <hr />
-        <p><strong>If you see '□', please refer to <a href="https://starsymbols.io/blog/fix-missing-characters-ascii-art" target="_blank">this blog post</a> for a solution.</strong></p>
+        
       </section>
     `
   },
@@ -9341,6 +9338,7 @@ export const starDetailsData = [
     categories: ['classic', 'other'],
     unicode: 'U+2BEB',
     date: 'July 8, 2025',
+    isUnicode: true,
     seo: {
       title: '⯫ Star with Right Half Black - Unicode Symbol & Copy Guide',
       description: 'Explore the ⯫ Star with Right Half Black (U+2BEB). Copy & paste, use in HTML/CSS, and learn its meaning and design applications.',
@@ -9439,8 +9437,7 @@ export const starDetailsData = [
         <p>The ⯫ <strong>Star with Right Half Black</strong> isn’t just a curiosity in the Unicode table — it’s a symbol of meaning. Whether you’re a designer, developer, writer, or Unicode enthusiast, the ⯫ <strong>Star with Right Half Black</strong> can enhance your visual storytelling with subtle nuance. It represents half-completion, imbalance, contrast, or progression depending on how you choose to interpret or implement it.</p>
   
         <p>From progress bars to metaphorical designs, the ⯫ <strong>Star with Right Half Black</strong> is a compact and powerful visual element. Explore its use in your creative workflows today and unlock the flexibility of Unicode design.</p>
-        <hr />
-        <p><strong>If you see '□', please refer to <a href="https://starsymbols.io/blog/fix-missing-characters-ascii-art" target="_blank">this blog post</a> for a solution.</strong></p>
+       
       </section>
     `
   }
