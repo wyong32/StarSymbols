@@ -9104,7 +9104,7 @@ export const starDetailsData = [
         <p>Start integrating the ⯨ <strong>Left Half Black Star</strong> into your visual systems today, and enhance your designs with meaningful and specialized Unicode glyphs.</p>
 
         <hr />
-        <p><strong>If you see '□', please refer to <a href="https://www.star-symbols.com/blog/fix-missing-characters-ascii-art" target="_blank">this blog post</a> for a solution.</strong></p>
+        <p><strong>If you see '□', please refer to <a href="https://starsymbols.io/blog/fix-missing-characters-ascii-art" target="_blank">this blog post</a> for a solution.</strong></p>
       </section>
     `
   },
@@ -9216,7 +9216,7 @@ export const starDetailsData = [
   
         <p>Start using the ⯩ <strong>Right Half Black Star</strong> in your projects today — whether you're building a web app, designing interfaces, or simply exploring the creative possibilities of Unicode.</p>
         <hr />
-        <p><strong>If you see '□', please refer to <a href="https://www.star-symbols.com/blog/fix-missing-characters-ascii-art" target="_blank">this blog post</a> for a solution.</strong></p>
+        <p><strong>If you see '□', please refer to <a href="https://starsymbols.io/blog/fix-missing-characters-ascii-art" target="_blank">this blog post</a> for a solution.</strong></p>
       </section>
     `
   },
@@ -9328,7 +9328,7 @@ export const starDetailsData = [
   
         <p>Use the ⯪ <strong>Star with Left Half Black</strong> to add depth, precision, and creativity to your projects. It’s one of the lesser-known gems in the Unicode catalog, and with proper use, it can elevate your visual and semantic design.</p>
         <hr />
-        <p><strong>If you see '□', please refer to <a href="https://www.star-symbols.com/blog/fix-missing-characters-ascii-art" target="_blank">this blog post</a> for a solution.</strong></p>
+        <p><strong>If you see '□', please refer to <a href="https://starsymbols.io/blog/fix-missing-characters-ascii-art" target="_blank">this blog post</a> for a solution.</strong></p>
       </section>
     `
   },
@@ -9440,7 +9440,7 @@ export const starDetailsData = [
   
         <p>From progress bars to metaphorical designs, the ⯫ <strong>Star with Right Half Black</strong> is a compact and powerful visual element. Explore its use in your creative workflows today and unlock the flexibility of Unicode design.</p>
         <hr />
-        <p><strong>If you see '□', please refer to <a href="https://www.star-symbols.com/blog/fix-missing-characters-ascii-art" target="_blank">this blog post</a> for a solution.</strong></p>
+        <p><strong>If you see '□', please refer to <a href="https://starsymbols.io/blog/fix-missing-characters-ascii-art" target="_blank">this blog post</a> for a solution.</strong></p>
       </section>
     `
   }
