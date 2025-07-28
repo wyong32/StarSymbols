@@ -9440,7 +9440,112 @@ export const starDetailsData = [
        
       </section>
     `
+  },
+
+  {
+    id: 85,
+    symbol: '∉',
+    name: 'Not An Element Of',
+    slug: 'not-an-element-of',
+    categories: ['other'],
+    unicode: 'U+2209',
+    date: 'July 28, 2025',
+    isUnicode: true,
+    seo: {
+      title: '∉ Not An Element Of - Unicode Symbol & Copy Guide',
+      description: 'Discover the ∉ Not An Element Of symbol (U+2209). Copy and paste easily, learn its HTML/CSS code, Unicode history, and its mathematical logic usage.',
+      keywords: '∉, Not An Element Of, Unicode math symbol, U+2209, HTML code, mathematical operators'
+    },
+    technicalInfo: {
+      unicode: 'U+2209',
+      htmlCode: '&#8713;',
+      hexCode: '&#x2209;',
+      cssCode: '"\\2209"',
+      altCode: null,
+      htmlEntity: '&NotElement;'
+    },
+    creativeShowcases: [
+      { name: 'Set Theory Expression', symbol: 'A ∉ B' },
+      { name: 'Logic Diagram', symbol: 'x ∉ S' },
+      { name: 'Mathematical Proof', symbol: 'y ∉ ℝ' },
+      { name: 'Coding Pseudocode', symbol: 'if x ∉ data:' },
+      { name: 'Symbolic Contrast', symbol: '∈ vs ∉' }
+    ],
+    relatedSymbols: [
+      { symbol: '⯪', name: 'Star with Left Half Black', slug: 'star-with-left-half-black' },
+      { symbol: '⯩', name: 'Right Half Black Star', slug: 'right-half-black-star' },
+      { symbol: '★', name: 'Black Star', slug: 'black-star' },
+      { symbol: '☆', name: 'White Star', slug: 'white-star' },
+      { symbol: '⭐', name: 'White Medium Star', slug: 'white-medium-star' }
+    ],
+    htmlContent: `
+      <section>
+        <h2>∉ Not An Element Of: Unicode Symbol Overview</h2>
+        <p>The ∉ <strong>Not An Element Of</strong> symbol is a mathematical operator used to indicate that a specific element is not a member of a given set. Introduced in <strong>Unicode 1.1</strong> (1993), it belongs to the <em>Mathematical Operators</em> block and is represented by code point <strong>U+2209</strong>.</p>
+        
+        <p>This symbol is visually composed of the ∈ (Element Of) symbol combined with a slash (◌̸) to denote negation. It is widely used in mathematical logic, set theory, and programming contexts where membership exclusion needs to be clearly expressed.</p>
+        
+        <hr />
+        
+        <h2>📋 How to Copy & Paste the ∉ Symbol</h2>
+        <p>Need to use the ∉ <strong>Not An Element Of</strong> symbol in your document, code, or website? Just copy it directly from here: <strong>∉</strong>.</p>
+        
+        <h3>How to Copy the ∉ Symbol:</h3>
+        <ul>
+          <li><strong>Windows:</strong> Press <kbd>Win</kbd> + <kbd>.</kbd> (emoji panel) and search for "2209".</li>
+          <li><strong>macOS:</strong> Use <kbd>Control</kbd> + <kbd>Command</kbd> + <kbd>Space</kbd> to access the Character Viewer.</li>
+          <li><strong>Mobile:</strong> Tap and hold ∉, then select “Copy”.</li>
+        </ul>
+        
+        <p>The ∉ symbol is supported on most modern platforms that include Unicode mathematical operators.</p>
+        
+        <hr />
+        
+        <h2>💻 HTML & CSS Code for ∉</h2>
+        <p>To display the ∉ symbol on web pages, you can use HTML or CSS code:</p>
+        
+        <h3>HTML Entity Code:</h3>
+        <pre><code>&amp;#8713; or &amp;#x2209; or &amp;NotElement;</code></pre>
+        
+        <h3>CSS Example:</h3>
+        <pre><code>.not-an-element-of::before {
+      content: '\\2209';
+      font-size: 1.2rem;
+      font-family: 'Cambria Math', 'Noto Sans Symbols', serif;
+    }</code></pre>
+        
+        <hr />
+        
+        <h2>🎨 Creative Applications for ∉ Symbol</h2>
+        <p>The ∉ symbol is used in many contexts beyond traditional mathematics:</p>
+        <ul>
+          <li><strong>Mathematical Logic:</strong> Represent elements not belonging to sets (e.g., x ∉ A).</li>
+          <li><strong>Algorithms:</strong> Used in pseudocode or flowcharts to check membership exclusion.</li>
+          <li><strong>Data Science:</strong> Indicate absence of records or data points.</li>
+          <li><strong>Symbolic Art:</strong> Combine with other set symbols for conceptual designs.</li>
+          <li><strong>Educational Content:</strong> Used in textbooks, worksheets, and online courses.</li>
+        </ul>
+        
+        <hr />
+        
+        <h2>🔗 Related Symbols</h2>
+        <p>If you are using ∉, you may also want to check these symbols:</p>
+        <ul>
+          <li><strong>∈</strong> – Element Of (U+2208)</li>
+          <li><strong>∌</strong> – Does Not Contain As Member (U+220C)</li>
+          <li><strong>∋</strong> – Contains As Member (U+220B)</li>
+          <li><strong>∅</strong> – Empty Set (U+2205)</li>
+          <li><strong>⊄</strong> – Not A Subset Of (U+2284)</li>
+        </ul>
+        
+        <hr />
+        
+        <h2>✨ Why Use the ∉ Symbol?</h2>
+        <p>The ∉ <strong>Not An Element Of</strong> symbol is a fundamental part of set theory notation. It allows mathematicians, programmers, and educators to represent exclusion in a concise and universally recognized way. Whether in a formal mathematical proof, a software algorithm, or an academic paper, ∉ provides clarity and precision where it matters most.</p>
+      </section>
+    `
   }
+
 
 
 
