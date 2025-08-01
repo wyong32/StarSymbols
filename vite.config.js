@@ -13,7 +13,7 @@ import { starDetailsData } from './src/data/starDetails.js'
 const staticRoutes = [
   '/',
   '/all-star-symbols',
-  '/text-symbol-generator',
+  '/fancy-text-generator',
   '/blog',
   '/image-to-text',
   '/about',

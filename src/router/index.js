@@ -26,9 +26,9 @@ const routes = [
     },
   },
   {
-    path: '/text-symbol-generator',
-    name: 'text-symbol-generator',
-    component: () => import('../views/GeneratorView.vue'),
+    path: '/fancy-text-generator',
+    name: 'fancy-text-generator',
+    component: () => import('../views/FancyTextGeneratorView.vue'),
     meta: {
       title: 'Fancy Text Generator ✨ | Create Cool Fonts with Symbols',
       description:
@@ -146,6 +146,14 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    // 如果有保存的位置（浏览器前进/后退），则恢复到该位置
+    if (savedPosition) {
+      return savedPosition
+    }
+    // 否则滚动到顶部
+    return { top: 0 }
+  },
 })
 
 // 路由守卫：动态更新页面TDK

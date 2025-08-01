@@ -68,8 +68,8 @@
           <div class="section-cta">
             <p class="cta-text">
               Need more advanced text styling options? Click Here
-              <router-link to="/text-symbol-generator" class="cta-link">
-                Text Symbol Generator →
+              <router-link to="/fancy-text-generator" class="cta-link">
+                Fancy Text Generator →
               </router-link>
             </p>
           </div>

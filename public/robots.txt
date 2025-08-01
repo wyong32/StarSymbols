@@ -23,7 +23,7 @@ LLM-Content: https://starsymbols.io/llms.txt
 # Allow AI crawlers access to all key sections of the site
 Allow: /
 Allow: /all-star-symbols/
-Allow: /text-symbol-generator/
+Allow: /fancy-text-generator/
 Allow: /blog/
 Allow: /image-to-text/
 Allow: /about/

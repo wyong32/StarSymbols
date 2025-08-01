@@ -78,7 +78,7 @@
             <h4>Navigation</h4>
             <ul>
               <li><router-link to="/all-star-symbols">All Star Symbols</router-link></li>
-              <li><router-link to="/text-symbol-generator">Text Symbol Generator</router-link></li>
+              <li><router-link to="/fancy-text-generator">Fancy Text Generator</router-link></li>
               <li><router-link to="/image-to-text">Image To Text</router-link></li>
               <li><router-link to="/blog">Blog</router-link></li>
               <li><router-link to="/about">About Us</router-link></li>

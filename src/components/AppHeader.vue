@@ -10,7 +10,7 @@
       <nav class="nav desktop-nav">
         <router-link to="/">Home</router-link>
         <router-link to="/all-star-symbols">All Star Symbols</router-link>
-        <router-link to="/text-symbol-generator">Text Symbol Generator</router-link>
+        <router-link to="/fancy-text-generator">Fancy Text Generator</router-link>
         <router-link to="/image-to-text">Image To Text</router-link>
         <router-link to="/blog">Blog</router-link>
         <router-link to="/about">About Us</router-link>
@@ -33,8 +33,8 @@
       <div class="mobile-nav-content">
         <router-link to="/" @click="closeMobileMenu">Home</router-link>
         <router-link to="/all-star-symbols" @click="closeMobileMenu">All Star Symbols</router-link>
-        <router-link to="/text-symbol-generator" @click="closeMobileMenu"
-          >Text Symbol Generator</router-link
+        <router-link to="/fancy-text-generator" @click="closeMobileMenu"
+          >Fancy Text Generator</router-link
         >
         <router-link to="/image-to-text" @click="closeMobileMenu">Image To Text</router-link>
         <router-link to="/blog" @click="closeMobileMenu">Blog</router-link>

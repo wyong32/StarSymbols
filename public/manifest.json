@@ -42,7 +42,7 @@
       "name": "Text Generator",
       "short_name": "Generator",
       "description": "Create aesthetic text with stars",
-      "url": "/text-symbol-generator",
+              "url": "/fancy-text-generator",
       "icons": [
         {
           "src": "/favicon.ico",
