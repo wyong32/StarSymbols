@@ -7021,7 +7021,187 @@ export const starDetailsData = [
     </ul>
 </section>
     `
+  },
+
+  {
+    id: 86,
+    symbol: "ϐ",
+    name: "Greek Beta Symbol",
+    slug: "greek-beta-symbol",
+    categories: ["other"],
+    unicode: "U+03D0",
+    date: "August 4, 2025",
+    isUnicode: true,
+    seo: {
+      title: "ϐ Greek Beta Symbol - Unicode Character & Copy Guide",
+      description: "Discover the ϐ Greek Beta Symbol (U+03D0). Copy and paste easily, learn its HTML/CSS code, Unicode history, and its usage in mathematics and Greek typography.",
+      keywords: "ϐ, Greek Beta Symbol, U+03D0, Unicode Greek letters, HTML code, beta variant"
+    },
+    technicalInfo: {
+      unicode: "U+03D0",
+      htmlCode: "&#976;",
+      hexCode: "&#x3D0;",
+      cssCode: "\"\\03D0\"",
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [
+      { name: "Mathematical Expression", symbol: "ϐ = β + δ" },
+      { name: "Physics Constant", symbol: "ϐ × c²" },
+      { name: "Greek Typography Sample", symbol: "ΑΒΓΔϐ" },
+      { name: "Equation Example", symbol: "ϐ² + α² = γ²" },
+      { name: "Symbolic Contrast", symbol: "β vs ϐ" }
+    ],
+    relatedStars: [
+      { symbol: "⯪", name: "Star with Left Half Black", slug: "star-with-left-half-black" },
+      { symbol: "⯩", name: "Right Half Black Star", slug: "right-half-black-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" }
+    ],
+    htmlContent: `
+    <section>
+      <h2>Greek Beta Symbol (ϐ)</h2>
+      <p>The <strong>"Greek Beta Symbol" (ϐ)</strong> is a typographic variant of the Greek lowercase beta (β). It is primarily used in mathematics, physics, and specialized typesetting where differentiation from the standard beta is necessary. The glyph ϐ often appears in scientific documents, Greek typography, and certain phonetic notations.</p>
+  
+      <h3>How to Use the Greek Beta Symbol</h3>
+      <p>You can easily copy and paste the Greek Beta Symbol: <span class="symbol-highlight">ϐ</span></p>
+  
+      <h4>On Windows:</h4>
+      <p>Use the Character Map (Charmap.exe), search for "Greek Beta Symbol," or use its Unicode code point directly.</p>
+  
+      <h4>On Mac:</h4>
+      <p>Use the Character Viewer (Edit > Emoji & Symbols), search for "beta" or "Greek beta variant".</p>
+  
+      <h4>On Mobile (iOS/Android):</h4>
+      <p>This character is not typically on standard mobile keyboards. Use a Unicode input tool or specialized Greek keyboard to access it.</p>
+  
+      <h2>Technical Information for Developers</h2>
+      <p>The following codes are useful for implementing the Greek Beta Symbol (ϐ) in websites and applications.</p>
+  
+      <h3>HTML Entities:</h3>
+      <pre><code class="language-html">&lt;!-- HTML Decimal Code --&gt; &#976;</code></pre>
+      <pre><code class="language-html">&lt;!-- HTML Hexadecimal Code --&gt; &#x3D0;</code></pre>
+  
+      <h3>CSS Content Property:</h3>
+      <pre><code class="language-css">.greek-beta-symbol::before { content: "\\03D0"; }</code></pre>
+  
+      <h3>Unicode Details:</h3>
+      <ul>
+        <li><strong>Unicode:</strong> U+03D0</li>
+        <li><strong>Name:</strong> GREEK BETA SYMBOL</li>
+        <li><strong>Block:</strong> Greek and Coptic, U+0370 - U+03FF</li>
+        <li><strong>Plane:</strong> Basic Multilingual Plane, U+0000 - U+FFFF</li>
+        <li><strong>Script:</strong> Greek (Grek)</li>
+        <li><strong>Category:</strong> Lowercase Letter (Ll)</li>
+        <li><strong>Bidirectional Class:</strong> Left To Right (L)</li>
+        <li><strong>Combining Class:</strong> Not Reordered (0)</li>
+        <li><strong>Character is Mirrored:</strong> No</li>
+        <li><strong>Unicode Version:</strong> 1.1 (June 1993)</li>
+        <li><strong>Uppercase Character:</strong> Β (U+0392)</li>
+        <li><strong>Decomposition:</strong> β (U+03B2)</li>
+      </ul>
+  
+      <h3>Encoding:</h3>
+      <ul>
+        <li><strong>UTF-8 Encoding:</strong> <code>0xCF 0x90</code></li>
+        <li><strong>UTF-16 Encoding:</strong> <code>0x03D0</code></li>
+        <li><strong>UTF-32 Encoding:</strong> <code>0x000003D0</code></li>
+      </ul>
+    </section>
+    `
+  },
+
+  {
+    id: 87,
+    symbol: "ϴ",
+    name: "Greek Capital Theta Symbol",
+    slug: "greek-capital-theta-symbol",
+    categories: ["other"],
+    unicode: "U+03F4",
+    date: "August 4, 2025",
+    isUnicode: true,
+    seo: {
+      title: "ϴ Greek Capital Theta Symbol - Unicode Character & Copy Guide",
+      description: "Discover the ϴ Greek Capital Theta Symbol (U+03F4). Copy and paste easily, learn its HTML/CSS code, Unicode history, and its usage in mathematics and Greek typography.",
+      keywords: "ϴ, Greek Capital Theta Symbol, U+03F4, Unicode Greek letters, HTML code, theta variant"
+    },
+    technicalInfo: {
+      unicode: "U+03F4",
+      htmlCode: "&#1012;",
+      hexCode: "&#x3F4;",
+      cssCode: "\"\\03F4\"",
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [
+      { name: "Mathematical Expression", symbol: "ϴ = θ + π" },
+      { name: "Physics Formula", symbol: "ϴ = ω × t" },
+      { name: "Greek Typography Sample", symbol: "ΑΒΓΔϴ" },
+      { name: "Angle Measurement", symbol: "ϴ = 90°" },
+      { name: "Symbolic Contrast", symbol: "Θ vs ϴ" }
+    ],
+    relatedStars: [
+      { symbol: "⯪", name: "Star with Left Half Black", slug: "star-with-left-half-black" },
+      { symbol: "⯩", name: "Right Half Black Star", slug: "right-half-black-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" }
+    ],
+    htmlContent: `
+    <section>
+      <h2>Greek Capital Theta Symbol (ϴ)</h2>
+      <p>The <strong>"Greek Capital Theta Symbol" (ϴ)</strong> is a unique variant of the Greek uppercase theta (Θ). It is often used in specialized mathematical and scientific contexts to differentiate it from the standard theta symbol. This character appears in engineering, physics, and certain Greek typography cases where typographic distinction is important.</p>
+  
+      <h3>How to Use the Greek Capital Theta Symbol</h3>
+      <p>You can easily copy and paste the Greek Capital Theta Symbol: <span class="symbol-highlight">ϴ</span></p>
+  
+      <h4>On Windows:</h4>
+      <p>Use the Character Map (Charmap.exe), search for "Greek Capital Theta Symbol," or use its Unicode code point directly.</p>
+  
+      <h4>On Mac:</h4>
+      <p>Use the Character Viewer (Edit > Emoji & Symbols), search for "theta" or "Greek theta symbol".</p>
+  
+      <h4>On Mobile (iOS/Android):</h4>
+      <p>This character is not typically on standard mobile keyboards. Use a Unicode input tool or specialized Greek keyboard to access it.</p>
+  
+      <h2>Technical Information for Developers</h2>
+      <p>The following codes are useful for implementing the Greek Capital Theta Symbol (ϴ) in websites and applications.</p>
+  
+      <h3>HTML Entities:</h3>
+      <pre><code class="language-html">&lt;!-- HTML Decimal Code --&gt; &#1012;</code></pre>
+      <pre><code class="language-html">&lt;!-- HTML Hexadecimal Code --&gt; &#x3F4;</code></pre>
+  
+      <h3>CSS Content Property:</h3>
+      <pre><code class="language-css">.greek-capital-theta-symbol::before { content: "\\03F4"; }</code></pre>
+  
+      <h3>Unicode Details:</h3>
+      <ul>
+        <li><strong>Unicode:</strong> U+03F4</li>
+        <li><strong>Name:</strong> GREEK CAPITAL THETA SYMBOL</li>
+        <li><strong>Block:</strong> Greek and Coptic, U+0370 - U+03FF</li>
+        <li><strong>Plane:</strong> Basic Multilingual Plane, U+0000 - U+FFFF</li>
+        <li><strong>Script:</strong> Greek (Grek)</li>
+        <li><strong>Category:</strong> Uppercase Letter (Lu)</li>
+        <li><strong>Bidirectional Class:</strong> Left To Right (L)</li>
+        <li><strong>Combining Class:</strong> Not Reordered (0)</li>
+        <li><strong>Character is Mirrored:</strong> No</li>
+        <li><strong>Unicode Version:</strong> 3.1 (March 2001)</li>
+        <li><strong>Lowercase Character:</strong> θ (U+03B8)</li>
+        <li><strong>Decomposition:</strong> Θ (U+0398)</li>
+      </ul>
+  
+      <h3>Encoding:</h3>
+      <ul>
+        <li><strong>UTF-8 Encoding:</strong> <code>0xCF 0xB4</code></li>
+        <li><strong>UTF-16 Encoding:</strong> <code>0x03F4</code></li>
+        <li><strong>UTF-32 Encoding:</strong> <code>0x000003F4</code></li>
+      </ul>
+    </section>
+    `
   }
+
+
 
 
 
