@@ -7199,6 +7199,212 @@ export const starDetailsData = [
       </ul>
     </section>
     `
+  },
+
+  {
+    id: 88,
+    symbol: "≅",
+    name: "Approximately Equal To Symbol",
+    slug: "approximately-equal-to-symbol",
+    categories: ["other"],
+    unicode: "U+2245",
+    date: "August 11, 2025",
+    isUnicode: true,
+    seo: {
+      title: "≅ Approximately Equal To Symbol - Unicode Character & Copy Guide",
+      description: "Explore the ≅ Approximately Equal To Symbol (U+2245). Learn how to copy and paste it, its HTML/CSS codes, Unicode history, and its common use in mathematics and science to denote approximation.",
+      keywords: "≅, Approximately Equal To, U+2245, Unicode math symbols, HTML code, approximation symbol"
+    },
+    technicalInfo: {
+      unicode: "U+2245",
+      htmlCode: "&#8773;",
+      hexCode: "&#x2245;",
+      cssCode: "\"\\2245\"",
+      altCode: null,
+      htmlEntity: "&TildeFullEqual;"
+    },
+    creativeShowcases: [
+      {
+        name: "Mathematical Formula",
+        symbol: "π ≅ 3.14"
+      },
+      {
+        name: "Physics Calculation",
+        symbol: "E ≅ mc² (for low velocities)"
+      },
+      {
+        name: "Chemistry Notation",
+        symbol: "pH ≅ 7"
+      },
+      {
+        name: "Geometric Congruence",
+        symbol: "△ABC ≅ △DEF"
+      },
+      {
+        name: "Data Analysis",
+        symbol: "Mean ≅ Median"
+      }
+    ],
+    relatedStars: [
+      { symbol: "⯪", name: "Star with Left Half Black", slug: "star-with-left-half-black" },
+      { symbol: "⯩", name: "Right Half Black Star", slug: "right-half-black-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" }
+    ],
+    htmlContent: `
+      <section>
+        <h2>Approximately Equal To Symbol (≅)</h2>
+        <p>The <strong>"Approximately Equal To Symbol" (≅)</strong> is a mathematical and scientific symbol used to indicate that two quantities or values are nearly equal. It is widely used in fields like physics, chemistry, engineering, and statistics to represent an approximation, rounding, or an estimation rather than an exact equivalence. This character is also used in geometry to denote congruence between two shapes.</p>
+  
+        <h3>How to Use the Approximately Equal To Symbol</h3>
+        <p>You can easily copy and paste the Approximately Equal To Symbol: <span class="symbol-highlight">≅</span></p>
+  
+        <h4>On Windows:</h4>
+        <p>Use the Character Map (Charmap.exe), search for "Approximately Equal To," or use its Unicode code point directly.</p>
+  
+        <h4>On Mac:</h4>
+        <p>Use the Character Viewer (Edit > Emoji & Symbols), and search for "approximately" or "equal to."</p>
+  
+        <h4>On Mobile (iOS/Android):</h4>
+        <p>This symbol is often available on standard keyboards under the math or symbol sections.</p>
+  
+        <h2>Technical Information for Developers</h2>
+        <p>The following codes are useful for implementing the Approximately Equal To Symbol (≅) in websites and applications.</p>
+  
+        <h3>HTML Entities:</h3>
+        <pre><code class="language-html">&#8773;</code></pre>
+        <pre><code class="language-html">&#x2245;</code></pre>
+        <pre><code class="language-html">&TildeFullEqual;</code></pre>
+  
+        <h3>CSS Content Property:</h3>
+        <pre><code class="language-css">.approximately-equal-symbol::before { content: "\\2245"; }</code></pre>
+  
+        <h3>Unicode Details:</h3>
+        <ul>
+          <li><strong>Unicode:</strong> U+2245</li>
+          <li><strong>Name:</strong> APPROXIMATELY EQUAL TO</li>
+          <li><strong>Block:</strong> Mathematical Operators, U+2200 - U+22FF</li>
+          <li><strong>Plane:</strong> Basic Multilingual Plane, U+0000 - U+FFFF</li>
+          <li><strong>Script:</strong> Code for undetermined script (Zyyy)</li>
+          <li><strong>Category:</strong> Math Symbol (Sm)</li>
+          <li><strong>Bidirectional Class:</strong> Other Neutral (ON)</li>
+          <li><strong>Combining Class:</strong> Not Reordered (0)</li>
+          <li><strong>Character is Mirrored:</strong> Yes (Mirrored by ≌ U+224C)</li>
+          <li><strong>Unicode Version:</strong> 1.1 (June 1993)</li>
+        </ul>
+  
+        <h3>Encoding:</h3>
+        <ul>
+          <li><strong>UTF-8 Encoding:</strong> <code>0xE2 0x89 0x85</code></li>
+          <li><strong>UTF-16 Encoding:</strong> <code>0x2245</code></li>
+          <li><strong>UTF-32 Encoding:</strong> <code>0x00002245</code></li>
+        </ul>
+      </section>
+      `
+  },
+
+  {
+    id: 89,
+    symbol: "∫",
+    name: "Integral Symbol",
+    slug: "integral-symbol",
+    categories: ["other"],
+    unicode: "U+222B",
+    date: "August 11, 2025",
+    isUnicode: true,
+    seo: {
+      title: "∫ Integral Symbol - Unicode Character & Copy Guide",
+      description: "Explore the ∫ Integral Symbol (U+222B). Learn how to copy and paste it, its HTML/CSS codes, Unicode history, and its common use in mathematics for calculus.",
+      keywords: "∫, Integral Symbol, U+222B, Unicode math symbols, HTML code, calculus symbol"
+    },
+    technicalInfo: {
+      unicode: "U+222B",
+      htmlCode: "&#8747;",
+      hexCode: "&#x222B;",
+      cssCode: "\"\\222B\"",
+      altCode: null,
+      htmlEntity: "&int;"
+    },
+    creativeShowcases: [
+      {
+        name: "Indefinite Integral",
+        symbol: "∫ f(x) dx"
+      },
+      {
+        name: "Definite Integral",
+        symbol: "∫₀¹ x² dx"
+      },
+      {
+        name: "Multiple Integral",
+        symbol: "∬ f(x, y) dA"
+      },
+      {
+        name: "Line Integral",
+        symbol: "∮ f(x, y) ds"
+      },
+      {
+        name: "Calculus Application",
+        symbol: "Area = ∫ y dx"
+      }
+    ],
+    relatedStars: [
+      { symbol: "⯪", name: "Star with Left Half Black", slug: "star-with-left-half-black" },
+      { symbol: "⯩", name: "Right Half Black Star", slug: "right-half-black-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" }
+    ],
+    htmlContent: `
+      <section>
+        <h2>Integral Symbol (∫)</h2>
+        <p>The <strong>"Integral Symbol" (∫)</strong> is a fundamental symbol in calculus, representing the operation of integration. It is used to find the area under a curve, volume of a solid, or to find a function whose derivative is known. This symbol is an elongated 'S', which stands for 'sum,' reflecting its origin as the limit of a sum of rectangles to approximate an area.</p>
+  
+        <h3>How to Use the Integral Symbol</h3>
+        <p>You can easily copy and paste the Integral Symbol: <span class="symbol-highlight">∫</span></p>
+  
+        <h4>On Windows:</h4>
+        <p>Use the Character Map (Charmap.exe), search for "Integral," or use its Unicode code point directly.</p>
+  
+        <h4>On Mac:</h4>
+        <p>Use the Character Viewer (Edit > Emoji & Symbols), and search for "integral."</p>
+  
+        <h4>On Mobile (iOS/Android):</h4>
+        <p>This symbol is commonly available on mathematical keyboards or through specialized symbol input tools.</p>
+  
+        <h2>Technical Information for Developers</h2>
+        <p>The following codes are useful for implementing the Integral Symbol (∫) in websites and applications.</p>
+  
+        <h3>HTML Entities:</h3>
+        <pre><code class="language-html">&#8747;</code></pre>
+        <pre><code class="language-html">&#x222B;</code></pre>
+        <pre><code class="language-html">&int;</code></pre>
+  
+        <h3>CSS Content Property:</h3>
+        <pre><code class="language-css">.integral-symbol::before { content: "\\222B"; }</code></pre>
+  
+        <h3>Unicode Details:</h3>
+        <ul>
+          <li><strong>Unicode:</strong> U+222B</li>
+          <li><strong>Name:</strong> INTEGRAL</li>
+          <li><strong>Block:</strong> Mathematical Operators, U+2200 - U+22FF</li>
+          <li><strong>Plane:</strong> Basic Multilingual Plane, U+0000 - U+FFFF</li>
+          <li><strong>Script:</strong> Code for undetermined script (Zyyy)</li>
+          <li><strong>Category:</strong> Math Symbol (Sm)</li>
+          <li><strong>Bidirectional Class:</strong> Other Neutral (ON)</li>
+          <li><strong>Combining Class:</strong> Not Reordered (0)</li>
+          <li><strong>Character is Mirrored:</strong> Yes</li>
+          <li><strong>Unicode Version:</strong> 1.1 (June 1993)</li>
+        </ul>
+  
+        <h3>Encoding:</h3>
+        <ul>
+          <li><strong>UTF-8 Encoding:</strong> <code>0xE2 0x88 0xAB</code></li>
+          <li><strong>UTF-16 Encoding:</strong> <code>0x222B</code></li>
+          <li><strong>UTF-32 Encoding:</strong> <code>0x0000222B</code></li>
+        </ul>
+      </section>
+      `
   }
 
 
