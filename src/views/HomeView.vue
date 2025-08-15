@@ -5,7 +5,6 @@
     <!-- Hero Section -->
     <section class="hero" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)">
       <div class="hero-content">
-        
         <h1 class="hero-title">Star Copy and Paste - All Star Symbols</h1>
         <div class="hero-stars">
           <span class="hero-star" style="--delay: 0s">★</span>
@@ -64,11 +63,6 @@
         </div>
       </div>
     </section>
-
-    <!-- 页内原生广告位 -->
-    <aside class="ad-content" :key="'pc-ad-' + adKey">
-      <ins class="eas6a97888e20" data-zoneid="5670022"></ins>
-    </aside>
 
     <!-- How to Use Section -->
     <section class="how-to-use-section">
