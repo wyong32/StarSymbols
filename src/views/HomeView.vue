@@ -254,8 +254,6 @@ const { isMobile } = useDeviceDetection()
 // Reactive data
 const showToast = ref(false)
 const toastMessage = ref('')
-// 广告刷新的key，用于强制重新渲染广告
-const adKey = ref(0)
 
 // How to use steps
 const howToSteps = [
@@ -348,37 +346,9 @@ const showToastMessage = (message) => {
   }, 3000)
 }
 
-// 手动触发广告加载
-const loadAds = () => {
-  if (window.AdProvider) {
-    try {
-      window.AdProvider.push({ serve: {} })
-    } catch (e) {
-      console.error('广告加载失败:', e)
-    }
-  } else {
-    // 如果 AdProvider 还没加载，动态加载脚本
-    const script = document.createElement('script')
-    script.async = true
-    script.type = 'application/javascript'
-    script.src = 'https://a.magsrv.com/ad-provider.js'
-    script.onload = () => {
-      if (window.AdProvider) {
-        window.AdProvider.push({ serve: {} })
-      }
-    }
-    script.onerror = (e) => {
-      console.error('广告脚本加载失败:', e)
-    }
-    document.head.appendChild(script)
-  }
-}
-
 // Set up copy protection toast callback
 onMounted(() => {
   copyProtection.setToastCallback(showToastMessage)
-  // 加载广告
-  setTimeout(loadAds, 1000)
 })
 </script>
 
