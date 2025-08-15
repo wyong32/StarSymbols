@@ -5,10 +5,7 @@
     <!-- Hero Section -->
     <section class="hero" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)">
       <div class="hero-content">
-        <!-- 移动端横幅-1 -->
-        <aside class="ad-content" v-if="isMobile" :key="'ph-ad-' + adKey">
-          <ins class="eas6a97888e10" data-zoneid="5670024"></ins>
-        </aside>
+        
         <h1 class="hero-title">Star Copy and Paste - All Star Symbols</h1>
         <div class="hero-stars">
           <span class="hero-star" style="--delay: 0s">★</span>
@@ -26,11 +23,6 @@
           of star symbols to make your content shine with beautiful Unicode star symbols! ✨
         </p>
 
-        <!-- PC端横幅顶部位 -->
-        <aside class="ad-content" v-if="!isMobile" :key="'pc-ad-' + adKey">
-          <ins class="eas6a97888e2" data-zoneid="5670016"></ins>
-        </aside>
-
         <div class="symbols-container">
           <StarSymbolsGrid :show-toast="showToastMessage" />
 
@@ -43,10 +35,6 @@
             </p>
           </div>
         </div>
-        <!-- 移动端横幅-2 -->
-        <aside class="ad-content" v-if="isMobile" :key="'ph-ad-' + adKey">
-          <ins class="eas6a97888e10" data-zoneid="5670028"></ins>
-        </aside>
       </div>
     </section>
 
