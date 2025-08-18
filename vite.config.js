@@ -5,7 +5,6 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import sitemap from 'vite-plugin-sitemap'
-import { VitePWA } from 'vite-plugin-pwa'
 import { blogPostsData } from './src/data/blogPosts.js'
 import { starDetailsData } from './src/data/starDetails.js'
 
@@ -38,15 +37,6 @@ export default defineConfig({
       dynamicRoutes: [...staticRoutes, ...dynamicBlogRoutes, ...dynamicStarRoutes],
       // Do not auto-generate robots.txt, as we have a custom one in /public
       generateRobotsTxt: false,
-    }),
-    VitePWA({
-      registerType: 'autoUpdate',
-      workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,webp,txt,xml}'],
-        cleanupOutdatedCaches: true,
-      },
-      includeAssets: ['favicon.ico', 'og-image.svg', 'robots.txt', 'llms.txt'],
-      manifest: false, // Use existing manifest.json in public folder
     }),
   ],
   resolve: {
