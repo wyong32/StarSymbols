@@ -135,6 +135,20 @@
 
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
-    
+    <script>
+      (function cleanupServiceWorkersOnce() {
+        if (!('serviceWorker' in navigator)) return;
+        try {
+          navigator.serviceWorker.getRegistrations && navigator.serviceWorker.getRegistrations().then(function(regs){
+            regs.forEach(function(reg){ reg.unregister(); });
+          });
+        } catch(e) {}
+        try {
+          if (window.caches && caches.keys) {
+            caches.keys().then(function(keys){ keys.forEach(function(k){ caches.delete(k); }); });
+          }
+        } catch(e) {}
+      })();
+    </script>
   </body>
 </html>
