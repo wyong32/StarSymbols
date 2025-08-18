@@ -7405,7 +7405,189 @@ export const starDetailsData = [
         </ul>
       </section>
       `
+  },
+
+  {
+    id: 90,
+    symbol: "𐀤",
+    name: "Linear B Syllable B078 Qe",
+    slug: "linear-b-syllable-b078-qe",
+    categories: ["other"],
+    unicode: "U+10024",
+    date: "August 18, 2025",
+    isUnicode: true,
+    seo: {
+      title: "𐀤 Linear B Syllable B078 Qe - Unicode Character & Copy Guide",
+      description: "Discover the Linear B Syllable B078 Qe (𐀤, U+10024). Learn how to copy and paste it, view Unicode encoding details, and explore its place in the Linear B syllabary.",
+      keywords: "𐀤, Linear B Syllable B078 Qe, U+10024, Linear B, ancient script, Unicode character, Linear B Syllabary"
+    },
+    technicalInfo: {
+      unicode: "U+10024",
+      htmlCode: "&#65572;",
+      hexCode: "&#x10024;",
+      cssCode: "\"\\10024\"",
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [
+      {
+        name: "Linear B Script Example",
+        symbol: "𐀀𐀤𐀈𐀐"
+      },
+      {
+        name: "Syllabary Sequence",
+        symbol: "𐀂𐀤𐀡𐀩"
+      }
+    ],
+    relatedStars: [
+      { symbol: "⯪", name: "Star with Left Half Black", slug: "star-with-left-half-black" },
+      { symbol: "⯩", name: "Right Half Black Star", slug: "right-half-black-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" }
+    ],
+    htmlContent: `
+      <section>
+        <h2>Linear B Syllable B078 Qe (𐀤)</h2>
+        <p>The <strong>Linear B Syllable B078 Qe (𐀤)</strong> is part of the Linear B syllabary, an ancient script used primarily for writing Mycenaean Greek, the earliest attested form of the Greek language. Linear B was used on clay tablets and other records dating back to the 13th century BCE.</p>
+  
+        <h3>How to Use the Symbol</h3>
+        <p>You can easily copy and paste the Linear B character here: <span class="symbol-highlight">𐀤</span></p>
+  
+        <h4>On Windows:</h4>
+        <p>Use the Character Map or Unicode input by typing <code>U+10024</code> (requires applications that support supplementary plane characters).</p>
+  
+        <h4>On Mac:</h4>
+        <p>Use the Character Viewer (Edit > Emoji & Symbols), search for "Linear B," and insert it.</p>
+  
+        <h4>On Mobile:</h4>
+        <p>Support depends on font availability. Specialized ancient script fonts may be required.</p>
+  
+        <h2>Technical Information for Developers</h2>
+        <p>The following codes are useful for implementing the Linear B Syllable B078 Qe (𐀤) in websites and applications.</p>
+  
+        <h3>HTML Entities:</h3>
+        <pre><code class="language-html">&#65572;</code></pre>
+        <pre><code class="language-html">&#x10024;</code></pre>
+  
+        <h3>CSS Content Property:</h3>
+        <pre><code class="language-css">.linear-b-qe::before { content: "\\10024"; }</code></pre>
+  
+        <h3>Unicode Details:</h3>
+        <ul>
+          <li><strong>Unicode:</strong> U+10024</li>
+          <li><strong>Name:</strong> Linear B Syllable B078 Qe</li>
+          <li><strong>Block:</strong> Linear B Syllabary, U+10000 - U+1007F</li>
+          <li><strong>Plane:</strong> Supplementary Multilingual Plane, U+10000 - U+1FFFF</li>
+          <li><strong>Script:</strong> Linear B (Linb)</li>
+          <li><strong>Category:</strong> Other Letter (Lo)</li>
+          <li><strong>Bidirectional Class:</strong> Left To Right (L)</li>
+          <li><strong>Combining Class:</strong> Not Reordered (0)</li>
+          <li><strong>Character is Mirrored:</strong> No</li>
+          <li><strong>Unicode Version:</strong> 4.0 (April 2003)</li>
+        </ul>
+  
+        <h3>Encoding:</h3>
+        <ul>
+          <li><strong>UTF-8 Encoding:</strong> <code>0xF0 0x90 0x80 0xA4</code></li>
+          <li><strong>UTF-16 Encoding:</strong> <code>0xD800 0xDC24</code></li>
+          <li><strong>UTF-32 Encoding:</strong> <code>0x00010024</code></li>
+        </ul>
+      </section>
+    `
+  },
+
+  {
+    id: 91,
+    symbol: "𐁅",
+    name: "Linear B Syllable B048 Nwa",
+    slug: "linear-b-syllable-b048-nwa",
+    categories: ["other"],
+    unicode: "U+10045",
+    date: "August 18, 2025",
+    isUnicode: true,
+    seo: {
+      title: "𐁅 Linear B Syllable B048 Nwa - Unicode Character & Copy Guide",
+      description: "Explore the Linear B Syllable B048 Nwa (𐁅, U+10045). Learn how to copy and paste it, check Unicode details, encoding formats, and its role in the Linear B syllabary.",
+      keywords: "𐁅, Linear B Syllable B048 Nwa, U+10045, Linear B, ancient script, Unicode character, Linear B Syllabary"
+    },
+    technicalInfo: {
+      unicode: "U+10045",
+      htmlCode: "&#65605;",
+      hexCode: "&#x10045;",
+      cssCode: "\"\\10045\"",
+      altCode: null,
+      htmlEntity: null
+    },
+    creativeShowcases: [
+      {
+        name: "Linear B Script Word Example",
+        symbol: "𐀀𐁅𐀈𐀐"
+      },
+      {
+        name: "Syllabary Sequence",
+        symbol: "𐀂𐁅𐀡𐀩"
+      }
+    ],
+    relatedStars: [
+      { symbol: "⯪", name: "Star with Left Half Black", slug: "star-with-left-half-black" },
+      { symbol: "⯩", name: "Right Half Black Star", slug: "right-half-black-star" },
+      { symbol: "★", name: "Black Star", slug: "black-star" },
+      { symbol: "☆", name: "White Star", slug: "white-star" },
+      { symbol: "⭐", name: "White Medium Star", slug: "white-medium-star" }
+    ],
+    htmlContent: `
+      <section>
+        <h2>Linear B Syllable B048 Nwa (𐁅)</h2>
+        <p>The <strong>Linear B Syllable B048 Nwa (𐁅)</strong> belongs to the Linear B syllabary, an ancient writing system used for Mycenaean Greek in the Late Bronze Age. Linear B was primarily inscribed on clay tablets and served administrative purposes for recording goods and resources.</p>
+  
+        <h3>How to Use the Symbol</h3>
+        <p>You can easily copy and paste this character: <span class="symbol-highlight">𐁅</span></p>
+  
+        <h4>On Windows:</h4>
+        <p>Use Unicode input (U+10045) or Character Map if your font supports Linear B.</p>
+  
+        <h4>On Mac:</h4>
+        <p>Open Character Viewer (Edit > Emoji & Symbols), search “Linear B,” and insert it.</p>
+  
+        <h4>On Mobile:</h4>
+        <p>Availability depends on font support. Some devices may require specialized ancient script fonts.</p>
+  
+        <h2>Technical Information for Developers</h2>
+        <p>The following codes will help developers implement the Linear B Syllable B048 Nwa (𐁅) into websites and apps.</p>
+  
+        <h3>HTML Entities:</h3>
+        <pre><code class="language-html">&#65605;</code></pre>
+        <pre><code class="language-html">&#x10045;</code></pre>
+  
+        <h3>CSS Content Property:</h3>
+        <pre><code class="language-css">.linear-b-nwa::before { content: "\\10045"; }</code></pre>
+  
+        <h3>Unicode Details:</h3>
+        <ul>
+          <li><strong>Unicode:</strong> U+10045</li>
+          <li><strong>Name:</strong> Linear B Syllable B048 Nwa</li>
+          <li><strong>Block:</strong> Linear B Syllabary, U+10000 - U+1007F</li>
+          <li><strong>Plane:</strong> Supplementary Multilingual Plane, U+10000 - U+1FFFF</li>
+          <li><strong>Script:</strong> Linear B (Linb)</li>
+          <li><strong>Category:</strong> Other Letter (Lo)</li>
+          <li><strong>Bidirectional Class:</strong> Left To Right (L)</li>
+          <li><strong>Combining Class:</strong> Not Reordered (0)</li>
+          <li><strong>Character is Mirrored:</strong> No</li>
+          <li><strong>Unicode Version:</strong> 4.0 (April 2003)</li>
+        </ul>
+  
+        <h3>Encoding:</h3>
+        <ul>
+          <li><strong>UTF-8 Encoding:</strong> <code>0xF0 0x90 0x81 0x85</code></li>
+          <li><strong>UTF-16 Encoding:</strong> <code>0xD800 0xDC45</code></li>
+          <li><strong>UTF-32 Encoding:</strong> <code>0x00010045</code></li>
+        </ul>
+      </section>
+    `
   }
+
+
 
 
 
