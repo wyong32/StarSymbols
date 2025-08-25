@@ -7585,7 +7585,195 @@ export const starDetailsData = [
         </ul>
       </section>
     `
+  },
+
+  {
+    id: 92,
+    symbol: "<",
+    name: "Less-Than Sign",
+    slug: "less-than-sign",
+    categories: ["math"],
+    unicode: "U+003C",
+    date: "August 25, 2025",
+    isUnicode: true,
+    seo: {
+      title: "< Less-Than Sign - Unicode Character & Copy Guide",
+      description: "Explore the Less-Than Sign (<, U+003C). Learn how to copy and paste it, check Unicode details, encoding formats, and its mathematical and programming uses.",
+      keywords: "<, Less-Than Sign, U+003C, Unicode, math symbol, comparison operator, HTML entity, programming symbol"
+    },
+    technicalInfo: {
+      unicode: "U+003C",
+      htmlCode: "&#60;",
+      hexCode: "&#x3C;",
+      cssCode: "\"\\003C\"",
+      altCode: null,
+      htmlEntity: "&lt;"
+    },
+    creativeShowcases: [
+      {
+        name: "Mathematical Comparison",
+        symbol: "3 < 5"
+      },
+      {
+        name: "Programming Example",
+        symbol: "if (a < b) { return true; }"
+      }
+    ],
+    relatedStars: [
+      { symbol: ">", name: "Greater-Than Sign", slug: "greater-than-sign" },
+      { symbol: "≤", name: "Less-Than or Equal To", slug: "less-than-or-equal-to" },
+      { symbol: "≥", name: "Greater-Than or Equal To", slug: "greater-than-or-equal-to" },
+      { symbol: "≪", name: "Much Less-Than", slug: "much-less-than" },
+      { symbol: "⋖", name: "Less-Than with Dot", slug: "less-than-with-dot" }
+    ],
+    htmlContent: `
+      <section>
+        <h2>Less-Than Sign (&lt;)</h2>
+        <p>The <strong>Less-Than Sign (&lt;)</strong> is a mathematical and programming symbol widely used across various fields. In mathematics, it denotes a value smaller than another (e.g., 3 &lt; 5). In programming languages like C, Java, and Python, it functions as a comparison operator to check relational conditions.</p>
+
+        <h3>How to Use the Symbol</h3>
+        <p>You can easily copy and paste this character: <span class="symbol-highlight">&lt;</span></p>
+
+        <h4>On Windows:</h4>
+        <p>Type it directly using the keyboard (Shift + , key). It is part of the standard ASCII set.</p>
+
+        <h4>On Mac:</h4>
+        <p>Press Shift + , key to insert the symbol. It is universally supported across fonts and systems.</p>
+
+        <h4>On Mobile:</h4>
+        <p>Open the numeric/symbol keyboard and tap the &lt; key. Commonly available across all devices.</p>
+
+        <h2>Technical Information for Developers</h2>
+        <p>The following codes will help developers implement the Less-Than Sign (&lt;) into websites and apps.</p>
+
+        <h3>HTML Entities:</h3>
+        <pre><code class="language-html">&amp;lt;</code></pre>
+        <pre><code class="language-html">&#60;</code></pre>
+        <pre><code class="language-html">&#x3C;</code></pre>
+
+        <h3>CSS Content Property:</h3>
+        <pre><code class="language-css">.less-than::before { content: "\\003C"; }</code></pre>
+
+        <h3>Unicode Details:</h3>
+        <ul>
+          <li><strong>Unicode:</strong> U+003C</li>
+          <li><strong>Name:</strong> Less-Than Sign</li>
+          <li><strong>Block:</strong> Basic Latin, U+0000 - U+007F</li>
+          <li><strong>Plane:</strong> Basic Multilingual Plane, U+0000 - U+FFFF</li>
+          <li><strong>Script:</strong> Code for undetermined script (Zyyy)</li>
+          <li><strong>Category:</strong> Math Symbol (Sm)</li>
+          <li><strong>Bidirectional Class:</strong> Other Neutral (ON)</li>
+          <li><strong>Combining Class:</strong> Not Reordered (0)</li>
+          <li><strong>Character is Mirrored:</strong> Yes, mirrored with &gt; (U+003E)</li>
+          <li><strong>GCGID:</strong> SA030000</li>
+          <li><strong>PostScript Name:</strong> less</li>
+          <li><strong>Unicode Version:</strong> 1.1 (June 1993)</li>
+        </ul>
+
+        <h3>Encoding:</h3>
+        <ul>
+          <li><strong>UTF-8 Encoding:</strong> <code>0x3C</code></li>
+          <li><strong>UTF-16 Encoding:</strong> <code>0x003C</code></li>
+          <li><strong>UTF-32 Encoding:</strong> <code>0x0000003C</code></li>
+        </ul>
+      </section>
+    `
+  },
+
+  {
+    id: 93,
+    symbol: ">",
+    name: "Greater-Than Sign",
+    slug: "greater-than-sign",
+    categories: ["math"],
+    unicode: "U+003E",
+    date: "August 25, 2025",
+    isUnicode: true,
+    seo: {
+      title: "> Greater-Than Sign - Unicode Character & Copy Guide",
+      description: "Explore the Greater-Than Sign (>, U+003E). Learn how to copy and paste it, check Unicode details, encoding formats, and its mathematical and programming uses.",
+      keywords: ">, Greater-Than Sign, U+003E, Unicode, math symbol, comparison operator, HTML entity, programming symbol"
+    },
+    technicalInfo: {
+      unicode: "U+003E",
+      htmlCode: "&#62;",
+      hexCode: "&#x3E;",
+      cssCode: "\"\\003E\"",
+      altCode: null,
+      htmlEntity: "&gt;"
+    },
+    creativeShowcases: [
+      {
+        name: "Mathematical Comparison",
+        symbol: "7 > 4"
+      },
+      {
+        name: "Programming Example",
+        symbol: "if (x > y) { return x; }"
+      }
+    ],
+    relatedStars: [
+      { symbol: "<", name: "Less-Than Sign", slug: "less-than-sign" },
+      { symbol: "≤", name: "Less-Than or Equal To", slug: "less-than-or-equal-to" },
+      { symbol: "≥", name: "Greater-Than or Equal To", slug: "greater-than-or-equal-to" },
+      { symbol: "≫", name: "Much Greater-Than", slug: "much-greater-than" },
+      { symbol: "⋗", name: "Greater-Than with Dot", slug: "greater-than-with-dot" }
+    ],
+    htmlContent: `
+      <section>
+        <h2>Greater-Than Sign (&gt;)</h2>
+        <p>The <strong>Greater-Than Sign (&gt;)</strong> is a mathematical and programming symbol widely used to denote that one value is larger than another (e.g., 7 &gt; 4). In computer science, it serves as a comparison operator and is also used in markup languages like HTML and XML.</p>
+
+        <h3>How to Use the Symbol</h3>
+        <p>You can easily copy and paste this character: <span class="symbol-highlight">&gt;</span></p>
+
+        <h4>On Windows:</h4>
+        <p>Type it directly using the keyboard (Shift + . key). It is part of the standard ASCII set.</p>
+
+        <h4>On Mac:</h4>
+        <p>Press Shift + . key to insert the symbol. Universally supported across operating systems and fonts.</p>
+
+        <h4>On Mobile:</h4>
+        <p>Open the numeric/symbol keyboard and tap the &gt; key. Available on all major devices.</p>
+
+        <h2>Technical Information for Developers</h2>
+        <p>The following codes will help developers implement the Greater-Than Sign (&gt;) into websites and applications.</p>
+
+        <h3>HTML Entities:</h3>
+        <pre><code class="language-html">&amp;gt;</code></pre>
+        <pre><code class="language-html">&#62;</code></pre>
+        <pre><code class="language-html">&#x3E;</code></pre>
+
+        <h3>CSS Content Property:</h3>
+        <pre><code class="language-css">.greater-than::before { content: "\\003E"; }</code></pre>
+
+        <h3>Unicode Details:</h3>
+        <ul>
+          <li><strong>Unicode:</strong> U+003E</li>
+          <li><strong>Name:</strong> Greater-Than Sign</li>
+          <li><strong>Block:</strong> Basic Latin, U+0000 - U+007F</li>
+          <li><strong>Plane:</strong> Basic Multilingual Plane, U+0000 - U+FFFF</li>
+          <li><strong>Script:</strong> Code for undetermined script (Zyyy)</li>
+          <li><strong>Category:</strong> Math Symbol (Sm)</li>
+          <li><strong>Bidirectional Class:</strong> Other Neutral (ON)</li>
+          <li><strong>Combining Class:</strong> Not Reordered (0)</li>
+          <li><strong>Character is Mirrored:</strong> Yes, mirrored with &lt; (U+003C)</li>
+          <li><strong>GCGID:</strong> SA050000</li>
+          <li><strong>PostScript Name:</strong> greater</li>
+          <li><strong>Unicode Version:</strong> 1.1 (June 1993)</li>
+        </ul>
+
+        <h3>Encoding:</h3>
+        <ul>
+          <li><strong>UTF-8 Encoding:</strong> <code>0x3E</code></li>
+          <li><strong>UTF-16 Encoding:</strong> <code>0x003E</code></li>
+          <li><strong>UTF-32 Encoding:</strong> <code>0x0000003E</code></li>
+        </ul>
+      </section>
+    `
   }
+
+
 
 
 
