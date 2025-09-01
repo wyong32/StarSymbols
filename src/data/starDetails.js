@@ -7771,7 +7771,195 @@ export const starDetailsData = [
         </ul>
       </section>
     `
+  },
+
+  {
+    id: 94,
+    symbol: "+",
+    name: "Plus Sign",
+    slug: "plus-sign",
+    categories: ["math"],
+    unicode: "U+002B",
+    date: "August 25, 2025",
+    isUnicode: true,
+    seo: {
+      title: "+ Plus Sign - Unicode Character & Copy Guide",
+      description: "Explore the Plus Sign (+, U+002B). Learn how to copy and paste it, check Unicode details, encoding formats, and its mathematical and programming uses.",
+      keywords: "+, Plus Sign, U+002B, Unicode, math symbol, addition, HTML entity, programming symbol"
+    },
+    technicalInfo: {
+      unicode: "U+002B",
+      htmlCode: "&#43;",
+      hexCode: "&#x2B;",
+      cssCode: "\"\\002B\"",
+      altCode: null,
+      htmlEntity: "&plus;"
+    },
+    creativeShowcases: [
+      {
+        name: "Mathematical Expression",
+        symbol: "5 + 3 = 8"
+      },
+      {
+        name: "Programming Example",
+        symbol: "sum = a + b;"
+      }
+    ],
+    relatedStars: [
+      { symbol: "−", name: "Minus Sign", slug: "minus-sign" },
+      { symbol: "±", name: "Plus-Minus Sign", slug: "plus-minus-sign" },
+      { symbol: "∓", name: "Minus-Plus Sign", slug: "minus-plus-sign" },
+      { symbol: "✚", name: "Heavy Greek Cross", slug: "heavy-greek-cross" },
+      { symbol: "⊕", name: "Circled Plus", slug: "circled-plus" }
+    ],
+    htmlContent: `
+      <section>
+        <h2>Plus Sign (+)</h2>
+        <p>The <strong>Plus Sign (+)</strong> is one of the most widely recognized mathematical symbols, used to represent addition and positivity. It appears in basic arithmetic (e.g., 5 + 3 = 8), in algebraic expressions, and in computer programming where it may also serve as a concatenation operator.</p>
+  
+        <h3>How to Use the Symbol</h3>
+        <p>You can easily copy and paste this character: <span class="symbol-highlight">+</span></p>
+  
+        <h4>On Windows:</h4>
+        <p>Type it directly using the keyboard (Shift + = key). It is part of the standard ASCII set.</p>
+  
+        <h4>On Mac:</h4>
+        <p>Press Shift + = key to insert the symbol. Universally supported across operating systems and fonts.</p>
+  
+        <h4>On Mobile:</h4>
+        <p>Open the numeric/symbol keyboard and tap the + key. Available on all major devices.</p>
+  
+        <h2>Technical Information for Developers</h2>
+        <p>The following codes will help developers implement the Plus Sign (+) into websites and applications.</p>
+  
+        <h3>HTML Entities:</h3>
+        <pre><code class="language-html">&amp;plus;</code></pre>
+        <pre><code class="language-html">&#43;</code></pre>
+        <pre><code class="language-html">&#x2B;</code></pre>
+  
+        <h3>CSS Content Property:</h3>
+        <pre><code class="language-css">.plus-sign::before { content: "\\002B"; }</code></pre>
+  
+        <h3>Unicode Details:</h3>
+        <ul>
+          <li><strong>Unicode:</strong> U+002B</li>
+          <li><strong>Name:</strong> Plus Sign</li>
+          <li><strong>Block:</strong> Basic Latin, U+0000 - U+007F</li>
+          <li><strong>Plane:</strong> Basic Multilingual Plane, U+0000 - U+FFFF</li>
+          <li><strong>Script:</strong> Code for undetermined script (Zyyy)</li>
+          <li><strong>Category:</strong> Math Symbol (Sm)</li>
+          <li><strong>Bidirectional Class:</strong> European Separator (ES)</li>
+          <li><strong>Combining Class:</strong> Not Reordered (0)</li>
+          <li><strong>Character is Mirrored:</strong> No</li>
+          <li><strong>GCGID:</strong> SA010000</li>
+          <li><strong>PostScript Name:</strong> plus</li>
+          <li><strong>Unicode Version:</strong> 1.1 (June 1993)</li>
+        </ul>
+  
+        <h3>Encoding:</h3>
+        <ul>
+          <li><strong>UTF-8 Encoding:</strong> <code>0x2B</code></li>
+          <li><strong>UTF-16 Encoding:</strong> <code>0x002B</code></li>
+          <li><strong>UTF-32 Encoding:</strong> <code>0x0000002B</code></li>
+        </ul>
+      </section>
+    `
+  },
+
+  {
+    id: 95,
+    symbol: "=",
+    name: "Equals Sign",
+    slug: "equals-sign",
+    categories: ["math"],
+    unicode: "U+003D",
+    date: "August 25, 2025",
+    isUnicode: true,
+    seo: {
+      title: "= Equals Sign - Unicode Character & Copy Guide",
+      description: "Explore the Equals Sign (=, U+003D). Learn how to copy and paste it, check Unicode details, encoding formats, and its mathematical and programming uses.",
+      keywords: "=, Equals Sign, U+003D, Unicode, math symbol, equality operator, HTML entity, programming symbol"
+    },
+    technicalInfo: {
+      unicode: "U+003D",
+      htmlCode: "&#61;",
+      hexCode: "&#x3D;",
+      cssCode: "\"\\003D\"",
+      altCode: null,
+      htmlEntity: "&equals;"
+    },
+    creativeShowcases: [
+      {
+        name: "Mathematical Equality",
+        symbol: "2 + 2 = 4"
+      },
+      {
+        name: "Programming Example",
+        symbol: "if (a == b) { return true; }"
+      }
+    ],
+    relatedStars: [
+      { symbol: "≠", name: "Not Equal To", slug: "not-equal-to" },
+      { symbol: "≈", name: "Almost Equal To", slug: "almost-equal-to" },
+      { symbol: "≡", name: "Identical To", slug: "identical-to" },
+      { symbol: "≤", name: "Less-Than or Equal To", slug: "less-than-or-equal-to" },
+      { symbol: "≥", name: "Greater-Than or Equal To", slug: "greater-than-or-equal-to" }
+    ],
+    htmlContent: `
+      <section>
+        <h2>Equals Sign (=)</h2>
+        <p>The <strong>Equals Sign (=)</strong> is a fundamental mathematical symbol used to indicate equality between two expressions (e.g., 2 + 2 = 4). In programming, it can serve both as a comparison operator (==) and as an assignment operator (=) depending on the language.</p>
+  
+        <h3>How to Use the Symbol</h3>
+        <p>You can easily copy and paste this character: <span class="symbol-highlight">=</span></p>
+  
+        <h4>On Windows:</h4>
+        <p>Type it directly using the keyboard (= key). It is part of the standard ASCII set.</p>
+  
+        <h4>On Mac:</h4>
+        <p>Press the = key to insert the symbol. Universally supported across operating systems and fonts.</p>
+  
+        <h4>On Mobile:</h4>
+        <p>Open the numeric/symbol keyboard and tap the = key. Available on all major devices.</p>
+  
+        <h2>Technical Information for Developers</h2>
+        <p>The following codes will help developers implement the Equals Sign (=) into websites and applications.</p>
+  
+        <h3>HTML Entities:</h3>
+        <pre><code class="language-html">&amp;equals;</code></pre>
+        <pre><code class="language-html">&#61;</code></pre>
+        <pre><code class="language-html">&#x3D;</code></pre>
+  
+        <h3>CSS Content Property:</h3>
+        <pre><code class="language-css">.equals-sign::before { content: "\\003D"; }</code></pre>
+  
+        <h3>Unicode Details:</h3>
+        <ul>
+          <li><strong>Unicode:</strong> U+003D</li>
+          <li><strong>Name:</strong> Equals Sign</li>
+          <li><strong>Block:</strong> Basic Latin, U+0000 - U+007F</li>
+          <li><strong>Plane:</strong> Basic Multilingual Plane, U+0000 - U+FFFF</li>
+          <li><strong>Script:</strong> Code for undetermined script (Zyyy)</li>
+          <li><strong>Category:</strong> Math Symbol (Sm)</li>
+          <li><strong>Bidirectional Class:</strong> Other Neutral (ON)</li>
+          <li><strong>Combining Class:</strong> Not Reordered (0)</li>
+          <li><strong>Character is Mirrored:</strong> No</li>
+          <li><strong>GCGID:</strong> SA040000</li>
+          <li><strong>PostScript Name:</strong> equal</li>
+          <li><strong>Unicode Version:</strong> 1.1 (June 1993)</li>
+        </ul>
+  
+        <h3>Encoding:</h3>
+        <ul>
+          <li><strong>UTF-8 Encoding:</strong> <code>0x3D</code></li>
+          <li><strong>UTF-16 Encoding:</strong> <code>0x003D</code></li>
+          <li><strong>UTF-32 Encoding:</strong> <code>0x0000003D</code></li>
+        </ul>
+      </section>
+    `
   }
+
+
 
 
 
