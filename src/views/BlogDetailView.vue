@@ -22,7 +22,7 @@
 
           <!-- Navigation -->
           <nav class="blog-navigation">
-            <router-link to="/blog" class="back-to-blog"> ← Back to Blog </router-link>
+            <a href="/blog" class="back-to-blog"> ← Back to Blog </a>
           </nav>
         </div>
 
@@ -30,7 +30,7 @@
         <div v-else class="blog-not-found">
           <h1>Blog Post Not Found</h1>
           <p>The blog post you're looking for doesn't exist.</p>
-          <router-link to="/blog" class="back-to-blog"> ← Back to Blog </router-link>
+          <a href="/blog" class="back-to-blog"> ← Back to Blog </a>
         </div>
       </div>
     </main>

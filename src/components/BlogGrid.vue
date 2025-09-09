@@ -8,7 +8,7 @@
         <div class="blog-date">{{ post.date }}</div>
         <h3 class="blog-title">{{ post.title }}</h3>
         <p class="blog-excerpt">{{ post.excerpt }}</p>
-        <router-link :to="`/blog/${post.pagename}`" class="blog-read-more">Read More →</router-link>
+        <a :href="`/blog/${post.pagename}`" class="blog-read-more">Read More →</a>
       </div>
     </article>
   </div>

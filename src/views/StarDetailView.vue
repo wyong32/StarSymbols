@@ -8,9 +8,9 @@
       <div class="container">
         <!-- Breadcrumb -->
         <nav class="breadcrumb">
-          <router-link to="/" class="breadcrumb-link">Home</router-link>
+          <a href="/" class="breadcrumb-link">Home</a>
           <span class="breadcrumb-separator">›</span>
-          <router-link to="/all-star-symbols" class="breadcrumb-link">All Stars</router-link>
+          <a href="/all-star-symbols" class="breadcrumb-link">All Stars</a>
           <span class="breadcrumb-separator">›</span>
           <span class="breadcrumb-current">{{ star.name }}</span>
         </nav>
@@ -171,7 +171,7 @@
         <div class="not-found">
           <h1>Star Not Found</h1>
           <p>The star symbol you're looking for doesn't exist.</p>
-          <router-link to="/all-star-symbols" class="back-link">← Back to All Stars</router-link>
+          <a href="/all-star-symbols" class="back-link">← Back to All Stars</a>
         </div>
       </div>
     </main>

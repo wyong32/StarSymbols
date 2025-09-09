@@ -8,12 +8,12 @@
 
       <!-- Desktop Navigation -->
       <nav class="nav desktop-nav">
-        <router-link to="/">Home</router-link>
-        <router-link to="/all-star-symbols">All Star Symbols</router-link>
-        <router-link to="/fancy-text-generator">Fancy Text Generator</router-link>
-        <router-link to="/image-to-text">Image To Text</router-link>
-        <router-link to="/blog">Blog</router-link>
-        <router-link to="/about">About Us</router-link>
+        <a href="/">Home</a>
+        <a href="/all-star-symbols">All Star Symbols</a>
+        <a href="/fancy-text-generator">Fancy Text Generator</a>
+        <a href="/image-to-text">Image To Text</a>
+        <a href="/blog">Blog</a>
+        <a href="/about">About Us</a>
       </nav>
 
       <!-- Mobile Menu Button -->
@@ -31,14 +31,14 @@
     <!-- Mobile Navigation -->
     <nav class="mobile-nav" :class="{ open: isMobileMenuOpen }">
       <div class="mobile-nav-content">
-        <router-link to="/" @click="closeMobileMenu">Home</router-link>
-        <router-link to="/all-star-symbols" @click="closeMobileMenu">All Star Symbols</router-link>
-        <router-link to="/fancy-text-generator" @click="closeMobileMenu"
-          >Fancy Text Generator</router-link
+        <a href="/" @click="closeMobileMenu">Home</a>
+        <a href="/all-star-symbols" @click="closeMobileMenu">All Star Symbols</a>
+        <a href="/fancy-text-generator" @click="closeMobileMenu"
+          >Fancy Text Generator</a
         >
-        <router-link to="/image-to-text" @click="closeMobileMenu">Image To Text</router-link>
-        <router-link to="/blog" @click="closeMobileMenu">Blog</router-link>
-        <router-link to="/about" @click="closeMobileMenu">About Us</router-link>
+        <a href="/image-to-text" @click="closeMobileMenu">Image To Text</a>
+        <a href="/blog" @click="closeMobileMenu">Blog</a>
+        <a href="/about" @click="closeMobileMenu">About Us</a>
       </div>
     </nav>
 

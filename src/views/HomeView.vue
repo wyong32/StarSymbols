@@ -28,9 +28,9 @@
           <div class="hero-cta">
             <p class="cta-text">
               Want to explore more star symbols? Click Here
-              <router-link to="/all-star-symbols" class="cta-link">
+              <a href="/all-star-symbols" class="cta-link">
                 All Star Symbols →
-              </router-link>
+              </a>
             </p>
           </div>
         </div>
@@ -55,9 +55,9 @@
           <div class="section-cta">
             <p class="cta-text">
               Need more advanced text styling options? Click Here
-              <router-link to="/fancy-text-generator" class="cta-link">
+              <a href="/fancy-text-generator" class="cta-link">
                 Fancy Text Generator →
-              </router-link>
+              </a>
             </p>
           </div>
         </div>

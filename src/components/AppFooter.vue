@@ -77,21 +77,21 @@
           <div class="footer-column">
             <h4>Navigation</h4>
             <ul>
-              <li><router-link to="/all-star-symbols">All Star Symbols</router-link></li>
-              <li><router-link to="/fancy-text-generator">Fancy Text Generator</router-link></li>
-              <li><router-link to="/image-to-text">Image To Text</router-link></li>
-              <li><router-link to="/blog">Blog</router-link></li>
-              <li><router-link to="/about">About Us</router-link></li>
-              <li><router-link to="/contact">Contact Us</router-link></li>
+              <li><a href="/all-star-symbols">All Star Symbols</a></li>
+              <li><a href="/fancy-text-generator">Fancy Text Generator</a></li>
+              <li><a href="/image-to-text">Image To Text</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/contact">Contact Us</a></li>
             </ul>
           </div>
 
           <div class="footer-column">
             <h4>Legal</h4>
             <ul>
-              <li><router-link to="/privacy">Privacy Policy</router-link></li>
-              <li><router-link to="/terms">Terms of Service</router-link></li>
-              <li><router-link to="/copyright">Copyright</router-link></li>
+              <li><a href="/privacy">Privacy Policy</a></li>
+              <li><a href="/terms">Terms of Service</a></li>
+              <li><a href="/copyright">Copyright</a></li>
             </ul>
           </div>
         </div>
