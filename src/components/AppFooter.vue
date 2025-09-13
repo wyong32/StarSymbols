@@ -70,7 +70,7 @@
               </a>
             </li>
           </ul>
-          <div class="footer-copyright">© 2025 StarSymbols. All rights reserved.</div>
+          <div class="footer-copyright">© 2025 starsymbols.io. All rights reserved.</div>
         </div>
 
         <div class="footer-links">
