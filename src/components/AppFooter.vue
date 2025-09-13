@@ -264,5 +264,9 @@
   .footer-bottom p {
     font-size: 0.8rem;
   }
+
+  .footer-brand ul {
+    flex-wrap: wrap;
+  }
 }
 </style>

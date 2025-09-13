@@ -3,6 +3,19 @@
     <!-- Header Section -->
     <AppHeader />
     <!-- Hero Section -->
+
+    <!-- 移动横向固定广告位1 -->
+    <aside v-if="isMobile">
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-4567915480186242"
+        data-ad-slot="6695529882"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+    </aside>
+
     <section class="hero" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)">
       <div class="hero-content">
         <h1 class="hero-title">Star Copy and Paste - All Star Symbols</h1>
@@ -28,9 +41,7 @@
           <div class="hero-cta">
             <p class="cta-text">
               Want to explore more star symbols? Click Here
-              <a href="/all-star-symbols" class="cta-link">
-                All Star Symbols →
-              </a>
+              <a href="/all-star-symbols" class="cta-link"> All Star Symbols → </a>
             </p>
           </div>
         </div>
@@ -55,14 +66,24 @@
           <div class="section-cta">
             <p class="cta-text">
               Need more advanced text styling options? Click Here
-              <a href="/fancy-text-generator" class="cta-link">
-                Fancy Text Generator →
-              </a>
+              <a href="/fancy-text-generator" class="cta-link"> Fancy Text Generator → </a>
             </p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- 移动横向固定广告位2 -->
+    <aside v-if="isMobile">
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-4567915480186242"
+        data-ad-slot="5382448210"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+    </aside>
 
     <!-- How to Use Section -->
     <section class="how-to-use-section">
@@ -129,6 +150,18 @@
         </div>
       </div>
     </section>
+
+    <!-- 移动横向固定广告位3 -->
+    <aside v-if="isMobile">
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-4567915480186242"
+        data-ad-slot="7636258226"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+    </aside>
 
     <!-- Blog Section -->
     <section class="blog-section">
@@ -346,9 +379,45 @@ const showToastMessage = (message) => {
   }, 3000)
 }
 
+// 初始化所有广告单元
+const initializeAds = () => {
+  try {
+    const adElements = document.querySelectorAll('.adsbygoogle')
+    console.log(`找到 ${adElements.length} 个广告单元`)
+
+    adElements.forEach((element, index) => {
+      // 检查广告单元是否已经被初始化
+      if (!element.getAttribute('data-adsbygoogle-status')) {
+        ;(adsbygoogle = window.adsbygoogle || []).push({})
+        console.log(`初始化广告单元 ${index + 1}`)
+      } else {
+        console.log(`广告单元 ${index + 1} 已经初始化`)
+      }
+    })
+  } catch (e) {
+    console.error('广告初始化失败:', e)
+  }
+}
+
 // Set up copy protection toast callback
 onMounted(() => {
   copyProtection.setToastCallback(showToastMessage)
+
+  // 初始化Google AdSense广告
+  setTimeout(() => {
+    try {
+      // 初始化移动端广告
+      if (isMobile.value) {
+        initializeAds()
+      }
+
+      // AdProvider初始化
+      window.AdProvider = window.AdProvider || []
+      window.AdProvider.push({ serve: {} })
+    } catch (e) {
+      console.error('Ad initialization failed:', e)
+    }
+  }, 1000)
 })
 </script>
 
@@ -357,6 +426,23 @@ onMounted(() => {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   color: #333;
+}
+
+/* Mobile Ad Styles */
+aside {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  text-align: center;
+}
+
+aside .adsbygoogle {
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+  display: block;
 }
 
 /* Hero Section */
